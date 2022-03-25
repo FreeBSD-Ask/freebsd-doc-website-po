@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/projects/mips/_index.adoc:1
+#: content/en/projects/mips/_index.adoc:6
+#, no-wrap
+msgid "FreeBSD/MIPS Project"
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/mips/_index.adoc:8
+#, no-wrap
+msgid "Project Goal"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/mips/_index.adoc:11
+msgid ""
+"The FreeBSD/MIPS Project is responsible for the maintenance and development "
+"of FreeBSD on platforms using MIPS processors. The port currently runs "
+"multi-user on a number of platforms and a wide variety of 32-bit and 64-bit "
+"MISP ISA processors."
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/mips/_index.adoc:12
+#, no-wrap
+msgid "Supported MIPS Platforms"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/mips/_index.adoc:15
+msgid ""
+"FreeBSD supports a broad range of MIPS-based devices, including MIPS Malta, "
+"Ubiquiti Networks Router-Station and Router-Station Pro, Cavium Octeon, "
+"NetLogicMicro/RMI XLS and XLR (XLP in progress), as well as emulated MIPS "
+"environments such as gxemul. On supporting hardware platforms, FreeBSD "
+"supports both multi-core and hardware multi-threading features. In many "
+"cases, additional accelerator functions, such as cryptographic and network "
+"offload engines, are also supported."
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/mips/_index.adoc:16
+#, no-wrap
+msgid "How to Contribute"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/mips/_index.adoc:19
+msgid ""
+"If you have code that you are interested in committing, you can send it for "
+"review to the <<mailinglist,freebsd-mips mailing list>>."
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/mips/_index.adoc:20
+#, no-wrap
+msgid "Resources and Links"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/mips/_index.adoc:23
+msgid ""
+"The FreeBSD.org wiki's https://wiki.freebsd.org/FreeBSD/mips[FreeBSD/MIPS "
+"port] page, which includes information on building FreeBSD/mips."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/mips/_index.adoc:24
+msgid ""
+"General MIPS information is available from http://www.mips.com[MIPS "
+"Technologies, Inc.]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/mips/_index.adoc:25
+msgid ""
+"[[mailinglist]] Most discussion relating to this project takes place on the "
+"freebsd-mips@FreeBSD.org mailing list. To subscribe to the list, send a "
+"message to freebsd-mips-subscribe@FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/mips/_index.adoc:25
+msgid ""
+"http://zrouter.org/[zrouter], a FreeBSD-based MIPS router firmware build "
+"environment."
+msgstr ""

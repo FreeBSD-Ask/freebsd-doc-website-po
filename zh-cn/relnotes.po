@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 23:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/relnotes.adoc:1 content/en/relnotes.adoc:8
+#, no-wrap
+msgid "Release Documentation"
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:12
+msgid "image:../gifs/doc.jpg[BSD daemon reading documentation,width=274,height=163]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:14
+msgid ""
+"Each distribution of FreeBSD includes several documentation files describing "
+"the particular distribution (RELEASE, SNAPSHOTs, etc.). These files "
+"typically include:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:16
+msgid "README: General introduction."
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:17
+msgid ""
+"Release Notes: Information about changes from the previous release of "
+"FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:18
+msgid "Hardware Notes: A list of hardware devices known to work with FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:19
+msgid "Installation Instructions: A brief guide to installing FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:20
+msgid ""
+"Errata: Late-breaking news, including corrections, security advisories, and "
+"potential problems found after each release."
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:22
+msgid ""
+"The release notes, hardware notes, and installation instructions are "
+"customized for each architecture supported by FreeBSD."
+msgstr ""
+
+#. type: Title ==
+#: content/en/relnotes.adoc:23
+#, no-wrap
+msgid "RELEASE versions of FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:26
+msgid ""
+"The release documentation for each -RELEASE version of FreeBSD (for example, "
+"{rel122-current}-RELEASE) can be found on the link:../releases/[releases] "
+"page of the FreeBSD web site and on mirror sites."
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:28
+msgid ""
+"These files are located in the top-level directory of each "
+"distribution. Both HTML and text forms are usually provided."
+msgstr ""
+
+#. type: Title ==
+#: content/en/relnotes.adoc:29
+#, no-wrap
+msgid "Snapshot Versions of FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/relnotes.adoc:31
+msgid ""
+"The only release notes provided on the FreeBSD website are for FreeBSD "
+"-RELEASE, not FreeBSD -STABLE or FreeBSD -CURRENT."
+msgstr ""

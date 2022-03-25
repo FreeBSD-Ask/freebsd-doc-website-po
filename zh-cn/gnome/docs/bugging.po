@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/gnome/docs/bugging.adoc:1 content/en/gnome/docs/bugging.adoc:6
+#, no-wrap
+msgid "FreeBSD GNOME Project: Reporting a Bug"
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/docs/bugging.adoc:8
+#, no-wrap
+msgid "1. When should I make a bug report?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:11
+#, no-wrap
+msgid ""
+"*_After_* running any build failure output through "
+"link:/gnome/gnomelogalyzer.sh[gnomelogalyzer.sh].\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:12
+#, no-wrap
+msgid "*_After_* running `portsnap` to obtain the most recent ports tree.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:13
+#, no-wrap
+msgid ""
+"*_After_* running `portupgrade -a` or `portmaster -a` to ensure that all "
+"applications are up-to-date. Do not forget to read in `/usr/ports/UPDATING` "
+"first before you upgrade those installed ports.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:14
+#, no-wrap
+msgid ""
+"*_After_* searching through the FreeBSD GNOME link:../../[Mailing list "
+"archives] to see if the problem has already been reported.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:15
+#, no-wrap
+msgid ""
+"*_After_* deciding whether the problem is FreeBSD-specific, or is a bug in "
+"an application that would affect all users, on all operating systems. If you "
+"cannot determine if the problem is FreeBSD-specific or not, then send your "
+"problem to the mailto:freebsd-gnome@FreeBSD.org[freebsd-gnome mailing list], "
+"and we can help decide where the problem lies.\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/docs/bugging.adoc:16
+#, no-wrap
+msgid "2. What to report?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:19
+msgid ""
+"Always report as much information as you can. Too much information is always "
+"preferable to too little information. Superfluous information can be "
+"filtered out; developers like to play guessing games with code, not with bug "
+"reports."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:21
+msgid "A good bug report should at least include the following information:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:23
+msgid "Exact version of the operating system (usually output of `uname -a`)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:24
+msgid "List of all packages installed on your system (output of `pkg_info`)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:25
+msgid "Your environment (output of `/usr/bin/env`)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:26
+msgid ""
+"If you are building from ports, note approximately how long it has been "
+"since you last updated your ports tree. If it has been more than a day, or "
+"if you have not run `portupgrade -a` or `portmaster -a`, do not bother "
+"sending a bug report until you have run `portsnap` and "
+"`portupgrade/portmaster`."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:27
+msgid "Information specific for each type of breakage:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:28
+msgid ""
+"If a port will not build, provide a full log of the unsuccessful build by "
+"uploading it to any website or copy-and-paste to "
+"http://freebsd-gnome.pastebin.com. Try to avoid sending any attachments to "
+"the mailing list, because attachments sent to FreeBSD mailing lists are "
+"usually discarded by the mailing list software."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:29
+msgid ""
+"If a program produces a core dump, provide a back trace. Back traces are "
+"only useful if the application (and possibly its dependencies) are compiled "
+"with debugging symbols. See these "
+"http://live.gnome.org/GettingTraces[instructions] for more information on "
+"obtaining useful back traces. In general, though, you can build and install "
+"your port with the following command to produce binaries that will have "
+"useful debugging symbols: `make WITH_DEBUG=\"yes\" install`"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:30
+msgid ""
+"If an application produces unexpected behavior, provide a clear and detailed "
+"description, including a description of the behavior that you were "
+"expecting."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:32
+msgid ""
+"If you have a solution or a workaround for the problem, then include it into "
+"your report as well, even if you are not quite sure that it is a proper "
+"fix. Even if the fix is not quite right, it could still point others in the "
+"right direction."
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/docs/bugging.adoc:33
+#, no-wrap
+msgid "3. Where to report?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:36
+msgid ""
+"Once you are sure it is a new problem, there are several ways to report a "
+"bug in GNOME running on FreeBSD: you could send a report to the "
+"mailto:freebsd-gnome@FreeBSD.org[freebsd-gnome mailing list], file a problem "
+"report in the link:../../../support/[FreeBSD bug reporting system], send "
+"your report to the application's developers via the GNOME "
+"http://bugzilla.gnome.org/[bug tracking system], or any combination of "
+"those."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:38
+msgid ""
+"If the problem is FreeBSD-specific (usually, this means a problem with "
+"building or upgrading), then report to the "
+"mailto:freebsd-gnome@FreeBSD.org[freebsd-gnome mailing list], or file a bug "
+"report through the link:../../../support/[FreeBSD bug reporting system]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:39
+msgid ""
+"If the problem has to do with an application's behavior, report the problem "
+"directly to the application's developers through the GNOME project's "
+"http://bugzilla.gnome.org/[bug tracking system]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/bugging.adoc:39
+msgid ""
+"If the problem is quite serious, not necessarily FreeBSD-specific, _and_ you "
+"have a fix available, report it to both the FreeBSD GNOME team and the "
+"application's developers. This way, the application's developers can apply "
+"the patch upstream, and the FreeBSD GNOME team can apply the patch "
+"immediately to the ports tree without needing to wait for the next release."
+msgstr ""

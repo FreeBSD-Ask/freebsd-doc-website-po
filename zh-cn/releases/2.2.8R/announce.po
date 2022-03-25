@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:48+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.2.8R/announce.adoc:1
+#: content/en/releases/2.2.8R/announce.adoc:8
+#, no-wrap
+msgid "FreeBSD 2.2.8 Announcement"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:13
+#, no-wrap
+msgid ""
+"*Date:* Sun, 29 Nov 1998 20:00:25 -0700 +\n"
+"*From:* \"Jordan K. Hubbard\" <jkh@time.cdrom.com> +\n"
+"**Subject:**FreeBSD 2.2.8 is now released!\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:15
+msgid ""
+"It is, as always, my great pleasure to announce the release of FreeBSD "
+"2.2.8, our latest and final release along the 2.2-stable branch. Those folks "
+"who are still running 2.1.x and wish to upgrade to 2.2 technology are "
+"definitely encouraged to do so now as the 2.2-stable branch has gone into "
+"maintainence mode. A number of problems with 2.2.7 have been fixed and the "
+"link:notes.html[release notes] should be consulted for more information."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:17
+msgid ""
+"FreeBSD 2.2.8-RELEASE is available on "
+"ftp://ftp.FreeBSD.org/pub/FreeBSD[ftp.FreeBSD.org] and various "
+"link:{handbook}#mirrors[FTP mirror sites] throughout the world. It can also "
+"be ordered on CD from http://www.cdrom.com/[Walnut Creek CDROM], from where "
+"it will be shipping shortly as a 4 CD set containing a lot of extra stuff of "
+"interest to programmers and general users alike."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:19
+#, no-wrap
+msgid ""
+"*IMPORTANT NOTE*: All of the profits from the sales of this CD set go to "
+"support the FreeBSD Project!\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:21
+msgid "The official FTP distribution site for FreeBSD is:"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/releases/2.2.8R/announce.adoc:24
+msgid "ftp://ftp.FreeBSD.org/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:27
+msgid "Or via the WEB page at:"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/releases/2.2.8R/announce.adoc:30
+msgid "http://www.cdrom.com/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:33
+msgid "And on CD-ROM from Walnut Creek CDROM:"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/releases/2.2.8R/announce.adoc:43
+msgid ""
+"Walnut Creek CDROM + 4041 Pike Lane, #F + Concord CA, 94520 USA + Phone: +1 "
+"925 674-0783 + Fax: +1 925 674-0821 + Tech Support: +1 925 603-1234 + Email: "
+"info@cdrom.com + WWW: http://www.cdrom.com/"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:46
+msgid ""
+"If you are in Japan, please refer to http://www.pht.co.jp/[Pacific HiTech] "
+"for information on ordering a localized (or the english) version of the "
+"2.2.8 product. Pacific HiTech is now an affiliate of Walnut Creek CDROM for "
+"Japanese sales of FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:48
+msgid ""
+"Additionally, FreeBSD is available via anonymous FTP from "
+"link:{handbook}#mirrors[mirror sites] in the following countries: Argentina, "
+"Australia, Brazil, Bulgaria, Canada, the Czech Republic, Denmark, Estonia, "
+"Finland, France, Germany, Hong Kong, Hungary, Iceland, Ireland, Israel, "
+"Japan, Korea, Latvia, Malaysia, the Netherlands, Poland, Portugal, Romania, "
+"Russia, Slovenia, South Africa, Spain, Sweden, Taiwan, Thailand, the Ukraine "
+"and the United Kingdom (and quite possibly several others which I've never "
+"even heard of :)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:50
+msgid ""
+"Before trying the central FTP site, please check your regional mirror(s) "
+"first by going to:"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/releases/2.2.8R/announce.adoc:53
+msgid "ftp://ftp.<yourdomain>.FreeBSD.org/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:56
+msgid "Any additional mirror sites will be labeled ftp2, ftp3 and so on."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:58
+msgid ""
+"The latest versions of export-restricted code for FreeBSD (2.0C or later) "
+"(eBones and secure) are also being made available at the following "
+"locations. If you are outside the U.S. or Canada, please get secure (DES) "
+"and eBones (Kerberos) from one of the following foreign distribution sites:"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/releases/2.2.8R/announce.adoc:59
+#, no-wrap
+msgid "South Africa"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:62
+msgid ""
+"ftp://ftp.internat.FreeBSD.ORG/pub/FreeBSD[ftp://ftp.internat.F "
+"reeBSD.ORG/pub/FreeBSD] + "
+"ftp://ftp2.internat.FreeBSD.ORG/pub/FreeBSD[ftp://ftp2.internat.FreeBS "
+"D.ORG/pub/FreeBSD]"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/releases/2.2.8R/announce.adoc:62
+#, no-wrap
+msgid "Brazil"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:64
+msgid "ftp://ftp.br.FreeBSD.ORG/pub/FreeBSD[ftp://ftp.br.FreeBSD.ORG/p ub/FreeBSD]"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/releases/2.2.8R/announce.adoc:64
+#, no-wrap
+msgid "Finland"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:66
+msgid ""
+"ftp://nic.funet.fi/pub/unix/FreeBSD/eurocrypt[ftp://nic.funet.f "
+"i/pub/unix/FreeBSD/eurocrypt]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/announce.adoc:67
+msgid "link:../../[Release Home]"
+msgstr ""

@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/security/advisories.adoc:1 content/en/security/advisories.adoc:7
+#, no-wrap
+msgid "FreeBSD Security Advisories"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/advisories.adoc:10
+msgid ""
+"This web page contains a list of released FreeBSD Security Advisories. See "
+"the link:../[FreeBSD Security Information] page for general security "
+"information about FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/advisories.adoc:11
+msgid ""
+"Issues affecting the FreeBSD Ports Collection are covered in "
+"http://vuxml.freebsd.org/[the FreeBSD VuXML document]."
+msgstr ""

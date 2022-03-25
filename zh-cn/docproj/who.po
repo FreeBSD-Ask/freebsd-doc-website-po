@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/docproj/who.adoc:1 content/en/docproj/who.adoc:8
+#, no-wrap
+msgid "FreeBSD Documentation Project: Who are we, how to join?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/who.adoc:11
+msgid ""
+"The project is a fairly loosely knit group of people, and the only thing we "
+"have in common is that we are subscribed to the mailing list "
+"FreeBSD-doc@FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/who.adoc:13
+msgid ""
+"Some of us can commit changes directly to the FreeBSD documentation "
+"tree. There is a complete list of link:{contributors}#staff-committers[all "
+"FreeBSD developers with commit privileges], as well as a list of the "
+"link:../../administration/#t-doceng[principal committers for the FreeBSD "
+"Documentation Project]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/who.adoc:15
+msgid ""
+"Others do not have commit privileges, but write and submit documentation "
+"nonetheless. Once the documentation has been submitted according to the "
+"link:../submitting[Submit Documentation] page, one of the committers will "
+"then review it and include it in the documentation set."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/who.adoc:17
+msgid ""
+"To help with the documentation project (and we fervently hope you do), just "
+"subscribe to the mailing list and participate. As soon as you have done "
+"that, you're a member of the project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/who.adoc:18
+msgid "link:../[FreeBSD Documentation Project Home]"
+msgstr ""

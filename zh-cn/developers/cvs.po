@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:18+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/developers/cvs.adoc:1 content/en/developers/cvs.adoc:6
+#, no-wrap
+msgid "Source code repositories"
+msgstr ""
+
+#. type: Title ==
+#: content/en/developers/cvs.adoc:8
+#, no-wrap
+msgid "Git"
+msgstr ""
+
+#. type: Plain text
+#: content/en/developers/cvs.adoc:11
+msgid ""
+"https://git-scm.com/[Git] is the tool the FreeBSD Project uses for keeping "
+"its sources under control. Every change (with an accompanying log message "
+"explaining its purpose) is stored. It can be easily viewed from the web "
+"interface mentioned below."
+msgstr ""
+
+#. type: Plain text
+#: content/en/developers/cvs.adoc:13
+msgid ""
+"In December 2020, development of the base system migrated from Subversion to "
+"Git. The https://cgit.FreeBSD.org/src/[web interface] is available for "
+"browsing the repository."
+msgstr ""
+
+#. type: Plain text
+#: content/en/developers/cvs.adoc:15
+msgid ""
+"In December 2020, the FreeBSD Documentation Project moved from Subversion to "
+"Git. There is a https://cgit.FreeBSD.org/doc/[web interface] available for "
+"browsing the contents of the FreeBSD Documentation Project Git repository."
+msgstr ""
+
+#. type: Plain text
+#: content/en/developers/cvs.adoc:17
+msgid ""
+"In April 2021, the FreeBSD Ports tree has been moved from Subversion to "
+"Git. There is a https://cgit.FreeBSD.org/ports/[web interface] for browsing "
+"the repository."
+msgstr ""
+
+#. type: Title ==
+#: content/en/developers/cvs.adoc:18
+#, no-wrap
+msgid "Subversion"
+msgstr ""
+
+#. type: Plain text
+#: content/en/developers/cvs.adoc:21
+msgid ""
+"https://subversion.apache.org/[Subversion] (SVN for short) is the legacy "
+"tool the FreeBSD Project used for keeping its sources under control. Every "
+"change (with an accompanying log message explaining its purpose) is "
+"stored. It can be easily viewed from the web interface mentioned below."
+msgstr ""
+
+#. type: Plain text
+#: content/en/developers/cvs.adoc:23
+msgid ""
+"In June 2008, development of the base system migrated from CVS to "
+"Subversion. Since December 2020, after development moved to Git, Subversion "
+"only receives translated commits from git2svn exporter in stable/11, "
+"stable/12 and supported release branches. The "
+"https://svnweb.FreeBSD.org/base/[web interface] is available for browsing "
+"the repository."
+msgstr ""
+
+#. type: Plain text
+#: content/en/developers/cvs.adoc:25
+msgid ""
+"In May 2012, the FreeBSD Documentation Project moved from CVS to "
+"Subversion. The doc subversion repository does not receive any further "
+"updates after the development moved from Subversion to Git since December "
+"2020. There is a https://svnweb.FreeBSD.org/doc/[web interface] available "
+"for browsing the contents of the FreeBSD Documentation Project SVN "
+"repository."
+msgstr ""
+
+#. type: Plain text
+#: content/en/developers/cvs.adoc:26
+msgid ""
+"In July 2012, the FreeBSD Ports tree moved from CVS to Subversion. The ports "
+"subversion repository does not receive any further updates after the "
+"development moved from Subversion to Git since April 2021. There is a "
+"https://svnweb.FreeBSD.org/ports/[web interface] for browsing the "
+"repository."
+msgstr ""

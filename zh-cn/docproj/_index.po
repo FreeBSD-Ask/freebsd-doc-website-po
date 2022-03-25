@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/docproj/_index.adoc:1 content/en/docproj/_index.adoc:6
+#, no-wrap
+msgid "FreeBSD Documentation Project"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/_index.adoc:8
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:11
+msgid ""
+"Getting to grips with a new and complex operating system is always a "
+"difficult task, no matter how pretty the GUI is. FreeBSD is no different in "
+"this respect."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:13
+msgid ""
+"While there are a vast number of BSD Unix (and general UNIX(R)) books "
+"available, FreeBSD has its own unique features, procedures and quirks."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:15
+msgid ""
+"In addition, FreeBSD will be the first exposure to a Unix-like operating "
+"system for some of its users, so the availability of high quality, accurate "
+"documentation is paramount."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:17
+msgid ""
+"The FreeBSD Documentation Project exists to help fill this gap. There are "
+"two ways in which this is undertaken:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:19
+msgid ""
+"Members of the Documentation Project write documentation and submit it for "
+"inclusion in the _FreeBSD Documentation Set_."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:21
+msgid ""
+"Members of the Documentation Project discuss and arrange the formatting and "
+"organization of the _FreeBSD Documentation Set_."
+msgstr ""
+
+#. type: Table
+#: content/en/docproj/_index.adoc:26
+#, no-wrap
+msgid "a|\n"
+msgstr ""
+
+#. type: Title ===
+#: content/en/docproj/_index.adoc:27
+#, no-wrap
+msgid "Current projects"
+msgstr ""
+
+#. type: Table
+#: content/en/docproj/_index.adoc:30
+msgid ""
+"There are a number of projects currently _in progress_ as part of the "
+"documentation effort. Please take the time to look over "
+"https://wiki.freebsd.org/Doc/IdeaList[the current list of projects] and see "
+"if there is anything *you* can help with."
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/_index.adoc:32
+#, no-wrap
+msgid "link:who[Who we are, how to join]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:35
+msgid ""
+"This page explains who makes up the Documentation Project, and how you can "
+"join."
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/_index.adoc:36
+#, no-wrap
+msgid "link:doc-set[The FreeBSD Documentation Set]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:39
+msgid ""
+"This page outlines the components of the FreeBSD Documentation Set, and the "
+"sort of work that the Documentation Project does with them."
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/_index.adoc:40
+#, no-wrap
+msgid "link:submitting[Submitting Documentation]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:43
+msgid ""
+"Submitting documentation is the best way to become a part of the project, "
+"and help make FreeBSD easier to use. This page explains the best way to "
+"submit documentation so that it gets looked at as soon as possible."
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/_index.adoc:44
+#, no-wrap
+msgid "link:translations[Translation]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:46
+msgid ""
+"Translations of the FreeBSD documentation, Web pages, Handbook, Manual pages "
+"and FAQ."
+msgstr ""

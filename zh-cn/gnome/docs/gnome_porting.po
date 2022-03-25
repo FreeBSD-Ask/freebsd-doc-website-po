@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/gnome/docs/gnome_porting.adoc:1
+#: content/en/gnome/docs/gnome_porting.adoc:6
+#, no-wrap
+msgid "FreeBSD GNOME Project: GNOME Desktop-Independent Components"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/gnome_porting.adoc:9
+msgid ""
+"To see how to utilize these components, please examine the "
+"link:../example-makefile/[example Makefile]."
+msgstr ""
+
+#. type: Table
+#: content/en/gnome/docs/gnome_porting.adoc:26
+#, no-wrap
+msgid ""
+"|*COMPONENT* |*ASSOCIATED PROGRAM* |*IMPLIED COMPONENTS*\n"
+"|esound |audio/esound |\n"
+"|gnomehack |gnomehack makes common GNOME Makefile substitutions that nearly "
+"every GNOME port requires to fit into the proper mtree structure. |\n"
+"|gnomehier |gnomehier installs all the directories needed for both the GNOME "
+"1 and 2 desktops. Only include this option if your port calls @dirrm on one "
+"of the directories listed in the plist for gnomehier. |\n"
+"|gnomemimedata |misc/gnome-mime-data |gnomehier pkgconfig\n"
+"|gnomeprefix |gnomeprefix sets some CONFIGURE_ARGS to ensure data is placed "
+"properly within the GNOME hierarchy. |gnomehier\n"
+"|intlhack |intlhack registers a dependency upon textproc/intltool and "
+"patches broken intltool-merge.in implementations. |intltool\n"
+"|intltool |intltool registers a BUILD_DEPENDS on textproc/intltool. |\n"
+"|lthack |lthack prevents the installation of .la files and ensures that "
+"$\\{PTHREAD_LIBS} will be passed to the linker. NOTE: lthack is DEPRECATED, "
+"and USE_AUTOTOOLS=\"libtool\":15 should be used instead. See the libtool "
+"section of the porting guide for more details. |\n"
+"|ltasneededhack |ltasneededhack hacks the port's "
+"link:../porting/#libtool[libtool] so that the -Wl,--as-needed flag is passed "
+"to the linker. This will result in shared objects with smaller ELF NEEDED "
+"sections which can improve the startup time and module load time of some "
+"applications. In order to use ltasneededhack the port must define "
+"USE_AUTOTOOLS=\"libtool\":15. NOTE: be sure to thoroughly test the resulting "
+"application to make sure there are no undefined symbol errors after adding "
+"this hack. |\n"
+"|ltverhack |ltverhack normalizes shared object versions so that they do not "
+"change needlessly. Using ltverhack keeps shared object versions in line with "
+"what they should be and what they end up being on other operating "
+"systems. In order to use ltverhack the port must define "
+"USE_AUTOTOOLS=\"libtool\":15. |\n"
+"|pkgconfig |pkgconfig registers a dependency upon devel/pkg-config to make "
+"sure it is installed. |\n"
+"|referencehack |referencehack is designed for ports that install API "
+"reference documentation. These ports should use referencehack then another "
+"port with a -reference suffix should be created to install this "
+"documentation. See devel/glib20 and devel/glib20-reference for an "
+"example. |\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/gnome_porting.adoc:28
+msgid ""
+"If you still need help with your port, have a look at some of the existing "
+"ports for examples. The link:mailto:freebsd-gnome@FreeBSD.org[freebsd-gnome "
+"mailing list] is also there for you."
+msgstr ""

@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:18+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/press/press-rel-5.adoc:1 content/en/press/press-rel-5.adoc:7
+#, no-wrap
+msgid "FreeBSD Press Release: October 18, 2000"
+msgstr ""
+
+#. type: Title ==
+#: content/en/press/press-rel-5.adoc:9
+#, no-wrap
+msgid "New FreeBSD Core Team Elected"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:12
+#, no-wrap
+msgid ""
+"*BSD Conference, Monterey, CA, October 18, 2000* The FreeBSD Project "
+"announced today the election of a new Core Team, the project's management "
+"board. This marks the first occasion on which the team has been selected by "
+"means of an election among the project's developers. Joining the Core team "
+"as new members are Greg Lehey, Warner Losh, Mike Smith, and Robert "
+"Watson. Re-elected members are Satoshi Asami, David Greenman, Jordan "
+"Hubbard, Doug Rabson, and Peter Wemm.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:14
+msgid ""
+"FreeBSD Project co-founder and continuing Core Team member Jordan Hubbard "
+"expressed excitement over the results, \"For the first time since the "
+"FreeBSD project was formed, open elections have determined the composition "
+"of its core team and set an important precedent whereby any developer can "
+"now become part of the project's leadership.\" The new core team also "
+"well-represents FreeBSD's diverse and highly skilled group of international "
+"developers, with expertise ranging from RAID filesystem and device-driver "
+"development to extensive security backgrounds."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:16
+msgid ""
+"New Core Team members were elected from and by the FreeBSD committers team, "
+"the formal development staff of the FreeBSD project. Committers have direct "
+"access to the FreeBSD source repository, and perform the majority of "
+"software development associated with the project. Until this point, the Core "
+"Team was a self-selected board providing architectural and administrative "
+"direction."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:18
+msgid ""
+"This summer, the committers voted to move to a democratic model allowing the "
+"project to adapt to the changing development requirements of the open source "
+"operating system community. However, with over half of the prior Core Team "
+"re-elected from the old team, strong continuity exists."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:20
+msgid ""
+"Departing Core Team member Poul-Henning Kamp said, \"I'm very proud of what "
+"we have done together in the Core Team over the last 8 years. The new Core, "
+"and the fact that they are elected by the committers, means that the project "
+"will be much more responsive to change in the future.\""
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:22
+msgid ""
+"The changing of the guard in project leadership comes amid good feelings, "
+"Kamp indicated: all past Core members will continue on with the project with "
+"increased emphasis on development, \"Now I get to spend more time on the "
+"FreeBSD source code instead of on project management.\""
+msgstr ""
+
+#. type: Title ==
+#: content/en/press/press-rel-5.adoc:23
+#, no-wrap
+msgid "Elected Core Team Members"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:26
+#, no-wrap
+msgid ""
+"*Satoshi Asami* is a co-founder and CTO of DecorMagic, Inc., and manages the "
+"FreeBSD Ports Collection.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:28
+#, no-wrap
+msgid ""
+"*David Greenman* is a co-founder of the FreeBSD Project and is currently "
+"President of TeraSolutions, Inc., a company that manufactures Internet "
+"servers and RAID storage systems.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:30
+#, no-wrap
+msgid ""
+"*Jordan Hubbard* is a co-founder of the FreeBSD Project as well as its "
+"public relations officer and release engineer. He is also Vice President for "
+"Open Source Solutions at BSDi.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:32
+#, no-wrap
+msgid ""
+"*Greg Lehey* is an Open Source Researcher with Linuxcare; he has spent most "
+"of his professional career in Germany, where he worked for computer "
+"manufacturers such as Univac, Tandem, and Siemens-Nixdorf. He is the author "
+"of the Vinum volume management and RAID software for FreeBSD, has been "
+"involved in the FreeBSD SMPng project, and is the author of Porting Unix "
+"Software and The Complete FreeBSD.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:34
+#, no-wrap
+msgid ""
+"*Warner Losh* has been porting NetBSD's pccard code to FreeBSD and has been "
+"FreeBSD Security Officer for the past two years.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:36
+#, no-wrap
+msgid ""
+"*Doug Rabson* is a co-founder of Qube Software Ltd., which specializes in 3D "
+"graphics technology. His work on FreeBSD includes the alpha and ia64 ports, "
+"and he was the main architect for FreeBSD's device driver framework.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:38
+#, no-wrap
+msgid ""
+"*Mike Smith* is Principal Engineer in BSDi's Open Source Solutions group and "
+"has been active in the FreeBSD developer community as a developer resource, "
+"OEM liaison, sometime architect and device driver author.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:40
+#, no-wrap
+msgid ""
+"*Robert Watson* is a research scientist at NAI Labs, working on network and "
+"operating system security research. His contributions to the FreeBSD Project "
+"include work on trusted operating system extensions "
+"(http://www.trustedbsd.org[TrustedBSD]), security architecture, and work on "
+"the security-officer team.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:42
+#, no-wrap
+msgid ""
+"*Peter Wemm* has been involved with FreeBSD since the early days of the ISP "
+"Industry in Australia and has since relocated to the US to work as a "
+"Software Engineer for Yahoo!, Inc. His involvement in FreeBSD includes "
+"management of the FreeBSD source code repository and kernel development.\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/press/press-rel-5.adoc:43
+#, no-wrap
+msgid "About FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:46
+msgid ""
+"FreeBSD is a liberally-licensed open source operating system with its "
+"origins in BSD Net/2 and 4.4 Lite, the Berkeley Software Distributions "
+"developed at the University of California at Berkeley until 1994. It is "
+"developed and maintained by a global organization of paid and volunteer "
+"contributors. FreeBSD is distinguished by its high performance networking "
+"and filesystem support, and is widely used among Internet service providers, "
+"including industry-recognized companies such as *Yahoo!*, *above.net*, and "
+"*Verio*. FreeBSD is also frequently used as a platform for embedded "
+"networking devices, including products from *IBM*, *Inktomi*, *Juniper "
+"Networks*, and *Network Alchemy - a Nokia Company*."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:48
+msgid ""
+"More information may be found at "
+"http://www.FreeBSD.org[http://www.FreeBSD.org/]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/press/press-rel-5.adoc:49
+#, no-wrap
+msgid "Press Contact"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:55
+msgid "Jordan Hubbard + The FreeBSD Project + 925-682-7859 + jkh@FreeBSD.org"
+msgstr ""
+
+#. type: Title ==
+#: content/en/press/press-rel-5.adoc:56
+#, no-wrap
+msgid "# # #"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-5.adoc:58
+msgid ""
+"BSD is a registered trademark of Berkeley Software Design, Inc. Other "
+"trademarks are property of their respective owners. BSD technologies were "
+"originally developed by the University of California, Berkeley and its "
+"contributors."
+msgstr ""

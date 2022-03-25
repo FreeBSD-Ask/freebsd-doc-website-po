@@ -1,0 +1,417 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/donations/_index.adoc:1 content/en/donations/_index.adoc:6
+#, no-wrap
+msgid "FreeBSD Donations Liaison"
+msgstr ""
+
+#. type: Title ==
+#: content/en/donations/_index.adoc:8
+#, no-wrap
+msgid "Monetary FreeBSD Foundation Donations"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:11
+msgid ""
+"The FreeBSD Foundation's fund-raising efforts are essential to keeping "
+"FreeBSD free. As the Project grows, so do the costs."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:13
+msgid ""
+"By donating to the foundation, you are helping us fund and manage projects, "
+"sponsor FreeBSD events, and provide travel grants to FreeBSD developers. You "
+"are also helping us represent the Project in executing contracts, license "
+"agreements, copyrights, trademarks, and other legal arrangements that "
+"require a recognized legal entity."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:15
+msgid ""
+"To make a monetary donation to the FreeBSD Foundation, please visit the "
+"https://www.freebsdfoundation.org/donate/[FreeBSD Foundation] donation page."
+msgstr ""
+
+#. type: Title ==
+#: content/en/donations/_index.adoc:16
+#, no-wrap
+msgid "Contents"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:19
+msgid "<<#goal,Donations Liaison Goals>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:20
+msgid "<<#charter,Donations Liaison Charter>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:21
+msgid "<<#donating,Donating to the FreeBSD Project>>"
+msgstr ""
+
+#. type: Title ==
+#: content/en/donations/_index.adoc:22
+#, no-wrap
+msgid "Other Donations Links"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:25
+msgid "https://wiki.freebsd.org/Donations/WantList[FreeBSD Project Want List]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:26
+msgid "link:donors[List of FreeBSD Donations]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/donations/_index.adoc:28
+#, no-wrap
+msgid "Project Goal"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:31
+msgid ""
+"As FreeBSD's userbase has grown, the number of people who want to donate "
+"materials or funds to the Project has grown. The Donations Liaison is "
+"intended to streamline the handling of these donations, and to ensure that "
+"they are handled in a timely and reasonable manner."
+msgstr ""
+
+#. type: Title ==
+#: content/en/donations/_index.adoc:33
+#, no-wrap
+msgid "Donations Liaison Charter"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:36
+msgid ""
+"The purpose of the Donations Liaison Office is to encourage and guide "
+"donations according to a set of community-accepted rules. The DLO has the "
+"following responsibilities."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:38
+msgid "to establish and maintain a clear set of procedures for handling donations."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:39
+msgid "to respond to donation offers in a timely manner."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:40
+msgid ""
+"to maintain a list of equipment and resources desired by the FreeBSD "
+"community."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:41
+msgid "to coordinate donation offers with the FreeBSD developer community."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:42
+msgid "to shepherd donations through the entire donation process."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:43
+msgid ""
+"to work with a small team to ensure a timely, informed, and correct response "
+"is available at all times."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:44
+msgid "to publicly acknowledge donors and donations when the donation is complete."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:45
+msgid "record the status of all loans to the Project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:46
+msgid "provide open records of all donations to the FreeBSD developer community."
+msgstr ""
+
+#. type: Title ==
+#: content/en/donations/_index.adoc:48
+#, no-wrap
+msgid "Donating to the FreeBSD Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:51
+msgid ""
+"So, you want to donate something to the FreeBSD Project? Great! We strongly "
+"rely upon user donations to accomplish our goals. Please read below to see "
+"how to contact us about your donation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:53
+msgid ""
+"If you don't know what you want to give, take a look at our "
+"https://wiki.freebsd.org/Donations/WantList[list of needs]. We would "
+"appreciate any items on this list. If you have equipment you'd like to "
+"donate, read on."
+msgstr ""
+
+#. type: Title ===
+#: content/en/donations/_index.adoc:55
+#, no-wrap
+msgid "Tax Credit for Donations"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:58
+msgid ""
+"The FreeBSD Foundation can act as a charitable organization for tax "
+"purposes. If you live in the United States, your donation can be deducted "
+"from your taxes under certain conditions. If you want a receipt for tax "
+"purposes your contribution, please let us know when you send information on "
+"your donation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:60
+msgid ""
+"A tax credit is not as easy as it might seem. The donations team must be "
+"informed of the desire for a tax deduction so the foundation may be "
+"notified, and informed when it has been shipped. The Foundation will also "
+"need to know when the item has been received by the intended individual. The "
+"Foundation must then be able to demonstrate that the donation is in the "
+"_public good_. All of this together means that while we probably have "
+"developers who would be interested in that big box of ISA cards in your "
+"closet, you probably cannot get a tax credit for them; the total work needed "
+"to process, ship, and document them far exceeds their total value."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:62
+msgid ""
+"The FreeBSD Foundation will provide a receipt for delivery of "
+"equipment. They will not, however, provide a fair-market valuation of the "
+"equipment -- in fact, the law forbids them to do so. We recommend checking "
+"elsewhere for valuations of hardware donations. Since many of our donations "
+"are obsolete, making fair market value hard to judge, we suggest searching "
+"on Ebay or other used equipment sites for prices paid for similar equipment."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:64
+msgid ""
+"To receive a tax receipt for a donation, you will need to complete a "
+"https://www.freebsdfoundation.org/wp-content/uploads/2015/12/Hardware-Donation-Form.pdf[Hardware "
+"Donation Form] from the FreeBSD Foundation website."
+msgstr ""
+
+#. type: Title ===
+#: content/en/donations/_index.adoc:65
+#, no-wrap
+msgid "How to Donate"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:68
+msgid ""
+"Part of the goal of the Donations Liaison Office is to match donations with "
+"developers who can use them. We don't accept just any donation; we only "
+"handle those that have a home with a developer who can use them to improve "
+"FreeBSD. This saves time all around, and also helps assure donors that what "
+"their contributions are actually supporting the FreeBSD Project. The down "
+"side is that we need some information about your donation before accepting "
+"it."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:70
+msgid "Donations generally fall into three categories:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:72
+msgid "<<#money,Financial>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:73
+msgid "<<#systems,Complete Computers>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:74
+msgid "<<#components,Computer Components>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:76
+msgid ""
+"If you have something to offer that doesn't fall into one of these "
+"categories, don't fret! Just contact us at donations@FreeBSD.org with your "
+"offer. Just because it's not the run-of-the-mill offer doesn't mean that "
+"we're not interested."
+msgstr ""
+
+#. type: Title ===
+#: content/en/donations/_index.adoc:78
+#, no-wrap
+msgid "Financial Contributions"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:81
+msgid ""
+"The FreeBSD Project does not directly accept financial contributions. A "
+"sponsor organization, the https://www.freebsdfoundation.org[FreeBSD "
+"Foundation], accepts financial contributions for us. Please see their Web "
+"site for details on financial contributions."
+msgstr ""
+
+#. type: Title ===
+#: content/en/donations/_index.adoc:83
+#, no-wrap
+msgid "Complete Computer Systems"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:86
+msgid ""
+"The FreeBSD Project always needs computers. If you have a computer that you "
+"would like to donate to the Project, please contact us with the following "
+"information:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:88
+msgid "Hardware specifications: architecture, motherboard, CPU, disk space, memory."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:89
+msgid ""
+"Does this system currently run FreeBSD, or is it unsupported? If possible, "
+"please attach a dmesg from a FreeBSD install on this system."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:90 content/en/donations/_index.adoc:102
+msgid "Are you willing to ship this system?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:91 content/en/donations/_index.adoc:103
+msgid ""
+"Your physical location. We try to make shipping as easy and inexpensive as "
+"possible."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:92
+msgid ""
+"Also mention if you want a <<#taxcredit,tax credit>> for this system. (Note "
+"that not all donations can realistically receive a tax credit, as the cost "
+"of supplying the credit may exceed the value of the donation.)"
+msgstr ""
+
+#. type: Title ===
+#: content/en/donations/_index.adoc:94
+#, no-wrap
+msgid "Computer Components"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:97
+msgid ""
+"If you have hardware that you would like to donate to the Project, please "
+"contact us with the following information:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:99
+msgid ""
+"The hardware description: model, part number, manufacturer, etc. If you have "
+"an exact link to the manufacturer's Web page for this component, that would "
+"be helpful."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:100
+msgid "Is this hardware currently supported in FreeBSD?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:101
+msgid ""
+"What documentation do you have? A piece of hardware is not sufficient to "
+"write a driver; driver authors need detailed chipset data from the "
+"manufacturer. (Don't worry too much if you don't have this documentation, as "
+"it may be available elsewhere.)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:104
+msgid ""
+"Also mention if you want a <<#taxcredit,tax credit>> for this "
+"hardware. (Note that not all donations can realistically receive a tax "
+"credit, as the cost of supplying the credit may exceed the value of the "
+"donation.)"
+msgstr ""
+
+#. type: Title ===
+#: content/en/donations/_index.adoc:105
+#, no-wrap
+msgid "What we Do with this Information"
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:108
+msgid ""
+"Once we have a description of the donation, the Donations Liaison Office "
+"will contact the developer community and offer the resource to them. If we "
+"have a developer who would like the item, we put the donor and the recipient "
+"in contact and let them work out shipping information. If there are multiple "
+"developers interested in a resource, we try to learn what each developer "
+"would use the resource for and allocate it most effectively for the "
+"Project. If no developer is interested, we turn down the offer."
+msgstr ""
+
+#. type: Plain text
+#: content/en/donations/_index.adoc:109
+msgid ""
+"Our goal is to place (or decline) all donations within 7 days of receipt of "
+"complete information."
+msgstr ""

@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:42+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/about.adoc:1 content/en/internal/about.adoc:8
+#, no-wrap
+msgid "About the FreeBSD WWW Server"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/about.adoc:10
+#, no-wrap
+msgid "The Machine"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:14
+msgid "image:../../gifs/powerlogo.gif[Powered by FreeBSD]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:16
+msgid ""
+"Naturally, all systems in the FreeBSD.org cluster run FreeBSD. The hardware "
+"and network connection have been generously provided by "
+"https://www.bytemark.co.uk/[Bytemark Hosting], https://www.isc.org/[Internet "
+"Systems Consortium], https://www.cs.nctu.edu.tw/cswebsite/[National Chiao "
+"Tung University], https://www.nyi.net/[New York Internet], "
+"https://www.rootbsd.net//[RootBSD], https://www.yandex.com/[Yandex], "
+"https://www.yahoo.com/[Yahoo!], and other "
+"link:../../donations/donors[contributors] to the FreeBSD project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:18
+msgid ""
+"A list of general-access machines in the FreeBSD.org domain is available at "
+"the link:../machines[The FreeBSD.org Network] page."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/about.adoc:19
+#, no-wrap
+msgid "The Software"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:22
+msgid ""
+"These pages are served up by the fast and flexible "
+"http://www.nginx.org/[nginx webserver]. In addition, there are a few locally "
+"crafted CGI scripts. Indexing of the mailing list archive are provided by "
+"freewais-sf, a derivative of the CNIDR freewais."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/about.adoc:23
+#, no-wrap
+msgid "The Pages"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:27
+msgid "image:../../gifs/lynx.gif[Lynx Friendly logo]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:29
+msgid ""
+"The original web pages were put together by John Fieber "
+"https://people.FreeBSD.org/~jfieber/[<jfieber@FreeBSD.org>] with input from "
+"the FreeBSD community and "
+"*you*. http://wolfram.schneider.org[<wosch@FreeBSD.org>] was our first "
+"webmaster but this responsibility is now shared by a larger team of web and "
+"documentation contributors. The FreeBSD pages are valid XHTML 1.0 "
+"Transitional and should degrade gracefully on any browser."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:31
+msgid "See also the link:../../docproj/[FreeBSD Documentation Project]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/about.adoc:32
+#, no-wrap
+msgid "Page Design"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:35
+msgid ""
+"The current website design was done by Emily Boyd as part of the "
+"https://summerofcode.withgoogle.com[Google Summer of Code] program in 2005."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:37
+msgid "The original page design was done by Megan McCormack."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/about.adoc:38
+#, no-wrap
+msgid ""
+"link:{fdp-primer}#the-website-build[Building and updating the FreeBSD Web "
+"Pages]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:41
+msgid ""
+"This document describes how to build and update the FreeBSD Web pages from "
+"the Git repository by hand."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/about.adoc:42
+#, no-wrap
+msgid "Update of the FreeBSD Web Pages"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:45
+msgid ""
+"The FreeBSD Web Pages on `www.FreeBSD.org` are currently rebuilt according "
+"to the following schedule:"
+msgstr ""
+
+#. type: Table
+#: content/en/internal/about.adoc:54
+#, no-wrap
+msgid ""
+"|Build Time (UTC) |Build type\n"
+"|Every 10 minutes |English www only, if no other build is running\n"
+"|Every Sunday at 00:00 |Full build with a new tree checkout\n"
+"|Every 1 hour |English only\n"
+"|Every 3 hours |Full build\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/about.adoc:56
+#, no-wrap
+msgid "Mirroring the FreeBSD Web Pages"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:59
+msgid ""
+"It is possible to link:../mirror[mirror] the FreeBSD web pages on "
+"www.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/about.adoc:60
+msgid "link:..[FreeBSD Internal Home]"
+msgstr ""

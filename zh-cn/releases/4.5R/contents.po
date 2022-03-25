@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:08+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.5R/contents.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.5 Contents"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/contents.adoc:10
+#, no-wrap
+msgid "    <h1>Contents of the FreeBSD Official 4-CDROM set.</h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/contents.adoc:15
+#, no-wrap
+msgid ""
+"    <p>The FreeBSD Project now releases the full 4-CDROM set formerly\n"
+"      produced by Walnut Creek CDROM / BSDi.  This CDROM set may be\n"
+"      replicated by vendors wishing to sell \"Official\" copies of\n"
+"      FreeBSD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/contents.adoc:17
+#, no-wrap
+msgid "    <h2>Contents of Disc 1</h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/contents.adoc:23
+#, no-wrap
+msgid ""
+"    <p><tt>4.5-install.iso</tt> - This is a bootable CDROM image that\n"
+"      contains the base system, XFree86 3.3.6, a 'tools' directory of\n"
+"      software for users performing an installation from other\n"
+"      operating systems, and 2,210 third-party software packages.  [ <a "
+"href=\"../../../releases/4.5R/cd1.txt\" shape=\"rect\">file\n"
+"      listing</a> ]</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/contents.adoc:25
+#, no-wrap
+msgid "    <h2>Contents of Disc 2</h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/contents.adoc:32
+#, no-wrap
+msgid ""
+"    <p><tt>4.5-disc2.iso</tt> - This is a bootable CDROM that may be\n"
+"      used as a live filesystem disc.  This disc also contains a\n"
+"      compressed copy of the CVS repository in the <tt>CVS-REPO</tt>\n"
+"      directory, and some commercial software demos for FreeBSD in the\n"
+"      <tt>commerce</tt> directory.  [ <a "
+"href=\"../../../releases/4.5R/cd2.txt\" shape=\"rect\">file\n"
+"      listing</a> ]</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/contents.adoc:34
+#, no-wrap
+msgid "    <h2>Contents of Discs #3 and #4</h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/contents.adoc:38
+#, no-wrap
+msgid ""
+"    <p><tt>4.5-disc3.iso</tt>, <tt>4.5-disc4.iso</tt> - The remaining\n"
+"      two discs contain the most popular third-party software package\n"
+"      that users have requested.  [ <a "
+"href=\"../../../releases/4.5R/cd3.txt\" shape=\"rect\">Disc 3 listing</a> ]  "
+"[ <a href=\"../../../releases/4.5R/cd4.txt\" shape=\"rect\">Disc 4 "
+"listing</a> ]</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/contents.adoc:43
+#, no-wrap
+msgid ""
+"  </div>\n"
+"          <br class=\"clearboth\" />\n"
+"        </div>\n"
+msgstr ""

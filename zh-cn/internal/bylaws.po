@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:43+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/bylaws.adoc:1 content/en/internal/bylaws.adoc:6
+#, no-wrap
+msgid "Core Bylaws"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:9
+msgid ""
+"These bylaws were approved by a vote of active committers on August 28, "
+"2000."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:11
+msgid "Active committers have made a commit to the tree in the last 12 months."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:12
+msgid "Core consists of 9 elected active committers."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:13
+msgid "Core elections are held every 2 years, first time September 2000."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:14
+msgid "Core members and committers may be ejected by a 2/3 vote of core."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:15
+msgid "If the size of core falls below 7, an early election is held."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:16
+msgid "A petition of 1/3 of active committers can trigger an early election."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:17
+msgid "All elections will be run as follows:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:18
+msgid "Core appoints and announces someone to run the election."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:19
+msgid "1 week to tally active committers wishing to run for core."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:20
+msgid "4 weeks for the actual vote."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:21
+msgid "1 week to tally and post the results."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:22
+msgid "Each active committer may vote once in support of up to nine nominees."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:23
+msgid "New core team becomes effective 1 week after the results are posted."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:24
+msgid "Voting ties decided by unambiguously elected new core members."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:25
+msgid ""
+"These rules can be changed by a 2/3 majority of committers if at least 50% "
+"of active committers cast their vote."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/bylaws.adoc:26
+#, no-wrap
+msgid "Additional Information"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:29
+msgid ""
+"The last core election was held in June of 2020. The next core election is "
+"scheduled for May-June of 2022."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/bylaws.adoc:30
+#, no-wrap
+msgid "Core Interpretations of the Bylaws"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:33
+msgid ""
+"Core will issue interpretations of the bylaws from time to time as necessary "
+"to clarify areas that might be ambiguous in the bylaws as enacted to ensure "
+"the smooth operation of the project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:35
+#, no-wrap
+msgid ""
+"*20020503* The next election is always scheduled for two years after the "
+"previous election. This means that early elections reset the date of the "
+"succeeding election such that it will occur two years following the early "
+"election.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/bylaws.adoc:36
+msgid "link:../developer[Resources for FreeBSD Committers Home]"
+msgstr ""

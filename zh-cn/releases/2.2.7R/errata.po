@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:47+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.2.7R/errata.adoc:1
+#: content/en/releases/2.2.7R/errata.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.2.7 Errata Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:16
+#, no-wrap
+msgid ""
+"The file \n"
+"ERRATA.TXT contains post-release ERRATA for 2.2.7 and should always\n"
+"be considered the definitive place to look *first* before reporting\n"
+"a problem with this release.  This file will also be periodically\n"
+"updated as new issues are reported so even if you've checked this\n"
+"file recently, check it again before filing a bug report.  Any\n"
+"changes to this file are also automatically emailed to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:18
+#, no-wrap
+msgid "    freebsd-stable@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:20
+#, no-wrap
+msgid "For 2.2.7 security advisories, see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:22
+#, no-wrap
+msgid "ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:24
+#, no-wrap
+msgid "For the latest information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:26
+#, no-wrap
+msgid "---- Security Advisories:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:28
+#, no-wrap
+msgid "Current active security advisories for 2.2.7:   None\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:35
+#, no-wrap
+msgid ""
+"---- System Update Information:\n"
+"o XFree86:  The XF86Setup utility sometimes fails with an XIO\n"
+"  error (visible on the 2nd VTY) rather than starting properly if you\n"
+"  run it during system installation time.  This is not a new bug and\n"
+"  has been seen in previous releases of FreeBSD, but it seems to happen\n"
+"  far more reliably with 2.2.7 now (for some as yet unknown reason).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:40
+#, no-wrap
+msgid ""
+"Fix: Should this happen to you, run /usr/X11R6/bin/XF86Setup by hand\n"
+"     after the system comes up off the hard disk for the first time.\n"
+"     For some reason, when not run off the boot floppy or CD, it works\n"
+"     perfectly (making this one somewhat more difficult to debug).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:44
+#, no-wrap
+msgid ""
+"o Release notes state that Texas Instruments ThunderLAN PCI NICs are\n"
+"  supported in 2.2.7.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:49
+#, no-wrap
+msgid ""
+"Fix: This was an embarrassing mis-merge from the 3.0 release notes and,\n"
+"     indeed, those cards are only supported in 3.0-current.  Please ignore\n"
+"     this section of the release notes and any other docs which claim that\n"
+"     the ThunderLAN NICs are supported in 2.2.7.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:52
+#, no-wrap
+msgid "o rshd was broken during -Wall cleanup, as noted in PR#7500\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.7R/errata.adoc:59
+#, no-wrap
+msgid ""
+"Fix: This was fixed in the 2.2-stable branch as of 1998/07/24 04:32:21\n"
+"     in revision 1.9.2.9 of /usr/src/libexec/rshd/rshd.c.  Obtain the\n"
+"     fixed version via CVSup (see instructions in handbook or simply\n"
+"     ``pkg_add "
+"ftp://ftp.FreeBSD.org/pub/FreeBSD/development/CVSup/cvsupit.tgz''\n"
+"     and follow the instructions) or get it from FTP at:\n"
+"     "
+"ftp://ftp.FreeBSD.org/pub/FreeBSD/FreeBSD-stable/src/libexec/rshd/rshd.c\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.7R/errata.adoc:61
+msgid "link:../../[Release Home]"
+msgstr ""

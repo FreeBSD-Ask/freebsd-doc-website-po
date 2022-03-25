@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ==
+#: content/en/internal/code-of-conduct.adoc:1
+#: content/en/internal/code-of-conduct.adoc:6
+#: content/en/internal/code-of-conduct.adoc:8
+#, no-wrap
+msgid "FreeBSD Community Code of Conduct"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:11
+msgid ""
+"The FreeBSD community has always worked to be a welcoming and respectful "
+"community, and we want to ensure that doesn't change as we grow and "
+"evolve. To that end, we have a few ground rules that we ask people to adhere "
+"to:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:13
+msgid "be friendly and patient,"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:14
+msgid "be welcoming,"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:15
+msgid "be considerate,"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:16
+msgid "be respectful,"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:17
+msgid "be careful in the words that you choose and be kind to others,"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:18
+msgid "when we disagree, try to understand why."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:20
+msgid ""
+"This isn't an exhaustive list of things that you can't do. Rather, take it "
+"in the spirit in which it's intended - a guide to make it easier to "
+"communicate and participate in the community."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:22
+msgid ""
+"This code of conduct applies to all spaces managed by the FreeBSD "
+"project. This includes online chat, mailing lists, bug trackers, FreeBSD "
+"events such as the developer meetings and socials, and any other forums "
+"created by the project that the community uses for communication. It applies "
+"to all of your communication and conduct in these spaces, including emails, "
+"chats, things you say, slides, videos, posters, signs, or even t-shirts you "
+"display in these spaces. In addition, violations of this code outside these "
+"spaces may, in rare cases, affect a person's ability to participate within "
+"them, when the conduct amounts to an egregious violation of this code."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:24
+msgid ""
+"If you believe someone is violating the code of conduct, we ask that you "
+"report it by emailing mailto:conduct@freebsd.org[conduct@FreeBSD.org]. For "
+"more details please see our link:../conduct-reporting/[Reporting Guide]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:26
+#, no-wrap
+msgid "*Be friendly and patient.*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:27
+#, no-wrap
+msgid ""
+"*Be welcoming.* We strive to be a community that welcomes and supports "
+"people of all backgrounds and identities. This includes, but is not limited "
+"to members of any race, ethnicity, culture, national origin, color, "
+"immigration status, social and economic class, educational level, sex, "
+"sexual orientation, gender identity and expression, age, size, family "
+"status, political belief, religion or lack thereof, and mental and physical "
+"ability.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:28
+#, no-wrap
+msgid ""
+"*Be considerate.* Your work will be used by other people, and you in turn "
+"will depend on the work of others. Any decision you take will affect users "
+"and colleagues, and you should take those consequences into "
+"account. Remember that we're a world-wide community, so you might not be "
+"communicating in someone else's primary language.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:29
+#, no-wrap
+msgid ""
+"*Be respectful.* Not all of us will agree all the time, but disagreement is "
+"no excuse for poor behavior and poor manners. We might all experience some "
+"frustration now and then, but we cannot allow that frustration to turn into "
+"a personal attack. It's important to remember that a community where people "
+"feel uncomfortable or threatened is not a productive one. Members of the "
+"FreeBSD community should be respectful when dealing with other members as "
+"well as with people outside the FreeBSD community.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:30
+#, no-wrap
+msgid ""
+"*Be careful in the words that you choose and be kind to others.* Do not "
+"insult or put down other participants. Harassment and other exclusionary "
+"behavior aren't acceptable. This includes, but is not limited to:\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:31
+#, no-wrap
+msgid "Violent threats or language directed against another person.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:32
+#, no-wrap
+msgid "Discriminatory jokes and language.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:33
+#, no-wrap
+msgid "Posting sexually explicit or violent material.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:34
+#, no-wrap
+msgid ""
+"Posting (or threatening to post) other people's personally identifying "
+"information (\"doxing\").\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:35
+#, no-wrap
+msgid "Personal insults, especially those using racist or sexist terms.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:36
+#, no-wrap
+msgid "Unwelcome sexual attention.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:37
+#, no-wrap
+msgid "Advocating for, or encouraging, any of the above behavior.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:38
+#, no-wrap
+msgid ""
+"*In general, if someone asks you to stop, then stop.* Persisting in such "
+"behavior after being asked to stop is considered harassment.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:39
+#, no-wrap
+msgid ""
+"*When we disagree, try to understand why.* Disagreements, both social and "
+"technical, happen all the time and FreeBSD is no exception. It is important "
+"that we resolve disagreements and differing views constructively. Remember "
+"that we're different. The strength of FreeBSD comes from its varied "
+"community, people from a wide range of backgrounds. Different people have "
+"different perspectives on issues. Being unable to understand why someone "
+"holds a viewpoint doesn't mean that they're wrong. Don't forget that it is "
+"human to err and blaming each other doesn't get us anywhere. Instead, focus "
+"on helping to resolve issues and learning from mistakes.\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/code-of-conduct.adoc:40
+#, no-wrap
+msgid "Questions?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:43
+msgid ""
+"If you have questions, please feel free to contact the FreeBSD Code of "
+"Conduct Committee by emailing "
+"mailto:conduct@freebsd.org[conduct@FreeBSD.org] or the FreeBSD Core team "
+"mailto:core@freebsd.org[core@FreeBSD.org]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/code-of-conduct.adoc:44
+msgid ""
+"(This text is based on the LLVM Project's "
+"https://llvm.org/docs/CodeOfConduct.html[draft CoC], which in turn is based "
+"on the https://www.djangoproject.com/conduct/[Django Project] Code of "
+"Conduct, which is in turn based on wording from the Speak Up! project.)"
+msgstr ""

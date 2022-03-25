@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/1.0/announce.adoc:1
+#: content/en/releases/1.0/announce.adoc:6
+#, no-wrap
+msgid "FreeBSD 1.0 Announcement"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:12
+msgid ""
+"From: jkh@whisker.lotus.ie (Jordan K. Hubbard) + Newsgroups: "
+"comp.os.386bsd.announce + Subject: FreeBSD 1.0 RELEASE now available + Date: "
+"1 Nov 1993 16:12:20 -0800"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:14
+msgid ""
+"The first \"official\" release of FreeBSD 1.0 is now available, no more "
+"greek letters - this is the \"production\" release."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:16
+msgid ""
+"While a fair number of bugs were also whacked between EPSILON and RELEASE, "
+"the following additional features deserve special mention:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:18
+msgid ""
+"A dynamic buffer cache mechanism that automagically grows and shrinks as you "
+"use the memory for other things. This should speed up disk operations "
+"significantly."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:19
+msgid "The Linux sound driver for Gravis UltraSound, SoundBlaster, etc. cards."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:20
+msgid "Mitsumi CDROM interface and drive."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:21
+msgid "Updated install floppies."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:22
+msgid ""
+"More fail-safe probing of devices on the ISA bus. This makes it much harder "
+"for devices to conflict with each other."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:23
+msgid "Advance syscons support for XFree86 2.0."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:25
+msgid "For more information, please read the release notes."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:27
+msgid ""
+"FreeBSD 1.0 RELEASE may be obtained by ftp on freebsd.cdrom.com, and on its "
+"various mirror sites within a day or so."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:29
+msgid "Release structure:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:31
+msgid "FreeBSD.cdrom.com:~ftp/pub/FreeBSD/"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:33
+msgid "FreeBSD-1.0-RELEASE/"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:35
+msgid "bin+src releases."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:37
+msgid "FreeBSD-1.0-EPSILON-to-RELEASE"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:39
+msgid "Upgrade patches for existing EPSILON sites."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:41
+msgid ""
+"Thanks, as usual, to all the kind individuals on the net who aided us "
+"significantly bu finding bugs, contributing fixes and just generally lending "
+"moral support. Thank You!"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:43
+msgid ""
+"Also, continuing thanks to Walnut Creek CDROM who's ongoing (and, up to now, "
+"profitless) support has made this all possible."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:45
+msgid ""
+"Questions, as usual, should be sent to "
+"\"freebsd-questions@freefall.cdrom.com\". Bug reports to "
+"\"freebsd-bugs@freefall.cdrom.com\" and general technical commentary to "
+"\"freebsd-hackers@freefall.cdrom.com\"."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:48
+msgid "Regards, + The FreeBSD Team."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/1.0/announce.adoc:49
+msgid "link:../../[Release Home]"
+msgstr ""

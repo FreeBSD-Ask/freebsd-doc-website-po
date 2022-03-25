@@ -1,0 +1,675 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.1.5R/announce.adoc:1
+#: content/en/releases/2.1.5R/announce.adoc:6
+#, no-wrap
+msgid "FreeBSD 1.0 Announcement"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:9
+msgid ""
+"FreeBSD ftp://ftp.FreeBSD.org/pub/FreeBSD/2.1.5-RELEASE[2.1.5-RELEASE] is "
+"now available on ftp.FreeBSD.org and various FTP mirror sites throughout the "
+"world. It can also be ordered on "
+"http://www.cdrom.com/titles/freebsd.html[CD] from "
+"http://www.cdrom.com/[Walnut Creek CDROM]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:11
+msgid ""
+"FreeBSD 2.1.5 represents the culmination of over a year's worth of work on "
+"the 2.1-STABLE branch of FreeBSD since it began with FreeBSD 2.0.5. In the 7 "
+"months since 2.1 was released, many bug fixes, updates and careful "
+"enhancements have been made, the results of which you now see here."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:13
+msgid ""
+"The STABLE branch was conceived out of the need to allow FreeBSD to grow and "
+"support long-term development projects (like devfs, NFSv3, IPX, PCCARD, "
+"etc.) while at the same time not jeopardizing the stability of its existing "
+"user base. FreeBSD 2.1.5 marks the finishing point for that effort and, "
+"barring any small \"slipstream\" releases done to solve significant "
+"problems, no further releases along the 2.1-STABLE branch are "
+"anticipated. The concept of \"stable\" and \"experimental\" tracks is not "
+"being abandoned, we'll simply be doing this somewhat differently in the "
+"future."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:15
+msgid ""
+"For more information on the 2.1.5 release itself, please consult the "
+"link:../notes/[Release Notes]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:17
+msgid ""
+"The official sources for FreeBSD are available via anonymous FTP from: "
+"ftp://ftp.FreeBSD.org/pub/FreeBSD[ftp.FreeBSD.org]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:19
+msgid "Or via the WEB at: http://www.FreeBSD.org/releases/[www.FreeBSD.org]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:21
+msgid "And on CD-ROM from Walnut Creek CDROM:"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.1.5R/announce.adoc:31
+#, no-wrap
+msgid ""
+"     Walnut Creek CDROM\n"
+"     4041 Pike Lane, #D\n"
+"     Concord CA, 94520 USA\n"
+"     Phone: +1 510 674-0783\n"
+"     Fax: +1 510 674-0821\n"
+"     Tech Support: +1 510 603-1234\n"
+"     Email: info@cdrom.com\n"
+"     WWW: http://www.cdrom.com\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:34
+msgid ""
+"Additionally, FreeBSD is available via anonymous FTP from the following "
+"mirror sites. If you choose to obtain FreeBSD via anonymous FTP, please try "
+"to use a site near you:"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:35
+#, no-wrap
+msgid "Australia"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:38
+msgid "In case of problems, please contact hostmaster@au.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:40
+msgid "ftp://ftp.au.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:41
+msgid "ftp://ftp2.au.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:42
+msgid "ftp://ftp3.au.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:43
+msgid "ftp://ftp4.au.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:44
+#: content/en/releases/2.1.5R/announce.adoc:216
+#, no-wrap
+msgid "Brazil"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:47
+msgid "In case of problems, please contact hostmaster@br.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:49
+#: content/en/releases/2.1.5R/announce.adoc:219
+msgid "ftp://ftp.br.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:50
+msgid "ftp://ftp2.br.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:51
+msgid "ftp://ftp3.br.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:52
+msgid "ftp://ftp4.br.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:53
+msgid "ftp://ftp5.br.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:54
+msgid "ftp://ftp6.br.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:55
+msgid "ftp://ftp7.br.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:56
+#, no-wrap
+msgid "Canada"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:59
+msgid "In case of problems, please contact hostmaster@ca.FreeBSD.org"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:61
+msgid "ftp://ftp.ca.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:62
+#, no-wrap
+msgid "Czech Republic"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:65
+msgid "ftp://sunsite.mff.cuni.cz/OS/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:67
+msgid "Problem Contact: jj@sunsite.mff.cuni.cz"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:68
+#, no-wrap
+msgid "Estonia"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:71
+msgid "In case of problems, please contact hostmaster@ee.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:73
+msgid "ftp://ftp.ee.freebsd.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:74
+#: content/en/releases/2.1.5R/announce.adoc:220
+#, no-wrap
+msgid "Finland"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:77
+msgid "In case of problems, please contact hostmaster@fi.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:79
+msgid "ftp://ftp.fi.freebsd.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:80
+#, no-wrap
+msgid "France"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:83
+msgid "ftp://ftp.ibp.fr/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:85
+msgid "Problem Contact: Remy.Card@ibp.fr."
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:86
+#, no-wrap
+msgid "Germany"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:89
+msgid "In case of problems, please contact hostmaster@de.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:91
+msgid "ftp://ftp.de.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:92
+msgid "ftp://ftp2.de.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:93
+msgid "ftp://ftp3.de.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:94
+msgid "ftp://ftp4.de.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:95
+msgid "ftp://ftp5.de.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:96
+msgid "ftp://ftp6.de.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:97
+msgid "ftp://ftp7.de.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:98
+#, no-wrap
+msgid "Hong Kong"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:101
+msgid "ftp://ftp.hk.super.net/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:103
+msgid "Problem Contact: ftp-admin@HK.Super.NET."
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:104
+#, no-wrap
+msgid "Ireland"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:107
+msgid "In case of problems, please contact hostmaster@ie.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:109
+msgid "ftp://ftp.ie.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:110
+#, no-wrap
+msgid "Israel"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:113
+msgid "ftp://orgchem.weizmann.ac.il/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:115
+#: content/en/releases/2.1.5R/announce.adoc:118
+msgid "Problem Contact: serg@klara.weizmann.ac.il."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:116
+msgid "ftp://xray4.weizmann.ac.il/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:119
+#, no-wrap
+msgid "Japan"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:122
+msgid "In case of problems, please contact hostmaster@jp.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:124
+msgid "ftp://ftp.jp.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:125
+msgid "ftp://ftp2.jp.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:126
+msgid "ftp://ftp3.jp.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:127
+msgid "ftp://ftp4.jp.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:128
+msgid "ftp://ftp5.jp.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:129
+msgid "ftp://ftp6.jp.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:130
+#, no-wrap
+msgid "Korea"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:133
+msgid "In case of problems, please contact hostmaster@kr.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:135
+msgid "ftp://ftp.kr.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:136
+msgid "ftp://ftp2.kr.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:137
+#, no-wrap
+msgid "Netherlands"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:140
+msgid "In case of problems, please contact hostmaster@nl.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:142
+msgid "ftp://ftp.nl.freebsd.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:143
+#, no-wrap
+msgid "Poland"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:146
+msgid "ftp://SunSITE.icm.edu.pl/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:148
+msgid "Problem Contact: ftp@SunSITE.icm.edu.pl"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:149
+#, no-wrap
+msgid "Portugal"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:152
+msgid "ftp://ftp.ua.pt/pub/misc/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:154
+msgid "Problem Contact: archie@ua.pt"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:155
+#, no-wrap
+msgid "Russia"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:158
+msgid "In case of problems, please contact hostmaster@ru.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:160
+msgid "ftp://ftp.ru.FreeBSD.org/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:161
+msgid "ftp://ftp2.ru.FreeBSD.org/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:162
+#: content/en/releases/2.1.5R/announce.adoc:211
+#, no-wrap
+msgid "South Africa"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:165
+msgid "In case of problems, please contact hostmaster@za.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:167
+msgid "ftp://ftp.za.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:168
+msgid "ftp://ftp2.za.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:169
+msgid "ftp://ftp3.za.FreeBSD.ORG/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:170
+#, no-wrap
+msgid "Sweden"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:173
+msgid "In case of problems, please contact the hostmaster@se.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:175
+msgid "ftp://ftp.se.freebsd.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:176
+#, no-wrap
+msgid "Taiwan"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:179
+msgid "In case of problems, please contact hostmaster@tw.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:181
+msgid "ftp://ftp.tw.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:182
+msgid "ftp://ftp2.tw.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:183
+msgid "ftp://ftp3.tw.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:184
+#, no-wrap
+msgid "Thailand"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:187
+msgid "ftp://ftp.nectec.or.th/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:189
+msgid "Problem Contact: ftpadmin@ftp.nectec.or.th"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:190
+#, no-wrap
+msgid "USA"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:193
+msgid "In case of problems, please contact hostmaster@FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:195
+msgid "ftp://ftp.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:196
+msgid "ftp://ftp2.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:197
+msgid "ftp://ftp3.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:198
+msgid "ftp://ftp4.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:199
+msgid "ftp://ftp5.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:200
+msgid "ftp://ftp6.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.5R/announce.adoc:201
+#, no-wrap
+msgid "UK"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:204
+msgid "In case of problems, please contact hostmaster@uk.FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:206
+msgid "ftp://ftp.uk.FreeBSD.ORG/packages/unix/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:207
+msgid "ftp://ftp2.uk.FreeBSD.ORG/pub/walnut.creek/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:208
+msgid "ftp://ftp3.uk.FreeBSD.ORG/pub/BSD/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:210
+msgid ""
+"The latest versions of export-restricted code for FreeBSD (2.0C or later) "
+"(eBones and secure) are being made available at the following locations. If "
+"you are outside the U.S. or Canada, please get secure (DES) and eBones "
+"(Kerberos) from one of the following foreign distribution sites:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:214
+msgid "ftp://ftp.internat.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:215
+msgid "ftp://ftp2.internat.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:223
+msgid "ftp://nic.funet.fi/pub/unix/FreeBSD/eurocrypt"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.5R/announce.adoc:224
+msgid "link:../../[Release Home]"
+msgstr ""

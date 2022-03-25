@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/platforms/_index.adoc:1 content/en/platforms/_index.adoc:8
+#, no-wrap
+msgid "Platforms"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/_index.adoc:10
+#, no-wrap
+msgid "Supported Platforms"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/_index.adoc:13
+msgid "Here is a list of platforms supported by FreeBSD."
+msgstr ""
+
+#. type: Table
+#: content/en/platforms/_index.adoc:34
+#, no-wrap
+msgid ""
+"|Platform Name |TARGET_ARCH |12.x link:{committers-guide}#archs[Support "
+"Tier] |13.x link:{committers-guide}#archs[Support Tier] |Projected 14.x "
+"link:{committers-guide}#archs[Support Tier]\n"
+"|64-bit x86 |link:amd64[amd64] |Tier 1 |Tier 1 |Tier 1\n"
+"|32-bit x86 |link:i386[i386] |Tier 1 |Tier 2 |Tier 2\n"
+"|64-bit ARMv8 |link:arm[aarch64] |Tier 2 |Tier 1 |Tier 1\n"
+"|32-bit ARMv4/5 |link:arm[arm] |Tier 2 |Unsupported |Unsupported\n"
+"|32-bit ARMv6 |link:arm[armv6] |Tier 2 |Tier 2 |Tier 2\n"
+"|32-bit ARMv7 |link:arm[armv7] |Tier 2 |Tier 2 |Tier 2\n"
+"|32-bit MIPS soft-float |link:mips[mips, mipsel] |Tier 2 |Tier 2 "
+"|Unsupported\n"
+"|32-bit MIPS hard-float |link:mips[mipshf, mipselhf] |Tier 2 |Tier 2 "
+"|Unsupported\n"
+"|32-bit MIPS n32 |link:mips[mipsn32] |Tier 2 |Tier 2 |Unsupported\n"
+"|64-bit MIPS soft-float |link:mips[mips64, mips64el] |Tier 2 |Tier 2 "
+"|Unsupported\n"
+"|64-bit MIPS hard-float |link:mips[mips64hf, mips64elhf] |Tier 2 |Tier 2 "
+"|Unsupported\n"
+"|32-bit PowerPC |link:ppc[powerpc] |Tier 2 |Tier 2 |Tier 2\n"
+"|32-bit PowerPC with SPE |link:ppc[powerpcspe] |Tier 2 |Tier 2 |Tier 2\n"
+"|64-bit PowerPC |link:ppc[powerpc64] |Tier 2 |Tier 2 |Tier 2\n"
+"|64-bit RISC-V |https://wiki.freebsd.org/riscv[riscv64, riscv64sf] |Tier 3 "
+"|Tier 2 |Tier 2\n"
+"|64-bit SPARCv9 |link:sparc[sparc64] |Tier 2 |Unsupported |Unsupported\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/_index.adoc:36
+#, no-wrap
+msgid "Unsupported Platforms"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/_index.adoc:39
+msgid "These platforms were supported by older versions of FreeBSD."
+msgstr ""
+
+#. type: Table
+#: content/en/platforms/_index.adoc:48
+#, no-wrap
+msgid ""
+"|Platform Name |TARGET_ARCH |Last Supported Release\n"
+"|Alpha |alpha |link:../releases/#rel6-4[6.4]\n"
+"|32-bit big-endian ARM |armeb |link:../releases/#rel11-4[11.4]\n"
+"|Intel IA-64 |ia64 |link:../releases/#rel10-4[10.4]\n"
+"|PC98 |pc98 |link:../releases/#rel11-4[11.4]\n"
+msgstr ""

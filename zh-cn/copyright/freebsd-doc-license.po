@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/copyright/freebsd-doc-license.adoc:1
+#: content/en/copyright/freebsd-doc-license.adoc:6
+#, no-wrap
+msgid "The FreeBSD Documentation License"
+msgstr ""
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:9
+msgid "Copyright 1994-2022 The FreeBSD Project. All rights reserved."
+msgstr ""
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:11
+msgid ""
+"Redistribution and use in source (AsciiDoc) and 'compiled' forms (HTML, PDF, "
+"EPUB and so forth) with or without modification, are permitted provided that "
+"the following conditions are met:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:13
+msgid ""
+"Redistributions of source code (AsciiDoc) must retain the above copyright "
+"notice, this list of conditions and the following disclaimer as the first "
+"lines of this file unmodified."
+msgstr ""
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:14
+msgid ""
+"Redistributions in compiled form (Converted to PDF, EPUB and other formats) "
+"must reproduce the above copyright notice, this list of conditions and the "
+"following disclaimer in the documentation and/or other materials provided "
+"with the distribution."
+msgstr ""
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:16
+msgid ""
+"THIS DOCUMENTATION IS PROVIDED BY THE FREEBSD DOCUMENTATION PROJECT \"AS "
+"IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, "
+"THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR "
+"PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FREEBSD DOCUMENTATION PROJECT "
+"BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR "
+"CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF "
+"SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS "
+"INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN "
+"CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) "
+"ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF "
+"THE POSSIBILITY OF SUCH DAMAGE."
+msgstr ""
+
+#. type: Title ==
+#: content/en/copyright/freebsd-doc-license.adoc:17
+#, no-wrap
+msgid "Manual Pages"
+msgstr ""
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:20
+msgid ""
+"Some FreeBSD manual pages contain text from the _IEEE Std 1003.1, 2004 "
+"Edition, Standard for Information Technology -- Portable Operating System "
+"Interface (POSIX(R)) specification_. These manual pages are subject to the "
+"following terms:"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/copyright/freebsd-doc-license.adoc:23
+msgid ""
+"The Institute of Electrical and Electronics Engineers and The Open Group, "
+"have given us permission to reprint portions of their documentation."
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/copyright/freebsd-doc-license.adoc:25
+msgid ""
+"In the following statement, the phrase \"this text\" refers to portions of "
+"the system documentation."
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/copyright/freebsd-doc-license.adoc:27
+msgid ""
+"Portions of this text are reprinted and reproduced in electronic form in the "
+"FreeBSD manual pages, from IEEE Std 1003.1, 2004 Edition, Standard for "
+"Information Technology -- Portable Operating System Interface (POSIX), The "
+"Open Group Base Specifications Issue 6, Copyright(C) 2001-2004 by the "
+"Institute of Electrical and Electronics Engineers, Inc and The Open "
+"Group. In the event of any discrepancy between these versions and the "
+"original IEEE and The Open Group Standard, the original IEEE and The Open "
+"Group Standard is the referee document. The original Standard can be "
+"obtained online at "
+"https://www.opengroup.org/membership/forums/platform/unix."
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/copyright/freebsd-doc-license.adoc:29
+msgid "This notice shall appear on any product containing this material."
+msgstr ""
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:31
+msgid "link:..[Legal Home]"
+msgstr ""

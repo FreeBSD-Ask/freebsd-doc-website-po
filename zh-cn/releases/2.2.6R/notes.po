@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.2.6R/notes.adoc:1
+#: content/en/releases/2.2.6R/notes.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.2.6 Release Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:13
+#, no-wrap
+msgid ""
+"================================================================\n"
+"                         RELEASE NOTES\n"
+"                  FreeBSD 2.2.6-RELEASE VERSION\n"
+"================================================================\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:16
+#, no-wrap
+msgid ""
+"What's new since 2.2.5\n"
+"----------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:18
+#, no-wrap
+msgid "Kernel features:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:21
+#, no-wrap
+msgid ""
+"o Added support for SMC EtherPower II 10/100 Fast Ethernet card\n"
+"  (aka SMC9432TX based on SMC83c170 EPIC chip).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:23
+#, no-wrap
+msgid "o Added support for DPT SCSI RAID controllers (see LINT).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:27
+#, no-wrap
+msgid ""
+"o New Plug and Play (PnP) support that allows you to (re)configure\n"
+"  PnP devices.  Also support modems being detected by the PnP\n"
+"  part and automatically attached.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:33
+#, no-wrap
+msgid ""
+"o Alternate sound driver (/sys/i386/isa/snd) from Luigi Rizzo;\n"
+"  it does not yet support MIDI (for that, use the old sound\n"
+"  driver) but it does have much better support for PNP sound\n"
+"  cards and is much easier to configure (only one device).\n"
+"  See /sys/i386/conf/LINT for more info.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:36
+#, no-wrap
+msgid ""
+"o Better Linux emulation (applications like RealVideo 5.0 for\n"
+"  Linux now work).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:38
+#, no-wrap
+msgid "o Added support for ATAPI floppy drives (LS-120)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:45
+#, no-wrap
+msgid ""
+"o The psm, mse and sysmouse drivers are improved to provide\n"
+"  better mouse support.  moused(8) has been modified to support\n"
+"  various mice with a ``wheel''.  It also automatically\n"
+"  recognizes mice which support the PnP COM device standard so\n"
+"  that the user is no longer required to supply a mouse protocol\n"
+"  type on the command line.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:47
+#, no-wrap
+msgid "Userland features:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:49
+#, no-wrap
+msgid "o popen() library call now uses and offers bidirectional pipes.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:53
+#, no-wrap
+msgid ""
+"o Added support for parallel makes in /usr/src (-j n works\n"
+"  now with   world target, particularly useful with SMP\n"
+"  machines).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:55
+#, no-wrap
+msgid "o tcpdump(1) utility enhanced\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:57
+#, no-wrap
+msgid "o Support for ldconfig -R (remove) added.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:59
+#, no-wrap
+msgid "o Various bugfixes and enhancements to pthread support.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:61
+#, no-wrap
+msgid "o calendar(1) program brought more up-to-date.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:63
+#, no-wrap
+msgid "o KerberosIV updated to latest version.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:65
+#, no-wrap
+msgid "o Various curses(3) bugs fixed.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:67
+#, no-wrap
+msgid "o Various IEEE754 conformance changes to libm(3).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:69
+#, no-wrap
+msgid "o Much cleanup and general improvements to the documentation.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:71
+#, no-wrap
+msgid "o Various improvements to the NIS code.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:74
+#, no-wrap
+msgid "Security issues:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:76
+#, no-wrap
+msgid "o Fixed /dev/io and mmap security holes.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:78
+#, no-wrap
+msgid "o Better protection against \"LAND attacks\"\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:80
+#, no-wrap
+msgid "o Various buffer overruns detected and extra checks added.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:83
+#, no-wrap
+msgid ""
+"o Pentium \"F00F bug\" is detected and a work-around installed to\n"
+"  prevent hangs.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.6R/notes.adoc:86
+#, no-wrap
+msgid ""
+"o srandomdev() support merged from -current and utilities updated\n"
+"  to use it.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.6R/notes.adoc:88
+msgid "link:../../[Release Home]"
+msgstr ""

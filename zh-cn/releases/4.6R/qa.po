@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.6R/qa.adoc:1
+#, no-wrap
+msgid "Testing Guide for 4.6-RELEASE"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:10
+#, no-wrap
+msgid "<h3>Goals</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:19
+#, no-wrap
+msgid ""
+"<p>As part of our on-going effort to improve the release engineering\n"
+"  process, we have identified several areas that need significant\n"
+"  quality assurance testing during the release candidate phase.\n"
+"  Below, we've listed the changes in 4.6-PRERELEASE that we feel merit\n"
+"  the most attention due to their involving substantial changes to the\n"
+"  system, or having arrived late in the development cycle leading up\n"
+"  to the release.  In general, our goal in the QA process is to\n"
+"  attempt to check a number of things:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:24
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li>The system has not regressed with respects to stability, "
+"correctness,\n"
+"    interoperability, or performance of features present in prior\n"
+"    releases.<br clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:28
+#, no-wrap
+msgid ""
+"  <li>New features result in the desired improvement in stability,\n"
+"    correctness, interoperability, or performance.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:35
+#, no-wrap
+msgid ""
+"<p>To effectively determine this, it's desirable to test the system in\n"
+"  a diverse set of environments, applying a wide set of workloads,\n"
+"  forcing the system to operate both within and outside its normal\n"
+"  specification.  Particular focus should often be placed on the\n"
+"  continuing (or new) capability of the system to perform correctly\n"
+"  when used in concert with systems from other vendors.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:37
+#, no-wrap
+msgid "<h3>Features to explore carefully:</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:39
+#, no-wrap
+msgid "<ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:45
+#, no-wrap
+msgid ""
+"  <li>DHCP client support.  This release will feature a major update\n"
+"    of the ISC DHCP client (v3.0.1 RC8).  The common cases have been\n"
+"    well tested, but testing in more demanding or unusual environments\n"
+"    would be beneficial.  In particular, the new dynamic DNS update\n"
+"    functionality has not been well tested.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:63
+#, no-wrap
+msgid ""
+"  <li>sppp(4) upgrade.  The ISDN project (i4b) once maintained an\n"
+"    off-spring version of the SyncPPP driver, with a number of\n"
+"    enhancements and bug-fixes made to it by people contributing to\n"
+"    the i4b project.  On the other hand, other improvements and\n"
+"    bug-fixes of the regular tree's sppp driver didn't make it back\n"
+"    to that version, so eventually two different SyncPPP drivers\n"
+"    developed.  The i4b version has been merged back in FreeBSD-current\n"
+"    a few months ago, and these changes have now been folded into\n"
+"    FreeBSD-stable as well, thus eliminating i4b's separate version.\n"
+"    sppp users (of both flavours) should carefully test the new\n"
+"    version.  Users who previously used the i4b version should find\n"
+"    all those improvements still being present (most notably, VJ header\n"
+"    compression).  Users who use sppp on hardware (HDLC) devices (like\n"
+"    ar(4) or sr(4)) should see no breakage, but might notice that the\n"
+"    negotiation of VJ header compression is now enabled by default.\n"
+"    Use spppcontrol(8) to modify the default behaviour.  Please report\n"
+"    any breakage or oddity you observe to &lt;joerg@FreeBSD.org&gt;.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:69
+#, no-wrap
+msgid ""
+"  <li>XFree86 4.2.0.  sysinstall now installs XFree86 4.2.0 instead of\n"
+"    XFree86 3.3.6; the XFree86 installation now uses ``normal'' binary\n"
+"    packages instead of the special tarballs in past releases.  The\n"
+"    ports infrastructure now uses the XFree86 version 4 as the default\n"
+"    version for satisfying dependencies.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:71
+#, no-wrap
+msgid "</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:74
+#, no-wrap
+msgid ""
+"<p>The <a href=\"../relnotes/\" shape=\"rect\">release notes</a> will always "
+"be\n"
+"  a good place to look for things to test.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:76
+#, no-wrap
+msgid "<h3>Known Issues</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:82
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li>Due to a buffer truncation in sysinstall, the GNOME meta-port\n"
+"    (<tt>x11/gnome</tt>) in\n"
+"    4.6-RC1 does not install correctly.  This has been fixed and is\n"
+"    functional for 4.6-RC2 (and any later release candidate "
+"snapshots).</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:86
+#, no-wrap
+msgid ""
+"  <li>nslookup(1) had some bugs in 4.6-RC1 and 4.6-RC2.  These have\n"
+"    been been corrected and should function correctly beginning with\n"
+"    4.6-RC3.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:90
+#, no-wrap
+msgid ""
+"  <li>Some users have reported stability issues with tagged queueing\n"
+"    and the ata(4) driver.  These problems have only been observed\n"
+"    when using tags on motherboard-based ATA channels.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:94
+#, no-wrap
+msgid ""
+"  <li>Potential problems with the TCP default window size (see\n"
+"    kern/34801).  The default window size has been reduced from 65536\n"
+"    to 57344 for 4.6-RELEASE.  (Errata item needed.)</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:100
+#, no-wrap
+msgid ""
+"  <li>Some of the XFree86 configuration utilities write their\n"
+"    generated configuration files in places where sysinstall isn't\n"
+"    looking for them, thus complicating XFree86 installs that are\n"
+"    initiated from within sysinstall.  These have been changed to\n"
+"    /etc/X11/XF86Config for 4.6-RELEASE.  (Errata item needed.)</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:104
+#, no-wrap
+msgid ""
+"  <li>Some filenames in the ports tree are too long, thus resulting in\n"
+"    odd /usr/@LongLink files after a sysinstall.  These filenames have\n"
+"    been shortened for 4.6-RELEASE.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:107
+#, no-wrap
+msgid ""
+"  <li>Under some circumstances, dhclient can go into an infinite "
+"loop.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6R/qa.adoc:111
+#, no-wrap
+msgid ""
+"</div>\n"
+"          <br class=\"clearboth\" />\n"
+"        </div>\n"
+msgstr ""

@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 23:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/support/webresources.adoc:1
+#: content/en/support/webresources.adoc:6
+#, no-wrap
+msgid "Web Resources"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:9
+msgid "<<general,General UNIX(R) Information>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:10
+msgid "<<xwin,The X Window System>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:11
+msgid "<<related,Related Operating System Projects>>"
+msgstr ""
+
+#. type: Title ==
+#: content/en/support/webresources.adoc:13
+#, no-wrap
+msgid "General UNIX(R) Information"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:16
+msgid ""
+"https://distrowatch.com/table.php?distribution=freebsd[FreeBSD Distrowatch "
+"page]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:17
+msgid "https://www.freebsdnews.com/[FreeBSD News]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:18
+msgid "https://www.bsdnow.tv/[BSD Now podcasts]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:19
+msgid "https://www.oreilly.com/[O'Reilly Media, Inc.]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/support/webresources.adoc:21
+#, no-wrap
+msgid "The X Window System"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:24
+msgid ""
+"The https://www.x.org/[X.Org] project provides users of a variety of UNIX(R) "
+"systems, including FreeBSD, with an excellent X Window system."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:25
+msgid ""
+"The https://www.winehq.org/[WINE] project is working to provide the ability "
+"to run Microsoft Windows(R) software on Intel based UNIX systems such as "
+"FreeBSD, NetBSD and Linux."
+msgstr ""
+
+#. type: Title ==
+#: content/en/support/webresources.adoc:27
+#, no-wrap
+msgid "Related Operating System Projects"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:30
+msgid ""
+"https://www.netbsd.org/[*NetBSD*] is another free 4.4BSD Lite based "
+"operating system which runs on several different architectures."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:31
+msgid ""
+"https://www.openbsd.org/[*OpenBSD*] is another 4.4BSD derivative with focus "
+"on security."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:32
+msgid "https://www.kernel.org/[*Linux*] is another free UNIX(R) like system."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:33
+msgid ""
+"https://www.cs.utah.edu/flux/lites/html/[*Lites*] is a 4.4BSD Lite based "
+"server and emulation library that provides free UNIX(R) functionality to a "
+"Mach based system."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:34
+msgid ""
+"The https://www.gnu.org/software/hurd/hurd.html[*GNU Hurd*] project is "
+"another effort to develop a free UNIX(R) like operating system."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:35
+msgid ""
+"https://www.dragonflybsd.org/[*DragonFly BSD*] is based on FreeBSD 4.X but "
+"has a different set of development goals than FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/webresources.adoc:35
+msgid ""
+"https://www.illumos.org[*illumos*] is an open source fork of OpenSolaris, "
+"which ultimately has its roots in a BSD derivative called SunOS."
+msgstr ""

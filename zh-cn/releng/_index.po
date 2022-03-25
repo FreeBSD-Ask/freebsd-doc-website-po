@@ -1,0 +1,317 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:49+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releng/_index.adoc:1 content/en/releng/_index.adoc:9
+#, no-wrap
+msgid "Release Engineering Information"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:12
+msgid ""
+"This page contains documentation about the FreeBSD release engineering "
+"process."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:14
+msgid "<<schedule,Upcoming Release Schedule>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:15
+msgid "<<freeze,Code Freeze Status>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:16
+msgid "link:../releng/charter/[Charter for the Release Engineering Team]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:17
+msgid "<<docs,Release Engineering Documentation>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:18
+msgid "<<team,Current Release Engineering Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:19
+msgid "<<old,Old Releases>>"
+msgstr ""
+
+#. General information about committing to -STABLE.
+#. type: Title ==
+#: content/en/releng/_index.adoc:25
+#, no-wrap
+msgid "Upcoming Release Schedule"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:28
+msgid "Note: Release dates are approximate and may be subject to schedule slippage."
+msgstr ""
+
+#. type: Table
+#: content/en/releng/_index.adoc:36
+#, no-wrap
+msgid ""
+"|Date |Event |Information\n"
+"|April 2022 |FreeBSD 13.1 |link:../releases/13.1R/schedule/[Target "
+"Schedule]\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releng/_index.adoc:39
+#, no-wrap
+msgid "Code-Freeze Status"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:42
+msgid ""
+"This table lists the code freeze status for major branches of the `src/` "
+"repository of the FreeBSD Git repositories. Commits to any branch listed as "
+"\"frozen\" must first be reviewed and approved by the relevant contact "
+"party. The status of other repositories such as `ports/` and `doc/` is also "
+"provided below."
+msgstr ""
+
+#. type: Table
+#: content/en/releng/_index.adoc:113
+#, no-wrap
+msgid ""
+"|Branch |Status |Contact |Notes\n"
+"|`main` |Open |committers |Active development branch for 14.0-CURRENT.\n"
+"|`stable/13` |Open |committers |Development branch for FreeBSD 13-STABLE.\n"
+"|`releng/13.1` |Frozen |re@FreeBSD.org |FreeBSD 13.1 supported errata fix "
+"branch.\n"
+"|`releng/13.0` |Frozen |so@FreeBSD.org |FreeBSD 13.0 supported errata fix "
+"branch.\n"
+"|`stable/12` |Open |committers |Development branch for FreeBSD 12-STABLE.\n"
+"|`releng/12.3`|Frozen|security-officer@FreeBSD.org|FreeBSD 12.3 supported "
+"errata fix branch.\n"
+"|`releng/12.2`|Frozen|security-officer@FreeBSD.org|FreeBSD 12.2 supported "
+"errata fix branch.\n"
+"|`releng/12.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 12.1 errata "
+"fix branch (not officially supported).\n"
+"|`releng/12.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 12.0 errata "
+"fix branch (not officially supported).\n"
+"|`stable/11` |Open |committers |Maintenance branch for FreeBSD 11-STABLE "
+"(not officially supported).\n"
+"|`releng/11.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 11.4 errata "
+"fix branch (not officially supported).\n"
+"|`releng/11.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 11.3 errata "
+"fix branch (not officially supported).\n"
+"|`releng/11.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 11.2 errata "
+"fix branch (not officially supported).\n"
+"|`releng/11.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 11.1 errata "
+"fix branch (not officially supported).\n"
+"|`releng/11.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 11.0 errata "
+"fix branch (not officially supported).\n"
+"|`stable/10` |Open |committers |Maintenance branch for 10-STABLE (not "
+"officially supported).\n"
+"|`releng/10.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 10.4 errata "
+"fix branch (not officially supported).\n"
+"|`releng/10.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 10.3 errata "
+"fix branch (not officialy supported).\n"
+"|`releng/10.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 10.2 errata "
+"fix branch (not officially supported).\n"
+"|`releng/10.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 10.1 errata "
+"fix branch (not officially supported).\n"
+"|`releng/10.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 10.0 errata "
+"fix branch (not officially supported).\n"
+"|`stable/9` |Open |committers |Maintenance branch for FreeBSD 9-STABLE (not "
+"officially supported).\n"
+"|`releng/9.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 9.3 errata fix "
+"branch (not officially supported).\n"
+"|`releng/9.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 9.2 errata fix "
+"branch (not officially supported).\n"
+"|`releng/9.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 9.1 errata fix "
+"branch (not officially supported).\n"
+"|`releng/9.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 9.0 errata fix "
+"branch (not officially supported).\n"
+"|`stable/8` |Open |committers |Maintenance branch for 8-STABLE (not "
+"officially supported).\n"
+"|`releng/8.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 8.4 errata fix "
+"branch (not officially supported).\n"
+"|`releng/8.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 8.3 errata fix "
+"branch (not officially supported).\n"
+"|`releng/8.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 8.2 errata fix "
+"branch (not officially supported).\n"
+"|`releng/8.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 8.1 errata fix "
+"branch (not officially supported).\n"
+"|`releng/8.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 8.0 errata fix "
+"branch (not officially supported).\n"
+"|`stable/7` |Open |committers |Maintenance branch for 7-STABLE (not "
+"officially supported).\n"
+"|`releng/7.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 7.4 errata fix "
+"branch (not officially supported).\n"
+"|`releng/7.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 7.3 errata fix "
+"branch (not officially supported).\n"
+"|`releng/7.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 7.2 errata fix "
+"branch (not officially supported).\n"
+"|`releng/7.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 7.1 errata fix "
+"branch (not officially supported).\n"
+"|`releng/7.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 7.0 errata fix "
+"branch (not officially supported).\n"
+"|`stable/6` |Open |committers |Maintenance branch for 6-STABLE (not "
+"officially supported).\n"
+"|`releng/6.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 6.4 errata fix "
+"branch (not officially supported).\n"
+"|`releng/6.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 6.3 errata fix "
+"branch (not officially supported).\n"
+"|`releng/6.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 6.2 errata fix "
+"branch (not officially supported).\n"
+"|`releng/6.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 6.1 errata fix "
+"branch (not officially supported).\n"
+"|`releng/6.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 6.0 errata fix "
+"branch (not officially supported).\n"
+"|`stable/5` |Open |committers |Maintenance branch for 5-STABLE (not "
+"officially supported).\n"
+"|`releng/5.5` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.5 errata fix "
+"branch (not officially supported).\n"
+"|`releng/5.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.4 errata fix "
+"branch (not officially supported).\n"
+"|`releng/5.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.3 errata fix "
+"branch (not officially supported).\n"
+"|`releng/5.2` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.2 / 5.2.1 "
+"security fix branch (not officially supported).\n"
+"|`releng/5.1` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.1 security "
+"fix branch (not officially supported).\n"
+"|`releng/5.0` |Frozen |security-officer@FreeBSD.org |FreeBSD 5.0 security "
+"fix branch (not officially supported).\n"
+"|`stable/4` |Open |committers |Maintenance branch for 4-STABLE (not "
+"officially supported).\n"
+"|`releng/4.11` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.11 errata "
+"fix branch (not officially supported).\n"
+"|`releng/4.10` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.10 security "
+"fix branch (not officially supported).\n"
+"|`releng/4.9` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.9 security "
+"fix branch (not officially supported).\n"
+"|`releng/4.8` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.8 security "
+"fix branch (not officially supported).\n"
+"|`releng/4.7` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.7 security "
+"fix branch (not officially supported).\n"
+"|`releng/4.6` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.6 security "
+"fix branch (not officially supported).\n"
+"|`releng/4.5` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.5 security "
+"fix branch (not officially supported).\n"
+"|`releng/4.4` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.4 security "
+"fix branch (not officially supported).\n"
+"|`releng/4.3` |Frozen |security-officer@FreeBSD.org |FreeBSD 4.3 security "
+"fix branch (not officially supported).\n"
+"|`stable/3` |Open |committers |Maintenance branch for 3-STABLE (not "
+"officially supported).\n"
+"|`stable/2.2` |Open |committers |Maintenance branch for 2.2-STABLE (not "
+"officially supported).\n"
+"|*Repository* |*Status* |*Contact* |*Notes*\n"
+"|`ports/` |Open |portmgr@FreeBSD.org |FreeBSD Ports Collection.\n"
+"|`doc/` |Open |freebsd-doc@FreeBSD.org |ASCIIDoc-based documentation set.\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releng/_index.adoc:116
+#, no-wrap
+msgid "Release Engineering Documentation"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:120
+msgid ""
+"link:{freebsd-releng}[FreeBSD Release Engineering] + This document details "
+"the approach used by the FreeBSD release engineering team to make "
+"production-quality releases of the FreeBSD Operating System. It describes "
+"the tools available for those interested in producing customized FreeBSD "
+"releases for corporate rollouts or commercial productization."
+msgstr ""
+
+#. type: Title ==
+#: content/en/releng/_index.adoc:122
+#, no-wrap
+msgid "Release Engineering Team"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:125
+msgid ""
+"The primary release engineering team is responsible for approving "
+"link:{handbook}#mfc-glossary[MFC] requests during code freezes, setting "
+"release schedules, and all of the other responsibilities laid out in our "
+"link:../releng/charter/[charter]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:127
+#, no-wrap
+msgid ""
+"*Primary RE Team (re@FreeBSD.org)* : {re-members} form the primary release "
+"engineering decision-making group.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:129
+msgid ""
+"The builders release engineering team is responsible for building and "
+"packaging FreeBSD releases on the various supported platforms."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:131
+#, no-wrap
+msgid "*Builders REs (re-builders@FreeBSD.org)* : {re-builders}\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:133
+msgid ""
+"The third party packages in the Ports Collection are managed by the portmgr@ "
+"team. Among many other responsibilities, the port managers keep the ports "
+"cluster running smoothly to produce binary packages."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:135
+#, no-wrap
+msgid "*Package Builders (portmgr@FreeBSD.org)* : {portmgr-members}\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releng/_index.adoc:137
+#, no-wrap
+msgid "Old Releases"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:140
+msgid ""
+"The FreeBSD Project does not maintain a complete archive of old release ISO "
+"images, but many of them are available at "
+"ftp://ftp-archive.FreeBSD.org/pub/FreeBSD-Archive/old-releases/."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releng/_index.adoc:141
+msgid ""
+"Older releases that are no longer present on any FTP mirror might still be "
+"available from CD-ROM vendors."
+msgstr ""

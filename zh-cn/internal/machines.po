@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:48+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/machines.adoc:1 content/en/internal/machines.adoc:6
+#, no-wrap
+msgid "The FreeBSD.org Network"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/machines.adoc:9
+msgid ""
+"This page documents, for those with accounts on the FreeBSD.org network, "
+"just what machine resources are currently available and the sorts of jobs "
+"they are being provided for."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/machines.adoc:11
+msgid ""
+"For a list of SSH host keys and their fingerprints for the public "
+"FreeBSD.org machines, please see link:../ssh-keys.asc[this file]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/machines.adoc:12
+#, no-wrap
+msgid "Developer FreeBSD.org hosts"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/machines.adoc:15
+msgid ""
+"These systems are available for FreeBSD developer / committer use. Reference "
+"systems can be used for build tests etc."
+msgstr ""
+
+#. type: Table
+#: content/en/internal/machines.adoc:26
+#, no-wrap
+msgid ""
+"|Host |OS |Type |Purpose\n"
+"|freefall |14-CURRENT |amd64 |Shell Logins.\n"
+"|ref[14\\|13\\|12]-amd64 |X-STABLE |amd64 |Reference machine for general "
+"testing and Ports building.\n"
+"|ref[14\\|13\\|12]-i386 |X-STABLE |i386 |Reference machine for general "
+"testing and Ports building.\n"
+"|ref[14\\|13\\|12]-aarch64 |X-STABLE |arm64\\|aarch64 |Reference machine for "
+"general testing and Ports building.\n"
+"|ref[14\\|13\\|12]-ppc64 |X-STABLE |ppc64\\|powerpc64 |Reference machine for "
+"general testing and Ports building.\n"
+"|universe[14\\|13\\|12][a\\|b] |X-STABLE |amd64 |Universe build machine for "
+"fast, large scale compiling.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/machines.adoc:29
+msgid ""
+"Machines are generally connected at 1Gbit/sec full-duplex to a dedicated "
+"switch with redundant gigabit uplinks. All systems have logged serial "
+"consoles and remote power management."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/machines.adoc:30
+msgid "link:../[FreeBSD Internal Home]"
+msgstr ""

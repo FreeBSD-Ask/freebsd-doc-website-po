@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/platforms/amd64.adoc:1 content/en/platforms/amd64.adoc:8
+#, no-wrap
+msgid "FreeBSD/amd64 Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:12
+msgid ""
+"link:../../gifs/daemon_hammer.jpg[image:../../gifs/daemon_hammer-tn15.jpg[BSD "
+"Daemon swinging a sledge hammer]]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:14
+msgid ""
+"This page contains information of the FreeBSD port to "
+"http://www.amd.com/[AMD's] AMD64 and "
+"http://www.intel.com/info/em64t[Intel(R) 64] architecture, often also known "
+"as \"x86-64\" or \"x64\". FreeBSD/amd64 is suitable for almost all recent "
+"AMD and Intel CPUs."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:16
+msgid ""
+"The AMD64 architecture was previously known as \"Hammer\". The Intel 64 "
+"architecture was previously known as Yamhill, Clackamas Technology (CT), "
+"IA-32e, and EM64T (Extended Memory 64-bit Technology)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:18
+msgid ""
+"Newer AMD Sempron(TM), the AMD Opteron(TM), AMD Athlon(TM) 64, AMD "
+"Turion(TM) and AMD Phenom(TM) processors, and processors with AMD "
+"\"Bulldozer\" and \"Bobcat\" cores all use the AMD64 architecture."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:20
+msgid ""
+"The Intel vPro(TM), Intel Celeron D (some models since \"Prescott\"), Intel "
+"Centrino(R) Duo, Intel Centrino(R) Pro, Intel Viiv(TM), Intel Core(TM)2 "
+"Extreme, Intel Core(TM)2 Quad, Intel Core(TM)2 Duo, Intel Xeon "
+"(3000-sequence, 5000-sequence, and 7000-sequence), and the Intel Core(TM) i "
+"range of processors use the Intel(R) 64 architecture."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/amd64.adoc:21
+#, no-wrap
+msgid "Status"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:24
+msgid ""
+"FreeBSD/amd64 runs in 64-bit multiuser mode, in both Uniprocessor and "
+"Multiprocessor mode."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:26
+msgid ""
+"The AMD64 platform is a link:{committers-guide}#archs[Tier 1] FreeBSD "
+"platform."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/amd64.adoc:27
+#, no-wrap
+msgid "FreeBSD/amd64 Specific Resources"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:30
+msgid ""
+"https://lists.freebsd.org/subscription/freebsd-amd64[FreeBSD/amd64 mailing "
+"list]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/amd64.adoc:31
+#, no-wrap
+msgid "Other Links of Interest"
+msgstr ""
+
+#. type: Title ===
+#: content/en/platforms/amd64.adoc:33
+#, no-wrap
+msgid "AMD64 Documentation"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:36
+msgid ""
+"http://support.amd.com/us/Processor_TechDocs/32200.pdf[AMD x86-64 "
+"Architecture Specification]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:37
+msgid ""
+"http://support.amd.com/us/Processor_TechDocs/24592_APM_v1.pdf[AMD64 "
+"Architecture Application Programmer's Manual]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:38
+msgid ""
+"http://support.amd.com/us/Processor_TechDocs/24593_APM_v2.pdf[AMD64 "
+"Architecture System Programmer's Manual]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:39
+msgid ""
+"http://www.x86-64.org/documentation/abi.pdf[AMD x86-64 DRAFT "
+"Processor-specific Application Binary Interface Specification]"
+msgstr ""
+
+#. type: Title ===
+#: content/en/platforms/amd64.adoc:40
+#, no-wrap
+msgid "Software Tools"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:43
+msgid "http://www.x86-64.org/downloads.html[Bochs and Simics Simulators and Tools]"
+msgstr ""
+
+#. type: Title ===
+#: content/en/platforms/amd64.adoc:44
+#, no-wrap
+msgid "Related Projects"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:47
+msgid "http://www.amd64.org/[Linux/AMD64]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/amd64.adoc:47
+msgid "http://www.NetBSD.org/Ports/amd64/[NetBSD/amd64]"
+msgstr ""

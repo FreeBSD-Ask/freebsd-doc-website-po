@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 21:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/3.4R/errata.adoc:1
+#: content/en/releases/3.4R/errata.adoc:6
+#, no-wrap
+msgid "FreeBSD 3.4 Errata Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:17
+#, no-wrap
+msgid ""
+"If you read no other documentation before installing this\n"
+"version of FreeBSD, you should at least by all means *READ\n"
+"THE ERRATA* for this release so that you don't stumble over\n"
+"problems which have already been found and fixed.  This ERRATA.TXT\n"
+"file is obviously already out of date by definition, but other\n"
+"copies are kept updated on the net and should be consulted as\n"
+"the \"current errata\" for your release.  These other copies of\n"
+"the errata are located at:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:19
+#, no-wrap
+msgid "  1. http://www.FreeBSD.org/releases/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:22
+#, no-wrap
+msgid ""
+"  2. ftp://ftp.FreeBSD.org/pub/FreeBSD/releases/<your-release>/ERRATA.TXT\n"
+"     (and any sites which keep up-to-date mirrors of this location).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:24
+#, no-wrap
+msgid "Any changes to this file are also automatically emailed to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:26
+#, no-wrap
+msgid "        freebsd-stable@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:28
+#, no-wrap
+msgid "For all CERT security advisories, see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:30
+#, no-wrap
+msgid "        ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:32
+#, no-wrap
+msgid "For the latest security incident information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:34
+#, no-wrap
+msgid "---- Security Advisories:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:36
+#, no-wrap
+msgid "Current active security advisories for 3.4:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:38
+#, no-wrap
+msgid "    FreeBSD-SA-00:01.make\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:40
+#, no-wrap
+msgid "---- System Update Information:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:43
+#, no-wrap
+msgid ""
+"As shipped, the \"Custom\" installation option in 3.4 is broken\n"
+"and menu items like Configure don't work\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:50
+#, no-wrap
+msgid ""
+"Fix: Both the \"Novice\" and \"Express\" install paths still work and\n"
+"     can be used just as effectively (if not succinctly).  Alternately,\n"
+"     you can invoke the custom installation from the \"Index\" menu\n"
+"     (Installation, Custom) along with the Configuration option.  You\n"
+"     can also just download a fixed mfsroot.flp floppy image (or boot.flp\n"
+"     if you need 2.88MB boot media) from the following URL:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:52
+#, no-wrap
+msgid ""
+"  "
+"ftp://ftp.FreeBSD.org/pub/FreeBSD/releases/i386/3.4-RELEASE/floppies/updates/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:55
+#, no-wrap
+msgid ""
+"     The 3.4 ISO installation image is also updated to contain fixes\n"
+"     for all these errata items.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:58
+#, no-wrap
+msgid ""
+"802.1Q VLAN support compilation error: kernel configurations\n"
+"containing \"pseudo-device vlan #\" fail to compile\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:62
+#, no-wrap
+msgid ""
+"Fix: Update your copy of sys/net/if_vlan.c to the 3-stable branch\n"
+"     version, where it is fixed, or apply the following patch to the\n"
+"     sys/net/if_vlan.c distributed with 3.4-RELEASE:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.4R/errata.adoc:82
+#, no-wrap
+msgid ""
+"RCS file: /home/ncvs/src/sys/net/if_vlan.c,v\n"
+"retrieving revision 1.4.2.2\n"
+"retrieving revision 1.4.2.3\n"
+"diff -C2 -r1.4.2.2 -r1.4.2.3\n"
+"*** if_vlan.c   1999/12/13 02:02:23 1.4.2.2\n"
+"--- if_vlan.c   1999/12/25 03:28:51 1.4.2.3\n"
+"***************\n"
+"*** 515,519 ****\n"
+"            ifv->ifv_p = 0;\n"
+"            if_down(ifp);\n"
+"!           ifv->if_flags &= ~(IFF_UP|IFF_RUNNING);\n"
+"            break;\n"
+"        }\n"
+"--- 515,519 ----\n"
+"            ifv->ifv_p = 0;\n"
+"            if_down(ifp);\n"
+"!           ifp->if_flags &= ~(IFF_UP|IFF_RUNNING);\n"
+"            break;\n"
+"        }\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.4R/errata.adoc:84
+msgid "link:../../[Release Home]"
+msgstr ""

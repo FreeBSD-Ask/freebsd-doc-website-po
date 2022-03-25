@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/gnome/docs/gnome2_porting.adoc:1
+#: content/en/gnome/docs/gnome2_porting.adoc:6
+#, no-wrap
+msgid "FreeBSD GNOME Project: GNOME 2 Components"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/gnome2_porting.adoc:9
+msgid ""
+"To see how to utilize these components, please examine the "
+"link:../example-makefile/[example Makefile]."
+msgstr ""
+
+#. type: Table
+#: content/en/gnome/docs/gnome2_porting.adoc:75
+#, no-wrap
+msgid ""
+"|*COMPONENT* |*ASSOCIATED PROGRAM* |*IMPLIED COMPONENTS*\n"
+"|atk |accessibility/atk |glib20\n"
+"|atspi |accessibility/at-spi |gtk20 libbonobo\n"
+"|desktopfileutils |devel/desktop-file-utils |glib20\n"
+"|eel2 |x11-toolkits/eel |gnomedesktop\n"
+"|evolutiondataserver |databases/evolution-data-server |libgnomeui\n"
+"|gal2 |x11-toolkits/gal2 |gnomeui libgnomeprintui\n"
+"|gconf2 |devel/gconf2 |orbit2 libxml2 gtk20\n"
+"|_glib20 |devel/glib20 |pkgconfig\n"
+"|glib20 |devel/gio-fam-backend |_glib20\n"
+"|gnomecontrolcenter2 |sysutils/gnome-control-center |metacity gnomemenus "
+"desktopfileutils libgnomekbd gnomedesktop librsvg2\n"
+"|gnomedesktop |x11/gnome-desktop |gconf2 gnomedocutils pygtk2\n"
+"|gnomedesktopsharp20 |x11-toolkits/gnome-desktop-sharp20 |gnomesharp20\n"
+"|gnomedocutils |textproc/gnome-doc-utils |libxslt\n"
+"|gnomemenus |x11/gnome-menus |glib20\n"
+"|gnomepanel |x11/gnome-panel |gnomedesktop libwnck gnomemenus gnomedocutils "
+"librsvg2 libgnomeui\n"
+"|gnomesharp20 |x11-toolkits/gnome-sharp20 |gnomepanel gtkhtml3 gtksharp20 "
+"librsvg2 vte\n"
+"|gnomespeech |accessibility/gnome-speech |libbonobo\n"
+"|gnomevfs2 |devel/gnome-vfs |gconf2 gnomemimedata\n"
+"|gtk20 |x11-toolkits/gtk20 |intltool atk pango\n"
+"|gtkhtml3 |www/gtkhtml3 |libgnomeui\n"
+"|gtksharp10 |x11-toolkits/gtk-sharp10 |gtk20\n"
+"|gtksharp20 |x11-toolkits/gtk-sharp20 |gtk20\n"
+"|gtksourceview |x11-toolkits/gtksourceview |libgnome libgnomeprintui\n"
+"|gtksourceview2 |x11-toolkits/gtksourceview2 |gtk20 libxml2\n"
+"|gvfs |devel/gvfs |glib20 gconf2\n"
+"|libartlgpl2 |graphics/libart_lgpl |pkgconfig\n"
+"|libbonobo |devel/libbonobo |libxml2 orbit2\n"
+"|libbonoboui |x11-toolkits/libbonoboui |libgnomecanvas libgnome\n"
+"|libgailgnome |x11-toolkits/libgail-gnome |libgnomeui atspi\n"
+"|libgda2 |databases/libgda2 |glib20 libxslt\n"
+"|libgda3 |databases/libgda3 |glib20 libxslt\n"
+"|libgda4 |databases/libgda4 |glib20 libxslt\n"
+"|libglade2 |devel/libglade2 |libxml2 gtk20\n"
+"|libgnome |x11/libgnome |gnomevfs2 esound libbonobo\n"
+"|libgnomecanvas |graphics/libgnomecanvas |libglade2 libartlgpl2\n"
+"|libgnomedb |databases/libgnomedb |libgnomeui libgda3\n"
+"|libgnomekbd |x11/libgnomekbd |gconf2\n"
+"|libgnomeprint |print/libgnomeprint |libbonobo libartlgpl2 gtk20\n"
+"|libgnomeprintui |x11-toolkits/libgnomeprintui |libgnomeprint "
+"libgnomecanvas\n"
+"|libgnomeui |x11-toolkits/libgnomeui |libbonoboui\n"
+"|libgsf |devel/libgsf |gconf2 glib20 libxml2\n"
+"|libgsf_gnome |devel/libgsf-gnome |libgsf gnomevfs2\n"
+"|libgtkhtml |www/libgtkhtml |libxslt gnomevfs2\n"
+"|libidl |devel/libIDL |glib20\n"
+"|librsvg2 |graphics/librsvg2 |libgsf gtk20\n"
+"|libwnck |x11-toolkits/libwnck |gtk20\n"
+"|libxml2 |textproc/libxml2 |pkgconfig\n"
+"|libxslt |textproc/libxslt |libxml2\n"
+"|libzvt |x11-toolkits/libzvt |gtk20\n"
+"|linc |net/linc |glib20\n"
+"|metacity |x11-wm/metacity |gconf2\n"
+"|nautilus2 |x11-fm/nautilus |librsvg2 gnomedesktop desktopfileutils gvfs\n"
+"|nautiluscdburner |sysutils/nautilus-cd-burner |nautilus2 eel2 "
+"desktopfileutils\n"
+"|orbit2 |devel/ORBit2 |libidl\n"
+"|pango |x11-toolkits/pango |glib20\n"
+"|pygnome2 |x11-toolkits/py-gnome2 |libgnomeui pygtk2\n"
+"|pygnomedesktop |x11-toolkits/py-gnome-desktop |pygnome2 libgnomeprintui "
+"gtksourceview gnomepanel libwnck nautilus2 metacity\n"
+"|pygnomeextras |x11-toolkits/py-gnome-extras |pygnome2 libgtkhtml\n"
+"|pygtk2 |x11-toolkits/py-gtk2 |libglade2\n"
+"|pygtksourceview |x11-toolkits/py-gtksourceview |gtksourceview2 pygtk2\n"
+"|vte |x11-toolkits/vte |gtk20\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/gnome2_porting.adoc:77
+msgid ""
+"If you still need help with your port, have a look at some of the existing "
+"ports for examples. The link:mailto:freebsd-gnome@FreeBSD.org[freebsd-gnome "
+"mailing list] is also there for you."
+msgstr ""

@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/portmgr/policies_eol.adoc:1
+#: content/en/portmgr/policies_eol.adoc:8
+#, no-wrap
+msgid "Ports and Packages for Supported Releases"
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_eol.adoc:11
+msgid ""
+"Support of FreeBSD releases by ports and the ports infrastructure currently "
+"matches the link:../../security/#sup[policies set out by the FreeBSD "
+"Security Officer]. Once a major branch X reaches its EOL date, the \"last "
+"known good\" ports tree will be tagged with the `RELEASE_X_EOL` tag as a "
+"convenience to those remaining users who intend to self-support their "
+"installations. This tag is not supported in any way and security fixes will "
+"not be applied. Usage is therefore highly discouraged and should only be "
+"used if there is no other option; consumers are expected to provide their "
+"own support."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_eol.adoc:13
+msgid ""
+"For all supported major src branches, all ports will be included in an "
+"automated quality assurance procedure which will build, install, package, "
+"and deinstall each port on all link:{committers-guide}#AEN1259[Tier 1 "
+"platforms]. Maintainers and committers are notified of failures detected "
+"during testing. Ports that are known not to build or run on a given "
+"supported branch and/or platform will be marked as such."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_eol.adoc:15
+msgid ""
+"Prebuilt binary packages will also be provided for all major branches and "
+"Tier 1 platforms and will be made available via "
+"https://www.freebsd.org/cgi/man.cgi?query=pkg&sektion=8[pkg(8)]. Package "
+"builds will use the oldest supported minor release within each major branch "
+"to ensure ABI and KBI backwards compatibility within each major branch, and "
+"support all minor versions of each major branch, including `-RELEASE` and "
+"`-STABLE`."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_eol.adoc:17
+msgid ""
+"The current package sets and estimated lifetimes of the currently supported "
+"branches are given below. The _Estimated EoL (end-of-life)_ column gives the "
+"earliest date on which that branch is likely to be dropped."
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:24
+#, no-wrap
+msgid ""
+"|Branch |Release |Package Branch |Package Set |Estimated EoL\n"
+"|stable/11 |n/a |releng/11.4 | |September 30, 2021\n"
+"|releng/11.4 |11.4-RELEASE |releng/11.4 a|\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:25
+#, no-wrap
+msgid "FreeBSD:11:amd64\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:30
+#, no-wrap
+msgid ""
+"FreeBSD:11:i386\n"
+"\n"
+"|September 30, 2021\n"
+"|stable/12 |n/a |releng/12.2 | |June 30, 2024\n"
+"|releng/12.2 |12.2-RELEASE |releng/12.2 a|\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:31
+#, no-wrap
+msgid "FreeBSD:12:aarch64\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:32
+#, no-wrap
+msgid "FreeBSD:12:amd64\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:33
+#, no-wrap
+msgid "FreeBSD:12:i386\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:38
+#, no-wrap
+msgid ""
+"FreeBSD:12:powerpc64\n"
+"\n"
+"|12.3-RELEASE + 3 months\n"
+"|stable/13 |n/a |releng/13.0 | |January 31, 2026\n"
+"|releng/13.0 |13.0-RELEASE |releng/13.0 a|\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:39
+#, no-wrap
+msgid "FreeBSD:13:aarch64\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:40
+#, no-wrap
+msgid "FreeBSD:13:amd64\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:41
+#, no-wrap
+msgid "FreeBSD:13:armv6\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:42
+#, no-wrap
+msgid "FreeBSD:12:armv7\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:43
+#, no-wrap
+msgid "FreeBSD:13:i386\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:44
+#, no-wrap
+msgid "FreeBSD:13:mips\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:45
+#, no-wrap
+msgid "FreeBSD:13:mips64\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:49
+#, no-wrap
+msgid ""
+"FreeBSD:13:powerpc64\n"
+"\n"
+"|13.1-RELEASE + 3 months\n"
+"|main |n/a |main a|\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:50
+#, no-wrap
+msgid "FreeBSD:14:aarch64\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:51
+#, no-wrap
+msgid "FreeBSD:14:amd64\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:52
+#, no-wrap
+msgid "FreeBSD:14:armv6\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:53
+#, no-wrap
+msgid "FreeBSD:14:armv7\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:54
+#, no-wrap
+msgid "FreeBSD:14:i386\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:55
+#, no-wrap
+msgid "FreeBSD:14:mips\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:56
+#, no-wrap
+msgid "FreeBSD:14:mips64\n"
+msgstr ""
+
+#. type: Table
+#: content/en/portmgr/policies_eol.adoc:58
+#, no-wrap
+msgid ""
+"FreeBSD:14:powerpc64\n"
+"|Best Effort\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_eol.adoc:60
+msgid ""
+"Older releases are not maintained; ports and packages may not be able to "
+"install or run. Users are strongly encouraged to upgrade to one of the "
+"supported releases mentioned above."
+msgstr ""

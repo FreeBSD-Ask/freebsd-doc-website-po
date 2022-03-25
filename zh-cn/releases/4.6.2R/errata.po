@@ -1,0 +1,711 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.6.2R/errata.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.6-RELEASE/4.6.2-RELEASE Errata"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:10
+#, no-wrap
+msgid "        <h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:13
+#, no-wrap
+msgid ""
+"        <p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001, 2002 by\n"
+"        The FreeBSD Documentation Project</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:20
+#, no-wrap
+msgid ""
+"        <p class=\"PUBDATE\">$FreeBSD:\n"
+"        src/release/doc/en_US.ISO8859-1/errata/article.sgml,v\n"
+"        1.1.2.82 2002/09/16 23:08:45 bmah Exp $<br>\n"
+"        </p>\n"
+"        <hr>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:24
+#, no-wrap
+msgid ""
+"      <blockquote class=\"ABSTRACT\">\n"
+"        <div class=\"ABSTRACT\">\n"
+"          <a name=\"AEN11\"></a>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:33
+#, no-wrap
+msgid ""
+"          <p>This document lists errata items for FreeBSD\n"
+"          4.6-RELEASE, containing significant information\n"
+"          discovered after the release. This information includes\n"
+"          security advisories, as well as news relating to the\n"
+"          software or documentation that could affect its operation\n"
+"          or usability. An up-to-date version of this document\n"
+"          should always be consulted before installing this version\n"
+"          of FreeBSD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:38
+#, no-wrap
+msgid ""
+"          <p>Unless otherwise noted, items listed here also pertain\n"
+"          to FreeBSD 4.6.2-RELEASE, which was designed to fix\n"
+"          certain, specific problems in 4.6-RELEASE (see the\n"
+"          release notes for more details).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:43
+#, no-wrap
+msgid ""
+"          <p>This errata document for FreeBSD 4.6-RELEASE will be\n"
+"          maintained until the release of FreeBSD 4.7-RELEASE.</p>\n"
+"        </div>\n"
+"      </blockquote>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:46
+#: content/en/releases/4.6.2R/errata.adoc:78
+#: content/en/releases/4.6.2R/errata.adoc:204
+#, no-wrap
+msgid ""
+"      <div class=\"SECT1\">\n"
+"        <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:48
+#, no-wrap
+msgid "        <h1 class=\"SECT1\"><a name=\"AEN15\">1 Introduction</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:54
+#, no-wrap
+msgid ""
+"        <p>This errata document contains ``late-breaking news''\n"
+"        about FreeBSD 4.6-RELEASE. Before installing this version,\n"
+"        it is important to consult this document to learn about any\n"
+"        post-release discoveries or problems that may already have\n"
+"        been found and fixed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:64
+#, no-wrap
+msgid ""
+"        <p>Any version of this errata document actually distributed\n"
+"        with the release (for example, on a CDROM distribution)\n"
+"        will be out of date by definition, but other copies are\n"
+"        kept updated on the Internet and should be consulted as the\n"
+"        ``current errata'' for this release. These other copies of\n"
+"        the errata are located at <a href=\n"
+"        \"http://www.FreeBSD.org/releases/\" target=\n"
+"        \"_top\">http://www.FreeBSD.org/releases/</a>, plus any sites\n"
+"        which keep up-to-date mirrors of this location.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:68
+#, no-wrap
+msgid ""
+"        <p>Source and binary snapshots of FreeBSD 4-STABLE also\n"
+"        contain up-to-date copies of this document (as of the time\n"
+"        of the snapshot).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:75
+#, no-wrap
+msgid ""
+"        <p>For a list of all FreeBSD CERT security advisories, see\n"
+"        <a href=\"http://www.FreeBSD.org/security/\" target=\n"
+"        \"_top\">http://www.FreeBSD.org/security/</a> or <a href=\n"
+"        \"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\" target=\n"
+"        \"_top\">ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/</a>.</p>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:81
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a name=\"AEN26\">2 Security\n"
+"        Advisories</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:98
+#, no-wrap
+msgid ""
+"        <p>FreeBSD 4.6-RELEASE contains a fix for a bug described\n"
+"        in security advisory SA-02:23 (which addressed the use of\n"
+"        file descriptors by set-user-id or set-group-id programs).\n"
+"        An error has been discovered in the bugfix; it is still\n"
+"        possible for systems using <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=procfs&sektion=5&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">procfs</span>(5)</span></a> or <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=linprocfs&sektion=5&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">linprocfs</span>(5)</span></a> to be\n"
+"        exploited. A revised version of security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:23.stdio.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:23</a> contains a corrected\n"
+"        bugfix. This problem was corrected in FreeBSD\n"
+"        4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:108
+#, no-wrap
+msgid ""
+"        <p>A buffer overflow in the resolver could be exploited by\n"
+"        a malicious domain name server or an attacker forging DNS\n"
+"        messages. This could potentially be used to force arbitrary\n"
+"        code to run on a client machine with the privileges of a\n"
+"        resolver-using application. See security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:28.resolv.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:28</a> for more information\n"
+"        and a fix. This problem was corrected in FreeBSD\n"
+"        4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:118
+#, no-wrap
+msgid ""
+"        <p>Badly-formed NFS packets could trigger a buffer overflow\n"
+"        in <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=tcpdump&sektion=1&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">tcpdump</span>(1)</span></a>. For a fix to\n"
+"        this problem, see security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:29.tcpdump.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:29</a>. This problem was\n"
+"        corrected in FreeBSD 4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:131
+#, no-wrap
+msgid ""
+"        <p><a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ktrace&sektion=1&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">ktrace</span>(1)</span></a> can be used to\n"
+"        trace the operation of formerly-privileged processes. This\n"
+"        is undesirable, as it is then possible to leak information\n"
+"        obtained while these processes had elevated privileges. See\n"
+"        security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:30.ktrace.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:30</a> for a workaround and a\n"
+"        fix. This problem was corrected in FreeBSD\n"
+"        4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:142
+#, no-wrap
+msgid ""
+"        <p>A race condition in <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pppd&sektion=8&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">pppd</span>(8)</span></a> can be used to\n"
+"        change the permissions of an arbitrary file. For more\n"
+"        details, a workaround, and bugfix information, see security\n"
+"        advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:32.pppd.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:32</a>. This problem was\n"
+"        corrected in FreeBSD 4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:150
+#, no-wrap
+msgid ""
+"        <p>Multiple buffer overflows have been discovered in <b\n"
+"        class=\"APPLICATION\">OpenSSL</b>. More details (including\n"
+"        workarounds and bugfixes) can be found in security advisory\n"
+"        <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:33.openssl.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:33</a>. This problem was\n"
+"        corrected in FreeBSD 4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:157
+#, no-wrap
+msgid ""
+"        <p>A bug in the XDR decoder (used by Sun RPC) could result\n"
+"        in a heap buffer overflow. Security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:34.rpc.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:34</a> contains workaround and\n"
+"        bugfix information. This problem was corrected in FreeBSD\n"
+"        4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:166
+#, no-wrap
+msgid ""
+"        <p>Local users can, under certain circumstances, read and\n"
+"        write arbitrary blocks on an FFS filesystem has been\n"
+"        corrected. More details can be found in security advisory\n"
+"        <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:35.ffs.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:35</a>, which contains a\n"
+"        workaround and bugfix information. This problem was\n"
+"        corrected in FreeBSD 4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:173
+#, no-wrap
+msgid ""
+"        <p>A bug in the NFS server code could allow a remote denial\n"
+"        of service attack. Security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:36.nfs.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:36</a> has information on a\n"
+"        fix and a workaround. This problem was corrected in FreeBSD\n"
+"        4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:183
+#, no-wrap
+msgid ""
+"        <p>A bug in <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=kqueue&sektion=2&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">kqueue</span>(2)</span></a> could allow\n"
+"        local users to panic a system. Correction information is\n"
+"        contained in security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:37.kqueue.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:37</a>. This problem was\n"
+"        corrected in FreeBSD 4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:192
+#, no-wrap
+msgid ""
+"        <p>Several bounds-checking bugs in system calls could\n"
+"        result in some system calls returning a large portion of\n"
+"        kernel memory. More details can be found in security\n"
+"        advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:38.signed-error.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:38</a>. This problem was\n"
+"        corrected in time for FreeBSD 4.6.2-RELEASE, although not\n"
+"        mentioned in the accompanying release documentation.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:201
+#, no-wrap
+msgid ""
+"        <p>A bug in <tt class=\"FILENAME\">libkvm</tt> could result\n"
+"        in some applications leaking file descriptors with access\n"
+"        to potentially sensitive information. More details, as well\n"
+"        as a bugfix and a workaround, can be found in security\n"
+"        advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:39.libkvm.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:39</a>.</p>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:207
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a name=\"AEN72\">3 Late-Breaking\n"
+"        News</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:212
+#, no-wrap
+msgid ""
+"        <p>In FreeBSD 4.6-RELEASE, the default maximum TCP window\n"
+"        size was lowered from 65536 bytes to 57334 bytes, for\n"
+"        better compatability with some versions of <b class=\n"
+"        \"APPLICATION\">IPFilter</b>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:220
+#, no-wrap
+msgid ""
+"        <p>A recently-discovered interaction between the FreeBSD\n"
+"        kernel and the <tt class=\"FILENAME\">archivers/zip</tt> port\n"
+"        can result in some errors on the alpha platform. A\n"
+"        post-release fix has been committed to the FreeBSD ports\n"
+"        tree; versions of the <tt class=\n"
+"        \"FILENAME\">archivers/zip</tt> port beginning with 2.3_1\n"
+"        will function correctly.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:237
+#, no-wrap
+msgid ""
+"        <p>On the alpha platform, the <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=de&sektion=4&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">de</span>(4)</span></a> and <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=txp&sektion=4&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">txp</span>(4)</span></a> drivers were moved\n"
+"        from the boot kernel on the floppy images to modules on the\n"
+"        <tt class=\"FILENAME\">mfsroot</tt> floppy. This change was\n"
+"        made in order to get the alpha kernel to fit onto the boot\n"
+"        floppy. It should be transparent to all users, as <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">sysinstall</span>(8)</span></a> will\n"
+"        automatically load any kernel modules it finds on the <tt\n"
+"        class=\"FILENAME\">mfsroot</tt> floppy.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:252
+#, no-wrap
+msgid ""
+"        <p>Several last-minute patches were made to the <tt class=\n"
+"        \"FILENAME\">x11-servers/XFree86-4-Server</tt> package. These\n"
+"        allow the various server configuration programs to give\n"
+"        better support for the <tt class=\"FILENAME\">sysmouse</tt>\n"
+"        device supported by <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=moused&sektion=8&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">moused</span>(8)</span></a>. The binary\n"
+"        packages on the CDROMs and the FTP sites incoporate this\n"
+"        patch and bear the version number 4.2.0_3. However, the\n"
+"        ports collection included in the distribution does not\n"
+"        contain this patch. To get an updated version, use <b\n"
+"        class=\"APPLICATION\">CVSup</b> to obtain a more recent ports\n"
+"        collection.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:267
+#, no-wrap
+msgid ""
+"        <p>Some FreeBSD/i386 users have experienced difficulties\n"
+"        reading from certain ATA CDROM drives. Specific models on\n"
+"        which this problem has been observed include the AOpen 48x,\n"
+"        52x, and 56x CDROM drives, as well as the Mitsumi Slim\n"
+"        CRMC-SR242S CDROM drive. A typical symptom is the following\n"
+"        error message on the console and/or <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=dmesg&sektion=8&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">dmesg</span>(8)</span></a> buffer\n"
+"        (sometimes accompanied by a kernel panic):</p>\n"
+"<pre class=\"SCREEN\">\n"
+"    acd0: READ_BIG command timeout - resetting\n"
+"    ata1: resetting devices .. done\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:274
+#, no-wrap
+msgid ""
+"        <p>In some cases, this bug can prevent installation of\n"
+"        FreeBSD from an affected CDROM drive. It can cause <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">sysinstall</span>(8)</span></a> to hang\n"
+"        while extracting distribution files from CD media.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:279
+#, no-wrap
+msgid ""
+"        <p>A two-part workaround listed here has shown to be\n"
+"        helpful in some (but not necessarily all) cases. First, to\n"
+"        allow a CDROM installation, it is necessary to modify the\n"
+"        normal CDROM installation procedure:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:286
+#, no-wrap
+msgid ""
+"        <div class=\"PROCEDURE\">\n"
+"          <ol type=\"1\">\n"
+"            <li>\n"
+"              <p>Start the computer with a FreeBSD installation\n"
+"              CDROM in the drive.</p>\n"
+"            </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:294
+#, no-wrap
+msgid ""
+"            <li>\n"
+"              <p>Wait for a console message similar to:</p>\n"
+"<pre class=\"SCREEN\">\n"
+"    Hit [Enter] to boot immediately, or any other key for command prompt.\n"
+"    Booting [kernel] in 9 seconds...\n"
+"</pre>\n"
+"            </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:300
+#, no-wrap
+msgid ""
+"            <li>\n"
+"              <p>Immediately interrupt the boot process by pressing\n"
+"              the <b class=\"KEYCAP\">Space</b> bar on the\n"
+"              keyboard.</p>\n"
+"            </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:317
+#, no-wrap
+msgid ""
+"            <li>\n"
+"              <p>Enter the following three lines at the <tt class=\n"
+"              \"LITERAL\">ok</tt> prompt:</p>\n"
+"<pre class=\"SCREEN\">\n"
+"    <tt class=\"PROMPT\">ok</tt> <tt class=\n"
+"\"USERINPUT\"><b>set hw.ata.ata_dma=\"1\"</b></tt>\n"
+"</pre>\n"
+"<pre class=\"SCREEN\">\n"
+"    <tt class=\"PROMPT\">ok</tt> <tt class=\n"
+"\"USERINPUT\"><b>set hw.ata.atapi_dma=\"1\"</b></tt>\n"
+"</pre>\n"
+"<pre class=\"SCREEN\">\n"
+"    <tt class=\"PROMPT\">ok</tt> <tt class=\n"
+"\"USERINPUT\"><b>boot</b></tt>\n"
+"</pre>\n"
+"            </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:323
+#, no-wrap
+msgid ""
+"            <li>\n"
+"              <p>Continue the installation as normal.</p>\n"
+"            </li>\n"
+"          </ol>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:331
+#, no-wrap
+msgid ""
+"        <p>The second part of the workaround takes place after\n"
+"        completing the CDROM installation (or a successful source\n"
+"        upgrade). It consists of configuring the <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ata&sektion=4&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">ata</span>(4)</span></a> driver so that\n"
+"        future CDROM reads work correctly:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:343
+#, no-wrap
+msgid ""
+"        <div class=\"PROCEDURE\">\n"
+"          <ol type=\"1\">\n"
+"            <li>\n"
+"              <p>Add the following two lines to <tt class=\n"
+"              \"FILENAME\">/boot/loader.conf</tt> (creating this file\n"
+"              if it does not already exist):</p>\n"
+"<pre class=\"PROGRAMLISTING\">\n"
+"    hw.ata.ata_dma=\"1\"\n"
+"    hw.ata.atapi_dma=\"1\"\n"
+"</pre>\n"
+"            </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:349
+#, no-wrap
+msgid ""
+"            <li>\n"
+"              <p>Reboot the machine.</p>\n"
+"            </li>\n"
+"          </ol>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:352
+#, no-wrap
+msgid ""
+"        <p>This problem was fixed in FreeBSD 4.7-PRERELEASE on 31\n"
+"        July 2002, as well as FreeBSD 4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:371
+#, no-wrap
+msgid ""
+"        <p>Due to a bug in the release generation process, some of\n"
+"        the directories under <tt class=\n"
+"        \"FILENAME\">/usr/share/examples</tt> are empty (most notably\n"
+"        <tt class=\"FILENAME\">/usr/share/examples/cvsup</tt>). A\n"
+"        partial workaround is to install the <tt class=\n"
+"        \"FILENAME\">sshare</tt> distribution via <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">sysinstall</span>(8)</span></a> (from the\n"
+"        main menu, choose <span class=\n"
+"        \"GUIMENUITEM\">Configure</span>, <span class=\n"
+"        \"GUIMENUITEM\">Distributions</span>, <span class=\n"
+"        \"GUIMENUITEM\">src</span>, then <span class=\n"
+"        \"GUIMENUITEM\">share</span>). <tt class=\n"
+"        \"FILENAME\">/usr/src/share/examples</tt> will then contain\n"
+"        the missing files. This problem was corrected in FreeBSD\n"
+"        4.7-PRERELEASE on 16 July 2002, as well as FreeBSD\n"
+"        4.6.2-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:378
+#, no-wrap
+msgid ""
+"        <p>The item in the ``Filesystems'' section of the release\n"
+"        notes contains a small grammatical error. It should read:\n"
+"        ``A bug has been fixed in soft updates that could cause\n"
+"        occasional filesystem corruption if the system is shut down\n"
+"        immediately after performing heavy filesystem activities,\n"
+"        such as installing a new kernel or other software.''</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:402
+#, no-wrap
+msgid ""
+"        <p>Due to an omission, <tt class=\"COMMAND\">pkg_add -r</tt>\n"
+"        on 4.6-RELEASE or 4.6.2-RELEASE may attempt to fetch\n"
+"        packages built for FreeBSD -STABLE, rather than for the\n"
+"        appropriate release. As a workaround, set the <tt class=\n"
+"        \"VARNAME\">PACKAGESITE</tt> environment variable\n"
+"        appropriately before invoking <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pkg_add&sektion=1&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">pkg_add</span>(1)</span></a>. For example,\n"
+"        a <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=csh&sektion=1&manpath=FreeBSD+4.6-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">csh</span>(1)</span></a> user on\n"
+"        4.6.2-RELEASE could use:</p>\n"
+"<pre class=\"PROGRAMLISTING\">\n"
+"    <tt class=\"PROMPT\">%</tt> <tt class=\n"
+"\"USERINPUT\"><b>setenv PACKAGESITE \\</b></tt>\n"
+"    <tt class=\n"
+"\"USERINPUT\"><b>ftp://ftp.FreeBSD.org/pub/FreeBSD/ports/i386/packages-4.6.2-release/Latest/</b></tt>\n"
+"</pre>\n"
+"      </div>\n"
+"    </div>\n"
+"    <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:406
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>This file, and other release-related\n"
+"    documents, can be downloaded from <a href=\n"
+"    "
+"\"http://snapshots.jp.FreeBSD.org/\">http://snapshots.jp.FreeBSD.org/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:411
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>For questions about FreeBSD, read the\n"
+"    <a href=\"http://www.FreeBSD.org/docs.html\">documentation</a>\n"
+"    before contacting &#60;<a href=\n"
+"    "
+"\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:416
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small><small>All users of FreeBSD 4-STABLE\n"
+"    should subscribe to the &#60;<a href=\n"
+"    \"mailto:stable@FreeBSD.org\">stable@FreeBSD.org</a>&#62; mailing\n"
+"    list.</small></small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/errata.adoc:422
+#, no-wrap
+msgid ""
+"    <p align=\"center\">For questions about this documentation,\n"
+"    e-mail &#60;<a href=\n"
+"    \"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&#62;.</p>\n"
+"    <br>\n"
+"    <br>\n"
+msgstr ""

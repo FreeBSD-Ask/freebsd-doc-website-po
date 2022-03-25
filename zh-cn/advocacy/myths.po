@@ -1,0 +1,625 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 18:45+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/advocacy/myths.adoc:1 content/en/advocacy/myths.adoc:8
+#, no-wrap
+msgid "FreeBSD Advocacy Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:11
+msgid ""
+"As the BSD projects (including DragonFlyBSD, FreeBSD, NetBSD, and OpenBSD) "
+"have grown in size, a number of persistent myths have grown up around "
+"them. Some of these are perpetuated by well meaning but misguided "
+"individuals, others by people pursuing their own agendas."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:13
+msgid ""
+"This page aims to dispel those myths while remaining as dispassionate as "
+"possible."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:15
+#, no-wrap
+msgid ""
+"*Note:* Throughout this page, \"*BSD\" refers to all of the BSD "
+"Projects. Where a myth or response is specific to a particular project it is "
+"indicated as such.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:17
+msgid ""
+"If you are aware of an omission or error on this page, please let the "
+"mailto:doc@freebsd.org[FreeBSD Documentation Project mailing list] know."
+msgstr ""
+
+#. type: Title ==
+#: content/en/advocacy/myths.adoc:18
+#, no-wrap
+msgid "Myths"
+msgstr ""
+
+#. type: Title ==
+#: content/en/advocacy/myths.adoc:20
+#, no-wrap
+msgid "Index"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:23
+msgid ""
+"<<closed-model,*BSD has a closed development model, it's more \"Cathedral\" "
+"than \"Bazaar\">>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:24
+msgid ""
+"<<own-distro,You can't make your own distributions or derivative works of "
+"*BSD>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:25
+msgid "<<server,*BSD makes a great server, but a poor desktop>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:26
+msgid "<<old-codebase,The *BSD codebase is old, outdated, and dying>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:27
+msgid ""
+"<<bsd-war,The *BSD projects are at war with one another, splinter groups "
+"form each week>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:28
+msgid "<<clustering,You can't cluster *BSD systems (parallel computing)>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:29
+msgid "<<support,There's no commercial support for *BSD>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:30
+msgid "<<applications,There are no applications for *BSD>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:31
+msgid "<<beats,*BSD is better than (some other system)>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:32
+msgid "<<beaten,(some other system) is better than *BSD>>"
+msgstr ""
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:34
+#, no-wrap
+msgid ""
+"Myth: *BSD has a closed development model, it's more \"Cathedral\" than "
+"\"Bazaar\""
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:37
+msgid ""
+"Eric Raymond wrote an influential paper, "
+"http://www.catb.org/~esr/writings/cathedral-bazaar/[\"The Cathedral and the "
+"Bazaar\"] in which the Linux development model (and the model Eric used for "
+"`fetchmail`) is held up as an example of how to do \"open\" development. By "
+"contrast, the model employed by *BSD is often characterized as closed."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:39
+msgid ""
+"The implicit value judgment is that \"bazaar\" (open) is good, and "
+"\"cathedral\" (closed) is bad."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:41
+msgid ""
+"If anything, *BSD's development model is probably more akin to the "
+"\"bazaar\" that Eric describes than either Linux or `fetchmail`."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:43
+msgid "Consider the following;"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:45
+#, no-wrap
+msgid ""
+"*All the *BSD projects:* The current, bleeding edge source code for FreeBSD, "
+"NetBSD, and OpenBSD is available for anyone to download from the Internet, "
+"24 hours a day. You don't need to wait for someone else to roll a release.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:47
+#, no-wrap
+msgid ""
+"*FreeBSD:* An installable snapshot of the current progress is made "
+"weekly. These snapshots can be installed exactly like an ordinary release, "
+"and do not require installation over an existing system.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:49
+#, no-wrap
+msgid ""
+"*OpenBSD:* Installable snapshots are generated daily and if Theo thinks they "
+"are good enough, he uploads them to the mirrors.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:51
+msgid ""
+"Contrast this with Linux, where new kernel distributions are made available "
+"on an ad-hoc basis, and where the frequency of each Linux distribution "
+"release is at the whim of the individual vendor."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:53
+msgid ""
+"There's none of the Linux fanfare every time a new kernel is released, "
+"simply because for most *BSD users it is an every day event."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:54
+msgid ""
+"Anyone can submit patches, bug reports, documentation, and other "
+"contributions. They can do this by using a web based interface."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:56
+msgid "Pointers to this system litter the documentation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:57
+msgid ""
+"Not everyone can commit code changes to the *BSD code. You need to be a "
+"_committer_ first. Typically, people are offered \"commit privs\" after they "
+"have made a few well-thought out submissions to the project using Bugzilla "
+"or similar."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:59
+msgid ""
+"This is identical to the Linux mechanism. Only one person is (notionally) "
+"allowed to change the Kernel, Linus. But specific areas (such as the "
+"networking code) are delegated to other people."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:61
+msgid ""
+"_Aside: Nik (nik@FreeBSD.org) is a case in point. After making several "
+"submissions to the FreeBSD Documentation Project and web pages, he was "
+"offered \"commit privs\" so that he did not have to keep bothering other "
+"committers to commit the changes. He never had to ask for them, they were "
+"freely given._"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:63 content/en/advocacy/myths.adoc:84
+#: content/en/advocacy/myths.adoc:93 content/en/advocacy/myths.adoc:102
+#: content/en/advocacy/myths.adoc:111 content/en/advocacy/myths.adoc:124
+#: content/en/advocacy/myths.adoc:135 content/en/advocacy/myths.adoc:156
+#: content/en/advocacy/myths.adoc:163 content/en/advocacy/myths.adoc:170
+msgid "'''"
+msgstr ""
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:65
+#, no-wrap
+msgid "Myth: You cannot make your own distributions or derivative works of *BSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:68
+msgid ""
+"You can. You just need to say in the documentation and source files where "
+"the code is derived from. Multiple derivative projects exist:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:70
+msgid ""
+"http://www.dragonflybsd.org/[DragonflyBSD] started as a code fork from "
+"FreeBSD 4.X, but it has since its own user community and development goals."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:71
+msgid ""
+"https://wiki.gentoo.org/wiki/Gentoo_FreeBSD[Gentoo/FreeBSD] is an effort by "
+"the Gentoo Project to port their complete administration facilities to take "
+"advantage of the reliable FreeBSD kernel and userland. This project is "
+"purely incomplete and experimental."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:72
+msgid ""
+"link:{nanobsd}[NanoBSD] is another project to produce reduced versions of "
+"FreeBSD to put it on a Compact Flash card or other mass storage. It is also "
+"a part of the FreeBSD source tree, see /usr/src/tools/tools/nanobsd."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:73
+msgid ""
+"https://nomadbsd.org[NomadBSD] is a persistent live system for USB flash "
+"drives, based on FreeBSD. Together with automatic hardware detection and "
+"setup, it is configured to be used as a desktop system that works out of the "
+"box, but can also be used for data recovery, for educational purposes, or to "
+"test FreeBSD's hardware compatibility"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:74
+msgid ""
+"https://ghostbsd.org[GhostBSD] is derived from FreeBSD, uses the GTK "
+"environment to provide a beautiful looks and comfortable experience on the "
+"modern BSD platform offering a natural and native UNIX(R) work environment."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:75
+msgid ""
+"https://www.midnightbsd.org[MidnightBSD] is a FreeBSD derived operating "
+"system developed with desktop users in mind. It includes all the software "
+"you'd expect for your daily tasks: mail, web browsing, word processing, "
+"gaming, and much more."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:76
+msgid ""
+"http://www.pfsense.com[pfSense] is an open source firewall derived from the "
+"m0n0wall firewall system with several different goals and features, such as "
+"OpenBSD's Packet Filter (PF), FreeBSD 6.1, ALTQ support for excellent packet "
+"queuing and finally an integrated package management system for extending "
+"the environment with new features."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:77
+msgid ""
+"https://hardenedbsd.org[HardenedBSD] was Founded in 2014 by Oliver Pinter "
+"and Shawn Webb, HardenedBSD is a security-enhanced fork of FreeBSD. The "
+"HardenedBSD Project is implementing many exploit mitigation and security "
+"technologies on top of FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:78
+msgid ""
+"https://opnsense.org[OPNsense] started as a fork of pfSense© and m0n0wall in "
+"2014, with its first official release in January 2015. The project has "
+"evolved very quickly while still retaining familiar aspects of both m0n0wall "
+"and pfSense. A strong focus on security and code quality drives the "
+"development of the project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:79
+msgid ""
+"https://www.truenas.com/[TrueNAS] is a Network Attached Storage (NAS) "
+"software that shares and protects data from modern-day threats like "
+"ransomware and malware. TrueNAS makes it easy for users and client devices "
+"to access shared data through virtually any sharing protocol."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:80
+msgid ""
+"https://www.xigmanas.com/[XigmaNAS] is an embedded Open Source NAS "
+"(Network-Attached Storage) distribution based on FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:82
+msgid ""
+"Similarly to DragonflyBSD, OpenBSD was not a standalone project, it started "
+"as a spinoff from the NetBSD project, and has since evolved its own "
+"distinctive approach."
+msgstr ""
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:86
+#, no-wrap
+msgid "Myth: *BSD makes a great server, but a poor (UNIX(R)) desktop"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:89
+#, no-wrap
+msgid ""
+"*BSD makes a great server. It also makes a great desktop. Many of the "
+"requirements for a server (responsiveness under load, stability, effective "
+"use of system resources) are the same requirements as for a desktop "
+"machine.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:91
+#, no-wrap
+msgid ""
+"*BSD has access to the same desktop tools (KDE, GNOME, Firefox, "
+"windowmanagers) as Linux. And \"office\" applications such as LibreOffice "
+"suite work under *BSD too.\n"
+msgstr ""
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:95
+#, no-wrap
+msgid "Myth: The BSD codebase is old, outdated, and dying"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:98
+msgid ""
+"While the BSD codebase may be more than 20 years old, it is neither outdated "
+"nor dying. Many professional users like the stability that years of testing "
+"has provided FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:100
+msgid ""
+"link:../../features/[Technological enhancements] continue to be added to "
+"*BSD."
+msgstr ""
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:104
+#, no-wrap
+msgid ""
+"Myth: The *BSD projects are at war with one another, splinter groups form "
+"each week"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:107
+msgid ""
+"No. While occasional advocacy may get a touch heated, the *BSD flavors "
+"continue to work with one another. FreeBSD's Alpha port was initially "
+"heavily based on the work done by the NetBSD team. Both NetBSD and OpenBSD "
+"used the FreeBSD ports collection to bootstrap their own port sets. FreeBSD "
+"and NetBSD both integrate security fixes first discovered by the OpenBSD "
+"team."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:109
+msgid ""
+"The FreeBSD and NetBSD projects separated more than twenty years "
+"ago. OpenBSD and DragonflyBSD are the only new BSD projects to split off in "
+"the last twenty years."
+msgstr ""
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:113
+#, no-wrap
+msgid "Myth: You can't cluster *BSD systems (parallel computing)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:116
+msgid "The following URLs should disprove this;"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:118
+msgid ""
+"https://people.FreeBSD.org/~brooks/papers/bsdcon2003/fbsdcluster/ Brooks "
+"Davis's paper about the implementation of a FreeBSD cluster with more than "
+"300 CPU's"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:119
+msgid ""
+"http://www.openbsd.org/faq/pf/carp.html OpenBSD's Common Address Redundancy "
+"Protocol (CARP) to build redundant clusters at the level of the firewall"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:120
+msgid "http://pf4freebsd.love2party.net/carp.html OpenBSD's CARP ported to FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:122
+msgid ""
+"Note, that mailto:freebsd-cluster@FreeBSD.org[freebsd-cluster] mailing list "
+"is available for further discussion about clustering of FreeBSD."
+msgstr ""
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:126
+#, no-wrap
+msgid "Myth: There's no commercial support for *BSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:129
+#, no-wrap
+msgid ""
+"*FreeBSD:* The link:../../commercial/consult_bycat/[FreeBSD Commercial "
+"Vendors Page] lists companies that offer commercial support for FreeBSD.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:131
+msgid ""
+"The http://www.freebsdmall.com[FreeBSD Mall] also offer commercial support, "
+"along with shirts, hats, books, software, and promotional items."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:133
+#, no-wrap
+msgid ""
+"*OpenBSD:* The http://www.openbsd.org/support.html[OpenBSD Commercial "
+"Consulting Page] lists companies that offer commercial support for "
+"OpenBSD.\n"
+msgstr ""
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:137
+#, no-wrap
+msgid "Myth: There are no applications for *BSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:140
+msgid ""
+"The free software community started running on predominantly BSD systems "
+"(SunOS and similar). *BSD users can generally compile software written for "
+"these systems without needing to make any changes."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:142
+msgid ""
+"In addition, each *BSD project uses a \"ports\" system to make the building "
+"of ported software much easier."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:144
+#, no-wrap
+msgid ""
+"*FreeBSD:* There are currently more than 30,000 applications ready to "
+"download and install in the FreeBSD ports collection. On i386 and AMD64, the "
+"Linux emulation layer will also run the vast majority of Linux "
+"applications. On the AMD64 architectures there is a compatibility layer to "
+"run 32-bit FreeBSD binaries.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:146
+#, no-wrap
+msgid ""
+"*NetBSD:* The Linux emulation layer will run the vast majority of i386 Linux "
+"applications, and the majority of SunOS4 applications can be run on a "
+"SPARCStation.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:148
+#, no-wrap
+msgid ""
+"*OpenBSD:* There are currently more than 8000 applications ready to download "
+"and install in the OpenBSD ports collection. The Linux emulation layer will "
+"also run the vast majority of i386 Linux applications, and the majority of "
+"SunOS4 applications can be run on a SPARCStation.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:150
+msgid ""
+"Both NetBSD and OpenBSD are able to use applications in FreeBSD's ports "
+"collection with minimal effort. Their lower number of ported applications "
+"reflects this."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:152
+msgid ""
+"It is true that most companies when porting to PC Unix will choose Linux "
+"first. Fortunately, *BSD's Linux emulation layer will run these programs "
+"(Acrobat, StarOffice, Mathematica, WordPerfect, Quake, Intel ICC compiler, "
+"Compaq's Alpha compiler ...) with few, if any, problems."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:154
+msgid ""
+"As a historical note, the first version of Netscape Navigator that ran on "
+"FreeBSD with Java support was the Linux version. These day you can also use "
+"a native FreeBSD version of Mozilla with a native Java plugin, all compiled "
+"conveniently from ports."
+msgstr ""
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:158
+#, no-wrap
+msgid "Myth: *BSD is better than (insert other system)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:161 content/en/advocacy/myths.adoc:168
+msgid "This is user opinion only."
+msgstr ""
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:165
+#, no-wrap
+msgid "Myth: (insert some other system) is better than *BSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/advocacy/myths.adoc:171
+#, no-wrap
+msgid "Contributors"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:174
+msgid ""
+"Members of the FreeBSD, NetBSD, and OpenBSD projects have contributed to "
+"this page;"
+msgstr ""
+
+#. type: Table
+#: content/en/advocacy/myths.adoc:182
+#, no-wrap
+msgid ""
+"|Nik Clayton <nik@FreeBSD.org>\n"
+"|Jordan Hubbard <jkh@FreeBSD.org>\n"
+"|Ian F. Darwin <ian@DarwinSys.com>\n"
+"|Adrian Filipi-Martin <adrian@ubergeeks.com>\n"
+"|Tom Rhodes <trhodes@FreeBSD.org>\n"
+msgstr ""

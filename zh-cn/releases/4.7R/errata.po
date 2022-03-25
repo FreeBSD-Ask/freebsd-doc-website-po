@@ -1,0 +1,480 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.7R/errata.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.7-RELEASE Errata"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:10
+#, no-wrap
+msgid "        <h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:13
+#, no-wrap
+msgid ""
+"        <p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001, 2002,\n"
+"        2003 by The FreeBSD Documentation Project</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:20
+#, no-wrap
+msgid ""
+"        <p class=\"PUBDATE\">$FreeBSD:\n"
+"        src/release/doc/en_US.ISO8859-1/errata/article.sgml,v\n"
+"        1.1.2.97 2003/03/20 20:03:52 bmah Exp $<br />\n"
+"        </p>\n"
+"        <hr />\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:24
+#, no-wrap
+msgid ""
+"      <blockquote class=\"ABSTRACT\">\n"
+"        <div class=\"ABSTRACT\">\n"
+"          <a id=\"AEN12\" name=\"AEN12\"></a>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:33
+#, no-wrap
+msgid ""
+"          <p>This document lists errata items for FreeBSD\n"
+"          4.7-RELEASE, containing significant information\n"
+"          discovered after the release. This information includes\n"
+"          security advisories, as well as news relating to the\n"
+"          software or documentation that could affect its operation\n"
+"          or usability. An up-to-date version of this document\n"
+"          should always be consulted before installing this version\n"
+"          of FreeBSD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:38
+#, no-wrap
+msgid ""
+"          <p>This errata document for FreeBSD 4.7-RELEASE will be\n"
+"          maintained until the release of FreeBSD 4.8-RELEASE.</p>\n"
+"        </div>\n"
+"      </blockquote>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:41
+#: content/en/releases/4.7R/errata.adoc:75
+#: content/en/releases/4.7R/errata.adoc:177
+#, no-wrap
+msgid ""
+"      <div class=\"SECT1\">\n"
+"        <hr />\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:44
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a id=\"AEN15\" name=\"AEN15\">1\n"
+"        Introduction</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:50
+#, no-wrap
+msgid ""
+"        <p>This errata document contains ``late-breaking news''\n"
+"        about FreeBSD 4.7-RELEASE. Before installing this version,\n"
+"        it is important to consult this document to learn about any\n"
+"        post-release discoveries or problems that may already have\n"
+"        been found and fixed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:61
+#, no-wrap
+msgid ""
+"        <p>Any version of this errata document actually distributed\n"
+"        with the release (for example, on a CDROM distribution)\n"
+"        will be out of date by definition, but other copies are\n"
+"        kept updated on the Internet and should be consulted as the\n"
+"        ``current errata'' for this release. These other copies of\n"
+"        the errata are located at <a\n"
+"        href=\"http://www.FreeBSD.org/releases/\"\n"
+"        target=\"_top\">http://www.FreeBSD.org/releases/</a>, plus\n"
+"        any sites which keep up-to-date mirrors of this\n"
+"        location.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:65
+#, no-wrap
+msgid ""
+"        <p>Source and binary snapshots of FreeBSD 4-STABLE also\n"
+"        contain up-to-date copies of this document (as of the time\n"
+"        of the snapshot).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:72
+#, no-wrap
+msgid ""
+"        <p>For a list of all FreeBSD CERT security advisories, see\n"
+"        <a href=\"http://www.FreeBSD.org/security/\"\n"
+"        target=\"_top\">http://www.FreeBSD.org/security/</a> or <a\n"
+"        href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\"\n"
+"        target=\"_top\">ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/</a>.</p>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:78
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a id=\"AEN26\" name=\"AEN26\">2 Security\n"
+"        Advisories</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:85
+#, no-wrap
+msgid ""
+"        <p>Buffer overflows in kadmind(8) and k5admin could\n"
+"        potentially cause the administrative server to execute\n"
+"        arbitrary code. Bugfix and workaround information can be\n"
+"        found in security advisory <a\n"
+"        "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:40.kadmind.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:40</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:97
+#, no-wrap
+msgid ""
+"        <p>Errors in <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=smrsh&sektion=8&manpath=FreeBSD+4.7-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span\n"
+"        class=\"REFENTRYTITLE\">smrsh</span>(8)</span></a>, which\n"
+"        could allow users to circumvent restrictions on what\n"
+"        programs can be executed, were fixed in FreeBSD\n"
+"        4.7-RELEASE. Because the applicable security advisory (<a\n"
+"        "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:41.smrsh.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:41</a>) was not issued after\n"
+"        the release, this fact was not included in the release\n"
+"        notes.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:108
+#, no-wrap
+msgid ""
+"        <p>Buffer overflows in the DNS <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=resolver&sektion=3&manpath=FreeBSD+4.7-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span\n"
+"        class=\"REFENTRYTITLE\">resolver</span>(3)</span></a>, which\n"
+"        could cause some applications to fail, have been corrected.\n"
+"        This change was not mentioned in the release notes, as the\n"
+"        applicable security advisory (<a\n"
+"        "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:42.resolv.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:42</a>) was not issued until\n"
+"        after the release.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:116
+#, no-wrap
+msgid ""
+"        <p>Several vulnerabilities exist in the version of <b\n"
+"        class=\"APPLICATION\">BIND</b> included with FreeBSD\n"
+"        4.7-RELEASE. More information, including bugfixes and\n"
+"        workaround suggestions, can be found in security advisory\n"
+"        <a\n"
+"        "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:43.bind.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:43</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:126
+#, no-wrap
+msgid ""
+"        <p>A file descriptor leak in the <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=fpathconf&sektion=2&manpath=FreeBSD+4.7-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span\n"
+"        class=\"REFENTRYTITLE\">fpathconf</span>(2)</span></a> system\n"
+"        call, can allow a local user to crash the system or cause a\n"
+"        privilege escalation. Bugfix information can be found in\n"
+"        security advisory <a\n"
+"        "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:44.filedesc.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:44</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:133
+#, no-wrap
+msgid ""
+"        <p>Remotely exploitable vulnerabilities in <b\n"
+"        class=\"APPLICATION\">CVS</b> could allow an attacker to\n"
+"        execute arbitrary comands on a CVS server. More details can\n"
+"        be found in security advisory <a\n"
+"        "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:01.cvs.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-03:01</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:145
+#, no-wrap
+msgid ""
+"        <p>A timing-based attack on <b\n"
+"        class=\"APPLICATION\">OpenSSL</b>, could allow a very\n"
+"        powerful attacker access to plaintext under certain\n"
+"        circumstances. This problem has been corrected in FreeBSD\n"
+"        4.8-RC with an upgrade to <b\n"
+"        class=\"APPLICATION\">OpenSSL</b> 0.9.7. On supported\n"
+"        security fix branches, this problem has been corrected with\n"
+"        the import of <b class=\"APPLICATION\">OpenSSL</b> 0.9.6i.\n"
+"        See security advisory <a\n"
+"        "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:02.openssl.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-03:02</a> for more details.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:153
+#, no-wrap
+msgid ""
+"        <p>It may be possible to recover the shared secret key used\n"
+"        by the implementation of the ``syncookies'' feature. This\n"
+"        reduces its effectiveness in dealing with TCP SYN flood\n"
+"        denial-of-service attacks. Workaround information and fixes\n"
+"        are given in security advisory <a\n"
+"        "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:03.syncookies.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-03:03</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:166
+#, no-wrap
+msgid ""
+"        <p>Due to a buffer overflow in header parsing in <b\n"
+"        class=\"APPLICATION\">sendmail</b>, a remote attacker can\n"
+"        create a specially-crafted message that may cause <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sendmail&sektion=8&manpath=FreeBSD+4.7-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span\n"
+"        class=\"REFENTRYTITLE\">sendmail</span>(8)</span></a> to\n"
+"        execute arbitrary code with the privileges of the user\n"
+"        running it, typically <tt class=\"USERNAME\">root</tt>. More\n"
+"        information, including pointers to patches, can be found in\n"
+"        security advisory <a\n"
+"        "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:04.sendmail.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-03:04</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:174
+#, no-wrap
+msgid ""
+"        <p>The XDR encoder/decoder does incorrect bounds-checking,\n"
+"        which could allow a remote attacker to cause a\n"
+"        denial-of-service. For bugfix information, see security\n"
+"        advisory <a\n"
+"        "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:05.xdr.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-03:05</a>.</p>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:180
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a id=\"AEN68\" name=\"AEN68\">3\n"
+"        Late-Breaking News</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:192
+#, no-wrap
+msgid ""
+"        <p>Due to concerns over the licensing terms for the <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=matcd&sektion=4&manpath=FreeBSD+4.7-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span\n"
+"        class=\"REFENTRYTITLE\">matcd</span>(4)</span></a> driver\n"
+"        uncovered late in FreeBSD 4.7-RELEASE's release cycle, the\n"
+"        <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=matcd&sektion=4&manpath=FreeBSD+4.7-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span\n"
+"        class=\"REFENTRYTITLE\">matcd</span>(4)</span></a> driver was\n"
+"        removed. These issues are being addressed and this driver\n"
+"        may reappear in a future release of FreeBSD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:202
+#, no-wrap
+msgid ""
+"        <p>The <tt class=\"FILENAME\">srelease</tt> distribution\n"
+"        contains object files for <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.7-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span\n"
+"        class=\"REFENTRYTITLE\">sysinstall</span>(8)</span></a> in\n"
+"        the <tt class=\"FILENAME\">release/sysinstall</tt> directory.\n"
+"        These files were generated during the release building\n"
+"        process but, for some reason, were not removed from the\n"
+"        distribution files. They are harmless.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:211
+#, no-wrap
+msgid ""
+"        <p>The <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/url.cgi?ports/databases/rdfdb/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">databases/rdfdb</tt></a> and <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/url.cgi?ports/mail/ssmtp/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">mail/ssmtp</tt></a> packages included\n"
+"        in the 4.7-RELEASE package set cannot be installed\n"
+"        correctly. A workaround is to build and install these\n"
+"        programs using the Ports Collection.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:226
+#, no-wrap
+msgid ""
+"        <p>The <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/gnomeicu/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">net/gnomeicu</tt></a> package included\n"
+"        in the 4.7-RELEASE package set may not run correctly, due\n"
+"        to a missing dependency on the <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/gnet/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">net/gnet</tt></a> package. To work\n"
+"        around this problem, install <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/gnet/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">net/gnet</tt></a> either from a\n"
+"        package or the Ports Collection, preferably before\n"
+"        installing <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/gnomeicu/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">net/gnomeicu</tt></a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:234
+#, no-wrap
+msgid ""
+"        <p>The release notes for FreeBSD 4.7-RELEASE incorrectly\n"
+"        stated that the <tt class=\"OPTION\">-J</tt> option to <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=xargs&sektion=1&manpath=FreeBSD+4.7-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span\n"
+"        class=\"REFENTRYTITLE\">xargs</span>(1)</span></a> is\n"
+"        deprecated. In fact, there are no plans to remove this\n"
+"        option.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:252
+#, no-wrap
+msgid ""
+"        <p><a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=ftpd&sektion=8&manpath=FreeBSD+4.7-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span\n"
+"        class=\"REFENTRYTITLE\">ftpd</span>(8)</span></a> has a bug\n"
+"        in its virtual hosting function triggered if <tt\n"
+"        class=\"FILENAME\">/etc/ftphosts</tt> defines a virtual host\n"
+"        whose IP address can resolve back to a hostname. In that\n"
+"        case the daemon will be exiting on <tt\n"
+"        class=\"LITERAL\">SIGSEGV</tt> (signal 11) if started from <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=inetd&sektion=8&manpath=FreeBSD+4.7-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span\n"
+"        class=\"REFENTRYTITLE\">inetd</span>(8)</span></a>, or may\n"
+"        malfunction unpredictably if running stand-alone. This bug\n"
+"        has been fixed in FreeBSD 4.8-RC.</p>\n"
+"      </div>\n"
+"    </div>\n"
+"    <hr />\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:256
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>This file, and other release-related\n"
+"    documents, can be downloaded from <a\n"
+"    "
+"href=\"http://snapshots.jp.FreeBSD.org/\">http://snapshots.jp.FreeBSD.org/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:261
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>For questions about FreeBSD, read the\n"
+"    <a href=\"http://www.FreeBSD.org/docs.html\">documentation</a>\n"
+"    before contacting &#60;<a\n"
+"    "
+"href=\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:266
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small><small>All users of FreeBSD 4-STABLE\n"
+"    should subscribe to the &#60;<a\n"
+"    href=\"mailto:stable@FreeBSD.org\">stable@FreeBSD.org</a>&#62;\n"
+"    mailing list.</small></small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/errata.adoc:272
+#, no-wrap
+msgid ""
+"    <p align=\"center\">For questions about this documentation,\n"
+"    e-mail &#60;<a\n"
+"    href=\"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&#62;.</p>\n"
+"    <br />\n"
+"    <br />\n"
+msgstr ""

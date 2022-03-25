@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:18+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/press/pressreleases.adoc:1 content/en/press/pressreleases.adoc:7
+#, no-wrap
+msgid "FreeBSD Historical Press Releases"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/pressreleases.adoc:10
+msgid ""
+"These are historical FreeBSD press releases. For press releases since 2005, "
+"please see http://www.FreeBSDFoundation.org/press/[FreeBSD Foundation]'s "
+"archive."
+msgstr ""
+
+#. type: Labeled list
+#: content/en/press/pressreleases.adoc:11
+#, no-wrap
+msgid "November 25, 2005"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/pressreleases.adoc:13
+msgid "link:../press-rel-9/[Hewlett-Packard donates blade cluster to FreeBSD]"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/press/pressreleases.adoc:13
+#, no-wrap
+msgid "November 4, 2005"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/pressreleases.adoc:15
+msgid "link:../press-rel-8/[FreeBSD Project Launches FreeBSD 6.0]"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/press/pressreleases.adoc:15
+#, no-wrap
+msgid "January 20, 2003"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/pressreleases.adoc:17
+msgid "link:../press-rel-7/[FreeBSD Project announces FreeBSD 5.0]"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/press/pressreleases.adoc:17
+#, no-wrap
+msgid "October 31, 2002"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/pressreleases.adoc:19
+msgid ""
+"link:../press-rel-6/[The Daemon of the Opera: Opera Software Releases "
+"Version for FreeBSD]"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/press/pressreleases.adoc:19
+#, no-wrap
+msgid "October 18, 2000 : New Core"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/pressreleases.adoc:21
+msgid "link:../press-rel-5/[First FreeBSD Core Team Elections]"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/press/pressreleases.adoc:21
+#, no-wrap
+msgid "March 9, 2000"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/pressreleases.adoc:23
+msgid ""
+"link:../press-rel-4/[BSD Suppliers Unite to Deliver the World's Most Popular "
+"Internet Operating Systems]"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/press/pressreleases.adoc:23
+#, no-wrap
+msgid "June 7, 1999"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/pressreleases.adoc:25
+msgid ""
+"link:../press-rel-3/[BSD Community Welcomes Apple's New Open Source "
+"Operating System.]"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/press/pressreleases.adoc:25
+#, no-wrap
+msgid "April 29, 1999"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/pressreleases.adoc:27
+msgid ""
+"link:../press-rel-2/[Complete XML Development System Integrated with "
+"FreeBSD.]"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/press/pressreleases.adoc:27
+#, no-wrap
+msgid "April 22, 1999: The Matrix"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/pressreleases.adoc:28
+msgid ""
+"link:../press-rel-1/[FreeBSD Used to Generate Spectacular Special Effects "
+"for the Warner Brothers film _The Matrix_.]"
+msgstr ""

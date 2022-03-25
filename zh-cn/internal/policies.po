@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/policies.adoc:1 content/en/internal/policies.adoc:8
+#, no-wrap
+msgid "Policies for FreeBSD Project Members"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/policies.adoc:10
+#, no-wrap
+msgid "*Committer's Guide*"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:13
+msgid ""
+"The link:{committers-guide}[Committer's Guide] is an overall guide for all "
+"new committers, including both technical details and policy details. For the "
+"latter, see the chapters on link:{committers-guide}#conventions[Conventions "
+"and Traditions], link:{committers-guide}#developer.relations[Developer "
+"Relations], and link:{committers-guide}#rules[The FreeBSD Committers' Big "
+"List Of Rules]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:15
+msgid ""
+"It contains almost everything a new committer to the FreeBSD Project needs "
+"to know. See the Documentation Project Primer and the Ports Guide, below, "
+"for more info."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/policies.adoc:16
+#, no-wrap
+msgid "*General Policies*"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:19
+msgid "link:../code-of-conduct[Code of Conduct]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:20
+msgid "link:../resources[Commit Bit and Project Resources Policy]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:21
+msgid "link:../expire-bits[Commit Bit Expiration Policy]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:22
+msgid "link:../bylaws[Core Bylaws]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:23
+msgid "link:../core-vote[Core's Voting Procedures]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:24
+msgid "link:../hats[Hats Term Limits Policy]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:25
+msgid "link:../i18n[Internationalization Policy]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:26
+msgid "link:../new-account[New Account Creation Procedure]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:27
+msgid "link:{pr-guidelines}[Problem Report Handling Guidelines]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:28
+msgid "link:../software-license[Software License Policy]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:29
+msgid "link:../data[User Data Policy]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:30
+msgid "link:../members[FreeBSD Project Membership]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/policies.adoc:31
+#, no-wrap
+msgid "*The FreeBSD Documentation Project*"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:34
+msgid ""
+"The link:{fdp-primer}[FreeBSD Documentation Project Primer for New "
+"Contributors] covers everything you will need to know in order to start "
+"contributing to the FreeBSD Documentation Project, from the tools and "
+"software you will be using (both mandatory and recommended) to the "
+"philosophy behind the Documentation Project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:36
+msgid ""
+"The link:../doceng[FreeBSD Doceng Team Charter] describes the purpose of "
+"Doceng."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/policies.adoc:37
+#, no-wrap
+msgid "*The FreeBSD Ports Guidelines*"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:40
+msgid ""
+"The link:{porters-handbook}[FreeBSD Porter's Handbook] is a general guide "
+"for FreeBSD ports committers, including both technical information and "
+"policy guidelines."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:42
+msgid ""
+"The link:../../portmgr/[Ports Management Team] has a separate page with "
+"policies and other information related to the FreeBSD Ports Collection."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/policies.adoc:43
+msgid "link:..[FreeBSD Internal Home]"
+msgstr ""

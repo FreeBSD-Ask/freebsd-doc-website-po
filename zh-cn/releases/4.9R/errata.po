@@ -1,0 +1,449 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.9R/errata.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.9-RELEASE Errata"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:10
+#, no-wrap
+msgid "<h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:13
+#, no-wrap
+msgid ""
+"<p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001, 2002, 2003 The FreeBSD "
+"Documentation\n"
+"Project</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:17
+#, no-wrap
+msgid ""
+"<p class=\"PUBDATE\">$FreeBSD: "
+"src/release/doc/en_US.ISO8859-1/errata/article.sgml,v\n"
+"1.1.2.122 2004/03/30 18:18:34 kensmith Exp $<br />\n"
+"</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:21
+#, no-wrap
+msgid ""
+"<div class=\"LEGALNOTICE\"><a id=\"TRADEMARKS\" name=\"TRADEMARKS\"></a>\n"
+"<p>FreeBSD is a registered trademark of Wind River Systems, Inc. This is "
+"expected to\n"
+"change soon.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:25
+#, no-wrap
+msgid ""
+"<p>Intel, Celeron, EtherExpress, i386, i486, Itanium, Pentium, and Xeon are "
+"trademarks or\n"
+"registered trademarks of Intel Corporation or its subsidiaries in the United "
+"States and\n"
+"other countries.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:31
+#, no-wrap
+msgid ""
+"<p>Many of the designations used by manufacturers and sellers to distinguish "
+"their\n"
+"products are claimed as trademarks. Where those designations appear in this "
+"document, and\n"
+"the FreeBSD Project was aware of the trademark claim, the designations have "
+"been followed\n"
+"by the ``&trade;'' or the ``&reg;'' symbol.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:34
+#, no-wrap
+msgid ""
+"<hr />\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:43
+#, no-wrap
+msgid ""
+"<blockquote class=\"ABSTRACT\">\n"
+"<div class=\"ABSTRACT\"><a id=\"AEN18\" name=\"AEN18\"></a>\n"
+"<p>This document lists errata items for FreeBSD 4.9-RELEASE, containing "
+"significant\n"
+"information discovered after the release or too late in the release cycle to "
+"be otherwise\n"
+"included in the release documentation. This information includes security "
+"advisories, as\n"
+"well as news relating to the software or documentation that could affect its "
+"operation or\n"
+"usability. An up-to-date version of this document should always be consulted "
+"before\n"
+"installing this version of FreeBSD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:48
+#, no-wrap
+msgid ""
+"<p>This errata document for FreeBSD 4.9-RELEASE will be maintained until the "
+"release of\n"
+"FreeBSD 4.10-RELEASE.</p>\n"
+"</div>\n"
+"</blockquote>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:52
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h2 class=\"SECT1\"><a id=\"AEN21\" name=\"AEN21\">1 Introduction</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:56
+#, no-wrap
+msgid ""
+"<p>This errata document contains ``late-breaking news'' about FreeBSD "
+"4.9-RELEASE. Before\n"
+"installing this version, it is important to consult this document to learn "
+"about any\n"
+"post-release discoveries or problems that may already have been found and "
+"fixed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:64
+#, no-wrap
+msgid ""
+"<p>Any version of this errata document actually distributed with the release "
+"(for\n"
+"example, on a CDROM distribution) will be out of date by definition, but "
+"other copies are\n"
+"kept updated on the Internet and should be consulted as the ``current "
+"errata'' for this\n"
+"release. These other copies of the errata are located at <a\n"
+"href=\"http://www.FreeBSD.org/releases/\"\n"
+"target=\"_top\">http://www.FreeBSD.org/releases/</a>, plus any sites which "
+"keep up-to-date\n"
+"mirrors of this location.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:67
+#, no-wrap
+msgid ""
+"<p>Source and binary snapshots of FreeBSD 4-STABLE also contain up-to-date "
+"copies of this\n"
+"document (as of the time of the snapshot).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:74
+#, no-wrap
+msgid ""
+"<p>For a list of all FreeBSD CERT security advisories, see <a\n"
+"href=\"http://www.FreeBSD.org/security/\"\n"
+"target=\"_top\">http://www.FreeBSD.org/security/</a> or <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\"\n"
+"target=\"_top\">ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/</a>.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:78
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h2 class=\"SECT1\"><a id=\"AEN32\" name=\"AEN32\">2 Security "
+"Advisories</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:85
+#, no-wrap
+msgid ""
+"<p>(5 Dec 2003) <b class=\"APPLICATION\">BIND</b> contains the potential for "
+"a\n"
+"denial-of-service attack. This vulnerability has been addressed by a vendor "
+"patch on the\n"
+"4.9-RELEASE security fix branch and by the import of a new version to the "
+"4-STABLE\n"
+"development branch. For more information, see <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:19.bind.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:19</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:96
+#, no-wrap
+msgid ""
+"<p>(8 Feb 2004) A bug with the System V Shared Memory interface "
+"(specifically the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=shmat&sektion=2&manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">shmat</span>(2)</span></a> system\n"
+"call) can cause a shared memory segment to reference unallocated kernel "
+"memory. In turn,\n"
+"this can permit a local attacker to gain unauthorized access to parts of "
+"kernel memory,\n"
+"possibly resulting in disclosure of sensitive information, bypass of access "
+"control\n"
+"mechanisms, or privilege escalation. More details, including bugfix and "
+"workaround\n"
+"information, can be found in security advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-04:02.shmat.asc\"\n"
+"target=\"_top\">FreeBSD-SA-04:02</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:104
+#, no-wrap
+msgid ""
+"<p>(4 Mar 2004) It is possible for a remote attacker to conduct a "
+"low-bandwidth\n"
+"denial-of-service attack against a machine providing TCP-based services, "
+"filling up the\n"
+"target's memory buffers and potentially leading to a system crash. This "
+"vulnerability has\n"
+"been addressed on the FreeBSD 4.9-RELEASE security fix branch. Security "
+"advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-04:04.tcp.asc\"\n"
+"target=\"_top\">FreeBSD-SA-04:04</a> contains more details, as well as "
+"information on\n"
+"patching existing systems.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:113
+#, no-wrap
+msgid ""
+"<p>(17 Mar 2004) By performing a specially crafted SSL/TLS handshake with an "
+"application\n"
+"that uses OpenSSL a null pointer may be dereferenced. This may in turn cause "
+"the\n"
+"application to crash, resulting in a denial of service attack. For more "
+"information see\n"
+"the Security Advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-04:05.openssl.asc\"\n"
+"target=\"_top\">FreeBSD-SA-04:05</a> which contains more details and "
+"instructions on how to\n"
+"patch existing systems.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:117
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h2 class=\"SECT1\"><a id=\"AEN46\" name=\"AEN46\">3 Late-Breaking "
+"News</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:130
+#, no-wrap
+msgid ""
+"<p>(28 Oct 2003) Very late in the release cycle, a change was made to the "
+"HyperThreading\n"
+"(HTT) support on <span class=\"TRADEMARK\">Intel</span>&reg; processors. HTT "
+"support is now\n"
+"enabled by default on SMP-capable kernels; as a result, the <var\n"
+"class=\"LITERAL\">HTT</var> kernel option is unnecessary and has been "
+"removed. The extra\n"
+"logical CPUs are always started so that they can handle interrupts, but are "
+"prevented\n"
+"from executing user processes by default. To enable the logical CPUs, change "
+"the value of\n"
+"the <var class=\"VARNAME\">machdep.hlt_logical_cpus</var> <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysctl&sektion=8&manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sysctl</span>(8)</span></a>\n"
+"variable from <var class=\"LITERAL\">1</var> to <var "
+"class=\"LITERAL\">0</var>. This value\n"
+"can also be set from the loader as a tunable of the same name. This behavior "
+"is now\n"
+"identical to FreeBSD 5.<var class=\"REPLACEABLE\">X</var>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:138
+#, no-wrap
+msgid ""
+"<p>(29 Oct 2003) Some of the packages contained in the first CD-ROM depend "
+"on different\n"
+"versions of the <b class=\"APPLICATION\">OpenLDAP</b> packages, which cannot "
+"co-exist on\n"
+"the same host. One manifestation of this problem is that it is not possible "
+"to install\n"
+"both the <a "
+"href=\"http://www.FreeBSD.org/cgi/url.cgi?ports/x11/gnome2/pkg-descr\"><tt\n"
+"class=\"FILENAME\">x11/gnome2</tt></a> and <a\n"
+"href=\"http://www.FreeBSD.org/cgi/url.cgi?ports/x11/kde3/pkg-descr\"><tt\n"
+"class=\"FILENAME\">x11/kde3</tt></a> packages.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:145
+#, no-wrap
+msgid ""
+"<p>(30 Oct 2003) It appears that the <tt class=\"FILENAME\">crypto</tt> "
+"distribution is\n"
+"required for correct functioning of the FreeBSD base system. At the very "
+"least, the\n"
+"libraries contained in the <tt class=\"FILENAME\">crypto</tt> distribution "
+"are required for\n"
+"<a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=pkg_add&sektion=1&manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">pkg_add</span>(1)</span></a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:154
+#, no-wrap
+msgid ""
+"<p>(30 Oct 2003) There are known cases of fairly-recent i386 machines with "
+"BIOSes that do\n"
+"not support booting from emulation mode El Torito CDROMs. This prevents "
+"booting from the\n"
+"FreeBSD 4.9-STABLE CDROMs. As a workaround, download the floppy disk images, "
+"use them to\n"
+"boot the machine into <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sysinstall</span>(8)</span></a>,\n"
+"and then do a CDROM install. This problem does not seem to be wide-spread as "
+"of this\n"
+"writing.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:162
+#, no-wrap
+msgid ""
+"<div class=\"NOTE\">\n"
+"<blockquote class=\"NOTE\">\n"
+"<p><b>Note:</b> FreeBSD 5.<var class=\"REPLACEABLE\">X</var> uses "
+"non-emulation El Torito\n"
+"booting on its CDROM releases by default. These, of course, cannot be booted "
+"on very old\n"
+"i386 machines that only support emulation mode.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:175
+#, no-wrap
+msgid ""
+"<br />\n"
+"<br />\n"
+"<p>(10 Nov 2003) An update was made to the <var "
+"class=\"LITERAL\">xterm</var> entry in the\n"
+"<a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=termcap&sektion=5&manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">termcap</span>(5)</span></a>\n"
+"database which, among other things, removed the (already deprecated) <var\n"
+"class=\"LITERAL\">bs</var> backspacing capability. The <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=hack&sektion=6&manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">hack</span>(6)</span></a> game\n"
+"appears to depend on this capability and hence fails when run from inside a "
+"window with a\n"
+"terminal type of <var class=\"LITERAL\">xterm</var>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:182
+#, no-wrap
+msgid ""
+"<p>(10 Nov 2003) Tagged queueing in the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=ata&sektion=4&manpath=FreeBSD+4.8-stable\"><span\n"
+" class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">ata</span>(4)</span></a> driver is\n"
+"broken and appears to cause kernel panics.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:187
+#, no-wrap
+msgid ""
+"<hr />\n"
+"<p align=\"center\"><small>This file, and other release-related documents, "
+"can be\n"
+"downloaded from <a\n"
+"href=\"http://snapshots.jp.FreeBSD.org/\">http://snapshots.jp.FreeBSD.org/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:191
+#, no-wrap
+msgid ""
+"<p align=\"center\"><small>For questions about FreeBSD, read the <a\n"
+"href=\"http://www.FreeBSD.org/docs.html\">documentation</a> before "
+"contacting &#60;<a\n"
+"href=\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:195
+#, no-wrap
+msgid ""
+"<p align=\"center\"><small><small>All users of FreeBSD 4-STABLE should "
+"subscribe to the\n"
+"&#60;<a href=\"mailto:stable@FreeBSD.org\">stable@FreeBSD.org</a>&#62; "
+"mailing\n"
+"list.</small></small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:198
+#, no-wrap
+msgid ""
+"<p align=\"center\">For questions about this documentation, e-mail &#60;<a\n"
+"href=\"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&#62;.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.9R/errata.adoc:201
+#, no-wrap
+msgid ""
+"<br />\n"
+"<br />\n"
+msgstr ""

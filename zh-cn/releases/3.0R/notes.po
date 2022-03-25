@@ -1,0 +1,1836 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 21:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/3.0R/notes.adoc:1 content/en/releases/3.0R/notes.adoc:6
+#, no-wrap
+msgid "FreeBSD 3.0 Release Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:11
+#, no-wrap
+msgid ""
+"                                 RELEASE NOTES\n"
+"                          FreeBSD Release 3.0-RELEASE\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:19
+#, no-wrap
+msgid ""
+"This is our first release of 3.0-CURRENT and is aimed primarily at\n"
+"early adopters and developers.  Some parts of the documentation may\n"
+"not be updated yet and should be reported if and when seen.\n"
+"Naturally, any installation failures or crashes should also be\n"
+"reported ASAP by sending mail to freebsd-bugs@FreeBSD.org or using the\n"
+"send-pr command (those preferring a WEB based interface can also see\n"
+"this page).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:24
+#, no-wrap
+msgid ""
+"For information about FreeBSD and the layout of the 3.0-RELEASE\n"
+"directory (especially if you're installing from floppies!), see\n"
+"ABOUT.TXT.  For installation instructions, see the INSTALL.TXT and\n"
+"HARDWARE.TXT files.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:28
+#, no-wrap
+msgid ""
+"This is also hardly the last release on the 3.0-current (HEAD) branch\n"
+"and daily snapshot releases will continue as normal following this\n"
+"release.  Please install them from:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:30
+#, no-wrap
+msgid "    ftp://current.FreeBSD.org/pub/FreeBSD\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:32
+#, no-wrap
+msgid "If you wish to get the latest post-3.0-RELEASE technology.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:39
+#, no-wrap
+msgid ""
+"Table of contents:\n"
+"------------------\n"
+"1. What's new since 2.2.X-RELEASE\n"
+"   1.1 KERNEL CHANGES\n"
+"   1.2 SECURITY FIXES\n"
+"   1.3 USERLAND CHANGES\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:45
+#, no-wrap
+msgid ""
+"2. Supported Configurations\n"
+"   2.1 Disk Controllers\n"
+"   2.2 Ethernet cards\n"
+"   2.3 ATM\n"
+"   2.4 Misc\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:49
+#, no-wrap
+msgid ""
+"3. Obtaining FreeBSD\n"
+"   3.1 FTP/Mail\n"
+"   3.2 CDROM\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:51
+#, no-wrap
+msgid "4. Upgrading from previous releases of FreeBSD\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:54
+#, no-wrap
+msgid ""
+"5. Reporting problems, making suggestions, submitting code\n"
+"6. Acknowledgements\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:60
+#, no-wrap
+msgid ""
+"1. What's new since 2.2.X-RELEASE\n"
+"---------------------------------\n"
+"All changes described here are unique to the 3.0 branch unless\n"
+"specifically marked as [MERGED] features.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:67
+#, no-wrap
+msgid ""
+"1.1. KERNEL CHANGES\n"
+"-------------------\n"
+"o The 2.2.x SCSI subsystem has been almost entirely replaced with\n"
+"  a new \"CAM\" (Common Access Method) SCSI system which offers\n"
+"  improved performance, better error recovery and support for more\n"
+"  SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:71
+#, no-wrap
+msgid ""
+"o The Host ATM Research Platform (\"HARP\") software by Network\n"
+"  Computing Services, Inc. has been integrated into the system.\n"
+"  See /usr/src/share/examples/atm for more info.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:74
+#, no-wrap
+msgid ""
+"o The SMP (Symmetric MultiProcessing) branch has been merged.\n"
+"  The kernel is mostly non-reentrant as yet, but work is under way.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:76
+#, no-wrap
+msgid "o The code from 4.4BSD-Lite2 has been (finally) merged.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:78
+#, no-wrap
+msgid "o Secure RPC is now supported (and usable with NFS et al).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:80
+#, no-wrap
+msgid "o Sun's WEBNFS standard is now supported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:83
+#, no-wrap
+msgid ""
+"o The MSDOS filesystem code now handles VFAT and FAT32 partitions.\n"
+"  [MERGED: Also in 2.2.7 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:85
+#, no-wrap
+msgid "o ATAPI/IDE CD burner support (BETA).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:87
+#, no-wrap
+msgid "o ATAPI/IDE tape drive support (BETA).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:94
+#, no-wrap
+msgid ""
+"o Support for using VESA video modes. It is now possible to select and\n"
+"  use the modes provided by the BIOS on modern videocards. This enables\n"
+"  fx. 132x60 sized consoles and highres graphics in a generic manner on\n"
+"  hardware that supports it. There is also support for running the\n"
+"  console in rastermode, which allows XFree86 to run a simple 16color\n"
+"  server in 800x600 on otherwise unsupported video hardware.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:96
+#, no-wrap
+msgid "o Support for AdvanSys SCSI controllers\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:98
+#, no-wrap
+msgid "o Support for QLogic SCSI and Fibre Channel controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:101
+#, no-wrap
+msgid ""
+"o Support for Adaptec 7890, 7891, 7895, 7896 and 7897 based controllers\n"
+"  (new 2940/2950/3940/3950 et al).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:107
+#, no-wrap
+msgid ""
+"o The ed0 (wd8xxxx, 3c503, NE2000, HP Lan+) Ethernet device's default IRQ\n"
+"  has changed from IRQ 5 to IRQ 10.\n"
+"  The ed1 Ethernet device has been removed.  Use the Userconfig utility\n"
+"  to change ed0's values to match your network card's settings.\n"
+"  [MERGED: Both changes are in 2.2.6 and later releases on 2.2-STABLE "
+"branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:113
+#, no-wrap
+msgid ""
+"o The code responsible for maintaining time of day has been\n"
+"  rewritten.  New features are:  true support for nanoseconds in\n"
+"  both kernel and userland, continuous rather than stepwise adjustment\n"
+"  by NTPD and support for synchronizing to high precision external time\n"
+"  signals.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:117
+#, no-wrap
+msgid ""
+"o Support for the PPS API described in draft-mogul-pps-api-02.txt for\n"
+"  TTL rising edge inputs via the parallel printer port has been added\n"
+"  to the printer driver.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:121
+#, no-wrap
+msgid ""
+"o Use the new if_multiaddrs list for multicast addresses rather than the\n"
+"  previous hackery involving struct in_ifaddr and arpcom.  Get rid of the\n"
+"  abominable multi_kludge.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:125
+#, no-wrap
+msgid ""
+"o The new if_media selection method for ethernet drivers has been brought\n"
+"  in, obtained from Jason Thorpe's implementation for NetBSD.\n"
+"  [MERGED: Also in 2.2.5 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:130
+#, no-wrap
+msgid ""
+"o Multi-session ISO-9660 CD-ROMs are now fully supported.  By default, the\n"
+"  last session will be mounted (including for root mounts).  For non-root\n"
+"  mounts, mount_cd9660(8) can take an argument to mount a particular\n"
+"  session instead of the default one.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:133
+#, no-wrap
+msgid ""
+"o The UPAGES are gone from the per-process address space which allows\n"
+"  complete address space and page table sharing by reference count.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:139
+#, no-wrap
+msgid ""
+"o Newly forked child processes return directly to user mode rather than\n"
+"  return up through the fork() syscall tree.  This eliminates the kernel\n"
+"  stack copy at fork time and simplifies certain other internal "
+"operations.\n"
+"  It is also needed to support the removal of the UPAGES.  (The idea for\n"
+"  this originally came from NetBSD, but we did it for different reasons.)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:147
+#, no-wrap
+msgid ""
+"o vfork() is now fully functional by taking advantage of the new sharing\n"
+"  semantics and a significant speedup has been measured.  This can be\n"
+"  disabled via the kern.fast_vfork sysctl variable in case of problems.\n"
+"  Statically linked binaries from older releases and other BSD platforms\n"
+"  are a problem since there was a bug in the 4.4BSD (net2, Lite and Lite2)\n"
+"  popen() implementation.  rfork() also has access to these facilities,\n"
+"  intended for supporting kernel assisted threads.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:151
+#, no-wrap
+msgid ""
+"o With the contribution of Berkeley Software Design, Inc., Jonathan "
+"Lemmon,\n"
+"  Mike Smith, Sean Eric Fagan, and John Dyson, VM86 support has been added\n"
+"  to the kernel, and BSD/OS's contributed doscmd has been ported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:155
+#, no-wrap
+msgid ""
+"o The SA_NOCLDWAIT flags has been implemented, featuring the System V\n"
+"  option where a process can express its wish to never get zombies or\n"
+"  SIGCHLD for dead children.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:159
+#, no-wrap
+msgid ""
+"o An implementation of poll(2) is in place, the core of which is derived\n"
+"  from the NetBSD implementation.  Both the select() and poll() syscalls\n"
+"  use the poll device, file and vnode ops routines.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:163
+#, no-wrap
+msgid ""
+"o An implementation of issetugid(2) that is similar to the OpenBSD call\n"
+"  of the same name.  We set the flag in more cases than OpenBSD - our\n"
+"  implementation is slightly more paranoid.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:166
+#, no-wrap
+msgid ""
+"o Async IO is implemented (under non-SMP at this stage) with additional\n"
+"  support for kernel assisted threads.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:169
+#, no-wrap
+msgid ""
+"o Some other misc syscalls for compatability with other systems: "
+"getsid(2),\n"
+"  setpgid(2), nanosleep(2).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:174
+#, no-wrap
+msgid ""
+"o A new syscall signanosleep(2) which is like nanosleep(2), but a specific\n"
+"  signal mask is used to determine which signals will wake the sleep.  In\n"
+"  a nutshell this is 'wait for a given set of signals for up to a certain\n"
+"  amount of time'.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:178
+#, no-wrap
+msgid ""
+"o sleep(3) and usleep(3) are now implemented in terms of signanosleep(2)\n"
+"  and now have correct SIGALRM interaction semantics and sleep(3) "
+"correctly\n"
+"  returns the time remaining.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:181
+#, no-wrap
+msgid ""
+"o An in-kernel linker is implemented and intended to replace the lkm "
+"system\n"
+"  and the bogosity that goes with it.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:197
+#, no-wrap
+msgid ""
+"o All supported network protocols have been updated to avoid the ``big\n"
+"  switch'' pr_usrreq(), and to pass a process pointer down to each user\n"
+"  request that might need process credentials or want to sleep,\n"
+"  replacing the previous hodgepodge of inspecting curproc (which only\n"
+"  occasionally did the right thing) and the SS_PRIV socket state flag.\n"
+"  The latter has now been eliminated, along with the SO_PRIVSTATE socket\n"
+"  option which cleared it.  Protocols are now also given the opportunity\n"
+"  to override the generic send, receive, and poll routines, which will\n"
+"  make it possible for a more efficient, protocol-specific\n"
+"  implementation of these entry points in later releases.  Finally, many\n"
+"  parts of the network code have been modified to cease storing socket\n"
+"  addresses and other metainformation in mbufs, in preparation for the\n"
+"  eventual elimination thereof.  The mechanism by which socket addresses\n"
+"  are now returned is still highly subject to change as we experiment to\n"
+"  discover the most efficient method.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:201
+#, no-wrap
+msgid ""
+"o Responses to multicast ICMP ECHO REQUEST (``ping'') and ADDRESS MASK\n"
+"  REQUEST packets can now be disabled via sysctl.  The netstat program\n"
+"  will print out statistics on how many times this happens.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:203
+#, no-wrap
+msgid "o A subtle and seldom encountered bug in ffs has been fixed.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:205
+#, no-wrap
+msgid ""
+"o The VFS name cache has been reworked to be more accountable and "
+"efficient.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:208
+#, no-wrap
+msgid ""
+"o The generic part of VOP_LOOKUP() has been put it in system-wide function\n"
+"  which filesystems can rely on for the canonical stuff.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:211
+#, no-wrap
+msgid ""
+"o Vnode freelist handling has been hauled over.  Vnodes are only on the\n"
+"  freelist if nobody cares about them.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:214
+#, no-wrap
+msgid ""
+"o The kernel provides assistance to getcwd() from data stored in the name\n"
+"  cache if possible.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:219
+#, no-wrap
+msgid ""
+"o An interrupt driven configuration hook mechanism has been implemented.\n"
+"  This allows drivers to postpone part of their configuration until after\n"
+"  interrupts are fully enabled.  This speeds booting because busy-waiting\n"
+"  is avoided for things like sub device probing (eg: SCSI bus probes).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:224
+#, no-wrap
+msgid ""
+"o The timeout(9) system in the kernel has been overhauled.  This gives\n"
+"  O(1) insertion and removal of callouts and an O(hash chain length)\n"
+"  amount of work to be performed in softclock.  The original paper is at:\n"
+"        http://www.cs.berkeley.edu/~amc/research/timer/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:228
+#, no-wrap
+msgid ""
+"o Changes in driver buffer queuing to deal with ordered transactions.  "
+"This\n"
+"  is intended for sequencing data and metadata writes in the filesystem "
+"code\n"
+"  once fully supported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:231
+#, no-wrap
+msgid ""
+"o EISA Shared interrupts are now supported, working with the framework\n"
+"  originally for supporting PCI shared interrupts.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:233
+#, no-wrap
+msgid "o Support for the Comtrol Rocketport card.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:238
+#, no-wrap
+msgid ""
+"o IPFW's packet and byte counters have been expanded from 32 to 64 bits,\n"
+"  a `FWD' operation has been added to ipfw to support transparent\n"
+"  proxying and the divert operation has changed slightly - see the man\n"
+"  pages for natd(8) and ipfw(8) for more information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:243
+#, no-wrap
+msgid ""
+"o New Plug and Play (PnP) support that allows you to (re)configure PnP\n"
+"  devices.  Also support modems being detected by the PnP part and\n"
+"  automatically attached.\n"
+"  [MERGED: Also in 2.2.6 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:247
+#, no-wrap
+msgid ""
+"o Import of new sound code from Luigi Rizzo.  This code is still being\n"
+"  developed, but has support for a number of different cards.\n"
+"  [MERGED: Also in 2.2.6 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:252
+#, no-wrap
+msgid ""
+"o The psm, mse and sysmouse drivers are improved to provide better mouse\n"
+"  support.  In particular, the psm driver now supports various ``wheeled''\n"
+"  mice.\n"
+"  [MERGED: Also in 2.2.6 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:256
+#, no-wrap
+msgid ""
+"o Added support for SMC EtherPower II 10/100 Fast Ethernet card\n"
+"  (aka SMC9432TX based on SMC83c170 EPIC chip).\n"
+"  [MERGED: Also in 2.2.7 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:259
+#, no-wrap
+msgid ""
+"o Added support for ATAPI floppy drives (LS-120).\n"
+"  [MERGED: Also in 2.2.7 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:263
+#, no-wrap
+msgid ""
+"o Added support for IBM Etherjet and other Crystal Semiconductor\n"
+"  CS89x0-based NICs.\n"
+"  [MERGED: Also in 2.2.7 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:266
+#, no-wrap
+msgid ""
+"o Added support for Texas Instruments TNET100 'ThunderLAN' PCI NIC.\n"
+"  [MERGED: Also in 2.2.8 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:270
+#, no-wrap
+msgid ""
+"o Added full bus master DMA support for 3c900 and 3c905 adapters and\n"
+"  added support for the 3c905B.\n"
+"  [MERGED: Also in 2.2.8 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:275
+#, no-wrap
+msgid ""
+"1.2. SECURITY FIXES\n"
+"-------------------\n"
+"[MERGED: all changes soon after specified date in 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:290
+#, no-wrap
+msgid ""
+"97/7/29 Lots of lpr/lpd security fixes merged from OpenBSD.\n"
+"97/8/22 buffer overflows in tip corrected (benign since tip isn't\n"
+"        set[ug]id)\n"
+"97/8/26 buffer overflow in glob fixed, no know exploits\n"
+"97/8/27 vacation security problem with sendmail corrected (SNI)\n"
+"97/8/29 inetd sleeps less when children exit, making DoS attacks much\n"
+"        harder.\n"
+"97/8/29 fts now race-proof and find -execdir added (-current only)\n"
+"97/8/31 games setuid -> setgid.  Makes any games exploits benign (only\n"
+"        score files vulnerable).  Please report any problems to\n"
+"        eivind@FreeBSD.org (score-file ownership problems are known)\n"
+"97/12/3 Add Intel's suggested fix for the F00F bug.  If you don't have\n"
+"        a Pentium, the NO_F00F_HACK kernel option will disable it.\n"
+"98/1/20 More robust protection against LAND attacks now incorporated.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:293
+#, no-wrap
+msgid ""
+"The suidperl vulnerability mentioned in the CERT advisory CA-97.17 is\n"
+"also believed to be fixed.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:295
+#, no-wrap
+msgid "KerberosIV is now merged.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:307
+#, no-wrap
+msgid ""
+"1.3. USERLAND CHANGES\n"
+"---------------------\n"
+"The default binary type (and compiler toolchain) has been\n"
+"switched from a.out to ELF.  This gives us access to much\n"
+"newer compiler technology (much of which didn't support a.out),\n"
+"allows for smaller executables and provides much better\n"
+"support for languages like C++, among many other advantages.\n"
+"Older a.out libraries and binaries will, of course, continue to work\n"
+"and provisions have been made for having both varieties installed if\n"
+"and as necessary for transitional purposes.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:310
+#, no-wrap
+msgid ""
+"Perl4 has now been replaced by Perl5 as a standard part of the\n"
+"system.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:315
+#, no-wrap
+msgid ""
+"The default username length has increased to 16 characters.\n"
+"Caution:  Old utmp/wtmp files will NOT work with this change since\n"
+"the data records will be of the old size.  For a conversion utility\n"
+"to aid with this, see /usr/src/tools/3.0-upgrade.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:318
+#, no-wrap
+msgid ""
+"/etc/sysconfig now replaced by more compact /etc/rc.conf file\n"
+"[MERGED: Also in 2.2.1 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:322
+#, no-wrap
+msgid ""
+"fdisk(8) now numbers disk slices from 1 to 4 rather than from 0 to 3.\n"
+"This brings it in line with the numbers used in the device names\n"
+"in /dev.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:327
+#, no-wrap
+msgid ""
+"The Amd automounter has been updated from the 1993 4.4BSD version to\n"
+"the latest current version of am-utils.  Map options have changed\n"
+"somewhat, and a new configuration file, /etc/amd.conf, is supported.\n"
+"See ``man 5 amd.conf''.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:331
+#, no-wrap
+msgid ""
+"The ``picobsd'' package for creating custom FreeBSD boot floppies\n"
+"and \"mini systems\" has been brought into /usr/src/release/picobsd.\n"
+"See file:/usr/src/release/picobsd/README.html for further information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:338
+#, no-wrap
+msgid ""
+"When operating over the network, finger(1) no longer closes the socket\n"
+"immediately after sending its request, but instead waits for the\n"
+"remote end to close first.  (The specification is ambiguous, so we are\n"
+"following the behavior which interoperates with the most servers.)\n"
+"This means that it is now possible to use the MIT directory and finger\n"
+"people at certain broken Linux machines.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:342
+#, no-wrap
+msgid ""
+"There is a new flag to fetch(1) which allows it to talk to certain\n"
+"broken HTTP implementations which react badly to a request message\n"
+"immediately followed by a close of the connection.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:345
+#, no-wrap
+msgid ""
+"netstat(1) now uses sysctl(3) to retrieve more statistics groups and\n"
+"uses the correct, unsigned format for printing most of them out.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:349
+#, no-wrap
+msgid ""
+"A new VGA library (/usr/src/lib/libvgl) now exists for doing simple\n"
+"VGA graphics to syscons ttys (sort of like Linux's libSVGA).\n"
+"[MERGED: Also in 2.2.5 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:352
+#, no-wrap
+msgid ""
+"Xntpd's syslogging has been moved out into a facility of its own\n"
+"(LOG_NTP, userland name \"ntp\").\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:358
+#, no-wrap
+msgid ""
+"A new pair of ioctl's has been added: SIOC[SG]IFGENERIC.  The intent\n"
+"is to provide for a hook to pass arbitrary ioctl subcommands down to a\n"
+"network interface driver.  This is for example necesseray for PPP\n"
+"drivers to communicate things like CHAP names and secrets, or variable\n"
+"options between the driver and a userland utility.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:366
+#, no-wrap
+msgid ""
+"sppp(4) has been improved a fair bit since FreeBSD 2.2.X.  It now\n"
+"employs a full-fledged PPP state machine, offers a lot more of LCP and\n"
+"IPCP negotiation, making it ready for dial-on-demand connections (like\n"
+"those that are often running over ISDN).  It also offers PAP or CHAP\n"
+"authentication.  The userland counterpart spppcontrol(8) is also the\n"
+"first program that utilizes the abovementioned SIOC[SG]IFGENERIC ioctl\n"
+"commands.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:372
+#, no-wrap
+msgid ""
+"moused(8) has been modified to support various mice with a ``wheel''.\n"
+"It also automatically recognizes mice which support the PnP COM device\n"
+"standard, so that the user is no longer required to supply a mouse\n"
+"protocol type on the command line.\n"
+"[MERGED: Also in 2.2.6 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:377
+#, no-wrap
+msgid ""
+"ppp(8) supports many additional features including the PPP Multilink\n"
+"Protocol (rfc1990), PPP Callback (with CBCP extensions) and client\n"
+"side DNS negotiation.  Refer to the README.changes file in the source\n"
+"directory for details of possible configuration conflicts.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:380
+#, no-wrap
+msgid ""
+"Pthread read/write locks as defined by the Single UNIX Specification,\n"
+"Version 2, have been added to the POSIX threads library, libc_r.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:383
+#, no-wrap
+msgid ""
+"System files are now owned by user `root', group `wheel'.  UID 0 is far\n"
+"more protected than `bin'.  Especially over NFS.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:388
+#, no-wrap
+msgid ""
+"/bin/sh signal and trap handling reworked. Among other things, this\n"
+"makes tty-mode emacs work when called from system(2), i.e. by a mail\n"
+"agent. Several syntax bugs have been fixed.\n"
+"[MERGED: Also in 2.2.8 and later releases on 2.2-STABLE branch]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:394
+#, no-wrap
+msgid ""
+"systat(1), iostat(8), rpc.rstatd(8), and vmstat(8) have been\n"
+"overhauled to use the new devstat(3) library and devstat(9) statistics\n"
+"subsystem.  Among other enhancements, these utilities (well, with the\n"
+"exception of rpc.rstatd(8)) now print out more useful statistics, and can\n"
+"see statistics for all devices in the system, not just the first 8.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:402
+#, no-wrap
+msgid ""
+"2. Supported Configurations\n"
+"---------------------------\n"
+"FreeBSD currently runs on a wide variety of ISA, VLB, EISA and PCI bus\n"
+"based PC's, ranging from 386sx to Pentium class machines (though the\n"
+"386sx is not recommended).  Support for generic IDE or ESDI drive\n"
+"configurations, various SCSI controller, network and serial cards is\n"
+"also provided.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:406
+#, no-wrap
+msgid ""
+"What follows is a list of all peripherals currently known to work with\n"
+"FreeBSD.  Other configurations may also work, we have simply not as yet\n"
+"received confirmation of this.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:414
+#, no-wrap
+msgid ""
+"2.1. Disk Controllers\n"
+"---------------------\n"
+"WD1003 (any generic MFM/RLL)\n"
+"WD1007 (any generic IDE/ESDI)\n"
+"IDE\n"
+"ATA\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:421
+#, no-wrap
+msgid ""
+"Adaptec 1535 ISA SCSI controllers\n"
+"Adaptec 154x series ISA SCSI controllers\n"
+"Adaptec 174x series EISA SCSI controller in standard and enhanced mode.\n"
+"Adaptec 274X/284X/2920/2940/2950/3940/3950 (Narrow/Wide/Twin) series\n"
+"EISA/VLB/PCI SCSI controllers.\n"
+"Adaptec AIC7850, AIC7880, AIC789x, on-board SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:423
+#, no-wrap
+msgid "AdvanSys SCSI controllers (all models).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:429
+#, no-wrap
+msgid ""
+"Buslogic 545S & 545c\n"
+"Buslogic 445S/445c VLB SCSI controller\n"
+"Buslogic 742A, 747S, 747c EISA SCSI controller.\n"
+"Buslogic 946c PCI SCSI controller\n"
+"Buslogic 956c PCI SCSI controller\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:431
+#, no-wrap
+msgid "DPT SCSI/RAID controllers (most variants).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:440
+#, no-wrap
+msgid ""
+"SymBios (formerly NCR) 53C810, 53C825, 53c860 and 53c875 PCI SCSI\n"
+"controllers:\n"
+"        ASUS SC-200\n"
+"        Data Technology DTC3130 (all variants)\n"
+"        NCR cards (all)\n"
+"        Symbios cards (all)\n"
+"        Tekram DC390W, 390U and 390F\n"
+"        Tyan S1365\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:443
+#, no-wrap
+msgid "QLogic SCSI and Fibre Channel controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:445
+#, no-wrap
+msgid "DTC 3290 EISA SCSI controller in 1542 emulation mode.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:452
+#, no-wrap
+msgid ""
+"With all supported SCSI controllers, full support is provided for\n"
+"SCSI-I & SCSI-II peripherals, including hard disks, optical disks,\n"
+"tape drives (including DAT and 8mm Exabyte), medium changers, processor\n"
+"target devices and CDROM drives.  WORM devices that support CDROM commands\n"
+"are supported for read-only access by the CDROM driver.  WORM/CD-R/CD-RW\n"
+"writing support is provided by cdrecord, which is in the ports tree.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:460
+#, no-wrap
+msgid ""
+"The following CD-ROM type systems are supported at this time:\n"
+"(cd)    SCSI interface (also includes ProAudio Spectrum and\n"
+"        SoundBlaster SCSI)\n"
+"(matcd) Matsushita/Panasonic (Creative SoundBlaster) proprietary\n"
+"        interface (562/563 models)\n"
+"(scd)   Sony proprietary interface (all models)\n"
+"(wcd)   ATAPI IDE interface\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:462
+#, no-wrap
+msgid "SCSI TAPE SUPPORT:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:468
+#, no-wrap
+msgid ""
+"  The CAM SCSI tape driver doesn't yet handle older (and many times "
+"broken)\n"
+"  tape drives very well.  If you've got an older SCSI-1 tape drive, like "
+"an\n"
+"  Exabyte 8200 or older QIC-type tape drive, it may not work properly with\n"
+"  the CAM tape driver.  This is obviously a known problem, and we're\n"
+"  working on it.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:472
+#, no-wrap
+msgid ""
+"  Newer tape drives that are mostly SCSI-2 compliant should work fine.\n"
+"  e.g., DAT (DDS-1, 2 and 3), DLT, and newer Exabyte 8mm drives should\n"
+"  work fine.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:475
+#, no-wrap
+msgid ""
+"  If you want to find out if your particular tape drive is supported, the\n"
+"  best way to find out is to try it!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:478
+#, no-wrap
+msgid ""
+"The following drivers were supported under the old SCSI subsystem, but are\n"
+"NOT YET supported under the new CAM SCSI subsystem:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:481
+#, no-wrap
+msgid ""
+"  Tekram DC390 and DC390T controllers (maybe other cards based on the\n"
+"  AMD 53c974 as well).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:483
+#, no-wrap
+msgid "  NCR5380/NCR53400 (\"ProAudio Spectrum\") SCSI controller.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:485
+#, no-wrap
+msgid "  UltraStor 14F, 24F and 34F SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:487
+#, no-wrap
+msgid "  Seagate ST01/02 SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:489
+#, no-wrap
+msgid "  Future Domain 8xx/950 series SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:491
+#, no-wrap
+msgid "  WD7000 SCSI controller.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:496
+#, no-wrap
+msgid ""
+"  Adaptec 1510 series ISA SCSI controllers (not for bootable devices)\n"
+"  Adaptec 152x series ISA SCSI controllers\n"
+"  Adaptec AIC-6260 and AIC-6360 based boards, which includes the AHA-152x\n"
+"  and SoundBlaster SCSI cards.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:500
+#, no-wrap
+msgid ""
+"  [ Note:  There is work-in-progress to port the AIC-6260/6360 and\n"
+"    UltraStor drivers to the new CAM SCSI framework, but no estimates on\n"
+"    when or if they will be completed. ]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:502
+#, no-wrap
+msgid "Unmaintained drivers, they might or might not work for your hardware:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:504
+#, no-wrap
+msgid "  Floppy tape interface (Colorado/Mountain/Insight)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:506
+#, no-wrap
+msgid "  (mcd)   Mitsumi proprietary CD-ROM interface (all models)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:510
+#, no-wrap
+msgid ""
+"2.2. Ethernet cards\n"
+"-------------------\n"
+"Allied-Telesis AT1700 and RE2000 cards\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:512
+#, no-wrap
+msgid "AMD PCnet/PCI (79c970 & 53c974 or 79c974)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:516
+#, no-wrap
+msgid ""
+"SMC Elite 16 WD8013 ethernet interface, and most other WD8003E,\n"
+"WD8003EBT, WD8003W, WD8013W, WD8003S, WD8003SBT and WD8013EBT\n"
+"based clones.  SMC Elite Ultra.  SMC Etherpower II.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:522
+#, no-wrap
+msgid ""
+"Texas Instruments ThunderLAN PCI NICs, including the following:\n"
+"  Compaq Netelligent 10, 10/100, 10/100 Proliant, 10/100 Dual-Port\n"
+"  Compaq Netelligent 10/100 TX Embedded UTP, 10 T PCI UTP/Coax, 10/100 TX "
+"UTP\n"
+"  Compaq NetFlex 3P, 3P Integrated, 3P w/ BNC\n"
+"  Olicom OC-2135/2138, OC-2325, OC-2326 10/100 TX UTP\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:527
+#, no-wrap
+msgid ""
+"DEC EtherWORKS III NICs (DE203, DE204, and DE205)\n"
+"DEC EtherWORKS II NICs (DE200, DE201, DE202, and DE422)\n"
+"DEC DC21040, DC21041, or DC21140 based NICs (SMC Etherpower 8432T, DE245, "
+"etc)\n"
+"DEC FDDI (DEFPA/DEFEA) NICs\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:529
+#, no-wrap
+msgid "Fujitsu MB86960A/MB86965A\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:531
+#, no-wrap
+msgid "HP PC Lan+ cards (model numbers: 27247B and 27252A).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:535
+#, no-wrap
+msgid ""
+"Intel EtherExpress 16\n"
+"Intel EtherExpress Pro/10\n"
+"Intel EtherExpress Pro/100B PCI Fast Ethernet\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:538
+#, no-wrap
+msgid ""
+"Isolan AT 4141-0 (16 bit)\n"
+"Isolink 4110     (8 bit)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:540
+#, no-wrap
+msgid "Novell NE1000, NE2000, and NE2100 ethernet interface.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:542
+#, no-wrap
+msgid "3Com 3C501 cards\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:544
+#, no-wrap
+msgid "3Com 3C503 Etherlink II\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:546
+#, no-wrap
+msgid "3Com 3c505 Etherlink/+\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:548
+#, no-wrap
+msgid "3Com 3C507 Etherlink 16/TP\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:551
+#, no-wrap
+msgid ""
+"3Com 3C509, 3C579, 3C589 (PCMCIA), 3C590/592/595/900/905/905B PCI and EISA\n"
+"(Fast) Etherlink III / (Fast) Etherlink XL\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:553
+#, no-wrap
+msgid "Toshiba ethernet cards\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:556
+#, no-wrap
+msgid ""
+"Crystal Semiconductor CS89x0-based NICs, including:\n"
+"  IBM Etherjet ISA\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:559
+#, no-wrap
+msgid ""
+"PCMCIA ethernet cards from IBM and National Semiconductor are also\n"
+"supported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:563
+#, no-wrap
+msgid ""
+"Note that NO token ring cards are supported at this time as we're\n"
+"still waiting for someone to donate a driver for one of them.  Any\n"
+"takers?\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:566
+#, no-wrap
+msgid ""
+"2.3 ATM\n"
+"-------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:570
+#, no-wrap
+msgid ""
+"   o ATM Host Interfaces\n"
+"        - FORE Systems, Inc. PCA-200E ATM PCI Adapters\n"
+"        - Efficient Networks, Inc. ENI-155p ATM PCI Adapters\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:577
+#, no-wrap
+msgid ""
+"   o ATM Signalling Protocols\n"
+"        - The ATM Forum UNI 3.1 signalling protocol\n"
+"        - The ATM Forum UNI 3.0 signalling protocol\n"
+"        - The ATM Forum ILMI address registration\n"
+"        - FORE Systems's proprietary SPANS signalling protocol\n"
+"        - Permanent Virtual Channels (PVCs)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:587
+#, no-wrap
+msgid ""
+"   o IETF \"Classical IP and ARP over ATM\" model\n"
+"        - RFC 1483, \"Multiprotocol Encapsulation over ATM Adaptation Layer "
+"5\"\n"
+"        - RFC 1577, \"Classical IP and ARP over ATM\"\n"
+"        - RFC 1626, \"Default IP MTU for use over ATM AAL5\"\n"
+"        - RFC 1755, \"ATM Signaling Support for IP over ATM\"\n"
+"        - RFC 2225, \"Classical IP and ARP over ATM\"\n"
+"        - RFC 2334, \"Server Cache Synchronization Protocol (SCSP)\"\n"
+"        - Internet Draft draft-ietf-ion-scsp-atmarp-00.txt,\n"
+"                \"A Distributed ATMARP Service Using SCSP\"\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:589
+#, no-wrap
+msgid "   o ATM Sockets interface\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:592
+#, no-wrap
+msgid ""
+"2.4. Misc\n"
+"---------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:594
+#, no-wrap
+msgid "AST 4 port serial card using shared IRQ.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:597
+#, no-wrap
+msgid ""
+"ARNET 8 port serial card using shared IRQ.\n"
+"ARNET (now Digiboard) Sync 570/i high-speed serial.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:602
+#, no-wrap
+msgid ""
+"Boca BB1004 4-Port serial card (Modems NOT supported)\n"
+"Boca IOAT66 6-Port serial card (Modems supported)\n"
+"Boca BB1008 8-Port serial card (Modems NOT supported)\n"
+"Boca BB2016 16-Port serial card (Modems supported)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:604
+#, no-wrap
+msgid "Comtrol Rocketport card.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:606
+#, no-wrap
+msgid "Cyclades Cyclom-y Serial Board.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:608
+#, no-wrap
+msgid "STB 4 port card using shared IRQ.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:611
+#, no-wrap
+msgid ""
+"SDL Communications Riscom/8 Serial Board.\n"
+"SDL Communications RISCom/N2 and N2pci high-speed sync serial boards.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:614
+#, no-wrap
+msgid ""
+"Stallion multiport serial boards: EasyIO, EasyConnection 8/32 & 8/64,\n"
+"ONboard 4/16 and Brumby.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:617
+#, no-wrap
+msgid ""
+"Adlib, SoundBlaster, SoundBlaster Pro, ProAudioSpectrum, Gravis UltraSound\n"
+"and Roland MPU-401 sound cards. (snd driver)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:620
+#, no-wrap
+msgid ""
+"Most ISA audio codecs manufactured by Crystal Semiconductors, OPTi, "
+"Creative\n"
+"Labs, Avance, Yamaha and ENSONIQ. (pcm driver)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:629
+#, no-wrap
+msgid ""
+"Connectix QuickCam\n"
+"Matrox Meteor Video frame grabber\n"
+"Creative Labs Video Spigot frame grabber\n"
+"Cortex1 frame grabber\n"
+"Hauppauge Wincast/TV boards (PCI)\n"
+"STB TV PCI\n"
+"Intel Smart Video Recorder III\n"
+"Various Frame grabbers based on Brooktree Bt848 chip.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:631
+#, no-wrap
+msgid "HP4020, HP6020, Philips CDD2000/CDD2660 and Plasmon CD-R drives.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:633
+#, no-wrap
+msgid "PS/2 mice\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:635
+#, no-wrap
+msgid "Standard PC Joystick\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:637
+#, no-wrap
+msgid "X-10 power controllers\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:639
+#, no-wrap
+msgid "GPIB and Transputer drivers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:641
+#, no-wrap
+msgid "Genius and Mustek hand scanners.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:644
+#, no-wrap
+msgid ""
+"Xilinx XC6200 based reconfigurable hardware cards compatible with\n"
+"the HOT1 from Virtual Computers (www.vcc.com)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:646
+#, no-wrap
+msgid "Support for Dave Mills experimental Loran-C receiver.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:648
+#, no-wrap
+msgid "FreeBSD currently does NOT support IBM's microchannel (MCA) bus.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:651
+#, no-wrap
+msgid ""
+"3. Obtaining FreeBSD\n"
+"--------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:653
+#, no-wrap
+msgid "You may obtain FreeBSD in a variety of ways:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:656
+#, no-wrap
+msgid ""
+"3.1. FTP/Mail\n"
+"-------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:659
+#, no-wrap
+msgid ""
+"You can ftp FreeBSD and any or all of its optional packages from\n"
+"`ftp.FreeBSD.org' - the official FreeBSD release site.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:665
+#, no-wrap
+msgid ""
+"For other locations that mirror the FreeBSD software see the file\n"
+"MIRROR.SITES.  Please ftp the distribution from the site closest (in\n"
+"networking terms) to you.  Additional mirror sites are always welcome!\n"
+"Contact freebsd-admin@FreeBSD.org for more details if you'd like to\n"
+"become an official mirror site.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:673
+#, no-wrap
+msgid ""
+"If you do not have access to the Internet and electronic mail is your\n"
+"only recourse, then you may still fetch the files by sending mail to\n"
+"`ftpmail@ftpmail.vix.com' - putting the keyword \"help\" in your message\n"
+"to get more information on how to fetch files using this mechanism.\n"
+"Please do note, however, that this will end up sending many *tens of\n"
+"megabytes* through the mail and should only be employed as an absolute\n"
+"LAST resort!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:677
+#, no-wrap
+msgid ""
+"3.2. CDROM\n"
+"----------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:679
+#, no-wrap
+msgid "FreeBSD 3.0-RELEASE and 2.2.x-RELEASE CDs may be ordered on CDROM from:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:684
+#, no-wrap
+msgid ""
+"        Walnut Creek CDROM\n"
+"        4041 Pike Lane, Suite D\n"
+"        Concord CA  94520\n"
+"        1-800-786-9907, +1-925-674-0783, +1-925-674-0821 (FAX)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:687
+#, no-wrap
+msgid ""
+"Or via the Internet from orders@cdrom.com or http://www.cdrom.com.\n"
+"Their current catalog can be obtained via ftp from:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:689
+#, no-wrap
+msgid "        ftp://ftp.cdrom.com/cdrom/catalog\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:697
+#, no-wrap
+msgid ""
+"Cost per -RELEASE CD is $39.95 or $24.95 with a FreeBSD subscription.\n"
+"FreeBSD SNAPshot CDs, when available, are $39.95 or $14.95 with a\n"
+"FreeBSD-SNAP subscription (-RELEASE and -SNAP subscriptions are entirely\n"
+"separate).  With a subscription, you will automatically receive updates as\n"
+"they are released.  Your credit card will be billed when each disk is\n"
+"shipped and you may cancel your subscription at any time without further\n"
+"obligation.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:702
+#, no-wrap
+msgid ""
+"Shipping (per order not per disc) is $5 in the US, Canada or Mexico\n"
+"and $9.00 overseas.  They accept Visa, Mastercard, Discover, American\n"
+"Express or checks in U.S. Dollars and ship COD within the United\n"
+"States.  California residents please add 8.25% sales tax.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:705
+#, no-wrap
+msgid ""
+"Should you be dissatisfied for any reason, the CD comes with an\n"
+"unconditional return policy.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:709
+#, no-wrap
+msgid ""
+"4. Upgrading from previous releases of FreeBSD\n"
+"----------------------------------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:715
+#, no-wrap
+msgid ""
+"If you're upgrading from a previous release of FreeBSD, most likely\n"
+"it's 2.2.x or 2.1.x (in some lesser number of cases) and some of the\n"
+"following issues may affect you, depending of course on your chosen\n"
+"method of upgrading.  There are two popular ways of upgrading\n"
+"FreeBSD distributions:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:718
+#, no-wrap
+msgid ""
+"        o Using sources, via /usr/src\n"
+"        o Using sysinstall's (binary) upgrade option.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:726
+#, no-wrap
+msgid ""
+"In the case of using sources, there are simply two targets you need to\n"
+"be aware of: The standard ``world'' target, which will upgrade a 2.x\n"
+"system to 3.0, or the ``aout-to-elf'' target, which will both upgrade\n"
+"and convert the system to ELF binary format.\n"
+"In the case of using the binary upgrade option, the system will go\n"
+"straight to 3.0/ELF but also populate the /<basepath>/lib/aout\n"
+"directories for backwards compatibility with older binaries.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:736
+#, no-wrap
+msgid ""
+"In either case, going to ELF will mean that you'll have somewhat\n"
+"smaller binaries and access to a lot more compiler goodies which have\n"
+"been already been ported to other ELF environments (our older and\n"
+"somewhat crufty a.out format being largely unsupported by most other\n"
+"software projects), but on the downside you'll also have access to far\n"
+"fewer ports and packages since many of those have not been adapted to\n"
+"ELF yet.  This will occur in time, but those who wish to retain access\n"
+"to the greatest number of packages and 3rd-party binaries should\n"
+"probably stick with a.out.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:743
+#, no-wrap
+msgid ""
+"The kernel is also still in a.out format at this time so that older\n"
+"LKMs and library interfaces can continue to work, but a full\n"
+"transition to ELF will occur at some point after 3.0-RELEASE.  Those\n"
+"wishing to generate dynamic kernel components should therefore use the\n"
+"newer KLD mechanism rather than the older LKM format - the LKM format\n"
+"is not long for this world and will soon be unsupported!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:745
+#, no-wrap
+msgid "[ other important upgrading notes should go here]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:752
+#, no-wrap
+msgid ""
+"5. Reporting problems, making suggestions, submitting code.\n"
+"-----------------------------------------------------------\n"
+"Your suggestions, bug reports and contributions of code are always\n"
+"valued - please do not hesitate to report any problems you may find\n"
+"(preferably with a fix attached, if you can!).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:762
+#, no-wrap
+msgid ""
+"The preferred method to submit bug reports from a machine with\n"
+"Internet mail connectivity is to use the send-pr command or use the CGI\n"
+"script at http://www.FreeBSD.org/send-pr.html.  Bug reports\n"
+"will be dutifully filed by our faithful bugfiler program and you can\n"
+"be sure that we'll do our best to respond to all reported bugs as soon\n"
+"as possible.  Bugs filed in this way are also visible on our WEB site\n"
+"in the support section and are therefore valuable both as bug reports\n"
+"and as \"signposts\" for other users concerning potential problems to\n"
+"watch out for.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:765
+#, no-wrap
+msgid ""
+"If, for some reason, you are unable to use the send-pr command to\n"
+"submit a bug report, you can try to send it to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:767
+#, no-wrap
+msgid "                freebsd-bugs@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:773
+#, no-wrap
+msgid ""
+"Note that send-pr itself is a shell script that should be easy to move\n"
+"even onto a totally different system.  We much prefer if you could use\n"
+"this interface, since it make it easier to keep track of the problem\n"
+"reports.  However, before submitting, please try to make sure whether\n"
+"the problem might have already been fixed since.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:776
+#, no-wrap
+msgid "Otherwise, for any questions or tech support issues, please send mail to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:778
+#, no-wrap
+msgid "                freebsd-questions@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:785
+#, no-wrap
+msgid ""
+"Additionally, being a volunteer effort, we are always happy to have\n"
+"extra hands willing to help - there are already far more desired\n"
+"enhancements than we'll ever be able to manage by ourselves!  To\n"
+"contact us on technical matters, or with offers of help, please send\n"
+"mail to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:787
+#, no-wrap
+msgid "                freebsd-hackers@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:793
+#, no-wrap
+msgid ""
+"Please note that these mailing lists can experience *significant*\n"
+"amounts of traffic and if you have slow or expensive mail access and\n"
+"are only interested in keeping up with significant FreeBSD events, you\n"
+"may find it preferable to subscribe instead to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:795
+#, no-wrap
+msgid "                freebsd-announce@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:804
+#, no-wrap
+msgid ""
+"All of the mailing lists can be freely joined by anyone wishing\n"
+"to do so.  Send mail to MajorDomo@FreeBSD.org and include the keyword\n"
+"`help' on a line by itself somewhere in the body of the message.  This\n"
+"will give you more information on joining the various lists, accessing\n"
+"archives, etc.  There are a number of mailing lists targeted at\n"
+"special interest groups not mentioned here, so send mail to majordomo\n"
+"and ask about them!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:808
+#, no-wrap
+msgid ""
+"6. Acknowledgements\n"
+"-------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:813
+#, no-wrap
+msgid ""
+"FreeBSD represents the cumulative work of many dozens, if not\n"
+"hundreds, of individuals from around the world who have worked very\n"
+"hard to bring you this release.  For a complete list of FreeBSD\n"
+"project staffers, please see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:815
+#, no-wrap
+msgid "        http://www.FreeBSD.org/handbook/staff.html\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:817
+#, no-wrap
+msgid "or, if you've loaded the doc distribution:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:819
+#, no-wrap
+msgid "        file:/usr/share/doc/handbook/staff.html\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:822
+#, no-wrap
+msgid "Special mention to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:824
+#, no-wrap
+msgid "        The donors listed at http://www.FreeBSD.org/handbook/donors.html\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:827
+#, no-wrap
+msgid ""
+"        Justin M. Seger for almost\n"
+"        single-handedly converting the ports collection to ELF.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:832
+#, no-wrap
+msgid ""
+"        Doug Rabson and\n"
+"        John Birrell\n"
+"        for making FreeBSD/alpha happen and to the NetBSD project for\n"
+"        substantial indirect aid.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:835
+#, no-wrap
+msgid ""
+"        Peter Wemm for the new kernel\n"
+"        module system (with substantial aid from Doug Rabson).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:838
+#, no-wrap
+msgid ""
+"        And to the many thousands of FreeBSD users and testers all over "
+"the\n"
+"        world, without whom this release simply would not have been "
+"possible.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:840
+#, no-wrap
+msgid "We sincerely hope you enjoy this release of FreeBSD!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/notes.adoc:842
+#, no-wrap
+msgid "                        The FreeBSD Project\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.0R/notes.adoc:844
+msgid "link:../../[Release Home]"
+msgstr ""

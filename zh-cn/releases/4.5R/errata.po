@@ -1,0 +1,596 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:08+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.5R/errata.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.5-RELEASE Errata"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:10
+#, no-wrap
+msgid "        <h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:13
+#, no-wrap
+msgid ""
+"        <p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001, 2002 by\n"
+"        The FreeBSD Documentation Project</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:20
+#, no-wrap
+msgid ""
+"        <p class=\"PUBDATE\">$FreeBSD:\n"
+"        src/release/doc/en_US.ISO8859-1/errata/article.sgml,v\n"
+"        1.1.2.66 2002/05/20 22:27:52 bmah Exp $<br>\n"
+"        </p>\n"
+"        <hr>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:24
+#, no-wrap
+msgid ""
+"      <blockquote class=\"ABSTRACT\">\n"
+"        <div class=\"ABSTRACT\">\n"
+"          <a name=\"AEN11\"></a>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:33
+#, no-wrap
+msgid ""
+"          <p>This document lists errata items for FreeBSD\n"
+"          4.5-RELEASE, containing significant information\n"
+"          discovered after the release. This information includes\n"
+"          security advisories, as well as news relating to the\n"
+"          software or documentation that could affect its operation\n"
+"          or usability. An up-to-date version of this document\n"
+"          should always be consulted before installing this version\n"
+"          of FreeBSD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:38
+#, no-wrap
+msgid ""
+"          <p>This errata document for FreeBSD 4.5-RELEASE will be\n"
+"          maintained until the release of FreeBSD 4.6-RELEASE.</p>\n"
+"        </div>\n"
+"      </blockquote>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:41
+#: content/en/releases/4.5R/errata.adoc:73
+#: content/en/releases/4.5R/errata.adoc:191
+#, no-wrap
+msgid ""
+"      <div class=\"SECT1\">\n"
+"        <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:43
+#, no-wrap
+msgid "        <h1 class=\"SECT1\"><a name=\"AEN14\">1 Introduction</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:49
+#, no-wrap
+msgid ""
+"        <p>This errata document contains ``late-breaking news''\n"
+"        about FreeBSD 4.5-RELEASE. Before installing this version,\n"
+"        it is important to consult this document to learn about any\n"
+"        post-release discoveries or problems that may already have\n"
+"        been found and fixed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:59
+#, no-wrap
+msgid ""
+"        <p>Any version of this errata document actually distributed\n"
+"        with the release (for example, on a CDROM distribution)\n"
+"        will be out of date by definition, but other copies are\n"
+"        kept updated on the Internet and should be consulted as the\n"
+"        ``current errata'' for this release. These other copies of\n"
+"        the errata are located at <a href=\n"
+"        \"http://www.FreeBSD.org/releases/\" target=\n"
+"        \"_top\">http://www.FreeBSD.org/releases/</a>, plus any sites\n"
+"        which keep up-to-date mirrors of this location.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:63
+#, no-wrap
+msgid ""
+"        <p>Source and binary snapshots of FreeBSD 4-STABLE also\n"
+"        contain up-to-date copies of this document (as of the time\n"
+"        of the snapshot).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:70
+#, no-wrap
+msgid ""
+"        <p>For a list of all FreeBSD CERT security advisories, see\n"
+"        <a href=\"http://www.FreeBSD.org/security/\" target=\n"
+"        \"_top\">http://www.FreeBSD.org/security/</a> or <a href=\n"
+"        \"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\" target=\n"
+"        \"_top\">ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/</a>.</p>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:76
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a name=\"AEN25\">2 Security\n"
+"        Advisories</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:94
+#, no-wrap
+msgid ""
+"        <p>A race condition existed whereby a file could be removed\n"
+"        between a <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=fstatfs&sektion=2&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">fstatfs</span>(2)</span></a> call and the\n"
+"        point where the file is accessed, causing a kernel panic.\n"
+"        Only the <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=procfs&sektion=5&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">procfs</span>(5)</span></a> filesystem was\n"
+"        known to be vulnerable to this attack. This bug was fixed\n"
+"        in FreeBSD 4.5-RELEASE, but the security advisory\n"
+"        describing the bug was issued after the release. For more\n"
+"        information, including a workaround and bug fix, see\n"
+"        security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:09.fstatfs.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:09</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:110
+#, no-wrap
+msgid ""
+"        <p>An ``off-by-one'' bug has been fixed in <b class=\n"
+"        \"APPLICATION\">OpenSSH</b>'s multiplexing code. This bug\n"
+"        could have allowed an authenticated remote user to cause <a\n"
+"        href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sshd&sektion=8&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">sshd</span>(8)</span></a> to execute\n"
+"        arbitrary code with superuser privileges, or allowed a\n"
+"        malicious SSH server to execute arbitrary code on the\n"
+"        client system with the privileges of the client user.\n"
+"        Various workarounds and bugfixes, for versions of <b class=\n"
+"        \"APPLICATION\">OpenSSH</b> in both the base system and Ports\n"
+"        Collection, can be found in security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:13.openssh.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:13</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:127
+#, no-wrap
+msgid ""
+"        <p>A programming error in <b class=\"APPLICATION\">zlib</b>\n"
+"        could result in attempts to free memory multiple times. The\n"
+"        <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=malloc&sektion=3&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">malloc</span>(3)</span></a>/<a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=free&sektion=3&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">free</span>(3)</span></a> routines used in\n"
+"        FreeBSD are not vulnerable to this error, but applications\n"
+"        receiving specially-crafted blocks of invalid compressed\n"
+"        data could be made to function incorrectly or abort. This\n"
+"        <b class=\"APPLICATION\">zlib</b> bug has been fixed. For a\n"
+"        workaround and solutions, see security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:18.zlib.v1.2.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:18</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:135
+#, no-wrap
+msgid ""
+"        <p>Bugs in the TCP SYN cache (``syncache'') and SYN cookie\n"
+"        (``syncookie'') implementations, which could cause\n"
+"        legitimate TCP/IP traffic to crash a machine, have been\n"
+"        fixed. For a workaround and patches, see security advisory\n"
+"        <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:20.syncache.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:20</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:142
+#, no-wrap
+msgid ""
+"        <p>A routing table memory leak, which could allow a remote\n"
+"        attacker to exhaust the memory of a target machine, has\n"
+"        been fixed. A workaround and patches can be found in\n"
+"        security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:21.tcpip.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:21</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:148
+#, no-wrap
+msgid ""
+"        <p>A bug with memory-mapped I/O, which could cause a system\n"
+"        crash, has been fixed. For more information about a\n"
+"        solution, see security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:22.mmap.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:22</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:156
+#, no-wrap
+msgid ""
+"        <p>A security hole, in which SUID programs could be made to\n"
+"        read from or write to inappropriate files through\n"
+"        manipulation of their standard I/O file descriptors, has\n"
+"        been fixed. Information regarding a solution can be found\n"
+"        in security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:23.stdio.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:23</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:175
+#, no-wrap
+msgid ""
+"        <p>Unlike <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=su&sektion=1&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">su</span>(1)</span></a>, <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=k5su&sektion=8&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">k5su</span>(8)</span></a> does not require\n"
+"        that an invoking user be a member of the <tt class=\n"
+"        \"GROUPNAME\">wheel</tt> group when attempting to become the\n"
+"        superuser. This could result in some unexpected behavior.\n"
+"        To avoid this situation, <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=k5su&sektion=8&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">k5su</span>(8)</span></a> is now installed\n"
+"        non-SUID by default (effectively disabling it). More\n"
+"        information can be found in security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:24.k5su.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:24</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:188
+#, no-wrap
+msgid ""
+"        <p>Multiple vulnerabilities were found in the <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=bzip2&sektion=1&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">bzip2</span>(1)</span></a> utility, which\n"
+"        could allow files to be overwritten without warning or\n"
+"        allow local users unintended access to files. These\n"
+"        problems have been corrected with a new import of <b class=\n"
+"        \"APPLICATION\">bzip2</b>. For more information, see security\n"
+"        advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:25.bzip2.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:25</a>.</p>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:194
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a name=\"AEN81\">3 System Update\n"
+"        Information</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:208
+#, no-wrap
+msgid ""
+"        <p>Certain SSH clients, when attempting to connect to a\n"
+"        FreeBSD 4.5-RELEASE server, will unexpectedly present an <b\n"
+"        class=\"APPLICATION\">S/Key</b> prompt, even if <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sshd&sektion=8&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">sshd</span>(8)</span></a> on the server has\n"
+"        not been later explicitly configured for <b class=\n"
+"        \"APPLICATION\">S/Key</b> authentication. This is due to the\n"
+"        default settings of clients having changed (e.g. use of SSH\n"
+"        protocol version 2 where it was not used before), or from a\n"
+"        change from the client's old default authentication\n"
+"        sequence. There are a number of ways to disable this\n"
+"        behavior:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:220
+#, no-wrap
+msgid ""
+"        <ul>\n"
+"          <li>\n"
+"            <p>On newer <b class=\"APPLICATION\">OpenSSH</b> clients,\n"
+"            add the following line to your <tt class=\n"
+"            \"FILENAME\">~/.ssh/config</tt> file:</p>\n"
+"<pre class=\"PROGRAMLISTING\">\n"
+"    PreferredAuthentications publickey,password,keyboard-interactive\n"
+"</pre>\n"
+"            <br>\n"
+"            <br>\n"
+"          </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:227
+#, no-wrap
+msgid ""
+"          <li>\n"
+"            <p>For <b class=\"APPLICATION\">PuTTY</b> clients, the\n"
+"            authentication sequence order cannot be changed, but\n"
+"            keyboard-interactive authentication can be disabled in\n"
+"            the settings.</p>\n"
+"          </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:242
+#, no-wrap
+msgid ""
+"          <li>\n"
+"            <p>To disable keyboard-interactive authentication in\n"
+"            the server, uncomment the following line in the <tt\n"
+"            class=\"FILENAME\">/etc/ssh/sshd_config</tt> file (on the\n"
+"            server host):</p>\n"
+"<pre class=\"PROGRAMLISTING\">\n"
+"    ChallengeResponseAuthentication no\n"
+"</pre>\n"
+"            <br>\n"
+"            <br>\n"
+"          </li>\n"
+"        </ul>\n"
+"        This problem has been corrected in FreeBSD 4.6-RC. <br>\n"
+"        <br>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:249
+#, no-wrap
+msgid ""
+"        <p>The release notes mentioned the new sbni device driver,\n"
+"        but gave an incorrect reference to the program in the\n"
+"        FreeBSD Ports Collection used to configure the driver. The\n"
+"        correct filename for the port is <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/sysutils/sbniconfig/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">sysutils/sbniconfig</tt></a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:253
+#, no-wrap
+msgid ""
+"        <p>Linux emulation now requires <tt class=\"LITERAL\">options\n"
+"        SYSVSEM</tt> in the kernel configuration. This dependency\n"
+"        was introduced into FreeBSD before 4.5-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:287
+#, no-wrap
+msgid ""
+"        <p>Packages containing some optional components of <b\n"
+"        class=\"APPLICATION\">KDE</b> were accidentally omitted from\n"
+"        the ISO images (and hence the official 4-CD set). In prior\n"
+"        releases, these packages could be installed using the <a\n"
+"        href=\n"
+"        \"http://www.FreeBSD.org/cgi/url.cgi?ports/x11/kde2/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">x11/kde2</tt></a> package. These\n"
+"        components can either be installed using the FreeBSD Ports\n"
+"        Collection or by downloading the binary packages from one\n"
+"        of the FreeBSD FTP servers. The affected ports are: <a\n"
+"        href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/games/kdegames2/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">games/kdegames2</tt></a>, <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/misc/kdeutils2/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">misc/kdeutils2</tt></a>, <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/editors/koffice/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">editors/koffice</tt></a>, <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/kdenetwork2/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">net/kdenetwork2</tt></a>, <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/graphics/kdegraphics2/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">graphics/kdegraphics2</tt></a>, and <a\n"
+"        href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/audio/kdemultimedia2/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">audio/kdemultimedia2</tt></a>. Note\n"
+"        that the <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/x11/kdelibs2/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">x11/kdelibs2</tt></a> and <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/x11/kdebase2/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">x11/kdebase2</tt></a> packages, which\n"
+"        are frequently required by these other components, <span\n"
+"        class=\"emphasis\"><i class=\"EMPHASIS\">are</i></span>\n"
+"        included on disk 1 of the official 4-CD set. <a name=\n"
+"        \"AEN118\" href=\"#FTN.AEN118\">[1]</a></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:296
+#, no-wrap
+msgid ""
+"        <p>A binary package containing <b class=\n"
+"        \"APPLICATION\">Samba</b> was accidentally omitted from the\n"
+"        ISO images. This software can either be installed using the\n"
+"        <a href=\n"
+"        \"http://www.FreeBSD.org/cgi/url.cgi?ports/net/samba/pkg-descr\">\n"
+"        <tt class=\"FILENAME\">net/samba</tt></a> port in the FreeBSD\n"
+"        Ports Collection or by downloading and installing its\n"
+"        binary package from one of the FreeBSD FTP servers.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:309
+#, no-wrap
+msgid ""
+"        <p>A bug has been fixed in soft updates that can cause\n"
+"        occasional filesystem corruption if the system is shut down\n"
+"        immediately after performing heavy filesystem activities,\n"
+"        such as installing a new kernel or other software. The\n"
+"        system shutdown was unable to flush all buffers on shutdown\n"
+"        and would report this fact. The problem can be worked\n"
+"        around by running <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sync&sektion=8&manpath=FreeBSD+4.5-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">sync</span>(8)</span></a> a few times\n"
+"        before rebooting, or solved by updating to a recent FreeBSD\n"
+"        4.6-RC snapshot.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:318
+#, no-wrap
+msgid ""
+"        <p>The ciss driver was inadvertently omitted from the\n"
+"        FreeBSD 4.5-RELEASE <tt class=\"FILENAME\">GENERIC</tt>\n"
+"        kernel, thus making it impossible (or at least very\n"
+"        difficult) to perform an initial install to disks attached\n"
+"        to this controller. This problem has been corrected in\n"
+"        FreeBSD 4.6-RC.</p>\n"
+"      </div>\n"
+"    </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:320
+#, no-wrap
+msgid "    <h3 class=\"FOOTNOTES\">Notes</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:325
+#, no-wrap
+msgid ""
+"    <table border=\"0\" class=\"FOOTNOTES\" width=\"100%\">\n"
+"      <tr>\n"
+"        <td align=\"LEFT\" valign=\"TOP\" width=\"5%\"><a name=\n"
+"        \"FTN.AEN118\" href=\"#AEN118\">[1]</a></td>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:337
+#, no-wrap
+msgid ""
+"        <td align=\"LEFT\" valign=\"TOP\" width=\"95%\">\n"
+"          <p>The complete FreeBSD package collection currently\n"
+"          fills nine CDROMs. The official 4-CD set therefore only\n"
+"          contains a subset of the available packages. Several\n"
+"          FreeBSD vendors offer distributions that contain a more\n"
+"          complete set of packages; a more complete collection can\n"
+"          also be found on the FreeBSD FTP sites.</p>\n"
+"        </td>\n"
+"      </tr>\n"
+"    </table>\n"
+"    <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:341
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>This file, and other release-related\n"
+"    documents, can be downloaded from <a href=\n"
+"    "
+"\"ftp://releng4.FreeBSD.org/pub/FreeBSD/\">ftp://releng4.FreeBSD.org/pub/FreeBSD/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:346
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>For questions about FreeBSD, read the\n"
+"    <a href=\"http://www.FreeBSD.org/docs.html\">documentation</a>\n"
+"    before contacting &#60;<a href=\n"
+"    "
+"\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:351
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small><small>All users of FreeBSD 4-STABLE\n"
+"    should subscribe to the &#60;<a href=\n"
+"    \"mailto:stable@FreeBSD.org\">stable@FreeBSD.org</a>&#62; mailing\n"
+"    list.</small></small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/errata.adoc:357
+#, no-wrap
+msgid ""
+"    <p align=\"center\">For questions about this documentation,\n"
+"    e-mail &#60;<a href=\n"
+"    \"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&#62;.</p>\n"
+"    <br>\n"
+"    <br>\n"
+msgstr ""

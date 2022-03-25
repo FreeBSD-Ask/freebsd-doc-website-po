@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 21:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/3.1R/errata.adoc:1
+#: content/en/releases/3.1R/errata.adoc:6
+#, no-wrap
+msgid "FreeBSD 3.1 Errata Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:16
+#, no-wrap
+msgid ""
+"The file \n"
+"ERRATA.TXT contains post-release ERRATA for 3.1 and should always\n"
+"be considered the definitive place to look *first* before reporting\n"
+"a problem with this release.  This file will also be periodically\n"
+"updated as new issues are reported so even if you've checked this\n"
+"file recently, check it again before filing a bug report.  Any\n"
+"changes to this file are also automatically emailed to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:18
+#, no-wrap
+msgid "    freebsd-stable@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:20
+#, no-wrap
+msgid "For all FreeBSD security advisories, see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:22
+#, no-wrap
+msgid "ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:24
+#, no-wrap
+msgid "For the latest information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:26
+#, no-wrap
+msgid "---- Security Advisories:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:28
+#, no-wrap
+msgid "Current active security advisories for 3.1:     None\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:30
+#, no-wrap
+msgid "---- System Update Information:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:35
+#, no-wrap
+msgid ""
+"o  Some packages, like netscape, will fail to install if chosen\n"
+"   at initial system installation time, in some cases claiming\n"
+"   that the \"compat22\" distribution needs to be installed even\n"
+"   though it has, indeed, been installed.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:47
+#, no-wrap
+msgid ""
+"Fix: The problem here is that though the compatibility a.out libraries\n"
+"     may have been installed from compat22 and as part of the XFree86\n"
+"     distribution, the a.out library (ldconfig) cache has not yet been\n"
+"     built given that this doesn't happen until the system has booted\n"
+"     completely at least once.  This causes packages which require the\n"
+"     old a.out libraries (like netscape) to get confused if they're\n"
+"     installed before that has occurred.  To work around the problem,\n"
+"     simply complete the installation as normal and come up fully,\n"
+"     then re-run /stand/sysinstall (or use the pkg_add(1) command\n"
+"     directly) to re-install the failing package(s).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:51
+#, no-wrap
+msgid ""
+"o  Kernel change information is not saved in the new kernel, even\n"
+"   though this is claimed to work in the docs.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:57
+#, no-wrap
+msgid ""
+"Fix: The change information is being written out, in fact, but to the\n"
+"     wrong location.  move /kernel.config to /boot/kernel.conf (if it\n"
+"     exists, otherwise there were no changes to save) and add the\n"
+"     following lines to /boot/loader.rc:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:61
+#, no-wrap
+msgid ""
+"        load /kernel\n"
+"        load -t userconfig_script /boot/kernel.conf\n"
+"        autoboot 5\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:65
+#, no-wrap
+msgid ""
+"     This will cause the kernel change information to be read in and\n"
+"     used properly (and you just learned a little about the new 3-stage\n"
+"     loader in the process, so the exercise wasn't a total loss).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:69
+#, no-wrap
+msgid ""
+"o  DOS installation fails when you actually follow the instructions\n"
+"   to install stuff under C:\\FREEBSD\\BIN\\... and so on.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.1R/errata.adoc:75
+#, no-wrap
+msgid ""
+"Fix: The instructions are correct but the code was wrong in 3.1-RELEASE,\n"
+"     sysinstall looking instead directly under C:\\ (e.g. C:\\BIN\\...)\n"
+"     or under C:\\RELEASES\\ (C:\\RELEASES\\BIN\\... and so on).  Fixed\n"
+"     in 3.1-STABLE.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.1R/errata.adoc:77
+msgid "link:../../[Release Home]"
+msgstr ""

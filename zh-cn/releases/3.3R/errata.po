@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 21:49+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/3.3R/errata.adoc:1
+#: content/en/releases/3.3R/errata.adoc:6
+#, no-wrap
+msgid "FreeBSD 3.3 Errata Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:16
+#, no-wrap
+msgid ""
+"The file \n"
+"ERRATA.TXT contains post-release ERRATA for 3.3 and should always\n"
+"be considered the definitive place to look *first* before reporting\n"
+"a problem with this release.  This file will also be periodically\n"
+"updated as new issues are reported so even if you've checked this\n"
+"file recently, check it again before filing a bug report.  Any\n"
+"changes to this file are also automatically emailed to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:18
+#, no-wrap
+msgid "    freebsd-stable@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:20
+#, no-wrap
+msgid "For all FreeBSD security advisories, see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:22
+#, no-wrap
+msgid "ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:24
+#, no-wrap
+msgid "For the latest information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:26
+#, no-wrap
+msgid "---- Security Advisories:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:28
+#, no-wrap
+msgid "Current active security advisories for 3.3:     None\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:30
+#, no-wrap
+msgid "---- System Update Information:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:32
+#, no-wrap
+msgid "The fvwm desktop choice in the X Desktops menu doesn't work.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:38
+#, no-wrap
+msgid ""
+"Fix: Install fvwm from /usr/ports/x11-wm/fvwm2 instead of using the\n"
+"     desktop menu item and put \"fvwm\" in your $HOME/.xinitrc and\n"
+"     $HOME/.xsession files for use by startx/xdm.  You can also build\n"
+"     and reinstall /usr/src/release/sysinstall from 3.3-STABLE sources\n"
+"     to fix the X Desktop menu item in question.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:41
+#, no-wrap
+msgid ""
+"The lo0 (loop-back) device is not configured on startup, causing\n"
+"utilities like mountd to fail.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:49
+#, no-wrap
+msgid ""
+"Fix: Assuming that you experience this problem at all, edit /etc/rc.conf\n"
+"     and search for where the network_interfaces variable is set.  In\n"
+"     its value, change the word \"auto\" to \"lo0\" since the auto keyword\n"
+"     doesn't bring the loop-back device up properly, for reasons yet to\n"
+"     be adequately determined.  Since your other interface(s) will already\n"
+"     be set in the network_interfaces variable after initial installation,\n"
+"     it's reasonable to simply s/auto/lo0/ in rc.conf and move on.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:53
+#, no-wrap
+msgid ""
+"The 3.3 ISO image (and 3.3 CDROM #1 from Walnut Creek CDROM)\n"
+"     mysteriously fails to boot on an ATAPI CDROM device but works\n"
+"     with SCSI CDROMs (on adaptors which support bootable CDs).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:57
+#, no-wrap
+msgid ""
+"Fix: Either install using boot floppies (see floppies/README.TXT)\n"
+"     rather than booting from the CDROM or grab the updated ISO image\n"
+"     from:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:59
+#, no-wrap
+msgid "       ftp://ftp.FreeBSD.org/pub/FreeBSD/releases/i386/ISO-IMAGES/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:66
+#, no-wrap
+msgid ""
+"     See also the CHECKSUM.MD5 file in that directory to verify whether\n"
+"     you have the \"old\" or new image - some mirrors may be slow\n"
+"     in picking up the uncompressed and gzipped versions of the ISO 9660\n"
+"     installation image.  As always, Walnut Creek CDROM will also provide\n"
+"     replacement CDs (once they become available) on request to purchasers\n"
+"     of the 3.3-RELEASE product.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:69
+#, no-wrap
+msgid ""
+"     This problem was caused by a bug in mkisofs which we're still\n"
+"     chasing but have, for now, simply worked-around.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:71
+#, no-wrap
+msgid "Ppp(8) does not properly detect carrier in direct mode.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:73
+#, no-wrap
+msgid "Fix: Download and install the latest version of ppp(8) from:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:76
+#, no-wrap
+msgid ""
+"       http://www.FreeBSD.org/~brian/ (US)\n"
+"       http://www.Awfulhak.org/~brian/ (UK)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:78
+#, no-wrap
+msgid "     or upgrade your system to -stable.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:82
+#, no-wrap
+msgid ""
+"Hitting Ctl-Alt-Space may panic the kernel with the\n"
+"apm driver which is disabled or is not functional because of\n"
+"the lack of APM support in the motherboard.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:85
+#, no-wrap
+msgid ""
+"Fix: To fix this, apply the following patch to\n"
+"     /sys/i386/apm/apm.c and rebuild the kernel.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:101
+#, no-wrap
+msgid ""
+"Index: apm.c\n"
+"===================================================================\n"
+"RCS file: /src/CVS/src/sys/i386/apm/apm.c,v\n"
+"retrieving revision 1.77.2.8\n"
+"retrieving revision 1.77.2.9\n"
+"diff -u -r1.77.2.8 -r1.77.2.9\n"
+"--- apm.c   1999/09/12 01:06:28 1.77.2.8\n"
+"+++ apm.c   1999/09/20 15:34:29 1.77.2.9\n"
+"@@ -621,6 +621,9 @@\n"
+" apm_suspend(int state)\n"
+" {\n"
+"    struct apm_softc *sc = &apm_softc;\n"
+"+\n"
+"+   if (!sc->initialized)\n"
+"+       return;\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:104
+#, no-wrap
+msgid ""
+"    switch (state) {\n"
+"    case PMST_SUSPEND:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:110
+#, no-wrap
+msgid ""
+"    If you don't like to rebuild the kernel, you can edit your\n"
+"    keymap file so that it won't cause panic.  Find your keymap\n"
+"    file in /usr/share/syscons/keymap.  Open it with an editor\n"
+"    program and locate the following line.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:114
+#, no-wrap
+msgid ""
+"      057   ' '  ' '  nul  ' '  ' '  ' '  susp ' '  O\n"
+"                                          ~~~~\n"
+"    Change it to\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:118
+#, no-wrap
+msgid ""
+"      057   ' '  ' '  nul  ' '  ' '  ' '  ' '  ' '  O\n"
+"                                          ~~~ (a quoted space)\n"
+"    You must change the next line too.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:122
+#, no-wrap
+msgid ""
+"      104   slock saver slock saver susp nop  susp nop  O\n"
+"                                    ~~~~      ~~~~\n"
+"    Edit this to\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/errata.adoc:124
+#, no-wrap
+msgid "      104   slock saver slock saver nop  nop  nop  nop  O\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.3R/errata.adoc:126
+msgid "link:../../[Release Home]"
+msgstr ""

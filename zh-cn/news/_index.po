@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/news/_index.adoc:1 content/en/news/_index.adoc:7
+#, no-wrap
+msgid "FreeBSD News"
+msgstr ""
+
+#. type: Title ==
+#: content/en/news/_index.adoc:9
+#, no-wrap
+msgid "Local news"
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/_index.adoc:12
+msgid ""
+"link:newsflash[Newsflash]: New releases, drivers, committers, security "
+"announcements, and other news."
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/_index.adoc:13
+msgid ""
+"https://www.freebsdfoundation.org/news-and-events/latest-news/[Foundation "
+"Press Releases]: Press releases from the FreeBSD Foundation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/_index.adoc:14
+msgid "link:../press/[Press articles]: FreeBSD appearing in the regular press."
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/_index.adoc:15
+msgid "link:../news/status/[Status reports]: FreeBSD development status reports."
+msgstr ""
+
+#. type: Title ==
+#: content/en/news/_index.adoc:16
+#, no-wrap
+msgid "Podcasts"
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/_index.adoc:19
+msgid ""
+"http://www.bsdnow.tv/[BSD Now]: BSD Now is a weekly video podcast which "
+"covers the latest news, interviews and tutorials from the world of BSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/_index.adoc:20
+msgid ""
+"http://bsdtalk.blogspot.com/[bsdtalk]: bsdtalk is an audio podcast with "
+"interesting interviews of people in the BSD community."
+msgstr ""
+
+#. type: Title ==
+#: content/en/news/_index.adoc:21
+#, no-wrap
+msgid "Other sites"
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/_index.adoc:24
+msgid ""
+"http://www.daemonforums.org/[Daemon Forums]: Active online forums and news "
+"community site dedicated to FreeBSD and other BSDs."
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/_index.adoc:25
+msgid ""
+"http://www.freebsddiary.org/[FreeBSD Diary]: One man's record of his trials "
+"and triumphs with FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/_index.adoc:26
+msgid ""
+"http://www.osnews.com/[OSNews]: Daily articles and news about Linux, BSD and "
+"other operating systems."
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/_index.adoc:26
+msgid ""
+"http://slashdot.org/bsd/[Slashdot's BSD section]: Pointers and discussion "
+"about BSD news, not just FreeBSD."
+msgstr ""

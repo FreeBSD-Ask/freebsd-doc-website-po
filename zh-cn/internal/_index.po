@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:42+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/_index.adoc:1 content/en/internal/_index.adoc:9
+#, no-wrap
+msgid "FreeBSD Internal Pages"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/_index.adoc:12
+msgid ""
+"This page contains pointers to pages documenting aspects of the FreeBSD "
+"project itself, as viewed separately from the codebase."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/_index.adoc:13
+#, no-wrap
+msgid "Projects"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/_index.adoc:16
+msgid ""
+"There are various projects which lie link:../projects/[outside the "
+"mainstream development path]. A number of groups are working on the 'cutting "
+"edge' to expand FreeBSD's range of capabilities in new directions."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/_index.adoc:18
+msgid ""
+"Here is an overview of the link:{freebsd-releng}[FreeBSD Release Engineering "
+"Process]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/_index.adoc:20
+msgid ""
+"And here you will find the link:../releng/[schedules for upcoming official "
+"releases of FreeBSD]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/_index.adoc:21
+#, no-wrap
+msgid "Policies"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/_index.adoc:24
+msgid ""
+"To avoid chaos with a project this large spread out all over the globe, "
+"there have to be some link:policies[Policies for FreeBSD Committers]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/_index.adoc:25
+#, no-wrap
+msgid "People"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/_index.adoc:28
+msgid ""
+"The FreeBSD Project Staff consists of link:../administration[teams, groups "
+"and individuals] with designated project roles and areas of responsibility "
+"and the link:{contributors}#staff-committers[developers]. By following the "
+"links, one will find a list of them, as well as explanations of who is "
+"responsible for what."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/_index.adoc:30
+msgid ""
+"You can read here core's link:hats[Hat Term Limits Policy] and some "
+"guidelines from {imp-name} on link:working-with-hats[how to work with hats]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/_index.adoc:31
+#, no-wrap
+msgid "Resources"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/_index.adoc:34
+msgid ""
+"Here is a list of some link:developer[technical resources for FreeBSD "
+"committers]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/_index.adoc:36
+msgid ""
+"For those with accounts on link:machines[the main FreeBSD.org network], here "
+"are the machine resources that are available and the sorts of work they are "
+"intended for."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/_index.adoc:37
+msgid ""
+"You can learn more link:about[about the FreeBSD WWW server], including the "
+"machine, the software, mirroring the FreeBSD web pages."
+msgstr ""

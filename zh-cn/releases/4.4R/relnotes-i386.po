@@ -1,0 +1,2401 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.4R/relnotes-i386.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.4-RELEASE i386 Release Notes"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:10
+#, no-wrap
+msgid "        <h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:15
+#, no-wrap
+msgid ""
+"        <p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001 by The\n"
+"        FreeBSD Documentation Project</p>\n"
+"        <hr>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:18
+#: content/en/releases/4.4R/relnotes-i386.adoc:40
+#: content/en/releases/4.4R/relnotes-i386.adoc:1335
+#, no-wrap
+msgid ""
+"      <div class=\"SECT1\">\n"
+"        <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:20
+#, no-wrap
+msgid "        <h1 class=\"SECT1\"><a name=\"AEN9\">1 Introduction</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:25
+#, no-wrap
+msgid ""
+"        <p>This document contains the release notes for FreeBSD\n"
+"        4.4-RELEASE on the i386 hardware platform. It describes new\n"
+"        features of FreeBSD that have been added (or changed) since\n"
+"        4.3-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:37
+#, no-wrap
+msgid ""
+"        <p>This distribution of FreeBSD 4.4-RELEASE is a release\n"
+"        distribution. It can be found at <a href=\n"
+"        \"ftp://ftp.FreeBSD.org/pub/FreeBSD/\" target=\n"
+"        \"_top\">ftp://ftp.FreeBSD.org/pub/FreeBSD/</a> or any of its\n"
+"        mirrors. More information on obtaining this (or other)\n"
+"        release distributions of FreeBSD can be found in the <a\n"
+"        href=\"http://www.FreeBSD.org/handbook/mirrors.html\" target=\n"
+"        \"_top\">``Obtaining FreeBSD'' appendix</a> to the <a href=\n"
+"        \"http://www.FreeBSD.org/handbook/\" target=\"_top\">FreeBSD\n"
+"        Handbook</a>.</p>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:45
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a name=\"AEN17\">2 What's New</a></h1>\n"
+"        $FreeBSD:\n"
+"        src/release/doc/en_US.ISO8859-1/relnotes/common/new.sgml,v\n"
+"        1.22.2.86.2.1 2001/09/14 19:35:01 bmah Exp $\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:48
+#, no-wrap
+msgid ""
+"        <p>This section describes the most user-visible new or\n"
+"        changed features in FreeBSD since 4.3-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:54
+#, no-wrap
+msgid ""
+"        <p>Many additional changes were made to FreeBSD that are\n"
+"        not listed here for lack of space. For example,\n"
+"        documentation was corrected and improved, minor bugs were\n"
+"        fixed, insecure coding practices were audited and\n"
+"        corrected, and source code was cleaned up.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:62
+#, no-wrap
+msgid ""
+"        <p>The release notes items are organized into three\n"
+"        different sections. <a href=\"#KERNEL\">Section 2.1</a> lists\n"
+"        recent changes to the FreeBSD kernel. Security fixes,\n"
+"        including those pertaining to security advisories, are\n"
+"        listed in <a href=\"#SECURITY\">Section 2.2</a>. Finally, <a\n"
+"        href=\"#USERLAND\">Section 2.3</a> covers changes to FreeBSD\n"
+"        userland applications included in the base system.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:65
+#: content/en/releases/4.4R/relnotes-i386.adoc:549
+#: content/en/releases/4.4R/relnotes-i386.adoc:702
+#, no-wrap
+msgid ""
+"        <div class=\"SECT2\">\n"
+"          <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:68
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a name=\"KERNEL\">2.1 Kernel\n"
+"          Changes</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:79
+#, no-wrap
+msgid ""
+"          <p>The <tt class=\"LITERAL\">O_DIRECT</tt> flag has been\n"
+"          added to <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=open&amp;sektion=2\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">open</span>(2)</span></a> and <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=fcntl&amp;sektion=2\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">fcntl</span>(2)</span></a>. Specifying\n"
+"          this flag for open files will attempt to minimize the\n"
+"          cache effects of reading and writing.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:87
+#, no-wrap
+msgid ""
+"          <p>An <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=orm&amp;sektion=4\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">orm</span>(4)</span></a> device has been\n"
+"          added to claim the option ROMs in the ISA memory I/O\n"
+"          space, to prevent other drivers from mistakenly assigning\n"
+"          addresses that conflict with these ROMs.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:92
+#, no-wrap
+msgid ""
+"          <p>The out-of-swap process termination code now begins\n"
+"          killing processes earlier to avoid deadlocks; it now also\n"
+"          takes into account the swap space used by processes when\n"
+"          computing the process sizes.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:109
+#, no-wrap
+msgid ""
+"          <p>Network device cloning has been implemented, and the\n"
+"          <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=gif&amp;sektion=4\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">gif</span>(4)</span></a> device has been\n"
+"          modified to take advantage of it. Thus, instead of\n"
+"          specifying how many <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=gif&amp;sektion=4\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">gif</span>(4)</span></a> interfaces are\n"
+"          available in kernel configuration files, <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ifconfig&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ifconfig</span>(8)</span></a>'s <tt\n"
+"          class=\"OPTION\">create</tt> option should be used when\n"
+"          another device instance is desired.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:120
+#, no-wrap
+msgid ""
+"          <p>Two new <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=ddb&amp;sektion=4\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ddb</span>(4)</span></a> commands, <tt\n"
+"          class=\"COMMAND\">hwatch</tt> and <tt class=\n"
+"          \"COMMAND\">dhwatch</tt>, have been introduced. Analogous\n"
+"          to <tt class=\"COMMAND\">watch</tt> and <tt class=\n"
+"          \"COMMAND\">dwatch</tt>, they install hardware watchpoints\n"
+"          (as opposed to software watchpoints) if supported by the\n"
+"          architecture.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:126
+#, no-wrap
+msgid ""
+"          <p>A <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=nmdm&amp;sektion=4\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">nmdm</span>(4)</span></a> null-modem\n"
+"          terminal driver has been added.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:134
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=stl&amp;sektion=4\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">stl</span>(4)</span></a> driver now\n"
+"          supports the PCI and ISA EasyIO multi-port serial cards\n"
+"          from Stallion Technologies based on the Signetics\n"
+"          SC26C194/8 Intelligent Quad/Octal UART.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:141
+#, no-wrap
+msgid ""
+"          <p>The <tt class=\"VARNAME\">maxusers</tt> kernel\n"
+"          configuration parameter is now a boot-time tunable\n"
+"          variable. The kernel parameters derived from <tt class=\n"
+"          \"VARNAME\">maxusers</tt> are now also tunables and can be\n"
+"          overridden at boot-time. The <tt class=\"VARNAME\">hz</tt>\n"
+"          parameter is also now a tunable.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:146
+#, no-wrap
+msgid ""
+"          <p>The FreeBSD boot loader now contains a workaround to\n"
+"          support CDROM booting on certain IBM BIOSs that expect\n"
+"          the first sector of the emulated floppy to contain a\n"
+"          valid MS-DOS BPB that they can modify.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:149
+#: content/en/releases/4.4R/relnotes-i386.adoc:167
+#: content/en/releases/4.4R/relnotes-i386.adoc:258
+#: content/en/releases/4.4R/relnotes-i386.adoc:303
+#: content/en/releases/4.4R/relnotes-i386.adoc:338
+#: content/en/releases/4.4R/relnotes-i386.adoc:359
+#: content/en/releases/4.4R/relnotes-i386.adoc:410
+#: content/en/releases/4.4R/relnotes-i386.adoc:420
+#: content/en/releases/4.4R/relnotes-i386.adoc:1124
+#: content/en/releases/4.4R/relnotes-i386.adoc:1318
+#, no-wrap
+msgid ""
+"          <div class=\"SECT3\">\n"
+"            <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:152
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN75\">2.1.1\n"
+"            Processor/Motherboard Support</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:156
+#, no-wrap
+msgid ""
+"            <p>Detection for new processors, such as the Transmeta\n"
+"            Crusoe, and Transmeta Crusoe with LongRun, has been\n"
+"            added.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:164
+#, no-wrap
+msgid ""
+"            <p>Support for Streaming <span class=\n"
+"            \"ACRONYM\">SIMD</span> Extensions (<span class=\n"
+"            \"ACRONYM\">SSE</span>) has been introduced. The <tt\n"
+"            class=\"LITERAL\">CPU_ENABLE_SSE</tt> kernel option\n"
+"            controls whether support is compiled into the\n"
+"            kernel.</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:170
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN111\">2.1.2 Network\n"
+"            Interface Support</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:177
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=fxp&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">fxp</span>(4)</span></a> driver now\n"
+"            requires a <tt class=\"LITERAL\">device miibus</tt> entry\n"
+"            in the kernel configuration file.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:184
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            \"http://www.FreeBSD.org/cgi/man.cgi?query=wx&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">wx</span>(4)</span></a> driver now\n"
+"            supports the Intel PRO1000-F and PRO1000-T\n"
+"            (10/100/1000) adapters.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:193
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            \"http://www.FreeBSD.org/cgi/man.cgi?query=an&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">an</span>(4)</span></a> driver now\n"
+"            supports the Cisco Aironet 350 series of adaptors and\n"
+"            has received a few bug fixes; promiscuous mode now\n"
+"            works, and it can be configured before being brought\n"
+"            <tt class=\"LITERAL\">up</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:200
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            \"http://www.FreeBSD.org/cgi/man.cgi?query=xl&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">xl</span>(4)</span></a> driver now\n"
+"            supports reception of VLAN tagged frames (on the\n"
+"            ``Cyclone'' or newer chipsets).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:206
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            \"http://www.FreeBSD.org/cgi/man.cgi?query=ti&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ti</span>(4)</span></a> driver\n"
+"            correctly masks VLAN tags.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:218
+#, no-wrap
+msgid ""
+"            <p>Added the <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=nge&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">nge</span>(4)</span></a> driver, which\n"
+"            supports PCI Gigabit Ethernet adapters based on the\n"
+"            National Semiconductor DP83820 and DP83821 Gigabit\n"
+"            Ethernet controller chips, including the D-Link\n"
+"            DGE-500T, SMC EZ Card 1000 (SMC9462TX), Asante\n"
+"            FriendlyNet GigaNIC 1000TA and 1000TPC and Addtron\n"
+"            AEG320T. This driver supports transmit and receive\n"
+"            checksum offloading.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:229
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=lge&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">lge</span>(4)</span></a> driver has\n"
+"            been added to support the Level 1 LXT1001 NetCellerator\n"
+"            Gigabit Ethernet controller chip. This device is used\n"
+"            on some fiber optic GigE cards from SMC, D-Link and\n"
+"            Addtron. Jumbograms and TCP/IP checksum offload on\n"
+"            receive are supported, although hardware VLAN filtering\n"
+"            is not.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:235
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            \"http://www.FreeBSD.org/cgi/man.cgi?query=tx&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">tx</span>(4)</span></a> driver now\n"
+"            supports the fiber-optic SMC 9432FTX NICs.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:247
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            \"http://www.FreeBSD.org/cgi/man.cgi?query=ed&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ed</span>(4)</span></a> driver now has\n"
+"            support for D-Link DL10022 chips, necessary for the\n"
+"            NetGear FA-410TX and other cards. As a result, <tt\n"
+"            class=\"LITERAL\">device miibus</tt> is required in\n"
+"            kernel configurations using the <a href=\n"
+"            \"http://www.FreeBSD.org/cgi/man.cgi?query=ed&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ed</span>(4)</span></a> driver.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:255
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=txp&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">txp</span>(4)</span></a> driver has\n"
+"            been added to support NICs based on the 3Com 3XP\n"
+"            Typhoon/Sidewinder (3CR990) chipset.</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:261
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN160\">2.1.3 Network\n"
+"            Protocols</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:267
+#, no-wrap
+msgid ""
+"            <p>TCP now has RFC 1323 extensions enabled by default\n"
+"            in <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=rc.conf&amp;sektion=5\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">rc.conf</span>(5)</span></a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:274
+#, no-wrap
+msgid ""
+"            <p>RFC 1323 and RFC 1644 TCP extensions are now\n"
+"            disabled for a connection in progress if no response\n"
+"            has been received by the third SYN segment sent. This\n"
+"            behavior tries to work around (very old) terminal\n"
+"            servers with buggy VJ header compression\n"
+"            implementations.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:280
+#, no-wrap
+msgid ""
+"            <p>The <tt class=\"LITERAL\">TCP_RESTRICT_RST</tt> kernel\n"
+"            option has been removed. Similar functionality can be\n"
+"            achieved with the <tt class=\n"
+"            \"VARNAME\">net.inet.tcp.blackhole</tt> sysctl\n"
+"            variable.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:285
+#, no-wrap
+msgid ""
+"            <p>The TCP implementation no longer requires the\n"
+"            allocation of a TCP template structure for each\n"
+"            connection; this should reduce the buffer usage on\n"
+"            large systems handling many connections.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:291
+#, no-wrap
+msgid ""
+"            <p>A new sysctl <tt class=\n"
+"            \"VARNAME\">net.inet.ip.check_interface</tt>, which is\n"
+"            off by default, causes IP to verify that an incoming\n"
+"            packet arrives on an interface that has an address\n"
+"            matching the packet's destination address.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:300
+#, no-wrap
+msgid ""
+"            <p>A new <tt class=\"LITERAL\">options RANDOM_IP_ID</tt>\n"
+"            kernel option causes the ID field of IP packets to be\n"
+"            randomized. This closes a minor information leak which\n"
+"            allows a remote observer to determine the rate at which\n"
+"            the machine is generating packets, since the default\n"
+"            behavior is to increment a counter for each packet\n"
+"            sent.</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:306
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN175\">2.1.4 Disks and\n"
+"            Storage</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:313
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=asr&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">asr</span>(4)</span></a> driver now\n"
+"            supports the Adaptec 2000S and 2005S Zero-Channel RAID\n"
+"            controllers.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:319
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=aac&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">aac</span>(4)</span></a> driver now\n"
+"            supports the Adaptec SCSI RAID 5400S controller.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:325
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ata&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ata</span>(4)</span></a> driver again\n"
+"            has write-caching enabled by default.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:335
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            \"http://www.FreeBSD.org/cgi/man.cgi?query=wd&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">wd</span>(4)</span></a> compatibility\n"
+"            devices were removed from the <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ata&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ata</span>(4)</span></a> driver.</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:341
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN197\">2.1.5\n"
+"            Filesystems</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:348
+#, no-wrap
+msgid ""
+"            <p>smbfs (CIFS) support in kernel has been added. The\n"
+"            corresponding userland filesystem mount utility can be\n"
+"            found in the <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/smbfs/pkg-descr\">\n"
+"            <tt class=\"PORT\">net/smbfs</tt></a> port in the FreeBSD\n"
+"            Ports Collection.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:356
+#, no-wrap
+msgid ""
+"            <p>A simple hash-based lookup optimization for large\n"
+"            directories called <tt class=\"LITERAL\">dirhash</tt> has\n"
+"            been added. Conditional on the <tt class=\n"
+"            \"LITERAL\">UFS_DIRHASH</tt> kernel option, it improves\n"
+"            the speed of operations on very large directories at\n"
+"            the expense of some memory.</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:362
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN204\">2.1.6 PCCARD\n"
+"            Support</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:384
+#, no-wrap
+msgid ""
+"            <p>On many modern hosts, PCCARD devices can be\n"
+"            configured to route their interrupts via either the ISA\n"
+"            or PCI interrupt paths. The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pcic&amp;sektion=4\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">pcic</span>(4)</span></a> driver has\n"
+"            been updated to support both interrupt paths (formerly,\n"
+"            only routing via ISA was supported). In most cases,\n"
+"            configuration of PCMCIA devices in laptops is simpler\n"
+"            and more flexible. In addition, various Cardbus bridge\n"
+"            PCI cards (such as those used by Orinoco PCI NICs) are\n"
+"            now supported. Some hosts may experience problems, such\n"
+"            as hangs or panics, with PCI interrupt routing; they\n"
+"            can frequently be made to work by forcing the\n"
+"            older-style ISA interrupt routing. The following lines,\n"
+"            placed in <tt class=\"FILENAME\">/boot/loader.conf</tt>,\n"
+"            may fix the problem:</p>\n"
+"<pre class=\"PROGRAMLISTING\">\n"
+"    hw.pcic.intr_path=\"1\"\n"
+"    hw.pcic.irq=\"0\"\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:388
+#, no-wrap
+msgid ""
+"            <p>When installing FreeBSD on such a system, typing the\n"
+"            following lines to the boot loader may be helpful in\n"
+"            starting up FreeBSD for the first time:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:398
+#, no-wrap
+msgid ""
+"            <p>&#13;</p>\n"
+"<pre class=\"SCREEN\">\n"
+"    <tt class=\"PROMPT\">ok</tt> <tt class=\n"
+"\"USERINPUT\"><b>set hw.pcic.intr_path=\"1\"</b></tt>\n"
+"    <tt class=\"PROMPT\">ok</tt> <tt class=\n"
+"\"USERINPUT\"><b>set hw.pcic.irq=\"0\"</b></tt>\n"
+"</pre>\n"
+"            <br>\n"
+"            <br>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:407
+#, no-wrap
+msgid ""
+"            <p>PCCARD ejection can sometimes result in a hang; a\n"
+"            workaround for these cases is to perform a:</p>\n"
+"<pre class=\"SCREEN\">\n"
+"    <tt class=\"PROMPT\">#</tt> <tt class=\n"
+"\"USERINPUT\"><b>pccardc power 0 <tt class=\n"
+"\"REPLACEABLE\"><i>slot</i></tt></b></tt>\n"
+"</pre>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:413
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN224\">2.1.7 Multimedia\n"
+"            Support</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:417
+#, no-wrap
+msgid ""
+"            <p>A driver for the Advance Logic ALS4000 has been\n"
+"            added.</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:423
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN227\">2.1.8 Contributed\n"
+"            Software</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:426
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">IPFilter</b> has been updated\n"
+"            to 3.4.20.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:429
+#: content/en/releases/4.4R/relnotes-i386.adoc:495
+#: content/en/releases/4.4R/relnotes-i386.adoc:1206
+#: content/en/releases/4.4R/relnotes-i386.adoc:1237
+#, no-wrap
+msgid ""
+"            <div class=\"SECT4\">\n"
+"              <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:432
+#, no-wrap
+msgid ""
+"              <h4 class=\"SECT4\"><a name=\"AEN231\">2.1.8.1\n"
+"              isdn4bsd</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:449
+#, no-wrap
+msgid ""
+"              <p><b class=\"APPLICATION\">isdn4bsd</b> has been\n"
+"              updated to version 1.0.1. As a result of this update,\n"
+"              users of the <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=i4bisppp&amp;sektion=4\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">i4bisppp</span>(4)</span></a> (kernel\n"
+"              PPP over ISDN) driver <i class=\"EMPHASIS\">must</i>\n"
+"              now use <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ispppcontrol&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">ispppcontrol</span>(8)</span></a>\n"
+"              instead of <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=spppcontrol&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">spppcontrol</span>(8)</span></a> to\n"
+"              configure and control these network interfaces.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:456
+#, no-wrap
+msgid ""
+"              <p>The <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ihfc&amp;sektion=4\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">ihfc</span>(4)</span></a> driver for\n"
+"              supporting Cologne Chip Designs HFC devices under <b\n"
+"              class=\"APPLICATION\">isdn4bsd</b> has been added.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:463
+#, no-wrap
+msgid ""
+"              <p>The <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=itjc&amp;sektion=4\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">itjc</span>(4)</span></a> driver for\n"
+"              supporting NETjet-S / Teles PCI-TJ devices under <b\n"
+"              class=\"APPLICATION\">isdn4bsd</b> has been added.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:471
+#, no-wrap
+msgid ""
+"              <p>Experimental support for the Eicon.Diehl DIVA 2.0\n"
+"              and 2.02 ISA PnP ISDN cards has been added to the <a\n"
+"              href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=isic&amp;sektion=4\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">isic</span>(4)</span></a> <b class=\n"
+"              \"APPLICATION\">isdn4bsd</b> driver.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:484
+#, no-wrap
+msgid ""
+"              <p>Active CAPI-based ISDN cards manufacured by AVM\n"
+"              are now supported using the <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=i4bcapi&amp;sektion=4\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">i4bcapi</span>(4)</span></a> and the\n"
+"              <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=iavc&amp;sektion=4\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">iavc</span>(4)</span></a> driver. The\n"
+"              supported cards are the AVM B1 PCI and AVM B1 ISA\n"
+"              Basic Rate cards and the AVM T1 Primary Rate\n"
+"              cards.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:492
+#, no-wrap
+msgid ""
+"              <p>A new <tt class=\"LITERAL\">maxconnecttime</tt>\n"
+"              keyword is now accepted in <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=isdnd.rc&amp;sektion=5\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">isdnd.rc</span>(5)</span></a> files\n"
+"              to limit the time a connection may remain open.</p>\n"
+"            </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:498
+#, no-wrap
+msgid ""
+"              <h4 class=\"SECT4\"><a name=\"KAME-KERNEL\">2.1.8.2\n"
+"              KAME</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:505
+#, no-wrap
+msgid ""
+"              <p>The IPv6 stack is now based on a snapshot based on\n"
+"              the KAME Project's IPv6 snapshot as of 28 May, 2001.\n"
+"              Most of the items listed in this section are a result\n"
+"              of this import. <a href=\"#KAME-USERLAND\">Section\n"
+"              2.3.1.2</a> lists userland updates to the KAME IPv6\n"
+"              stack.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:513
+#, no-wrap
+msgid ""
+"              <p><a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=gif&amp;sektion=4\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">gif</span>(4)</span></a> is now based\n"
+"              on RFC 2893, rather than RFC 1933. The <tt class=\n"
+"              \"LITERAL\">IFF_LINK2</tt> interface flag can be used\n"
+"              to control ingress filtering.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:518
+#, no-wrap
+msgid ""
+"              <p><b class=\"APPLICATION\">IPSec</b> has received some\n"
+"              enhancements, including the ability to use the\n"
+"              Rijndael and SHA2 algorithms. IPSec RC5 support has\n"
+"              been removed due to patent issues.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:526
+#, no-wrap
+msgid ""
+"              <p><a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=stf&amp;sektion=4\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">stf</span>(4)</span></a> now conforms\n"
+"              to RFC 3056; the <tt class=\"LITERAL\">IFF_LINK2</tt>\n"
+"              interface flag can be used to control ingress\n"
+"              filtering.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:530
+#, no-wrap
+msgid ""
+"              <p>IPv6 has better checking of illegal addresses\n"
+"              (such as loopback addresses) on physical\n"
+"              networks.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:537
+#, no-wrap
+msgid ""
+"              <p>The <tt class=\"VARNAME\">IPV6_V6ONLY</tt> socket\n"
+"              option is now completely supported. The kernel's\n"
+"              default behavior with respect to this option is\n"
+"              controlled by the <tt class=\n"
+"              \"VARNAME\">net.inet6.ip6.v6only</tt> sysctl\n"
+"              variable.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:546
+#, no-wrap
+msgid ""
+"              <p>RFC 3041 (Privacy Extensions for Stateless Address\n"
+"              Autoconfiguration) is now supported. It can be\n"
+"              enabled via the <tt class=\n"
+"              \"VARNAME\">net.inet6.ip6.use_tempaddr</tt> sysctl\n"
+"              variable.</p>\n"
+"            </div>\n"
+"          </div>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:552
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a name=\"SECURITY\">2.2 Security-Related\n"
+"          Changes</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:560
+#, no-wrap
+msgid ""
+"          <p>The security fix mentioned in security advisory\n"
+"          FreeBSD-SA-01:39, which governs initial sequence number\n"
+"          generation for TCP connections, has raised some possible\n"
+"          compatibility issues. To mitigate this effect, the fix\n"
+"          can now be enabled or disabled using the <tt class=\n"
+"          \"VARNAME\">net.inet.tcp.tcp_seq_genscheme</tt> sysctl\n"
+"          variable.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:569
+#, no-wrap
+msgid ""
+"          <p>A vulnerability in the <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=fts&amp;sektion=3\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">fts</span>(3)</span></a> routines (used\n"
+"          by applications for recursively traversing a filesystem)\n"
+"          could allow a program to operate on files outside the\n"
+"          intended directory hierarchy. This bug has been fixed\n"
+"          (see security advisory FreeBSD-SA-01:40).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:583
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=portmap&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">portmap</span>(8)</span></a> is now\n"
+"          turned off by default, although it will be started\n"
+"          automatically on machines that enable NFS serving, NIS\n"
+"          services, or <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=amd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">amd</span>(8)</span></a> through <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=rc.conf&amp;sektion=5\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">rc.conf</span>(5)</span></a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:590
+#, no-wrap
+msgid ""
+"          <p>A flaw allowed some signal handlers to remain in\n"
+"          effect in a child process after being exec-ed from its\n"
+"          parent. This allowed an attacker to execute arbitrary\n"
+"          code in the context of a setuid binary. This flaw has\n"
+"          been corrected (see security advisory\n"
+"          FreeBSD-SA-01:42).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:596
+#, no-wrap
+msgid ""
+"          <p>A remote buffer overflow in <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=tcpdump&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">tcpdump</span>(1)</span></a> has been\n"
+"          fixed (see security advisory FreeBSD-SA-01:48).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:602
+#, no-wrap
+msgid ""
+"          <p>A remote buffer overflow in <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=telnetd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">telnetd</span>(8)</span></a> has been\n"
+"          fixed (see security advisory FreeBSD-SA-01:49).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:610
+#, no-wrap
+msgid ""
+"          <p>The new <tt class=\n"
+"          \"VARNAME\">net.inet.ip.maxfragpackets</tt> and <tt class=\n"
+"          \"VARNAME\">net.inet.ip6.maxfragpackets</tt> sysctl\n"
+"          variables limit the amount of memory that can be consumed\n"
+"          by IPv4 and IPv6 packet fragments, which defends against\n"
+"          some denial of service attacks (see security advisory\n"
+"          FreeBSD-SA-01:52).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:617
+#, no-wrap
+msgid ""
+"          <p>The number of ``security profiles'' available in <a\n"
+"          href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sysinstall</span>(8)</span></a> for new\n"
+"          installations has been reduced to two.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:630
+#, no-wrap
+msgid ""
+"          <p>All services in <tt class=\"FILENAME\">inetd.conf</tt>\n"
+"          are now disabled by default for new installations. <a\n"
+"          href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sysinstall</span>(8)</span></a> gives the\n"
+"          option of enabling or disabling <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=inetd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">inetd</span>(8)</span></a> on new\n"
+"          installations, as well as editing <tt class=\n"
+"          \"FILENAME\">inetd.conf</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:641
+#, no-wrap
+msgid ""
+"          <p>A flaw in the implementation of the <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=ipfw&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ipfw</span>(8)</span></a> <tt class=\n"
+"          \"LITERAL\">me</tt> rules on point-to-point links has been\n"
+"          corrected. Formerly, <tt class=\"LITERAL\">me</tt> filter\n"
+"          rules would match the remote IP address of a\n"
+"          point-to-point interface in addition to the intended\n"
+"          local IP address (see security advisory\n"
+"          FreeBSD-SA-01:53).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:649
+#, no-wrap
+msgid ""
+"          <p>A vulnerability in <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=procfs&amp;sektion=5\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">procfs</span>(5)</span></a>, which could\n"
+"          allow a process to read sensitive information from\n"
+"          another process's memory space, has been closed (see\n"
+"          security advisory FreeBSD-SA-01:55).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:654
+#, no-wrap
+msgid ""
+"          <p>The <tt class=\"LITERAL\">PARANOID</tt> hostname\n"
+"          checking in <b class=\"APPLICATION\">tcp_wrappers</b> now\n"
+"          works as advertised (see security advisory\n"
+"          FreeBSD-SA-01:56).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:660
+#, no-wrap
+msgid ""
+"          <p>A local root exploit in <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sendmail&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sendmail</span>(8)</span></a> has been\n"
+"          closed (see security advisory FreeBSD-SA-01:57).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:666
+#, no-wrap
+msgid ""
+"          <p>A remote root vulnerability in <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=lpd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">lpd</span>(8)</span></a> has been closed\n"
+"          (see security advisory FreeBSD-SA-01:58).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:674
+#, no-wrap
+msgid ""
+"          <p>A race condition in <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=rmuser&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">rmuser</span>(8)</span></a> that briefly\n"
+"          exposed a world-readable <tt class=\n"
+"          \"FILENAME\">/etc/master.passwd</tt> has been fixed (see\n"
+"          security advisory FreeBSD-SA-01:59).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:691
+#, no-wrap
+msgid ""
+"          <p>All non-<tt class=\"USERNAME\">root</tt>-owned binaries\n"
+"          in standard system paths now have the <tt class=\n"
+"          \"LITERAL\">schg</tt> flag set to prevent exploit vectors\n"
+"          when run by <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=cron&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">cron</span>(8)</span></a>, by <tt class=\n"
+"          \"USERNAME\">root</tt>, or by a user other then the one\n"
+"          owning the binary. In addition, <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=uustat&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">uustat</span>(1)</span></a> is now run\n"
+"          via <tt class=\n"
+"          \"FILENAME\">/etc/periodic/daily/410.status-uucp</tt> as\n"
+"          <tt class=\"USERNAME\">uucp</tt>, not <tt class=\n"
+"          \"USERNAME\">root</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:699
+#, no-wrap
+msgid ""
+"          <p>A security hole in the form of a buffer overflow in\n"
+"          the <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=semop&amp;sektion=2\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">semop</span>(2)</span></a> system call\n"
+"          has been closed.</p>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:705
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a name=\"USERLAND\">2.3 Userland\n"
+"          Changes</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:713
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ip6fw&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ip6fw</span>(8)</span></a> now has the\n"
+"          ability to use a preprocessor and use the <tt class=\n"
+"          \"OPTION\">-q</tt> (quiet) flag when reading from a\n"
+"          file.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:720
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=ping&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ping</span>(8)</span></a> now supports a\n"
+"          <tt class=\"OPTION\">-m</tt> option to set the TTL of\n"
+"          outgoing packets.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:728
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=ln&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ln</span>(1)</span></a> now takes a <tt\n"
+"          class=\"OPTION\">-h</tt> flag to avoid following a target\n"
+"          that is a link, with a <tt class=\"OPTION\">-n</tt> flag\n"
+"          for compatibility with other implementations.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:738
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=find&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">find</span>(1)</span></a> now has the <tt\n"
+"          class=\"OPTION\">-anewer</tt>, <tt class=\n"
+"          \"OPTION\">-cnewer</tt>, <tt class=\"OPTION\">-mnewer</tt>,\n"
+"          <tt class=\"OPTION\">-okdir</tt>, and <tt class=\n"
+"          \"OPTION\">-newer[acm][acmt]</tt> primaries for comparisons\n"
+"          of file timestamps.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:741
+#, no-wrap
+msgid ""
+"          <p>The performance of the ELF dynamic linker has been\n"
+"          improved.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:747
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ifconfig&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ifconfig</span>(8)</span></a> can now\n"
+"          accept addresses in slash/CIDR notation.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:754
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=c89&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">c89</span>(1)</span></a> has been\n"
+"          converted from a shell script to a binary executable,\n"
+"          fixing some minor bugs.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:769
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=vidcontrol&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">vidcontrol</span>(1)</span></a> now\n"
+"          supports a <tt class=\"OPTION\">-p</tt> option to take a\n"
+"          snapshot of a <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=syscons&amp;sektion=4\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">syscons</span>(4)</span></a> video\n"
+"          buffer. These snapshots can be manipulated by the <a\n"
+"          href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/graphics/scr2png/pkg-descr\">\n"
+"          <tt class=\"PORT\">graphics/scr2png</tt></a> utility in the\n"
+"          Ports Collection.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:776
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=vidcontrol&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">vidcontrol</span>(1)</span></a> now\n"
+"          allows the user to omit the font size specification when\n"
+"          loading a font, and has some better error-handling.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:784
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=telnet&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">telnet</span>(1)</span></a> now supports\n"
+"          a <tt class=\"OPTION\">-u</tt> flag to allow connections to\n"
+"          UNIX-domain (<tt class=\"LITERAL\">AF_UNIX</tt>)\n"
+"          sockets.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:791
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=newfs&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">newfs</span>(8)</span></a> now takes a\n"
+"          <tt class=\"OPTION\">-U</tt> option to enable softupdates\n"
+"          on a new filesystem.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:794
+#, no-wrap
+msgid ""
+"          <p><tt class=\"FILENAME\">libcrypt</tt> now has support for\n"
+"          Blowfish password hashing.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:797
+#, no-wrap
+msgid ""
+"          <p>Ukrainian language support has been added to the\n"
+"          FreeBSD console.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:803
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=savecore&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">savecore</span>(8)</span></a> now works\n"
+"          correctly on machines with 2 GB or more of RAM.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:813
+#, no-wrap
+msgid ""
+"          <p>The syntax of <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=inetd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">inetd</span>(8)</span></a>'s support for\n"
+"          <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=faithd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">faithd</span>(8)</span></a> is now\n"
+"          compatible with that of other BSDs.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:820
+#, no-wrap
+msgid ""
+"          <p>The <tt class=\"LITERAL\">ident</tt> protocol support in\n"
+"          <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=inetd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">inetd</span>(8)</span></a> has been\n"
+"          cleaned up and updated.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:826
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=inetd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">inetd</span>(8)</span></a> now has the\n"
+"          ability to manage UNIX-domain sockets.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:834
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=resolver&amp;sektion=3\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">resolver</span>(3)</span></a> in FreeBSD\n"
+"          now implements EDNS0 support, which will be necessary\n"
+"          when working with IPv6 transport-ready resolvers/DNS\n"
+"          servers.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:841
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=df&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">df</span>(1)</span></a> now takes a <tt\n"
+"          class=\"OPTION\">-l</tt> option to only display information\n"
+"          about locally-mounted filesystems.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:850
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=whois&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">whois</span>(1)</span></a> now directs\n"
+"          queries for IP addresses to ARIN. If a query to ARIN\n"
+"          references APNIC or RIPE, the appropriate server will\n"
+"          also be queried, provided that the <tt class=\n"
+"          \"OPTION\">-Q</tt> option is not specified.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:856
+#, no-wrap
+msgid ""
+"          <p>The <tt class=\"OPTION\">-T</tt> option to <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=dump&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">dump</span>(8)</span></a> no longer\n"
+"          swallows an extra argument.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:864
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=dump&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">dump</span>(8)</span></a> has a new <tt\n"
+"          class=\"OPTION\">-D</tt> option, allowing the path to the\n"
+"          <tt class=\"FILENAME\">/etc/dumpdates</tt> file to be\n"
+"          changed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:868
+#, no-wrap
+msgid ""
+"          <p><tt class=\"FILENAME\">libfetch</tt> now has support for\n"
+"          a <tt class=\"ENVAR\">HTTP_USER_AGENT</tt> environment\n"
+"          variable.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:880
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=getprogname&amp;sektion=3\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">getprogname</span>(3)</span></a> and <a\n"
+"          href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=setprogname&amp;sektion=3\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">setprogname</span>(3)</span></a> library\n"
+"          functions have been added to manipulate the name of the\n"
+"          current program. They are used by error-reporting\n"
+"          routines to produce consistent output.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:893
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=xargs&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">xargs</span>(1)</span></a> now supports a\n"
+"          <tt class=\"OPTION\">-J</tt> <tt class=\n"
+"          \"REPLACEABLE\"><i>replstr</i></tt> option that allows the\n"
+"          user to tell <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=xargs&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">xargs</span>(1)</span></a> to insert the\n"
+"          data read from standard input at a specific point in the\n"
+"          command line arguments, rather than at the end.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:907
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ifconfig&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ifconfig</span>(8)</span></a> now has\n"
+"          support for setting parameters for IEEE 802.11 wireless\n"
+"          network devices. <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=wi&amp;sektion=4\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">wi</span>(4)</span></a> and <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=an&amp;sektion=4\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">an</span>(4)</span></a> devices are\n"
+"          supported.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:915
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ifconfig&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ifconfig</span>(8)</span></a> no longer\n"
+"          displays the list of supported media by default. Instead\n"
+"          it displays it when the <tt class=\"OPTION\">-m</tt> option\n"
+"          is given.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:927
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=lpd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">lpd</span>(8)</span></a> now takes two\n"
+"          new options: <tt class=\"OPTION\">-c</tt> will log all\n"
+"          connection errors to <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=syslogd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">syslogd</span>(8)</span></a>, while <tt\n"
+"          class=\"OPTION\">-W</tt> will allow connections from\n"
+"          non-reserved ports.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:937
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=lpc&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">lpc</span>(8)</span></a> has been\n"
+"          improved; <tt class=\"COMMAND\">lpc clean</tt> is now\n"
+"          somewhat safer, and a new <tt class=\"COMMAND\">lpc\n"
+"          tclean</tt> command has been added to check to see what\n"
+"          files would be removed by <tt class=\"COMMAND\">lpc\n"
+"          clean</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:945
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=du&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">du</span>(1)</span></a> now takes a <tt\n"
+"          class=\"OPTION\">-I</tt> command-line flag to ignore/skip\n"
+"          files and subdirectories matching a specified shell-glob\n"
+"          mask.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:956
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=growfs&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">growfs</span>(8)</span></a>, a utility\n"
+"          for growing FFS filesystems, has been added. <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ffsinfo&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ffsinfo</span>(8)</span></a>, a utility\n"
+"          for dump all the meta-information of an existing\n"
+"          filesystem, has also been added.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:963
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=mail&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">mail</span>(1)</span></a> now takes a <tt\n"
+"          class=\"OPTION\">-E</tt> flag to avoid sending messages\n"
+"          with empty bodies.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:972
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=vidcontrol&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">vidcontrol</span>(1)</span></a> now\n"
+"          supports a <tt class=\"OPTION\">-C</tt> option to clear the\n"
+"          history buffer for a given tty, as well as a <tt class=\n"
+"          \"OPTION\">-h</tt> option to set the size of the history\n"
+"          buffer.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:980
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=last&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">last</span>(1)</span></a> now implements\n"
+"          a <tt class=\"OPTION\">-d</tt> option that provides a\n"
+"          ``snapshot'' of who was logged in at a particular date\n"
+"          and time.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:986
+#, no-wrap
+msgid ""
+"          <p><tt class=\"FILENAME\">libcrypt</tt> and <tt class=\n"
+"          \"FILENAME\">libdescrypt</tt> have been unified to provide\n"
+"          a configurable password authentication hash library. Both\n"
+"          the md5 and des hash methods are provided unless the des\n"
+"          hash is specifically compiled out.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1004
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=install&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">install</span>(1)</span></a> has a number\n"
+"          of new features, including the <tt class=\"OPTION\">-b</tt>\n"
+"          and <tt class=\"OPTION\">-B</tt> options for backing up\n"
+"          existing target files and the <tt class=\"OPTION\">-S</tt>\n"
+"          option for ``safe'' (atomic copy) operation. The <tt\n"
+"          class=\"OPTION\">-c</tt> (copy) flag is now the default,\n"
+"          and the <tt class=\"OPTION\">-D</tt> (debugging) flag has\n"
+"          been withdrawn. <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=install&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">install</span>(1)</span></a> now issues a\n"
+"          warning if <tt class=\"OPTION\">-d</tt> (create\n"
+"          directories) and <tt class=\"OPTION\">-C</tt> (copy changed\n"
+"          files only) are used together.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1011
+#, no-wrap
+msgid ""
+"          <p>The FreeBSD <tt class=\"FILENAME\">Makefile</tt>\n"
+"          infrastructure now supports the <tt class=\n"
+"          \"VARNAME\">WARNS</tt> directive from NetBSD. This\n"
+"          directive controls the addition of compiler warning flags\n"
+"          to <tt class=\"VARNAME\">CFLAGS</tt> in a relatively\n"
+"          compiler-neutral manner.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1018
+#, no-wrap
+msgid ""
+"          <p>A new <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=fsck_msdosfs&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">fsck_msdosfs</span>(8)</span></a> utility\n"
+"          has been added to check the consistency of MS-DOS\n"
+"          filesystems.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1025
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=kldconfig&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">kldconfig</span>(8)</span></a> utility\n"
+"          has been added to make it easier to manipulate the kernel\n"
+"          module search path.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1032
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=moused&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">moused</span>(8)</span></a> now takes a\n"
+"          <tt class=\"OPTION\">-a</tt> option to control mouse\n"
+"          acceleration.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1039
+#, no-wrap
+msgid ""
+"          <p>The <tt class=\"LITERAL\">tcpmssfixup</tt> <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=ppp&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ppp</span>(8)</span></a> option now\n"
+"          adjusts the maximum receive segment size of incoming TCP\n"
+"          SYN segments as well as outgoing TCP SYN segments.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1046
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sysctl&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sysctl</span>(8)</span></a> now supports\n"
+"          a <tt class=\"OPTION\">-N</tt> option to print out variable\n"
+"          names only.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1057
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sysctl&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sysctl</span>(8)</span></a> has replaced\n"
+"          the <tt class=\"OPTION\">-A</tt> and <tt class=\n"
+"          \"OPTION\">-X</tt> options with <tt class=\"OPTION\">-ao</tt>\n"
+"          and <tt class=\"OPTION\">-ax</tt> respectively; the former\n"
+"          options are now deprecated. The <tt class=\n"
+"          \"OPTION\">-w</tt> flag is deprecated as well; it is not\n"
+"          needed to determine the user's intentions.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1066
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=cdcontrol&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">cdcontrol</span>(1)</span></a> now\n"
+"          supports <tt class=\"LITERAL\">next</tt> and <tt class=\n"
+"          \"LITERAL\">prev</tt> commands to skip forwards or\n"
+"          backwards a specified number of tracks while playing an\n"
+"          audio CD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1073
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=col&amp;sektion=1\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">col</span>(1)</span></a> now takes a <tt\n"
+"          class=\"OPTION\">-p</tt> flag to force unknown control\n"
+"          sequences to be passed through unchanged.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1080
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=tmpnam&amp;sektion=3\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">tmpnam</span>(3)</span></a> will now use\n"
+"          the <tt class=\"ENVAR\">TMPDIR</tt> environment variable,\n"
+"          if set, to specify the location of temporary files.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1088
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=rc&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">rc</span>(8)</span></a> now deletes all\n"
+"          non-directory files in <tt class=\"FILENAME\">/var/run</tt>\n"
+"          and <tt class=\"FILENAME\">/var/spool/lock</tt> at boot\n"
+"          time.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1095
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=fmtcheck&amp;sektion=3\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">fmtcheck</span>(3)</span></a>, a function\n"
+"          for checking consistency of format string arguments, has\n"
+"          been added.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1106
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=apmd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">apmd</span>(8)</span></a> now has the\n"
+"          ability to monitor battery levels and execute commands\n"
+"          based on percentage or minutes of battery life remaining\n"
+"          via the <tt class=\"LITERAL\">apm_battery</tt>\n"
+"          configuration directive. See the commented-out examples\n"
+"          in <tt class=\"FILENAME\">/etc/apmd.conf</tt> for the\n"
+"          syntax.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1121
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=pppd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">pppd</span>(8)</span></a> (the control\n"
+"          program for kernel-level PPP) is now installed mode <tt\n"
+"          class=\"LITERAL\">4550</tt> and <tt class=\n"
+"          \"USERNAME\">root</tt><tt class=\"LITERAL\">:</tt><tt class=\n"
+"          \"GROUPNAME\">dialer</tt>, rather than mode <tt class=\n"
+"          \"LITERAL\">4555</tt> (in other words, it is no longer\n"
+"          world-executable). Users of <a href=\n"
+"          \"http://www.FreeBSD.org/cgi/man.cgi?query=pppd&amp;sektion=8\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">pppd</span>(8)</span></a> may need to\n"
+"          change their group settings.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1127
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN678\">2.3.1 Contributed\n"
+"            Software</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1136
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">BIND</b> is now built with\n"
+"            the <tt class=\"LITERAL\">NOADDITIONAL</tt> flag, which\n"
+"            causes <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=named&amp;sektion=8\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">named</span>(8)</span></a> to operate\n"
+"            in a more consistent fashion for certain common\n"
+"            misconfigurations.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1139
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">BIND</b> has been updated to\n"
+"            8.2.4-REL.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1142
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">Binutils</b> have been\n"
+"            upgraded to 2.11.2.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1150
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">bzip2</b> 1.0.1 has been\n"
+"            imported; this brings the <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=bzip2&amp;sektion=1\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">bzip2</span>(1)</span></a> program and\n"
+"            the <tt class=\"FILENAME\">libbz2</tt> library to the\n"
+"            base system.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1157
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            \"http://www.FreeBSD.org/cgi/man.cgi?query=ee&amp;sektion=1\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ee</span>(1)</span></a> <b class=\n"
+"            \"APPLICATION\">Easy Editor</b> has been updated to\n"
+"            1.4.2.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1160
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">file</b> has been updated to\n"
+"            3.36.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1168
+#, no-wrap
+msgid ""
+"            <p><a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=gcc&amp;sektion=1\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">gcc</span>(1)</span></a> now supports\n"
+"            the environment variable <tt class=\n"
+"            \"ENVAR\">GCC_OPTIONS</tt>, which can hold a set of\n"
+"            default options for <b class=\"APPLICATION\">GCC</b>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1171
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">GNATS</b> has been updated to\n"
+"            3.113.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1181
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">groff</b> and its related\n"
+"            utilities have been updated to FSF version 1.17.2. This\n"
+"            import brings in a new <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=mdoc&amp;sektion=7\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">mdoc</span>(7)</span></a> macro package\n"
+"            (sometimes referred to as <tt class=\n"
+"            \"LITERAL\">mdocNG</tt>), which removes many of the\n"
+"            limitations of its predecessor.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1184
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">libpcap</b> has been updated\n"
+"            to 0.6.2.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1187
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">OpenSSL</b> has been upgraded\n"
+"            to 0.9.6a.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1193
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">sendmail</b> and associated\n"
+"            utilities have been upgraded to version 8.11.6. See <tt\n"
+"            class=\n"
+"            \"FILENAME\">/usr/src/contrib/sendmail/RELEASE_NOTES</tt>\n"
+"            for more information.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1200
+#, no-wrap
+msgid ""
+"            <p><a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=traceroute&amp;sektion=8\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">traceroute</span>(8)</span></a> now\n"
+"            takes its default maximum TTL value from the <tt class=\n"
+"            \"VARNAME\">net.inet.ip.ttl</tt> sysctl variable.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1203
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">tcpdump</b> has been updated\n"
+"            to 3.6.3.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1209
+#, no-wrap
+msgid ""
+"              <h4 class=\"SECT4\"><a name=\"AEN731\">2.3.1.1\n"
+"              CVSup</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1223
+#, no-wrap
+msgid ""
+"              <p><b class=\"APPLICATION\">CVSup</b>, a frequently\n"
+"              used utility in the FreeBSD Ports Collection, was\n"
+"              formerly installable using several ports and\n"
+"              packages. The <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/cvsup-bin/pkg-descr\">\n"
+"              <tt class=\"PORT\">net/cvsup-bin</tt></a> and <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/cvsupd-bin/pkg-descr\">\n"
+"              <tt class=\"PORT\">net/cvsupd-bin</tt></a>\n"
+"              ports/packages are no longer necessary or available;\n"
+"              the <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/cvsup/pkg-descr\">\n"
+"              <tt class=\"PORT\">net/cvsup</tt></a> port should be\n"
+"              used instead.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1234
+#, no-wrap
+msgid ""
+"              <p><b class=\"APPLICATION\">CVSup</b> has been updated\n"
+"              to 16.1_3, which is available in the FreeBSD Ports\n"
+"              Collection as <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/cvsup/pkg-descr\">\n"
+"              <tt class=\"PORT\">net/cvsup</tt></a>. This update\n"
+"              fixes a long-standing (but only recently encountered)\n"
+"              bug which affects the timestamps on all files after\n"
+"              Sun Sep 9 01:46:40 UTC 2001 (1,000,000,000 seconds\n"
+"              after the UNIX epoch).</p>\n"
+"            </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1240
+#, no-wrap
+msgid ""
+"              <h4 class=\"SECT4\"><a name=\"KAME-USERLAND\">2.3.1.2\n"
+"              KAME</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1247
+#, no-wrap
+msgid ""
+"              <p>The IPv6 stack is now based on a snapshot based on\n"
+"              the KAME Project's IPv6 snapshot as of 28 May, 2001.\n"
+"              Most of the items listed in this section are a result\n"
+"              of this import. <a href=\"#KAME-KERNEL\">Section\n"
+"              2.1.8.2</a> lists kernel updates to the KAME IPv6\n"
+"              stack.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1253
+#, no-wrap
+msgid ""
+"              <p><a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=faithd&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">faithd</span>(8)</span></a> now\n"
+"              supports a configuration file for access control.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1262
+#, no-wrap
+msgid ""
+"              <p><a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ifconfig&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">ifconfig</span>(8)</span></a> can now\n"
+"              perform the functions of <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=gifconfig&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">gifconfig</span>(8)</span></a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1275
+#, no-wrap
+msgid ""
+"              <p><a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ifconfig&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">ifconfig</span>(8)</span></a> can now\n"
+"              perform the functions of <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=prefix&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">prefix</span>(8)</span></a>. <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=prefix&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">prefix</span>(8)</span></a> is now a\n"
+"              shell script for partial backwards compatibility.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1283
+#, no-wrap
+msgid ""
+"              <p><a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ndp&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">ndp</span>(8)</span></a> now\n"
+"              implements garbage collection for stale NDP entries,\n"
+"              as described in RFC 2461 (Neighbor Discovery for IP\n"
+"              Version 6 (IPv6)).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1299
+#, no-wrap
+msgid ""
+"              <p><a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pim6dd&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">pim6dd</span>(8)</span></a> and <a\n"
+"              href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pim6sd&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">pim6sd</span>(8)</span></a> have been\n"
+"              removed due to restrictive licensing conditions.\n"
+"              These programs are available in the ports collection\n"
+"              as <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/pim6dd/pkg-descr\">\n"
+"              <tt class=\"PORT\">net/pim6dd</tt></a> and <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/net/pim6sd/pkg-descr\">\n"
+"              <tt class=\"PORT\">net/pim6sd</tt></a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1306
+#, no-wrap
+msgid ""
+"              <p><a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=route6d&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">route6d</span>(8)</span></a> now\n"
+"              supports an <tt class=\"OPTION\">-n</tt> flag to avoid\n"
+"              updating the kernel forwarding table.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1315
+#, no-wrap
+msgid ""
+"              <p>The <tt class=\"OPTION\">-R</tt> (router\n"
+"              renumbering) option to <a href=\n"
+"              "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=rtadvd&amp;sektion=8\">\n"
+"              <span class=\"CITEREFENTRY\"><span class=\n"
+"              \"REFENTRYTITLE\">rtadvd</span>(8)</span></a> is\n"
+"              currently ignored.</p>\n"
+"            </div>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1321
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN789\">2.3.2 Ports/Packages\n"
+"            Collection</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1332
+#, no-wrap
+msgid ""
+"            <p><a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pkg_version&amp;sektion=1\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">pkg_version</span>(1)</span></a> now\n"
+"            takes a <tt class=\"OPTION\">-s</tt> flag to limit its\n"
+"            operation to ports/packages matching a given\n"
+"            string.</p>\n"
+"          </div>\n"
+"        </div>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1338
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a name=\"AEN796\">3 Upgrading from\n"
+"        previous releases of FreeBSD</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1344
+#, no-wrap
+msgid ""
+"        <p>If you're upgrading from a previous release of FreeBSD,\n"
+"        most likely it's 4.X and there may be some issues affecting\n"
+"        you, depending of course on your chosen method of\n"
+"        upgrading. There are two popular ways of upgrading FreeBSD\n"
+"        distributions:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1346
+#, no-wrap
+msgid "        <p></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1352
+#, no-wrap
+msgid ""
+"        <ul>\n"
+"          <li>\n"
+"            <p>Using sources, via <tt class=\n"
+"            \"FILENAME\">/usr/src</tt></p>\n"
+"          </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1362
+#, no-wrap
+msgid ""
+"          <li>\n"
+"            <p>Using the binary upgrade option of <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&amp;sektion=8\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">sysinstall</span>(8)</span></a>.</p>\n"
+"          </li>\n"
+"        </ul>\n"
+"        <br>\n"
+"        <br>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1368
+#, no-wrap
+msgid ""
+"        <p>Please read the <tt class=\"FILENAME\">INSTALL.TXT</tt>\n"
+"        file for more information, preferably <i class=\n"
+"        \"EMPHASIS\">before</i> beginning an upgrade. If you are\n"
+"        upgrading from source, please be sure to read <tt class=\n"
+"        \"FILENAME\">/usr/src/UPDATING</tt> as well.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1379
+#, no-wrap
+msgid ""
+"        <p>Finally, if you want to use one of various means to\n"
+"        track the -STABLE or -CURRENT branches of FreeBSD, please\n"
+"        be sure to consult the <a href=\n"
+"        \"http://www.FreeBSD.org/handbook/current-stable.html\"\n"
+"        target=\"_top\">``-CURRENT vs. -STABLE''</a> section of the\n"
+"        <a href=\"http://www.FreeBSD.org/handbook/\" target=\n"
+"        \"_top\">FreeBSD Handbook</a>.</p>\n"
+"      </div>\n"
+"    </div>\n"
+"    <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1383
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>This file, and other release-related\n"
+"    documents, can be downloaded from <a href=\n"
+"    "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/\">ftp://ftp.FreeBSD.org/pub/FreeBSD/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1388
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>For questions about FreeBSD, read the\n"
+"    <a href=\"http://www.FreeBSD.org/docs.html\">documentation</a>\n"
+"    before contacting &lt;<a href=\n"
+"    "
+"\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&gt;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1393
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small><small>All users of FreeBSD 4-STABLE\n"
+"    should subscribe to the &lt;<a href=\n"
+"    \"mailto:stable@FreeBSD.org\">stable@FreeBSD.org</a>&gt; mailing\n"
+"    list.</small></small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/relnotes-i386.adoc:1399
+#, no-wrap
+msgid ""
+"    <p align=\"center\">For questions about this documentation,\n"
+"    e-mail &lt;<a href=\n"
+"    \"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&gt;.</p>\n"
+"    <br>\n"
+"    <br>\n"
+msgstr ""

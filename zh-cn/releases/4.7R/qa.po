@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.7R/qa.adoc:1
+#, no-wrap
+msgid "Testing Guide for 4.7-RELEASE"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:10
+#, no-wrap
+msgid "<h3>Goals</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:19
+#, no-wrap
+msgid ""
+"<p>As part of our on-going effort to improve the release engineering\n"
+"  process, we have identified several areas that need significant\n"
+"  quality assurance testing during the release candidate phase.\n"
+"  Below, we've listed the changes in 4.7-RELEASE that we feel merit\n"
+"  the most attention due to their involving substantial changes to the\n"
+"  system, or having arrived late in the development cycle leading up\n"
+"  to the release.  In general, our goal in the QA process is to\n"
+"  attempt to check a number of things:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:24
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li>The system has not regressed with respects to stability, "
+"correctness,\n"
+"    interoperability, or performance of features present in prior\n"
+"    releases.<br clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:28
+#, no-wrap
+msgid ""
+"  <li>New features result in the desired improvement in stability,\n"
+"    correctness, interoperability, or performance.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:35
+#, no-wrap
+msgid ""
+"<p>To effectively determine this, it's desirable to test the system in\n"
+"  a diverse set of environments, applying a wide set of workloads,\n"
+"  forcing the system to operate both within and outside its normal\n"
+"  specification.  Particular focus should often be placed on the\n"
+"  continuing (or new) capability of the system to perform correctly\n"
+"  when used in concert with systems from other vendors.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:37
+#, no-wrap
+msgid "<h3>Features to explore carefully:</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:39 content/en/releases/4.7R/qa.adoc:91
+#, no-wrap
+msgid "<ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:58
+#, no-wrap
+msgid ""
+"  <li><p>PPP.  A number of significant PPP changes were merged to\n"
+"    -STABLE before the code freeze.  In particular, the following\n"
+"    changes were made:</p>\n"
+"    <ul>\n"
+"      <li>IPv6 support</li>\n"
+"      <li>Better RADIUS support (including MS-CHAP)</li>\n"
+"      <li>Improved handling of bad negotiation options</li>\n"
+"      <li>Improved negotiation diagnostics</li>\n"
+"      <li>Improved sockaddr (RTAX) parsing</li>\n"
+"      <li>More consistent compile time options (NOXXX to compile something "
+"out)</li>\n"
+"      <li>More available macros</li>\n"
+"      <li>Firewall punching</li>\n"
+"      <li>Improved ``proxy'' and ``proxyall'' handling</li>\n"
+"      <li>Handle connected UDP sockets on descriptor 0 in -direct "
+"mode</li>\n"
+"      <li>Fix a load of typos</li>\n"
+"      <li>Update to internal version 3.1</li>\n"
+"    </ul>\n"
+"  </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:61
+#, no-wrap
+msgid ""
+"  <li>IPFilter has recently been updated to version 3.4.29 and has not\n"
+"    yet been thoroughly tested in -STABLE.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:66
+#, no-wrap
+msgid ""
+"  <li><strong>ahc</strong> and <strong>ahd</strong> Adaptec SCSI\n"
+"    drivers: There has been a major update to the <tt>ahc</tt> and\n"
+"    <tt>ahd</tt> device drivers.  These drivers have not yet been\n"
+"    thoroughly tested in -STABLE.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:71
+#, no-wrap
+msgid ""
+"  <li>ATA.  There were some problems with tagged queuing and some\n"
+"    CDROM read operations with the ATA stack in FreeBSD 4.6.  These\n"
+"    problems were fixed in 4.6.2, but more testing on different\n"
+"    hardware is still needed.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:75
+#, no-wrap
+msgid ""
+"  <li>Sendmail has been updated to 8.12.6.  This should be a very\n"
+"    stable bugfix release, but sendmail users are encouraged to help\n"
+"    test this before 4.7 is released.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:79
+#, no-wrap
+msgid ""
+"  <li>XFree86 has been updated to 4.2.1.  This release fixes some\n"
+"    security issues and other bugs in 4.2.0, but should have almost\n"
+"    identical functionality.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:82
+#, no-wrap
+msgid ""
+"  <li>Heimdal (Kerberos 5 support) has been updated.  Kerberos 5 users\n"
+"    are encouraged to test this before 4.7 is released.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:84 content/en/releases/4.7R/qa.adoc:120
+#, no-wrap
+msgid "</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:87
+#, no-wrap
+msgid ""
+"<p>The <a href=\"../relnotes/\" shape=\"rect\">release notes</a> will always "
+"be\n"
+"  a good place to look for things to test.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:89
+#, no-wrap
+msgid "<h3>Known Issues</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:98
+#, no-wrap
+msgid ""
+"  <li>The 4.7-RC1 snapshots were built without packages due to some\n"
+"    problems (which only recently came to light) in the bzip2 package\n"
+"    support.  <em>Resolution:</em> The RE team decided to return to\n"
+"    gzip packages for 4.7-RC2 (as well as any subsequent RC snapshots\n"
+"    and the final release), thus allowing this snapshot to have its\n"
+"    normal package set.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:104
+#, no-wrap
+msgid ""
+"  <li>Partially as a result of the above package problems, the ports\n"
+"    tree on the 4.7-RC1/i386 ISO image is not exactly the same as the\n"
+"    4.7-RC1/i386 FTP directory.  Both will be eventually updated for\n"
+"    subsequent RC snapshots and the final release.\n"
+"    <em>Resolution:</em> Not a factor for subsequent snapshots.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:108
+#, no-wrap
+msgid ""
+"  <li>Loading kernel modules on 4.7-RC1/alpha is broken.\n"
+"    <em>Resolution:</em> A fix has\n"
+"    been committed and will be present in 4.7-RC2/alpha.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:118
+#, no-wrap
+msgid ""
+"  <li>When booting from the install media (e.g. a CDROM), sysinstall\n"
+"    tries to load a set of modules from the mfsroot image.  For some\n"
+"    reason, sysinstall cannot load the module containing the aac\n"
+"    driver; this results in an error dialog when starting sysinstall.\n"
+"    Access to aac devices from within sysinstall is, understandably,\n"
+"    broken by this error.  This appears to be due to a\n"
+"    dependency on the linux module.  <em>Resolution:</em> The aac driver "
+"was\n"
+"    brought back into the install kernels, and other modules were\n"
+"    moved to modules.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/qa.adoc:124
+#, no-wrap
+msgid ""
+"</div>\n"
+"          <br class=\"clearboth\" />\n"
+"        </div>\n"
+msgstr ""

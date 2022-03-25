@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/marketing/_index.adoc:1 content/en/marketing/_index.adoc:8
+#, no-wrap
+msgid "Marketing Materials"
+msgstr ""
+
+#. type: Plain text
+#: content/en/marketing/_index.adoc:11
+msgid ""
+"This page contains presentations, white papers, and other marketing "
+"materials for FreeBSD."
+msgstr ""
+
+#. type: Title ==
+#: content/en/marketing/_index.adoc:12
+#, no-wrap
+msgid "White Papers"
+msgstr ""
+
+#. type: Plain text
+#: content/en/marketing/_index.adoc:15
+msgid ""
+"Thinking of using FreeBSD in a project? Finding it hard to convince your "
+"boss, the CTO, the CEO? Read through these real life examples of FreeBSD "
+"successes with shipping products, then give them to the decision makers at "
+"your company."
+msgstr ""
+
+#. type: Plain text
+#: content/en/marketing/_index.adoc:17
+msgid "link:{explaining-bsd}[Explaining BSD]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/marketing/_index.adoc:18
+msgid "link:{building-products}[Building Products with FreeBSD]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/marketing/_index.adoc:19
+#, no-wrap
+msgid "Presentations"
+msgstr ""
+
+#. type: Plain text
+#: content/en/marketing/_index.adoc:22
+msgid ""
+"28 April 2005, "
+"https://people.FreeBSD.org/~murray/presentations/20050429-msu-freebsd[FreeBSD "
+"in the Enterprise, an Introduction for Linux Users], Murray Stokely (Open "
+"Source Forum, Moscow)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/marketing/_index.adoc:23
+msgid ""
+"18 September 2002, "
+"https://people.FreeBSD.org/~murray/presentations/re-jus/index.html[FreeBSD "
+"Release Engineering], Murray Stokely (Japan Unix Society)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/marketing/_index.adoc:24
+msgid ""
+"10 June 2001, https://people.FreeBSD.org/~nik/Leeds[FreeBSD for Linux "
+"Users], Nik Clayton"
+msgstr ""
+
+#. type: Title ==
+#: content/en/marketing/_index.adoc:25
+#, no-wrap
+msgid "Flyers"
+msgstr ""
+
+#. type: Plain text
+#: content/en/marketing/_index.adoc:27
+msgid ""
+"What is FreeBSD? (https://people.FreeBSD.org/~blackend/flyer-logo.pdf[PDF] | "
+"https://people.FreeBSD.org/~blackend/flyer-logo.ps[PostScript])"
+msgstr ""

@@ -1,0 +1,465 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:22+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/docs/books.adoc:1 content/en/docs/books.adoc:8
+#, no-wrap
+msgid "Books and Articles Online"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docs/books.adoc:10
+#, no-wrap
+msgid "On this site"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:13
+msgid ""
+"All the documentation on this site can be downloaded in a variety of "
+"different formats (HTML, Postscript, PDF, and more) and compression schemes "
+"(BZip2, Zip) from the https://download.FreeBSD.org/doc/[FreeBSD Download "
+"site]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:15
+msgid ""
+"Archived copies of the FreeBSD documentation (articles, books, and textinfo "
+"manuals) are also available online at http://docs.FreeBSD.org/doc/."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:17
+msgid ""
+"This documentation is provided and maintained by the "
+"link:https://www.FreeBSD.org/docproj[FreeBSD Documentation Project], and we "
+"are always looking for people to contribute new documentation and maintain "
+"existing documentation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:19
+msgid ""
+"Papers, presentations, and videos about FreeBSD are archived and catalogued "
+"on the https://papers.freebsd.org/[FreeBSD Papers] website."
+msgstr ""
+
+#. type: Title ===
+#: content/en/docs/books.adoc:20
+#, no-wrap
+msgid "Books"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:24
+msgid ""
+"link:{dev-model}[A project model for the FreeBSD project] (dev-model) + A "
+"formal study of the organization of the FreeBSD project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:27
+msgid ""
+"link:{faq}[The FreeBSD FAQ] (faq) + Frequently Asked Questions, and answers, "
+"covering all aspects of FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:30
+msgid ""
+"link:{handbook}[The FreeBSD Handbook] (handbook) + A constantly evolving, "
+"comprehensive resource for FreeBSD users."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:33
+msgid ""
+"link:{developers-handbook}[The FreeBSD Developers' Handbook] "
+"(developers-handbook) + For people who want to develop software for FreeBSD "
+"(and not just people who are developing FreeBSD itself)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:36
+msgid ""
+"link:{arch-handbook}[The FreeBSD Architecture Handbook] (arch-handbook) + "
+"For FreeBSD system developers. This book covers the architectural details of "
+"many important FreeBSD kernel subsystems."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:39
+msgid ""
+"link:{porters-handbook}[The Porter's Handbook] (porters-handbook) + "
+"Essential reading if you plan on providing a port of a third party piece of "
+"software."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:42
+msgid ""
+"link:{design-44bsd}[Chapter 2 of 'The Design and Implementation of the "
+"4.4BSD Operating System'] (design-44bsd) + Donated by Addison-Wesley, "
+"provides a design overview of 4.4BSD, from which FreeBSD was originally "
+"derived."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:45
+msgid ""
+"link:{fdp-primer}[The FreeBSD Documentation Project Primer for New "
+"Contributors] (fdp-primer) + Everything you need to know in order to start "
+"contributing to the FreeBSD Documentation Project."
+msgstr ""
+
+#. type: Title ===
+#: content/en/docs/books.adoc:47
+#, no-wrap
+msgid "Articles"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:51
+msgid ""
+"link:{bsdl-gpl}[Why you should use a BSD style license for your Open Source "
+"Project] (bsdl-gpl) + Describes the benefits of releasing code under a BSD "
+"license."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:54
+msgid ""
+"link:{building-products}[Building Products with FreeBSD] (building-products) "
+"+ How FreeBSD can help you build a better product."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:57
+msgid ""
+"link:{committers-guide}[The Committer's Guide] (committers-guide) + "
+"Introductory information for FreeBSD committers."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:60
+msgid ""
+"link:{contributing}[Contributing to FreeBSD] (contributing) + How to "
+"contribute to the FreeBSD Project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:63
+msgid ""
+"link:{contributors}[The List of FreeBSD Contributors] (contributors) + A "
+"list of organizations and individuals who have helped enhance FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:66
+msgid "link:{cups}[CUPS on FreeBSD] (cups) + How to setup CUPS with FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:69
+msgid ""
+"link:{explaining-bsd}[Explaining BSD] (explaining-bsd) + An answer to the "
+"question \"What is BSD?\""
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:72
+msgid ""
+"link:{filtering-bridges}[Filtering Bridges] (filtering-bridges) + "
+"Configuring firewalls and filtering on FreeBSD hosts acting as bridges "
+"rather than routers."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:75
+msgid ""
+"link:{fonts}[Fonts and FreeBSD] (fonts) + A description of the various font "
+"technologies in FreeBSD, and how to use them with different programs."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:78
+msgid ""
+"link:{freebsd-questions}[How to get the best results from the "
+"FreeBSD-questions mailing list] (freebsd-questions) + Tips and tricks to "
+"help you maximize the chances of getting useful information from the "
+"-questions mailing list."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:81
+msgid ""
+"link:{freebsd-update-server}[Build Your Own FreeBSD Update Server] "
+"(freebsd-update-server) + Using a FreeBSD Update server allows a system "
+"administrator to perform fast updates for a number of machines from a local "
+"mirror."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:84
+msgid ""
+"link:{geom-class}[Writing a GEOM Class] (geom-class) + A guide to GEOM "
+"internals, and writing your own class."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:87
+msgid ""
+"link:{gjournal-desktop}[Implementing UFS journaling on a desktop PC] "
+"(gjournal-desktop) + A guide to create UFS partitions configured with "
+"journaling for desktop use."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:90
+msgid ""
+"link:{hubs}[Mirroring FreeBSD] (hubs) + The all in one guide for mirroring "
+"the FreeBSD website, FTP servers, and more."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:93
+msgid ""
+"link:{ipsec-must}[Independent Verification of IPsec Functionality in "
+"FreeBSD] (ipsec-must) + A method for experimentally verifying IPsec "
+"functionality."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:96
+msgid ""
+"link:{ldap-auth}[LDAP Authentication] (ldap-auth) + A practical guide about "
+"setting up an LDAP server on FreeBSD and how to use it for authenticating "
+"users."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:99
+msgid ""
+"link:{leap-seconds}[FreeBSD Support for Leap Seconds] (leap-seconds) + A "
+"short description of how leap seconds are handled on FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:102
+msgid ""
+"link:{linux-emulation}[Linux emulation in FreeBSD] (linux-emulation) + A "
+"technical description about the internals of the Linux emulation layer in "
+"FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:105
+msgid ""
+"link:{linux-users}[FreeBSD Quickstart Guide for Linux Users] (linux-users) + "
+"An introductionary guide for the users that came from Linux."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:108
+msgid ""
+"link:{mailing-list-faq}[Frequently Asked Questions About The FreeBSD Mailing "
+"Lists] (mailing-list-faq) + How to best use the mailing lists, such as how "
+"to help avoid frequently-repeated discussions."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:111
+msgid ""
+"link:{nanobsd}[Introduction to NanoBSD] (nanobsd) + Information about the "
+"NanoBSD tools, which can be used to create FreeBSD system images for "
+"embedded applications, suitable for use on a Compact Flash card (or other "
+"mass storage medium)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:114
+msgid ""
+"link:{new-users}[FreeBSD First Steps] (new-users) + For people coming to "
+"FreeBSD and UNIX(R) for the first time."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:117
+msgid ""
+"link:{pam}[Pluggable Authentication Modules] (pam) + A guide to the PAM "
+"system and modules under FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:120
+msgid ""
+"link:{pgpkeys}[OpenPGP Keys] (pgpkeys) + All of the OpenPGP keys for "
+"FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:123
+msgid ""
+"link:{port-mentor-guidelines}[Port Mentor Guidelines] "
+"(port-mentor-guidelines) + Guidelines for new and/or potential port mentors "
+"and mentees."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:126
+msgid ""
+"link:{pr-guidelines}[FreeBSD Problem Report Handling Guidelines] "
+"(pr-guidelines) + Recommended practices for handling FreeBSD problem "
+"reports."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:129
+msgid ""
+"link:{problem-reports}[Writing FreeBSD Problem Reports] (problem-reports) + "
+"How to best formulate and submit a problem report to the FreeBSD Project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:132
+msgid ""
+"link:{rc-scripting}[Practical rc.d scripting in BSD] (rc-scripting) + A "
+"guide to writing new rc.d scripts and understanding those already written."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:135
+msgid ""
+"link:{freebsd-releng}[FreeBSD Release Engineering] (freebsd-releng) + "
+"Describes the approach used by the FreeBSD release engineering team to make "
+"production quality releases of the FreeBSD Operating System. It describes "
+"the tools available for those interested in producing customized FreeBSD "
+"releases for corporate rollouts or commercial productization."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:138
+msgid ""
+"link:{releng}[Legacy FreeBSD Release Engineering] (releng) + This paper "
+"describes the approach used by past the FreeBSD release engineering team to "
+"make production quality releases of the FreeBSD Operating System."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:141
+msgid ""
+"link:{remote-install}[Remote Installation of the FreeBSD Operating System "
+"without a Remote Console] (remote-install) + Describes the remote "
+"installation of the FreeBSD operating system when the console of the remote "
+"system is unavailable."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:144
+msgid ""
+"link:{serial-uart}[Serial and UART devices] (serial-uart) + Detailed "
+"information about the use of serial ports on FreeBSD, including several "
+"multi-port serial cards."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:147
+msgid ""
+"link:{solid-state}[FreeBSD and Solid State Devices] (solid-state) + The use "
+"of solid state disk devices in FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:150
+msgid ""
+"link:{vinum}[The vinum Volume Manager] (vinum) + Using gvinum to create RAID "
+"arrays."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:153
+msgid ""
+"link:{vm-design}[Design elements of the FreeBSD VM system] (vm-design) + An "
+"easy to follow description of the design of the FreeBSD virtual memory "
+"system."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:156
+msgid ""
+"link:{freebsd-src-lsp}[Use Language Servers for Development in the FreeBSD "
+"Src Tree] (freebsd-src-lsp) + A guide about setting up a FreeBSD src tree "
+"with language servers performing source code indexing."
+msgstr ""
+
+#. type: Title ==
+#: content/en/docs/books.adoc:157
+#, no-wrap
+msgid "Articles on other web sites"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:160
+msgid ""
+"Various independent efforts have also produced a great deal of useful "
+"information about FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:162
+msgid ""
+"Niels Jorgensen has authored an academic study on the dynamics of the "
+"FreeBSD development process: "
+"http://www.ruc.dk/~nielsj/research/publications/freebsd.pdf[\"Putting it All "
+"in the Trunk, Incremental Software Development in the FreeBSD Open Source "
+"Project\"] [Information Systems Journal (2001) 11, 321-336]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:163
+msgid ""
+"mailto:mckusick@mckusick.com[Kirk McKusick], one of the original architects "
+"of BSD at U.C. Berkeley, teaches two http://www.mckusick.com/courses/[4.4BSD "
+"Kernel Internals] courses using FreeBSD. For those unable to attend the "
+"courses in person, a video tape series is also now available."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:164
+msgid ""
+"http://software.intel.com/sites/default/files/profiling_debugging_freebsd_kernel_321772.pdf[Profiling "
+"and Debugging the FreeBSD Kernel]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:165
+msgid ""
+"http://software.intel.com/sites/default/files/debugging_buffer_overruns_322486.pdf[Debugging "
+"Buffer Overruns in the FreeBSD Kernel]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/books.adoc:165
+msgid ""
+"Appendix A from the college textbook _Operating Systems Concepts_ by "
+"Silberschatz, Galvin and Gagne has been made available online in "
+"http://www.wiley.com/college/silberschatz6e/0471417432/pdf/bsd.pdf[PDF "
+"format]. The appendix is dedicated to FreeBSD and offers a good introduction "
+"to FreeBSD's internals."
+msgstr ""

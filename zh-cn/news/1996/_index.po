@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:03+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/news/1996/_index.adoc:1 content/en/news/1996/_index.adoc:7
+#, no-wrap
+msgid "FreeBSD News Flash! (1996)"
+msgstr ""
+
+#. type: Title ==
+#: content/en/news/1996/_index.adoc:9
+#, no-wrap
+msgid "December 1996"
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/1996/_index.adoc:12
+#, no-wrap
+msgid ""
+"*24-Dec-1996* FreeBSD "
+"link:ftp://ftp.freebsd.org/pub/FreeBSD/2.2-BETA[2.2-BETA] has been "
+"released. Please see the "
+"ftp://ftp.freebsd.org/pub/FreeBSD/2.2-BETA/RELNOTES.TXT[Release Notes] for "
+"more information.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/1996/_index.adoc:14
+#, no-wrap
+msgid ""
+"*13-Dec-1996* FreeBSD 2.2-RELEASE will not support installation on machines "
+"with less than 5MB of RAM or 1.2MB floppy drives. Please see the original "
+"link:../../releases/2.2r/install-media/[announcement] for more "
+"information.\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/news/1996/_index.adoc:16
+#, no-wrap
+msgid "November 1996"
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/1996/_index.adoc:19
+#, no-wrap
+msgid ""
+"*15-Nov-1996* FreeBSD 2.1.6-RELEASE is out. Please see the release notes for "
+"more information.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/1996/_index.adoc:21
+#, no-wrap
+msgid ""
+"*4-Nov-1996* The FreeBSD link:http://cvsweb.freebsd.org/[CVS] development "
+"tree has branched again. link:../../releases[See here] for more "
+"information.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/1996/_index.adoc:22
+msgid "link:..[News Home]"
+msgstr ""

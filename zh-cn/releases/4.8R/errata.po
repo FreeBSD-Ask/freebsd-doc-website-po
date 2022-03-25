@@ -1,0 +1,641 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.8R/errata.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.8-RELEASE Errata"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:10
+#, no-wrap
+msgid "<h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:13
+#, no-wrap
+msgid ""
+"<p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001, 2002, 2003 by The "
+"FreeBSD Documentation\n"
+"Project</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:17
+#, no-wrap
+msgid ""
+"<p class=\"PUBDATE\">$FreeBSD: "
+"src/release/doc/en_US.ISO8859-1/errata/article.sgml,v\n"
+"1.1.2.113 2003/10/06 04:21:21 bmah Exp $<br />\n"
+"</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:20
+#, no-wrap
+msgid ""
+"<hr />\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:29
+#, no-wrap
+msgid ""
+"<blockquote class=\"ABSTRACT\">\n"
+"<div class=\"ABSTRACT\"><a id=\"AEN12\" name=\"AEN12\"></a>\n"
+"<p>This document lists errata items for FreeBSD 4.8-RELEASE, containing "
+"significant\n"
+"information discovered after the release or too late in the release cycle to "
+"be otherwise\n"
+"included in the release documentation. This information includes security "
+"advisories, as\n"
+"well as news relating to the software or documentation that could affect its "
+"operation or\n"
+"usability. An up-to-date version of this document should always be consulted "
+"before\n"
+"installing this version of FreeBSD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:34
+#, no-wrap
+msgid ""
+"<p>This errata document for FreeBSD 4.8-RELEASE will be maintained until the "
+"release of\n"
+"FreeBSD 4.9-RELEASE.</p>\n"
+"</div>\n"
+"</blockquote>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:38
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h1 class=\"SECT1\"><a id=\"AEN15\" name=\"AEN15\">1 Introduction</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:42
+#, no-wrap
+msgid ""
+"<p>This errata document contains ``late-breaking news'' about FreeBSD "
+"4.8-RELEASE. Before\n"
+"installing this version, it is important to consult this document to learn "
+"about any\n"
+"post-release discoveries or problems that may already have been found and "
+"fixed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:50
+#, no-wrap
+msgid ""
+"<p>Any version of this errata document actually distributed with the release "
+"(for\n"
+"example, on a CDROM distribution) will be out of date by definition, but "
+"other copies are\n"
+"kept updated on the Internet and should be consulted as the ``current "
+"errata'' for this\n"
+"release. These other copies of the errata are located at <a\n"
+"href=\"http://www.FreeBSD.org/releases/\"\n"
+"target=\"_top\">http://www.FreeBSD.org/releases/</a>, plus any sites which "
+"keep up-to-date\n"
+"mirrors of this location.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:53
+#, no-wrap
+msgid ""
+"<p>Source and binary snapshots of FreeBSD 4-STABLE also contain up-to-date "
+"copies of this\n"
+"document (as of the time of the snapshot).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:60
+#, no-wrap
+msgid ""
+"<p>For a list of all FreeBSD CERT security advisories, see <a\n"
+"href=\"http://www.FreeBSD.org/security/\"\n"
+"target=\"_top\">http://www.FreeBSD.org/security/</a> or <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\"\n"
+"target=\"_top\">ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/</a>.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:64
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h1 class=\"SECT1\"><a id=\"AEN26\" name=\"AEN26\">2 Security "
+"Advisories</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:78
+#, no-wrap
+msgid ""
+"<p>A buffer overflow in header parsing exists in older versions of <b\n"
+"class=\"APPLICATION\">sendmail</b>. It could allow a remote attacker to "
+"create a\n"
+"specially-crafted message that may cause <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sendmail&amp;sektion=8&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sendmail</span>(8)</span></a> to\n"
+"execute arbitrary code with the privileges of the user running it, typically "
+"<tt\n"
+"class=\"USERNAME\">root</tt>. More information, including pointers to "
+"patches, can be found\n"
+"in security advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:07.sendmail.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:07</a>. This problem was corrected for FreeBSD "
+"4.8-RELEASE\n"
+"with a vendor patch and was corrected for FreeBSD 4.9-RC with the import of "
+"a new version\n"
+"of <b class=\"APPLICATION\">sendmail</b>. However, these changes may not "
+"otherwise have\n"
+"been noted in the release documentation.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:90
+#, no-wrap
+msgid ""
+"<p>The implementation of the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=realpath&amp;sektion=3&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">realpath</span>(3)</span></a>\n"
+"function contains a single-byte buffer overflow bug. This may have various "
+"impacts,\n"
+"depending on the application using <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=realpath&amp;sektion=3&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">realpath</span>(3)</span></a> and\n"
+"other factors. This bug has been fixed on the 4.8-RELEASE security fix "
+"branch and the\n"
+"4-STABLE development branch. For more information, see security advisory "
+"<a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:08.realpath.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:08</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:96
+#, no-wrap
+msgid ""
+"<p>The kernel contains a bug that could allow it to attempt delivery of "
+"invalid signals,\n"
+"leading to a kernel panic. This bug has been fixed on the 4-STABLE "
+"development branch and\n"
+"the 4.8-RELEASE security fix branch. For more information, see security "
+"advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:09.signal.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:09</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:103
+#, no-wrap
+msgid ""
+"<p>A bug in the iBCS2 emulation module could result in disclosing the "
+"contents of kernel\n"
+"memory. (Note that this module is not enabled in FreeBSD by default.) This "
+"bug has been\n"
+"fixed on the 4-STABLE development branch and the 4.8-RELEASE security fix "
+"branch. More\n"
+"information can be found in security advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:10.ibcs2.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:10</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:115
+#, no-wrap
+msgid ""
+"<p>A programming error in the <b class=\"APPLICATION\">sendmail</b> "
+"implementation of its\n"
+"``DNS maps'' feature could lead to a <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sendmail&amp;sektion=8&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sendmail</span>(8)</span></a>\n"
+"child process crashing or behaving incorrectly. This error has been fixed "
+"with a patch on\n"
+"the 4.8-RELEASE security fix branch and with the import of a new version of "
+"<b\n"
+"class=\"APPLICATION\">sendmail</b> on the 4-STABLE development branch. (Note "
+"that the DNS\n"
+"maps feature is not used by the default configuration files shipped with "
+"FreeBSD.) More\n"
+"information can be found in security advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:11.sendmail.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:11</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:122
+#, no-wrap
+msgid ""
+"<p><b class=\"APPLICATION\">OpenSSH</b> contains a bug in its buffer "
+"management code that\n"
+"could potentially cause it to crash. This bug has been fixed via a "
+"vendor-supplied patch\n"
+"on the 4-STABLE development branch and the 4.8-RELEASE security fix "
+"branch. For more\n"
+"details, refer to security advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:12.openssh.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:12</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:128
+#, no-wrap
+msgid ""
+"<p><b class=\"APPLICATION\">sendmail</b> contains a remotely-exploitable "
+"buffer overflow.\n"
+"This bug has been fixed via a vendor-supplied patch on the 4-STABLE "
+"development branch\n"
+"and the 4.8-RELEASE security fix branch. More details can be found in "
+"security advisory\n"
+"<a "
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:13.sendmail.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:13</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:135
+#, no-wrap
+msgid ""
+"<p>The FreeBSD ARP code contains a bug that could allow the kernel to cause "
+"resource\n"
+"starvation which eventually results in a system panic. This bug has been "
+"fixed on the\n"
+"4-STABLE development branch and the 4.8-RELEASE security fix branch. More "
+"information can\n"
+"be found in security advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:14.arp.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:14</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:141
+#, no-wrap
+msgid ""
+"<p>Several bugs in the <b class=\"APPLICATION\">OpenSSH</b> PAM "
+"authentication code could\n"
+"have impacts ranging from incorrect authentication to a stack "
+"corruption. These have been\n"
+"corrected via vendor-supplied patches; details can be found in security "
+"advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:15.openssh.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:15</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:150
+#, no-wrap
+msgid ""
+"<p>The implementation of the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=readv&amp;sektion=2&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">readv</span>(2)</span></a> system\n"
+"call contains a bug which could potentially cause a system crash or "
+"privilege escalation.\n"
+"This bug has been fixed on the 4-STABLE development branch and the "
+"4.8-RELEASE security\n"
+"fix branch. More information can be found in security advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:16.filedesc.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:16</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:162
+#, no-wrap
+msgid ""
+"<p>The implementation of the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=procfs&amp;sektion=5&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">procfs</span>(5)</span></a> and\n"
+"the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=linprocfs&amp;sektion=5&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">linprocfs</span>(5)</span></a>\n"
+"contain a bug that could result in disclosing the contents of kernel "
+"memory. This bug has\n"
+"been fixed on the 4-STABLE development branch and the 4.8-RELEASE security "
+"fix branch.\n"
+"More information can be found in security advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:17.procfs.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:17</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:174
+#, no-wrap
+msgid ""
+"<p><b class=\"APPLICATION\">OpenSSL</b> contains several bugs which could "
+"allow a remote\n"
+"attacker to crash an <b class=\"APPLICATION\">OpenSSL</b>-using application "
+"or to execute\n"
+"arbitrary code with the privileges of the application. These bugs have been "
+"fixed with\n"
+"the import of a new version of <b class=\"APPLICATION\">OpenSSL</b> on the "
+"4-STABLE\n"
+"development branch and with a vendor-supplied patch on the 4.8-RELEASE "
+"security fix\n"
+"branch. Note that only applications that use <b "
+"class=\"APPLICATION\">OpenSSL</b>'s ASN.1\n"
+"or X.509 handling code are affected (<b class=\"APPLICATION\">OpenSSH</b> is "
+"unaffected,\n"
+"for example). More information can be found in security advisory <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-03:18.openssl.asc\"\n"
+"target=\"_top\">FreeBSD-SA-03:18</a>.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:178
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h1 class=\"SECT1\"><a id=\"AEN87\" name=\"AEN87\">3 Late-Breaking "
+"News</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:186
+#, no-wrap
+msgid ""
+"<p>Due to some problems discovered very late in the release cycle, the ISO "
+"images and FTP\n"
+"install directories for FreeBSD 4.8-RELEASE/i386 needed to be re-generated "
+"and\n"
+"re-uploaded to the FTP mirror sites. For reference, the final ISO images "
+"have checksums\n"
+"computed via <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=md5&amp;sektion=1&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">md5</span>(1)</span></a> as\n"
+"follows:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:192
+#, no-wrap
+msgid ""
+"<pre class=\"PROGRAMLISTING\">\n"
+"MD5 (4.8-RELEASE-i386-disc1.iso) = c4e34b6a6be5cd1977ca206bf821c7fc\n"
+"MD5 (4.8-RELEASE-i386-disc2.iso) = 93b09f97c01deead302557d7d24f87cb\n"
+"MD5 (4.8-RELEASE-i386-mini.iso) = 5f0d2576dbb56d6ec85d49ac9fa4bbf9\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:195
+#, no-wrap
+msgid ""
+"<p>Some parts of the documentation may incorrectly give the release date of "
+"FreeBSD\n"
+"4.8-RELEASE as March 2003, rather than April 2003.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:201
+#, no-wrap
+msgid ""
+"<p>FreeBSD 4.8-RELEASE restores the ability to install from the installation "
+"media to a\n"
+"<a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=mly&amp;sektion=4&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">mly</span>(4)</span></a> device.\n"
+"(This capability was broken in FreeBSD 4.7-RELEASE.)</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:208
+#, no-wrap
+msgid ""
+"<p>After installing <b class=\"APPLICATION\">GNOME</b>, the default terminal "
+"font might be\n"
+"garbled. If this is the case, install the <tt\n"
+"class=\"FILENAME\">x11-fonts/bitstream-vera</tt> port, then restart <b\n"
+"class=\"APPLICATION\">GNOME</b>. The new fonts should take effect "
+"automatically. If they do\n"
+"not, edit the current gnome-terminal profile and select the Bitstream Vera "
+"Sans Mono\n"
+"font.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:218
+#, no-wrap
+msgid ""
+"<p>Due to space limitations, the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=awi&amp;sektion=4&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">awi</span>(4)</span></a> driver\n"
+"has been removed from the kernel used on the 1.44MB <tt "
+"class=\"FILENAME\">kern.flp</tt>\n"
+"i386 boot floppy. Because no module is available for this driver in FreeBSD "
+"4.8-RELEASE,\n"
+"this means that it is generally not possible to install FreeBSD 4.8-RELEASE "
+"over an <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=awi&amp;sektion=4&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">awi</span>(4)</span></a>\n"
+"network.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:222
+#, no-wrap
+msgid ""
+"<p>Due to space limitations, support for ATAPI floppy disks and the DEC "
+"AlphaServer 8200\n"
+"and 8400 (``TurboLaser'') machines has been removed from the kernel used on "
+"the 1.44MB\n"
+"<tt class=\"FILENAME\">kern.flp</tt> alpha boot floppy.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:226
+#, no-wrap
+msgid ""
+"<p>A bug in the FreeBSD 4.8-RELEASE kernel prevents it from booting on an "
+"Intel 80386\n"
+"processor. This problem has been corrected on both the 4.8-RELEASE security "
+"fix branch\n"
+"and the 4-STABLE development branch.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:246
+#, no-wrap
+msgid ""
+"<p>FreeBSD supports a hashed form of the login capabilities database, stored "
+"in <tt\n"
+"class=\"FILENAME\">/etc/login.conf.db</tt>. This is generated from the <tt\n"
+"class=\"FILENAME\">/etc/login.conf</tt> text file. If the hashed database is "
+"present, <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=login&amp;sektion=1&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">login</span>(1)</span></a> will\n"
+"use it in preference to the contents of the text file. FreeBSD 4.8-RELEASE "
+"is the first\n"
+"release that actually includes <tt "
+"class=\"FILENAME\">/etc/login.conf.db</tt> on the\n"
+"distribution media; thus, users modifying <tt "
+"class=\"FILENAME\">/etc/login.conf</tt> need\n"
+"to remember to regenerate the database, using <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=cap_mkdb&amp;sektion=1&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">cap_mkdb</span>(1)</span></a>.\n"
+"Users performing source upgrades are generally not affected by this change, "
+"because <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=mergemaster&amp;sektion=8&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">mergemaster</span>(8)</span></a>\n"
+"offers the option to regenerate <tt "
+"class=\"FILENAME\">/etc/login.conf.db</tt> during\n"
+"upgrades. <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=login.conf&amp;sektion=5&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">login.conf</span>(5)</span></a>\n"
+"has more details on the format and usage of the login capabilities "
+"database.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:255
+#, no-wrap
+msgid ""
+"<p>A file that is a part of the <tt "
+"class=\"FILENAME\">multimedia/gstreamer-plugins</tt>\n"
+"port may appear to have a corrupted filename when the ports collection is "
+"installed using\n"
+"<a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&amp;sektion=8&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sysinstall</span>(8)</span></a>.\n"
+"This should not affect building the port or installing the corresponding "
+"package.\n"
+"However, it is recommended to rename the file in question, to prevent "
+"problems during any\n"
+"future updates to the installed ports collection:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:263
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<tt class=\"PROMPT\">#</tt> <tt\n"
+"class=\"USERINPUT\"><b>cd "
+"/usr/ports/multimedia/gstreamer-plugins/files</b></tt>\n"
+"<tt class=\"PROMPT\">#</tt> <tt\n"
+"class=\"USERINPUT\"><b>mv "
+"patch-gst-libs_ext_ffmpeg_ffmpeg_libavcodec_alpha_simple_i \\\n"
+"patch-gst-libs_ext_ffmpeg_ffmpeg_libavcodec_alpha_simple_idct_alpha.c</b></tt>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:268
+#, no-wrap
+msgid ""
+"<p>Recently the mailing lists were changed from majordomo to the currently "
+"used Mailman\n"
+"list server. More information about using the new mailing lists can be found "
+"by visiting\n"
+"the <a href=\"http://www.FreeBSD.org/mailman/listinfo/\" "
+"target=\"_top\">FreeBSD Mailman Info\n"
+"Page</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:276
+#, no-wrap
+msgid ""
+"<p>The <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=dc&amp;sektion=4&amp;manpath=FreeBSD+4.8-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">dc</span>(4)</span></a> driver\n"
+"does not properly transmit data through Davicom DC9102 cards. This problem, "
+"which has\n"
+"been present since FreeBSD 4.5-RELEASE, has been corrected for FreeBSD "
+"4.9-RC.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:281
+#, no-wrap
+msgid ""
+"<hr />\n"
+"<p align=\"center\"><small>This file, and other release-related documents, "
+"can be\n"
+"downloaded from <a\n"
+"href=\"http://snapshots.jp.FreeBSD.org/\">http://snapshots.jp.FreeBSD.org/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:285
+#, no-wrap
+msgid ""
+"<p align=\"center\"><small>For questions about FreeBSD, read the <a\n"
+"href=\"http://www.FreeBSD.org/docs.html\">documentation</a> before "
+"contacting &#60;<a\n"
+"href=\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:289
+#, no-wrap
+msgid ""
+"<p align=\"center\"><small><small>All users of FreeBSD 4-STABLE should "
+"subscribe to the\n"
+"&#60;<a href=\"mailto:stable@FreeBSD.org\">stable@FreeBSD.org</a>&#62; "
+"mailing\n"
+"list.</small></small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:292
+#, no-wrap
+msgid ""
+"<p align=\"center\">For questions about this documentation, e-mail &#60;<a\n"
+"href=\"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&#62;.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/errata.adoc:295
+#, no-wrap
+msgid ""
+"<br />\n"
+"<br />\n"
+msgstr ""

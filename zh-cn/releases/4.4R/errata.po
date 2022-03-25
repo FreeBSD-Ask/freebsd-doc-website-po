@@ -1,0 +1,446 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.4R/errata.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.4-RELEASE Errata"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:10
+#, no-wrap
+msgid "        <h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:13
+#, no-wrap
+msgid ""
+"        <p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001, 2002 by\n"
+"        The FreeBSD Documentation Project</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:20
+#, no-wrap
+msgid ""
+"        <p class=\"PUBDATE\">$FreeBSD:\n"
+"        src/release/doc/en_US.ISO8859-1/errata/article.sgml,v\n"
+"        1.1.2.43 2002/01/25 04:12:28 bmah Exp $<br>\n"
+"        </p>\n"
+"        <hr>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:24
+#, no-wrap
+msgid ""
+"      <blockquote class=\"ABSTRACT\">\n"
+"        <div class=\"ABSTRACT\">\n"
+"          <a name=\"AEN11\"></a>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:33
+#, no-wrap
+msgid ""
+"          <p>This document lists errata items for FreeBSD\n"
+"          4.4-RELEASE, containing significant information\n"
+"          discovered after the release. This information includes\n"
+"          security advisories, as well as news relating to the\n"
+"          software or documentation that could affect its operation\n"
+"          or usability. An up-to-date version of this document\n"
+"          should always be consulted before installing this version\n"
+"          of FreeBSD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:38
+#, no-wrap
+msgid ""
+"          <p>This errata document for FreeBSD 4.4-RELEASE will be\n"
+"          maintained until the release of FreeBSD 4.5-RELEASE.</p>\n"
+"        </div>\n"
+"      </blockquote>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:41
+#: content/en/releases/4.4R/errata.adoc:73
+#: content/en/releases/4.4R/errata.adoc:150
+#, no-wrap
+msgid ""
+"      <div class=\"SECT1\">\n"
+"        <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:43
+#, no-wrap
+msgid "        <h1 class=\"SECT1\"><a name=\"AEN14\">1 Introduction</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:49
+#, no-wrap
+msgid ""
+"        <p>This errata document contains ``late-breaking news''\n"
+"        about FreeBSD 4.4-RELEASE. Before installing this version,\n"
+"        it is important to consult this document to learn about any\n"
+"        post-release discoveries or problems that may already have\n"
+"        been found and fixed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:59
+#, no-wrap
+msgid ""
+"        <p>Any version of this errata document actually distributed\n"
+"        with the release (for example, on a CDROM distribution)\n"
+"        will be out of date by definition, but other copies are\n"
+"        kept updated on the Internet and should be consulted as the\n"
+"        ``current errata'' for this release. These other copies of\n"
+"        the errata are located at <a href=\n"
+"        \"http://www.FreeBSD.org/releases/\" target=\n"
+"        \"_top\">http://www.FreeBSD.org/releases/</a>, plus any sites\n"
+"        which keep up-to-date mirrors of this location.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:63
+#, no-wrap
+msgid ""
+"        <p>Source and binary snapshots of FreeBSD 4-STABLE also\n"
+"        contain up-to-date copies of this document (as of the time\n"
+"        of the snapshot).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:70
+#, no-wrap
+msgid ""
+"        <p>For a list of all FreeBSD CERT security advisories, see\n"
+"        <a href=\"http://www.FreeBSD.org/security/\" target=\n"
+"        \"_top\">http://www.FreeBSD.org/security/</a> or <a href=\n"
+"        \"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\" target=\n"
+"        \"_top\">ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/</a>.</p>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:76
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a name=\"AEN25\">2 Security\n"
+"        Advisories</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:86
+#, no-wrap
+msgid ""
+"        <p>Support for per-user <tt class=\n"
+"        \"FILENAME\">~/.login_conf</tt> files (as documented in <a\n"
+"        href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=login.conf&sektion=5&manpath=FreeBSD+4.4-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">login.conf</span>(5)</span></a>) was\n"
+"        disabled due to incorrect merging of local and global\n"
+"        settings. This problem has been fixed in FreeBSD\n"
+"        4.5-RC.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:95
+#, no-wrap
+msgid ""
+"        <p>A local root vulnerability in <b class=\n"
+"        \"APPLICATION\">UUCP</b> was corrected before the release of\n"
+"        FreeBSD 4.4-RELEASE and documented in security advisory <a\n"
+"        href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-01:62.uucp.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-01:62</a>. The release notes\n"
+"        mentioned the correction, but not the security advisory,\n"
+"        which was issued after the release date of 4.4-RELEASE.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:105
+#, no-wrap
+msgid ""
+"        <p>A security hole in <b class=\"APPLICATION\">OpenSSH</b>\n"
+"        could allow users to execute code with arbitrary privileges\n"
+"        if <tt class=\"LITERAL\">UseLogin yes</tt> was set, has been\n"
+"        closed. Note that the default value of this setting is <tt\n"
+"        class=\"LITERAL\">UseLogin no</tt>. For more information,\n"
+"        including workarounds and bugfixes, see security advisory\n"
+"        <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-01:63.openssh.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-01:63</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:115
+#, no-wrap
+msgid ""
+"        <p>The use of an insecure temporary directory by <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pkg_add&sektion=1&manpath=FreeBSD+4.4-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">pkg_add</span>(1)</span></a> could permit a\n"
+"        local attacker to modify the contents of binary packages\n"
+"        while they were being installed. This hole has been closed.\n"
+"        For more information, see security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:01.pkg_add.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:01</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:126
+#, no-wrap
+msgid ""
+"        <p>A race condition in <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pw&sektion=8&manpath=FreeBSD+4.4-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">pw</span>(8)</span></a>, which could expose\n"
+"        the contents of <tt class=\n"
+"        \"FILENAME\">/etc/master.passwd</tt>, has been eliminated.\n"
+"        For more information, including workarounds and bugfixes,\n"
+"        see security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:02.pw.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:02</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:136
+#, no-wrap
+msgid ""
+"        <p>A bug in <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=k5su&sektion=8&manpath=FreeBSD+4.4-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">k5su</span>(8)</span></a> could have\n"
+"        allowed a process that had given up superuser privileges to\n"
+"        regain them. This bug has been fixed. (See security\n"
+"        advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:07.k5su.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:07</a>.)</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:147
+#, no-wrap
+msgid ""
+"        <p>A race condition in the <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=exec&sektion=3&manpath=FreeBSD+4.4-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">exec</span>(3)</span></a> system call,\n"
+"        which could result in local users obtaining increased\n"
+"        privileges, has been fixed. For more information, including\n"
+"        bugfixes, see security advisory <a href=\n"
+"        "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:08.exec.asc\"\n"
+"         target=\"_top\">FreeBSD-SA-02:08</a>.)</p>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:153
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a name=\"AEN61\">3 System Update\n"
+"        Information</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:163
+#, no-wrap
+msgid ""
+"        <p>The handling of some types of comments in <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=printcap&sektion=5&manpath=FreeBSD+4.4-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">printcap</span>(5)</span></a> files is\n"
+"        faulty. If a comment line ends in <tt class=\n"
+"        \"LITERAL\">:\\</tt> (the characters normally used to indicate\n"
+"        the continuation of a printer definition), the line\n"
+"        following the comment will be parsed as a part of the\n"
+"        previous printer definition.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:172
+#, no-wrap
+msgid ""
+"        <p>One of the release notes refers to the <tt class=\n"
+"        \"VARNAME\">net.inet.tcp.tcp_seq_genscheme</tt> sysctl\n"
+"        variable for enabling improved compatability in TCP's\n"
+"        initial sequence number generation algorithm. This variable\n"
+"        was rendered unnecessary by the adoption of an algorithm\n"
+"        based on RFC 1948, which restores proper operation in all\n"
+"        cases while maintaining a high level of unpredictability in\n"
+"        initial sequence numbers.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:189
+#, no-wrap
+msgid ""
+"        <p>The <tt class=\"FILENAME\">tools/</tt> directory of a\n"
+"        FreeBSD CDROM distribution typically contains some DOS\n"
+"        programs for i386 machines, such as <tt class=\n"
+"        \"FILENAME\">fdimage.exe</tt> and <tt class=\n"
+"        \"FILENAME\">fips.exe</tt>. This directory was inadvertently\n"
+"        omitted from the initial 4.4-RELEASE ISO images generated\n"
+"        by the FreeBSD Project. Corrected versions of the <tt\n"
+"        class=\"FILENAME\">4.4-install.iso</tt> and <tt class=\n"
+"        \"FILENAME\">4.4-mini.iso</tt> ISO images were regenerated on\n"
+"        Saturday, 22 September 2001. For those who need these\n"
+"        DOS-mode tools and do not wish to re-fetch the ISO images,\n"
+"        the contents of the <tt class=\"FILENAME\">tools/</tt>\n"
+"        directory are available by anonymous FTP at <a href=\n"
+"        \"ftp://ftp.FreeBSD.org/pub/FreeBSD/tools\" target=\n"
+"        \"_top\">ftp://ftp.FreeBSD.org/pub/FreeBSD/tools</a> (many\n"
+"        mirrors also have a copy of this directory).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:200
+#, no-wrap
+msgid ""
+"        <p>One of the items in the release notes gave a workaround\n"
+"        for hangs during PCCARD ejection, but gave the wrong syntax\n"
+"        for the necessary command. The correct command line is:</p>\n"
+"<pre class=\"SCREEN\">\n"
+"    <tt class=\"PROMPT\">#</tt> <tt class=\n"
+"\"USERINPUT\"><b>pccardc power <tt class=\n"
+"\"REPLACEABLE\"><i>slot</i></tt> 0</b></tt>\n"
+"</pre>\n"
+"        <br>\n"
+"        <br>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:210
+#, no-wrap
+msgid ""
+"        <p>On the i386, the minimum memory requirement for\n"
+"        installing FreeBSD via <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.4-stable\">\n"
+"        <span class=\"CITEREFENTRY\"><span class=\n"
+"        \"REFENTRYTITLE\">sysinstall</span>(8)</span></a> is 16MB,\n"
+"        with 4-8MB required to run FreeBSD with a pared-down\n"
+"        kernel. The installation instructions in <tt class=\n"
+"        \"FILENAME\">INSTALL.TXT</tt> (and other renditions thereof)\n"
+"        cited somewhat lower figures.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:217
+#, no-wrap
+msgid ""
+"        <p>A release note mentioned the merging of two libraries\n"
+"        used for password authentication hashing, but listed their\n"
+"        names incorrectly. The libraries that were merged were <tt\n"
+"        class=\"FILENAME\">libscrypt</tt> and <tt class=\n"
+"        \"FILENAME\">libdescrypt</tt>; the new unified library is\n"
+"        called <tt class=\"FILENAME\">libcrypt</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:242
+#, no-wrap
+msgid ""
+"        <p>A problem has been noted with an increasing number of\n"
+"        device drivers that make heavy use of and, in some cases,\n"
+"        can overflow, the kernel stack. This problem has an\n"
+"        easily-identifable signature; processes randomly receive a\n"
+"        <tt class=\"LITERAL\">SIGPROF</tt> signal and may die with\n"
+"        the message ``<tt class=\"ERRORNAME\">Profiling time\n"
+"        alarm</tt>''. For those users experiencing this problem, a\n"
+"        workaround is to edit <tt class=\n"
+"        \"FILENAME\">/src/sys/i386/include/param.h</tt> and change\n"
+"        the line which reads:</p>\n"
+"<pre class=\"PROGRAMLISTING\">\n"
+"    #define UPAGES  2\n"
+"</pre>\n"
+"        to read: \n"
+"<pre class=\"PROGRAMLISTING\">\n"
+"    #define UPAGES  3\n"
+"</pre>\n"
+"        It will be necessary to recompile the kernel and reboot for\n"
+"        the change to take effect. This problem has been fixed in\n"
+"        FreeBSD 4.5-RC.<br>\n"
+"        <br>\n"
+"      </div>\n"
+"    </div>\n"
+"    <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:246
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>This file, and other release-related\n"
+"    documents, can be downloaded from <a href=\n"
+"    "
+"\"ftp://stable.FreeBSD.org/pub/FreeBSD/\">ftp://stable.FreeBSD.org/pub/FreeBSD/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:251
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>For questions about FreeBSD, read the\n"
+"    <a href=\"http://www.FreeBSD.org/docs.html\">documentation</a>\n"
+"    before contacting &#60;<a href=\n"
+"    "
+"\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:256
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small><small>All users of FreeBSD 4-STABLE\n"
+"    should subscribe to the &#60;<a href=\n"
+"    \"mailto:stable@FreeBSD.org\">stable@FreeBSD.org</a>&#62; mailing\n"
+"    list.</small></small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.4R/errata.adoc:262
+#, no-wrap
+msgid ""
+"    <p align=\"center\">For questions about this documentation,\n"
+"    e-mail &#60;<a href=\n"
+"    \"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&#62;.</p>\n"
+"    <br>\n"
+"    <br>\n"
+msgstr ""

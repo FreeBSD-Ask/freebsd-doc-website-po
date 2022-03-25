@@ -1,0 +1,955 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:38+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.0/install.adoc:1
+#: content/en/releases/2.0/install.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.0 Installation Guide"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:11
+#, no-wrap
+msgid ""
+"Welcome to FreeBSD 2.0, the complete 4.4 BSD Lite based OS for Intel (or\n"
+"compatible) based PCs.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:21
+#, no-wrap
+msgid ""
+"There are several documents on the floppy and a couple of on-line help\n"
+"screens that will greatly assist you in installing your system as you go\n"
+"along.  Nonetheless, initial user testing has shown that some of the\n"
+"terminology used may be difficult for newcomers to UN*X to understand, so\n"
+"we've prepared this step-by-step guide explaining a typical installation.\n"
+"You may find it useful to print this out and keep it handy as you go\n"
+"through the installation, or at least read through it once carefully so\n"
+"that some of the prompts and questions you encounter do not come as\n"
+"complete surprises.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:26
+#, no-wrap
+msgid ""
+"Before you do anything, make two 1.44MB floppies from the two image files\n"
+"you'll find in the floppies/ directory - boot.flp and cpio.flp.  If you're\n"
+"reading this under DOS, you can do it in 1 easy step, or 3 in case this\n"
+"doesn't (for some weird reason) work:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:32
+#, no-wrap
+msgid ""
+"1. If you're reading this file after typing \"go\", simply ESC back out "
+"for\n"
+"   a moment and select the \"makeflp\" batch file to make the two "
+"floppies.\n"
+"   This will invoke the DOS formatter to format the floppies and then\n"
+"   attempt to write the two disk images onto them.  If this doesn't work,\n"
+"   follow steps 2 through 4:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:37
+#, no-wrap
+msgid ""
+"2. Use the DOS format command to format 2 NEW floppies.  A lot of problems\n"
+"   have been caused by people using old and defective floppies, and much\n"
+"   grief can often be saved by simply using new, or at least trusted,\n"
+"   media.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:39
+#, no-wrap
+msgid "3. Insert the first floppy and type:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:41
+#, no-wrap
+msgid "        tools\\dos-tool\\rawrite floppies\\boot.flp a:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:43
+#, no-wrap
+msgid "4. Insert the second floppy and type\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:45
+#, no-wrap
+msgid "        tools\\dos-tool\\rawrite floppies\\cpio.flp a:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:47
+#, no-wrap
+msgid ""
+"You're now prepared to boot from the boot floppy and begin the "
+"installation.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:50
+#, no-wrap
+msgid "The installation starts with the following screen:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:69
+#, no-wrap
+msgid ""
+"  +-------------------------- Welcome to FreeBSD! "
+"---------------------------+\n"
+"  | Use ALT-F2 and ALT-F1 to toggle between debugging                        "
+"|\n"
+"  | information screen (ALT-F2) or this dialog screen (ALT-F1)               "
+"|\n"
+"  |                                                                          "
+"|\n"
+"  | Please select one of the following options:                              "
+"|\n"
+"  | +----------------------------------------------------------------------+ "
+"|\n"
+"  | | 1. README               READ THIS FIRST.                             | "
+"|\n"
+"  | | 2. Release Notes        Read the 2.0 Release Notes (recommended).    | "
+"|\n"
+"  | | 3. Troubleshooting      Read this in case of trouble.                | "
+"|\n"
+"  | | 4. Partitions and MBRs  Verbose description of how these work.       | "
+"|\n"
+"  | | 5. COPYRIGHT            Read FreeBSD Copyright Information.          | "
+"|\n"
+"  | | 6. Install              Proceed with full installation.              | "
+"|\n"
+"  | | 7. Fixit                Repair existing installation (`fixit' mode). | "
+"|\n"
+"  | | 8. Quit                 Don't do anything, just reboot.              | "
+"|\n"
+"  | +----------------------------------------------------------------------+ "
+"|\n"
+"  "
+"+--------------------------------------------------------------------------+\n"
+"  |                          <  OK  >      <Cancel>                          "
+"|\n"
+"  "
+"+--------------------------------------------------------------------------+\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:78
+#, no-wrap
+msgid ""
+"You can move the arrow keys up and down to highlight the various options,\n"
+"selecting an option by hitting return when its line is highlighted.  You\n"
+"can also type the number of the option you want (1 - 7) and hit return.\n"
+"It's recommended that you read the README at a minimum, though the Release\n"
+"Notes are also helpful.  This may seem a like a lot to read, but if you "
+"are\n"
+"new to FreeBSD then these notes are invaluable for explaining the system\n"
+"and are highly recommended.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:81
+#, no-wrap
+msgid ""
+"When you're done reading docs, select Install (5) to proceed to the next\n"
+"screen.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:83
+#, no-wrap
+msgid "This next screen is the disk editor screen, which looks like this:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:86
+#, no-wrap
+msgid ""
+"------------------------------------------------------------------------------\n"
+"FreeBSD 2.0-RELEASE Installation -- Diskspace editor\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:107
+#, no-wrap
+msgid ""
+"Disks         Total   FreeBSD                    |You should now assign "
+"some\n"
+"                                                 |space to root, swap, and\n"
+" 0: sd0     2006 MB      0 MB                    |(optionally) /usr "
+"partitions\n"
+" 1: sd1      496 MB      0 MB                    |Root (/) should be a "
+"minimum\n"
+"                                                 |of 18MB with a 30MB /usr\n"
+"Filesystems  Type        Size  Action Mountpoint |or 50MB without a /usr.\n"
+"                                                 |Swap space should be a\n"
+"                                                 |minimum of 12MB or RAM * "
+"2\n"
+"                                                 |Be sure to also (A)ssign "
+"a\n"
+"                                                 |mount point to each one "
+"or\n"
+"                                                 |it will NOT be enabled.\n"
+"                                                 |\n"
+"                                                 |We suggest that you "
+"invoke\n"
+"                                                 |(F)disk, (W)rite the "
+"bootcode\n"
+"                                                 |then (D)isklabel your "
+"disk.\n"
+"                                                 |If installing on a drive\n"
+"                                                 |other than 0, also read "
+"the\n"
+"                                                 |TROUBLESHOOTING doc "
+"first\n"
+"Commands available:\n"
+"(H)elp  (T)utorial  (F)disk  (D)isklabel  (P)roceed  (Q)uit\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:109
+#, no-wrap
+msgid "Enter Command>\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:111
+#: content/en/releases/2.0/install.adoc:152
+#: content/en/releases/2.0/install.adoc:222
+#: content/en/releases/2.0/install.adoc:272
+#, no-wrap
+msgid "------------------------------------------------------------------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:118
+#, no-wrap
+msgid ""
+"As we can see, this system has two drives, sd0 and sd1.  On an IDE system,\n"
+"these would show up as \"wd0\" and \"wd1\" (or, on a single drive system, "
+"just\n"
+"sd0 or wd0).  We can see that neither of them has any space assigned to\n"
+"FreeBSD (they each show 0MB under the FreeBSD column), so we follow the\n"
+"instructions on the right hand side of the screen and invoke the (F)disk\n"
+"editor by typing `f':\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:120
+#, no-wrap
+msgid "Enter Command> F\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:123
+#, no-wrap
+msgid ""
+"We're now prompted with the drive number to (F)disk, so we enter 0 for\n"
+"the first drive:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:125
+#, no-wrap
+msgid "Enter number of disk to Fdisk> 0\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:127
+#, no-wrap
+msgid "This now brings us to the FDISK editor screen, which looks like this:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:130
+#: content/en/releases/2.0/install.adoc:197
+#, no-wrap
+msgid ""
+"------------------------------------------------------------------------------\n"
+"FreeBSD 2.0-RELEASE Installation -- Diskspace editor -- FDISK\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:132
+#: content/en/releases/2.0/install.adoc:199
+#, no-wrap
+msgid "Disk: sd0   Geometry:  2006 Cyl * 32 Hd * 64 Sect = 2006Mb = 4108600 Sect\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:136
+#: content/en/releases/2.0/install.adoc:203
+#, no-wrap
+msgid ""
+"1 Boot?=\"No\"    Type=\"Primary\" 'big' DOS (> 32MB)\n"
+"  Phys=(c0/h1/s1..c299/h63/s32)   Sector=(32..614399)\n"
+"  Size=\"300\" MB, 299 Cylinders + 31 Tracks + 32 Sectors\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:138
+#, no-wrap
+msgid "2 Unused\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:141
+#: content/en/releases/2.0/install.adoc:209
+#, no-wrap
+msgid "3 Unused\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:144
+#: content/en/releases/2.0/install.adoc:213
+#, no-wrap
+msgid "4 Unused\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:150
+#: content/en/releases/2.0/install.adoc:220
+#, no-wrap
+msgid ""
+"Commands available:\n"
+"(H)elp   (T)utorial   (D)elete   (E)dit   (R)eread   (W)rite MBR   (Q)uit\n"
+"(U)se entire disk for FreeBSD   (G)eometry   Write MBR (B)ootcode\n"
+"Enter Command>\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:162
+#, no-wrap
+msgid ""
+"We see that drive 0 has a DOS partition (also called a \"slice\" in "
+"FreeBSD\n"
+"parlance, to distinguish it from a FreeBSD partition) on it which is 300MB\n"
+"in size (don't worry if the numbers you see are much smaller than these - "
+"I\n"
+"have a pretty large 2.1GB disk! :-).  Let's also say we want to allocate\n"
+"the rest to FreeBSD, so to do this we want to (E)dit one of the existing\n"
+"slices.  We can see that 2, 3, and 4 are unused so let's pick the first\n"
+"unused one, which is 2 (if we wanted to replace an existing operating\n"
+"system slice with FreeBSD, we'd pick its number instead).  We first type\n"
+"`E' to edit a slice entry:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:164
+#, no-wrap
+msgid "Enter Command> E\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:166
+#, no-wrap
+msgid "And we're prompted for a slice to edit.  We type 2:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:168
+#, no-wrap
+msgid "Edit which Slice> 2\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:174
+#, no-wrap
+msgid ""
+"Now we're prompted for the size of the new slice, the default for which is\n"
+"all remaining space on the disk.  Let's say that we don't want to allocate\n"
+"ALL the space on the disk, but want to reserve 400MB for some other future\n"
+"OS.  The total amount of free space left is 1706MB, which is the default\n"
+"value selected for us, so we backspace over it and enter 1306:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:176
+#, no-wrap
+msgid "Size of slice in MB> 1306\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:184
+#, no-wrap
+msgid ""
+"Now we're asked for the type of the slice.  The type is what tells the PC\n"
+"what sort of slice this is.  DOS primary slices are, for example, type 6.\n"
+"FreeBSD slices are type 0xa5 (hexadecimal).  If we wanted to reserve space\n"
+"at this time for some other type of OS like Linux or OS/2, and we knew\n"
+"their slice type (0x82 for Linux and 0x0A for OS/2, just in case you're\n"
+"interested), we could also do that from this editor, but we're only\n"
+"interested in FreeBSD for now so we accept the default.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:186
+#, no-wrap
+msgid "Type of slice (0xa5=\"FreeBSD\")> 0xa5\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:189
+#, no-wrap
+msgid ""
+"The next prompt asks if we want to make this slice bootable by\n"
+"default, which we do so we accept the default:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:191
+#, no-wrap
+msgid "Bootflag (0x80 for YES)> 0x80\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:194
+#, no-wrap
+msgid ""
+"At this point we come back to the main screen, which now shows a new entry\n"
+"for slice 2:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:207
+#, no-wrap
+msgid ""
+"2 Boot?=\"Yes\"   Type=\"FreeBSD\"/NetBSD/386BSD\n"
+"  Phys=(c300/h0/s1..c1023/h31/s0)   Sector=(614400..3289087)\n"
+"  Size=\"1306\" MB, 1306 Cylinders\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:235
+#, no-wrap
+msgid ""
+"At this point we're happy with the slices on the first drive, so we type\n"
+"`w' to write the new information out.  It also prompts to make *sure* we\n"
+"really want to do this, so we backspace over the default of `N' and type\n"
+"`y'<return>.  And this point, we also can decide whether or not we want a\n"
+"\"boot manager\" installed.  A boot manager is a little utility that "
+"prompts\n"
+"you for the operating system you want to boot every time you reset or "
+"power\n"
+"on your PC, and can be a very handy way of sharing your computer between\n"
+"FreeBSD and some other OS, like Linux or DOS.  We decide that we want to\n"
+"have this feature, so we `b' to write the special MBR (B)ootcode out to "
+"the\n"
+"disk.  This does not harm any of the other operating systems on the disk,\n"
+"as it's written to a special area.  Now we exit this screen by typing `q',\n"
+"for (Q)uit.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:244
+#, no-wrap
+msgid ""
+"This brings us back to the main prompt.  If we wanted to allocate any\n"
+"additional slices on other drives, we also could re-invoke the (F)disk\n"
+"editor by typing `f' again and giving a different drive number at the\n"
+"prompt, but we'll assume for now that we've only got one disk and want to\n"
+"go on.  Typing `d' now enters the (D)isklabel screen, which prompts us for\n"
+"the drive to write a disklabel onto, like the FDISK editor.  We type `0'\n"
+"for the first drive and hit return.  This brings us to the DISKLABEL "
+"editor\n"
+"screen, which looks like this:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:247
+#, no-wrap
+msgid ""
+"------------------------------------------------------------------------------\n"
+"FreeBSD 2.0-RELEASE Installation -- Diskspace editor -- DISKLABEL\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:257
+#: content/en/releases/2.0/install.adoc:344
+#, no-wrap
+msgid ""
+"Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"
+"a         0         0         0      0  unused\n"
+"b         0         0         0      0  unused\n"
+"c   1433600   4108287   2674688   1306  unused          <Entire FreeBSD "
+"slice>\n"
+"d         0   4108599   4108600   2006  unused          <Entire Disk>\n"
+"e         0         0         0      0  unused\n"
+"f         0         0         0      0  unused\n"
+"g         0         0         0      0  unused\n"
+"h        32    614399    614368    300  MSDOS\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:265
+#, no-wrap
+msgid ""
+"Total size:       2674688 blocks   1306Mb\n"
+"Space allocated:        0 blocks      0Mb\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:270
+#, no-wrap
+msgid ""
+"Commands available:\n"
+"(H)elp  (T)utorial  (E)dit  (A)ssign  (D)elete  (R)eread  (W)rite  (Q)uit\n"
+"(P)reserve  (S)lice\n"
+"Enter Command>\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:281
+#, no-wrap
+msgid ""
+"The BSD partitions, a - h, are FreeBSD's way of dividing up a physical\n"
+"slice into multiple filesystems.  Every FreeBSD system should have, at\n"
+"minimum, a root filesystem and a swap partition allocated.  The root\n"
+"filesystem is called \"/\", and is generally put on partition `a' by\n"
+"convention.  Swap partitions always go on `b', and the `c' and `d'\n"
+"partitions are special and point to the entire FreeBSD slice and the "
+"entire\n"
+"disk, respectively.  `c' and `d' cannot and should not be allocated to\n"
+"actual filesystems.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:286
+#, no-wrap
+msgid ""
+"We also see that partition h points conveniently to the DOS slice,\n"
+"which we can also assign to a location in our filesystem hierarchy\n"
+"to conveniently share files between FreeBSD and DOS.  More on this in\n"
+"a moment.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:288
+#, no-wrap
+msgid "A typical filesystem layout might look like this:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:292
+#, no-wrap
+msgid ""
+"/   20MB\n"
+"swap    32MB\n"
+"/usr    120MB\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:301
+#, no-wrap
+msgid ""
+"/, or the root filesystem, contains system files and some temporary space.\n"
+"It should be at least 18MB in size, though a little extra doesn't hurt.\n"
+"Swap space is one of those \"it never hurts to have too much\" sorts of\n"
+"items, though if your system isn't too heavily used then it's probably not\n"
+"that important to have lots and lots of it.  A good rule of thumb for swap\n"
+"is that you want a minimum of 12MB of it, and the overall calculation\n"
+"should be the amount of memory you have multiplied by two.  That is to\n"
+"say that if you have 16MB of memory, then 32MB of swap is good.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:308
+#, no-wrap
+msgid ""
+"If you've got several drives, you can also allocate some swap on each one\n"
+"and spread the load out a little.  On my personal system, I've got 32MB of\n"
+"main memory and 64MB of swap on both drives for a total of 128MB of swap.\n"
+"This gives me 4X memory for total program swapping, which gives me the\n"
+"ability to run some pretty big programs!  Emacs and the X Window System, "
+"in\n"
+"particular, can be real swap hogs.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:313
+#, no-wrap
+msgid ""
+"In any case, we'll assume for the moment that we're still configuring the\n"
+"ideal system and we'll allocate 64MB of swap space, using the MEM * 2\n"
+"equation.  If you only had 8MB of memory, you'd allocate 16MB of swap\n"
+"instead.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:320
+#, no-wrap
+msgid ""
+"The second filesystem of importance is /usr, which contains further system\n"
+"binaries and all of the bundled user binaries.  /usr should be at least\n"
+"80MB in size to hold all of the important binaries, though if you plan on\n"
+"having a big /usr/local or on loading the X Window System (also known as\n"
+"XFree86 3.1) distribution then you should either create separate\n"
+"filesystems for them, or you should make /usr a lot bigger.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:331
+#, no-wrap
+msgid ""
+"It's also possible to skip making /usr altogether and simply make a large\n"
+"root (/) filesystem.  Since /usr fits \"underneath\" /, a missing /usr "
+"won't\n"
+"cause any problems if / is large enough to hold the contents for both.  In\n"
+"any case, it's a user decision and tends to be driven by convention more\n"
+"than anything else.  For the purposes of this installation guide, we'll\n"
+"assume a 200MB /usr, 100MB of space allocated for local binaries, which\n"
+"we'll mount on /usr/local, and the rest for user home directories, which\n"
+"we'll mount on /usr/users.  Don't be put off by the size of these numbers!\n"
+"You can make a system fit into less space, but since we're dividing up the\n"
+"ideal 2GB dream disk, we might as well do it right! ;-)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:334
+#, no-wrap
+msgid ""
+"Getting back to the relevant part of the DISKLABEL screen again, we "
+"remember\n"
+"that it looked like this:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:348
+#, no-wrap
+msgid ""
+"So we'll first allocate some space on partition `a' for that root "
+"partition\n"
+"by typing `e', for (E)dit partition.  This asks us which partition we want\n"
+"to change the size of, so we type `a':\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:350
+#, no-wrap
+msgid "Change size of which partition> a\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:353
+#, no-wrap
+msgid ""
+"And it prompts us for the amount of space, so we'll pick 20MB for a nice\n"
+"comfortable root filesystem:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:355
+#, no-wrap
+msgid "Size of partition in MB> 20\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:357
+#, no-wrap
+msgid "Now we see the display change to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:361
+#, no-wrap
+msgid ""
+"Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"
+"a   1433600   1474559     40960     20  4.2BSD\n"
+"...\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:366
+#, no-wrap
+msgid ""
+"The system shows us where the partition starts and stops and indicates "
+"that\n"
+"it's a 4.2BSD filesystem, which is correct (it's really a 4.4 BSD file\n"
+"system, in actuality, but the two are similar enough to share the same\n"
+"label).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:369
+#, no-wrap
+msgid ""
+"We do the same for swap by typing `e' again and modify the `b' partition\n"
+"by filling in 64 for the size, to allocate 64MB of swap.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:374
+#, no-wrap
+msgid ""
+"Finally, remembering that `c' and `d' are special, and not for our use, we\n"
+"change the size of `e' to 200 for our future /usr, `f' to 100 for our\n"
+"/usr/local, and `g' to the rest of the disk for /usr/users.  When we're\n"
+"done, the top of the disklabel screen should look like this:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:384
+#, no-wrap
+msgid ""
+"Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"
+"a   1433600   1474559     40960     20  4.2BSD\n"
+"b   1474560   1605631    131072     64  swap\n"
+"c   1433600   4108287   2674688   1306  unused          <Entire FreeBSD "
+"slice>\n"
+"d         0   4108599   4108600   2006  unused          <Entire Disk>\n"
+"e   1605632   2015231    409600    200  4.2BSD\n"
+"f   2015232   2220031    204800    100  4.2BSD\n"
+"g   2220032   4108287   1888256    922  4.2BSD\n"
+"h        32    614399    614368    300  MSDOS\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:388
+#, no-wrap
+msgid ""
+"We left `h' alone, since we actually want to be able to share files with\n"
+"our DOS partition.  At this point, we want to type `w' for (W)rite to "
+"write\n"
+"out the new size information to disk.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:397
+#, no-wrap
+msgid ""
+"You probably also noticed by now that \"/\", \"/usr\" and the other "
+"filesystem\n"
+"names we've been talking about don't appear anywhere in the above list.\n"
+"Where are they?  This brings us to the next stage, which is to (A)ssign "
+"the\n"
+"new partitions to actual filesystem mount points.  A filesystem in\n"
+"FreeBSD doesn't actually appear anywhere until we \"mount\" it someplace, "
+"a\n"
+"convention from the old days when disks were actually large removable "
+"packs\n"
+"that a system operator physically mounted on a large washing-machine sized\n"
+"disk drive spindle!  As you can see, not much has changed today! :-)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:401
+#, no-wrap
+msgid ""
+"We'll proceed then by starting at the top with the first partition and\n"
+"assigning it to the root filesystem (/) by typing `a', for (A)ssign, and\n"
+"then typing `a' again, for partition a:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:403
+#, no-wrap
+msgid "Assign which partition> a\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:405
+#, no-wrap
+msgid "When it asks us for the name of the mount point, we type /:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:407
+#, no-wrap
+msgid "Directory mountpoint> /\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:409
+#, no-wrap
+msgid "And the display adjusts accordingly to show us the new state of affairs:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:413
+#, no-wrap
+msgid ""
+"Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"
+"a   1433600   1474559     40960     20  4.2BSD  newfs   /\n"
+"..\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:427
+#, no-wrap
+msgid ""
+"The Action field also now shows \"newfs\", which means that the partition\n"
+"will be created anew.  For root filesystems, this is the default and "
+"cannot\n"
+"be changed, but other partitions can be optionally \"Preserved\" by typing\n"
+"`p' for (P)reserve.  There are very few situations in which we'd want to "
+"do\n"
+"this, but if, say, we were actually installing a disk from an older "
+"FreeBSD\n"
+"machine which we wanted to mount into our new system but NOT erase, we\n"
+"could do it this way.  For now, let's assume that this is a new\n"
+"installation and we want all the filesystems to be created from scratch.\n"
+"We thus go through and assign the rest of the filesystems to their\n"
+"respective /usr, /usr/local and /usr/users mountpoints.  We also assign "
+"the\n"
+"`b' partition, which doesn't take a mountpoint (and won't prompt for one\n"
+"when we (A)ssign it), but needs us to tell it that we're ready to use it\n"
+"for swap.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:429
+#, no-wrap
+msgid "When we're done, the top of the screen should look something like this:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:439
+#, no-wrap
+msgid ""
+"Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"
+"a   1433600   1474559     40960     20  4.2BSD  newfs   /\n"
+"b   1474560   1605631    131072     64  swap    swap    swap\n"
+"c   1433600   4108287   2674688   1306  unused          <Entire FreeBSD "
+"slice>\n"
+"d         0   4108599   4108600   2006  unused          <Entire Disk>\n"
+"e   1605632   2015231    409600    200  4.2BSD  newfs   /usr\n"
+"f   2015232   2220031    204800    100  4.2BSD  newfs   /usr/local\n"
+"g   2220032   4108287   1888256    922  4.2BSD  newfs   /usr/users\n"
+"h        32    614399    614368    300  MSDOS\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:444
+#, no-wrap
+msgid ""
+"As a final bonus, we'll assign the DOS partition to be mounted on /dos.  "
+"We\n"
+"do this with (A)ssign as we did the others, and we also notice that the\n"
+"system is smart enough to see that it's not a FreeBSD partition and we\n"
+"DON'T want to newfs it, we want to simply mount it:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:446
+#, no-wrap
+msgid "h        32    614399    614368    300  MSDOS   mount   /dos\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:448
+#, no-wrap
+msgid "At this point, our system is all set up and ready to go!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:451
+#, no-wrap
+msgid ""
+"We type `q' to go back to the main menu and then type `p' to (P)roceed to\n"
+"the next phase of installation.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:455
+#, no-wrap
+msgid ""
+"We're now given one last chance to back out of the install, and we hit\n"
+"return if we're sure, otherwise we type <Tab> to select \"No\" and hit "
+"return\n"
+"to consider our settings again before going on.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:459
+#, no-wrap
+msgid ""
+"The rest of the installation is pretty much self-explanatory.  After the\n"
+"filesystems are initially created and populated, you'll be prompted to\n"
+"reboot from the hard disk.  Do so and provide the cpio floppy when asked.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:465
+#, no-wrap
+msgid ""
+"When the initial flurry of welcome and informational prompts has died "
+"down,\n"
+"you'll come to a screen asking you to load one or more distributions.  At\n"
+"the minimum, select \"bindist\" to load the basic system.  If you're "
+"loading\n"
+"from other than CDROM media, follow the appropriate paths through the\n"
+"installation process.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:474
+#, no-wrap
+msgid ""
+"If you're loading from CDROM, select CDROM as the media type and select "
+"the\n"
+"type of CDROM you've got (SCSI or Mitsumi).  When it asks you for an\n"
+"installation subdirectory, simply hit return if you've got the 2.0 CD from\n"
+"Walnut Creek CDROM.  You may select additional optional packages to load\n"
+"after the bindist extracts, provided that you've got the space for it.  "
+"Use\n"
+"the \"?diskfree\" menu option from time to time to keep an eye on your "
+"free\n"
+"space.  When you're done, you'll be asked a few more basic questions and\n"
+"then that's it!  You've got FreeBSD on your hard disk.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:478
+#, no-wrap
+msgid ""
+"If you should need to partition another drive or install other packages\n"
+"later, you may re-invoke the sysinstall program by typing "
+"/sbin/sysinstall.\n"
+"The same familiar prompts will then come up.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:480
+#, no-wrap
+msgid "Good luck!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:484
+#, no-wrap
+msgid ""
+"                    Jordan Hubbard\n"
+"                    for Walnut Creek CDROM\n"
+"                    and the FreeBSD Project.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.0/install.adoc:488
+msgid "link:../../[Release Home]"
+msgstr ""

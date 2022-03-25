@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/ports/references.adoc:1 content/en/ports/references.adoc:8
+#, no-wrap
+msgid "FreeBSD Ports -- References"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:11
+msgid "{{< form-ports >}}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:13
+msgid "'''''"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:15
+msgid ""
+"To start learning more about ports and packages, see "
+"link:{handbook}ports/[Installing Applications: Packages and Ports], a "
+"section of the link:{handbook}[FreeBSD Handbook]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:17
+msgid ""
+"The link:{porters-handbook}[Porter's Handbook] is the master reference for "
+"both creating new ports and maintaining existing ports, including a section "
+"on link:{porters-handbook}#keeping-up[Keeping Up]. It also contains more "
+"detail about the topics below, as well as more references for further study."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:19
+msgid "You may also find the following to be useful:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:21
+msgid ""
+"The archives of the "
+"https://docs.FreeBSD.org/mail/current/freebsd-ports.html[FreeBSD ports "
+"mailing list]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:22
+msgid ""
+"The article link:{contributing}#ports-contributing[Contributing to the "
+"FreeBSD Ports Collection]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:23
+msgid ""
+"https://www.FreshPorts.org[FreshPorts.org] is a valuable tool for further "
+"information about individual ports, such as current version, last checkin, "
+"and many other useful statistics. You may subscribe to a mailing list to get "
+"the latest information about your favorite ports."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:24
+msgid ""
+"The manual pages for "
+"link:https://www.FreeBSD.org/cgi/man.cgi?query=ftp[`ftp`], "
+"link:https://www.FreeBSD.org/cgi/man.cgi?query=pkg&sektion=8[`pkg`], and "
+"link:https://www.FreeBSD.org/cgi/man.cgi?query=ports[`ports`]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:25
+msgid "The link:../../portmgr/[Ports Management Team] (portmgr) pages."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/references.adoc:25
+msgid ""
+"The https://cgit.FreeBSD.org/ports/tree[Web Interface to the Source "
+"Repository] allows you to browse the files in the source repository. Changes "
+"that affect the entire port system are now documented in the "
+"https://cgit.FreeBSD.org/ports/tree/CHANGES[CHANGES] file. Changes that "
+"affect individual ports are now documented in the "
+"https://cgit.FreeBSD.org/ports/tree/UPDATING[UPDATING] file. However, the "
+"definitive answer to any question is undoubtedly to read the source code of "
+"https://cgit.FreeBSD.org/ports/tree/Mk/bsd.port.mk[bsd.port.mk], and "
+"associated files."
+msgstr ""

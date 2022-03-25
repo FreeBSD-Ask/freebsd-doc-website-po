@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 23:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/applications.adoc:1 content/en/applications.adoc:6
+#, no-wrap
+msgid "About Applications for FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/applications.adoc:8
+#, no-wrap
+msgid "Experience the possibilities with FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:11
+msgid ""
+"FreeBSD can handle nearly any task you would expect of a UNIX(R) "
+"workstation, as well as many you might not expect:"
+msgstr ""
+
+#. type: Title ==
+#: content/en/applications.adoc:12
+#, no-wrap
+msgid "FreeBSD is a true open system with full source code."
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:15
+msgid ""
+"There is no doubt that so-called open systems are _the_ requirement for "
+"today's computing applications. But no commercial vendor-supplied solution "
+"is more open than one which includes full source code to the entire "
+"operating system, including the kernel and all of the system daemons, "
+"programs, and utilities. You can modify any part of FreeBSD to suit your "
+"personal, organizational, or corporate needs."
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:17
+msgid ""
+"With its generous link:../copyright/freebsd-license/[licensing policy], you "
+"can use FreeBSD as the basis for any number of free _or commercial_ "
+"applications."
+msgstr ""
+
+#. type: Title ==
+#: content/en/applications.adoc:18
+#, no-wrap
+msgid "FreeBSD runs thousands of applications."
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:21
+msgid ""
+"Because FreeBSD is based on 4.4BSD, an industry-standard version of UNIX, it "
+"is easy to compile and run programs. FreeBSD also includes an extensive "
+"link:../where/[packages collection] and link:../ports/[ports collection] "
+"that bring precompiled and easy-to-build software right to your desktop or "
+"enterprise server. There is also a growing number of "
+"link:../commercial/software/[commercial applications] written for FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:23
+msgid "Here are some examples of the environments in which FreeBSD is used:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:25
+#, no-wrap
+msgid ""
+"*Internet services.* Many Internet Service Providers (ISPs) find FreeBSD "
+"ideal, running WWW, Usenet news, FTP, Email, and other "
+"services. Ready-to-run software like the http://nginx.org[NGINX] or "
+"http://www.apache.org/[Apache] web server or the "
+"http://proftpd.org/[ProFTPD] or "
+"http://security.appspot.com/vsftpd.html[vsftpd] FTP server make it easy to "
+"set up a business or community-centered ISP. Of course, with FreeBSD's "
+"unbeatable link:../internet/[networking], your users will enjoy high speed, "
+"reliable services.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:26
+#, no-wrap
+msgid ""
+"*X Window workstation.* From an inexpensive X terminal to an advanced X "
+"display, FreeBSD works quite well. Free X software (http://x.org/[X.Org](T)) "
+"comes with the system. http://www.nvidia.com/[NVIDIA] offers native drivers "
+"for their high-performance graphics hardware, and the industry standard "
+"http://www.opengroup.org/motif/[Motif](R) and "
+"http://www.opengl.org/[OpenGL](R) libraries are supported. The "
+"http://xfce.org/[Xfce] and http://lxde.org/[LXDE] products provide a desktop "
+"environment. The http://www.kde.org[KDE] and http://www.gnome.org[GNOME] "
+"desktop environments also enjoy full support and provide office suite "
+"functionality, with further good functionality available in the "
+"https://www.libreoffice.org/[LibreOffice], "
+"http://www.openoffice.org/[OpenOffice.Org] and "
+"http://www.softmaker.com/en/[TextMaker] products.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:27
+#, no-wrap
+msgid ""
+"*Networking.* From packet filtering to routing to name service, FreeBSD can "
+"turn any PC into a Internet firewall, email host, print server, PC/NFS "
+"server, and more.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:28
+#, no-wrap
+msgid ""
+"*Software development.* A suite of development tools comes with FreeBSD, "
+"including the GNU C/C++ compiler and debugger. The LLVM-based clang suite is "
+"also provided and will eventually replace the GNU suite. Java(R) and Tcl/Tk "
+"development are also possible for example, and more esoteric programming "
+"languages like Icon work just fine, too. And FreeBSD's shared libraries have "
+"always been easy to make and use. You can also choose from a wide range of "
+"popular and powerful editors, such as Emacs and Vim.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:29
+#, no-wrap
+msgid ""
+"*Net surfing.* A real UNIX workstation makes a great Internet "
+"surfboard. FreeBSD versions of http://www.chromium.org/Home[Chromium] and "
+"http://www.mozilla.org/firefox/[Firefox] are available for serious web "
+"users. Surf the web, publish your own web pages, read Usenet news, and send "
+"and receive email with a FreeBSD system on your desktop.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:30
+#, no-wrap
+msgid ""
+"*Education and research.* FreeBSD makes an excellent research platform "
+"because it includes complete source code. Students and researchers of "
+"operating systems or other computer science fields can benefit greatly from "
+"such an open and well-documented system.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:31
+#, no-wrap
+msgid ""
+"*And much more.* Accounting, action games, MIS databases, scientific "
+"visualization, video conferencing, Internet relay chat (IRC), home "
+"automation, multiuser dungeons, bulletin board systems, image scanning, and "
+"more are all real uses for FreeBSD today.\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/applications.adoc:32
+#, no-wrap
+msgid "FreeBSD is an operating system that will grow with your needs."
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:35
+msgid ""
+"Though FreeBSD is free software, it is also _user supported_ software. Any "
+"questions you have can be posted to hundreds of FreeBSD developers and users "
+"simply by e-mailing the freebsd-questions@FreeBSD.org mailing list."
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:37
+msgid ""
+"FreeBSD also has a worldwide group of programmers and writers who fix bugs, "
+"add new features and document the system. Support for new devices or special "
+"features is an almost constant development process, and the team keeps a "
+"special eye out for problems which affect system stability. FreeBSD users "
+"are quite proud of not only how fast but how reliable their systems are."
+msgstr ""
+
+#. type: Title ==
+#: content/en/applications.adoc:38
+#, no-wrap
+msgid "What experts have to say . . ."
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:41
+msgid ""
+"_\"FreeBSD handles [our] heavy load quite well and it is nothing short of "
+"amazing. Salutations to the FreeBSD team.\"_"
+msgstr ""
+
+#. type: Plain text
+#: content/en/applications.adoc:43
+msgid "---Mark Hittinger, administrator of WinNet Communications, Inc."
+msgstr ""

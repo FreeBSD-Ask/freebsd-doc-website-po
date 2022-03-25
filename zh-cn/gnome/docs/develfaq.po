@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/gnome/docs/develfaq.adoc:1 content/en/gnome/docs/develfaq.adoc:8
+#, no-wrap
+msgid "FreeBSD GNOME Project: GNOME Development Branch FAQ"
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/docs/develfaq.adoc:10
+#, no-wrap
+msgid "Contents"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:13
+msgid "<<q1,What are development versions of GNOME all about?>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:14
+msgid "<<q2,Should I track development versions?>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:15
+msgid "<<q3,How do I obtain development versions of GNOME stuff?>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:16
+msgid "<<q4,How do I keep everything up-to-date and in sync?>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:17
+msgid "<<q5,What should I do when something does not work?>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:18
+msgid "<<q6,How can I help with the development versions?>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:19
+msgid "<<q7,What is the current state of development GNOME on FreeBSD>>"
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/docs/develfaq.adoc:20
+#, no-wrap
+msgid "Full Text"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:24
+#, no-wrap
+msgid "*What are development versions of GNOME all about?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:26
+msgid ""
+"The development versions are the packages released by the GNOME project that "
+"will eventually become the stable (release) versions. There are three "
+"working branches of GNOME development:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:28
+#, no-wrap
+msgid ""
+"*STABLE* - The applications and libraries in the stable branch are "
+"considered \"release quality,\" and are the versions that appear in the "
+"FreeBSD ports tree. The current stable version is GNOME {gnomever}.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:30
+#, no-wrap
+msgid ""
+"*DEVELOPMENT* - In between stable releases are development "
+"releases. Traditionally, GNOME development releases have odd minor numbers "
+"(e.g. 2.3, {gnomedevelver}, 3.(n*2)-1). Development releases will become "
+"stable releases, and move from alpha to beta quality during their "
+"lifecycle. The development releases need testing by FreeBSD users to "
+"minimize the number of surprises when the new stable versions are committed "
+"to the FreeBSD SVN tree. This document is about the development branch. At "
+"any time the development branch for FreeBSD might be based of a stable GNOME "
+"release. However it will be tagged \"development\" here if it is the version "
+"that is work in progress by the FreeBSD GNOME team. The current development "
+"branch for FreeBSD is GNOME {gnomedevelver}.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:32
+#, no-wrap
+msgid ""
+"*GIT* - Often newer-than-new, the GIT master versions of GNOME applications "
+"and libraries are alpha quality, or often completely unbuildable. The "
+"FreeBSD GNOME project pays attention to, but does not track the alpha "
+"quality code.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:35
+#, no-wrap
+msgid "*Should I track GNOME development versions?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:37
+msgid ""
+"If you are looking for a stable environment, absolutely not. Please only "
+"track the GNOME {gnomedevelver} branch if you wish to help identify bug and "
+"improve the FreeBSD GNOME project. You will find little sympathy if a "
+"development-quality GNOME application eats your homework."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:40
+#, no-wrap
+msgid "*How do I obtain the development versions of GNOME stuff?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:42
+msgid ""
+"mailto:marcus@FreeBSD.org[Marcus] maintains a SVN repository where all the "
+"development versions of the GNOME components for FreeBSD are "
+"housed. Instructions for how to check out the development ports module and "
+"how to merge it into the FreeBSD ports tree reside on the entrance page to "
+"his SVN repository. Please read carefully the instructions at "
+"http://www.marcuscom.com/viewvc/viewvc.cgi/marcuscom/."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:44
+msgid ""
+"During the development cycle, FreeBSD-specific caveats and other useful "
+"information will be sent to marcuscom-devel@marcuscom.com. If you are "
+"tracking the GNOME development branch, you *must* "
+"http://www.marcuscom.com/mailman/listinfo/marcuscom-devel[subscribe] to this "
+"list. You should also consider "
+"https://lists.freebsd.org/subscription/freebsd-gnome[subscribing] to "
+"freebsd-gnome@FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:46
+msgid ""
+"In order to help with bug reports, be sure to add the following to "
+"`/etc/make.conf` so that gdb back traces contain useful information:"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/docs/develfaq.adoc:49
+#, no-wrap
+msgid "WITH_DEBUG=\"yes\"\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:52
+msgid ""
+"GNOME has an excellent guide for getting "
+"https://wiki.gnome.org/GettingTraces[useful back traces]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:55
+#, no-wrap
+msgid "*How do I keep everything up-to-date and in sync?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:57
+msgid ""
+"The short answer is that you need to use the `marcusmerge` script to merge "
+"the development tree with the FreeBSD ports tree. The `marcusmerge` script "
+"is available http://www.marcuscom.com/downloads/marcusmerge[here], and a man "
+"page on using the script is available "
+"http://www.marcuscom.com/marcusmerge.8.html[here]. This script will merge "
+"the development ports tree into your main ports tree. From there, you can "
+"use `portupgrade` or `portmaster` to upgrade from {gnomever} to "
+"{gnomedevelver} and stay up-to-date afterwards."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:59
+msgid ""
+"The long answer is that keeping up-to-date with the GNOME development branch "
+"is complicated. Sometimes components change in a way that makes "
+"`portupgrade` or `portmaster` fail, or causes strange end results. If you "
+"plan to track the development branch, it is a good idea to join the "
+"https://lists.FreeBSD.org/subscription/freebsd-gnome[freebsd-gnome] mailing "
+"list, as well as to join the _#freebsd-gnome_ IRC channel on FreeNode "
+"(`irc.freenode.net`)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:61
+msgid ""
+"If all of this sounds scary, or you need a desktop that \"Just Works,\" you "
+"should stick with the {gnomever} version that is available in the FreeBSD "
+"ports tree."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:64
+#, no-wrap
+msgid "*What should I do when something does not work?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:66
+msgid ""
+"It depends. If you think the problem is truly a bug with the GNOME "
+"component, you can report a bug using *bug-buddy* or the GNOME "
+"http://bugzilla.gnome.org[Bugzilla] interface. If you think the problem lies "
+"in a FreeBSD port, or is FreeBSD-specific, send email to "
+"freebsd-gnome@FreeBSD.org, or report the problem on the _#freebsd-gnome_ IRC "
+"channel on FreeNode."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:68
+msgid ""
+"Please forward all relevant bug IDs to freebsd-gnome@FreeBSD.org so we can "
+"keep track of known issues. Thanks!"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:71
+#, no-wrap
+msgid "*How can I help with the development versions?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:73
+msgid ""
+"Now that work on {gnomedevelver} has started, we need people to install it, "
+"and test things. If you are compiling {gnomedevelver} by hand, be sure to "
+"build link:../bugging/[debugging symbols]. Package users will have these "
+"symbols already."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:76
+#, no-wrap
+msgid "*What is the current state of development GNOME on FreeBSD?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/develfaq.adoc:77
+msgid ""
+"{gnomever} is the latest version that was merged into the FreeBSD ports "
+"tree. Work is currently underway to make {gnomedevelver} stable."
+msgstr ""

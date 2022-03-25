@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/gnome/_index.adoc:1 content/en/gnome/_index.adoc:6
+#, no-wrap
+msgid "The FreeBSD GNOME Project"
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/_index.adoc:8
+#, no-wrap
+msgid "What software does the GNOME Team maintain?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:11
+msgid "The GNOME Team maintains the GNOME, MATE, and Cinnamon desktop environments."
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/_index.adoc:12
+#, no-wrap
+msgid "What is GNOME?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:15
+msgid ""
+"GNOME is a complete graphical desktop for X, including everything from a "
+"window manager to web browsers, audio players, office programs, graphical "
+"login programs and more. MATE is a continuation of the old GNOME 2 desktop "
+"environment. Cinnamon is originally a fork of GNOME 3's gnome-shell, but "
+"grew into its own desktop environment."
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/_index.adoc:16
+#, no-wrap
+msgid "How to install these desktop environments?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:19
+msgid ""
+"There are some so called meta ports available for installing these desktop "
+"environments or parts of them. They are:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:21
+msgid "gnome3 (full GNOME desktop)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:22
+msgid "gnome3-lite (minimal GNOME desktop)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:23
+msgid "mate (full MATE desktop)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:24
+msgid "mate-lite (minimal MATE desktop)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:25
+msgid "cinnamon"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:27
+msgid ""
+"The easiest way of installing is to run the following command and replace "
+"gnome3 with the desktop environment of choice:"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/_index.adoc:30
+#, no-wrap
+msgid "# pkg install gnome3\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:33
+msgid "Or if you prefer to build from source:"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/_index.adoc:38
+#, no-wrap
+msgid ""
+"# cd /usr/ports/x11/gnome3\n"
+"# make clean\n"
+"# make install clean\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/_index.adoc:40
+#, no-wrap
+msgid "State of the port:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:43
+msgid ""
+"GNOME, MATE, and Cinnamon for FreeBSD are currently fully supported on 11.1, "
+"11-STABLE, and 10.4, while support for 12.0-CURRENT is provided on a best "
+"effort basis."
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:45
+msgid ""
+"GNOME is simple and easy to build using the FreeBSD ports system, but "
+"sometimes things simply go wrong. Please see our link:docs/bugging/[Bug "
+"reporting] page for more info."
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/_index.adoc:46
+#, no-wrap
+msgid "Resources"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:49
+msgid "link:https://wiki.freebsd.org/Gnome[FreeBSD GNOME's wiki page]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:50
+msgid "link:https://www.gnome.org/[GNOME Project]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:51
+msgid "link:https://news.gnome.org/[GNOME Project news]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:52
+msgid "link:https://developer.gnome.org/[GNOME development platform]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:53
+msgid "link:http://planet.gnome.org/[Planet GNOME (blogs)]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:54
+msgid "link:https://mate-desktop.org/[MATE Project]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:55
+msgid "link:https://github.com/linuxmint/Cinnamon[Cinnamon Project]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/_index.adoc:56
+#, no-wrap
+msgid "Related Projects"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:59
+msgid "link:https://www.kde.org/[KDE Project]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:60
+msgid "link:https://freebsd.kde.org/[KDE on FreeBSD]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:61
+msgid "link:https://www.xfce.org/[XFCE Project]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:62
+msgid "link:https://wiki.freebsd.org/Xfce[XFCE on FreeBSD]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/_index.adoc:62
+msgid "link:http://www.opengroup.org/cde/[CDE]"
+msgstr ""

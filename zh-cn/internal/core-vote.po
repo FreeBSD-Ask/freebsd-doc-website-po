@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:45+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/core-vote.adoc:1 content/en/internal/core-vote.adoc:6
+#, no-wrap
+msgid "Core's Voting Procedures"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/core-vote.adoc:8
+#, no-wrap
+msgid "Committers"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:11
+msgid "All core members vote \"yes\", \"no\" or \"no objection\"."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:12
+msgid "Successful candidates must get at least one yes vote."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:13
+msgid "Successful candidates must not get any 'no' votes."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:14
+msgid "At least three people must vote."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:15 content/en/internal/core-vote.adoc:23
+#: content/en/internal/core-vote.adoc:33
+msgid ""
+"Voting period is normally 1 week, or ending sooner when the result is "
+"certain."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:16 content/en/internal/core-vote.adoc:24
+#: content/en/internal/core-vote.adoc:34
+msgid "Core secretary to deal with the details of voting, notification, etc."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/core-vote.adoc:17
+#, no-wrap
+msgid "Personnel"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:20 content/en/internal/core-vote.adoc:30
+msgid "All core members vote \"yes\" or \"no\"."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:21
+msgid "Successful candidates must get at least (2/3 * core-size) yes vote."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:22 content/en/internal/core-vote.adoc:32
+msgid "At least (2/3 * core-size) people must vote, or the measure will fail."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/core-vote.adoc:25
+#, no-wrap
+msgid "Issues"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:28
+msgid "Discussion takes place."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:29
+msgid ""
+"When a consensus resolution appears to have been reached, a vote on that "
+"takes place."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:31
+msgid "Successful resolutions must get at least (2/3 * core-size) yes vote."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/core-vote.adoc:35
+#, no-wrap
+msgid "Without Objection"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:38
+msgid ""
+"Any core member may ask core, via email, if they can take some mundane "
+"action, subject to a quick sanity check of the rest of core."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:39
+msgid ""
+"If no one objects within 48 hours, then that person may proceed (or sooner "
+"if (2/3 * core-size) members agree)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:40
+msgid ""
+"If there are any objections, then it will be resolved via the issue voting "
+"procedure."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:41
+msgid ""
+"Core secretary may send the OK to proceed message, as the secretary deems "
+"appropriate."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/core-vote.adoc:42
+msgid ""
+"Any committer may also use this mechanism so long as at least one core "
+"member says 'yes' and the previous paragraph is otherwise followed. It is "
+"intended to be used for mundane matters that need a quick sanity check, but "
+"don't need a more heavy weight and deliberative process. It is believed that "
+"the subset of core present for any given 48 period are sufficient for both "
+"sanity checking mundane matters and recognizing non-mundane matters that "
+"need to be handled via the issues voting procedure."
+msgstr ""

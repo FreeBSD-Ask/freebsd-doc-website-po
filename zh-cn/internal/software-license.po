@@ -1,0 +1,346 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/software-license.adoc:1
+#: content/en/internal/software-license.adoc:6
+#, no-wrap
+msgid "Software License Policy"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/software-license.adoc:8
+#, no-wrap
+msgid "Philosophy"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:11
+msgid ""
+"The FreeBSD Project aims to produce a complete, BSD-licensed operating "
+"system allowing consumers of the system to produce derivative products "
+"without constraint or further license obligations. We invite and greatly "
+"appreciate the contribution of both changes and additions under the "
+"two-clause BSD license, and encourage the adoption of this license by other "
+"open source projects. Use of the BSD license is key to encouraging the "
+"adoption of advanced operating system technology, and on many notable "
+"occasions has been pivotal to widespread use of new technology."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:13
+msgid ""
+"We accept however that compelling reasons exist to allow "
+"differently-licensed software to be included in the FreeBSD source tree."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:15
+msgid ""
+"We require any software under alternative licenses to be carefully isolated "
+"in the source tree so that it cannot contaminate BSD-only components. Such "
+"cautious management encourages licensing clarity and facilitates the "
+"production of BSD-only derivative products."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:17
+msgid ""
+"Unless a special exception is made, no existing BSD-licensed components may "
+"be replaced with differently-licensed software. We instead encourage FreeBSD "
+"and third party developers to seek the relicensing or reimplementation of "
+"critical components under the BSD license. Such would ease their more "
+"integral adoption into the FreeBSD operating system."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/software-license.adoc:18
+#, no-wrap
+msgid "Policy"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:21
+msgid ""
+"The import of new software licensed under any licenses other than the BSD "
+"license and BSD-Like Licenses (as defined below) requires the prior approval "
+"of the FreeBSD Core Team. Requests for import must include:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:22
+msgid ""
+"A list of features or bug fixes that the new version or patches contain, "
+"along with evidence that our users need those features. PRs or references to "
+"mailing list discussions are ideal forms of evidence."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:23
+msgid ""
+"This process should be used for all software imports, not just those that "
+"require Core Team review. The mere existence of a new version does not "
+"justify an import of software to source or ports."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:24
+msgid ""
+"A list of FreeBSD branches that may be affected. Expansions of scope require "
+"a new request to and approval from the FreeBSD Core Team."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:26
+msgid ""
+"The Apache License 2.0 is acceptable for use in some cases. The Core Team "
+"must approve the import of new Apache License licensed components or the "
+"change of license of existing components to the Apache License."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:27
+#: content/en/internal/software-license.adoc:32
+#: content/en/internal/software-license.adoc:36
+msgid "This license is approved for the following components:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:28
+msgid "LLVM toolchain and (with LLVM Exceptions) runtime components."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:29
+msgid "Subversion and its dependencies"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:31
+msgid ""
+"The BSD+Patent License is acceptable for use in some cases. The Core Team "
+"must approve the import of new BSD+Patent License licensed components or the "
+"change of license of existing components to the BSD+Patent License."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:33
+msgid "EDK2 derived code related to UEFI functionality"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:35
+msgid ""
+"The Common Development and Distribution License (CDDL) is acceptable for use "
+"in some cases. The Core Team must approve the import of new CDDL licensed "
+"components or the change of license of existing components to the CDDL."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:37
+msgid "DTrace"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:38
+msgid "ZFS filesystem including kernel support and userland utilities"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:40
+msgid ""
+"Historically, the phrase 'All Rights Reserved.' was included in all "
+"copyright notices. The BSD releases had it to comply with the Buenos Aires "
+"Convention of 1910 in the Americas. With the ratification of the Berne "
+"Convention in 2000, it became obsolete. As such, the FreeBSD project "
+"recommends that new code omit the phrase and encourages existing copyright "
+"holders to remove it. In 2018, the project updated its templates to remove "
+"it."
+msgstr ""
+
+#. type: Title ===
+#: content/en/internal/software-license.adoc:41
+#, no-wrap
+msgid "Acceptable licenses"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:44
+msgid ""
+"The following licenses are considered to be acceptable BSD-Like Licenses for "
+"the purpose of this Policy. They must be reproduced verbatim on any new "
+"code. Deviations or the use of any other license must be approved by the "
+"FreeBSD Core Team:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:46
+msgid "The 2 clause version of the BSD license"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/internal/software-license.adoc:74
+#, no-wrap
+msgid ""
+"/*-\n"
+" * Copyright (c) [year] [your name]\n"
+" *\n"
+" * Redistribution and use in source and binary forms, with or without\n"
+" * modification, are permitted provided that the following conditions\n"
+" * are met:\n"
+" * 1. Redistributions of source code must retain the above copyright\n"
+" *    notice, this list of conditions and the following disclaimer.\n"
+" * 2. Redistributions in binary form must reproduce the above copyright\n"
+" *    notice, this list of conditions and the following disclaimer in the\n"
+" *    documentation and/or other materials provided with the distribution.\n"
+" *\n"
+" * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS \"AS IS\" AND\n"
+" * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n"
+" * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR "
+"PURPOSE\n"
+" * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE\n"
+" * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR "
+"CONSEQUENTIAL\n"
+" * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\n"
+" * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\n"
+" * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, "
+"STRICT\n"
+" * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY "
+"WAY\n"
+" * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\n"
+" * SUCH DAMAGE.\n"
+" *\n"
+" * [id for your version control system, if any]\n"
+" */\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:76
+msgid "The 3 clause version of the BSD license"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/internal/software-license.adoc:106
+#, no-wrap
+msgid ""
+"/*-\n"
+" * Copyright (c) [year] [your name]\n"
+" *\n"
+" * Redistribution and use in source and binary forms, with or without\n"
+" * modification, are permitted provided that the following conditions\n"
+" * are met:\n"
+" * 1. Redistributions of source code must retain the above copyright\n"
+" *    notice, this list of conditions and the following disclaimer.\n"
+" * 2. Redistributions in binary form must reproduce the above copyright\n"
+" *    notice, this list of conditions and the following disclaimer in the\n"
+" *    documentation and/or other materials provided with the distribution.\n"
+" * 3. Neither the name of the author nor the names of its contributors may\n"
+" *    be used to endorse or promote products derived from this software\n"
+" *\n"
+" * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS \"AS IS\" AND\n"
+" * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n"
+" * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR "
+"PURPOSE\n"
+" * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE\n"
+" * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR "
+"CONSEQUENTIAL\n"
+" * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\n"
+" * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\n"
+" * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, "
+"STRICT\n"
+" * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY "
+"WAY\n"
+" * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\n"
+" * SUCH DAMAGE.\n"
+" *\n"
+" * [id for your version control system, if any]\n"
+" */\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:108
+msgid "The ISC License"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/internal/software-license.adoc:127
+#, no-wrap
+msgid ""
+"/*-\n"
+" * Copyright (c) [year] [copyright holder]\n"
+" *\n"
+" * Permission to use, copy, modify, and distribute this software for any\n"
+" * purpose with or without fee is hereby granted, provided that the above\n"
+" * copyright notice and this permission notice appear in all copies.\n"
+" *\n"
+" * THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL "
+"WARRANTIES\n"
+" * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\n"
+" * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\n"
+" * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\n"
+" * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\n"
+" * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\n"
+" * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n"
+" *\n"
+" * [id for your version control system, if any]\n"
+" */\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/software-license.adoc:129
+msgid "The MIT License"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/internal/software-license.adoc:154
+#, no-wrap
+msgid ""
+"/*-\n"
+" * Copyright (c) [year] [copyright holders]\n"
+" * \n"
+" * Permission is hereby granted, free of charge, to any person obtaining a "
+"copy\n"
+" * of this software and associated documentation files (the \"Software\"), "
+"to deal\n"
+" * in the Software without restriction, including without limitation the "
+"rights\n"
+" * to use, copy, modify, merge, publish, distribute, sublicense, and/or "
+"sell\n"
+" * copies of the Software, and to permit persons to whom the Software is\n"
+" * furnished to do so, subject to the following conditions:\n"
+" * \n"
+" * The above copyright notice and this permission notice shall be included "
+"in\n"
+" * all copies or substantial portions of the Software.\n"
+" * \n"
+" * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS "
+"OR\n"
+" * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF "
+"MERCHANTABILITY,\n"
+" * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL "
+"THE\n"
+" * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
+" * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
+"FROM,\n"
+" * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS "
+"IN\n"
+" * THE SOFTWARE.\n"
+" *\n"
+" * [id for your version control system, if any]\n"
+" */\n"
+msgstr ""

@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.6.2R/hardware.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.6.2-RELEASE Hardware Notes"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/hardware.adoc:12
+#, no-wrap
+msgid ""
+"  <p>The hardware notes for FreeBSD are customized for different\n"
+"    platforms, as some of the changes made to FreeBSD apply only to\n"
+"    specific processor architectures.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/hardware.adoc:15
+#, no-wrap
+msgid ""
+"  <p>Hardware notes for FreeBSD 4.6.2-RELEASE are available for the "
+"following\n"
+"    platforms:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/hardware.adoc:20
+#, no-wrap
+msgid ""
+"  <ul>\n"
+"    <li><a href=\"../hardware-i386/\" shape=\"rect\">i386</a></li>\n"
+"    <li><a href=\"../hardware-alpha/\" shape=\"rect\">Alpha</a></li>\n"
+"  </ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/hardware.adoc:24
+#, no-wrap
+msgid ""
+"  <p>A list of all platforms currently under development can be found\n"
+"    on the <a href=\"../../../platforms/index.html\" "
+"shape=\"rect\">Supported\n"
+"    Platforms</a> page.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.6.2R/hardware.adoc:29
+#, no-wrap
+msgid ""
+"</div>\n"
+"          <br class=\"clearboth\" />\n"
+"        </div>\n"
+msgstr ""

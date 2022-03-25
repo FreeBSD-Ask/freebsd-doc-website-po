@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/mirror.adoc:1 content/en/internal/mirror.adoc:6
+#, no-wrap
+msgid "Mirroring the FreeBSD Web Pages"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/mirror.adoc:9
+msgid ""
+"It is possible to mirror the FreeBSD web pages `www.FreeBSD.org`. This can "
+"be done using a program called _rsync_. rsync is a software package in the "
+"Ports Collection for distributing and updating collections of files across a "
+"network."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/mirror.adoc:10
+#, no-wrap
+msgid "Running rsync"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/mirror.adoc:13
+msgid ""
+"If you keep your mirrored FreeBSD web pages in the directory "
+"`/usr/FreeBSD-mirror` and are owned by the user \"fred\", then run the "
+"following command as user \"fred\":"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/internal/mirror.adoc:16
+#, no-wrap
+msgid ""
+"     $ rsync -vaHz --delete "
+"rsync://bit0.us-west.freebsd.org/FreeBSD-www-data/ /usr/FreeBSD-mirror/\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/mirror.adoc:19
+msgid ""
+"This will mirror the FreeBSD web pages into `/usr/FreeBSD-mirror`. You can "
+"install this into fred's crontab, so that it runs once a day."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/mirror.adoc:20
+msgid "link:..[FreeBSD Internal Home]"
+msgstr ""

@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.2.5R/errata.adoc:1
+#: content/en/releases/2.2.5R/errata.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.2.5 Errata Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:16
+#, no-wrap
+msgid ""
+"The file \n"
+"ERRATA.TXT contains post-release ERRATA for 2.2.5 and should always\n"
+"be considered the definitive place to look first before reporting\n"
+"a problem with this release.  This file will also be periodically\n"
+"updated as new issues are reported so even if you've checked this\n"
+"file recently, check it again before filing a bug report.  Any\n"
+"changes to this file are also automatically emailed to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:18
+#, no-wrap
+msgid "    freebsd-stable@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:20
+#, no-wrap
+msgid "For 2.2.5 security advisories, see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:22
+#, no-wrap
+msgid "    ftp://FreeBSD.org/pub/CERT/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:25
+#, no-wrap
+msgid ""
+"For the latest information (note the URL carefully - this is NOT\n"
+"ftp.FreeBSD.org).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:27
+#, no-wrap
+msgid "---- Security Advisories:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:29
+#, no-wrap
+msgid "Current active security advisories for 2.2.5:   One\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:31
+#, no-wrap
+msgid ""
+"o FreeBSD-SA-97:05 (available from "
+"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:35
+#, no-wrap
+msgid ""
+"  You may also simply remove /dev/io as a quick work-around if you're\n"
+"  not running an X server or some other specialized utility which\n"
+"  requires access to the I/O instructions.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:38
+#, no-wrap
+msgid ""
+"---- System Update Information:\n"
+"o The appletalk stack was broken in 2.2.5.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:40
+#, no-wrap
+msgid "Fix:  If you plan to run appletalk, you should apply the following patch:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:42
+#, no-wrap
+msgid "ftp://ftp.FreeBSD.org/pub/FreeBSD/updates/2.2.5-RELEASE/atalk.diff.2.2.gz\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:47
+#, no-wrap
+msgid ""
+"o The line printer spooler lpd will, when sending jobs to remote\n"
+"  printers, kill the child process sending to the remote after the\n"
+"  timeout specified in the `ct' capability (2 minutes by default).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:51
+#, no-wrap
+msgid ""
+"Fix:  Please upgrade the lpd subsystem to 2.2-stable.  As a workaround,\n"
+"      increase the `ct' capability to an unreasonably large number of\n"
+"      seconds (like 3600).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:55
+#, no-wrap
+msgid ""
+"o Intel \"F00F bug\" enables users to hang machines with Pentium "
+"processors\n"
+"  if they have access to the machine and can execute programs.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:58
+#, no-wrap
+msgid ""
+"Fix:  Update to the 2.2-stable version of the kernel or apply the patch\n"
+"      found in:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:60
+#, no-wrap
+msgid ""
+"      "
+"ftp://ftp.FreeBSD.org/pub/FreeBSD/updates/2.2.5-RELEASE/f00f.diff.2.2.gz\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:65
+#, no-wrap
+msgid ""
+"o A bug in the ipfw code exists where using the \"reset tcp\" firewall "
+"command\n"
+"  causes the kernel to write ethernet headers onto random kernel stack\n"
+"  locations.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:68
+#, no-wrap
+msgid ""
+"Fix:    Update to the 2.2-stable version of the kernel or apply the\n"
+"        patch found in "
+"ftp://ftp.FreeBSD.org/pub/FreeBSD/updates/2.2.5-RELEASE/ipfw.diff.gz\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:74
+#, no-wrap
+msgid ""
+"o A bug in XF86Setup causes it to fail to create a symbolic link from\n"
+"  /usr/X11R6/bin/X to the right X server for your hardware if a link\n"
+"  does not already exist.  When you type startx the following error is\n"
+"  displayed:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:76
+#, no-wrap
+msgid ""
+"  xinit:  No such file or directory (errno 2):  no server \"X\" found in "
+"PATH\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:78
+#, no-wrap
+msgid "Fix:    Execute the following commands (as root) and re-run XF86Setup.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:81
+#, no-wrap
+msgid ""
+"    # cd /usr/X11R6/bin\n"
+"    # ln -s XF86_VGA16 X\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:85
+#, no-wrap
+msgid ""
+"    If XF86Setup asks you if you want to use the existing XF86Config for\n"
+"    defaults choose no.  When it asks you if you want to create an 'X'\n"
+"    link to the server choose yes.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:91
+#, no-wrap
+msgid ""
+"o A bug in the phase diagram implementation of user-level ppp causes\n"
+"  problems with some ppp implementations when shutting down the link.\n"
+"  The line will go dead, but the modem will not hang up unless done\n"
+"  manually using pppctl (or a switch).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:94
+#, no-wrap
+msgid ""
+"Fix:  A version of ppp derived from the -current sources is available from\n"
+"      http://www.FreeBSD.org/~brian\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:98
+#, no-wrap
+msgid ""
+"      It should build on any version of FreeBSD from 2.0.5 onwards.\n"
+"      This code is available in the -current tree, but not (yet) in the\n"
+"      2.2-STABLE tree.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:100
+#, no-wrap
+msgid "    Further documentation can be found at these locations:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.5R/errata.adoc:104
+#, no-wrap
+msgid ""
+"      Document references\n"
+"      FAQ\n"
+"      handbook\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.5R/errata.adoc:106
+msgid "link:../../[Release Home]"
+msgstr ""

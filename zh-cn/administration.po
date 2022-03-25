@@ -1,0 +1,1033 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 23:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. NOTE: If any alias listed on this page is modified in the
+#. /etc/aliases on the FreeBSD project's mail server,
+#. then this page must be updated.
+#. type: Title =
+#: content/en/administration.adoc:1 content/en/administration.adoc:14
+#, no-wrap
+msgid "FreeBSD Project Administration and Management"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:16
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:19
+msgid ""
+"This page lists teams, groups and individuals within the FreeBSD project "
+"with designated project roles and areas of responsibility, along with brief "
+"descriptions and contact information."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:21
+msgid "Project Management"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:22
+msgid "<<t-core, Core Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:23
+msgid "<<t-doceng, Documentation Engineering Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:24
+msgid "<<t-portmgr, Ports Management Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:25
+msgid "<<t-ports-secteam, Ports Security Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:26
+msgid "Release Engineering"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:27
+msgid "<<t-re, Primary Release Engineering Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:28
+msgid "Teams"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:29
+msgid "<<t-donations, Donations Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:30
+msgid "<<t-secteam, Security Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:31
+msgid "<<t-vendor, Vendor Relations>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:32
+msgid "Secretaries"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:33
+msgid "<<t-core-secretary, Core Team Secretary>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:34
+msgid "<<t-doceng-secretary, Documentation Engineering Team Secretary>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:35
+msgid "<<t-portmgr-secretary, Ports Management Team Secretary>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:36
+msgid "Internal Administration"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:37
+msgid "<<t-accounts, Accounts Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:38
+msgid "<<t-backups, Backup Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:39
+msgid "<<t-bugmeister, Bugmeisters>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:40
+msgid "<<t-clusteradm, Cluster Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:41
+msgid "<<t-dnsadm, DNS Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:42
+msgid "<<t-forum-admins, Forum Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:43
+msgid "<<t-github-automation, GitHub Repository Mirror>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:44
+msgid "<<t-jenkins-admin, Jenkins Continuous Integration Testing Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:45
+msgid "<<t-mirror-admin, FTP/WWW Mirror Site Coordinators>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:46
+msgid "<<t-phabric-admin, Phabricator Code Review Administration>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:47
+msgid "<<t-postmaster, Postmaster Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:48
+msgid "<<t-subversion, Subversion Administrators>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:49
+msgid "<<t-webmaster, Webmaster Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:50
+msgid "<<t-wiki, Wiki Admin Team>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:52 content/en/administration.adoc:100
+#: content/en/administration.adoc:112 content/en/administration.adoc:157
+#: content/en/administration.adoc:182
+msgid "'''"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:54
+#, no-wrap
+msgid "FreeBSD Core Team <core@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:58
+msgid ""
+"The FreeBSD Core Team constitutes the project's \"Board of Directors\", "
+"responsible for deciding the project's overall goals and direction as well "
+"as managing specific areas of the FreeBSD project landscape.  The Core Team "
+"is elected by the active developers in the project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:60
+msgid "{bapt} (Clusteradm Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:61
+msgid "{emaste} (GIT Transition WG and Security Team Liason)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:62
+msgid "{gnn} (Foundation Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:63
+msgid "{hrs} (Code-of-Conduct Committee Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:64
+msgid "{kevans} (Portmgr Team Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:65
+msgid "{markj} (Bugmeister, CI Team, and Release Engineering Team Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:66
+msgid "{scottl}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:67
+msgid "{seanc} (Doceng Team Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:68
+msgid "{imp} (GIT Transition WG Liaison)"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:70
+#, no-wrap
+msgid "FreeBSD Documentation Engineering Team <doceng@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:74
+msgid ""
+"The FreeBSD Documentation Engineering Team is responsible for defining and "
+"following up documentation goals for the committers in the Documentation "
+"project.  The https://www.freebsd.org/internal/doceng/[doceng team charter] "
+"describes the duties and responsibilities of the Documentation Engineering "
+"Team in greater detail."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:76 content/en/administration.adoc:231
+msgid "{gjb}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:77
+msgid "{carlavilla}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:78 content/en/administration.adoc:122
+msgid "{blackend}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:79
+msgid "{dbaio}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:80
+msgid "{bcr}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:81
+msgid "{hrs}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:82
+msgid "{ryusuke}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:83
+msgid "{0mp} (Secretary)"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:85
+#, no-wrap
+msgid "FreeBSD Ports Management Team <portmgr@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:90
+msgid ""
+"The primary responsibility of the FreeBSD Ports Management Team is to ensure "
+"that the FreeBSD Ports Developer community provides a ports collection that "
+"is functional, stable, up-to-date and full-featured.  Its secondary "
+"responsibility is to coordinate among the committers and developers who work "
+"on it.  The https://www.freebsd.org/portmgr/charter/[portmgr team charter] "
+"describes the duties and responsibilities of the Ports Management Team in "
+"greater detail."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:92
+msgid "{antoine}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:93
+msgid "{bapt} (Core Team Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:94
+msgid "{bdrewery}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:95
+msgid "{mat} (Cluster Administration Team Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:96
+msgid "{rene} (Secretary)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:97 content/en/administration.adoc:282
+msgid "{swills}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:98
+msgid "{tcberner}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:102
+#, no-wrap
+msgid "FreeBSD Ports Security Team <ports-secteam@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:106
+msgid ""
+"The primary responsibility of the FreeBSD Port Security Team is to provide "
+"rapid response to security incidents that affects the FreeBSD ports "
+"collection and protect the FreeBSD user community by keeping the community "
+"informed of bugs, exploits, popular attacks, and other risks.  More details "
+"are available on the https://wiki.freebsd.org/ports-secteam[Wiki page]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:108
+msgid "{fluffy}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:109
+msgid "{joneum}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:110
+msgid "{riggs}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:114
+#, no-wrap
+msgid "Primary Release Engineering Team <re@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:118
+msgid ""
+"The Primary Release Engineering Team is responsible for setting and "
+"publishing release schedules for official project releases of FreeBSD, "
+"announcing code freezes and maintaining `releng/*` branches, among other "
+"things.  The https://www.freebsd.org/releng/charter/[release engineering "
+"team charter] describes the duties and responsibilities of the Primary "
+"Release Engineering Team in greater detail."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:120
+msgid "{gjb} (Lead)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:121
+msgid "{kib}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:123
+msgid "{delphij}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:124
+msgid "{cperciva} (Deputy Lead)"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:126
+#, no-wrap
+msgid "Donations Team <donations@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:130
+msgid ""
+"The FreeBSD Donations Team is responsible for responding to donations "
+"offers, establishing donation guidelines and procedures, and coordinating "
+"donation offers with the FreeBSD developer community.  A more detailed "
+"description of the duties of the Donations Team is available on the "
+"https://www.freebsd.org/donations/[FreeBSD Donations Liaison] page."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:132
+msgid "{gahr}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:133
+msgid "{bhughes}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:134
+msgid "{adridg}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:136
+#, no-wrap
+msgid "Security Team <secteam@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:141
+msgid ""
+"The FreeBSD Security Team (headed by the Security Officer) is responsible "
+"for keeping the community aware of bugs, exploits and security risks "
+"affecting the FreeBSD src and ports trees, and to promote and distribute "
+"information needed to safely run FreeBSD systems.  Furthermore, it is "
+"responsible for resolving software bugs affecting the security of FreeBSD "
+"and issuing security advisories.  The FreeBSD Security Officer Charter "
+"describes the duties and responsibilities of the Security Officer in greater "
+"detail."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:143
+msgid "{gordon} (Officer)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:144
+msgid "{delphij} (Officer Emeritus, Release Engineering Team Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:145
+msgid "{des} (Officer Emeritus)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:146
+msgid "{gjb} (Cluster Administrators Team Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:147
+msgid "{emaste} (Officer Deputy)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:148
+msgid "{markj}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:149 content/en/administration.adoc:234
+#: content/en/administration.adoc:316
+msgid "{philip}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:151
+#, no-wrap
+msgid "Vendor Relations <vendor-relations@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:155
+msgid ""
+"Vendor Relations is responsible for handling email from hardware and "
+"software vendors.  Email sent to Vendor Relations is forwarded to the "
+"FreeBSD Core Team in addition to the FreeBSD Foundation."
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:159
+#, no-wrap
+msgid "Core Team Secretary <core-secretary@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:163
+msgid ""
+"The FreeBSD Core Team Secretary is a non-voting member of the Core Team, "
+"responsible for documenting the work done by core, keeping track of the core "
+"agenda, contacting non-core members on behalf of core, sending mail to core, "
+"and interfacing with the admin team for committer/account approval.  The "
+"Core Team Secretary is also responsible for writing and sending out monthly "
+"status reports to the FreeBSD Developer community, containing a summary of "
+"core's latest decisions and actions."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:165 content/en/administration.adoc:297
+msgid "{bofh}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:167
+#, no-wrap
+msgid "Documentation Engineering Team Secretary <doceng-secretary@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:170
+msgid ""
+"The FreeBSD Documentation Engineering Team Secretary is a non-voting member "
+"of the Documentation Engineering Team, responsible for documenting the work "
+"done by doceng, keeping track of voting procedures, and to be an interface "
+"to the other teams, especially the admin and Core teams."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:172
+msgid "{0mp}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:174
+#, no-wrap
+msgid "Ports Management Team Secretary <portmgr-secretary@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:178
+msgid ""
+"The FreeBSD Ports Management Team Secretary is a non-voting member of the "
+"Ports Management Team, responsible for documenting the work done by portmgr, "
+"keeping track of voting procedures, and to be an interface to the other "
+"teams, especially the admin and Core teams.  ThePorts Management Team "
+"Secretary is also responsible for writing and sending out monthly status "
+"reports to the FreeBSD Developer community, containing a summary of "
+"portmgr's latest decisions and actions."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:180
+msgid "{rene}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:184
+#, no-wrap
+msgid "Accounts Team <accounts@>"
+msgstr ""
+
+#. admins mail aliases intentionally left incomplete
+#. type: Plain text
+#: content/en/administration.adoc:191
+msgid ""
+"The Accounts Team is responsible for setting up accounts for new committers "
+"in the project.  Requests for new accounts will not be acted upon without "
+"the proper approval from the appropriate entity."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:193
+msgid ""
+"Email sent to the Accounts Team is currently forwarded to the Cluster "
+"Administrators."
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:195
+#, no-wrap
+msgid "Backups Administrators <backups@>"
+msgstr ""
+
+#. admins mail aliases intentionally left incomplete
+#. type: Plain text
+#: content/en/administration.adoc:201
+msgid "The Backups Administrators handle all backups on the FreeBSD cluster."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:203
+msgid ""
+"Email sent to the Backups Team is currently forwarded to the Cluster "
+"Administrators."
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:205
+#, no-wrap
+msgid "Bugmeisters <bugmeister@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:208
+msgid ""
+"The Bugmeisters are responsible for ensuring that the problem report "
+"software is in working order, that the entries are correctly categorised and "
+"that there are no invalid entries."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:210 content/en/administration.adoc:298
+msgid "{eadler}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:211 content/en/administration.adoc:265
+msgid "{mva}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:212 content/en/administration.adoc:230
+msgid "{gavin}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:213 content/en/administration.adoc:264
+#: content/en/administration.adoc:343
+msgid "{koobs}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:214
+msgid "{gonzo}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:216
+#, no-wrap
+msgid "Cluster Administrators <admins@>"
+msgstr ""
+
+#. admins mail aliases intentionally left incomplete
+#. type: Plain text
+#: content/en/administration.adoc:224
+msgid ""
+"The Cluster Administrators consists of the people responsible for maintaing "
+"the machines and services that the project relies on for its distributed "
+"work and communication.  Issues concerning the projects infrastructure or "
+"setting up new machines should be directed to them.  This team is led by the "
+"lead cluster administrator whose duties and responsbilities are described in "
+"the https://www.freebsd.org/internal/clusteradm/[cluster administration "
+"charter] in greater detail."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:226 content/en/administration.adoc:296
+msgid "{allanjude}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:227 content/en/administration.adoc:276
+#: content/en/administration.adoc:313
+msgid "{bapt}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:228 content/en/administration.adoc:254
+#: content/en/administration.adoc:277
+msgid "{brd}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:229
+msgid "{dhw}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:232 content/en/administration.adoc:279
+#: content/en/administration.adoc:301
+msgid "{lwhsu}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:233
+msgid "{peter}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:235
+msgid "{sbruno}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:236
+msgid "{simon}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:237
+msgid "{zi} (Lead)"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:239
+#, no-wrap
+msgid "DNS Administrators <dnsadm@>"
+msgstr ""
+
+#. admins mail aliases intentionally left incomplete
+#. type: Plain text
+#: content/en/administration.adoc:245
+msgid ""
+"The DNS Administrators are responsible for managing DNS and related "
+"services."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:247
+msgid ""
+"E-mail to the DNS Administrators is currently forwarded to the Cluster "
+"Administrators."
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:249
+#, no-wrap
+msgid "FreeBSD Forum Administrators <forum-admins@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:252
+msgid ""
+"The Forum Administrators maintain the FreeBSD Project's Internet forum, "
+"located at https://forums.freebsd.org/ and lead the group of moderators who "
+"work to ensure the relevance and quality of the forum's content."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:255
+msgid "{danger}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:256
+msgid "{dutchdaemon}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:257
+msgid "{lme}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:259
+#, no-wrap
+msgid ""
+"Repository Automated Mirroring to GitHub Coordinators "
+"<github-automation@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:262
+msgid ""
+"The GitHub Automation team oversees the export of FreeBSD source code "
+"repository content to the read-only repository instances on GitHub"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:266
+msgid "{robak}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:267
+msgid "{rodrigc}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:268
+msgid "{uqs}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:270
+#, no-wrap
+msgid ""
+"Jenkins Continuous Integration Testing Administrators "
+"<jenkins-admin@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:274
+msgid ""
+"The Jenkins Administrators maintain the Continuous Integration and testing "
+"infrastructure for The FreeBSD Project.  This includes maintaining the "
+"Jenkins instance and the jobs that run builds and execute tests."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:278
+msgid "{brooks}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:280
+msgid "{markj} (Core Team Liaison)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:281
+msgid "{seanc}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:284
+#, no-wrap
+msgid "FTP/WWW Mirror Site Coordinators <mirror-admin@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:287
+msgid ""
+"The FTP/WWW Mirror Site Coordinators coordinate all the FTP/WWW mirror site "
+"administrators to ensure that they are distributing current versions of the "
+"software, that they have the capacity to update themselves when major "
+"updates are in progress, and making it easy for the general public to find "
+"their closest FTP/WWW mirror."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:289
+msgid ""
+"E-mail to the Mirror Site Coordinators is currently forwarded to the Cluster "
+"Administrators."
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:291
+#, no-wrap
+msgid ""
+"Phabricator Code Review Application Administrators "
+"<phabric-admin@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:294
+msgid ""
+"The Phabricator Administrators are responsible for maintaining the FreeBSD's "
+"instance of the Phabricator on-line code review tool located at "
+"https://reviews.freebsd.org/"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:299
+msgid "{emaste}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:300
+msgid "{jtl}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:302
+msgid "{mat}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:303
+msgid "{miwi}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:304 content/en/administration.adoc:317
+msgid "{pi}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:306
+msgid ""
+"For any problems regarding Phabricator, please "
+"https://bugs.freebsd.org/submit/[open a bug report] and select \"Services\" "
+"and then \"Code Review\"."
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:308
+#, no-wrap
+msgid "Postmaster Team <postmaster@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:311
+msgid ""
+"The Postmaster Team is responsible for mail being correctly delivered to the "
+"committers' email address, ensuring that the mailing lists work, and should "
+"take measures against possible disruptions of project mail services, such as "
+"having troll-, spam- and virus-filters."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:314
+msgid "{krion}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:315
+msgid "{ler}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:318
+msgid "{rea}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:319
+msgid "{zi}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:321
+#, no-wrap
+msgid "Subversion Administrators <svnadm@>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:324
+msgid ""
+"The FreeBSD Subversion team is responsible for maintaining the health of the "
+"Subversion Repositories."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:326
+msgid ""
+"Email to the Subversion Administration team is currently forwarded to the "
+"Cluster Administrators."
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:328
+#, no-wrap
+msgid "Webmaster Team <webmaster@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:332
+msgid ""
+"The FreeBSD Webmaster Team is appointed by FreeBSD Documentation Engineering "
+"Team, and responsible for keeping the main FreeBSD web sites up and "
+"running.  This means web server configuration, CGI scripts, fulltext and "
+"mailing list search. Anything web related, technical stuff belongs to the "
+"scope of the Webmaster Team, excluding bugs in the documentation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:334
+msgid ""
+"Email to the Webmaster Team is currently forwarded to the Documentation "
+"Engineering team with the addition of:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:336
+msgid "{wosch}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/administration.adoc:338
+#, no-wrap
+msgid "Wiki Admin Team <wiki-admin@FreeBSD.org>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:341
+msgid ""
+"The FreeBSD Wiki Team is responsible for keeping the FreeBSD "
+"https://wiki.FreeBSD.org/[Wiki] site up and running. They also shape the "
+"overall design and content structure."
+msgstr ""
+
+#. type: Plain text
+#: content/en/administration.adoc:343
+msgid "{linimon}"
+msgstr ""

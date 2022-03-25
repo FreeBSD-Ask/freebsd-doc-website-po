@@ -1,0 +1,307 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/java/_index.adoc:1
+#, no-wrap
+msgid "FreeBSD Java® Project"
+msgstr ""
+
+#. type: Title =
+#: content/en/java/_index.adoc:8
+#, no-wrap
+msgid "FreeBSD Java(R) Project"
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: content/en/java/_index.adoc:11
+#, no-wrap
+msgid "Jump to Java(R)"
+msgstr ""
+
+#. type: Target for macro image
+#: content/en/java/_index.adoc:11
+#, no-wrap
+msgid "../gifs/j2j.gif"
+msgstr ""
+
+#. type: Title ==
+#: content/en/java/_index.adoc:13
+#, no-wrap
+msgid "Getting Java"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:16
+msgid "There are two choices of Java Development Kits on FreeBSD:"
+msgstr ""
+
+#. type: Title ===
+#: content/en/java/_index.adoc:17
+#, no-wrap
+msgid "OpenJDK"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:20
+msgid ""
+"The OpenJDK(R) project provides a native open-source implementation of the "
+"Java(R) SE Platform. It is available for all currently supported FreeBSD "
+"releases in the following combinations of versions (by architecture):"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:22
+#, no-wrap
+msgid "*aarch64*: `openjdk8`, `openjdk11`, `openjdk12`, `openjdk13`\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:24
+#, no-wrap
+msgid "*amd64*: `openjdk7`, `openjdk8`, `openjdk11`, `openjdk12`, `openjdk13`\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:26
+#, no-wrap
+msgid "*arm6*: `openjdk8`\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:28
+#, no-wrap
+msgid "*arm7*: `openjdk8`\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:30
+#, no-wrap
+msgid "*i386*: `openjdk7`, `openjdk8`, `openjdk11`, `openjdk12`, `openjdk13`\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:32
+#, no-wrap
+msgid "*powerpc*: `openjdk8`\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:34
+#, no-wrap
+msgid "*powerpc64*: `openjdk8`, `openjdk11`, `openjdk12`, `openjdk13`\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:36
+msgid ""
+"OpenJDK(R) is frequently updated, and it is suggested to refer to "
+"https://cgit.freebsd.org/ports/log/java/[revision logs] for detailed release "
+"history. Additionally, one may choose to review more information at "
+"https://www.freshports.org/search.php?query=openjdk&search=go&num=10&stype=name&method=match&deleted=excludedeleted&start=1&casesensitivity=caseinsensitive[FreshPorts]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:38
+msgid ""
+"To install OpenJDK(R) package use the "
+"link:https://www.freebsd.org/cgi/man.cgi?query=pkg[`pkg`] utility or the "
+"ports system:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:40
+msgid "`pkg install openjdk[version]`"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:42 content/en/java/_index.adoc:52
+#: content/en/java/_index.adoc:64
+msgid "or"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:44
+msgid "`cd /usr/ports/java/openjdk[version]`"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:46 content/en/java/_index.adoc:56
+#: content/en/java/_index.adoc:68
+msgid "`make install clean`"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:48
+msgid "where [version] is one of 7, 8, 11, 12, or 13. An example (`openjdk11`):"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:50
+msgid "`pkg install openjdk11`"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:54
+msgid "`cd /usr/ports/java/openjdk11`"
+msgstr ""
+
+#. type: Title ===
+#: content/en/java/_index.adoc:57
+#, no-wrap
+msgid "Oracle JDK for Linux"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:60
+msgid ""
+"This port installs the Java Development Kit from Oracle which was built for "
+"Linux. It will run under FreeBSD using the Linux compatibility."
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:62
+msgid "`pkg install linux-oracle-jdk18`"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:66
+msgid "`cd /usr/ports/java/linux-oracle-jdk18`"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:70
+#, no-wrap
+msgid ""
+"*Note:* Please note that due to the current licensing policy the Oracle JDK "
+"on FreeBSD binaries can not be distributed and you are only permitted to use "
+"them personally. For the same reason, the sources must be fetched "
+"manually.\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/java/_index.adoc:71
+#, no-wrap
+msgid "Documentation"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:74
+msgid "link:{porters-handbook}#using-java[Creating Ports]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/java/_index.adoc:75
+#, no-wrap
+msgid "I want to help by..."
+msgstr ""
+
+#. type: Title ===
+#: content/en/java/_index.adoc:77
+#, no-wrap
+msgid "... fixing bugs or adding new features"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:80
+msgid ""
+"The main repositories for the BSD port of OpenJDK are publically available "
+"on Github. Pull requests are welcome. You can find more information on this "
+"https://wiki.freebsd.org/Ports/openjdk_11[Wiki]"
+msgstr ""
+
+#. type: Title ===
+#: content/en/java/_index.adoc:81
+#, no-wrap
+msgid "... testing"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:84
+msgid ""
+"The best thing you can do is download the latest release, install it, and "
+"try all your favorite Java applications. If they don't work, see below."
+msgstr ""
+
+#. type: Title ===
+#: content/en/java/_index.adoc:85
+#, no-wrap
+msgid "... reporting a bug"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:88
+msgid ""
+"If you find an application that does not work, or crashes, here are the "
+"steps you should follow before reporting it:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:90
+msgid "Try it again."
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:91
+msgid ""
+"Check your settings for this application. Check to see if you made a mistake "
+"in starting it up."
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:92
+msgid ""
+"Try it on a different platform. If you have access to a reference platform, "
+"try it there. (We need to determine if it is an application error, a Java "
+"bug, or a FreeBSD specific bug.)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:93
+msgid ""
+"Narrow down the problem. If it is your own code, narrow down the bug to the "
+"offending code. Otherwise, determine the steps required to reproduce the "
+"problem."
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:94
+msgid ""
+"Notify the JDK porting team. Send email to freebsd-java@FreeBSD.org. Be sure "
+"to include the steps you have followed."
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:95
+msgid ""
+"Finally, and most importantly, be willing to work with the team to fix the "
+"problem."
+msgstr ""
+
+#. type: Title ===
+#: content/en/java/_index.adoc:96
+#, no-wrap
+msgid "...writing documentation"
+msgstr ""
+
+#. type: Plain text
+#: content/en/java/_index.adoc:98
+msgid ""
+"Everyone can help here. If you have a suggestion to add to the "
+"documentation, write it up and send it to freebsd-java@FreeBSD.org"
+msgstr ""

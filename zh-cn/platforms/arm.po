@@ -1,0 +1,478 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/platforms/arm.adoc:1 content/en/platforms/arm.adoc:9
+#, no-wrap
+msgid "FreeBSD/ARM Project"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/arm.adoc:11
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:14
+msgid ""
+"This page contains information about the FreeBSD port to the 32- and 64-bit "
+"ARM architectures and hardware. Discussion of the ARM ports takes place on "
+"the https://lists.freebsd.org/archives/freebsd-arm[freebsd-arm] mailing "
+"list."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/arm.adoc:15
+#, no-wrap
+msgid "Table Of Contents"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:18
+msgid "<<status,Status>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:19
+msgid "<<hw,Hardware List>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:20
+msgid "<<todo,What Needs To Be Done>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:21
+msgid "<<links,FreeBSD/ARM Related Links>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:22
+msgid "<<miniinst,Mini-Install Guide>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:23
+msgid "<<list,FreeBSD/ARM mailing list>>"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/arm.adoc:25
+#, no-wrap
+msgid "Status"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:28
+msgid ""
+"32-bit ARMv6 and ARMv7 is officially a link:{committers-guide}#archs[Tier 2] "
+"architecture, as the link:../../[FreeBSD] project does not provide official "
+"releases or pre-built packages for this platform due to it primarily "
+"targeting the embedded arena. However, FreeBSD/ARM is being actively "
+"developed and maintained, is well supported, and provides an excellent "
+"framework for building ARM-based systems. FreeBSD/arm supported ARMv4 and "
+"ARMv5 processors, and is deprecated as of 13.0. FreeBSD/armv7 includes SMP "
+"support."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:30
+msgid ""
+"FreeBSD/arm64 supports 64-bit ARMv8 processors and is a "
+"link:{committers-guide}#archs[Tier 1] architecture as of 13.0. 64-bit ARM "
+"platforms follow a set of standard conventions, and a single FreeBSD build "
+"will work on hardware from multiple vendors. As a result, FreeBSD provides "
+"official releases for FreeBSD/arm64 and packages are available."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/arm.adoc:32
+#, no-wrap
+msgid "FreeBSD/ARM Hardware Notes"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:35
+msgid ""
+"FreeBSD/arm and FreeBSD/armv6 support a large range of ARM CPUs and "
+"development boards. Not every peripheral is supported on every CPU or board, "
+"though work continues towards this and contributions are always "
+"welcome. Conversely, many CPUs and boards not listed may work with only "
+"minimal changes needed."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:37
+msgid ""
+"Listing all supported devices on all CPUs and boards is impractical here, "
+"however much information can be obtained from the mailing list and archives, "
+"https://wiki.freebsd.org/FreeBSD/arm[the FreeBSD/arm Wiki pages], and also "
+"from the https://cgit.freebsd.org/src/tree/sys/arm/conf/[Kernel "
+"Configuration files]"
+msgstr ""
+
+#. type: Title ===
+#: content/en/platforms/arm.adoc:38
+#, no-wrap
+msgid "Cores Supported"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:41
+msgid "ARM9E"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:42
+msgid "Most XScale"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:43
+msgid "Marvel Feroceon"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:44
+msgid "Marvel Sheeva"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:45
+msgid "ARM10E"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:46
+msgid "ARM11J"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:47
+msgid "Cortex A5"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:48
+msgid "Cortex A7"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:49
+msgid "Cortex A8"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:50
+msgid "Cortex A9"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:51
+msgid "Cortex A12"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:52
+msgid "Cortex A15"
+msgstr ""
+
+#. type: Title ===
+#: content/en/platforms/arm.adoc:53
+#, no-wrap
+msgid "SoCs"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:56
+msgid "Allwinner A10/A20"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:57
+msgid "Atmel AT91RM92 and AT91SAM9 families"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:58
+msgid "Broadcom BCM2835 (used in Raspberry Pi)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:59
+msgid "Cavium CNS11xx"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:60
+msgid "Freescale i.MX51, i.MX53, i.MX6 and Vybrid Family"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:61
+msgid "Intel XSCALE"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:62
+msgid "Marvell Orion, Kirkwood and Discovery Innovation families of systems-on-chip"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:63
+msgid "Marvell Armada 500 (ARMv6) and Armada XP (ARMv7)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:64
+msgid "NXP LPC32x0"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:65
+msgid "Qualcomm Snapdragon"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:66
+msgid "Rockchip RK3188"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:67
+msgid "Samsung Exynos5 and S3C24xxx"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:68
+msgid "Texas Instruments DaVinci Digital Media SoC"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:69
+msgid "TI OMAP"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:70
+msgid "Xilinx Zynq7 family"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:72
+msgid "Note that not all peripherals are supported on all CPUs."
+msgstr ""
+
+#. type: Title ===
+#: content/en/platforms/arm.adoc:73
+#, no-wrap
+msgid "Boards"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:76
+msgid "ArndaleBoard (Samsung Exynos5250)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:77
+msgid "Atmel AT91RM9200"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:78
+msgid "BeagleBoard and BeagleBoard-xM (TI OMAP3)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:79
+msgid "BeagleBone"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:80
+msgid "Colibri VF50 Evaluation Board"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:81
+msgid "Cubieboard(1,2) (Allwinner A10/A20)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:82
+msgid "Device Solutions Quartz"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:83
+msgid "Gateworks Avila GW2348 and Cambria GW2358"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:84
+msgid "Genesi Efika MX Smarttop and Smartbook"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:85
+msgid "Globalscale Technologies OpenRD platform"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:86
+msgid "Google Chromebook"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:87
+msgid "Kwikbyte KB9202B (as well as the older KB9202 and KB9202A)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:88
+msgid "Linksys NSLU2"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:89
+msgid "Marvell DB-88F5182, DB-88F5281, DB-88F6281, RD-88F6281, DB-78100"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:90
+msgid "Marvell DB-88F6781 (ARMv6)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:91
+msgid "Marvell DB-78460 (ARMv7)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:92
+msgid "Marvell Sheeva Plug and Dream Plug"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:93
+msgid "Pandaboard (OMAP4)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:94
+msgid "Phytec Cosmic Board (Freescale Vybrid Family)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:95
+msgid "Raspberry Pi"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:96
+msgid "Radxa Rock (Work in progress)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:97
+msgid "SBC6045 with Atmel at91sam9g45"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:98
+msgid "Technologic Systems TS-7200 and TS-7800"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:99
+msgid "Wandboard"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:100
+msgid "Zedboard (Xilinx Zynq)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:102
+msgid "Note that not all peripherals are supported on all boards."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/arm.adoc:104
+#, no-wrap
+msgid "What Needs To Be Done"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:107
+msgid "SATA support needs to be added for boards currently missing it."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:108
+msgid "Other devices, such as watchdog, i2c and bus should be merged from NetBSD."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/arm.adoc:110
+#, no-wrap
+msgid "FreeBSD/ARM Related Links"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:113
+msgid ""
+"http://esd.et.ntust.edu.tw/downloads/2008_Embedded_Programming/2008_ESW/Embedded_3_ARM.pdf[Brief "
+"history of ARM]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:114
+msgid "http://www.netbsd.org/ports/#ports-by-cpu[NetBSD Arm projects]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/arm.adoc:116
+#, no-wrap
+msgid "Mini-Install guide"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:119
+msgid ""
+"{cognet} has written a mini-install guide for the current FreeBSD source. It "
+"is https://people.FreeBSD.org/~cognet/arm.html[available here]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/arm.adoc:121
+#, no-wrap
+msgid "FreeBSD/ARM mailing list"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/arm.adoc:123
+msgid ""
+"To subscribe to this list, send mail to "
+"`<freebsd-arm+subscribe@FreeBSD.org>` or visit the "
+"http://lists.FreeBSD.org/subscription/freebsd-arm[web interface]."
+msgstr ""

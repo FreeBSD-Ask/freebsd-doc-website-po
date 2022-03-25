@@ -1,0 +1,465 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:08+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/platforms/sparc.adoc:1 content/en/platforms/sparc.adoc:9
+#, no-wrap
+msgid "FreeBSD/sparc64 Project"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/sparc.adoc:12
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:15
+msgid ""
+"This page contains information about the FreeBSD port to Fujitsu's "
+"SPARC64(R) and Oracle's UltraSPARC(R) architectures. Discussion of this port "
+"takes place on the "
+"https://lists.freebsd.org/subscription/freebsd-sparc64[freebsd-sparc] "
+"mailing list."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/sparc.adoc:16
+#, no-wrap
+msgid "Table Of Contents"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:19
+msgid "<<status,Status>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:20
+msgid "<<hw,Hardware List>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:21
+msgid "<<list,FreeBSD/sparc64 mailing list>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:22
+msgid "<<links,FreeBSD/Points of Interest>>"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/sparc.adoc:24
+#, no-wrap
+msgid "Status"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:27
+msgid ""
+"UltraSPARC is a link:{committers-guide}#archs[Tier 2] architecture through "
+"FreeBSD 12.x. It is no longer supported in FreeBSD 13.0 and later."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/sparc.adoc:29
+#, no-wrap
+msgid "Hardware List"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:32
+msgid ""
+"A summary of supported systems follows. SMP is supported on all supported "
+"systems that contain more than 1 processor. For full details, please see the "
+"link:../../releases/{rel120-current}r/hardware/[hardware notes] of the "
+"link:../../releases/[release] you are using."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:34
+msgid "Naturetech GENIALstation 777S"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:35
+msgid "Sun Blade 100"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:36
+msgid "Sun Blade 150"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:37
+msgid "Sun Enterprise 150"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:38
+msgid "Sun Enterprise 220R"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:39
+msgid "Sun Enterprise 250"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:40
+msgid "Sun Enterprise 420R"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:41
+msgid "Sun Enterprise 450"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:42
+msgid "Sun Fire B100s (support for the on-board NICs first appeared in 8.1-RELEASE)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:43
+msgid "Sun Fire V100"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:44
+msgid "Sun Fire V120"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:45
+msgid "Sun Netra(T) T1 100/105"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:46
+msgid "Sun Netra T1 AC200/DC200"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:47
+msgid "Sun Netra t 1100"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:48
+msgid "Sun Netra t 1120"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:49
+msgid "Sun Netra t 1125"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:50
+msgid "Sun Netra t 1400/1405"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:51
+msgid "Sun Netra 120"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:52
+msgid "Sun Netra X1"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:53
+msgid "Sun SPARCEngine(R) Ultra AX1105"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:54
+msgid "Sun SPARCEngine Ultra AXe"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:55
+msgid "Sun SPARCEngine Ultra AXi"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:56
+msgid "Sun SPARCEngine Ultra AXmp"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:57
+msgid "Sun SPARCEngine CP1500"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:58
+msgid "Sun Ultra(T) 1"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:59
+msgid "Sun Ultra 1E"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:60
+msgid "Sun Ultra 2"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:61
+msgid "Sun Ultra 5"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:62
+msgid "Sun Ultra 10"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:63
+msgid "Sun Ultra 30"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:64
+msgid "Sun Ultra 60"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:65
+msgid "Sun Ultra 80"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:66
+msgid "Sun Ultra 450"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:68
+msgid ""
+"These systems are partially supported by FreeBSD. In particular, the fibre "
+"channel controllers in SBus-based systems are not supported. However, it is "
+"possible to use these with a SCSI controller supported by the esp(4) driver "
+"(Sun ESP SCSI, Sun FAS Fast-SCSI and Sun FAS366 Fast-Wide SCSI controllers)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:70
+msgid "Sun Enterprise 3500"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:71
+msgid "Sun Enterprise 4500"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:73
+msgid ""
+"Starting with 7.2-RELEASE, sparc64 systems based on Sun UltraSPARC III and "
+"beyond are also supported by FreeBSD, which includes these known working "
+"systems:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:75
+msgid "Sun Blade 1000"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:76
+msgid "Sun Blade 1500"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:77
+msgid "Sun Blade 2000"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:78
+msgid "Sun Blade 2500"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:79
+msgid "Sun Fire 280R"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:80
+msgid "Sun Fire V210"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:81
+msgid "Sun Fire V215 (support first appeared in 7.3-RELEASE and 8.1-RELEASE)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:82
+msgid "Sun Fire V240"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:83
+msgid "Sun Fire V245 (support first appeared in 7.3-RELEASE and 8.1-RELEASE)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:84
+msgid "Sun Fire V250"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:85
+msgid ""
+"Sun Fire V440 (support for the on-board NICs first appeared in 7.3-RELEASE "
+"and 8.0-RELEASE)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:86
+msgid ""
+"Sun Fire V480 (501-6780 and 501-6790 centerplanes only, for which support "
+"first appeared in 7.3-RELEASE and 8.1-RELEASE, other centerplanes might work "
+"beginning with 8.3-RELEASE and 9.0-RELEASE)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:87
+msgid "Sun Fire V880"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:88
+msgid ""
+"Sun Fire V890 (support first appeared in 7.4-RELEASE and 8.1-RELEASE, "
+"non-mixed Ultrasparc IV/IV+ CPU-configurations only)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:89
+msgid "Sun Netra 20/Netra T4"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:91
+msgid ""
+"These Sun UltraSPARC systems are not tested but are believed to also be "
+"supported by FreeBSD:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:93
+msgid "Sun Fire V125"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:94
+msgid ""
+"Sun Fire V490 (support first appeared in 7.4-RELEASE and 8.1-RELEASE, "
+"non-mixed Ultrasparc IV/IV+ CPU-configurations only)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:96
+msgid ""
+"Starting with 7.4-RELEASE and 8.1-RELEASE, sparc64 systems based on Fujitsu "
+"SPARC64 V are also supported by FreeBSD, which includes these known working "
+"systems:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:98
+msgid "Fujitsu PRIMEPOWER(R) 250"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:100
+msgid ""
+"These Fujitsu SPARC64 systems have not been tested but are believed to also "
+"be supported by FreeBSD:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:102
+msgid "Fujitsu PRIMEPOWER 450"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:103
+msgid "Fujitsu PRIMEPOWER 650"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:104
+msgid "Fujitsu PRIMEPOWER 850"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:106
+msgid ""
+"If you have a system that is not listed here, please try it and let "
+"mailto:freebsd-sparc@FreeBSD.org[us] know about it."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/sparc.adoc:108
+#, no-wrap
+msgid "FreeBSD/sparc64 mailing list"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:111
+msgid ""
+"To subscribe to this list, send an email to "
+"`<freebsd-sparc64+subscribe@FreeBSD.org>` or visit the "
+"https://lists.FreeBSD.org/subscription/freebsd-sparc64[mlmmj interface]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/sparc.adoc:113
+#, no-wrap
+msgid "Points Of Interest"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:116
+msgid ""
+"http://www.sparc.org/technical-documents-test-2/[SPARC Standards and "
+"technical documents]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:117
+msgid "http://www.netbsd.org/Ports/sparc64/[NetBSD/sparc64]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/sparc.adoc:117
+msgid "http://www.openbsd.org/sparc64.html[OpenBSD/sparc64]"
+msgstr ""

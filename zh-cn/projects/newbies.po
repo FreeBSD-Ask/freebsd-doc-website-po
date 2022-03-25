@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:20+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/projects/newbies.adoc:1 content/en/projects/newbies.adoc:8
+#, no-wrap
+msgid "Resources for Newbies"
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/newbies.adoc:10
+#, no-wrap
+msgid "Getting FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:13
+msgid ""
+"The latest FreeBSD releases are available link:../../where/[here]. Before "
+"you begin, please carefully read the link:{handbook}bsdinstall[installation "
+"instructions]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/newbies.adoc:14
+#, no-wrap
+msgid "Learning about FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:17
+msgid ""
+"The link:{handbook}[FreeBSD Handbook] and link:{faq}[Frequently Asked "
+"Questions (FAQ)] are the main documents for FreeBSD. Essential reading, they "
+"contain a lot of material for newbies as well as advanced users. For users "
+"interested in installing a GUI, see the link:{handbook}x11[X Windows] "
+"chapter."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:18
+msgid ""
+"https://www.freebsd.org/cgi/man.cgi[Manual pages] are good for reference but "
+"not always the best introduction for a novice. They generally provide "
+"information on a specific command, driver or service."
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/newbies.adoc:19
+#, no-wrap
+msgid "Questions and Support"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:22
+msgid ""
+"Join the FreeBSD-Questions mailing list to see the questions you were too "
+"afraid to ask, and their answers. Subscribe by filling out the following "
+"form: https://lists.FreeBSD.org/subscription/freebsd-questions. You can look "
+"up old questions and answers via the link:../../search/#mailinglists[search] "
+"page."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:23
+msgid ""
+"The FreeBSD https://forums.freebsd.org[Forums] offer another support "
+"channel. Many users have written various tutorials and lots of new users "
+"receive help there."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:24
+msgid ""
+"You can link:../../search/[search] the Handbook and FAQ, the whole web site, "
+"or the FreeBSD mailing list archives."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:25
+msgid ""
+"The link:../../support/[Support] page contains a wealth of information about "
+"FreeBSD, including mailing lists, user groups, web and FTP sites, release "
+"information, and links to some sources of UNIX(R) information."
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/newbies.adoc:26
+#, no-wrap
+msgid "Learning about FreeBSD-derived projects"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:29
+msgid ""
+"FreeBSD is widely used as a building block for other commercial and "
+"open-source operating systems. Some of the most widely used and publicly "
+"available systems are listed below."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:31
+msgid ""
+"https://www.truenas.com/[TrueNAS] is a Network Attached Storage (NAS) "
+"software that shares and protects data from modern-day threats like "
+"ransomware and malware. TrueNAS makes it easy for users and client devices "
+"to access shared data through virtually any sharing protocol."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:32
+msgid ""
+"https://ghostbsd.org[GhostBSD] is derived from FreeBSD, GhostBSD uses the "
+"GTK environment to provide a beautiful looks and comfortable experience on "
+"the modern BSD platform offering a natural and native UNIX(R) work "
+"environment."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:33
+msgid ""
+"https://nomadbsd.org[NomadBSD] is a persistent live system for USB flash "
+"drives, based on FreeBSD. Together with automatic hardware detection and "
+"setup, it is configured to be used as a desktop system that works out of the "
+"box, but can also be used for data recovery, for educational purposes, or to "
+"test FreeBSD's hardware compatibility."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:34
+msgid ""
+"https://www.midnightbsd.org[MidnightBSD] is a BSD-derived operating system "
+"developed with desktop users in mind. It includes all the software you'd "
+"expect for your daily tasks: mail, web browsing, word processing, gaming, "
+"and much more."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:35
+msgid ""
+"http://www.pfsense.org[pfSense] is a FreeBSD based network security "
+"solution. pfSense software, with the help of the package system, is able to "
+"provide the same functionality or more of common commercial firewalls, "
+"without any of the artificial limitations. It has successfully replaced "
+"every big name commercial firewall you can imagine in numerous installations "
+"around the world."
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/newbies.adoc:36
+#, no-wrap
+msgid "How to Contribute"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:39
+msgid ""
+"Everyone has something to contribute to the FreeBSD community, even newbies! "
+"Some are busy working with the new advocacy group and some have become "
+"involved with the link:../../docproj/[Documentation Project] as "
+"reviewers. Other FreeBSD newbies might have particular skills and "
+"experiences to share, either computer related or not, or just want to meet "
+"new newbies and make them feel welcome. There are always people around who "
+"help others simply because they like to."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:41
+msgid ""
+"Friends who run FreeBSD are a great resource. No book can replace chatting "
+"on the phone or across a pizza with someone who has the same interests, "
+"enjoys similar accomplishments, and faces the same challenges. If you do not "
+"have many friends who use FreeBSD, consider using your old FreeBSD CDs to "
+"create some more."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:43
+msgid ""
+"link:../../usergroups/[User groups] are good places to meet other FreeBSD "
+"users. If there is no one nearby, you might consider starting one!"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/newbies.adoc:44
+msgid ""
+"For more information on getting involved in the community, see the "
+"link:{contributing}[Contributing to FreeBSD] article."
+msgstr ""

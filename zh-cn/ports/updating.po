@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/ports/updating.adoc:1 content/en/ports/updating.adoc:8
+#, no-wrap
+msgid "Updating FreeBSD Ports"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/updating.adoc:11
+msgid "{{< form-ports >}}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/updating.adoc:13
+msgid "'''''"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/updating.adoc:15
+msgid ""
+"The ports listed on these web pages are continually being updated. It is "
+"strongly recommended that you refresh the entire collection together, as "
+"many ports depend on other parts of the tree, even where that might seem "
+"counterintuitive (e.g. `japanese/`.)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/updating.adoc:17
+msgid ""
+"Changes that affect the entire port system are now documented in the "
+"https://cgit.FreeBSD.org/ports/tree/CHANGES[CHANGES] file. Changes that "
+"affect individual ports are now documented in the "
+"https://cgit.FreeBSD.org/ports/tree/UPDATING[UPDATING] file."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/updating.adoc:19
+msgid ""
+"For more information about new, changed or removed ports/packages, or if you "
+"wish to search for a specific application to see if it's available as a "
+"port/package, you may use the form above; alternatively, you may wish to "
+"visit https://www.FreshPorts.org[FreshPorts.org] and either browse the site "
+"or subscribe to the lists hosted there."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/updating.adoc:20
+msgid ""
+"To learn more about installing and maintaining ports, see "
+"link:{handbook}ports/[Installing Applications: Packages and Ports], a "
+"section of the link:{handbook}[FreeBSD Handbook]; the section of the "
+"Porter's Handbook called link:{porters-handbook}#keeping-up[Keeping Up]; and "
+"the link:https://www.FreeBSD.org/cgi/man.cgi?query=ports[`ports manual "
+"page`]."
+msgstr ""

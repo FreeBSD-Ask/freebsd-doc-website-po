@@ -1,0 +1,631 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.11R/errata.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.11-RELEASE Errata"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:10
+#, no-wrap
+msgid "<h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:13
+#, no-wrap
+msgid ""
+"<p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001, 2002, 2003, 2004, 2005 "
+"The FreeBSD\n"
+"Documentation Project</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:17
+#, no-wrap
+msgid ""
+"<p class=\"PUBDATE\">$FreeBSD: "
+"src/release/doc/en_US.ISO8859-1/errata/article.sgml,v\n"
+"1.1.2.136 2007/03/07 20:00:32 bmah Exp $<br />\n"
+"</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:20
+#, no-wrap
+msgid ""
+"<div class=\"LEGALNOTICE\"><a id=\"TRADEMARKS\" name=\"TRADEMARKS\"></a>\n"
+"<p>FreeBSD is a registered trademark of the FreeBSD Foundation.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:24
+#, no-wrap
+msgid ""
+"<p>Intel, Celeron, EtherExpress, i386, i486, Itanium, Pentium, and Xeon are "
+"trademarks or\n"
+"registered trademarks of Intel Corporation or its subsidiaries in the United "
+"States and\n"
+"other countries.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:30
+#, no-wrap
+msgid ""
+"<p>Many of the designations used by manufacturers and sellers to distinguish "
+"their\n"
+"products are claimed as trademarks. Where those designations appear in this "
+"document, and\n"
+"the FreeBSD Project was aware of the trademark claim, the designations have "
+"been followed\n"
+"by the ``&trade;'' or the ``&reg;'' symbol.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:33
+#, no-wrap
+msgid ""
+"<hr />\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:44
+#, no-wrap
+msgid ""
+"<blockquote class=\"ABSTRACT\">\n"
+"<div class=\"ABSTRACT\"><a id=\"AEN20\" name=\"AEN20\"></a>\n"
+"<p>This document lists errata items for FreeBSD 4.11-RELEASE, containing "
+"significant\n"
+"information discovered after the release or too late in the release cycle to "
+"be otherwise\n"
+"included in the release documentation. This information includes security "
+"advisories, as\n"
+"well as news relating to the software or documentation that could affect its "
+"operation or\n"
+"usability. An up-to-date version of this document should always be consulted "
+"before\n"
+"installing this version of FreeBSD.</p>\n"
+"</div>\n"
+"</blockquote>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:48
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h2 class=\"SECT1\"><a id=\"AEN22\" name=\"AEN22\">1 Introduction</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:52
+#, no-wrap
+msgid ""
+"<p>This errata document contains ``late-breaking news'' about FreeBSD "
+"4.11-RELEASE.\n"
+"Before installing this version, it is important to consult this document to "
+"learn about\n"
+"any post-release discoveries or problems that may already have been found "
+"and fixed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:60
+#, no-wrap
+msgid ""
+"<p>Any version of this errata document actually distributed with the release "
+"(for\n"
+"example, on a CDROM distribution) will be out of date by definition, but "
+"other copies are\n"
+"kept updated on the Internet and should be consulted as the ``current "
+"errata'' for this\n"
+"release. These other copies of the errata are located at <a\n"
+"href=\"http://www.FreeBSD.org/releases/\"\n"
+"target=\"_top\">http://www.FreeBSD.org/releases/</a>, plus any sites which "
+"keep up-to-date\n"
+"mirrors of this location.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:63
+#, no-wrap
+msgid ""
+"<p>Source and binary snapshots of FreeBSD 4-STABLE also contain up-to-date "
+"copies of this\n"
+"document (as of the time of the snapshot).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:68
+#, no-wrap
+msgid ""
+"<p>For a list of all FreeBSD CERT security advisories, see <a\n"
+"href=\"http://security.FreeBSD.org/\" "
+"target=\"_top\">http://security.FreeBSD.org/</a> or <a\n"
+"href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\"\n"
+"target=\"_top\">ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:77
+#, no-wrap
+msgid ""
+"<div class=\"NOTE\">\n"
+"<blockquote class=\"NOTE\">\n"
+"<p><b>Note:</b> FreeBSD 4.11-RELEASE, as well as the FreeBSD 4-STABLE branch "
+"from which\n"
+"it comes, have reached ``End of Life'' status and are no longer supported as "
+"of 1\n"
+"February 2007. Specifically, the Security Officer Team will no longer be "
+"issuing\n"
+"advisories against FreeBSD 4-STABLE. In addition, the Ports Manager Team "
+"will no longer\n"
+"perform package builds for 4-STABLE, and building ports from source on "
+"4-STABLE is no\n"
+"longer supported.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:86
+#, no-wrap
+msgid ""
+"<p>Additional information on this topic can be found in <a\n"
+"href=\"http://lists.freebsd.org/pipermail/freebsd-stable/2007-February/032766.html\"\n"
+"target=\"_top\">a posting</a> to the <a\n"
+"href=\"http://lists.FreeBSD.org/mailman/listinfo/freebsd-stable\"\n"
+"target=\"_top\">FreeBSD-STABLE mailing list</a>.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:90
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h2 class=\"SECT1\"><a id=\"AEN39\" name=\"AEN39\">2 Security "
+"Advisories</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:95
+#, no-wrap
+msgid ""
+"<p>The following security advisories pertain to FreeBSD 4.11-RELEASE. For "
+"more\n"
+"information, consult the individual advisories available from <a\n"
+"href=\"http://security.FreeBSD.org/advisories/\"\n"
+"target=\"_top\">http://security.FreeBSD.org/advisories/</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:108
+#, no-wrap
+msgid ""
+"<div class=\"INFORMALTABLE\"><a id=\"AEN43\" name=\"AEN43\"></a>\n"
+"<table border=\"0\" frame=\"void\" class=\"CALSTABLE\">\n"
+"<col width=\"1*\" />\n"
+"<col width=\"1*\" />\n"
+"<col width=\"3*\" />\n"
+"<thead>\n"
+"<tr>\n"
+"<th>Advisory</th>\n"
+"<th>Date</th>\n"
+"<th>Topic</th>\n"
+"</tr>\n"
+"</thead>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:118
+#, no-wrap
+msgid ""
+"<tbody>\n"
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:01.telnet.asc\"\n"
+"target=\"_top\">SA-05:01.telnet</a></td>\n"
+"<td>28&nbsp;March&nbsp;2005</td>\n"
+"<td>\n"
+"<p>telnet client buffer overflows</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:127
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:02.sendfile.asc\"\n"
+"target=\"_top\">SA-05:02.sendfile</a></td>\n"
+"<td>4&nbsp;April&nbsp;2005</td>\n"
+"<td>\n"
+"<p>sendfile kernel memory disclosure</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:136
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:04.ifconf.asc\"\n"
+"target=\"_top\">SA-05:04.ifconf</a></td>\n"
+"<td>15&nbsp;April&nbsp;2005</td>\n"
+"<td>\n"
+"<p>Kernel memory disclosure in ifconf()</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:145
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:05.cvs.asc\"\n"
+"target=\"_top\">SA-05:05.cvs</a></td>\n"
+"<td>22&nbsp;April&nbsp;2005</td>\n"
+"<td>\n"
+"<p>Multiple vulnerabilities in CVS</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:154
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:06.iir.asc\"\n"
+"target=\"_top\">SA-05:06.iir</a></td>\n"
+"<td>6&nbsp;May&nbsp;2005</td>\n"
+"<td>\n"
+"<p>Incorrect permissions on /dev/iir</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:163
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:07.ldt.asc\"\n"
+"target=\"_top\">SA-05:07.ldt</a></td>\n"
+"<td>6&nbsp;May&nbsp;2005</td>\n"
+"<td>\n"
+"<p>Local kernel memory disclosure in i386_get_ldt</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:172
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:08.kmem.asc\"\n"
+"target=\"_top\">SA-05:08.kmem</a></td>\n"
+"<td>6&nbsp;May&nbsp;2005</td>\n"
+"<td>\n"
+"<p>Local kernel memory disclosure</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:181
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:09.htt.asc\"\n"
+"target=\"_top\">SA-05:09.htt</a></td>\n"
+"<td>13&nbsp;May&nbsp;2005</td>\n"
+"<td>\n"
+"<p>information disclosure when using HTT</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:190
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:11.gzip.asc\"\n"
+"target=\"_top\">SA-05:11.gzip</a></td>\n"
+"<td>9&nbsp;June&nbsp;2005</td>\n"
+"<td>\n"
+"<p>gzip directory traversal and permission race vulnerabilities</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:199
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:14.bzip2.asc\"\n"
+"target=\"_top\">SA-05:14.bzip2</a></td>\n"
+"<td>29&nbsp;June&nbsp;2005</td>\n"
+"<td>\n"
+"<p>bzip2 denial of service and permission race vulnerabilities</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:208
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-05:15.tcp.asc\"\n"
+"target=\"_top\">SA-05:15.tcp</a></td>\n"
+"<td>29&nbsp;June&nbsp;2005</td>\n"
+"<td>\n"
+"<p>TCP connection stall denial of service</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:217
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-06:16.smbfs.asc\"\n"
+"target=\"_top\">SA-06:16.smbfs</a></td>\n"
+"<td>31&nbsp;May&nbsp;2006</td>\n"
+"<td>\n"
+"<p>smbfs chroot escape</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:226
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-06:17.sendmail.asc\"\n"
+"target=\"_top\">SA-06:17.sendmail</a></td>\n"
+"<td>14&nbsp;June&nbsp;2006</td>\n"
+"<td>\n"
+"<p>Incorrect multipart message handling in Sendmail</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:237
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-06:18.ppp.asc\"\n"
+"target=\"_top\">SA-06:18.ppp</a></td>\n"
+"<td>23&nbsp;August&nbsp;2006</td>\n"
+"<td>\n"
+"<p>Buffer overflow in <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sppp&sektion=4&manpath=FreeBSD+4.11-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sppp</span>(4)</span></a></p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:248
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-06:19.openssl.asc\"\n"
+"target=\"_top\">SA-06:19.openssl</a></td>\n"
+"<td>06&nbsp;September&nbsp;2006</td>\n"
+"<td>\n"
+"<p>Incorrect PKCS#1 v1.5 padding validation in <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=crypto&sektion=3&manpath=FreeBSD+4.11-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">crypto</span>(3)</span></a></p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:259
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-06:21.gzip.asc\"\n"
+"target=\"_top\">SA-06:21.gzip</a></td>\n"
+"<td>19&nbsp;September&nbsp;2006</td>\n"
+"<td>\n"
+"<p>Multiple vulnerabilities in <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=gzip&sektion=1&manpath=FreeBSD+4.11-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">gzip</span>(1)</span></a></p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:268
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-06:22.openssh.asc\"\n"
+"target=\"_top\">SA-06:22.openssh</a></td>\n"
+"<td>30&nbsp;September&nbsp;2006</td>\n"
+"<td>\n"
+"<p>Multiple vulnerabilities in OpenSSH</p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:279
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-06:23.openssl.asc\"\n"
+"target=\"_top\">SA-06:23.openssl</a></td>\n"
+"<td>28&nbsp;September&nbsp;2006</td>\n"
+"<td>\n"
+"<p>Multiple problems in <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=crypto&sektion=3&manpath=FreeBSD+4.11-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">crypto</span>(3)</span></a></p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:290
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-06:25.kmem.asc\"\n"
+"target=\"_top\">SA-06:25.kmem</a></td>\n"
+"<td>6&nbsp;December&nbsp;2006</td>\n"
+"<td>\n"
+"<p>Kernel memory disclosure in <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=firewire&sektion=4&manpath=FreeBSD+4.11-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">firewire</span>(4)</span></a></p>\n"
+"</td>\n"
+"</tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:306
+#, no-wrap
+msgid ""
+"<tr>\n"
+"<td><a "
+"href=\"http://security.FreeBSD.org/advisories/FreeBSD-SA-06:26.gtar.asc\"\n"
+"target=\"_top\">SA-06:26.gtar</a></td>\n"
+"<td>6&nbsp;December&nbsp;2006</td>\n"
+"<td>\n"
+"<p><a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=gtar&sektion=1&manpath=FreeBSD+4.11-stable\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">gtar</span>(1)</span></a> name\n"
+"mangling symlink vulnerability</p>\n"
+"</td>\n"
+"</tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:310
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h2 class=\"SECT1\"><a id=\"AEN192\" name=\"AEN192\">3 Late-Breaking "
+"News</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:314
+#, no-wrap
+msgid ""
+"<p>No news.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:319
+#, no-wrap
+msgid ""
+"<hr />\n"
+"<p align=\"center\"><small>This file, and other release-related documents, "
+"can be\n"
+"downloaded from <a\n"
+"href=\"http://snapshots.jp.FreeBSD.org/\">http://snapshots.jp.FreeBSD.org/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:323
+#, no-wrap
+msgid ""
+"<p align=\"center\"><small>For questions about FreeBSD, read the <a\n"
+"href=\"http://www.FreeBSD.org/docs.html\">documentation</a> before "
+"contacting &#60;<a\n"
+"href=\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:327
+#, no-wrap
+msgid ""
+"<p align=\"center\"><small><small>All users of FreeBSD 4-STABLE should "
+"subscribe to the\n"
+"&#60;<a href=\"mailto:stable@FreeBSD.org\">stable@FreeBSD.org</a>&#62; "
+"mailing\n"
+"list.</small></small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:330
+#, no-wrap
+msgid ""
+"<p align=\"center\">For questions about this documentation, e-mail &#60;<a\n"
+"href=\"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&#62;.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata.adoc:333
+#, no-wrap
+msgid ""
+"<br />\n"
+"<br />\n"
+msgstr ""

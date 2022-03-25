@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/security/reporting.adoc:1 content/en/security/reporting.adoc:8
+#, no-wrap
+msgid "FreeBSD Security Vulnerability Reporting Information"
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/reporting.adoc:10
+#, no-wrap
+msgid "Table of contents"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:13
+msgid "<<how, How and where to report a FreeBSD security issue>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:14
+msgid "<<sec, Information about the FreeBSD Security Officer>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:15
+msgid "<<pol, Information handling policies>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:16
+msgid "link:../#sup[Supported FreeBSD Releases]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:17
+msgid "link:../unsupported[Unsupported FreeBSD Releases]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/reporting.adoc:19
+#, no-wrap
+msgid "How and where to report a FreeBSD security issue"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:22
+msgid ""
+"FreeBSD security issues specific to the operating system should be reported "
+"to the mailto:secteam@FreeBSD.org[FreeBSD Security Team] or, if a higher "
+"level of confidentiality is required, PGP encrypted to the "
+"mailto:security-officer@FreeBSD.org[Security Officer Team] using the "
+"link:../so_public_key.asc[Security Officer PGP key]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:24
+msgid ""
+"FreeBSD security issues specific to the Ports Collection should be reported "
+"to the mailto:ports-secteam@FreeBSD.org[FreeBSD Ports Security Team]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:26
+msgid "All reports should contain at least:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:28
+msgid "A description of the vulnerability."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:29
+msgid "What versions of FreeBSD seem to be affected if possible."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:30
+msgid "Any plausible workaround."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:31
+msgid "Example code if possible."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:33
+msgid ""
+"Whenever possible, including the background, problem description, impact, "
+"and workaround (if applicable) using the templates for "
+"link:../advisory-template.txt[security advisories] and "
+"link:../errata-template.txt[errata notices] as appropriate would also be "
+"helpful."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:35
+msgid ""
+"After this information has been reported the Security Officer or a Security "
+"Team delegate will get back to you."
+msgstr ""
+
+#. type: Title ===
+#: content/en/security/reporting.adoc:36
+#, no-wrap
+msgid "Spam filters"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:39
+msgid ""
+"Due to high volume of spam the main security contact mail addresses are "
+"subject to spam filtering. If you cannot contact the FreeBSD Security "
+"Officers or Security Team due to spam filters (or suspect your mail has been "
+"filtered), please send mail to `security-officer-XXXX@FreeBSD.org` with "
+"_XXXX_ replaced with `3432` instead of the normal addresses. Note that this "
+"address will be changed periodically so check back here for the latest "
+"address. Mails to this address will go to the FreeBSD Security Officer Team."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/reporting.adoc:41
+#, no-wrap
+msgid "The FreeBSD Security Officer Team and the FreeBSD Security Team"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:44
+msgid ""
+"In order that the FreeBSD Project may respond to vulnerability reports in a "
+"timely manner, emails sent to the "
+"mailto:security-officer@FreeBSD.org[<security-officer@FreeBSD.org>] mail "
+"alias are currently delivered to the following people:"
+msgstr ""
+
+#. type: Table
+#: content/en/security/reporting.adoc:51
+#, no-wrap
+msgid ""
+"|{gordon} |Security Officer\n"
+"|{emaste} |Deputy Security Officer\n"
+"|{delphij} |Security Officer Emeritus\n"
+"|{des} |Security Officer Emeritus\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:54
+msgid ""
+"The Security Officer is supported by the "
+"link:../../administration/#t-secteam[FreeBSD Security Team], "
+"mailto:secteam@FreeBSD.org[<secteam@FreeBSD.org>], a small group of "
+"committers vetted by the Security Officer."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/reporting.adoc:56
+#, no-wrap
+msgid "Information handling policies"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:59
+msgid ""
+"As a general policy, the FreeBSD Security Officer favors full disclosure of "
+"vulnerability information after a reasonable delay to permit safe analysis "
+"and correction of a vulnerability, as well as appropriate testing of the "
+"correction, and appropriate coordination with other affected parties."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:61
+msgid ""
+"The Security Officer _will_ notify one or more of the FreeBSD Cluster Admins "
+"of vulnerabilities that put the FreeBSD Project's resources under immediate "
+"danger."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:63
+msgid ""
+"The Security Officer may bring additional FreeBSD developers or outside "
+"developers into discussion of a submitted security vulnerability if their "
+"expertise is required to fully understand or correct the "
+"problem. Appropriate discretion will be exercised to minimize unnecessary "
+"distribution of information about the submitted vulnerability, and any "
+"experts brought in will act in accordance of Security Officer policies. In "
+"the past, experts have been brought in based on extensive experience with "
+"highly complex components of the operating system, including FFS, the VM "
+"system, and the network stack."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:65
+msgid ""
+"If a FreeBSD release process is underway, the FreeBSD Release Engineer may "
+"also be notified that a vulnerability exists, and its severity, so that "
+"informed decisions may be made regarding the release cycle and any serious "
+"security bugs present in software associated with an up-coming release. If "
+"requested, the Security Officer will not share information regarding the "
+"nature of the vulnerability with the Release Engineer, limiting information "
+"flow to existence and severity."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:67
+msgid ""
+"The FreeBSD Security Officer has close working relationships with a number "
+"of other organizations, including third-party vendors that share code with "
+"FreeBSD (the OpenBSD, NetBSD and DragonFlyBSD projects, Apple, and other "
+"vendors deriving software from FreeBSD, as well as the Linux vendor security "
+"list), as well as organizations that track vulnerabilities and security "
+"incidents, such as CERT. Frequently vulnerabilities may extend beyond the "
+"scope of the FreeBSD implementation, and (perhaps less frequently) may have "
+"broad implications for the global networking community. Under such "
+"circumstances, the Security Officer may wish to disclose vulnerability "
+"information to these other organizations: if you do not wish the Security "
+"Officer to do this, please indicate so explicitly in any submissions."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:69
+msgid ""
+"Submitters should be careful to explicitly document any special information "
+"handling requirements."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:71
+msgid ""
+"If the submitter of a vulnerability is interested in a coordinated "
+"disclosure process with the submitter and/or other vendors, this should be "
+"indicated explicitly in any submissions. In the absence of explicit "
+"requests, the FreeBSD Security Officer will select a disclosure schedule "
+"that reflects both a desire for timely disclosure and appropriate testing of "
+"any solutions. Submitters should be aware that if the vulnerability is being "
+"actively discussed in public forums (such as bugtraq), and actively "
+"exploited, the Security Officer may choose not to follow a proposed "
+"disclosure timeline in order to provide maximum protection for the user "
+"community."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/reporting.adoc:72
+msgid ""
+"Submissions may be protected using PGP. If desired, responses will also be "
+"protected using PGP."
+msgstr ""

@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/platforms/mips.adoc:1 content/en/platforms/mips.adoc:8
+#, no-wrap
+msgid "FreeBSD/MIPS Project"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/mips.adoc:10
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:13
+msgid ""
+"This page contains information about porting FreeBSD to the MIPS(R) "
+"platform. Discussion of the MIPS port takes place on the "
+"https://lists.freebsd.org/subscription/freebsd-mips[freebsd-mips] mailing "
+"list."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/mips.adoc:14
+#, no-wrap
+msgid "Table Of Contents"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:17
+msgid "<<status,Status>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:18
+msgid "<<hw,MIPS Hardware Notes>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:19
+msgid "<<list,FreeBSD/MIPS mailing list>>"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/mips.adoc:21
+#, no-wrap
+msgid "Status"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:24
+msgid ""
+"MIPS is a link:{committers-guide}#archs[Tier 2] architecture, and as such is "
+"not fully supported by the link:../../[FreeBSD] project."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/mips.adoc:26
+#, no-wrap
+msgid "FreeBSD/MIPS Hardware Notes"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:29
+msgid ""
+"FreeBSD/MIPS is a port of the FreeBSD operating system to platforms based "
+"around MIPS processors. At the moment, several MIPS32 and MIPS64 development "
+"boards and embedded platforms are being targeted."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:31
+msgid ""
+"Listing all supported devices on all CPUs and boards is impractical here, "
+"however much information can be obtained from the mailing list and archives, "
+"https://wiki.freebsd.org/FreeBSD/MIPS[the FreeBSD/MIPS Wiki pages], and also "
+"from the https://cgit.freebsd.org/src/tree/sys/mips/conf/[Kernel "
+"Configuration files]"
+msgstr ""
+
+#. type: Title ===
+#: content/en/platforms/mips.adoc:32
+#, no-wrap
+msgid "CPUs"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:35
+msgid "The following non-exhaustive list of CPUs and CPU families are supported:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:37
+msgid "MIPS4Kc"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:38
+msgid "MIPS24Kc"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:39
+msgid "MIPS74Kc"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:40
+msgid "Atheros AR71xx, AR724x, AR91xx, AR933x, AR934x"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:41
+msgid "Cavium OCTEON"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:42
+msgid "NetLogic XLR/XLS CPU family"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:43
+msgid "SRI/Cambridge's BERI and CHERI open-source FPGA soft-cores"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:45
+msgid "Note that not all peripherals are supported on all CPUs."
+msgstr ""
+
+#. type: Title ===
+#: content/en/platforms/mips.adoc:46
+#, no-wrap
+msgid "Boards"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:49
+msgid "The following boards are supported:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:51
+msgid "Ubiquiti Networks Router-Station (AR7130)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:52
+msgid "Ubiquiti Networks Router-Station Pro (AR7161)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:53
+msgid "Ubiquiti Networks PicoStation M2HP (AR7241)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:54
+msgid "Ubiquiti Networks EdgeRouter Lite (OCTEON)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:55
+msgid "TP-Link TL-WR1043ND (AR9132)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:56
+msgid "Mikrotik RouterBoard RB450G"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:57
+msgid "Alfa Networks Hornet UB (AR933x)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:58
+msgid "D-Link DIR-825 (AR7161)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:59
+msgid "Atheros PB44, PB47, AP94, AP96 reference designs (AR7161)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:60
+msgid "Atheros DB120 reference design (AR9344)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:61
+msgid "8devices Carambola-2 (AR9330)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:62
+msgid "Engenius ENH-200 (AR7240+AR9285)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:63
+msgid "Buffalo Airstation WZR-300HP B0 A1"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:64
+msgid "MIPS Malta evaluation board"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:65
+msgid "Lanner MR-320, MR-730, MR-995 (OCTEON)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:66
+msgid "Portwell CAM-0100 (OCTEON)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:67
+msgid "Radisys AMC-7211 / ATCA-7220 (OCTEON)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:68
+msgid "D-Link DSR-500, DSR-500N, DSR-1000 and DSR-1000N (OCTEON)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:69
+msgid "GE Intelligent Platforms WANIC 6354 (OCTEON)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:70
+msgid "Cavium development boards CN5860-EVB-NIC4, CN5650-EVB-NIC16, CN5200-EVB-MB4"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:72
+msgid "Note that not all peripherals are supported on all boards."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/mips.adoc:74
+#, no-wrap
+msgid "FreeBSD/MIPS mailing list"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:77
+msgid ""
+"Join the link:#list[FreeBSD/MIPS mailing list] to contribute code or learn "
+"about the status of the project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/mips.adoc:78
+msgid ""
+"To subscribe to this list, send an email to "
+"`<freebsd-mips+subscribe@FreeBSD.org>` or visit the "
+"https://lists.FreeBSD.org/subscription/freebsd-mips[mlmmj interface]."
+msgstr ""

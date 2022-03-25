@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 21:47+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/3.2R/errata.adoc:1
+#: content/en/releases/3.2R/errata.adoc:6
+#, no-wrap
+msgid "FreeBSD 3.2 Errata Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:16
+#, no-wrap
+msgid ""
+"The file \n"
+"ERRATA.TXT contains post-release ERRATA for 3.2 and should always\n"
+"be considered the definitive place to look *first* before reporting\n"
+"a problem with this release.  This file will also be periodically\n"
+"updated as new issues are reported so even if you've checked this\n"
+"file recently, check it again before filing a bug report.  Any\n"
+"changes to this file are also automatically emailed to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:18
+#, no-wrap
+msgid "    freebsd-stable@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:20
+#, no-wrap
+msgid "For all FreeBSD security advisories, see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:22
+#, no-wrap
+msgid "ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:24
+#, no-wrap
+msgid "For the latest information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:26
+#, no-wrap
+msgid "---- Security Advisories:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:28
+#, no-wrap
+msgid "Current active security advisories for 3.2:     None\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:30
+#, no-wrap
+msgid "---- System Update Information:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:35
+#, no-wrap
+msgid ""
+"o The compat20 and compat21 distributions install themselves into\n"
+"  /usr/lib/compat.  The compat20/compat21 distributions are a.out "
+"libraries,\n"
+"  thus they should live in /usr/lib/compat/aout to match the\n"
+"  \"ldconfig_paths_aout\" configuration in /etc/defaults/rc.conf.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:39
+#, no-wrap
+msgid ""
+"Fix: cd /usr/lib/compat\n"
+"     mkdir -p aout\n"
+"     mv lib*.so.*.* aout\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:41
+#, no-wrap
+msgid "o /usr/bin/gdb crashes when debugging core files from static programs\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:45
+#, no-wrap
+msgid ""
+"Fix: This was corrected in revision 1.3.2.2 of solib.c. Obtain the fixed\n"
+"     version via CVSup (see instructions in handbook) or apply the patch\n"
+"     from our CVSweb service.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:48
+#, no-wrap
+msgid ""
+"o While booting the install floppy, user sees the following message\n"
+"  and nothing seems to happen, nor can anything be entered from the "
+"keyboard:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:50
+#, no-wrap
+msgid "     Keyboard: no\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:56
+#, no-wrap
+msgid ""
+"Fix: Due to a lack of space, full support for old XT/AT (84-key) keyboards\n"
+"     is no longer available in the bootblocks.  Some notebook computers "
+"may\n"
+"     also have this type of keyboard and if you are still using this kind "
+"of\n"
+"     hardware, you will see the above message about no keyboard being "
+"found\n"
+"     when you boot from an installation CD-ROM or floppy.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:59
+#, no-wrap
+msgid ""
+"     As soon as you see the message, hit the space bar and you will see\n"
+"     the following prompt:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:63
+#, no-wrap
+msgid ""
+"       >> FreeBSD/i386 BOOT\n"
+"       Default: x:xx(x,x)/boot/loader\n"
+"       boot:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.2R/errata.adoc:67
+#, no-wrap
+msgid ""
+"     Then enter `-Dh', and things should proceed normally with your "
+"keyboard\n"
+"     type.  This only happens once at initial installation time and will\n"
+"     not be a problem afterwards.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/errata.adoc:69
+msgid "link:../../[Release Home]"
+msgstr ""

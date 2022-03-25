@@ -1,0 +1,1519 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 21:49+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/3.3R/notes.adoc:1 content/en/releases/3.3R/notes.adoc:6
+#, no-wrap
+msgid "FreeBSD 3.3 Release Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:11
+#, no-wrap
+msgid ""
+"                                 RELEASE NOTES\n"
+"                              FreeBSD 3.3-RELEASE\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:16
+#, no-wrap
+msgid ""
+"Welcome to 3.3-RELEASE, a full follow-on to 3.2-RELEASE released\n"
+"May 1999.  In the months since 3.2 was released, many bug fixes and\n"
+"general enhancements have been made to the system.  Please see relevant\n"
+"details below.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:20
+#, no-wrap
+msgid ""
+"Any installation failures or crashes should be reported by using the\n"
+"send-pr command (those preferring a WEB based interface can also see\n"
+"this page).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:25
+#, no-wrap
+msgid ""
+"For information about FreeBSD and the layout of the 3.3-RELEASE\n"
+"directory (especially if you're installing from floppies!), see\n"
+"ABOUT.TXT.  For installation instructions, see the INSTALL.TXT and\n"
+"HARDWARE.TXT files.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:32
+#, no-wrap
+msgid ""
+"Table of contents:\n"
+"------------------\n"
+"1. What's new since 3.2-RELEASE\n"
+"   1.1 KERNEL CHANGES\n"
+"   1.2 SECURITY FIXES\n"
+"   1.3 USERLAND CHANGES\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:38
+#, no-wrap
+msgid ""
+"2. Supported Configurations\n"
+"   2.1 Disk Controllers\n"
+"   2.2 Ethernet cards\n"
+"   2.3 ATM\n"
+"   2.4 Misc\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:42
+#, no-wrap
+msgid ""
+"3. Obtaining FreeBSD\n"
+"   3.1 FTP/Mail\n"
+"   3.3 CDROM\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:44
+#, no-wrap
+msgid "4. Upgrading from previous releases of FreeBSD\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:47
+#, no-wrap
+msgid ""
+"5. Reporting problems, making suggestions, submitting code\n"
+"6. Acknowledgements\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:51
+#, no-wrap
+msgid ""
+"1. What's new since 3.2-RELEASE\n"
+"---------------------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:56
+#, no-wrap
+msgid ""
+"1.1. KERNEL CHANGES\n"
+"-------------------\n"
+"The Berkeley Packet Filter (bpf) is enabled by default.  This is to allow\n"
+"DHCP supported installs.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:58
+#, no-wrap
+msgid "Linux mode has undergone significant bug fixes and improvements.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:60
+#, no-wrap
+msgid "The i386 bootstrap has been enhanced for some problematic systems.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:65
+#, no-wrap
+msgid ""
+"Driver support has been added for IEEE 802.11 PCMCIA wireless network\n"
+"adapters based on the Lucent Hermes chipset, including the Lucent\n"
+"WaveLAN/IEEE 802.11 and the Cabletron RoamAbout.  Both 2Mbps and\n"
+"6Mbps Turbo adapters are supported. [MERGED]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:68
+#, no-wrap
+msgid ""
+"Driver support has been added for PCI fast Ethernet cards based\n"
+"on the ADMtek Inc. AL981 Comet chipset.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:71
+#, no-wrap
+msgid ""
+"Driver support has been added for PCI fast Ethernet cards based\n"
+"on the LC82C115 'PNIC II' chipset.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:74
+#, no-wrap
+msgid ""
+"Driver support has been added for SysKonnect SK-984x PCI gigabit\n"
+"Ethernet adapters.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:77
+#, no-wrap
+msgid ""
+"Driver support has been added for Adaptec Duralink PCI Ethernet adapters\n"
+"based on the Adaptec AIC-6915 fast Ethernet controller.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:79
+#, no-wrap
+msgid "Driver support for M-systems DiskOnChip products integrated.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:81
+#, no-wrap
+msgid "Driver support has been added for the 3Com 3c905C-TX.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:84
+#, no-wrap
+msgid ""
+"Driver support has been added for the 3Com 3x574-TX 16-bit FastEtherlink\n"
+"PC-card support.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:87
+#, no-wrap
+msgid ""
+"Driver support has been added for the Compaq Smart Raid family of\n"
+"RAID controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:90
+#, no-wrap
+msgid ""
+"Driver support for a number of Realtek and Avance Asound audio cards\n"
+"has been added.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:92
+#, no-wrap
+msgid "USB support has been improved.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:96
+#, no-wrap
+msgid ""
+"Major updates to the Vinum volume manager have been incorporated.\n"
+"[Though the new RAID-5 features should still be considered\n"
+"experimental since they are, well, new].\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:98
+#, no-wrap
+msgid "A number of NFS problems have been fixed.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:102
+#, no-wrap
+msgid ""
+"APM support has been improved.  A kernel panic problem with an\n"
+"older APM BIOSes has been fixed.  Also, the suspend/standby\n"
+"transition is more robust.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:104
+#, no-wrap
+msgid "User- and group-based IPFW firewalling has been added.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:106
+#, no-wrap
+msgid "Support for probabilistic rule matching has been added to IPFW.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:109
+#, no-wrap
+msgid ""
+"IPFW logging is now dynamic. IPFW logging counts can be reset, and any\n"
+"given rule can be given an arbitrary logging limit.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:114
+#, no-wrap
+msgid ""
+"1.2. SECURITY FIXES\n"
+"-------------------\n"
+"A problem with filesystems flags has been corrected.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:116
+#, no-wrap
+msgid "A problem with profil(2) remaining inactive after an exec call.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:119
+#, no-wrap
+msgid ""
+"A remotely exploitable root hole in amd (the automount daemon) has been\n"
+"fixed.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:122
+#, no-wrap
+msgid ""
+"The wu-ftpd port has been updated with the latest patches to prevent\n"
+"possible remote root exploits.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:125
+#, no-wrap
+msgid ""
+"The proftpd port has been updated with the latest patches to prevent\n"
+"possible remote root exploits.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:128
+#, no-wrap
+msgid ""
+"The samba port has been updated with the latest patches to prevent\n"
+"possible remote root exploits.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:131
+#, no-wrap
+msgid ""
+"The inn port has been updated to a new version that corrects some buffer\n"
+"overflows.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:135
+#, no-wrap
+msgid ""
+"Since FreeBSD 3.0 RELEASE, many minor problems with the network stack\n"
+"have been corrected which could have been exploited for denial of\n"
+"service attacks.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:143
+#, no-wrap
+msgid ""
+"1.3. USERLAND CHANGES\n"
+"---------------------\n"
+"The support environment for Linux mode has finally been updated. The\n"
+"linux_lib and linux_devel ports are replaced by resp. linux_base and\n"
+"linux_devtools. These new ports are based on Red Hat 5.2 packages\n"
+"and include support for both glibc2 and libc5 based applications.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:145
+#, no-wrap
+msgid "Sysinstall now contains DHCP client support.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:150
+#, no-wrap
+msgid ""
+"TCP Wrapper support in inetd(8) is now controlled with command-line\n"
+"options and data-gram (UDP) services may be wrapped in addition to "
+"previously\n"
+"wrapped service types. Please see the manpage for details, since inetd\n"
+"run without command-line options will do no wrapping.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:152
+#, no-wrap
+msgid "ISC's DHCP client has been upgraded to version 2.0.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:154
+#, no-wrap
+msgid "Bison, the GNU parser generator, has been upgraded to version 1.28.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:160
+#, no-wrap
+msgid ""
+"The Advanced Power Management monitor daemon, apmd(8), has been added.\n"
+"This allows the user to select the APM events to be handled from\n"
+"userland and specify the commands for a given event.  This allows the\n"
+"APM behavior to be configured in a flexable manner.  Please see the\n"
+"manpage for details.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:169
+#, no-wrap
+msgid ""
+"2. Supported Configurations\n"
+"---------------------------\n"
+"FreeBSD currently runs on a wide variety of ISA, VLB, EISA and PCI bus\n"
+"based PC's, ranging from 386sx to Pentium class machines (though the\n"
+"386sx is not recommended).  Support for generic IDE or ESDI drive\n"
+"configurations, various SCSI controller, network and serial cards is\n"
+"also provided.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:173
+#, no-wrap
+msgid ""
+"What follows is a list of all peripherals currently known to work with\n"
+"FreeBSD.  Other configurations may also work, we have simply not as yet\n"
+"received confirmation of this.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:181
+#, no-wrap
+msgid ""
+"2.1. Disk Controllers\n"
+"---------------------\n"
+"WD1003 (any generic MFM/RLL)\n"
+"WD1007 (any generic IDE/ESDI)\n"
+"IDE\n"
+"ATA\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:188
+#, no-wrap
+msgid ""
+"Adaptec 1535 ISA SCSI controllers\n"
+"Adaptec 154x series ISA SCSI controllers\n"
+"Adaptec 174x series EISA SCSI controller in standard and enhanced mode.\n"
+"Adaptec 274X/284X/2920C/294x/2950/3940/3950 (Narrow/Wide/Twin) series\n"
+"EISA/VLB/PCI SCSI controllers.\n"
+"Adaptec AIC7850, AIC7860, AIC7880, AIC789x, on-board SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:190
+#, no-wrap
+msgid "AdvanSys SCSI controllers (all models).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:192
+#, no-wrap
+msgid "BusLogic MultiMaster controllers:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:194
+#, no-wrap
+msgid ""
+"[ Please note that BusLogic/Mylex \"Flashpoint\" adapters are NOT yet "
+"supported ]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:205
+#, no-wrap
+msgid ""
+"BusLogic MultiMaster \"W\" Series Host Adapters:\n"
+"    BT-948, BT-958, BT-958D\n"
+"BusLogic MultiMaster \"C\" Series Host Adapters:\n"
+"    BT-946C, BT-956C, BT-956CD, BT-445C, BT-747C, BT-757C, BT-757CD, "
+"BT-545C,\n"
+"    BT-540CF\n"
+"BusLogic MultiMaster \"S\" Series Host Adapters:\n"
+"    BT-445S, BT-747S, BT-747D, BT-757S, BT-757D, BT-545S, BT-542D, "
+"BT-742A,\n"
+"    BT-542B\n"
+"BusLogic MultiMaster \"A\" Series Host Adapters:\n"
+"    BT-742A, BT-542B\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:208
+#, no-wrap
+msgid ""
+"AMI FastDisk controllers that are true BusLogic MultiMaster clones are "
+"also\n"
+"supported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:212
+#, no-wrap
+msgid ""
+"DPT SmartCACHE Plus, SmartCACHE III, SmartRAID III, SmartCACHE IV and\n"
+"SmartRAID IV SCSI/RAID controllers are supported.  The DPT SmartRAID/CACHE "
+"V\n"
+"is not yet supported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:222
+#, no-wrap
+msgid ""
+"SymBios (formerly NCR) 53C810, 53C810a, 53C815, 53C820, 53C825a,\n"
+"53C860, 53C875, 53C875j, 53C885, 53C895 and 53C896 PCI SCSI controllers:\n"
+"        ASUS SC-200\n"
+"        Data Technology DTC3130 (all variants)\n"
+"        Diamond FirePort (all)\n"
+"        NCR cards (all)\n"
+"        Symbios cards (all)\n"
+"        Tekram DC390W, 390U and 390F\n"
+"        Tyan S1365\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:226
+#, no-wrap
+msgid ""
+"QLogic 1020, 1040, 1040B, 1080 and 1240 SCSI Host Adapters.\n"
+"QLogic 2100 Fibre Channel Adapters (private loop only).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:228
+#, no-wrap
+msgid "DTC 3290 EISA SCSI controller in 1542 emulation mode.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:235
+#, no-wrap
+msgid ""
+"With all supported SCSI controllers, full support is provided for\n"
+"SCSI-I & SCSI-II peripherals, including hard disks, optical disks,\n"
+"tape drives (including DAT and 8mm Exabyte), medium changers, processor\n"
+"target devices and CDROM drives.  WORM devices that support CDROM commands\n"
+"are supported for read-only access by the CDROM driver.  WORM/CD-R/CD-RW\n"
+"writing support is provided by cdrecord, which is in the ports tree.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:243
+#, no-wrap
+msgid ""
+"The following CD-ROM type systems are supported at this time:\n"
+"(cd)    SCSI interface (also includes ProAudio Spectrum and\n"
+"        SoundBlaster SCSI)\n"
+"(matcd) Matsushita/Panasonic (Creative SoundBlaster) proprietary\n"
+"        interface (562/563 models)\n"
+"(scd)   Sony proprietary interface (all models)\n"
+"(wcd)   ATAPI IDE interface\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:246
+#, no-wrap
+msgid ""
+"The following drivers were supported under the old SCSI subsystem, but are\n"
+"NOT YET supported under the new CAM SCSI subsystem:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:249
+#, no-wrap
+msgid ""
+"  Tekram DC390 and DC390T controllers (maybe other cards based on the\n"
+"  AMD 53c974 as well).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:251
+#, no-wrap
+msgid "  NCR5380/NCR53400 (\"ProAudio Spectrum\") SCSI controller.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:253
+#, no-wrap
+msgid "  UltraStor 14F, 24F and 34F SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:255
+#, no-wrap
+msgid "  Seagate ST01/02 SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:257
+#, no-wrap
+msgid "  Future Domain 8xx/950 series SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:259
+#, no-wrap
+msgid "  WD7000 SCSI controller.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:264
+#, no-wrap
+msgid ""
+"  Adaptec 1510 series ISA SCSI controllers (not for bootable devices)\n"
+"  Adaptec 152x series ISA SCSI controllers\n"
+"  Adaptec AIC-6260 and AIC-6360 based boards, which includes the AHA-152x\n"
+"  and SoundBlaster SCSI cards.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:268
+#, no-wrap
+msgid ""
+"  [ Note:  There is work-in-progress to port the AIC-6260/6360 and\n"
+"    UltraStor drivers to the new CAM SCSI framework, but no estimates on\n"
+"    when or if they will be completed. ]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:270
+#, no-wrap
+msgid "Unmaintained drivers, they might or might not work for your hardware:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:272
+#, no-wrap
+msgid "  Floppy tape interface (Colorado/Mountain/Insight)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:274
+#, no-wrap
+msgid "  (mcd)   Mitsumi proprietary CD-ROM interface (all models)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:277
+#, no-wrap
+msgid ""
+"2.2. Ethernet cards\n"
+"-------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:285
+#, no-wrap
+msgid ""
+"Adaptec Duralink PCI fast Ethernet adapters based on the Adaptec\n"
+"AIC-6915 fast Ethernet controller chip, including the following:\n"
+"  ANA-62011 64-bit single port 10/100-BaseTX adapter\n"
+"  ANA-62022 64-bit dual port 10/100-BaseTX adapter\n"
+"  ANA-62044 64-bit quad port 10/100-BaseTX adapter\n"
+"  ANA-69011 32-bit single port 10/100-BaseTX adapter\n"
+"  ANA-62020 64-bit single port 100-BaseFX adapter\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:287
+#, no-wrap
+msgid "Allied-Telesis AT1700 and RE2000 cards\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:296
+#, no-wrap
+msgid ""
+"Alteon Networks PCI gigabit Ethernet NICs based on the Tigon 1 and Tigon 2\n"
+"chipsets, including the following:\n"
+"  Alteon AceNIC (Tigon 1 and 2)\n"
+"  3Com 3c985-SX (Tigon 1 and 2)\n"
+"  Netgear GA620 (Tigon 2)\n"
+"  Silicon Graphics Gigabit Ethernet\n"
+"  DEC/Compaq EtherWORKS 1000\n"
+"  NEC Gigabit Ethernet\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:298
+#, no-wrap
+msgid "AMD PCnet/PCI (79c970 & 53c974 or 79c974)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:302
+#, no-wrap
+msgid ""
+"SMC Elite 16 WD8013 Ethernet interface, and most other WD8003E,\n"
+"WD8003EBT, WD8003W, WD8013W, WD8003S, WD8003SBT and WD8013EBT\n"
+"based clones.  SMC Elite Ultra.  SMC Etherpower II.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:314
+#, no-wrap
+msgid ""
+"RealTek 8129/8139 fast Ethernet NICs including the following:\n"
+"  Allied Telesyn AT2550\n"
+"  Allied Telesyn AT2500TX\n"
+"  Genius GF100TXR (RTL8139)\n"
+"  NDC Communications NE100TX-E\n"
+"  OvisLink LEF-8129TX\n"
+"  OvisLink LEF-8139TX\n"
+"  Netronix Inc. EA-1210 NetEther 10/100\n"
+"  KTX-9130TX 10/100 Fast Ethernet\n"
+"  Accton \"Cheetah\" EN1027D (MPX 5030/5038; RealTek 8139 clone?)\n"
+"  SMC EZ Card 10/100 PCI 1211-TX\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:320
+#, no-wrap
+msgid ""
+"Lite-On 82c168/82c169 PNIC fast Ethernet NICs including the following:\n"
+"  LinkSys EtherFast LNE100TX\n"
+"  NetGear FA310-TX Rev. D1\n"
+"  Matrox FastNIC 10/100\n"
+"  Kingston KNE110TX\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:326
+#, no-wrap
+msgid ""
+"Macronix 98713, 98713A, 98715, 98715A and 98725 fast Ethernet NICs\n"
+"  NDC Communications SFA100A (98713A)\n"
+"  CNet Pro120A (98713 or 98713A)\n"
+"  CNet Pro120B (98715)\n"
+"  SVEC PN102TX (98713)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:329
+#, no-wrap
+msgid ""
+"Macronix/Lite-On PNIC II LC82C115 fast Ethernet NICs including the "
+"following:\n"
+"  LinkSys EtherFast LNE100TX Version 2\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:332
+#, no-wrap
+msgid ""
+"Winbond W89C840F fast Ethernet NICs including the following:\n"
+"  Trendware TE100-PCIE\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:337
+#, no-wrap
+msgid ""
+"VIA Technologies VT3043 \"Rhine I\" and VT86C100A \"Rhine II\" fast "
+"Ethernet\n"
+"NICs including the following:\n"
+"  Hawking Technologies PN102TX\n"
+"  D-Link DFE530TX\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:343
+#, no-wrap
+msgid ""
+"SysKonnect SK-984x PCI gigabit Ethernet cards including the following:\n"
+"  SK-9841 1000baseLX single mode fiber, single port\n"
+"  SK-9842 1000baseSX multi-mode fiber, single port\n"
+"  SK-9843 1000baseLX single mode fiber, dual port\n"
+"  SK-9844 1000baseSX multi-mode fiber, dual port\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:351
+#, no-wrap
+msgid ""
+"Texas Instruments ThunderLAN PCI NICs, including the following:\n"
+"  Compaq Netelligent 10, 10/100, 10/100 Proliant, 10/100 Dual-Port\n"
+"  Compaq Netelligent 10/100 TX Embedded UTP, 10 T PCI UTP/Coax, 10/100 TX "
+"UTP\n"
+"  Compaq NetFlex 3P, 3P Integrated, 3P w/ BNC\n"
+"  Olicom OC-2135/2138, OC-2325, OC-2326 10/100 TX UTP\n"
+"  Racore 8165 10/100-BaseTX\n"
+"  Racore 8148 10-BaseT/100-BaseTX/100-BaseFX multi-personality\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:353
+#, no-wrap
+msgid "ADMtek Inc. AL981-based PCI fast Ethernet NICs\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:357
+#, no-wrap
+msgid ""
+"ASIX Electronics AX88140A PCI NICs, including the following:\n"
+"  Alfa Inc. GFC2204\n"
+"  CNet Pro110B\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:362
+#, no-wrap
+msgid ""
+"DEC EtherWORKS III NICs (DE203, DE204, and DE205)\n"
+"DEC EtherWORKS II NICs (DE200, DE201, DE202, and DE422)\n"
+"DEC DC21040, DC21041, or DC21140 based NICs (SMC Etherpower 8432T, DE245, "
+"etc)\n"
+"DEC FDDI (DEFPA/DEFEA) NICs\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:364
+#, no-wrap
+msgid "Fujitsu MB86960A/MB86965A\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:366
+#, no-wrap
+msgid "HP PC Lan+ cards (model numbers: 27247B and 27252A).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:370
+#, no-wrap
+msgid ""
+"Intel EtherExpress 16\n"
+"Intel EtherExpress Pro/10\n"
+"Intel EtherExpress Pro/100B PCI Fast Ethernet\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:373
+#, no-wrap
+msgid ""
+"Isolan AT 4141-0 (16 bit)\n"
+"Isolink 4110     (8 bit)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:375
+#, no-wrap
+msgid "Novell NE1000, NE2000, and NE2100 Ethernet interface.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:378
+#, no-wrap
+msgid ""
+"PCI network cards emulating the NE2000: RealTek 8029, NetVin 5000,\n"
+"Winbond W89C940, Surecom NE-34, VIA VT86C926.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:380
+#, no-wrap
+msgid "3Com 3C501 cards\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:382
+#, no-wrap
+msgid "3Com 3C503 Etherlink II\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:384
+#, no-wrap
+msgid "3Com 3c505 Etherlink/+\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:386
+#, no-wrap
+msgid "3Com 3C507 Etherlink 16/TP\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:389
+#, no-wrap
+msgid ""
+"3Com 3C509, 3C579, 3C589 (PCMCIA), 3C590/592/595/900/905/905B/905C PCI\n"
+"and EISA (Fast) Etherlink III / (Fast) Etherlink XL\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:391
+#, no-wrap
+msgid "3Com 3c980/3c980B Fast Etherlink XL server adapter\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:393
+#, no-wrap
+msgid "3Com 3cSOHO100-TX OfficeConnect adapter\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:395
+#, no-wrap
+msgid "Toshiba Ethernet cards\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:398
+#, no-wrap
+msgid ""
+"Crystal Semiconductor CS89x0-based NICs, including:\n"
+"  IBM Etherjet ISA\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:401
+#, no-wrap
+msgid ""
+"PCMCIA Etherjet cards from IBM and National Semiconductor are also\n"
+"supported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:405
+#, no-wrap
+msgid ""
+"Note that NO token ring cards are supported at this time as we're\n"
+"still waiting for someone to donate a driver for one of them.  Any\n"
+"takers?\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:408
+#, no-wrap
+msgid ""
+"2.3 ATM\n"
+"-------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:412
+#, no-wrap
+msgid ""
+"   o ATM Host Interfaces\n"
+"        - FORE Systems, Inc. PCA-200E ATM PCI Adapters\n"
+"        - Efficient Networks, Inc. ENI-155p ATM PCI Adapters\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:419
+#, no-wrap
+msgid ""
+"   o ATM Signaling Protocols\n"
+"        - The ATM Forum UNI 3.1 signaling protocol\n"
+"        - The ATM Forum UNI 3.0 signaling protocol\n"
+"        - The ATM Forum ILMI address registration\n"
+"        - FORE Systems's proprietary SPANS signaling protocol\n"
+"        - Permanent Virtual Channels (PVCs)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:429
+#, no-wrap
+msgid ""
+"   o IETF \"Classical IP and ARP over ATM\" model\n"
+"        - RFC 1483, \"Multi-protocol Encapsulation over ATM Adaptation Layer "
+"5\"\n"
+"        - RFC 1577, \"Classical IP and ARP over ATM\"\n"
+"        - RFC 1626, \"Default IP MTU for use over ATM AAL5\"\n"
+"        - RFC 1755, \"ATM Signaling Support for IP over ATM\"\n"
+"        - RFC 2225, \"Classical IP and ARP over ATM\"\n"
+"        - RFC 2334, \"Server Cache Synchronization Protocol (SCSP)\"\n"
+"        - Internet Draft draft-ietf-ion-scsp-atmarp-00.txt,\n"
+"                \"A Distributed ATMARP Service Using SCSP\"\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:431
+#, no-wrap
+msgid "   o ATM Sockets interface\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:434
+#, no-wrap
+msgid ""
+"2.4. Misc\n"
+"---------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:436
+#, no-wrap
+msgid "AST 4 port serial card using shared IRQ.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:439
+#, no-wrap
+msgid ""
+"ARNET 8 port serial card using shared IRQ.\n"
+"ARNET (now Digiboard) Sync 570/i high-speed serial.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:444
+#, no-wrap
+msgid ""
+"Boca BB1004 4-Port serial card (Modems NOT supported)\n"
+"Boca IOAT66 6-Port serial card (Modems supported)\n"
+"Boca BB1008 8-Port serial card (Modems NOT supported)\n"
+"Boca BB2016 16-Port serial card (Modems supported)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:446
+#, no-wrap
+msgid "Comtrol Rocketport card.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:448
+#, no-wrap
+msgid "Cyclades Cyclom-y Serial Board.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:450
+#, no-wrap
+msgid "STB 4 port card using shared IRQ.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:453
+#, no-wrap
+msgid ""
+"SDL Communications Riscom/8 Serial Board.\n"
+"SDL Communications RISCom/N2 and N2pci high-speed sync serial boards.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:456
+#, no-wrap
+msgid ""
+"Stallion multi-port serial boards: EasyIO, EasyConnection 8/32 & 8/64,\n"
+"ONboard 4/16 and Brumby.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:458
+#, no-wrap
+msgid "Specialix SI/XIO/SX ISA, EISA and PCI serial expansion cards/modules.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:461
+#, no-wrap
+msgid ""
+"Adlib, SoundBlaster, SoundBlaster Pro, ProAudioSpectrum, Gravis UltraSound\n"
+"and Roland MPU-401 sound cards. (snd driver)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:464
+#, no-wrap
+msgid ""
+"Most ISA audio codecs manufactured by Crystal Semiconductors, OPTi, "
+"Creative\n"
+"Labs, Avance, Yamaha and ENSONIQ. (pcm driver)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:473
+#, no-wrap
+msgid ""
+"Connectix QuickCam\n"
+"Matrox Meteor Video frame grabber\n"
+"Creative Labs Video Spigot frame grabber\n"
+"Cortex1 frame grabber\n"
+"Hauppauge Wincast/TV boards (PCI)\n"
+"STB TV PCI\n"
+"Intel Smart Video Recorder III\n"
+"Various Frame grabbers based on Brooktree Bt848 / Bt878 chip.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:475
+#, no-wrap
+msgid "HP4020, HP6020, Philips CDD2000/CDD2660 and Plasmon CD-R drives.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:477
+#, no-wrap
+msgid "PS/2 mice\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:479
+#, no-wrap
+msgid "Standard PC Joystick\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:481
+#, no-wrap
+msgid "X-10 power controllers\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:483
+#, no-wrap
+msgid "GPIB and Transputer drivers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:485
+#, no-wrap
+msgid "Genius and Mustek hand scanners.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:488
+#, no-wrap
+msgid ""
+"Xilinx XC6200 based reconfigurable hardware cards compatible with\n"
+"the HOT1 from Virtual Computers (www.vcc.com)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:490
+#, no-wrap
+msgid "Support for Dave Mills experimental Loran-C receiver.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:497
+#, no-wrap
+msgid ""
+"Lucent Technologies WaveLAN/IEEE 802.11 PCMCIA and ISA standard speed\n"
+"(2Mbps) and turbo speed (6Mbps) wireless network adapters and work-a-likes\n"
+"(NCR WaveLAN/IEEE 802.11, Cabletron RoamAbout 802.11 DS). Note: the\n"
+"ISA versions of these adapters are actually PCMCIA cards combined with\n"
+"an ISA to PCMCIA bridge card, so both kinds of devices work with\n"
+"the same driver.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:499
+#, no-wrap
+msgid "FreeBSD currently does NOT support IBM's microchannel (MCA) bus.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:502
+#, no-wrap
+msgid ""
+"3. Obtaining FreeBSD\n"
+"--------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:504
+#, no-wrap
+msgid "You may obtain FreeBSD in a variety of ways:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:507
+#, no-wrap
+msgid ""
+"3.1. FTP/Mail\n"
+"-------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:510
+#, no-wrap
+msgid ""
+"You can ftp FreeBSD and any or all of its optional packages from\n"
+"`ftp.FreeBSD.org' - the official FreeBSD release site.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:516
+#, no-wrap
+msgid ""
+"For other locations that mirror the FreeBSD software see the file\n"
+"MIRROR.SITES.  Please ftp the distribution from the site closest (in\n"
+"networking terms) to you.  Additional mirror sites are always welcome!\n"
+"Contact freebsd-admin@FreeBSD.org for more details if you'd like to\n"
+"become an official mirror site.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:524
+#, no-wrap
+msgid ""
+"If you do not have access to the Internet and electronic mail is your\n"
+"only recourse, then you may still fetch the files by sending mail to\n"
+"`ftpmail@ftpmail.vix.com' - putting the keyword \"help\" in your message\n"
+"to get more information on how to fetch files using this mechanism.\n"
+"Please do note, however, that this will end up sending many *tens of\n"
+"megabytes* through the mail and should only be employed as an absolute\n"
+"LAST resort!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:528
+#, no-wrap
+msgid ""
+"3.2. CDROM\n"
+"----------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:530
+#, no-wrap
+msgid "FreeBSD 3.3-RELEASE CDs may be ordered on CDROM from:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:535
+#, no-wrap
+msgid ""
+"        Walnut Creek CDROM\n"
+"        4041 Pike Lane, Suite F\n"
+"        Concord CA  94520\n"
+"        1-800-786-9907, +1-925-674-0783, +1-925-674-0821 (FAX)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:538
+#, no-wrap
+msgid ""
+"Or via the Internet from orders@cdrom.com or http://www.cdrom.com.\n"
+"Their current catalog can be obtained via ftp from:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:540
+#, no-wrap
+msgid "        ftp://ftp.cdrom.com/cdrom/catalog\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:548
+#, no-wrap
+msgid ""
+"Cost per -RELEASE CD is $39.95 or $24.95 with a FreeBSD subscription.\n"
+"FreeBSD SNAPshot CDs, when available, are $39.95 or $14.95 with a\n"
+"FreeBSD-SNAP subscription (-RELEASE and -SNAP subscriptions are entirely\n"
+"separate).  With a subscription, you will automatically receive updates as\n"
+"they are released.  Your credit card will be billed when each disk is\n"
+"shipped and you may cancel your subscription at any time without further\n"
+"obligation.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:553
+#, no-wrap
+msgid ""
+"Shipping (per order not per disc) is $5 in the US, Canada or Mexico\n"
+"and $9.00 overseas.  They accept Visa, Mastercard, Discover, American\n"
+"Express or checks in U.S. Dollars and ship COD within the United\n"
+"States.  California residents please add 8.25% sales tax.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:556
+#, no-wrap
+msgid ""
+"Should you be dissatisfied for any reason, the CD comes with an\n"
+"unconditional return policy.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:560
+#, no-wrap
+msgid ""
+"4. Upgrading from previous releases of FreeBSD\n"
+"----------------------------------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:566
+#, no-wrap
+msgid ""
+"If you're upgrading from a previous release of FreeBSD, most likely\n"
+"it's 2.2.x or 2.1.x (in some lesser number of cases) and some of the\n"
+"following issues may affect you, depending of course on your chosen\n"
+"method of upgrading.  There are two popular ways of upgrading\n"
+"FreeBSD distributions:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:569
+#, no-wrap
+msgid ""
+"        o Using sources, via /usr/src\n"
+"        o Using sysinstall's (binary) upgrade option.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:575
+#, no-wrap
+msgid ""
+"In the case of using sources, there are simply two targets you need to\n"
+"be aware of: The standard ``upgrade'' target, which will upgrade a 2.x\n"
+"or 3.0 system to 3.3 and the ``world'' target, which will take an\n"
+"already upgraded system and keep it in sync with whatever changes have\n"
+"happened since the initial upgrade.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:579
+#, no-wrap
+msgid ""
+"In the case of using the binary upgrade option, the system will go\n"
+"straight to 3.3/ELF but also populate the /<basepath>/lib/aout\n"
+"directories for backwards compatibility with older binaries.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:589
+#, no-wrap
+msgid ""
+"In either case, going to ELF will mean that you'll have somewhat\n"
+"smaller binaries and access to a lot more compiler goodies which have\n"
+"been already been ported to other ELF environments (our older and\n"
+"somewhat crufty a.out format being largely unsupported by most other\n"
+"software projects).  Those who wish to retain access to the older\n"
+"a.out dynamic executables should be sure and install the compat22\n"
+"distribution. Notice that the a.out libraries won't be accessible\n"
+"until the system is rebooted, which may cause trouble with certain\n"
+"a.out packages.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:594
+#, no-wrap
+msgid ""
+"Also, do not use install disks or sysinstall from previous versions,\n"
+"as version 3.1 introduced a new bootstrapping procedure, requiring\n"
+"new boot blocks to be installed (because of elf kernels), and version\n"
+"3.2 has further modifications to the bootstrapping procedure.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:596
+#, no-wrap
+msgid "[ other important upgrading notes should go here]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:603
+#, no-wrap
+msgid ""
+"5. Reporting problems, making suggestions, submitting code.\n"
+"-----------------------------------------------------------\n"
+"Your suggestions, bug reports and contributions of code are always\n"
+"valued - please do not hesitate to report any problems you may find\n"
+"(preferably with a fix attached, if you can!).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:613
+#, no-wrap
+msgid ""
+"The preferred method to submit bug reports from a machine with\n"
+"Internet mail connectivity is to use the send-pr command or use the CGI\n"
+"script at http://www.FreeBSD.org/send-pr.html.  Bug reports\n"
+"will be dutifully filed by our faithful bugfiler program and you can\n"
+"be sure that we'll do our best to respond to all reported bugs as soon\n"
+"as possible.  Bugs filed in this way are also visible on our WEB site\n"
+"in the support section and are therefore valuable both as bug reports\n"
+"and as \"signposts\" for other users concerning potential problems to\n"
+"watch out for.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:616
+#, no-wrap
+msgid ""
+"If, for some reason, you are unable to use the send-pr command to\n"
+"submit a bug report, you can try to send it to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:618
+#, no-wrap
+msgid "                freebsd-bugs@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:624
+#, no-wrap
+msgid ""
+"Note that send-pr itself is a shell script that should be easy to move\n"
+"even onto a totally different system.  We much prefer if you could use\n"
+"this interface, since it make it easier to keep track of the problem\n"
+"reports.  However, before submitting, please try to make sure whether\n"
+"the problem might have already been fixed since.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:627
+#, no-wrap
+msgid "Otherwise, for any questions or tech support issues, please send mail to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:629
+#, no-wrap
+msgid "                freebsd-questions@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:636
+#, no-wrap
+msgid ""
+"Additionally, being a volunteer effort, we are always happy to have\n"
+"extra hands willing to help - there are already far more desired\n"
+"enhancements than we'll ever be able to manage by ourselves!  To\n"
+"contact us on technical matters, or with offers of help, please send\n"
+"mail to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:638
+#, no-wrap
+msgid "                freebsd-hackers@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:644
+#, no-wrap
+msgid ""
+"Please note that these mailing lists can experience *significant*\n"
+"amounts of traffic and if you have slow or expensive mail access and\n"
+"are only interested in keeping up with significant FreeBSD events, you\n"
+"may find it preferable to subscribe instead to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:646
+#, no-wrap
+msgid "                freebsd-announce@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:655
+#, no-wrap
+msgid ""
+"All of the mailing lists can be freely joined by anyone wishing\n"
+"to do so.  Send mail to MajorDomo@FreeBSD.org and include the keyword\n"
+"`help' on a line by itself somewhere in the body of the message.  This\n"
+"will give you more information on joining the various lists, accessing\n"
+"archives, etc.  There are a number of mailing lists targeted at\n"
+"special interest groups not mentioned here, so send mail to majordomo\n"
+"and ask about them!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:659
+#, no-wrap
+msgid ""
+"6. Acknowledgments\n"
+"-------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:664
+#, no-wrap
+msgid ""
+"FreeBSD represents the cumulative work of many dozens, if not\n"
+"hundreds, of individuals from around the world who have worked very\n"
+"hard to bring you this release.  For a complete list of FreeBSD\n"
+"project staffers, please see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:666
+#, no-wrap
+msgid "        http://www.FreeBSD.org/handbook/staff.html\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:668
+#, no-wrap
+msgid "or, if you've loaded the doc distribution:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:670
+#, no-wrap
+msgid "        file:/usr/share/doc/handbook/staff.html\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:673
+#, no-wrap
+msgid "Special mention to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:675
+#, no-wrap
+msgid "        The donors listed at http://www.FreeBSD.org/handbook/donors.html\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:678
+#, no-wrap
+msgid ""
+"        And to the many thousands of FreeBSD users and testers all over "
+"the\n"
+"        world, without whom this release simply would not have been "
+"possible.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:680
+#, no-wrap
+msgid "We sincerely hope you enjoy this release of FreeBSD!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.3R/notes.adoc:682
+#, no-wrap
+msgid "                        The FreeBSD Project\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.3R/notes.adoc:684
+msgid "link:../../[Release Home]"
+msgstr ""

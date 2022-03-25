@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 23:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/support/_index.adoc:1 content/en/support/_index.adoc:6
+#, no-wrap
+msgid "FreeBSD Support"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/_index.adoc:9
+msgid ""
+"FreeBSD has a wide variety of community and commercial support options "
+"available for users. The link:../community[Community] section of this "
+"website details the support options available to users from the FreeBSD "
+"community, including a number of link:../community/mailinglists[mailing "
+"lists]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/_index.adoc:11
+msgid ""
+"Commercial support is also available from one of the many "
+"link:../commercial/[vendors] offering commercial products, services, and/or "
+"consulting for FreeBSD."
+msgstr ""
+
+#. type: Title ==
+#: content/en/support/_index.adoc:12
+#, no-wrap
+msgid "Problem Reporting"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/_index.adoc:15
+msgid ""
+"Found a bug in FreeBSD? Noticed a mistake in the documentation? If it has "
+"not already been reported, please let us know."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/_index.adoc:17
+msgid ""
+"To find out what has already been reported, it is possible to "
+"https://bugs.freebsd.org/search/[search the problem report database] for "
+"specific category, assignee, originator, text, and so forth or "
+"https://bugs.freebsd.org/browse/[browse open reports by category]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/_index.adoc:18
+msgid ""
+"If the bug has not yet been reported, please read over our "
+"link:../support/bugreports/[problem reporting guidelines] and then report "
+"the problem using our https://bugs.freebsd.org/submit/[problem report form]."
+msgstr ""

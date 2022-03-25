@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/docproj/doc-set.adoc:1 content/en/docproj/doc-set.adoc:6
+#, no-wrap
+msgid "FreeBSD Documentation Project: Documentation Set"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/doc-set.adoc:9
+msgid "FreeBSD's documentation falls into three basic categories:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/doc-set.adoc:11
+msgid "https://www.freebsd.org/cgi/man.cgi[*The manual pages*]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/doc-set.adoc:13
+msgid ""
+"The manual pages are part of the base system, but are also an important "
+"component of the documentation. Both the Documentation project and source "
+"committers update and maintain manual pages."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/doc-set.adoc:15
+msgid ""
+"At present, the Japanese team has translated many of the manual pages. Other "
+"volunteers could pitch in to translate the manual pages to other languages "
+"as well."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/doc-set.adoc:16
+msgid "link:../../docs/books/[*The Books*]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/doc-set.adoc:18
+msgid ""
+"The project has a large amount of documentation that is \"book length\", or "
+"becoming that way. These include the FreeBSD FAQ and the FreeBSD Handbook."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/doc-set.adoc:19
+msgid "link:../../docs/books#ARTICLES[*The Articles*]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/doc-set.adoc:21
+msgid ""
+"FreeBSD has a wealth of information available in shorter, article form -- "
+"similar to the tutorials or HOWTO documentation of other projects."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/doc-set.adoc:22
+msgid "link:../[FreeBSD Documentation Project Home]"
+msgstr ""

@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:48+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.2.8R/errata.adoc:1
+#: content/en/releases/2.2.8R/errata.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.2.8 Errata Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:16
+#, no-wrap
+msgid ""
+"The file \n"
+"ERRATA.TXT contains post-release ERRATA for 2.2.8 and should always\n"
+"be considered the definitive place to look *first* before reporting\n"
+"a problem with this release.  This file will also be periodically\n"
+"updated as new issues are reported so even if you've checked this\n"
+"file recently, check it again before filing a bug report.  Any\n"
+"changes to this file are also automatically emailed to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:18
+#, no-wrap
+msgid "    freebsd-stable@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:20
+#, no-wrap
+msgid "For 2.2.8 security advisories, see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:22
+#, no-wrap
+msgid "ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:24
+#, no-wrap
+msgid "For the latest information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:26
+#, no-wrap
+msgid "---- Security Advisories:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:28
+#, no-wrap
+msgid "Current active security advisories for 2.2.8:   None\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:30
+#, no-wrap
+msgid "---- System Update Information:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:32
+#, no-wrap
+msgid "o /usr/sbin/sysctl is an invalid link and whereis(1) doesn't work.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:35
+#, no-wrap
+msgid ""
+"Fix: sysctl(8) has actually moved to /sbin/sysctl.  Simply create\n"
+"     a symbolic link for compatability purposes as follows:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:37
+#, no-wrap
+msgid "        ln -sf /sbin/sysctl /usr/sbin\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:40
+#, no-wrap
+msgid ""
+"     or syncronize your sources with 2.2-stable and rebuild/install\n"
+"     from /usr/src/usr.bin/whereis/ and just rm /usr/sbin/sysctl\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:42
+#, no-wrap
+msgid "o    /usr/share/doc/FAQ is in spanish.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:49
+#, no-wrap
+msgid ""
+"Fix: This was a build failure which affected only the FAQ and has since\n"
+"     been fixed.  If you are already cvsup/CTM'ing the doc-all tag then\n"
+"     you can simply remake and install the FAQ from sources, otherwise\n"
+"     grab ftp://ftp.FreeBSD.org/pub/FreeBSD/doc/FAQ.tar.gz and unpack\n"
+"     as follows:  tar --unlink -xvzf FAQ.tar.gz -C /usr/share/doc\n"
+"     to get an english FAQ.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:51
+#, no-wrap
+msgid "o    getpwnam(3) semantics are incorrect in some cases.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.8R/errata.adoc:58
+#, no-wrap
+msgid ""
+"Fix: If passed a string longer than the maximum allowed for a user name,\n"
+"     getpwnam will incorrectly return an entry for a user that matches the\n"
+"     initial characters in the string up to the maximum length allowed for "
+"a\n"
+"     user name.  To correct this behaviour, libc needs to be patched and\n"
+"     recompiled.  The appropriate patch can be obtained from:\n"
+"     "
+"http://cvsweb.FreeBSD.org/src/lib/libc/gen/getpwent.c.diff?r1=\"1\".35.2.2&r2=\"1\".35.2.3\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.8R/errata.adoc:60
+msgid "link:../../[Release Home]"
+msgstr ""

@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/search/searchhints.adoc:1 content/en/search/searchhints.adoc:6
+#, no-wrap
+msgid "Searching Hints"
+msgstr ""
+
+#. type: Title ==
+#: content/en/search/searchhints.adoc:8
+#, no-wrap
+msgid "If you got lots of irrelevant results..."
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/searchhints.adoc:11
+msgid ""
+"If you search for several words such as \"quantum hard drives\", an OR is "
+"implied meaning that to be counted as relevant, only one of the words has to "
+"appear in a message. To find only messages with all three words, change the "
+"search to \"quantum and hard and drives\""
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/searchhints.adoc:12
+msgid ""
+"If you still get lots of irrelevant messages, see if they have something in "
+"common. If so, you can exclude them with the *not* operator. For example "
+"\"quantum and hard and drives not ide\" will exclude any messages about ide "
+"quantum hard drives."
+msgstr ""
+
+#. type: Title ==
+#: content/en/search/searchhints.adoc:13
+#, no-wrap
+msgid "If you do not think you received everything you should have..."
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/searchhints.adoc:16
+msgid ""
+"If one of your keywords has variant forms, be sure to enter all relevant "
+"forms. If you are searching for \"buslogic\", you might change it to "
+"\"buslogic or bustek\"."
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/searchhints.adoc:17
+msgid ""
+"Words with varying suffixes can be wildcarded. Searching for \"drive*\" will "
+"pick up words such as drive, drives, driver, drivers and so on."
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/searchhints.adoc:18
+msgid ""
+"Try discarding words that could be implied by the context of the "
+"message. For example \"quantum and hard and drive\" might miss some relevant "
+"messages that \"quantum and drive\" would get."
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/searchhints.adoc:20
+msgid "'''''"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/searchhints.adoc:21
+msgid "link:../[Return to the search page]"
+msgstr ""

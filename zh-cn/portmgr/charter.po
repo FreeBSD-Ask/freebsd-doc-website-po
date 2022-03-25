@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/portmgr/charter.adoc:1 content/en/portmgr/charter.adoc:6
+#, no-wrap
+msgid "Charter for the Ports Management Team"
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:9
+msgid ""
+"The FreeBSD Ports Collection is a product intended first and foremost for "
+"the end-users of FreeBSD. The Ports Management Team (portmgr) is the group "
+"charged with overseeing its development. Its members are appointed by the "
+"FreeBSD Core Team (core)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:11
+msgid ""
+"The primary responsibility of the portmgr team is to ensure that the FreeBSD "
+"Ports Developer community provides a ports collection that is functional, "
+"stable, up-to-date and full-featured. Its secondary responsibility is to "
+"coordinate among the committers and developers who work on it."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:13
+msgid "The Ports Management Team has the following specific responsibilities:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:15
+msgid ""
+"Assure the integrity of the Ports Collection by managing commits to the "
+"`ports` portion of the FreeBSD repository. This includes maintaining certain "
+"key files directly; running test builds of proposed large changes; and "
+"acting as arbiter over other commits."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:16
+msgid ""
+"Maintain the automated http://pkg.FreeBSD.org[package building cluster], and "
+"make the resulting packages available for download by FreeBSD users."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:17
+msgid ""
+"Work with the FreeBSD Security team to ensure that security problems are "
+"indentified and handled in a timely fashion."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:18
+msgid ""
+"Work with FreeBSD Ports and Documentation Committers to keep the relevant "
+"documentation up to date."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:19
+msgid ""
+"To the extent possible with a volunteer project, ensure that the legal "
+"rights of authors whose works are installed in the Ports Collection are "
+"respected."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:20
+msgid ""
+"Act as arbiter of first resort for disputes between FreeBSD community "
+"members such as maintainers and committers."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:21
+msgid ""
+"Manage commit access to the ports tree. All new committer approvals must be "
+"sent to admins@, and CC'd to core@; they must be PGP-signed."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:22
+msgid ""
+"Establish guidelines and policies governing the rights and responsibilities "
+"of Ports Committers and maintainers."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:23
+msgid "Help prioritize future directions for the overall Ports Collection."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:25
+msgid ""
+"In addition to its specific responsibilities, The Ports Management Team may "
+"take whatever actions it believes prudent to manage the ports collection "
+"responsibly."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:27
+msgid ""
+"Please see link:../policies/[Ports Team Policies] for a complete list of the "
+"current policies which have been adopted to help implement these goals."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/charter.adoc:28
+msgid ""
+"This charter is under the control of the FreeBSD Core Team. It is valid "
+"until such time as it is modified or revoked by the Core Team; any changes "
+"to this charter must be approved by the Core Team."
+msgstr ""

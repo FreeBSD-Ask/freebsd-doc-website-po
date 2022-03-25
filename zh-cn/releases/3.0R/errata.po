@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 21:45+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/3.0R/errata.adoc:1
+#: content/en/releases/3.0R/errata.adoc:6
+#, no-wrap
+msgid "FreeBSD 3.0 Errata Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:16
+#, no-wrap
+msgid ""
+"The file \n"
+"ERRATA.TXT contains post-release ERRATA for 3.0 and should always\n"
+"be considered the definitive place to look *first* before reporting\n"
+"a problem with this release.  This file will also be periodically\n"
+"updated as new issues are reported so even if you've checked this\n"
+"file recently, check it again before filing a bug report.  Any\n"
+"changes to this file are also automatically emailed to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:18
+#, no-wrap
+msgid "    freebsd-stable@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:20
+#, no-wrap
+msgid "For 3.0 security advisories, see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:22
+#, no-wrap
+msgid "ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:24
+#, no-wrap
+msgid "For the latest information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:26
+#, no-wrap
+msgid "---- Security Advisories:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:28
+#, no-wrap
+msgid "Current active security advisories for 3.0:     1\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:30
+#, no-wrap
+msgid "o SA-98:08: IP fragmentation denial of service\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:32
+#, no-wrap
+msgid "Fix: Update to 3.0-current or apply patch supplied with advisory 98:08 in:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:34
+#, no-wrap
+msgid "ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-98:08.fragment.asc\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:36
+#, no-wrap
+msgid "---- System Update Information:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:40
+#, no-wrap
+msgid ""
+"o The GPL_MATH_EMULATE kernel option causes a fatal trap during system\n"
+"  startup.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:46
+#, no-wrap
+msgid ""
+"Fix: Replace the GPL_MATH_EMULATE option with the default math\n"
+"     emulation option MATH_EMULATE.  This will only affect users who\n"
+"     have modified their kernel configuration file.  The problem is\n"
+"     corrected in revision 1.16 of the file\n"
+"     /usr/src/sys/gnu/i386/fpemul/fpu_entry.c.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:49
+#, no-wrap
+msgid "o DOS partition installs fail to find the installation bits.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/3.0R/errata.adoc:56
+#, no-wrap
+msgid ""
+"Fix: Rename C:\\FREEBSD to C:\\3.0-RELEASE and retry the installation.\n"
+"     The naming syntax was changed to make DOS more like the other\n"
+"     types of installation media but the docs on DOS installation\n"
+"     were not updated properly to reflect this.  The current sysinstall\n"
+"     now accepts both locations, as it should have to begin with.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.0R/errata.adoc:58
+msgid "link:../../[Release Home]"
+msgstr ""

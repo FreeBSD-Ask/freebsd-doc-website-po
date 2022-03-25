@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/ports/searching.adoc:1 content/en/ports/searching.adoc:6
+#, no-wrap
+msgid "Searching FreeBSD Ports"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/searching.adoc:9
+msgid "{{< form-ports >}}"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/searching.adoc:11
+msgid "'''''"
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/searching.adoc:13
+msgid ""
+"The form above will allow you to search for ports on this site. A completed "
+"search will take you to a link:https://www.FreeBSD.org/cgi/ports.cgi[more "
+"complete search page]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/searching.adoc:15
+msgid ""
+"However, if you already have the Ports Collection installed on your machine, "
+"you may also search by changing to the `/usr/ports` directory and performing "
+"`make search name=`__string__. Instead of by `name` you can search by port "
+"path (`path`), port information (`info`), maintainer (`maint`), port "
+"category (`cat`), build dependencies (`bdeps`), run dependencies (`rdeps`), "
+"the project web site (`www`), or any of these fields (`key`). Use `make "
+"quicksearch ...` to only display the port name, port directory, and one line "
+"description of the port."
+msgstr ""
+
+#. type: Plain text
+#: content/en/ports/searching.adoc:16
+msgid ""
+"Another option is to visit https://www.FreshPorts.org[FreshPorts.org] and "
+"either browse the site or subscribe to the lists hosted there."
+msgstr ""

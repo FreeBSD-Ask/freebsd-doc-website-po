@@ -1,0 +1,716 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:20+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/projects/summerofcode.adoc:1
+#: content/en/projects/summerofcode.adoc:6
+#, no-wrap
+msgid "FreeBSD Summer Projects"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:9
+msgid ""
+"The FreeBSD Project is looking forward to participating as a mentoring "
+"organization in https://summerofcode.withgoogle.com/[Google Summer of Code] "
+"(GSoC) 2022. This program offers GSoC contributors a stipend of "
+"https://developers.google.com/open-source/gsoc/help/student-stipends[up to "
+"$6,600 USD] to contribute to an open source project over the summer "
+"break. We have had over 200 successful GSoC contributors working on FreeBSD "
+"as part of this program since 2005."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:11
+msgid ""
+"This page and the https://wiki.freebsd.org/SummerOfCodeIdeas[ideas lists] "
+"will be updated throughout the application period to include new "
+"information, such as project ideas, proposal information, and potential "
+"mentor contact information. If you don't see an idea that interests you, "
+"visit again in a couple of days! Additionally, we welcome proposals "
+"unrelated to the ideas listed here."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:13
+msgid "<<benefits,Benefits of Participating>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:14
+msgid "<<contributors,Past Contributor Projects>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:15
+msgid "<<ideas,Example Proposal Ideas>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:16
+msgid "<<mentors,Possible Mentors>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:17
+msgid "<<proposals,Proposal Guidelines>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:18
+msgid "<<infrastructure,Infrastructure Provided to Contributors>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:19
+msgid "<<faq,Frequently Asked Questions>>"
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/summerofcode.adoc:21
+#, no-wrap
+msgid "Benefit of Participating"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:24
+msgid ""
+"Google Summer of Code is an exciting opportunity for contributors to "
+"\"intern\" with an open source project for a summer. The FreeBSD Project, as "
+"one of the most successful and oldest open source projects, is an excellent "
+"place to do this internship. Founded in 1993, the project now consists of "
+"several hundred \"committers\" and tens of thousands of "
+"contributors. FreeBSD is the foundation for many commercial products, "
+"including Apple's Mac OS X, NetApp's OnTap/GX, Juniper's JunOS, as well "
+"countless other products, and is widely used in the Internet Service "
+"Provider and corporate IT worlds. Many of these sponsors participate daily "
+"in the FreeBSD community, and contributors have the opportunity to develop "
+"software ideas in an exciting environment with many real world applications, "
+"and under the mentorship of experienced developers."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:26
+msgid ""
+"After the summer ends, contributors can be sponsored by Google or the "
+"FreeBSD Foundation to attend operating systems and open source conferences "
+"to present on their work, and a significant number go on to become FreeBSD "
+"developers. It's also a great job networking opportunity!"
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/summerofcode.adoc:28
+#, no-wrap
+msgid "Example Proposal Ideas"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:31
+msgid ""
+"The FreeBSD Project maintains a "
+"https://wiki.FreeBSD.org/SummerOfCodeIdeas[list of possible ideas] on our "
+"wiki. All projects listed are believed to be sized for a useful summer "
+"hacking, and have technical contacts who can help answer questions as you "
+"write your proposal. We also maintain a more generic "
+"https://wiki.FreeBSD.org/IdeasPage[Ideas Page]. These projects are less "
+"suitable as Summer of Code projects as they may be scoped larger or smaller "
+"than a summer, or might not have such a clear mentor - we suggest e-mailing "
+"our soc-admins@FreeBSD.org for help if you do decide to propose one of "
+"them. These pages exist to help provide inspiration. Contributors are also "
+"welcome, and are indeed encouraged to propose your own ideas, and if the "
+"proposal is strong, we'll try to match you with a mentor!"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:33
+msgid ""
+"For additional ideas about upcoming development projects in FreeBSD, take a "
+"look at recent link:../status/[Developer Status Reports]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/summerofcode.adoc:35
+#, no-wrap
+msgid "Past Contributor Projects"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:38
+msgid "For a complete list of contributor projects from previous years, visit:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:40
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2021Projects[Summer of Code 2021 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:41
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2020Projects[Summer of Code 2020 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:42
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2019Projects[Summer of Code 2019 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:43
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2018Projects[Summer of Code 2018 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:44
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2017Projects[Summer of Code 2017 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:45
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2016Projects[Summer of Code 2016 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:46
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2015Projects[Summer of Code 2015 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:47
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2014Projects[Summer of Code 2014 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:48
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2013Projects[Summer of Code 2013 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:49
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2012Projects[Summer of Code 2012 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:50
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2011Projects[Summer of Code 2011 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:51
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2010Projects[Summer of Code 2010 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:52
+msgid ""
+"https://wiki.FreeBSD.org/SummerOfCode2009Projects[Summer of Code 2009 "
+"FreeBSD Projects Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:54
+msgid ""
+"See also our wiki pages for contributor projects "
+"[https://wiki.FreeBSD.org/SummerOfCode2008[2008], "
+"https://wiki.FreeBSD.org/SummerOfCode2007[2007], "
+"https://wiki.FreeBSD.org/SummerOfCode2006[2006], and "
+"https://wiki.FreeBSD.org/SummerOfCode2005[2005]]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/summerofcode.adoc:56
+#, no-wrap
+msgid "Proposal Guidelines"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:59
+msgid ""
+"Contributors are responsible for writing a proposal and submitting it to "
+"Google before the application deadline. The following outline was adapted "
+"from the Perl Foundation. The objective of the proposal is to identify what "
+"is to be done, explain why this needs to be done, and convince us that:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:61
+msgid ""
+"You are qualified to do this project. This means both having the necessary "
+"background and demonstrating a general understanding of the problem."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:62
+msgid ""
+"You have the resources (especially time!) needed to complete the project "
+"within the working period of the Summer of Code."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:64
+msgid "A strong proposal will include (at least):"
+msgstr ""
+
+#. type: Title ===
+#: content/en/projects/summerofcode.adoc:65
+#, no-wrap
+msgid "General Information"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:68
+#, no-wrap
+msgid "*Name*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:69
+#, no-wrap
+msgid "*Email*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:70
+#, no-wrap
+msgid "*Phone*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:71
+#, no-wrap
+msgid "*IM/IRC*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:72
+#, no-wrap
+msgid "*Availability*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:74
+msgid ""
+"How many hours per week will you spend working on this? How many on other "
+"things? What other obligations (work, school, vacation, weddings, etc.) do "
+"you have this summer? Be as specific as possible: when will the project "
+"begin and end? You should be ready to produce a day by day schedule before "
+"the program starts.)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:76
+#, no-wrap
+msgid ""
+"*Please note*: participating in Google Summer of Code is a significant time "
+"commitment, and you should not apply if you already have another full-time "
+"job planned for the summer.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:77
+#, no-wrap
+msgid "*Biography*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:79
+msgid ""
+"Who are you? What skills do you bring to this project? What is your past "
+"involvement with The FreeBSD Project? (Past involvement is not required, but "
+"ideally you will have at least installed FreeBSD and perhaps fixed a bug or "
+"two) If your project includes programming in a particular language, such as "
+"C, or in a specific environment, such as the kernel or an embedded platform, "
+"what experience do you have working in that area? Are you familiar with or a "
+"user of revision control systems? Have you completed courses that will be "
+"relevant to your project idea? What do you think you will need to learn to "
+"complete this project?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:80
+#, no-wrap
+msgid "*Possible Mentor*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:82
+msgid ""
+"Optional, but highly recommended. Do not put a name here if you have not "
+"contacted them."
+msgstr ""
+
+#. type: Title ===
+#: content/en/projects/summerofcode.adoc:83
+#, no-wrap
+msgid "Project Information"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:86
+#, no-wrap
+msgid "*Project Title*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:88
+msgid "In forty characters or less, what you propose to do."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:89
+#, no-wrap
+msgid "*Project Description*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:91
+msgid ""
+"A few paragraphs describing your project. Direct copies from the ideas page "
+"will be rejected - proposals should reveal that you have done some research "
+"into the problem and its solutions. Include both what you will be doing and "
+"why it is a good thing for The FreeBSD Project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:92
+#, no-wrap
+msgid "*Deliverables*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:94
+msgid ""
+"A list quantifiable results and related code milestones. We suggest at least "
+"two milestones before the mid-term evaluations and two after. Where "
+"appropriate, this schedule should include multiple committable or releasable "
+"points so people can benefit from and/or test your work as early as "
+"possible."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:95
+#, no-wrap
+msgid "*Test Plan*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:97
+msgid ""
+"What parts of your code need testing and how do you plan to test them? This "
+"might include both functionality and performance tests."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:98
+#, no-wrap
+msgid "*Project Schedule*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:100
+msgid "How long will the project take? When can you begin work?"
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/summerofcode.adoc:102
+#, no-wrap
+msgid "Mentors"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:105
+msgid ""
+"A number of FreeBSD committers are willing to mentor contributors. A good "
+"place to start is the 'Technical contacts' listed with the example projects "
+"on the https://wiki.FreeBSD.org/SummerOfCodeIdeas[ideas page]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/summerofcode.adoc:107
+#, no-wrap
+msgid "Infrastructure Provided to Contributors"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:110
+msgid ""
+"We expect project work to be done in GitHub repositories in order to "
+"facilitate contributor collaboration, provide public access and archiving "
+"for the on-going contributor projects, and to help mentors and the community "
+"monitor on-going work. Contributors will also be asked to maintain wiki "
+"pages on their on-going projects. In the past, e-mail, IRC, and instant "
+"messaging have proven popular among contributors and mentors, and "
+"contributors participating in the FreeBSD summer program are encouraged to "
+"use these and other electronic communication mechanisms to become active in "
+"the community."
+msgstr ""
+
+#. type: Title ==
+#: content/en/projects/summerofcode.adoc:112
+#, no-wrap
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:115
+#, no-wrap
+msgid "*When are proposals due, and how do I submit mine?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:117
+msgid ""
+"Google has announced the following dates of interest relating to the "
+"application process: +"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:119
+#, no-wrap
+msgid ""
+"*07 March*           - Potential GSoC contributors discuss application ideas "
+"with mentoring organizations\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:120
+#, no-wrap
+msgid "*04 April 18:00 UTC* - GSoC contributor application period begins\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:121
+#, no-wrap
+msgid "*19 April 18:00 UTC* - GSoC contributor application deadline\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:122
+#, no-wrap
+msgid ""
+"*20 May   18:00 UTC* - Accepted GSoC contributor projects announced | "
+"http://googlesummerofcode.blogspot.com/2007/04/so-what-is-this-community-bonding-all.html[Community "
+"Bonding Period begins] | Contributors get to know mentors, read "
+"documentation, get up to speed to begin working on their projects\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:123
+#, no-wrap
+msgid "*13 June*            - Coding officially begins.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:124
+#, no-wrap
+msgid ""
+"*25 July  18:00 UTC* - Mentors and GSoC contributors can begin submitting "
+"Phase 1 evaluations.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:125
+#, no-wrap
+msgid ""
+"*29 July  18:00 UTC* - Phase 1 Evaluation deadline (standard coding "
+"period).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:127
+msgid ""
+"The https://developers.google.com/open-source/gsoc/timeline/[GSoC Timeline] "
+"is the authoritative source of detailed schedule information."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:129
+#, no-wrap
+msgid "*Where do I register?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:131
+msgid ""
+"All contributors must register with, and submit applications via, "
+"https://summerofcode.withgoogle.com/[the Google Summer of Code Home Page]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:133
+#, no-wrap
+msgid ""
+"*What advice do you have for a contributor who might want to submit a "
+"proposal?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:135
+msgid ""
+"Experience suggests that the strongest proposals come from contributors who "
+"contact FreeBSD developers and potential mentors well in advance of "
+"submitting their proposal, seek feedback on their proposal ideas, and write "
+"proposals that reflect time spent exploring and understanding the problem "
+"area to be addressed. Even if the FreeBSD developer(s) you contact aren't "
+"the eventual mentor of the project, their feedback can be invaluable. +"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:137
+#, no-wrap
+msgid "*Can I submit multiple project proposals to the FreeBSD Project?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:139
+msgid ""
+"Yes, but do make sure you invest adequate time in each proposal. We are not "
+"able to accept more than one project per contributor, so you may do better "
+"spending more time on one or two detailed proposals than by submitting lots "
+"of less-detailed ones."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:141
+#, no-wrap
+msgid ""
+"*Will the FreeBSD Project accept more than one contributor for the same "
+"idea?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:143
+msgid ""
+"In general, we will accept only one contributor for any given proposal idea, "
+"as most proposal ideas in our ideas list are sized with a single contributor "
+"summer project in mind. This is a good reason to consider coming up with "
+"your own idea, or at least, making sure that your proposal for one of our "
+"project ideas reflects your unique contribution and viewpoint. If you plan "
+"to submit multiple proposals, you might consider doing one with an idea from "
+"the list, and another with an original idea."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:145
+#, no-wrap
+msgid ""
+"*What if my proposal is not selected in the application process? Can I still "
+"participate?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:147
+msgid ""
+"We always have more good applications than contributor places, but that "
+"doesn't mean you can't do the project anyway. The FreeBSD Project always "
+"welcomes new volunteers to work on projects, and is generally happy to "
+"provide mentoring and support for contributors whose proposals could not be "
+"selected in order to allow them to work on their project anyway. You will "
+"need to work with the FreeBSD Project GSoC administrators to identify a "
+"possible mentor. However, Google will not fund that participation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:149
+#, no-wrap
+msgid ""
+"*What projects were completed successfully by contributors in previous "
+"summers?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:151
+msgid ""
+"Please see the https://wiki.FreeBSD.org/SummerOfCode2021Projects[2021 "
+"FreeBSD Summer of Code page], as well as older project pages from "
+"https://wiki.FreeBSD.org/SummerOfCode2020Projects[2020], "
+"https://wiki.FreeBSD.org/SummerOfCode2019Projects[2019], "
+"https://wiki.FreeBSD.org/SummerOfCode2018Projects[2018], "
+"https://wiki.FreeBSD.org/SummerOfCode2017Projects[2017], "
+"https://wiki.FreeBSD.org/SummerOfCode2016Projects[2016], "
+"https://wiki.FreeBSD.org/SummerOfCode2015Projects[2015], "
+"https://wiki.FreeBSD.org/SummerOfCode2014Projects[2014], "
+"https://wiki.FreeBSD.org/SummerOfCode2013Projects[2013], "
+"https://wiki.FreeBSD.org/SummerOfCode2012Projects[2012], "
+"https://wiki.FreeBSD.org/SummerOfCode2011Projects[2011], "
+"https://wiki.FreeBSD.org/SummerOfCode2010Projects[2010], "
+"https://wiki.FreeBSD.org/SummerOfCode2009Projects[2009], "
+"link:summerofcode-2008.html[2008], link:summerofcode-2007.html[2007], "
+"link:summerofcode-2006.html[2006], and link:summerofcode-2005.html[2005] for "
+"a list of the completed projects from previous years."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:153
+#, no-wrap
+msgid "*How can I learn more about FreeBSD?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:155
+msgid ""
+"The link://www.FreeBSD.org/[FreeBSD Project Home Page] is the best way to "
+"learn more about the project - from there you can reach the FreeBSD "
+"Handbook, FreeBSD Developer's Handbook, project mailing list archives, "
+"regular project status reports, and more. If you have questions about "
+"specific project ideas, e-mail the technical contacts for those ideas. If "
+"you have general GSoC questions relating to FreeBSD, such as if you are "
+"unable to reach a project technical contact, need help finding "
+"documentation, or want to know who might be a good person to talk to about "
+"your idea, send them to soc-admins@FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:157
+#, no-wrap
+msgid ""
+"*Is there an IRC channel I can join to talk about proposal ideas or get help "
+"finding out more?*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/projects/summerofcode.adoc:158
+msgid ""
+"You can join #freebsd-soc on the Libera.Chat IRC network to chat with "
+"FreeBSD developers interested in mentoring contributor proposals and "
+"projects, past FreeBSD/GSoC contributors, and other contributors applying to "
+"FreeBSD/GSoC this year."
+msgstr ""

@@ -1,0 +1,3795 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.10R/installation-alpha.adoc:1
+#, no-wrap
+msgid "FreeBSD/alpha 4.10-RELEASE Installation Instructions"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:10
+#, no-wrap
+msgid "<h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:13
+#, no-wrap
+msgid ""
+"<p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001, 2002, 2003, 2004 The "
+"FreeBSD\n"
+"Documentation Project</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:16
+#, no-wrap
+msgid ""
+"<hr />\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:24
+#, no-wrap
+msgid ""
+"<blockquote class=\"ABSTRACT\">\n"
+"<div class=\"ABSTRACT\"><a id=\"AEN12\" name=\"AEN12\"></a>\n"
+"<p>This article gives some brief instructions on installing FreeBSD/alpha "
+"4.10-RELEASE,\n"
+"with particular emphasis given to obtaining a FreeBSD distribution. Some "
+"notes on\n"
+"troubleshooting and frequently-asked questions are also given.</p>\n"
+"</div>\n"
+"</blockquote>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:28
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h2 class=\"SECT1\"><a id=\"AEN14\" name=\"AEN14\">1 Installing "
+"FreeBSD</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:37
+#, no-wrap
+msgid ""
+"<p>This section documents the process of installing a new distribution of "
+"FreeBSD. These\n"
+"instructions pay particular emphasis to the process of obtaining the FreeBSD "
+"4.10-RELEASE\n"
+"distribution and to beginning the installation procedure. The <a\n"
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/install.html\"\n"
+"target=\"_top\">``Installing FreeBSD''</a> chapter of the <a\n"
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/\" "
+"target=\"_top\">FreeBSD\n"
+"Handbook</a> provides more in-depth information about the installation "
+"program itself,\n"
+"including a guided walkthrough with screenshots.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:40
+#, no-wrap
+msgid ""
+"<p>If you are upgrading from a previous release of FreeBSD, please see <a\n"
+"href=\"#UPGRADING\">Section 3</a> for instructions on upgrading.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:45
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"GETTING-STARTED\" name=\"GETTING-STARTED\">1.1 "
+"Getting\n"
+"Started</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:52
+#, no-wrap
+msgid ""
+"<p>Probably the most important pre-installation step that can be taken is "
+"that of reading\n"
+"the various instruction documents provided with FreeBSD. A roadmap of "
+"documents\n"
+"pertaining to this release of FreeBSD can be found in <tt\n"
+"class=\"FILENAME\">README.TXT</tt>, which can usually be found in the same "
+"location as this\n"
+"file; most of these documents, such as the release notes and the hardware "
+"compatability\n"
+"list, are also accessible in the Documentation menu of the installer.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:58
+#, no-wrap
+msgid ""
+"<p>Note that on-line versions of the FreeBSD <a\n"
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/faq/\" "
+"target=\"_top\">FAQ</a> and <a\n"
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/\"\n"
+"target=\"_top\">Handbook</a> are also available from the <a "
+"href=\"http://www.FreeBSD.org/\"\n"
+"target=\"_top\">FreeBSD Project Web site</a>, if you have an Internet "
+"connection.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:62
+#, no-wrap
+msgid ""
+"<p>This collection of documents may seem daunting, but the time spent "
+"reading them will\n"
+"likely be saved many times over. Being familiar with what resources are "
+"available can\n"
+"also be helpful in the event of problems during installation.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:68
+#, no-wrap
+msgid ""
+"<p>The best laid plans sometimes go awry, so if you run into trouble take a "
+"look at <a\n"
+"href=\"#TROUBLE\">Section 4</a>, which contains valuable troubleshooting "
+"information. You\n"
+"should also read an updated copy of <tt class=\"FILENAME\">ERRATA.TXT</tt> "
+"before\n"
+"installing, since this will alert you to any problems which have reported in "
+"the interim\n"
+"for your particular release.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:79
+#, no-wrap
+msgid ""
+"<div class=\"IMPORTANT\">\n"
+"<blockquote class=\"IMPORTANT\">\n"
+"<p><b>Important:</b> While FreeBSD does its best to safeguard against "
+"accidental loss of\n"
+"data, it's still more than possible to <span class=\"emphasis\"><i "
+"class=\"EMPHASIS\">wipe\n"
+"out your entire disk</i></span> with this installation if you make a "
+"mistake. Please do\n"
+"not proceed to the final FreeBSD installation menu unless you've adequately "
+"backed up any\n"
+"important data first.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:83
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"AEN37\" name=\"AEN37\">1.2 Hardware "
+"Requirements</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:86
+#, no-wrap
+msgid ""
+"<p>FreeBSD for the Alpha/AXP supports the platforms described in <tt\n"
+"class=\"FILENAME\">HARDWARE.TXT</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:91
+#, no-wrap
+msgid ""
+"<p>You will need a dedicated disk for FreeBSD/alpha. It is not possible to "
+"share a disk\n"
+"with another operating system at this time. This disk will need to be "
+"attached to a SCSI\n"
+"controller which is supported by the SRM firmware or an IDE disk assuming "
+"the SRM in your\n"
+"machine supports booting from IDE disks.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:94
+#, no-wrap
+msgid ""
+"<p>Your root filesystem MUST be the first partition (partition <var\n"
+"class=\"LITERAL\">a</var>) on the disk to be bootable.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:98
+#, no-wrap
+msgid ""
+"<p>You will need the SRM console firmware for your platform. In some cases, "
+"it is\n"
+"possible to switch between AlphaBIOS (or ARC) firmware and SRM. In others it "
+"will be\n"
+"necessary to download new firmware from the vendor's Web site.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:103
+#, no-wrap
+msgid ""
+"<p>If you are not familiar with configuring hardware for FreeBSD, you should "
+"be sure to\n"
+"read the <tt class=\"FILENAME\">HARDWARE.TXT</tt> file; it contains "
+"important information\n"
+"on what hardware is supported by FreeBSD.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:108
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"FLOPPIES\" name=\"FLOPPIES\">1.3 Floppy Disk "
+"Image\n"
+"Instructions</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:114
+#, no-wrap
+msgid ""
+"<p>Depending on how you choose to install FreeBSD, you may need to create a "
+"set of floppy\n"
+"disks (usually two) to begin the installation process. This section briefly "
+"describes how\n"
+"to create these disks, either from a CDROM installation or from the "
+"Internet. Note that\n"
+"in the common case of installing FreeBSD from CDROM, on a machine that "
+"supports bootable\n"
+"CDROMs, the steps outlined in this section will not be needed and can be "
+"skipped.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:119
+#, no-wrap
+msgid ""
+"<p>For a normal CDROM or network installation, all you need to copy onto "
+"actual floppies\n"
+"from the <tt class=\"FILENAME\">floppies/</tt> directory are the <tt\n"
+"class=\"FILENAME\">kern.flp</tt> and <tt class=\"FILENAME\">mfsroot.flp</tt> "
+"images (for\n"
+"1.44MB floppies).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:129
+#, no-wrap
+msgid ""
+"<p>Getting these images over the network is easy. Simply fetch the <var\n"
+"class=\"REPLACEABLE\">release</var><tt "
+"class=\"FILENAME\">/floppies/kern.flp</tt> and <var\n"
+"class=\"REPLACEABLE\">release</var><tt "
+"class=\"FILENAME\">/floppies/mfsroot.flp</tt> files\n"
+"from <a href=\"ftp://ftp.FreeBSD.org/\" "
+"target=\"_top\">ftp://ftp.FreeBSD.org/</a> or one of\n"
+"the many mirrors listed at <a\n"
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\"\n"
+"target=\"_top\">FTP Sites</a> section of the Handbook, or on the <a\n"
+"href=\"http://www.freebsdmirrors.org/\" "
+"target=\"_top\">http://www.freebsdmirrors.org/</a>\n"
+"Web pages.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:140
+#, no-wrap
+msgid ""
+"<p>Get two blank, freshly formatted floppies and image copy <tt\n"
+"class=\"FILENAME\">kern.flp</tt> onto one and <tt "
+"class=\"FILENAME\">mfsroot.flp</tt> onto\n"
+"the other. These images are <span class=\"emphasis\"><i "
+"class=\"EMPHASIS\">not</i></span> DOS\n"
+"files. You cannot simply copy them to a DOS or UFS floppy as regular files, "
+"you need to\n"
+"``image'' copy them to the floppy with <tt "
+"class=\"FILENAME\">fdimage.exe</tt> under DOS\n"
+"(see the <tt class=\"FILENAME\">tools</tt> directory on your CDROM or "
+"FreeBSD FTP mirror)\n"
+"or the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=dd&sektion=1&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">dd</span>(1)</span></a> command in\n"
+"UNIX.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:143
+#, no-wrap
+msgid ""
+"<p>For example, to create the kernel floppy image from DOS, you'd do "
+"something like\n"
+"this:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:147
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<samp class=\"PROMPT\">C&#62;</samp> <kbd class=\"USERINPUT\">fdimage "
+"kern.flp a:</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:151
+#, no-wrap
+msgid ""
+"<p>Assuming that you'd copied <tt class=\"FILENAME\">fdimage.exe</tt> and "
+"<tt\n"
+"class=\"FILENAME\">kern.flp</tt> into a directory somewhere. You would do "
+"the same for <tt\n"
+"class=\"FILENAME\">mfsroot.flp</tt>, of course.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:153
+#, no-wrap
+msgid ""
+"<p>If you're creating the boot floppy from a UNIX machine, you may find "
+"that:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:158
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<samp class=\"PROMPT\">#</samp> <kbd\n"
+"class=\"USERINPUT\">dd if=floppies/kern.flp of=/dev/rfd0</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:160
+#, no-wrap
+msgid "<p>or</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:165
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<samp class=\"PROMPT\">#</samp> <kbd\n"
+"class=\"USERINPUT\">dd if=floppies/kern.flp of=/dev/floppy</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:168
+#, no-wrap
+msgid ""
+"<p>work well, depending on your hardware and operating system environment "
+"(different\n"
+"versions of UNIX have different names for the floppy drive).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:179
+#, no-wrap
+msgid ""
+"<p>If you're on an alpha machine that can network-boot its floppy images or "
+"you have a\n"
+"2.88MB or LS-120 floppy capable of taking a 2.88MB image on an x86 machine, "
+"you may wish\n"
+"to use the single (but twice as large) <tt class=\"FILENAME\">boot.flp</tt> "
+"image. It\n"
+"contains the contents of <tt class=\"FILENAME\">kern.flp</tt> and <tt\n"
+"class=\"FILENAME\">mfsroot.flp</tt> on a single floppy. This file should "
+"also be used as\n"
+"the boot file for those mastering ``El Torito'' bootable CD images. See the "
+"<a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=mkisofs&sektion=8&manpath=FreeBSD+Ports\"><span\n"
+" class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">mkisofs</span>(8)</span></a> command\n"
+"for more information.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:184
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"START-INSTALLATION\" "
+"name=\"START-INSTALLATION\">1.4 Installing\n"
+"FreeBSD from CDROM or the Internet</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:189
+#, no-wrap
+msgid ""
+"<p>The easiest type of installation is from CDROM. If you have a supported "
+"CDROM drive\n"
+"and a FreeBSD installation CDROM, you can boot FreeBSD directly from the "
+"CDROM. Insert\n"
+"the CDROM into the drive and type the following command to start the "
+"installation\n"
+"(substituting the name of the appropriate CDROM drive if necessary):</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:193
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"&gt;&gt;&gt;<kbd class=\"USERINPUT\">boot dka0</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:201
+#, no-wrap
+msgid ""
+"<p>Alternatively you can boot the installation from floppy disk. You should "
+"start the\n"
+"installation by building a set of FreeBSD boot floppies from the files <tt\n"
+"class=\"FILENAME\">floppies/kern.flp</tt> and <tt\n"
+"class=\"FILENAME\">floppies/mfsroot.flp</tt> using the instructions found in "
+"<a\n"
+"href=\"#FLOPPIES\">Section 1.3</a>. From the SRM console prompt (<var\n"
+"class=\"LITERAL\">&gt;&gt;&gt;</var>), just insert the <tt "
+"class=\"FILENAME\">kern.flp</tt>\n"
+"floppy and type the following command to start the installation:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:205
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"&gt;&gt;&gt;<kbd class=\"USERINPUT\">boot dva0</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:209
+#, no-wrap
+msgid ""
+"<p>Insert the <tt class=\"FILENAME\">mfsroot.flp</tt> floppy when prompted "
+"and you will end\n"
+"up at the first screen of the install program.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:214
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"AEN133\" name=\"AEN133\">1.5 Detail on various "
+"installation\n"
+"types</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:220
+#, no-wrap
+msgid ""
+"<p>Once you've gotten yourself to the initial installation screen somehow, "
+"you should be\n"
+"able to follow the various menu prompts and go from there. If you've never "
+"used the\n"
+"FreeBSD installation before, you are also encouraged to read some of the "
+"documentation in\n"
+"the Documentation submenu as well as the general ``Usage'' instructions on "
+"the first\n"
+"menu.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:227
+#, no-wrap
+msgid ""
+"<div class=\"NOTE\">\n"
+"<blockquote class=\"NOTE\">\n"
+"<p><b>Note:</b> If you get stuck at a screen, press the <b "
+"class=\"KEYCAP\">F1</b> key for\n"
+"online documentation relevant to that specific section.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:235
+#, no-wrap
+msgid ""
+"<p>If you've never installed FreeBSD before, or even if you have, the "
+"``Standard''\n"
+"installation mode is the most recommended since it makes sure that you'll "
+"visit all the\n"
+"various important checklist items along the way. If you're much more "
+"comfortable with the\n"
+"FreeBSD installation process and know <span class=\"emphasis\"><i\n"
+"class=\"EMPHASIS\">exactly</i></span> what you want to do, use the "
+"``Express'' or\n"
+"``Custom'' installation options. If you're upgrading an existing system, use "
+"the\n"
+"``Upgrade'' option.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:239
+#, no-wrap
+msgid ""
+"<p>The FreeBSD installer supports the direct use of floppy, DOS, tape, "
+"CDROM, FTP, NFS\n"
+"and UFS partitions as installation media; further tips on installing from "
+"each type of\n"
+"media are listed below.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:242
+#, no-wrap
+msgid ""
+"<p>Once the install procedure has finished, you will be able to start "
+"FreeBSD/alpha by\n"
+"typing something like this to the SRM prompt:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:246
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"&gt;&gt;&gt;<kbd class=\"USERINPUT\">boot dkc0</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:249
+#, no-wrap
+msgid ""
+"<p>This instructs the firmware to boot the specified disk. To find the SRM "
+"names of disks\n"
+"in your machine, use the <var class=\"LITERAL\">show device</var> "
+"command:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:261
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"&gt;&gt;&gt;<kbd class=\"USERINPUT\">show device</kbd>\n"
+"dka0.0.0.4.0               DKA0           TOSHIBA CD-ROM XM-57  3476\n"
+"dkc0.0.0.1009.0            DKC0                       RZ1BB-BS  0658\n"
+"dkc100.1.0.1009.0          DKC100             SEAGATE ST34501W  0015\n"
+"dva0.0.0.0.1               DVA0\n"
+"ewa0.0.0.3.0               EWA0              00-00-F8-75-6D-01\n"
+"pkc0.7.0.1009.0            PKC0                  SCSI Bus ID 7  5.27\n"
+"pqa0.0.0.4.0               PQA0                       PCI EIDE\n"
+"pqb0.0.1.4.0               PQB0                       PCI EIDE\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:266
+#, no-wrap
+msgid ""
+"<p>This example is from a Digital Personal Workstation 433au and shows three "
+"disks\n"
+"attached to the machine. The first is a CDROM called <tt "
+"class=\"DEVICENAME\">dka0</tt> and\n"
+"the other two are disks and are called <tt class=\"DEVICENAME\">dkc0</tt> "
+"and <tt\n"
+"class=\"DEVICENAME\">dkc100</tt> repectively.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:269
+#, no-wrap
+msgid ""
+"<p>You can specify which kernel file to load and what boot options to use "
+"with the <var\n"
+"class=\"OPTION\">-file</var> and <var class=\"OPTION\">-flags</var> options, "
+"for example:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:274
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<samp class=\"PROMPT\">&gt;&gt;&gt;</samp> <kbd\n"
+"class=\"USERINPUT\">boot -file kernel.old -flags s</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:276
+#, no-wrap
+msgid "<p>To make FreeBSD/alpha boot automatically, use these commands:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:284
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<samp class=\"PROMPT\">&gt;&gt;&gt;</samp> <kbd class=\"USERINPUT\">set "
+"boot_osflags a</kbd>\n"
+"<samp class=\"PROMPT\">&gt;&gt;&gt;</samp> <kbd\n"
+"class=\"USERINPUT\">set bootdef_dev dkc0</kbd>\n"
+"<samp class=\"PROMPT\">&gt;&gt;&gt;</samp> <kbd\n"
+"class=\"USERINPUT\">set auto_action BOOT</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:289
+#, no-wrap
+msgid ""
+"<div class=\"SECT3\">\n"
+"<hr />\n"
+"<h4 class=\"SECT3\"><a id=\"AEN172\" name=\"AEN172\">1.5.1 Installing from a "
+"Network\n"
+"CDROM</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:294
+#, no-wrap
+msgid ""
+"<p>If you simply wish to install from a local CDROM drive then see <a\n"
+"href=\"#START-INSTALLATION\">Section 1.4</a>. If you don't have a CDROM "
+"drive on your\n"
+"system and wish to use a FreeBSD distribution CD in the CDROM drive of "
+"another system to\n"
+"which you have network connectivity, there are also several ways of going "
+"about it:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:303
+#, no-wrap
+msgid ""
+"<ul>\n"
+"<li>\n"
+"<p>If you would be able to FTP install FreeBSD directly from the CDROM drive "
+"in some\n"
+"FreeBSD machine, it's quite easy: You simply add the following line to the "
+"password file\n"
+"(using the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=vipw&sektion=8&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">vipw</span>(8)</span></a>\n"
+"command):</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:307
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"ftp:*:99:99::0:0:FTP:/cdrom:/sbin/nologin\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:312
+#, no-wrap
+msgid ""
+"<p>On the machine on which you are running the install, go to the Options "
+"menu and set\n"
+"Release Name to <var class=\"LITERAL\">any</var>. You may then choose a "
+"Media type of <var\n"
+"class=\"LITERAL\">FTP</var> and type in <tt class=\"FILENAME\">ftp://<var\n"
+"class=\"REPLACEABLE\">machine</var></tt> after picking ``URL'' in the ftp "
+"sites menu.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:320
+#, no-wrap
+msgid ""
+"<div class=\"WARNING\">\n"
+"<blockquote class=\"WARNING\">\n"
+"<p><b>Warning:</b> This may allow anyone on the local network (or Internet) "
+"to make\n"
+"``anonymous FTP'' connections to this machine, which may not be "
+"desirable.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:327
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>If you would rather use NFS to export the CDROM directly to the "
+"machine(s) you'll be\n"
+"installing from, you need to first add an entry to the <tt\n"
+"class=\"FILENAME\">/etc/exports</tt> file (on the machine with the CDROM "
+"drive). The\n"
+"example below allows the machine <tt class=\"HOSTID\">ziggy.foo.com</tt> to "
+"mount the CDROM\n"
+"directly via NFS during installation:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:331
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"/cdrom          -ro             ziggy.foo.com\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:344
+#, no-wrap
+msgid ""
+"<p>The machine with the CDROM must also be configured as an NFS server, of "
+"course, and if\n"
+"you're not sure how to do that then an NFS installation is probably not the "
+"best choice\n"
+"for you unless you're willing to read up on <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=rc.conf&sektion=5&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">rc.conf</span>(5)</span></a> and\n"
+"configure things appropriately. Assuming that this part goes smoothly, you "
+"should be able\n"
+"to enter: <tt class=\"FILENAME\"><var "
+"class=\"REPLACEABLE\">cdrom-host</var>:/cdrom</tt> as\n"
+"the path for an NFS installation when the target machine is installed, "
+"e.g. <tt\n"
+"class=\"FILENAME\">wiggy:/cdrom</tt>.</p>\n"
+"</li>\n"
+"</ul>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:348
+#, no-wrap
+msgid ""
+"<div class=\"SECT3\">\n"
+"<hr />\n"
+"<h4 class=\"SECT3\"><a id=\"AEN204\" name=\"AEN204\">1.5.2 Installing from "
+"Floppies</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:352
+#, no-wrap
+msgid ""
+"<p>If you must install from floppy disks, either due to unsupported hardware "
+"or just\n"
+"because you enjoy doing things the hard way, you must first prepare some "
+"floppies for the\n"
+"install.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:355
+#, no-wrap
+msgid ""
+"<p>First, make your boot floppies as described in <a "
+"href=\"#FLOPPIES\">Section\n"
+"1.3</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:359
+#, no-wrap
+msgid ""
+"<p>Second, peruse <a href=\"#LAYOUT\">Section 2</a> and pay special "
+"attention to the\n"
+"``Distribution Format'' section since it describes which files you're going "
+"to need to\n"
+"put onto floppy and which you can safely skip.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:366
+#, no-wrap
+msgid ""
+"<p>Next you will need, at minimum, as many 1.44MB floppies as it takes to "
+"hold all files\n"
+"in the <tt class=\"FILENAME\">bin</tt> (binary distribution) directory. If "
+"you're preparing\n"
+"these floppies under DOS, then these floppies <span class=\"emphasis\"><i\n"
+"class=\"EMPHASIS\">must</i></span> be formatted using the MS-DOS <tt\n"
+"class=\"FILENAME\">FORMAT</tt> command. If you're using Windows, use the "
+"Windows File\n"
+"Manager format command.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:374
+#, no-wrap
+msgid ""
+"<div class=\"IMPORTANT\">\n"
+"<blockquote class=\"IMPORTANT\">\n"
+"<p><b>Important:</b> Frequently, floppy disks come ``factory "
+"preformatted''. While\n"
+"convenient, many problems reported by users in the past have resulted from "
+"the use of\n"
+"improperly formatted media. Re-format them yourself, just to make "
+"sure.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:384
+#, no-wrap
+msgid ""
+"<p>If you're creating the floppies from another FreeBSD machine, a format is "
+"still not a\n"
+"bad idea though you don't need to put a DOS filesystem on each floppy. You "
+"can use the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=disklabel&sektion=8&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">disklabel</span>(8)</span></a> and\n"
+"<a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=newfs&sektion=8&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">newfs</span>(8)</span></a>\n"
+"commands to put a UFS filesystem on a floppy, as the following sequence of "
+"commands\n"
+"illustrates:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:392
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<samp class=\"PROMPT\">#</samp> <kbd class=\"USERINPUT\">fdformat -f 1440 "
+"fd0.1440</kbd>\n"
+"<samp class=\"PROMPT\">#</samp> <kbd\n"
+"class=\"USERINPUT\">disklabel -w -r fd0.1440 floppy3</kbd>\n"
+"<samp class=\"PROMPT\">#</samp> <kbd\n"
+"class=\"USERINPUT\">newfs -t 2 -u 18 -l 1 -i 65536 /dev/fd0</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:400
+#, no-wrap
+msgid ""
+"<p>After you've formatted the floppies for DOS or UFS, you'll need to copy "
+"the files onto\n"
+"them. The distribution files are split into chunks conveniently sized so "
+"that 5 of them\n"
+"will fit on a conventional 1.44MB floppy. Go through all your floppies, "
+"packing as many\n"
+"files as will fit on each one, until you've got all the distributions you "
+"want packed up\n"
+"in this fashion. Each distribution should go into its own subdirectory on "
+"the floppy,\n"
+"e.g.: <tt class=\"FILENAME\">a:\\bin\\bin.inf</tt>, <tt "
+"class=\"FILENAME\">a:\\bin\\bin.aa</tt>,\n"
+"<tt class=\"FILENAME\">a:\\bin\\bin.ab</tt>, ...</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:412
+#, no-wrap
+msgid ""
+"<div class=\"IMPORTANT\">\n"
+"<blockquote class=\"IMPORTANT\">\n"
+"<p><b>Important:</b> The <tt class=\"FILENAME\">bin.inf</tt> file also needs "
+"to go on the\n"
+"first floppy of the <tt class=\"FILENAME\">bin</tt> set since it is read by "
+"the\n"
+"installation program in order to figure out how many additional pieces to "
+"look for when\n"
+"fetching and concatenating the distribution. When putting distributions onto "
+"floppies,\n"
+"the <tt class=\"FILENAME\">distname.inf</tt> file <span "
+"class=\"emphasis\"><i\n"
+"class=\"EMPHASIS\">must</i></span> occupy the first floppy of each "
+"distribution set. This\n"
+"is also covered in <tt class=\"FILENAME\">README.TXT</tt>.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:416
+#, no-wrap
+msgid ""
+"<p>Once you come to the Media screen of the install, select ``Floppy'' and "
+"you'll be\n"
+"prompted for the rest.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:421
+#, no-wrap
+msgid ""
+"<div class=\"SECT3\">\n"
+"<hr />\n"
+"<h4 class=\"SECT3\"><a id=\"AEN263\" name=\"AEN263\">1.5.4 Installing from "
+"QIC/SCSI\n"
+"Tape</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:428
+#, no-wrap
+msgid ""
+"<p>When installing from tape, the installation program expects the files to "
+"be simply\n"
+"tar'ed onto it, so after fetching all of the files for the distributions "
+"you're\n"
+"interested in, simply use <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=tar&sektion=1&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">tar</span>(1)</span></a> to get\n"
+"them onto the tape with a command something like this:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:435
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<samp class=\"PROMPT\">#</samp> <kbd class=\"USERINPUT\">cd <var\n"
+"class=\"REPLACEABLE\">/where/you/have/your/dists</var></kbd>\n"
+"<samp class=\"PROMPT\">#</samp> <kbd class=\"USERINPUT\">tar cvf /dev/rsa0 "
+"<var\n"
+"class=\"REPLACEABLE\">dist1</var> .. <var "
+"class=\"REPLACEABLE\">dist2</var></kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:442
+#, no-wrap
+msgid ""
+"<p>When you go to do the installation, you should also make sure that you "
+"leave enough\n"
+"room in some temporary directory (which you'll be allowed to choose) to "
+"accommodate the\n"
+"<span class=\"emphasis\"><i class=\"EMPHASIS\">full</i></span> contents of "
+"the tape you've\n"
+"created. Due to the non-random access nature of tapes, this method of "
+"installation\n"
+"requires quite a bit of temporary storage. You should expect to require as "
+"much temporary\n"
+"storage as you have stuff written on tape.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:450
+#, no-wrap
+msgid ""
+"<div class=\"NOTE\">\n"
+"<blockquote class=\"NOTE\">\n"
+"<p><b>Note:</b> When going to do the installation, the tape must be in the "
+"drive <span\n"
+"class=\"emphasis\"><i class=\"EMPHASIS\">before</i></span> booting from the "
+"boot floppies.\n"
+"The installation ``probe'' may otherwise fail to find it.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:454
+#, no-wrap
+msgid ""
+"<p>Now create a boot floppy as described in <a href=\"#FLOPPIES\">Section "
+"1.3</a> and\n"
+"proceed with the installation.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:459
+#, no-wrap
+msgid ""
+"<div class=\"SECT3\">\n"
+"<hr />\n"
+"<h4 class=\"SECT3\"><a id=\"FTPNFS\" name=\"FTPNFS\">1.5.5 Installing over a "
+"Network using FTP\n"
+"or NFS</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:463
+#, no-wrap
+msgid ""
+"<p>After making the boot floppies as described in the first section, you can "
+"load the\n"
+"rest of the installation over a network using one of 3 types of connections: "
+"serial port,\n"
+"parallel port, or Ethernet.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:467
+#, no-wrap
+msgid ""
+"<div class=\"SECT4\">\n"
+"<hr />\n"
+"<h5 class=\"SECT4\"><a id=\"AEN288\" name=\"AEN288\">1.5.5.1 Serial "
+"Port</a></h5>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:473
+#, no-wrap
+msgid ""
+"<p>SLIP support is rather primitive, and is limited primarily to hard-wired "
+"links, such\n"
+"as a serial cable running between two computers. The link must be hard-wired "
+"because the\n"
+"SLIP installation doesn't currently offer a dialing capability. If you need "
+"to dial out\n"
+"with a modem or otherwise dialog with the link before connecting to it, then "
+"I recommend\n"
+"that the PPP utility be used instead.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:479
+#, no-wrap
+msgid ""
+"<p>If you're using PPP, make sure that you have your Internet Service "
+"Provider's IP\n"
+"address and DNS information handy as you'll need to know it fairly early in "
+"the\n"
+"installation process. You may also need to know your own IP address, though "
+"PPP supports\n"
+"dynamic address negotiation and may be able to pick up this information "
+"directly from\n"
+"your ISP if they support it.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:484
+#, no-wrap
+msgid ""
+"<p>You will also need to know how to use the various ``AT commands'' for "
+"dialing out with\n"
+"your particular brand of modem as the PPP dialer provides only a very simple "
+"terminal\n"
+"emulator.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:488
+#, no-wrap
+msgid ""
+"<div class=\"SECT4\">\n"
+"<hr />\n"
+"<h5 class=\"SECT4\"><a id=\"AEN294\" name=\"AEN294\">1.5.5.2 Parallel "
+"Port</a></h5>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:496
+#, no-wrap
+msgid ""
+"<p>If a hard-wired connection to another FreeBSD or Linux machine is "
+"available, you might\n"
+"also consider installing over a ``laplink'' style parallel port cable. The "
+"data rate over\n"
+"the parallel port is much higher than what is typically possible over a "
+"serial line (up\n"
+"to 50k/sec), thus resulting in a quicker installation. It's not typically "
+"necessary to\n"
+"use ``real'' IP addresses when using a point-to-point parallel cable in this "
+"way and you\n"
+"can generally just use RFC 1918 style addresses for the ends of the link "
+"(e.g. <tt\n"
+"class=\"HOSTID\">10.0.0.1</tt>, <tt class=\"HOSTID\">10.0.0.2</tt>, "
+"etc).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:506
+#, no-wrap
+msgid ""
+"<div class=\"IMPORTANT\">\n"
+"<blockquote class=\"IMPORTANT\">\n"
+"<p><b>Important:</b> If you use a Linux machine rather than a FreeBSD "
+"machine as your\n"
+"PLIP peer, you will also have to specify <var class=\"OPTION\">link0</var> "
+"in the TCP/IP\n"
+"setup screen's ``extra options for ifconfig'' field in order to be "
+"compatible with\n"
+"Linux's slightly different PLIP protocol.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:510
+#, no-wrap
+msgid ""
+"<div class=\"SECT4\">\n"
+"<hr />\n"
+"<h5 class=\"SECT4\"><a id=\"AEN305\" name=\"AEN305\">1.5.5.3 "
+"Ethernet</a></h5>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:518
+#, no-wrap
+msgid ""
+"<p>FreeBSD supports many common Ethernet cards; a table of supported cards "
+"is provided as\n"
+"part of the FreeBSD Hardware Notes (see <tt "
+"class=\"FILENAME\">HARDWARE.TXT</tt> in the\n"
+"Documentation menu on the boot floppy or the top level directory of the "
+"CDROM). If you\n"
+"are using one of the supported PCMCIA Ethernet cards, also be sure that it's "
+"plugged in\n"
+"<span class=\"emphasis\"><i class=\"EMPHASIS\">before</i></span> the laptop "
+"is powered on.\n"
+"FreeBSD does not, unfortunately, currently support ``hot insertion'' of "
+"PCMCIA cards\n"
+"during installation.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:526
+#, no-wrap
+msgid ""
+"<p>You will also need to know your IP address on the network, the <var\n"
+"class=\"OPTION\">netmask</var> value for your subnet and the name of your "
+"machine. Your\n"
+"system administrator can tell you which values are appropriate to your "
+"particular network\n"
+"setup. If you will be referring to other hosts by name rather than IP "
+"address, you'll\n"
+"also need a name server and possibly the address of a gateway (if you're "
+"using PPP, it's\n"
+"your provider's IP address) to use in talking to it. If you want to install "
+"by FTP via an\n"
+"HTTP proxy (see below), you will also need the proxy's address.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:532
+#, no-wrap
+msgid ""
+"<p>If you do not know the answers to these questions then you should really "
+"probably talk\n"
+"to your system administrator <span class=\"emphasis\"><i "
+"class=\"EMPHASIS\">first</i></span>\n"
+"before trying this type of installation. Using a randomly chosen IP address "
+"or netmask on\n"
+"a live network is almost guaranteed not to work, and will probably result in "
+"a lecture\n"
+"from said system administrator.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:536
+#, no-wrap
+msgid ""
+"<p>Once you have a network connection of some sort working, the installation "
+"can continue\n"
+"over NFS or FTP.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:540
+#, no-wrap
+msgid ""
+"<div class=\"SECT4\">\n"
+"<hr />\n"
+"<h5 class=\"SECT4\"><a id=\"AEN316\" name=\"AEN316\">1.5.5.4 NFS "
+"installation tips</a></h5>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:543
+#, no-wrap
+msgid ""
+"<p>NFS installation is fairly straight-forward: Simply copy the FreeBSD "
+"distribution\n"
+"files you want onto a server somewhere and then point the NFS media "
+"selection at it.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:547
+#, no-wrap
+msgid ""
+"<p>If this server supports only ``privileged port'' access (this is "
+"generally the default\n"
+"for Sun and Linux workstations), you will need to set this option in the "
+"Options menu\n"
+"before installation can proceed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:550
+#, no-wrap
+msgid ""
+"<p>If you have a poor quality Ethernet card which suffers from very slow "
+"transfer rates,\n"
+"you may also wish to toggle the appropriate Options flag.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:557
+#, no-wrap
+msgid ""
+"<p>In order for NFS installation to work, the server must also support "
+"``subdir mounts'',\n"
+"e.g. if your FreeBSD distribution directory lives on <tt\n"
+"class=\"FILENAME\">wiggy:/usr/archive/stuff/FreeBSD</tt>, then <tt\n"
+"class=\"HOSTID\">wiggy</tt> will have to allow the direct mounting of <tt\n"
+"class=\"FILENAME\">/usr/archive/stuff/FreeBSD</tt>, not just <tt "
+"class=\"FILENAME\">/usr</tt>\n"
+"or <tt class=\"FILENAME\">/usr/archive/stuff</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:563
+#, no-wrap
+msgid ""
+"<p>In FreeBSD's <tt class=\"FILENAME\">/etc/exports</tt> file this is "
+"controlled by the\n"
+"<var class=\"OPTION\">-alldirs</var> option. Other NFS servers may have "
+"different\n"
+"conventions. If you are getting <var class=\"LITERAL\">Permission "
+"Denied</var> messages\n"
+"from the server then it's likely that you don't have this properly "
+"enabled.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:567
+#, no-wrap
+msgid ""
+"<div class=\"SECT4\">\n"
+"<hr />\n"
+"<h5 class=\"SECT4\"><a id=\"AEN333\" name=\"AEN333\">1.5.5.5 FTP "
+"Installation tips</a></h5>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:571
+#, no-wrap
+msgid ""
+"<p>FTP installation may be done from any mirror site containing a reasonably "
+"up-to-date\n"
+"version of FreeBSD. A full menu of reasonable choices for almost any "
+"location in the\n"
+"world is provided in the FTP site menu during installation.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:577
+#, no-wrap
+msgid ""
+"<p>If you are installing from some other FTP site not listed in this menu, "
+"or you are\n"
+"having troubles getting your name server configured properly, you can also "
+"specify your\n"
+"own URL by selecting the ``URL'' choice in that menu. A URL can contain a "
+"hostname or an\n"
+"IP address, so something like the following would work in the absence of a "
+"name\n"
+"server:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:581
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"ftp://216.66.64.162/pub/FreeBSD/releases/alpha/4.2-RELEASE\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:583
+#, no-wrap
+msgid "<p>There are three FTP installation modes you can use:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:591
+#, no-wrap
+msgid ""
+"<ul>\n"
+"<li>\n"
+"<p>FTP: This method uses the standard ``Active'' mode for transfers, in "
+"which the server\n"
+"initiates a connection to the client. This will not work through most "
+"firewalls but will\n"
+"often work best with older FTP servers that do not support passive mode. If "
+"your\n"
+"connection hangs with passive mode, try this one.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:597
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>FTP Passive: This sets the FTP \"Passive\" mode which prevents the server "
+"from opening\n"
+"connections to the client. This option is best for users to pass through "
+"firewalls that\n"
+"do not allow incoming connections on random port addresses.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:604
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>FTP via an HTTP proxy: This option instructs FreeBSD to use HTTP to "
+"connect to a proxy\n"
+"for all FTP operations. The proxy will translate the requests and send them "
+"to the FTP\n"
+"server. This allows the user to pass through firewalls that do not allow FTP "
+"at all, but\n"
+"offer an HTTP proxy. You must specify the hostname of the proxy in addition "
+"to the FTP\n"
+"server.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:607
+#, no-wrap
+msgid ""
+"<p>In the rare case that you have an FTP proxy that does not go through "
+"HTTP, you can\n"
+"specify the URL as something like:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:612
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<kbd class=\"USERINPUT\">ftp://foo.bar.com:<var\n"
+"class=\"REPLACEABLE\">port</var>/pub/FreeBSD</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:617
+#, no-wrap
+msgid ""
+"<p>In the URL above, <var class=\"REPLACEABLE\">port</var> is the port "
+"number of the proxy\n"
+"FTP server.</p>\n"
+"</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:622
+#, no-wrap
+msgid ""
+"<br />\n"
+"<br />\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:627
+#, no-wrap
+msgid ""
+"<div class=\"SECT3\">\n"
+"<hr />\n"
+"<h4 class=\"SECT3\"><a id=\"AEN354\" name=\"AEN354\">1.5.6 Tips for Serial "
+"Console\n"
+"Users</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:630
+#, no-wrap
+msgid ""
+"<p>If you'd like to install FreeBSD on a machine using just a serial port "
+"(e.g. you don't\n"
+"have or wish to use a VGA card), please follow these steps:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:637
+#, no-wrap
+msgid ""
+"<div class=\"PROCEDURE\">\n"
+"<ol type=\"1\">\n"
+"<li>\n"
+"<p>Connect some sort of ANSI (vt100) compatible terminal or terminal "
+"emulation program to\n"
+"the <tt class=\"DEVICENAME\">COM1</tt> port of the PC you are installing "
+"FreeBSD onto.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:643
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>Unplug the keyboard (yes, that's correct!) and then try to boot from "
+"floppy or the\n"
+"installation CDROM, depending on the type of installation media you have, "
+"with the\n"
+"keyboard unplugged.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:649
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>If you don't get any output on your serial console, plug the keyboard in "
+"again and\n"
+"wait for some beeps. If you are booting from the CDROM, proceed to <a\n"
+"href=\"#HITSPACE\">step 5</a> as soon as you hear the beep.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:656
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>For a floppy boot, the first beep means to remove the <tt\n"
+"class=\"FILENAME\">kern.flp</tt> floppy and insert the <tt\n"
+"class=\"FILENAME\">mfsroot.flp</tt> floppy, after which you should press "
+"<b\n"
+"class=\"KEYCAP\">Enter</b> and wait for another beep.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:659
+#, no-wrap
+msgid ""
+"<li><a id=\"HITSPACE\" name=\"HITSPACE\"></a>\n"
+"<p>Hit the space bar, then enter</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:663
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<kbd class=\"USERINPUT\">boot -h</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:673
+#, no-wrap
+msgid ""
+"<p>and you should now definitely be seeing everything on the serial port. If "
+"that still\n"
+"doesn't work, check your serial cabling as well as the settings on your "
+"terminal\n"
+"emulation program or actual terminal device. It should be set for 9600 baud, "
+"8 bits, no\n"
+"parity.</p>\n"
+"</li>\n"
+"</ol>\n"
+"</div>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:678
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"AEN376\" name=\"AEN376\">1.6 Question and Answer "
+"Section for\n"
+"Alpha/AXP Architecture Users</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:682
+#, no-wrap
+msgid ""
+"<div class=\"QANDASET\">\n"
+"<dl>\n"
+"<dt>1.6.1. <a href=\"#Q1.6.1.\">Can I boot from the ARC or Alpha BIOS "
+"Console?</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:685
+#, no-wrap
+msgid ""
+"<dt>1.6.2. <a href=\"#Q1.6.2.\">Help! I have no space! Do I need to delete "
+"everything\n"
+"first?</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:688
+#, no-wrap
+msgid ""
+"<dt>1.6.3. <a href=\"#Q1.6.3.\">Can I mount my Compaq Tru64 or VMS "
+"extended\n"
+"partitions?</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:691
+#, no-wrap
+msgid ""
+"<dt>1.6.4. <a href=\"#Q1.6.4.\">What about support for Compaq Tru64 "
+"(OSF/1)\n"
+"binaries?</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:693
+#, no-wrap
+msgid ""
+"<dt>1.6.5. <a href=\"#Q1.6.5.\">What about support for Linux "
+"binaries?</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:696
+#, no-wrap
+msgid ""
+"<dt>1.6.6. <a href=\"#Q1.6.6.\">What about support for NT Alpha "
+"binaries?</a></dt>\n"
+"</dl>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:702
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q1.6.1.\" name=\"Q1.6.1.\"></a><b>1.6.1.</b> Can I boot from the "
+"ARC or Alpha BIOS\n"
+"Console?</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:708
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>No. FreeBSD, like Compaq Tru64 and VMS, will only boot from the "
+"SRM\n"
+"console.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:714
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q1.6.2.\" name=\"Q1.6.2.\"></a><b>1.6.2.</b> Help! I have no "
+"space! Do I need to\n"
+"delete everything first?</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:719
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>Unfortunately, yes.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:725
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q1.6.3.\" name=\"Q1.6.3.\"></a><b>1.6.3.</b> Can I mount my "
+"Compaq Tru64 or VMS\n"
+"extended partitions?</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:730
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>No, not at this time.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:736
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q1.6.4.\" name=\"Q1.6.4.\"></a><b>1.6.4.</b> What about support "
+"for Compaq Tru64\n"
+"(OSF/1) binaries?</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:743
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>FreeBSD can run Tru64 applications very well using the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/url.cgi?ports/emulators/osf1_base/pkg-descr\"><tt\n"
+"class=\"FILENAME\">emulators/osf1_base</tt></a> port/package.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:749
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q1.6.5.\" name=\"Q1.6.5.\"></a><b>1.6.5.</b> What about support "
+"for Linux\n"
+"binaries?</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:756
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>FreeBSD can run AlphaLinux binaries with the assistance of the "
+"<a\n"
+"href=\"http://www.FreeBSD.org/cgi/url.cgi?ports/emulators/linux_base/pkg-descr\"><tt\n"
+"class=\"FILENAME\">emulators/linux_base</tt></a> port/package.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:762
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q1.6.6.\" name=\"Q1.6.6.\"></a><b>1.6.6.</b> What about support "
+"for NT Alpha\n"
+"binaries?</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:771
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>FreeBSD is not able to run NT applications natively, although it "
+"has the\n"
+"ability to mount NT partitions.</p>\n"
+"</div>\n"
+"</div>\n"
+"</div>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:775
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h2 class=\"SECT1\"><a id=\"LAYOUT\" name=\"LAYOUT\">2 Distribution "
+"Format</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:777
+#, no-wrap
+msgid "<p>A typical FreeBSD distribution directory looks something like this:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:787
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"ERRATA.HTM      README.TXT      compat1x        dict            kernel\n"
+"ERRATA.TXT      RELNOTES.HTM    compat20        doc             manpages\n"
+"HARDWARE.HTM    RELNOTES.TXT    compat21        docbook.css     packages\n"
+"HARDWARE.TXT    bin             compat22        filename.txt    ports\n"
+"INSTALL.HTM     boot            compat3x        floppies        proflibs\n"
+"INSTALL.TXT     catpages        compat4x        games           src\n"
+"README.HTM      cdrom.inf       crypto          info            tools\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:795
+#, no-wrap
+msgid ""
+"<p>If you want to do a CDROM, FTP or NFS installation from this distribution "
+"directory,\n"
+"all you need to do is make the 1.44MB boot floppies from the floppies "
+"directory (see <a\n"
+"href=\"#FLOPPIES\">Section 1.3</a> for instructions on how to do this), boot "
+"them and\n"
+"follow the instructions. The rest of the data needed during the installation "
+"will be\n"
+"obtained automatically based on your selections. If you've never installed "
+"FreeBSD\n"
+"before, you also want to read the entirety of this document (the "
+"installation\n"
+"instructions) file.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:799
+#, no-wrap
+msgid ""
+"<p>If you're trying to do some other type of installation or are merely "
+"curious about how\n"
+"a distribution is organized, what follows is a more thorough description of "
+"some of these\n"
+"items in more detail:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:810
+#, no-wrap
+msgid ""
+"<ol type=\"1\">\n"
+"<li>\n"
+"<p>The <tt class=\"FILENAME\">*.TXT</tt> and <tt "
+"class=\"FILENAME\">*.HTM</tt> files contain\n"
+"documentation (for example, this document is contained in both <tt\n"
+"class=\"FILENAME\">INSTALL.TXT</tt> and <tt "
+"class=\"FILENAME\">INSTALL.HTM</tt>) and should\n"
+"be read before starting an installation. The <tt "
+"class=\"FILENAME\">*.TXT</tt> files are\n"
+"plain text, while the <tt class=\"FILENAME\">*.HTM</tt> files are HTML files "
+"that can be\n"
+"read by almost any Web browser. Some distributions may contain documentation "
+"in other\n"
+"formats as well, such as PDF or PostScript.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:815
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p><tt class=\"FILENAME\">docbook.css</tt> is a Cascading Style Sheet (CSS) "
+"file used by\n"
+"some Web browsers for formatting the HTML documentation.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:825
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>The <tt class=\"FILENAME\">bin</tt>, <tt "
+"class=\"FILENAME\">catpages</tt>, <tt\n"
+"class=\"FILENAME\">crypto</tt>, <tt class=\"FILENAME\">dict</tt>, <tt\n"
+"class=\"FILENAME\">doc</tt>, <tt class=\"FILENAME\">games</tt>, <tt\n"
+"class=\"FILENAME\">info</tt>, <tt class=\"FILENAME\">manpages</tt>, <tt\n"
+"class=\"FILENAME\">proflibs</tt>, and <tt class=\"FILENAME\">src</tt> "
+"directories contain the\n"
+"primary distribution components of FreeBSD itself and are split into smaller "
+"files for\n"
+"easy packing onto floppies (should that be necessary).</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:834
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>The <tt class=\"FILENAME\">compat1x</tt>, <tt "
+"class=\"FILENAME\">compat20</tt>, <tt\n"
+"class=\"FILENAME\">compat21</tt>, <tt class=\"FILENAME\">compat22</tt>, "
+"<tt\n"
+"class=\"FILENAME\">compat3x</tt>, and <tt class=\"FILENAME\">compat4x</tt> "
+"directories\n"
+"contain distributions for compatibility with older releases and are "
+"distributed as single\n"
+"gzip'd tar files - they can be installed during release time or later by "
+"running their\n"
+"<tt class=\"FILENAME\">install.sh</tt> scripts.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:840
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>The <tt class=\"FILENAME\">floppies/</tt> subdirectory contains the "
+"floppy installation\n"
+"images; further information on using them can be found in <a "
+"href=\"#FLOPPIES\">Section\n"
+"1.3</a>.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:845
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>The <tt class=\"FILENAME\">packages</tt> and <tt "
+"class=\"FILENAME\">ports</tt> directories\n"
+"contain the FreeBSD Packages and Ports Collections. Packages may be "
+"installed from the\n"
+"packages directory by running the command:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:850
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<samp class=\"PROMPT\">#</samp><kbd\n"
+"class=\"USERINPUT\">/stand/sysinstall configPackages</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:856
+#, no-wrap
+msgid ""
+"<p>Packages can also be installed by feeding individual filenames in <tt\n"
+"class=\"FILENAME\">packages</tt>/ to the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=pkg_add&sektion=1&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">pkg_add</span>(1)</span></a>\n"
+"command.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:863
+#, no-wrap
+msgid ""
+"<p>The Ports Collection may be installed like any other distribution and "
+"requires about\n"
+"100MB unpacked. More information on the ports collection may be obtained "
+"from <a\n"
+"href=\"http://www.FreeBSD.org/ports/\" "
+"target=\"_top\">http://www.FreeBSD.org/ports/</a> or\n"
+"locally from <tt class=\"FILENAME\">/usr/share/doc/handbook</tt> if you've "
+"installed the\n"
+"<tt class=\"FILENAME\">doc</tt> distribution.</p>\n"
+"</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:870
+#, no-wrap
+msgid ""
+"<li>\n"
+"<p>Last of all, the <tt class=\"FILENAME\">tools</tt> directory contains "
+"various DOS tools\n"
+"for discovering disk geometries, installing boot managers and the like. It "
+"is purely\n"
+"optional and provided only for user convenience.</p>\n"
+"</li>\n"
+"</ol>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:875
+#, no-wrap
+msgid ""
+"<br />\n"
+"<br />\n"
+"<p>A typical distribution directory (for example, the <tt "
+"class=\"FILENAME\">info</tt>\n"
+"distribution) looks like this internally:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:880
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"CHECKSUM.MD5    info.ab         info.ad         info.inf        install.sh\n"
+"info.aa         info.ac         info.ae         info.mtree\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:886
+#, no-wrap
+msgid ""
+"<p>The <tt class=\"FILENAME\">CHECKSUM.MD5</tt> file contains MD5 signatures "
+"for each file,\n"
+"should data corruption be suspected, and is purely for reference. It is not "
+"used by the\n"
+"actual installation and does not need to be copied with the rest of the "
+"distribution\n"
+"files. The <tt class=\"FILENAME\">info.a*</tt> files are split, gzip'd tar "
+"files, the\n"
+"contents of which can be viewed by doing:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:890
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<samp class=\"PROMPT\">#</samp> <kbd class=\"USERINPUT\">cat info.a* | tar "
+"tvzf -</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:893
+#, no-wrap
+msgid ""
+"<p>During installation, they are automatically concatenated and extracted by "
+"the\n"
+"installation procedure.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:899
+#, no-wrap
+msgid ""
+"<p>The <tt class=\"FILENAME\">info.inf</tt> file is also necessary since it "
+"is read by the\n"
+"installation program in order to figure out how many pieces to look for when "
+"fetching and\n"
+"concatenating the distribution. When putting distributions onto floppies, "
+"the <tt\n"
+"class=\"FILENAME\">.inf</tt> file <span class=\"emphasis\"><i\n"
+"class=\"EMPHASIS\">must</i></span> occupy the first floppy of each "
+"distribution set!</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:909
+#, no-wrap
+msgid ""
+"<p>The <tt class=\"FILENAME\">info.mtree</tt> file is another non-essential "
+"file which is\n"
+"provided for user reference. It contains the MD5 signatures of the <span\n"
+"class=\"emphasis\"><i class=\"EMPHASIS\">unpacked</i></span> distribution "
+"files and can be\n"
+"later used with the <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=mtree&sektion=8&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">mtree</span>(8)</span></a> program\n"
+"to verify the installation permissions and checksums against any possible "
+"modifications\n"
+"to the file. When used with the <tt class=\"FILENAME\">bin</tt> "
+"distribution, this can be\n"
+"an excellent way of detecting trojan horse attacks on your system.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:913
+#, no-wrap
+msgid ""
+"<p>Finally, the <tt class=\"FILENAME\">install.sh</tt> file is for use by "
+"those who want to\n"
+"install the distribution after installation time. To install the info "
+"distribution from\n"
+"CDROM after a system was installed, for example, you'd do:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:919
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<samp class=\"PROMPT\">#</samp> <kbd class=\"USERINPUT\">cd "
+"/cdrom/info</kbd>\n"
+"<samp class=\"PROMPT\">#</samp> <kbd class=\"USERINPUT\">sh "
+"install.sh</kbd>\n"
+"</pre>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:923
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h2 class=\"SECT1\"><a id=\"UPGRADING\" name=\"UPGRADING\">3 Upgrading "
+"FreeBSD</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:926
+#, no-wrap
+msgid ""
+"<p>These instructions describe a procedure for doing a binary upgrade from "
+"an older\n"
+"version of FreeBSD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:936
+#, no-wrap
+msgid ""
+"<div class=\"WARNING\">\n"
+"<blockquote class=\"WARNING\">\n"
+"<p><b>Warning:</b> While the FreeBSD upgrade procedure does its best to "
+"safeguard against\n"
+"accidental loss of data, it is still more than possible to <span "
+"class=\"emphasis\"><i\n"
+"class=\"EMPHASIS\">wipe out your entire disk</i></span> with this "
+"installation! Please do\n"
+"not accept the final confirmation request unless you have adequately backed "
+"up any\n"
+"important data files.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:954
+#, no-wrap
+msgid ""
+"<div class=\"IMPORTANT\">\n"
+"<blockquote class=\"IMPORTANT\">\n"
+"<p><b>Important:</b> These notes assume that you are using the version of "
+"<a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sysinstall</span>(8)</span></a>\n"
+"supplied with the version of FreeBSD to which you intend to upgrade. Using a "
+"mismatched\n"
+"version of <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sysinstall</span>(8)</span></a> is\n"
+"almost guaranteed to cause problems and has been known to leave systems in "
+"an unusable\n"
+"state. The most commonly made mistake in this regard is the use of an old "
+"copy of <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sysinstall</span>(8)</span></a>\n"
+"from an existing installation to upgrade to a newer version of FreeBSD. This "
+"is <span\n"
+"class=\"emphasis\"><i class=\"EMPHASIS\">not</i></span> recommended.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:958
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"AEN572\" name=\"AEN572\">3.1 "
+"Introduction</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:962
+#, no-wrap
+msgid ""
+"<p>The upgrade procedure replaces distributions selected by the user with "
+"those\n"
+"corresponding to the new FreeBSD release. It preserves standard system "
+"configuration\n"
+"data, as well as user data, installed packages and other software.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:966
+#, no-wrap
+msgid ""
+"<p>Administrators contemplating an upgrade are encouraged to study this "
+"section in its\n"
+"entirety before commencing an upgrade. Failure to do so may result in a "
+"failed upgrade or\n"
+"loss of data.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:970
+#, no-wrap
+msgid ""
+"<div class=\"SECT3\">\n"
+"<hr />\n"
+"<h4 class=\"SECT3\"><a id=\"AEN576\" name=\"AEN576\">3.1.1 Upgrade "
+"Overview</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:974
+#, no-wrap
+msgid ""
+"<p>Upgrading of a distribution is performed by extracting the new version of "
+"the\n"
+"component over the top of the previous version. Files belonging to the old "
+"distribution\n"
+"are not deleted.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:977
+#, no-wrap
+msgid ""
+"<p>System configuration is preserved by retaining and restoring the previous "
+"version of\n"
+"the following files:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1012
+#, no-wrap
+msgid ""
+"<p><tt class=\"FILENAME\">Xaccel.ini</tt>, <tt "
+"class=\"FILENAME\">XF86Config</tt>, <tt\n"
+"class=\"FILENAME\">adduser.conf</tt>, <tt class=\"FILENAME\">aliases</tt>, "
+"<tt\n"
+"class=\"FILENAME\">aliases.db</tt>, <tt class=\"FILENAME\">amd.map</tt>, "
+"<tt\n"
+"class=\"FILENAME\">crontab</tt>, <tt class=\"FILENAME\">csh.cshrc</tt>, "
+"<tt\n"
+"class=\"FILENAME\">csh.login</tt>, <tt class=\"FILENAME\">csh.logout</tt>, "
+"<tt\n"
+"class=\"FILENAME\">cvsupfile</tt>, <tt "
+"class=\"FILENAME\">dhclient.conf</tt>, <tt\n"
+"class=\"FILENAME\">disktab</tt>, <tt class=\"FILENAME\">dm.conf</tt>, <tt\n"
+"class=\"FILENAME\">dumpdates</tt>, <tt class=\"FILENAME\">exports</tt>, "
+"<tt\n"
+"class=\"FILENAME\">fbtab</tt>, <tt class=\"FILENAME\">fstab</tt>, <tt\n"
+"class=\"FILENAME\">ftpusers</tt>, <tt class=\"FILENAME\">gettytab</tt>, "
+"<tt\n"
+"class=\"FILENAME\">gnats</tt>, <tt class=\"FILENAME\">group</tt>, <tt\n"
+"class=\"FILENAME\">hosts</tt>, <tt class=\"FILENAME\">host.conf</tt>, <tt\n"
+"class=\"FILENAME\">hosts.allow</tt>, <tt "
+"class=\"FILENAME\">hosts.equiv</tt>, <tt\n"
+"class=\"FILENAME\">hosts.lpd</tt>, <tt class=\"FILENAME\">inetd.conf</tt>, "
+"<tt\n"
+"class=\"FILENAME\">kerberosIV</tt>, <tt class=\"FILENAME\">localtime</tt>, "
+"<tt\n"
+"class=\"FILENAME\">login.access</tt>, <tt "
+"class=\"FILENAME\">login.conf</tt>, <tt\n"
+"class=\"FILENAME\">mail</tt>, <tt class=\"FILENAME\">mail.rc</tt>, <tt\n"
+"class=\"FILENAME\">make.conf</tt>, <tt "
+"class=\"FILENAME\">manpath.config</tt>, <tt\n"
+"class=\"FILENAME\">master.passwd</tt>, <tt class=\"FILENAME\">modems</tt>, "
+"<tt\n"
+"class=\"FILENAME\">motd</tt>, <tt class=\"FILENAME\">namedb</tt>, <tt\n"
+"class=\"FILENAME\">networks</tt>, <tt "
+"class=\"FILENAME\">newsyslog.conf</tt>, <tt\n"
+"class=\"FILENAME\">nsmb.conf</tt>, <tt class=\"FILENAME\">pam.conf</tt>, "
+"<tt\n"
+"class=\"FILENAME\">passwd</tt>, <tt class=\"FILENAME\">periodic</tt>, <tt\n"
+"class=\"FILENAME\">ppp</tt>, <tt class=\"FILENAME\">printcap</tt>, <tt\n"
+"class=\"FILENAME\">profile</tt>, <tt class=\"FILENAME\">pwd.db</tt>, <tt\n"
+"class=\"FILENAME\">rc.conf</tt>, <tt class=\"FILENAME\">rc.conf.local</tt>, "
+"<tt\n"
+"class=\"FILENAME\">rc.firewall</tt>, <tt class=\"FILENAME\">rc.local</tt>, "
+"<tt\n"
+"class=\"FILENAME\">remote</tt>, <tt class=\"FILENAME\">resolv.conf</tt>, "
+"<tt\n"
+"class=\"FILENAME\">rmt</tt>, <tt class=\"FILENAME\">sendmail.cf</tt>, <tt\n"
+"class=\"FILENAME\">sendmail.cw</tt>, <tt class=\"FILENAME\">services</tt>, "
+"<tt\n"
+"class=\"FILENAME\">shells</tt>, <tt class=\"FILENAME\">skeykeys</tt>, <tt\n"
+"class=\"FILENAME\">spwd.db</tt>, <tt class=\"FILENAME\">ssh</tt>, <tt\n"
+"class=\"FILENAME\">syslog.conf</tt>, <tt class=\"FILENAME\">ttys</tt>, <tt\n"
+"class=\"FILENAME\">uucp</tt></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1018
+#, no-wrap
+msgid ""
+"<p>The versions of these files which correspond to the new version are moved "
+"to <tt\n"
+"class=\"FILENAME\">/etc/upgrade/</tt>. The system administrator may peruse "
+"these new\n"
+"versions and merge components as desired. Note that many of these files "
+"are\n"
+"interdependent, and the best merge procedure is to copy all site-specific "
+"data from the\n"
+"current files into the new.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1025
+#, no-wrap
+msgid ""
+"<p>During the upgrade procedure, the administrator is prompted for a "
+"location into which\n"
+"all files from <tt class=\"FILENAME\">/etc/</tt> are saved. In the event "
+"that local\n"
+"modifications have been made to other files, they may be subsequently "
+"retrieved from this\n"
+"location.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1029
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"AEN652\" name=\"AEN652\">3.2 "
+"Procedure</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1032
+#, no-wrap
+msgid ""
+"<p>This section details the upgrade procedure. Particular attention is given "
+"to items\n"
+"which substantially differ from a normal installation.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1036
+#, no-wrap
+msgid ""
+"<div class=\"SECT3\">\n"
+"<hr />\n"
+"<h4 class=\"SECT3\"><a id=\"AEN655\" name=\"AEN655\">3.2.1 Backup</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1041
+#, no-wrap
+msgid ""
+"<p>User data and system configuration should be backed up before "
+"upgrading. While the\n"
+"upgrade procedure does its best to prevent accidental mistakes, it is "
+"possible to\n"
+"partially or completely destroy data and configuration information.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1045
+#, no-wrap
+msgid ""
+"<div class=\"SECT3\">\n"
+"<hr />\n"
+"<h4 class=\"SECT3\"><a id=\"AEN658\" name=\"AEN658\">3.2.2 Mount "
+"Filesystems</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1052
+#, no-wrap
+msgid ""
+"<p>The disklabel editor is entered with the nominated disk's filesystem "
+"devices listed.\n"
+"Prior to commencing the upgrade, the administrator should make a note of the "
+"device names\n"
+"and corresponding mountpoints. These mountpoints should be entered "
+"here. <span\n"
+"class=\"emphasis\"><i class=\"EMPHASIS\">Do not</i></span>set the ``newfs "
+"flag'' for any\n"
+"filesystems, as this will cause data loss.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1056
+#, no-wrap
+msgid ""
+"<div class=\"SECT3\">\n"
+"<hr />\n"
+"<h4 class=\"SECT3\"><a id=\"AEN663\" name=\"AEN663\">3.2.3 Select "
+"Distributions</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1063
+#, no-wrap
+msgid ""
+"<p>When selecting distributions, there are no constraints on which must be "
+"selected. As a\n"
+"general rule, the <var class=\"LITERAL\">bin</var> distribution should be "
+"selected for an\n"
+"update, and the <var class=\"LITERAL\">man</var> distribution if manpages "
+"are already\n"
+"installed. Other distributions may be selected beyond those originally "
+"installed if the\n"
+"administrator wishes to add additional functionality.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1067
+#, no-wrap
+msgid ""
+"<div class=\"SECT3\">\n"
+"<hr />\n"
+"<h4 class=\"SECT3\"><a id=\"FSTAB\" name=\"FSTAB\">3.2.4 After "
+"Installation</a></h4>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1075
+#, no-wrap
+msgid ""
+"<p>Once the installation procedure has completed, the administrator is "
+"prompted to\n"
+"examine the new configuration files. At this point, checks should be made to "
+"ensure that\n"
+"the system configuration is valid. In particular, the <tt\n"
+"class=\"FILENAME\">/etc/rc.conf</tt> and <tt "
+"class=\"FILENAME\">/etc/fstab</tt> files should\n"
+"be checked.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1079
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"AEN673\" name=\"AEN673\">3.3 Upgrading from "
+"Source Code</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1088
+#, no-wrap
+msgid ""
+"<p>Those interested in an upgrade method that allows more flexibility and "
+"sophistication\n"
+"should take a look at <a\n"
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/cutting-edge.html\"\n"
+"target=\"_top\">The Cutting Edge</a> in the FreeBSD Handbook. This procedure "
+"involves\n"
+"rebuilding all of FreeBSD from source code. It requires reliable network "
+"connectivity,\n"
+"extra disk space, and time, but has advantages for networks and other more "
+"complex\n"
+"installations. This is roughly the same procedure as is used for track the "
+"-STABLE or\n"
+"-CURRENT development branches.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1092
+#, no-wrap
+msgid ""
+"<p><tt class=\"FILENAME\">/usr/src/UPDATING</tt> contains important "
+"information on updating\n"
+"a FreeBSD system from source code. It lists various issues resulting from "
+"changes in\n"
+"FreeBSD that may affect an upgrade.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1096
+#, no-wrap
+msgid ""
+"<p></p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1100
+#, no-wrap
+msgid ""
+"<div class=\"SECT1\">\n"
+"<hr />\n"
+"<h2 class=\"SECT1\"><a id=\"TROUBLE\" name=\"TROUBLE\">4 "
+"Troubleshooting</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1104
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<h3 class=\"SECT2\"><a id=\"REPAIRING\" name=\"REPAIRING\">4.1 Repairing an "
+"Existing FreeBSD\n"
+"Installation</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1109
+#, no-wrap
+msgid ""
+"<p>FreeBSD features a ``Fixit'' option in the top menu of the boot "
+"floppy. To use it, you\n"
+"will also need either a <tt class=\"FILENAME\">fixit.flp</tt> image floppy, "
+"generated in\n"
+"the same fashion as the boot floppy, or the ``live filesystem'' CDROM; "
+"typically the\n"
+"second CDROM in a multi-disc FreeBSD distribution.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1118
+#, no-wrap
+msgid ""
+"<p>To invoke fixit, simply boot the <tt class=\"FILENAME\">kern.flp</tt> "
+"floppy, choose the\n"
+"``Fixit'' item and insert the fixit floppy or CDROM when asked. You will "
+"then be placed\n"
+"into a shell with a wide variety of commands available (in the <tt\n"
+"class=\"FILENAME\">/stand</tt> and <tt class=\"FILENAME\">/mnt2/stand</tt> "
+"directories) for\n"
+"checking, repairing and examining file systems and their contents. Some "
+"UNIX\n"
+"administration experience <span class=\"emphasis\"><i "
+"class=\"EMPHASIS\">is</i></span>\n"
+"required to use the fixit option.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1123
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"AEN694\" name=\"AEN694\">4.2 Common Installation "
+"Problems,\n"
+"Q&amp;A</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1129
+#, no-wrap
+msgid ""
+"<div class=\"QANDASET\">\n"
+"<dl>\n"
+"<dt>4.2.1. <a href=\"#Q4.2.1.\">I go to boot from the hard disk for the "
+"first time after\n"
+"installing FreeBSD, the kernel loads and probes my hardware, but stops with "
+"messages\n"
+"like:</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1134
+#, no-wrap
+msgid ""
+"<dt>4.2.2. <a href=\"#Q4.2.2.\">I go to boot from the hard disk for the "
+"first time after\n"
+"installing FreeBSD, but the Boot Manager prompt just prints <var "
+"class=\"LITERAL\">F?</var>\n"
+"at the boot menu each time but the boot won't go any further.</a></dt>\n"
+"</dl>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1140
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.2.1.\" name=\"Q4.2.1.\"></a><b>4.2.1.</b> I go to boot from "
+"the hard disk for\n"
+"the first time after installing FreeBSD, the kernel loads and probes my "
+"hardware, but\n"
+"stops with messages like:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1144
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"changing root device to wd1s1a panic: cannot mount root\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1146
+#, no-wrap
+msgid "<p>What is wrong? What can I do?</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1151
+#, no-wrap
+msgid ""
+"<p>What is this <var\n"
+"class=\"LITERAL\">bios_drive:interface(unit,partition)kernel_name</var> "
+"thing that is\n"
+"displayed with the boot help?</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1156
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>There is a longstanding problem in the case where the boot disk is "
+"not the\n"
+"first disk in the system. The BIOS uses a different numbering scheme to "
+"FreeBSD, and\n"
+"working out which numbers correspond to which is difficult to get "
+"right.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1161
+#, no-wrap
+msgid ""
+"<p>In the case where the boot disk is not the first disk in the system, "
+"FreeBSD can need\n"
+"some help finding it. There are two common situations here, and in both of "
+"these cases,\n"
+"you need to tell FreeBSD where the root filesystem is. You do this by "
+"specifying the BIOS\n"
+"disk number, the disk type and the FreeBSD disk number for that type.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1166
+#, no-wrap
+msgid ""
+"<p>The first situation is where you have two IDE disks, each configured as "
+"the master on\n"
+"their respective IDE busses, and wish to boot FreeBSD from the second "
+"disk. The BIOS sees\n"
+"these as disk 0 and disk 1, while FreeBSD sees them as <tt "
+"class=\"DEVICENAME\">wd0</tt>\n"
+"and <tt class=\"DEVICENAME\">wd2</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1169
+#, no-wrap
+msgid ""
+"<p>FreeBSD is on BIOS disk 1, of type <var class=\"LITERAL\">wd</var> and "
+"the FreeBSD disk\n"
+"number is 2, so you would say:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1173
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<kbd class=\"USERINPUT\">1:wd(2,a)kernel</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1176
+#, no-wrap
+msgid ""
+"<p>Note that if you have a slave on the primary bus, the above is not "
+"necessary (and is\n"
+"effectively wrong).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1181
+#, no-wrap
+msgid ""
+"<p>The second situation involves booting from a SCSI disk when you have one "
+"or more IDE\n"
+"disks in the system. In this case, the FreeBSD disk number is lower than the "
+"BIOS disk\n"
+"number. If you have two IDE disks as well as the SCSI disk, the SCSI disk is "
+"BIOS disk 2,\n"
+"type <var class=\"LITERAL\">da</var> and FreeBSD disk number 0, so you would "
+"say:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1185
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<kbd class=\"USERINPUT\">2:da(0,a)kernel</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1188
+#, no-wrap
+msgid ""
+"<p>To tell FreeBSD that you want to boot from BIOS disk 2, which is the "
+"first SCSI disk\n"
+"in the system. If you only had one IDE disk, you would use '1:' "
+"instead.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1195
+#, no-wrap
+msgid ""
+"<p>Once you have determined the correct values to use, you can put the "
+"command exactly as\n"
+"you would have typed it in the <tt class=\"FILENAME\">/boot.config</tt> file "
+"using a\n"
+"standard text editor. Unless instructed otherwise, FreeBSD will use the "
+"contents of this\n"
+"file as the default response to the <var class=\"LITERAL\">boot:</var> "
+"prompt.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1203
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.2.2.\" name=\"Q4.2.2.\"></a><b>4.2.2.</b> I go to boot from "
+"the hard disk for\n"
+"the first time after installing FreeBSD, but the Boot Manager prompt just "
+"prints <var\n"
+"class=\"LITERAL\">F?</var> at the boot menu each time but the boot won't go "
+"any\n"
+"further.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1209
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>The hard disk geometry was set incorrectly in the Partition editor "
+"when you\n"
+"installed FreeBSD. Go back into the partition editor and specify the actual "
+"geometry of\n"
+"your hard disk. You must reinstall FreeBSD again from the beginning with the "
+"correct\n"
+"geometry.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1214
+#, no-wrap
+msgid ""
+"<p>If you are failing entirely in figuring out the correct geometry for your "
+"machine,\n"
+"here's a tip: Install a small DOS partition at the beginning of the disk and "
+"install\n"
+"FreeBSD after that. The install program will see the DOS partition and try "
+"to infer the\n"
+"correct geometry from it, which usually works.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1216
+#, no-wrap
+msgid ""
+"<p>The following tip is no longer recommended, but is left here for "
+"reference:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1230
+#, no-wrap
+msgid ""
+"<a id=\"AEN731\" name=\"AEN731\"></a>\n"
+"<blockquote class=\"BLOCKQUOTE\">\n"
+"<p>If you are setting up a truly dedicated FreeBSD server or workstation "
+"where you don't\n"
+"care for (future) compatibility with DOS, Linux or another operating system, "
+"you've also\n"
+"got the option to use the entire disk (`A' in the partition editor), "
+"selecting the\n"
+"non-standard option where FreeBSD occupies the entire disk from the very "
+"first to the\n"
+"very last sector. This will leave all geometry considerations aside, but is "
+"somewhat\n"
+"limiting unless you're never going to run anything other than FreeBSD on a "
+"disk.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+"</div>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1235
+#, no-wrap
+msgid ""
+"<div class=\"SECT2\">\n"
+"<hr />\n"
+"<h3 class=\"SECT2\"><a id=\"AEN733\" name=\"AEN733\">4.3 Known Hardware "
+"Problems,\n"
+"Q&amp;A</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1242
+#, no-wrap
+msgid ""
+"<div class=\"NOTE\">\n"
+"<blockquote class=\"NOTE\">\n"
+"<p><b>Note:</b> Please send hardware tips for this section to Jordan "
+"K. Hubbard <code\n"
+"class=\"EMAIL\">&#60;<a "
+"href=\"mailto:jkh@FreeBSD.org\">jkh@FreeBSD.org</a>&#62;</code>.</p>\n"
+"</blockquote>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1248
+#, no-wrap
+msgid ""
+"<div class=\"QANDASET\">\n"
+"<dl>\n"
+"<dt>4.3.1. <a href=\"#Q4.3.1.\">The <span class=\"CITEREFENTRY\"><span\n"
+"class=\"REFENTRYTITLE\">mcd</span>(4)</span> driver keeps thinking that it "
+"has found a\n"
+"device and this stops my Intel EtherExpress card from working.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1251
+#, no-wrap
+msgid ""
+"<dt>4.3.2. <a href=\"#Q4.3.2.\">FreeBSD claims to support the 3Com PCMCIA "
+"card, but my card\n"
+"isn't recognized when it's plugged into my laptop.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1254
+#, no-wrap
+msgid ""
+"<dt>4.3.3. <a href=\"#Q4.3.3.\">FreeBSD finds my PCMCIA network card, but no "
+"packets appear\n"
+"to be sent even though it claims to be working.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1258
+#, no-wrap
+msgid ""
+"<dt>4.3.4. <a href=\"#Q4.3.4.\">The system finds my <span "
+"class=\"CITEREFENTRY\"><span\n"
+"class=\"REFENTRYTITLE\">ed</span>(4)</span> network card, but I keep getting "
+"device timeout\n"
+"errors.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1261
+#, no-wrap
+msgid ""
+"<dt>4.3.5. <a href=\"#Q4.3.5.\">I booted the install floppy on my IBM "
+"ThinkPad (tm) laptop,\n"
+"and the keyboard is all messed up.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1265
+#, no-wrap
+msgid ""
+"<dt>4.3.6. <a href=\"#Q4.3.6.\">When I try to boot the install floppy, I see "
+"the following\n"
+"message and nothing seems to be happening. I cannot enter anything from the "
+"keyboard\n"
+"either.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1269
+#, no-wrap
+msgid ""
+"<dt>4.3.7. <a href=\"#Q4.3.7.\">I have a Matsushita/Panasonic CR-522, a\n"
+"Matsushita/Panasonic CR-523 or a TEAC CD55a drive, but it is not recognized "
+"even when the\n"
+"correct I/O port is set.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1272
+#, no-wrap
+msgid ""
+"<dt>4.3.8. <a href=\"#Q4.3.8.\">I'm trying to install from a tape drive but "
+"all I get is\n"
+"something like this on the screen:</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1275
+#, no-wrap
+msgid ""
+"<dt>4.3.9. <a href=\"#Q4.3.9.\">I've installed FreeBSD onto my system, but "
+"it hangs when\n"
+"booting from the hard drive with the message:</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1278
+#, no-wrap
+msgid ""
+"<dt>4.3.10. <a href=\"#Q4.3.10.\">My system can not find my Intel "
+"EtherExpress 16\n"
+"card.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1281
+#, no-wrap
+msgid ""
+"<dt>4.3.11. <a href=\"#Q4.3.11.\">When installing on an EISA HP Netserver, "
+"my on-board\n"
+"AIC-7xxx SCSI controller isn't detected.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1284
+#, no-wrap
+msgid ""
+"<dt>4.3.12. <a href=\"#Q4.3.12.\">I have a Panasonic AL-N1 or Rios Chandler "
+"Pentium machine\n"
+"and I find that the system hangs before ever getting into the installation "
+"now.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1287
+#, no-wrap
+msgid ""
+"<dt>4.3.13. <a href=\"#Q4.3.13.\">I have this CMD640 IDE controller that is "
+"said to be\n"
+"broken.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1290
+#, no-wrap
+msgid ""
+"<dt>4.3.14. <a href=\"#Q4.3.14.\">On a Compaq Aero notebook, I get the "
+"message ``No floppy\n"
+"devices found! Please check ...'' when trying to install from "
+"floppy.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1294
+#, no-wrap
+msgid ""
+"<dt>4.3.15. <a href=\"#Q4.3.15.\">When I go to boot my Intel AL440LX "
+"(``Atlanta'') -based\n"
+"system from the hard disk the first time, it stops with a <var "
+"class=\"LITERAL\">Read\n"
+"Error</var> message.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1297
+#, no-wrap
+msgid ""
+"<dt>4.3.16. <a href=\"#Q4.3.16.\">When installing on an Dell Poweredge XE, "
+"Dell proprietary\n"
+"RAID controller DSA (Dell SCSI Array) isn't recognized.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1301
+#, no-wrap
+msgid ""
+"<dt>4.3.17. <a href=\"#Q4.3.17.\">My Ethernet adapter is detected as an AMD "
+"PCnet-FAST (or\n"
+"similar) but it doesn't work. (Eg. onboard Ethernet on IBM Netfinity 5xxx "
+"or\n"
+"7xxx)</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1306
+#, no-wrap
+msgid ""
+"<dt>4.3.18. <a href=\"#Q4.3.18.\">I have an IBM EtherJet PCI card, it is "
+"detected by the\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">fxp</span>(4)</span> driver\n"
+"correctly, but the lights on the card don't come on and it doesn't connect "
+"to the\n"
+"network.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1309
+#, no-wrap
+msgid ""
+"<dt>4.3.19. <a href=\"#Q4.3.19.\">When I configure the network during "
+"installation on an\n"
+"IBM Netfinity 3500, the system freezes.</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1314
+#, no-wrap
+msgid ""
+"<dt>4.3.20. <a href=\"#Q4.3.20.\">When I install onto a drive managed by a "
+"Mylex PCI RAID\n"
+"controller, the system fails to boot (eg. with a <var class=\"LITERAL\">read "
+"error</var>\n"
+"message).</a></dt>\n"
+"</dl>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1321
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.1.\" name=\"Q4.3.1.\"></a><b>4.3.1.</b> The <span "
+"class=\"CITEREFENTRY\"><span\n"
+"class=\"REFENTRYTITLE\">mcd</span>(4)</span> driver keeps thinking that it "
+"has found a\n"
+"device and this stops my Intel EtherExpress card from working.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1329
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>Use the UserConfig utility (see <tt "
+"class=\"FILENAME\">HARDWARE.TXT</tt>) and\n"
+"disable the probing of the <tt class=\"DEVICENAME\">mcd0</tt> and <tt\n"
+"class=\"DEVICENAME\">mcd1</tt> devices. Generally speaking, you should only "
+"leave the\n"
+"devices that you will be using enabled in your kernel.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1335
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.2.\" name=\"Q4.3.2.\"></a><b>4.3.2.</b> FreeBSD claims to "
+"support the 3Com\n"
+"PCMCIA card, but my card isn't recognized when it's plugged into my "
+"laptop.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1343
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>There are a couple of possible problems. First of all, FreeBSD "
+"does not support\n"
+"multi-function cards, so if you have a combo Ethernet/modem card (such as "
+"the 3C562), it\n"
+"won't work. The default driver for the 3C589 card was written just like all "
+"of the other\n"
+"drivers in FreeBSD, and depend on the card's own configuration data stored "
+"in NVRAM to\n"
+"work. You must correctly configure FreeBSD's driver to match the IRQ, port, "
+"and IOMEM\n"
+"stored in NVRAM.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1353
+#, no-wrap
+msgid ""
+"<p>Unfortunately, the only program capable of reading them is the 3COM "
+"supplied DOS\n"
+"program. This program must be run on a absolutely clean system (no other "
+"drivers must be\n"
+"running), and the program will whine about CARD-Services not being found, "
+"but it will\n"
+"continue. This is necessary to read the NVRAM values. You want to know the "
+"IRQ, port, and\n"
+"IOMEM values (the latter is called the CIS tuple by 3COM). The first two can "
+"be set in\n"
+"the program, the third is un-settable, and can only be read. Once you have "
+"these values,\n"
+"set them in UserConfig and your card will be recognized.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1359
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.3.\" name=\"Q4.3.3.\"></a><b>4.3.3.</b> FreeBSD finds my "
+"PCMCIA network card,\n"
+"but no packets appear to be sent even though it claims to be working.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1373
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>Many PCMCIA cards have the ability to use either the 10-Base2 "
+"(BNC) or 10-BaseT\n"
+"connectors for connecting to the network. The driver is unable to "
+"``auto-select'' the\n"
+"correct connector, so you must tell it which connector to use. In order to "
+"switch between\n"
+"the two connectors, the link flags must be set. Depending on the model of "
+"the card, <var\n"
+"class=\"OPTION\">-link0 link1</var> or <var class=\"OPTION\">-link0 "
+"-link1</var> will choose\n"
+"the correct network connector. You can set these in <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sysinstall</span>(8)</span></a> by\n"
+"using the <var class=\"LITERAL\">Extra options to ifconfig:</var> field in "
+"the network\n"
+"setup screen.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1380
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.4.\" name=\"Q4.3.4.\"></a><b>4.3.4.</b> The system finds my "
+"<span\n"
+"class=\"CITEREFENTRY\"><span class=\"REFENTRYTITLE\">ed</span>(4)</span> "
+"network card, but I\n"
+"keep getting device timeout errors.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1386
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>Your card is probably on a different IRQ from what is specified in "
+"the kernel\n"
+"configuration. The ed driver does not use the `soft' configuration by "
+"default (values\n"
+"entered using EZSETUP in DOS), but it will use the software configuration if "
+"you specify\n"
+"<var class=\"LITERAL\">?</var> in the IRQ field of your kernel config "
+"file.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1391
+#, no-wrap
+msgid ""
+"<p>Either move the jumper on the card to a hard configuration setting "
+"(altering the\n"
+"kernel settings if necessary), or specify the IRQ as <var "
+"class=\"LITERAL\">-1</var> in\n"
+"UserConfig or <var class=\"LITERAL\">?</var> in your kernel config "
+"file. This will tell the\n"
+"kernel to use the soft configuration.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1397
+#, no-wrap
+msgid ""
+"<p>Another possibility is that your card is at IRQ 9, which is shared by IRQ "
+"2 and\n"
+"frequently a cause of problems (especially when you have a VGA card using "
+"IRQ 2!). You\n"
+"should not use IRQ 2 or 9 if at all possible.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1403
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.5.\" name=\"Q4.3.5.\"></a><b>4.3.5.</b> I booted the install "
+"floppy on my IBM\n"
+"ThinkPad (tm) laptop, and the keyboard is all messed up.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1411
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>Older IBM laptops use a non-standard keyboard controller, so you "
+"must tell the\n"
+"keyboard driver (atkbd0) to go into a special mode which works on the "
+"ThinkPads. Change\n"
+"the atkbd0 'Flags' to 0x4 in UserConfig and it should work fine. (Look in "
+"the Input Menu\n"
+"for 'Keyboard'.)</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1417
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.6.\" name=\"Q4.3.6.\"></a><b>4.3.6.</b> When I try to boot "
+"the install\n"
+"floppy, I see the following message and nothing seems to be happening. I "
+"cannot enter\n"
+"anything from the keyboard either.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1422
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"Keyboard: no\n"
+"</pre>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1428
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>Due to lack of space, full support for old XT/AT (84-key) "
+"keyboards is no\n"
+"longer available in the bootblocks. Some notebook computers may also have "
+"this type of\n"
+"keyboard. If you are still using this kind of hardware, you will see the "
+"above message\n"
+"appears when you boot from the CD-ROM or an install floppy.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1430
+#, no-wrap
+msgid ""
+"<p>As soon as you see this message, hit the space bar, and you will see the "
+"prompt:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1436
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"&#62;&#62; FreeBSD/i386 BOOT\n"
+"Default: x:xx(x,x)/boot/loader \n"
+"boot:\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1440
+#, no-wrap
+msgid ""
+"<p>Then enter <kbd class=\"USERINPUT\">-Dh</kbd>, and things should proceed "
+"normally.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1447
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.7.\" name=\"Q4.3.7.\"></a><b>4.3.7.</b> I have a "
+"Matsushita/Panasonic CR-522,\n"
+"a Matsushita/Panasonic CR-523 or a TEAC CD55a drive, but it is not "
+"recognized even when\n"
+"the correct I/O port is set.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1451
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>These CD-ROM drives are currently not supported by FreeBSD. The "
+"command sets\n"
+"for these drives are not compatible with the double-speed CR-562 and CR-563 "
+"drives.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1456
+#, no-wrap
+msgid ""
+"<p>The single-speed CR-522 and CR-523 drives can be identified by their use "
+"of a\n"
+"CD-caddy.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1461
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.8.\" name=\"Q4.3.8.\"></a><b>4.3.8.</b> I'm trying to "
+"install from a tape\n"
+"drive but all I get is something like this on the screen:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1466
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"sa0(aha0:1:0) NOT READY csi 40,0,0,0\n"
+"</pre>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1478
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>There's a limitation in the current <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sysinstall</span>(8)</span></a>\n"
+"that the tape <span class=\"emphasis\"><i class=\"EMPHASIS\">must</i></span> "
+"be in the drive\n"
+"while <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">sysinstall</span>(8)</span></a> is\n"
+"started or it won't be detected. Try again with the tape in the drive the "
+"whole time.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1483
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.9.\" name=\"Q4.3.9.\"></a><b>4.3.9.</b> I've installed "
+"FreeBSD onto my\n"
+"system, but it hangs when booting from the hard drive with the "
+"message:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1488
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"Changing root to /dev/da0a\n"
+"</pre>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1502
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>his problem may occur in a system with a 3com 3c509 Ethernet "
+"adapter. The <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=ep&sektion=4&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">ep</span>(4)</span></a> device\n"
+"driver appears to be sensitive to probes for other devices that also use "
+"address 0x300.\n"
+"Boot your FreeBSD system by power cycling the machine (turn off and on). At "
+"the <var\n"
+"class=\"LITERAL\">Boot:</var> prompt specify the <var "
+"class=\"OPTION\">-c</var>. This will\n"
+"invoke UserConfig (see <a href=\"#REPAIRING\">Section 4.1</a> above). Use "
+"the <var\n"
+"class=\"LITERAL\">disable</var> command to disable the device probes for all "
+"devices at\n"
+"address 0x300 except the ep0 driver. On exit, your machine should "
+"successfully boot\n"
+"FreeBSD.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1508
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.10.\" name=\"Q4.3.10.\"></a><b>4.3.10.</b> My system can not "
+"find my Intel\n"
+"EtherExpress 16 card.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1515
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>You must set your Intel EtherExpress 16 card to be memory mapped "
+"at address\n"
+"0xD0000, and set the amount of mapped memory to 32K using the Intel supplied "
+"<tt\n"
+"class=\"FILENAME\">softset.exe</tt> program.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1521
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.11.\" name=\"Q4.3.11.\"></a><b>4.3.11.</b> When installing "
+"on an EISA HP\n"
+"Netserver, my on-board AIC-7xxx SCSI controller isn't detected.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1527
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>This is a known problem, and will hopefully be fixed in the "
+"future. In order to\n"
+"get your system installed at all, boot with the <var "
+"class=\"OPTION\">-c</var> option into\n"
+"UserConfig, but <span class=\"emphasis\"><i "
+"class=\"EMPHASIS\">don't</i></span> use the\n"
+"pretty visual mode but the plain old CLI mode. Type:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1532
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<kbd class=\"USERINPUT\">eisa 12</kbd>\n"
+"<kbd class=\"USERINPUT\">quit</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1536
+#, no-wrap
+msgid ""
+"<p>at the prompt. (Instead of `quit', you might also type `visual', and "
+"continue the rest\n"
+"of the configuration session in visual mode.) While it's recommended to "
+"compile a custom\n"
+"kernel, dset now also understands to save this value.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1542
+#, no-wrap
+msgid ""
+"<p>Refer to the FAQ topic 3.16 for an explanation of the problem, and for "
+"how to\n"
+"continue. Remember that you can find the FAQ on your local system in "
+"/usr/share/doc/FAQ,\n"
+"provided you have installed the `doc' distribution.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1549
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.12.\" name=\"Q4.3.12.\"></a><b>4.3.12.</b> I have a "
+"Panasonic AL-N1 or Rios\n"
+"Chandler Pentium machine and I find that the system hangs before ever "
+"getting into the\n"
+"installation now.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1556
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>Your machine doesn't like the new <var "
+"class=\"LITERAL\">i586_copyout</var> and\n"
+"<var class=\"LITERAL\">i586_copyin</var> code for some reason. To disable "
+"this, boot the\n"
+"installation boot floppy and when it comes to the very first menu (the "
+"choice to drop\n"
+"into kernel UserConfig mode or not) choose the command-line interface "
+"(``expert mode'')\n"
+"version and type the following at it:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1560
+#, no-wrap
+msgid ""
+"<pre class=\"SCREEN\">\n"
+"<kbd class=\"USERINPUT\">flags npx0 1</kbd>\n"
+"</pre>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1565
+#, no-wrap
+msgid ""
+"<p>Then proceed normally to boot. This will be saved into your kernel, so "
+"you only need\n"
+"to do it once.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1571
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.13.\" name=\"Q4.3.13.\"></a><b>4.3.13.</b> I have this "
+"CMD640 IDE controller\n"
+"that is said to be broken.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1577
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>Yes, it is. FreeBSD does not support this controller except "
+"through the legacy\n"
+"wdc driver.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1584
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.14.\" name=\"Q4.3.14.\"></a><b>4.3.14.</b> On a Compaq Aero "
+"notebook, I get\n"
+"the message ``No floppy devices found! Please check ...'' when trying to "
+"install from\n"
+"floppy.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1593
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>With Compaq being always a little different from other systems, "
+"they do not\n"
+"announce their floppy drive in the CMOS RAM of an Aero notebook. Therefore, "
+"the floppy\n"
+"disk driver assumes there is no drive configured. Go to the UserConfig "
+"screen, and set\n"
+"the Flags value of the fdc0 device to 0x1. This pretends the existence of "
+"the first\n"
+"floppy drive (as a 1.44 MB drive) to the driver without asking the CMOS at "
+"all.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1600
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.15.\" name=\"Q4.3.15.\"></a><b>4.3.15.</b> When I go to boot "
+"my Intel AL440LX\n"
+"(``Atlanta'') -based system from the hard disk the first time, it stops with "
+"a <var\n"
+"class=\"LITERAL\">Read Error</var> message.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1609
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>There appears to be a bug in the BIOS on at least some of these "
+"boards, this\n"
+"bug results in the FreeBSD bootloader thinking that it is booting from a "
+"floppy disk.\n"
+"This is only a problem if you are not using the BootEasy boot manager. Slice "
+"the disk in\n"
+"``compatible''mode and install BootEasy during the FreeBSD installation to "
+"avoid the bug,\n"
+"or upgrade the BIOS (see Intel's website for details).</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1616
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.16.\" name=\"Q4.3.16.\"></a><b>4.3.16.</b> When installing "
+"on an Dell\n"
+"Poweredge XE, Dell proprietary RAID controller DSA (Dell SCSI Array) isn't\n"
+"recognized.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1624
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>Configure the DSA to use AHA-1540 emulation using EISA "
+"configuration utility.\n"
+"After that FreeBSD detects the DSA as an Adaptec AHA-1540 SCSI controller, "
+"with irq 11\n"
+"and port 340. Under emulation mode system will use DSA RAID disks, but you "
+"cannot use\n"
+"DSA-specific features such as watching RAID health.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1631
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.17.\" name=\"Q4.3.17.\"></a><b>4.3.17.</b> My Ethernet "
+"adapter is detected as\n"
+"an AMD PCnet-FAST (or similar) but it doesn't work. (Eg. onboard Ethernet on "
+"IBM\n"
+"Netfinity 5xxx or 7xxx)</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1640
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>The <a\n"
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=lnc&sektion=4&manpath=FreeBSD+4.10-RELEASE\">\n"
+"<span class=\"CITEREFENTRY\"><span "
+"class=\"REFENTRYTITLE\">lnc</span>(4)</span></a> driver is\n"
+"currently faulty, and will often not work correctly with the PCnet-FAST and "
+"PCnet-FAST+.\n"
+"You need to install a different Ethernet adapter.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1648
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.18.\" name=\"Q4.3.18.\"></a><b>4.3.18.</b> I have an IBM "
+"EtherJet PCI card,\n"
+"it is detected by the <span class=\"CITEREFENTRY\"><span\n"
+"class=\"REFENTRYTITLE\">fxp</span>(4)</span> driver correctly, but the "
+"lights on the card\n"
+"don't come on and it doesn't connect to the network.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1656
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>We don't understand why this happens. Neither do IBM (we asked "
+"them). The card\n"
+"is a standard Intel EtherExpress Pro/100 with an IBM label on it, and these "
+"cards\n"
+"normally work just fine. You may see these symptoms only in some IBM "
+"Netfinity servers.\n"
+"The only solution is to install a different Ethernet adapter.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1662
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.19.\" name=\"Q4.3.19.\"></a><b>4.3.19.</b> When I configure "
+"the network\n"
+"during installation on an IBM Netfinity 3500, the system freezes.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1670
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>There is a problem with the onboard Ethernet in the Netfinity 3500 "
+"which we\n"
+"have not been able to identify at this time. It may be related to the SMP "
+"features of the\n"
+"system being misconfigured. You will have to install another Ethernet "
+"adapter and avoid\n"
+"attempting to configure the onboard adapter at any time.</p>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1677
+#, no-wrap
+msgid ""
+"<div class=\"QANDAENTRY\">\n"
+"<div class=\"QUESTION\">\n"
+"<p><a id=\"Q4.3.20.\" name=\"Q4.3.20.\"></a><b>4.3.20.</b> When I install "
+"onto a drive\n"
+"managed by a Mylex PCI RAID controller, the system fails to boot (eg. with a "
+"<var\n"
+"class=\"LITERAL\">read error</var> message).</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1687
+#, no-wrap
+msgid ""
+"<div class=\"ANSWER\">\n"
+"<p><b></b>There is a bug in the Mylex driver which results in it ignoring "
+"the ``8GB''\n"
+"geometry mode setting in the BIOS. Use the 2GB mode instead.</p>\n"
+"</div>\n"
+"</div>\n"
+"</div>\n"
+"</div>\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1691
+#, no-wrap
+msgid ""
+"<hr />\n"
+"<p align=\"center\"><small>This file, and other release-related documents, "
+"can be\n"
+"downloaded from <a "
+"href=\"ftp://ftp.FreeBSD.org/\">ftp://ftp.FreeBSD.org/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1695
+#, no-wrap
+msgid ""
+"<p align=\"center\"><small>For questions about FreeBSD, read the <a\n"
+"href=\"http://www.FreeBSD.org/docs.html\">documentation</a> before "
+"contacting &#60;<a\n"
+"href=\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1698
+#, no-wrap
+msgid ""
+"<p align=\"center\"><small>For questions about this documentation, e-mail "
+"&#60;<a\n"
+"href=\"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/installation-alpha.adoc:1701
+#, no-wrap
+msgid ""
+"<br />\n"
+"<br />\n"
+msgstr ""

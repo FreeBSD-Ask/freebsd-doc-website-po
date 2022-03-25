@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/gnome/docs/example-makefile.adoc:1
+#: content/en/gnome/docs/example-makefile.adoc:6
+#, no-wrap
+msgid "FreeBSD GNOME Project: Example GNOME Makefile"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/example-makefile.adoc:9
+msgid "The following is an example Makefile for a FreeBSD GNOME port."
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/docs/example-makefile.adoc:17
+#, no-wrap
+msgid ""
+"# New ports collection makefile for:\tgnomeapp\n"
+"# Date created:    27 December 2003\n"
+"# Whom:    Some GNOME User <freebsd-gnome@FreeBSD.org>\n"
+"#\n"
+"# $FreeBSD: head/en_US.ISO8859-1/htdocs/gnome/docs/example-Makefile.xml "
+"43181 2013-11-13 06:10:37Z hrs $\n"
+"#\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/docs/example-makefile.adoc:26
+#, no-wrap
+msgid ""
+"# For this example, assume there was already a gnomeapp in the tree, and "
+"that this\n"
+"# is the GTK+-2 version (i.e. gnomeapp2 versus gnomeapp).\n"
+"PORTname= gnomeapp2\n"
+"PORTVERSION= 2.32.2\n"
+"MASTER_SITES= ${MASTER_SITE_GNOME}\n"
+"MASTER_SITE_SUBDIR= "
+"sources/${PORTNAME:S/2//}/${PORTVERSION:C/^([0-9]+\\.[0-9]+).*/\\1/}\n"
+"DISTname= ${PORTNAME:S/2//}-${PORTVERSION}\n"
+"DIST_SUBDIR= gnome2\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/docs/example-makefile.adoc:29
+#, no-wrap
+msgid ""
+"MAINTAINER= gnome@FreeBSD.org\n"
+"COMMENT= A GNOME app that does some stuff\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/docs/example-makefile.adoc:38
+#, no-wrap
+msgid ""
+"USE_BZIP2= yes\n"
+"GNU_CONFIGURE= yes # NOTE: if the port needs ltverhack, this must be\n"
+"USE_AUTOTOOLS=\"libtool\":15\n"
+"USE_GMAKE= yes # same with GNU make\n"
+"# This is for i18n:\n"
+"CONFIGURE_ENV+=\tCPPFLAGS=\"-I${LOCALBASE}/include\" \\\n"
+"    LDFLAGS=\"-L${LOCALBASE}/lib\"\n"
+"USE_GNOME= gnomehack gtk20\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/docs/example-makefile.adoc:44
+#, no-wrap
+msgid ""
+"# This application can dock in the GNOME panel, or it can not.\n"
+"# But there's no need to build support for it if the GNOME panel\n"
+"# libraries are not installed, so only build GNOME panel support\n"
+"# if the gnomepanel port is already installed.\n"
+"WANT_GNOME= yes\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/docs/example-makefile.adoc:46
+#, no-wrap
+msgid ".include <bsd.port.pre.mk>\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/docs/example-makefile.adoc:54
+#, no-wrap
+msgid ""
+".if ${HAVE_GNOME:Mgnomepanel}!=\"\"\n"
+"USE_GNOME+= gnomepanel\n"
+"CONFIGURE_ARGS+= --with-gnome\n"
+"PKGNAMESUFFIX= -gnome\n"
+".else\n"
+"CONFIGURE_ARGS+= --without-gnome\n"
+".endif\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/docs/example-makefile.adoc:58
+#, no-wrap
+msgid ""
+"# Given all the above code, the package name is either "
+"\"gnomeapp2-gnome-2.32.2\" or\n"
+"# \"gnomeapp2-2.32.2\", depending upon whether you want gnomepanel "
+"support. The downloaded\n"
+"# distfile will be \"gnomeapp-2.32.2.tar.bz2.\"\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/gnome/docs/example-makefile.adoc:60
+#, no-wrap
+msgid ".include <bsd.port.post.mk>\n"
+msgstr ""

@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.11R/todo.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.11 Open Issues"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:10
+#, no-wrap
+msgid "<h1>Open Issues</h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:14
+#, no-wrap
+msgid ""
+"<p>This is a list of open issues that need to be resolved for FreeBSD\n"
+"  4.11.  If you have any updates for this list, please e-mail\n"
+"  re@FreeBSD.org.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:16
+#, no-wrap
+msgid "<h3>Must Resolve Issues for 4.11-RC3</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:20
+#, no-wrap
+msgid ""
+"<table class=\"tblbasic\">\n"
+"  <tr><th rowspan=\"1\" colspan=\"1\">Issue</th><th rowspan=\"1\" "
+"colspan=\"1\">Status</th><th rowspan=\"1\" colspan=\"1\">Responsible</th><th "
+"rowspan=\"1\" colspan=\"1\">Description</th>\n"
+"      </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:22
+#, no-wrap
+msgid "</table>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:25
+#, no-wrap
+msgid "<h3>Must Resolve Issues for 4.11-RELEASE</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:30
+#, no-wrap
+msgid ""
+"<table class=\"tblbasic\">\n"
+"  <tr><th rowspan=\"1\" colspan=\"1\">Issue</th><th rowspan=\"1\" "
+"colspan=\"1\">Status</th><th rowspan=\"1\" colspan=\"1\">Responsible</th><th "
+"rowspan=\"1\" colspan=\"1\">Description</th>\n"
+"  </tr>\n"
+"</table>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:32
+#, no-wrap
+msgid "<h3>Desired Features for 4.11-RELEASE</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:36
+#: content/en/releases/4.11R/todo.adoc:42
+#: content/en/releases/4.11R/todo.adoc:48
+#, no-wrap
+msgid ""
+"<table class=\"tblbasic\">\n"
+"  <tr><th rowspan=\"1\" colspan=\"1\">Issue</th><th rowspan=\"1\" "
+"colspan=\"1\">Status</th><th rowspan=\"1\" colspan=\"1\">Responsible</th><th "
+"rowspan=\"1\" colspan=\"1\">Description</th></tr>\n"
+"</table>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:38
+#, no-wrap
+msgid "<h3>Documentation items that must be resolved for 4.11</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:44
+#, no-wrap
+msgid "<h3>Testing focuses for 4.11</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/todo.adoc:53
+#, no-wrap
+msgid ""
+"  </div>\n"
+"          <br class=\"clearboth\" />\n"
+"        </div>\n"
+msgstr ""

@@ -1,0 +1,737 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:20+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/docproj/translations.adoc:1
+#: content/en/docproj/translations.adoc:6
+#, no-wrap
+msgid "FreeBSD Documentation Project: Translations"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:9
+msgid "<<brazilian_portuguese,Brazilian Portuguese Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:10
+msgid "<<bulgarian,Bulgarian Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:11
+msgid "<<chinese-cn,Simplified Chinese Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:12
+msgid "<<chinese-tw,Traditional Chinese Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:13
+msgid "<<dutch,Dutch Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:14
+msgid "<<estonian,Estonian Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:15
+msgid "<<french,French Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:16
+msgid "<<german,German Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:17
+msgid "<<greek,Greek Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:18
+msgid "<<hungarian,Hungarian Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:19
+msgid "<<italian,Italian Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:20
+msgid "<<japanese,Japanese Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:21
+msgid "<<korean,Korean Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:22
+msgid "<<mongolian,Mongolian Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:23
+msgid "<<polish,Polish Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:24
+msgid "<<russian,Russian Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:25
+msgid "<<spanish,Spanish Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:26
+msgid "<<turkish,Turkish Documentation Project>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:27
+msgid "<<farsi,Farsi/Persian Documentation Project>>"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:29
+#, no-wrap
+msgid "The FreeBSD Brazilian Portuguese Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:33
+#, no-wrap
+msgid ""
+"*Web*: https://wiki.freebsd.org/Doc/Translation/BrazilianPortuguese +\n"
+"*E-Mail*: ebrandi@FreeBSD.org or dbaio@FreeBSD.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:35
+#: content/en/docproj/translations.adoc:57
+#: content/en/docproj/translations.adoc:90
+#: content/en/docproj/translations.adoc:123
+#: content/en/docproj/translations.adoc:154
+#: content/en/docproj/translations.adoc:181
+#: content/en/docproj/translations.adoc:199
+#: content/en/docproj/translations.adoc:235
+#: content/en/docproj/translations.adoc:251
+msgid "Documents available:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:37
+msgid "link:https://docs.freebsd.org/pt-br/articles/[FreeBSD Articles]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:38
+msgid "link:https://docs.freebsd.org/pt-br/books/[FreeBSD Books]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:40
+#: content/en/docproj/translations.adoc:59
+#: content/en/docproj/translations.adoc:71
+#: content/en/docproj/translations.adoc:94
+#: content/en/docproj/translations.adoc:128
+#: content/en/docproj/translations.adoc:158
+#: content/en/docproj/translations.adoc:185
+#: content/en/docproj/translations.adoc:203
+#: content/en/docproj/translations.adoc:241
+msgid "Documents currently being worked on:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:42
+msgid "FreeBSD Architecture Handbook"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:43
+msgid "FreeBSD Developers Handbook"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:44
+msgid "The Design and Implementation of the 4.4BSD Operating System"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:46
+#, no-wrap
+msgid "The FreeBSD Bulgarian Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:50
+#, no-wrap
+msgid ""
+"*Web*: http://bg-freebsd.org/ +\n"
+"*E-Mail*: freebsd-fdp@bg-freebsd.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:52
+msgid "Mailing list available:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:54
+msgid "Send an email to freebsd-fdp-subscribe@bg-freebsd.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:55
+msgid "Posting is allowed for the members at freebsd-fdp@bg-freebsd.org"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:61
+msgid "FreeBSD Handbook"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:62
+#: content/en/docproj/translations.adoc:96
+msgid "FreeBSD website"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:63
+msgid "The Design and Implementation of 4.4BSD (sample chapter)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:64
+msgid "Frequently Asked Questions for FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:66
+#, no-wrap
+msgid "The FreeBSD Simplified Chinese Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:69
+#, no-wrap
+msgid "*E-Mail*: delphij@FreeBSD.org or ygy@FreeBSD.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:73
+msgid "link:https://www.freebsd.org/zh-cn/[FreeBSD Website]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:74
+msgid "link:https://docs.freebsd.org/zh-cn/books/handbook/[Handbook]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:76
+#, no-wrap
+msgid "The FreeBSD Traditional Chinese Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:80
+#, no-wrap
+msgid ""
+"*Web*: https://www.freebsd.org/zh-tw/ +\n"
+"*E-Mail*: chinsan@FreeBSD.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:82
+msgid "USENET Newsgroup available:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:84
+msgid "We usually use tw.bbs.comp.386bsd to discuss these issue."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:85
+msgid "It can be access by the following URL:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:86
+msgid "link:http://www.ptt.cc/bbs/FreeBSD/index.html[PTT WebBBS]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:87
+msgid ""
+"link:http://groups.google.com.tw/group/tw.bbs.comp.386bsd?lnk%27sg%27[Google "
+"Group]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:88
+msgid "and anything else which newsreader can read tw.bbs.comp.386bsd."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:92
+msgid "link:https://docs.freebsd.org/zh-tw/books/faq/[FAQ]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:97
+msgid "link:https://docs.freebsd.org/zh-tw/books/handbook/[Handbook]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:98
+msgid ""
+"link:https://docs.freebsd.org/zh-tw/books/developers-handbook/[Developers' "
+"Handbook]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:99
+msgid ""
+"link:https://docs.freebsd.org/zh-tw/books/porters-handbook/[Porters' "
+"Handbook]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:100
+msgid ""
+"link:https://docs.freebsd.org/zh-tw/books/fdp-primer/[FreeBSD Document "
+"Project Primer for New Contributors]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:102
+#, no-wrap
+msgid "The FreeBSD Dutch Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:105
+#, no-wrap
+msgid "*E-Mail*: remko@FreeBSD.org or rene@FreeBSD.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:107
+msgid "Released documents:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:109
+msgid "link:https://docs.freebsd.org/nl/books/handbook/[Handbook]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:110
+msgid "link:https://docs.freebsd.org/nl/articles/[Several articles]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:111
+msgid "link:https://www.freebsd.org/nl/[Web page]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:113
+#, no-wrap
+msgid "The FreeBSD Estonian Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:116
+#, no-wrap
+msgid "*Web*: http://www.bsd.ee/\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:118
+#, no-wrap
+msgid "The FreeBSD French Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:121
+#, no-wrap
+msgid "*E-Mail*: blackend@FreeBSD.org or gioria@FreeBSD.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:125
+msgid "link:https://docs.freebsd.org/fr/books/faq/[FAQ]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:126
+msgid "link:https://docs.freebsd.org/fr/articles/[Some articles and tutorials]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:130
+msgid ""
+"link:https://docs.freebsd.org/fr/books/handbook/[Handbook], "
+"link:https://www.freebsd.org/fr/[Web]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:132
+#, no-wrap
+msgid "The FreeBSD German Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:137
+#, no-wrap
+msgid ""
+"*Web*: link:https://people.freebsd.org/~jkois/FreeBSDde/de/[German Project "
+"status page] +\n"
+"*E-Mail*: de-bsd-translators@de.FreeBSD.org +\n"
+"*IRC*: Server: irc.freenode.net, Channel: #FreeBSD-Doc.de\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:140
+msgid ""
+"Documents available/being worked on: + "
+"link:https://www.freebsd.org/de/[Web], "
+"link:https://docs.freebsd.org/de/books/developers-handbook/[developers-handbook], "
+"link:https://docs.freebsd.org/de/books/faq/[FAQ], "
+"link:https://docs.freebsd.org/de/books/fdp-primer/[FDP Primer], "
+"link:https://docs.freebsd.org/de/books/handbook/[Handbook], "
+"link:https://docs.freebsd.org/de/books/porters-handbook/[porters-handbook], "
+"link:https://docs.freebsd.org/de/articles/[some articles]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:142
+#, no-wrap
+msgid "The FreeBSD Greek Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:147
+#, no-wrap
+msgid ""
+"*E-Mail*: Giorgos Keramidas <keramida@FreeBSD.org> +\n"
+"*E-Mail*: freebsd-doc-el@lists.hellug.gr +\n"
+"*IRC*: Server: eu.irc.gr, us.irc.gr, Channel: #bsddocs\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:149
+msgid "Mailing lists available:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:151
+msgid ""
+"The freebsd-doc-el is the main discussion list for the Greek "
+"translations. The main list language is Greek, but it's also ok to write in "
+"English."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:152
+msgid "List info: http://lists.hellug.gr/mailman/listinfo/freebsd-doc-el"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:156
+msgid "link:https://docs.freebsd.org/el/articles/[some articles and tutorials]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:160
+msgid ""
+"link:https://docs.freebsd.org/el/books/handbook/[Handbook], "
+"link:https://docs.freebsd.org/el/books/faq/[FAQ]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:162
+msgid "Repositories of ongoing work (Mercurial): +"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:164
+msgid ""
+"link:http://hg.hellug.gr/freebsd/doc/[Imports of the FreeBSD doc tree], "
+"link:http://hg.hellug.gr/freebsd/doc-el/[Main translation tree (doc)], "
+"link:http://hg.hellug.gr/freebsd/doc-sonicy/[Translation tree of Manolis "
+"Kiagias (doc)], link:http://hg.hellug.gr/freebsd/www/[Imports of the FreeBSD "
+"www tree], link:http://hg.hellug.gr/freebsd/www-el/[Main www translation "
+"tree (www)], link:http://hg.hellug.gr/freebsd/www-sonicy/[Translation tree "
+"of Manolis Kiagias (www)]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:166
+#, no-wrap
+msgid "The FreeBSD Hungarian Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:170
+#, no-wrap
+msgid ""
+"*Web*: https://www.freebsd.org/hu/docproj/hungarian/ +\n"
+"*E-Mail*: gabor@FreeBSD.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:173
+msgid ""
+"Documents available: + link:https://www.freebsd.org/hu/[Web], "
+"link:https://docs.freebsd.org/hu/articles/[some articles], "
+"link:https://docs.freebsd.org/hu/books/handbook/[Handbook], "
+"link:https://docs.freebsd.org/hu/books/faq/[FAQ], "
+"link:https://docs.freebsd.org/hu/books/fdp-primer/[FDP Primer]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:175
+#, no-wrap
+msgid "The FreeBSD Italian Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:179
+#, no-wrap
+msgid ""
+"*Web*: https://people.freebsd.org/~madpilot/ItalianTranslation/ +\n"
+"*E-Mail*: madpilot@freebsd.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:183
+#: content/en/docproj/translations.adoc:187
+msgid "link:https://docs.freebsd.org/it/books/handbook/[Handbook]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:189
+msgid "Git repository:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:191
+msgid "link:https://github.com/madpilot78/FreeBSD-doc-it[GitHub]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:193
+#, no-wrap
+msgid "The FreeBSD Japanese Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:197
+#, no-wrap
+msgid ""
+"*Web*: http://www.jp.FreeBSD.org/doc-jp/ +\n"
+"*E-Mail*: doc-jp@jp.FreeBSD.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:201
+msgid ""
+"link:https://docs.freebsd.org/ja/books/handbook/[Handbook], "
+"link:https://docs.freebsd.org/ja/books/faq/[FAQ], "
+"link:https://www.freebsd.org/ja/[Web], "
+"link:http://www.jp.freebsd.org/NewsLetter/Issue2/[FreeBSD NewsLetter Issue "
+"#2]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:205
+msgid "FreeBSD Tutorials"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:207
+#, no-wrap
+msgid "The FreeBSD Korean Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:211
+#, no-wrap
+msgid ""
+"*Web*: https://wiki.kr.freebsd.org +\n"
+"*E-Mail*: doc@kr.FreeBSD.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:214
+#: content/en/docproj/translations.adoc:230
+msgid "Documents currently being worked on: + Handbook"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:216
+#, no-wrap
+msgid "The FreeBSD Mongolian Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:219
+#, no-wrap
+msgid "*E-Mail*: ganbold@micom.mng.net, natsag2000@yahoo.com, admin@mnbsd.org\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:221
+#, no-wrap
+msgid "The FreeBSD Polish Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:224
+#, no-wrap
+msgid "*E-Mail*: bsd@therek.net\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:227
+msgid "Documents available: + Some tutorials"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:232
+#, no-wrap
+msgid "The FreeBSD Russian Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:237
+msgid "link:https://docs.freebsd.org/ru/books/faq/[FAQ]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:238
+msgid "link:https://www.freebsd.org/ru/[WWW]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:239
+msgid "link:http://www.freebsd.org.ua/docs.html[Other documents list]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:243
+msgid "link:http://www.freebsd.org.ua/doc/ru_RU.KOI8-R/books/handbook/[Handbook]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:245
+#, no-wrap
+msgid "The FreeBSD Spanish Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:249
+#, no-wrap
+msgid ""
+"*Web*: https://www.FreeBSD.org/es/ +\n"
+"*E-Mail*: carlavilla@FreeBSD.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:253
+msgid "link:https://docs.freebsd.org/es/books/faq/[FAQ]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:254
+msgid "link:https://docs.freebsd.org/es/books/handbook/[Handbook]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:255
+msgid "link:https://docs.freebsd.org/es/articles/[Articles]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:257
+#, no-wrap
+msgid "The FreeBSD Turkish Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:261
+#, no-wrap
+msgid ""
+"*Web*: http://www.enderunix.org/ftdp/ +\n"
+"*E-Mail*: ofsen@enderunix.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:264
+msgid ""
+"Mailing lists available: + To subscribe to the ftdp mailing list see the "
+"project's web page or send a blank e-mail to "
+"ftpd-subscribe@lists.enderunix.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:267
+msgid ""
+"Documents available: + link:http://www.enderunix.org/ftdp/[Other documents "
+"list]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:270
+msgid "Documents currently being worked on: + FDP-Primer"
+msgstr ""
+
+#. type: Title ==
+#: content/en/docproj/translations.adoc:272
+#, no-wrap
+msgid "The FreeBSD Farsi/Persian Documentation Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:276
+#, no-wrap
+msgid ""
+"*Web*: link:https://www.irbug.org/[Iran BSD User Group] +\n"
+"*E-Mail*: kfv@irbug.org\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docproj/translations.adoc:277
+msgid "link:..[FreeBSD Documentation Project Home]"
+msgstr ""

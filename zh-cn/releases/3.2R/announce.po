@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 21:47+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/3.2R/announce.adoc:1
+#: content/en/releases/3.2R/announce.adoc:6
+#, no-wrap
+msgid "FreeBSD 3.2 Announcement"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:11
+#, no-wrap
+msgid ""
+"*Date:* Mon May 17 19:28:17 PDT 1999 +\n"
+"*From:* \"Jordan K. Hubbard\" <jkh@freebsd.org> +\n"
+"**Subject:**FreeBSD 3.2 is released!\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:13
+msgid ""
+"It is my usual pleasure to announce the availability of 3.2-RELEASE, our "
+"follow-on to release to FreeBSD 3.1 (released February, 1999). Many bug "
+"fixes and general enhancements have been made to the system and a number of "
+"new features added, so please see the link:notes.html[release notes] for "
+"more information."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:15
+msgid ""
+"FreeBSD 3.2-RELEASE is available at "
+"ftp://ftp.freebsd.org/pub/FreeBSD[ftp.freebsd.org] and various "
+"https://www.FreeBSD.org/handbook/mirrors.html[FTP mirror sites] throughout "
+"the world. It can also be ordered on CD from http://www.freebsdmall.com/[The "
+"FreeBSD Mall], from where it will be shipping soon on a 4 CD set containing "
+"installation bits for both the x86 and Alpha architectures as well a lot of "
+"other material of general interest to programmers and end-users alike."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:17
+#, no-wrap
+msgid ""
+"*NOTE*: All of the profits from the sales of this CD set go to support the "
+"FreeBSD Project!\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:19
+msgid "The official FTP distribution site for FreeBSD is:"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/releases/3.2R/announce.adoc:22
+msgid "ftp://ftp.FreeBSD.org/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:25
+msgid "Or via the WEB page at:"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/releases/3.2R/announce.adoc:28
+msgid "http://www.freebsdmall.com"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:31
+msgid "and"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/releases/3.2R/announce.adoc:34
+msgid "http://www.cdrom.com"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:37
+msgid "And directly from Walnut Creek CDROM:"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/releases/3.2R/announce.adoc:47
+msgid ""
+"Walnut Creek CDROM + 4041 Pike Lane, #F + Concord CA, 94520 USA + Phone: +1 "
+"925 674-0783 + Fax: +1 925 674-0821 + Tech Support: +1 925 603-1234 + Email: "
+"info@cdrom.com + WWW: http://www.cdrom.com/"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:50
+msgid ""
+"Additionally, FreeBSD is available via anonymous FTP from "
+"https://www.FreeBSD.org/handbook/mirrors.html[mirror sites] in the following "
+"countries: Argentina, Australia, Brazil, Bulgaria, Canada, the Czech "
+"Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, "
+"Iceland, Ireland, Israel, Japan, Korea, Latvia, Malaysia, the Netherlands, "
+"Poland, Portugal, Romania, Russia, Slovenia, South Africa, Spain, Sweden, "
+"Taiwan, Thailand, the Ukraine and the United Kingdom (and quite possibly "
+"several others which I've never even heard of :)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:52
+msgid ""
+"Before trying the central FTP site, please check your regional mirror(s) "
+"first by going to:"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/releases/3.2R/announce.adoc:55
+msgid "ftp://ftp.<yourdomain>.freebsd.org/pub/FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:58
+msgid "Any additional mirror sites will be labeled ftp2, ftp3 and so on."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:60
+msgid ""
+"The latest versions of export-restricted code for FreeBSD (2.0C or later) "
+"(eBones and secure) are also being made available at the following "
+"locations. If you are outside the U.S. or Canada, please get secure (DES) "
+"and eBones (Kerberos) from one of the following foreign distribution sites:"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/releases/3.2R/announce.adoc:61
+#, no-wrap
+msgid "South Africa"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:64
+msgid ""
+"ftp://ftp.internat.FreeBSD.ORG/pub/FreeBSD + "
+"ftp://ftp2.internat.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/releases/3.2R/announce.adoc:64
+#, no-wrap
+msgid "Brazil"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:66
+msgid "ftp://ftp.br.FreeBSD.ORG/pub/FreeBSD"
+msgstr ""
+
+#. type: Labeled list
+#: content/en/releases/3.2R/announce.adoc:66
+#, no-wrap
+msgid "Finland"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:68
+msgid "ftp://nic.funet.fi/pub/unix/FreeBSD/eurocrypt"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/3.2R/announce.adoc:69
+msgid "link:../../[Release Home]"
+msgstr ""

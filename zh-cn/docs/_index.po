@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:22+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/docs/_index.adoc:1 content/en/docs/_index.adoc:8
+#, no-wrap
+msgid "FreeBSD Documentation"
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: content/en/docs/_index.adoc:11
+#, no-wrap
+msgid "BSD daemon reading documentation"
+msgstr ""
+
+#. type: Target for macro image
+#: content/en/docs/_index.adoc:11
+#, no-wrap
+msgid "../gifs/doc.jpg"
+msgstr ""
+
+#. type: Plain text
+#: content/en/docs/_index.adoc:13
+msgid ""
+"A wide variety of link:../docs/books/[documentation] is available for "
+"FreeBSD, on this web site, on other web sites, and available over the "
+"counter."
+msgstr ""

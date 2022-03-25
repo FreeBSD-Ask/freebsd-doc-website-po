@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/search/_index.adoc:1 content/en/search/_index.adoc:8
+#, no-wrap
+msgid "Search"
+msgstr ""
+
+#. type: Title ==
+#: content/en/search/_index.adoc:10
+#, no-wrap
+msgid "FreeBSD Search Services"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:13
+msgid "<<web,Web pages>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:14
+msgid "<<manpages,Manual pages>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:15
+msgid "<<ports,Ported applications>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:16
+msgid "<<mailinglists,Mailing list archives>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:17
+msgid "link:search-mid[Message-ID]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:18
+msgid "https://bugs.FreeBSD.org/search/[Problem Reports (Bugs) database]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:19
+msgid "link:https://www.freebsd.org/cgi/man.cgi[Manual Pages]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:20
+msgid "link:https://www.freebsd.org/cgi/ports.cgi[Ports Search]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:21
+msgid "http://fxr.watson.org/[The Source Code]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:22
+msgid "http://freebsd.markmail.org/[MarkMail: FreeBSD mail archives search]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:24
+msgid "link:opensearch[List of FreeBSD OpenSearch Plugins]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:26 content/en/search/_index.adoc:35
+#: content/en/search/_index.adoc:44 content/en/search/_index.adoc:53
+msgid "'''''"
+msgstr ""
+
+#. type: Title ==
+#: content/en/search/_index.adoc:28
+#, no-wrap
+msgid ""
+"Web pages (including link:{faq}[FAQ], link:{handbook}[Handbook], "
+"link:https://lists.freebsd.org/index[Mailing Lists], "
+"link:https://wiki.freebsd.org[Wiki] and "
+"link:https://forums.freebsd.org[Forums])"
+msgstr ""
+
+#. type: Title ===
+#: content/en/search/_index.adoc:30
+#, no-wrap
+msgid "Search within sites:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:33
+msgid "{{< form-search-site >}}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/search/_index.adoc:37
+#, no-wrap
+msgid "Manual Pages"
+msgstr ""
+
+#. type: Title ===
+#: content/en/search/_index.adoc:39 content/en/search/_index.adoc:48
+#, no-wrap
+msgid "Search for:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:42
+msgid "{{< form-search-man >}}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/search/_index.adoc:46
+#, no-wrap
+msgid "Ported applications"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:51
+msgid "{{< form-search-ports >}}"
+msgstr ""
+
+#. type: Title ==
+#: content/en/search/_index.adoc:55
+#, no-wrap
+msgid "Mailing list archives"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:58
+msgid ""
+"The https://lists.FreeBSD.org/index/[mailing list archive] indexes are now "
+"updated weekly!"
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:60
+msgid ""
+"An alternative way to read the mailing lists archives is to use the "
+"http://lists.FreeBSD.org/pipermail[Pipermail list archive] (note that this "
+"archive contains messages between March 2003 and May 2021)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:62
+msgid ""
+"The mailing lists have also been archived by "
+"https://freebsd.markmail.org/search/?q=[MarkMail] (as well as many others)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/search/_index.adoc:63
+msgid "{{< form-search-mail >}}"
+msgstr ""

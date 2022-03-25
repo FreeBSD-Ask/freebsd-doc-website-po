@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 23:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/support/bugreports.adoc:1 content/en/support/bugreports.adoc:8
+#, no-wrap
+msgid "Bug Reports"
+msgstr ""
+
+#. type: Title ==
+#: content/en/support/bugreports.adoc:10
+#, no-wrap
+msgid "Problem Report Database"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/bugreports.adoc:13
+msgid "https://bugs.FreeBSD.org/search/[Search Current Problem Reports]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/bugreports.adoc:14
+msgid "https://bugs.FreeBSD.org/submit/[Submit a New Problem Report]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/bugreports.adoc:16
+msgid ""
+"A problem report, or _PR_, can be about any component of FreeBSD, including "
+"problems with the operating system programs, a mistake in the documentation, "
+"or a new feature that the submitter wishes to see incorporated."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/bugreports.adoc:18
+msgid ""
+"Problem reports begin in the _open_ state, and are closed when the issue is "
+"resolved. A numeric ID is assigned to each PR for tracking. Many FreeBSD "
+"changes refer to the PR number that prompted the change."
+msgstr ""
+
+#. type: Title ==
+#: content/en/support/bugreports.adoc:19
+#, no-wrap
+msgid "How to Submit a Problem Report"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/bugreports.adoc:22
+msgid ""
+"Problem reports are submitted to the development team with the "
+"https://bugs.FreeBSD.org/submit/[web form]. An account will need to be "
+"created before a bug can be submitted. Please note that messages sent to a "
+"mailing list are _not_ tracked as official problem reports, and may get lost "
+"in the noise!"
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/bugreports.adoc:24
+msgid ""
+"Before submitting a problem report, please read the "
+"link:{problem-reports}[Writing FreeBSD Problem Reports] article. This "
+"article describes when to submit a problem report and what to include. Some "
+"useful background information is also contained in the "
+"link:{pr-guidelines}[Problem Report Handling Guidelines] article."
+msgstr ""
+
+#. type: Plain text
+#: content/en/support/bugreports.adoc:25
+msgid ""
+"FreeBSD problem reports are tracked using "
+"http://www.bugzilla.org/[Bugzilla]."
+msgstr ""

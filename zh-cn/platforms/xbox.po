@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:08+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/platforms/xbox.adoc:1 content/en/platforms/xbox.adoc:8
+#, no-wrap
+msgid "FreeBSD/xbox Project"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/xbox.adoc:10
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/xbox.adoc:13
+msgid ""
+"FreeBSD/xbox is a port of FreeBSD which aims to run on Microsoft(R) Xbox(R) "
+"systems. This project was started by {rink}, who did most of the patching "
+"and coding. {ed} helped with reviewing patches and he also provided details "
+"on certain Xbox internals."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/xbox.adoc:14
+#, no-wrap
+msgid "Status"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/xbox.adoc:17
+msgid ""
+"FreeBSD/xbox has been supported since FreeBSD 6-STABLE. The framebuffer, "
+"Ethernet, sound and USB devices (such as an USB keyboard for the console) "
+"are all supported."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/xbox.adoc:19
+msgid ""
+"In order to aid people in installing the FreeBSD/xbox port, a combined "
+"install/livecd has been "
+"https://lists.freebsd.org/pipermail/freebsd-stable/2006-August/027894.html[created]. "
+"It is available ftp://ftp.stack.nl/pub/freebsd-xbox/[here]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/xbox.adoc:20
+#, no-wrap
+msgid "Booting FreeBSD kernels"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/xbox.adoc:23
+msgid ""
+"In order to boot FreeBSD you must have an up-to-date version of the "
+"Linux/xbox BIOS, called Cromwell (failure will result in your kernel "
+"crashing immediately after loading). A Cromwell with FreeBSD UFS patches "
+"(this will make it able to load a kernel directly from an UFS file system) "
+"is available in the ports tree at /usr/ports/sysutils/cromwell; it can be "
+"flashed to the EEPROM using the /usr/ports/sysutils/raincoat port (as long "
+"as your Xbox is below version 1.6)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/xbox.adoc:25
+#, no-wrap
+msgid ""
+"*Note*: Several Xbox drives are known to reject certain types of "
+"media. Should you experience random hangs, panics or corruption during "
+"installation, try a different known-working DVD/CD-ROM.\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/platforms/xbox.adoc:26
+#, no-wrap
+msgid "Installing on the hard drive"
+msgstr ""
+
+#. type: Plain text
+#: content/en/platforms/xbox.adoc:28
+msgid ""
+"You can do an installation using the Live CD's, but you will need to do "
+"everything manually. It is suggested to prepare your disk using an "
+"FreeBSD/i386 installation and set up the /boot/xboxlinux.cfg configuration "
+"file yourself, so Cromwell can determine which kernel to load."
+msgstr ""

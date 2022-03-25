@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/developer.adoc:1 content/en/internal/developer.adoc:8
+#, no-wrap
+msgid "Resources for FreeBSD Committers"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/developer.adoc:10
+#, no-wrap
+msgid "link:{committers-guide}[Committers Guide]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:13
+msgid ""
+"This document is an overall guide for all new committers, including both "
+"technical details and policy details. For the former, see the chapters on "
+"link:{committers-guide}#git-primer[the Git VCS], the "
+"link:{committers-guide}#bugzilla[Bugzilla] bug tracking system, and the "
+"link:{committers-guide}#ssh.guide[SSH Quick-Start Guide]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:15
+msgid ""
+"It contains almost everything a new committer to the FreeBSD Project needs "
+"to know. See the Documentation Project Primer and the Ports Guide, below, "
+"for more info."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/developer.adoc:16
+#, no-wrap
+msgid "link:{fdp-primer}[FreeBSD Documentation Project Primer for New Contributors]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:19
+msgid ""
+"This primer covers everything you will need to know in order to start "
+"contributing to the FreeBSD Documentation Project, from the tools and "
+"software you will be using (both mandatory and recommended) to the "
+"philosophy behind the Documentation Project."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/developer.adoc:20
+#, no-wrap
+msgid "link:{porters-handbook}[FreeBSD Porter's Handbook]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:23
+msgid ""
+"A guide for FreeBSD ports committers. This includes the canonical "
+"link:{porters-handbook}#versions[Table of __FreeBSD_version Values]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/developer.adoc:24
+#, no-wrap
+msgid "link:{fdp-primer}#the-website-build[How to build the FreeBSD Web Pages]."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:27
+msgid ""
+"This document describes how to build and update the FreeBSD Web pages from "
+"the Git repository by hand."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/developer.adoc:28
+#, no-wrap
+msgid "FreeBSD Projects"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:31
+msgid "link:../../docproj/[FreeBSD Documentation Project]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:32
+msgid "link:../../releng/[FreeBSD Release Engineering]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:33
+msgid "link:../../platforms/[FreeBSD Hardware Platforms Projects]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:34
+msgid "link:../../projects/[FreeBSD Development Projects]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/developer.adoc:35
+#, no-wrap
+msgid "Other Resources"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:38
+msgid "link:../../developers/cvs/[Source Code Repositories]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:39
+msgid "link:../../support/[Bug Reports]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:40
+msgid "link:../../security/[FreeBSD Security Information]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:41
+msgid "link:../../copyright/[Copyright]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:42
+msgid "https://wiki.FreeBSD.org[FreeBSD Wiki]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/developer.adoc:43
+msgid "link:..[FreeBSD Internal Home]"
+msgstr ""

@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 23:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/art.adoc:1 content/en/art.adoc:8
+#, no-wrap
+msgid "FreeBSD Art"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:11
+msgid "<<bsd-daemon,BSD Daemon>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:12
+msgid "<<powered-by,\"Powered by FreeBSD\" Logos>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:13
+msgid "<<adv,Old advertisement banners>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:14
+msgid "<<use,Graphics use>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:16
+msgid ""
+"This page contains miscellaneous FreeBSD \"art\". Suggestions for additions "
+"can be sent to www@FreeBSD.org. Please note the <<use,usage policy>> for "
+"these graphics."
+msgstr ""
+
+#. type: Title ==
+#: content/en/art.adoc:18
+#, no-wrap
+msgid "link:..copyright/[BSD Daemon]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:22
+msgid "image:../gifs/daemon-phk.png[BSD Daemon,width=191,height=208]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:26
+msgid ""
+"Created by {phk-name} + Source: "
+"https://cgit.freebsd.org/src/tree/share/examples/BSD_daemon/[/usr/share/examples/BSD_daemon/] "
+"on FreeBSD systems."
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:29
+msgid ""
+"link:../../gifs/daemon_hammer.jpg[image:../../gifs/daemon_hammer-tn25.jpg[BSD "
+"Daemon wielding a hammer,width=150,height=178]] "
+"image:../../gifs/power.jpg[BSD Daemon waiting tables,width=160,height=246]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:32
+msgid ""
+"image:../gifs/news.jpg[BSD Daemon editing the news,width=193,height=144] "
+"image:../gifs/doc.jpg[BSD Daemon reading documentation,width=274,height=163] "
+"image:../gifs/releases.jpg[BSD Daemon delivering the latest "
+"release,width=259,height=178]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/art.adoc:34
+#, no-wrap
+msgid "\"Powered by FreeBSD\" Logos"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:38
+msgid ""
+"image:../gifs/powerlogo.gif[Powered by FreeBSD Logo] "
+"image:../gifs/power-button.gif[Powered by FreeBSD Logo]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:41
+msgid ""
+"image:../gifs/pbfbsd2.gif[Powered by FreeBSD Logo,width=171,height=64] "
+"image:../gifs/powerani.gif[Powered by FreeBSD Logo,width=171,height=64] "
+"image:../gifs/fhp_mini.jpg[FreeBSD Hardware Partner "
+"Logo,width=145,height=50]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:44
+msgid ""
+"image:../gifs/banner1.gif[FreeBSD The Power To Serve "
+"Logo,width=446,height=63]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:47
+msgid ""
+"image:../gifs/banner2.gif[FreeBSD The Power To Serve "
+"Logo,width=310,height=63]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:50
+msgid ""
+"image:../gifs/banner3.gif[FreeBSD The Power To Serve "
+"Logo,width=250,height=35]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:53
+msgid ""
+"image:../gifs/banner4.gif[FreeBSD The Power To Serve "
+"Logo,width=225,height=46]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/art.adoc:55
+#, no-wrap
+msgid "Old Advertisement Banners"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:59
+msgid ""
+"image:../gifs/freebsd-advert.gif[Adv Banner1,width=455,height=60] "
+"image:../gifs/freebsd_3.gif[Adv Banner2,width=306,height=94]"
+msgstr ""
+
+#. type: Title ==
+#: content/en/art.adoc:61
+#, no-wrap
+msgid "Graphics Use"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:64
+msgid ""
+"The \"Powered by FreeBSD\" logos above may be "
+"link:../gifs/powerlogo.gif[downloaded] and displayed on personal or "
+"commercial home pages served by FreeBSD machines. Use of this logo or the "
+"likeliness of the link:../copyright/daemon/[BSD Daemons] for profitable gain "
+"requires the consent of mailto:taob@risc.org[Brian Tao] (creator of the "
+"\"power\" logo) and mailto:mckusick@mckusick.com[Marshall Kirk McKusick] "
+"(copyright holder for the BSD Daemon image)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:66
+msgid ""
+"{phk-name}'s rendering of the BSD Daemon is released under \"THE BEER-WARE "
+"LICENSE\". See the "
+"https://cgit.freebsd.org/src/plain/share/examples/BSD_daemon/README[README] "
+"for more information."
+msgstr ""
+
+#. type: Title ==
+#: content/en/art.adoc:68
+#, no-wrap
+msgid "Trademarks"
+msgstr ""
+
+#. type: Plain text
+#: content/en/art.adoc:70
+msgid ""
+"The https://www.freebsdfoundation.org[FreeBSD Foundation] holds several "
+"FreeBSD related trademarks (among them the trademark for the term "
+"\"FreeBSD\" itself). For more information about these trademarks read the "
+"https://www.freebsdfoundation.org/legal/trademark-usage-terms-and-conditions/[FreeBSD "
+"Trademark Usage Terms and Conditions]."
+msgstr ""

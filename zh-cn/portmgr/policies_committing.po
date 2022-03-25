@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:11+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/portmgr/policies_committing.adoc:1
+#: content/en/portmgr/policies_committing.adoc:6
+#, no-wrap
+msgid "Policies of the Ports Management Team: Committing To The Tree"
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_committing.adoc:9
+msgid ""
+"These are the specific policies that the Ports Management Team has adopted "
+"regarding commits to the ports tree."
+msgstr ""
+
+#. type: Title ==
+#: content/en/portmgr/policies_committing.adoc:10
+#, no-wrap
+msgid "Changes to `bsd.port.mk`"
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_committing.adoc:13
+msgid ""
+"portmgr acts as sole committer for `bsd.port.mk` at all times. Proposed "
+"changes must be submitted as PRs and assigned to portmgr."
+msgstr ""
+
+#. type: Title ==
+#: content/en/portmgr/policies_committing.adoc:14
+#, no-wrap
+msgid "Changes when the tree is open"
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_committing.adoc:17
+msgid ""
+"Open to everything that would not "
+"link:../implementation/#requires_regression_test[require a regression test]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/portmgr/policies_committing.adoc:18
+#, no-wrap
+msgid "Changes when the tree is frozen"
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_committing.adoc:21
+msgid ""
+"All changes must be approved by portmgr. In general, only the following will "
+"be accepted:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_committing.adoc:23
+msgid ""
+"fixes that would prevent a port from installing, deinstalling or running "
+"properly for the *upcoming* release."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_committing.adoc:24
+msgid ""
+"security problems. If sufficiently severe, these may imply the need to "
+"create a slipped tag."
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_committing.adoc:25
+msgid "licensing issues. These require a slipped tag."
+msgstr ""
+
+#. type: Title ==
+#: content/en/portmgr/policies_committing.adoc:26
+#, no-wrap
+msgid "Changes when the tree is thawed"
+msgstr ""
+
+#. type: Plain text
+#: content/en/portmgr/policies_committing.adoc:28
+msgid ""
+"No link:../implementation#sweeping_changes[sweeping changes]. This is to "
+"prevent possibly having to rebuild all the release packages."
+msgstr ""

@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/security/charter.adoc:1 content/en/security/charter.adoc:6
+#, no-wrap
+msgid "FreeBSD Security Officer Charter"
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/charter.adoc:10
+#, no-wrap
+msgid "1. Introduction"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:13
+msgid ""
+"The FreeBSD Security Officer's mission is to protect the FreeBSD user "
+"community by keeping the community informed of bugs, exploits, popular "
+"attacks, and other risks; by acting as a liaison on behalf of the FreeBSD "
+"Project with external organizations regarding sensitive, non-public security "
+"issues; and by promoting the distribution of information needed to safely "
+"run FreeBSD systems, such as system administration and programming tips."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/charter.adoc:14
+#, no-wrap
+msgid "2. Responsibilities"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:17
+msgid "The responsibilities of the Security Officer include:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:19
+msgid "Resolving disputes involving security."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:20
+msgid ""
+"Resolving software bugs that affect the security of FreeBSD in a timely "
+"fashion."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:21
+msgid "Issuing security advisories for FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:22
+msgid "Responding to vendor inquiries regarding security issues."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:23
+msgid ""
+"Auditing as much code as possible, but particularly security- and network- "
+"related code."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:24
+msgid ""
+"Monitoring the appropriate channels for reports of bugs, exploits, and other "
+"circumstances that may affect the security of a FreeBSD system."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:25
+msgid ""
+"Participating in the architecture of FreeBSD in order to influence a "
+"positive impact on system security."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:26
+msgid "The Security Officer maintains the FreeBSD Security Officer PGP key."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/charter.adoc:27
+#, no-wrap
+msgid "3. Authorities"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:30
+msgid ""
+"The FreeBSD Core Team has delegated authority to the Security Officer in "
+"matters of security, and the Security Officer is accountable to the Core "
+"Team in the use of this authority. He is expected to act with common sense "
+"and use appropriate discretion when using any of the appointed powers. Any "
+"actions that conflict with the committers' guidelines require particularly "
+"careful judgment."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:32
+msgid ""
+"Specifically, subject to the accountability constraints, the Security "
+"Officer is granted the following powers:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:34
+msgid ""
+"Expedited commits: The Security Officer may forgo the usual committers' "
+"guidelines in areas of security."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:35
+msgid ""
+"Veto: The Security Officer has the final say in security matters, and may "
+"request the back-out of any commits or elimination of any subsystems that "
+"they consider detrimental to the security of FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:36
+msgid ""
+"Team: The Security Officer may maintain a Security Officer Team and delegate "
+"these powers and responsibilities at their discretion. Membership is "
+"selected by the Security Officer, but always includes emeritus security "
+"officers --- just when they thought they had paid their dues."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:37
+msgid ""
+"Mailing list: The security-officer@FreeBSD.org mailing list is administrated "
+"by the Security Officer."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/charter.adoc:38
+#, no-wrap
+msgid "4. Structure"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:41
+msgid ""
+"A new Security Officer is appointed by the previous Security Officer and "
+"ratified by the Core Team. The Security Officer is accountable to the Core "
+"Team."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/charter.adoc:42
+msgid ""
+"The Security Officer Team members are selected by the Security Officer, and "
+"they are accountable to the Security Officer and to the Core Team. Security "
+"Officer Team members are expected to assist the Security Officer in "
+"fulfilling their responsibilities and otherwise participate in protecting "
+"the FreeBSD user community."
+msgstr ""

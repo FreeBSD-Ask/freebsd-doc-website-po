@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:47+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/hats.adoc:1 content/en/internal/hats.adoc:6
+#, no-wrap
+msgid "Hats Term Limits Policy"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/hats.adoc:8
+#, no-wrap
+msgid "Rationale"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:11
+msgid ""
+"The FreeBSD Core team appoints several individuals (\"hats\") that perform "
+"critical roles within the project. It is important to reduce single points "
+"of failure in these roles. Additionally, turnover in hats can provide fresh "
+"insight and help avoid burnout."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:13
+msgid ""
+"The current set of core-appointed hats is core secretary, head release "
+"engineer, the security officer, and postmaster."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:15
+msgid ""
+"The FreeBSD Core team has approved the following hats term limits "
+"policy. This was first posted to the Developers mailing list on June 22, "
+"2012, and amended in June 2015."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/hats.adoc:16
+#, no-wrap
+msgid "Policy"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:19
+msgid "An individual may serve as a core-appointed hat given that:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:21
+msgid "Core approves their appointment or re-appointment to the role."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:22
+msgid "The individual is willing to continue."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:23
+msgid "The individual is still able to perform the role effectively."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:25
+msgid ""
+"Hats are appointed at the pleasure of core. Appointments may be rescinded by "
+"core at any time where this serves the needs of the project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:27
+msgid ""
+"Each hat's term begins three months after the start of a core team's two "
+"year term and ends three months after the end of the core team's term. Hats "
+"are explicitly approved by the new core team at the start of the hat's term."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:29
+msgid ""
+"If a hat becomes vacant during a term, core shall appoint a replacement for "
+"the remainder of the term."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:31
+msgid "Core shall review all hats annually."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:33
+msgid ""
+"In general it is expected that volunteers serving in hat positions will be "
+"limited to serving for four consecutive years, rounded up to the first "
+"natural review/appointment cycle."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:35
+msgid ""
+"Non volunteers serving in hat positions are still expected to participate in "
+"annual reviews and provide for continuity to core's satisfaction."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:37
+msgid ""
+"Each hat must appoint a deputy who can cover their role in the case of "
+"absence or illness, and be trained and ready to take over the role (subject "
+"to core approval) should the role holder resign before the end of their "
+"term."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:39
+msgid ""
+"If a core team is dissolved prematurely, then the next term for each hat "
+"will begin three months after the new core team's term begins."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/hats.adoc:40
+msgid ""
+"These limits apply to individual hats and not to teams. For teams with a "
+"single lead role, the limits shall apply to the lead role. An individual "
+"that is not eligible to serve as the lead of a team may continue to serve as "
+"a member of the team."
+msgstr ""

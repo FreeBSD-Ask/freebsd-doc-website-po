@@ -1,0 +1,487 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.7R/schedule.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.7 Release Process"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:10
+#, no-wrap
+msgid "<h1>Introduction</h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:15
+#, no-wrap
+msgid ""
+"<p>This is a specific schedule for the release of FreeBSD 4.7.  For\n"
+"  more general information about the release engineering process,\n"
+"  please see the <a href=\"../../../releng/index.html\" "
+"shape=\"rect\">Release\n"
+"  Engineering</a> section of the web site.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:20
+#, no-wrap
+msgid ""
+"<p>General discussions about the release engineering process or\n"
+"  quality assurance issues should be sent to the public <a "
+"href=\"mailto:freebsd-qa@FreeBSD.org\" shape=\"rect\">freebsd-qa</a> mailing "
+"list.\n"
+"  <a href=\"../../../doc/en_US.ISO8859-1/books/faq/misc.html#DEFINE-MFC\" "
+"shape=\"rect\">MFC</a>\n"
+"  requests should be sent to <a href=\"mailto:re@FreeBSD.org\" "
+"shape=\"rect\">re@FreeBSD.org</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:22
+#, no-wrap
+msgid "<h1>Schedule</h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:55
+#, no-wrap
+msgid ""
+"<table class=\"tblbasic\">\n"
+"  <tr><td rowspan=\"1\" colspan=\"1\">Action</td><td rowspan=\"1\" "
+"colspan=\"1\">Expected</td><td rowspan=\"1\" colspan=\"1\">Actual</td><td "
+"rowspan=\"1\" colspan=\"1\">Description</td>\n"
+"      </tr>\n"
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Reminder announcement</td><td "
+"rowspan=\"1\" colspan=\"1\">06&nbsp;Aug&nbsp;2002</td><td rowspan=\"1\" "
+"colspan=\"1\">06&nbsp;Aug&nbsp;2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Release Engineers send announcement "
+"email to\n"
+"      developers@FreeBSD.org with a rough schedule for the FreeBSD 4.7\n"
+"      release.</td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">4.7-PRERELEASE Testing Guide "
+"published</td><td rowspan=\"1\" colspan=\"1\">Ongoing</td><td rowspan=\"1\" "
+"colspan=\"1\">02 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">A <a "
+"href=\"../../../releases/4.7R/qa.html\" shape=\"rect\">testing guide</a>\n"
+"      should be published with information about recent changes and\n"
+"      areas of the system that should be thoroughly tested during the\n"
+"      pre-release/RC period.</td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\"><tt>4.7-PRERELEASE</tt></td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">01&nbsp;Sep&nbsp;2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">02&nbsp;Sep&nbsp;2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\"><tt>newvers.sh</tt>, and "
+"<tt>release.ent</tt> updated.</td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">FTP site updated</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">01 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">02 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\"><tt>pkg_add -r</tt> works for "
+"<tt>4.7-PRERELEASE</tt> machines.</td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Code freeze begins</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">01 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">01 Sep 2002</td>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:62
+#, no-wrap
+msgid ""
+"    <td rowspan=\"1\" colspan=\"1\">After this date, all commits to the "
+"<tt>RELENG_4</tt> branch\n"
+"      must be approved by <a href=\"mailto:re@FreeBSD.org\" "
+"shape=\"rect\">re@FreeBSD.org</a>.  Certain highly\n"
+"      active documentation committers are exempt from this rule for\n"
+"      routine man page / release note updates.  Heads-up emails\n"
+"      should be sent to the developers@, stable@, and qa@ lists.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:70
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Commercial software demos "
+"updated.</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">--</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">--</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">The second disc contains commercial "
+"software demos, these\n"
+"      demos should be updated to contain the latest versions.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:77
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\"><tt>4.7-RC</tt></td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">15 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">16 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\"><tt>newvers.sh</tt> and "
+"<tt>release.ent</tt> updated.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:86
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Announce the Ports Freeze</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">15 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">16 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Someone from <tt>portmgr</tt> should "
+"email\n"
+"    <tt>freebsd-ports@</tt> and BCC: <tt>developers@</tt> to set a date\n"
+"    for the week long ports freeze and tagging of the ports tree.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:99
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">First release candidate</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">15 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">18 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">The first release candidate for the x86 "
+"and Alpha architecture is\n"
+"      released.  ISO images should be uploaded to\n"
+"      <tt>ftp-master.FreeBSD.org</tt> and\n"
+"    <tt>releng4.FreeBSD.org</tt>.  A network install directory should\n"
+"    be uploaded to <tt>ftp-master.FreeBSD.org</tt>.  The\n"
+"    <tt>packages</tt> directory should be a <em>relative</em> symlink,\n"
+"    as described in the releng article.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:107
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Heads up to -stable</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">17 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">18 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">A message should be sent to "
+"<tt>qa@FreeBSD.org</tt> and\n"
+"    <tt>stable@FreeBSD.org</tt> after the snapshot is uploaded.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:112
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Package split posted</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">17 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">--</td>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:116
+#, no-wrap
+msgid ""
+"    <td rowspan=\"1\" colspan=\"1\">The proposed package split (which "
+"packages go on which disc of\n"
+"      the 4 CD set) should be posted to <tt>qa@FreeBSD.org</tt>,\n"
+"      <tt>ports@FreeBSD.org</tt>, and <tt>stable@FreeBSD.org</tt>.</td>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:118
+#, no-wrap
+msgid "  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:126
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Second release candidate</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">--</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">27 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Note: the release date of this candidate "
+"depends on the user\n"
+"    experience with RC1.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:133
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Third release candidate</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">--</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">07 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\"></td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:141
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Ports tree frozen</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">20 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">21 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Only approved commits will be permitted "
+"to the <tt>ports/</tt>\n"
+"      tree during the freeze.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:148
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Ports tree tagged</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">24 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">01 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\"><tt>RELEASE_4_7_0</tt> tag for "
+"<tt>ports/</tt>.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:157
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Ports tree unfrozen</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">24 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">05 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">After the <tt>ports</tt> tree is "
+"tagged,\n"
+"      the <tt>ports/</tt> tree will be re-opened for commits, but\n"
+"      commits made after tagging will not go in 4.7-RELEASE.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:165
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Final package build starts</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">25 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">05 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">The ports cluster and <a "
+"href=\"http://bento.FreeBSD.org\" shape=\"rect\">bento</a>\n"
+"    build final packages.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:180
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Package split</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">26 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">08 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">The packages must be split so that "
+"packages with similar\n"
+"      dependencies appear on each of the four discs, with the most\n"
+"      popular packages appearing on the first disc.</td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">doc tree tagged.</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">27 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">01 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\"><tt>RELEASE_4_7_0</tt> tag for "
+"docs.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:187
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\"><tt>RELENG_4_7</tt> branch</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">28 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">06 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">The release branch is created.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:198
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Note to freebsd-stable@</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">28 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">06 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">A note should be sent to the "
+"freebsd-stable@ list to let\n"
+"    over-anxious users know that the tags have been created but the\n"
+"    release still isn't ready.  Tags may be slid before the\n"
+"    announcement goes out.  Point users to freebsd-qa@ for\n"
+"    details.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:206
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Version numbers bumped.</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">29 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">07 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">The files listed <a "
+"href=\"../../../doc/en_US.ISO8859-1/articles/releng/article.html#VERSIONBUMP\" "
+"shape=\"rect\">here</a>\n"
+"    are updated to reflect the fact that this is FreeBSD 4.7.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:215
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Update man.cgi on the website.</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">29 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">06 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Make sure the 4.7 manual pages are being "
+"displayed by default\n"
+"    for the man-&gt;web gateway.  Also make sure these man pages are\n"
+"    pointed to by docs.xml.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:222
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">src tree tagged.</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">29 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">06 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\"><tt>RELENG_4_7_0_RELEASE</tt> tag for "
+"src.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:229
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Final builds.</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">08 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">08 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Final builds for x86 and Alpha in a "
+"pristine environment.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:239
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Warn <tt>hubs@FreeBSD.org</tt></td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">30 Sep 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">09 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Heads up email to <a "
+"href=\"mailto:hubs@FreeBSD.org\" shape=\"rect\">hubs@FreeBSD.org</a> to give "
+"admins\n"
+"    time to prepare for the load spike to come.  The\n"
+"      site administrators have frequently requested advance notice for\n"
+"      new ISOs.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:246
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Upload to <tt>ftp-master</tt>.</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">08 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">09 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">release and packages uploaded to "
+"<tt>ftp-master.FreeBSD.org</tt></td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:254
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Announcement</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">08 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">10 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Announcement sent out after a majority "
+"of the mirrors have\n"
+"    received the bits.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:263
+#, no-wrap
+msgid ""
+"  <tr>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Unfreeze the tree</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">08 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">10 Oct 2002</td>\n"
+"    <td rowspan=\"1\" colspan=\"1\">Announcement to developers@ explaining "
+"that the release is\n"
+"     out, and commits to RELENG_4 no longer require approval.  Also\n"
+"     note the policy for commits to the RELENG_4_7 branch.</td>\n"
+"  </tr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:266
+#, no-wrap
+msgid "</table>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/schedule.adoc:271
+#, no-wrap
+msgid ""
+"  </div>\n"
+"          <br class=\"clearboth\" />\n"
+"        </div>\n"
+msgstr ""

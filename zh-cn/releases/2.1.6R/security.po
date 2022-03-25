@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:41+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.1.6R/security.adoc:1
+#: content/en/releases/2.1.6R/security.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.1.6 Security Update"
+msgstr ""
+
+#. type: Title ==
+#: content/en/releases/2.1.6R/security.adoc:8
+#, no-wrap
+msgid "Security Update"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.6R/security.adoc:11
+msgid ""
+"A serious security problem affecting FreeBSD 2.1.6 and earlier systems was "
+"found. The problem has been corrected within the -stable, -current, and "
+"RELENG_2_2 source trees. As an additional precaution, FreeBSD 2.1.6 is no "
+"longer available from the FTP distribution sites. An update release "
+"(provisionally \"FreeBSD 2.1.7\") is expected shortly."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.6R/security.adoc:13
+msgid ""
+"You can read more about the problem and solution from the "
+"ftp://FreeBSD.org/pub/CERT/advisories/FreeBSD-SA-97:01.setlocale[FreeBSD-SA-97:01.setlocale] "
+"security announcement."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.6R/security.adoc:14
+msgid "link:../../[Release Home]"
+msgstr ""

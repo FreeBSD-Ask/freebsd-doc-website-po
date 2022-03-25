@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/gnome/docs/gnome1_porting.adoc:1
+#: content/en/gnome/docs/gnome1_porting.adoc:6
+#, no-wrap
+msgid "FreeBSD GNOME Project: GNOME 1 Components"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/gnome1_porting.adoc:9
+msgid ""
+"To see how to utilize these components, please examine the "
+"link:../example-makefile/[example Makefile]."
+msgstr ""
+
+#. type: Table
+#: content/en/gnome/docs/gnome1_porting.adoc:33
+#, no-wrap
+msgid ""
+"|*COMPONENT* |*ASSOCIATED PROGRAM* |*IMPLIED COMPONENTS*\n"
+"|bonobo |devel/bonobo |oaf gnomeprint\n"
+"|gal |x11-toolkits/gal |libglade\n"
+"|gconf |devel/gconf |oaf\n"
+"|gdkpixbuf |graphics/gdk-pixbuf |gtk12\n"
+"|glib12 |devel/glib12 |pkgconfig\n"
+"|gnomecanvas |graphics/gnomecanvas |gnomelibs gdkpixbuf\n"
+"|gnomedb |databases/gnome-db |libgda\n"
+"|gnomelibs |x11/gnome-libs |esound imlib libxml orbit\n"
+"|gnomeprint |print/gnome-print |gnomelibs gnomecanvas\n"
+"|gnomevfs |devel/gnome-vfs1 |gnomemimedata gconf gnomelibs\n"
+"|gtk12 |x11-toolkits/gtk12 |glib12\n"
+"|imlib |graphics/imlib |gtk12\n"
+"|libgda |databases/libgda |gconf bonobo\n"
+"|libghttp |www/libghttp |\n"
+"|libglade |devel/libglade |gnomedb\n"
+"|libxml |textproc/libxml |glib12\n"
+"|oaf |devel/oaf |orbit libxml\n"
+"|orbit |devel/ORBit |glib12\n"
+"|pygtk |x11-toolkits/py-gtk |gnomelibs gdkpixbuf libglade\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/docs/gnome1_porting.adoc:35
+msgid ""
+"If you still need help with your port, have a look at some of the existing "
+"ports for examples. The link:mailto:freebsd-gnome@FreeBSD.org[freebsd-gnome "
+"mailing list] is also there for you."
+msgstr ""

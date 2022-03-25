@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:43+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/clusteradm.adoc:1 content/en/internal/clusteradm.adoc:6
+#, no-wrap
+msgid "Charter for the Cluster Administrators"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:9
+msgid ""
+"Lead cluster administrator is a delegated officer role (aka. \"hat\") that "
+"answers to the FreeBSD Core Team and ultimately the FreeBSD community at "
+"large. This person shall have the operational authority over the FreeBSD "
+"cluster infrastructure (to the extent that the Core Team can delegate this "
+"authority) and will be responsible for the following in general:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:11
+msgid ""
+"Ensure the reliable operation of the Project's equipment and network "
+"resources."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:12
+msgid ""
+"Ensure that the Project's resources are suitably and effectively used to "
+"serve the Project's interests."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:13
+msgid ""
+"Ensure that reasonable security precautions and mitigations are implemented "
+"within the constraints of the nature of a highly distributed project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:14
+msgid ""
+"Delegate to and coordinating with both the site-specific admin teams and the "
+"admins at large."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:15
+msgid ""
+"Ensure that standard operating procedures, rules, guidelines etc are "
+"documented and understandable."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:16
+msgid ""
+"Take measures to ensure that a competent administrator would be expected to "
+"be able to adopt a predecessor's work in a reasonable amount of time."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:17
+msgid ""
+"Contingency planning and implementation to ensure continuity across site "
+"specific problems (including donated site withdrawal or outages)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:18
+msgid ""
+"Keep the interested parties (Core Team, Security Team, FreeBSD Foundation, "
+"Ports Management Team, etc), project members and community members "
+"appropriately informed."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:19
+msgid ""
+"Give timely and authoritive answers to questions, or a direct referral to "
+"the appropriate party."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:20
+msgid "Aid other hat wearers and cluster administrators to get their job done."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:21
+msgid ""
+"Where practical and appropriate, use the Project's own product as a proving "
+"ground."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:22
+msgid ""
+"Make sure that it is easy for developers to know what hardware resources "
+"they have access to for project purposes."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:24
+msgid ""
+"The lead cluster administrator answers to the FreeBSD Core Team. If a party "
+"is unhappy with a position that the hat wearer takes and is unable to change "
+"their mind, they may take the issue to the Core Team. The Core Team has the "
+"final say in the matter. If the lead cluster administrator is a member of "
+"the Core Team then a complaint may be made in confidence via the core "
+"secretary or another member if desired."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:26
+msgid "Any of the following still require a sign-off from the Core Team:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:28
+msgid "New public facing services."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:29
+msgid "Planned withdrawal of public facing services."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:30
+msgid "New team members."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:32
+msgid "Notable interaction with other hats:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:34
+msgid ""
+"The lead cluster administrator will consult with the Security Officer and "
+"the Security Team where appropriate but will be responsible for making "
+"decisions. However, the Security Officer may respond to security emergencies "
+"involving project infrastructure as necessary."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:35
+msgid ""
+"The Ports Management Team has a large resource footprint and arrangements "
+"will be made with them to effectively operate their resources within the "
+"constraints of the overall cluster operation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:37
+msgid "Earmarked resources:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/clusteradm.adoc:38
+msgid ""
+"Some site resources are provided for specific purposes. Any such earmarking "
+"or use restrictions will be documented to make sure such resources are used "
+"as intended."
+msgstr ""

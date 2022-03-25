@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.2.2R/errata.adoc:1
+#: content/en/releases/2.2.2R/errata.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.2.2 Errata Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:12
+#, no-wrap
+msgid ""
+"Last minute errata:\n"
+"-------------------\n"
+"o login as root produces \"login_getclass: unknown class 'root'\" on system "
+"console.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:18
+#, no-wrap
+msgid ""
+"Fix:  If you have the source distribution installed, simply\n"
+"      cp /usr/src/etc/login.conf /etc\n"
+"      otherwise, get it from the FreeBSD FTP site using this URL:\n"
+"      ftp://ftp.FreeBSD.org/pub/FreeBSD/FreeBSD-current/src/etc/login.conf\n"
+"      instead.  Simply cd to /etc and then run fetch(1) with the provided "
+"URL.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:21
+#, no-wrap
+msgid "o sysconfig scrambles rc.conf if run again.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:24
+#, no-wrap
+msgid ""
+"Fix:  Get updated /usr/src from RELENG_2_2 branch and build\n"
+"      /usr/src/release/sysinstall, copying the new binary to /stand.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:30
+#, no-wrap
+msgid ""
+"      If you do not have enough space for src then you could also\n"
+"      use the boot/fixit floppy combo from a later 2.2-YYMMDD-RELENG\n"
+"      release to simply mount your root partition (using the Fixit\n"
+"      option) and copy /stand/sysinstall from the floppy to /stand on\n"
+"      your root fs.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:35
+#, no-wrap
+msgid ""
+"o Installation floppy does not boot at all - whereas the 2.2.1 floppy\n"
+"  worked fine.  I get a \"panic: double fault\" right after it tries to\n"
+"  change the root device to fd0c.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:41
+#, no-wrap
+msgid ""
+"Fix:  The problem is that you have 48MB of RAM and something very\n"
+"      mysterious has happened to FreeBSD twixt 2.2.1 and 2.2.2 which makes\n"
+"      it fail with just that exact memory size.  Given the popularity of\n"
+"      16MB simms, it also explains why none of us have seen it since we\n"
+"      typically have either 16MB, 32MB or 64MB of memory in our "
+"systems. :)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:44
+#, no-wrap
+msgid ""
+"      We're working on finding and fixing this problem, but until then\n"
+"      the following work-around is in effect for 48MB systems:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:48
+#, no-wrap
+msgid ""
+"      1. Boot the 2.2.2 boot floppy and when it comes to the first menu "
+"which\n"
+"         asks you whether or not you want to go into the kernel "
+"configuration\n"
+"         editor, choose the \"experts only\" CLI mode option.  Now type:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:52
+#, no-wrap
+msgid ""
+"          iosize npx0 32768\n"
+"          visual\n"
+"          < and do your visual kernel configuration as normal then exit>\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:54
+#, no-wrap
+msgid "         If you can get through to the installation, go to step 3.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:59
+#, no-wrap
+msgid ""
+"      2. If the above does not work, physically remove all but 32MB of "
+"memory\n"
+"         from your machine and then boot the boot floppy.  Unless your "
+"problem\n"
+"         is totally weird and something we've not seen at all before, you\n"
+"         should now be able to go on to step 3.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:64
+#, no-wrap
+msgid ""
+"      3. Complete the installation and then boot off your hard disk.  This\n"
+"         boot should work fine, since you are no longer using the memory\n"
+"         filesystem that the installation uses and which seems to interact\n"
+"         badly with these memory size issues to create the failure you "
+"saw.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.2.2R/errata.adoc:70
+#, no-wrap
+msgid ""
+"         You will also want to boot with the -c flag at some point and\n"
+"         say \"iosize npx0 0\" to get the full use of all your memory back\n"
+"         since the old value of 32768 will have been saved to disk during\n"
+"         the initial installation.  If you already plan on building a "
+"custom\n"
+"         kernel, you can skip this step since the value will be reset "
+"anyway.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.2.2R/errata.adoc:72
+msgid "link:../../[Release Home]"
+msgstr ""

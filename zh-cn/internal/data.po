@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:45+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/data.adoc:1 content/en/internal/data.adoc:6
+#, no-wrap
+msgid "User Data Policy"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/data.adoc:8
+#, no-wrap
+msgid "Rationale"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/data.adoc:11
+msgid ""
+"The FreeBSD Project provides several resources for developers including "
+"various machines and data storage. These resources are intended to be used "
+"for activities related to the FreeBSD Project. The project does not make any "
+"guarantees to developers regarding non-project-related data stored on "
+"project resources. Developers are strongly encouraged to not use project "
+"resources for storing non-project-related data. The FreeBSD Core team "
+"approved the following user data policy which was posted to the Developers "
+"mailing list on August 4, 2011."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/data.adoc:12
+#, no-wrap
+msgid "Policy"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/data.adoc:14
+msgid ""
+"FreeBSD Project resources should only be used for project-related activities "
+"and storing project-related data."
+msgstr ""

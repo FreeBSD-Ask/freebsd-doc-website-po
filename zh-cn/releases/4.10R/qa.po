@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.10R/qa.adoc:1
+#, no-wrap
+msgid "Testing Guide for 4.10-RELEASE"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/qa.adoc:10
+#, no-wrap
+msgid "<h3>Goals</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/qa.adoc:19
+#, no-wrap
+msgid ""
+"<p>As part of our on-going effort to improve the release engineering\n"
+"  process, we have identified several areas that need significant\n"
+"  quality assurance testing during the release candidate phase.\n"
+"  Below, we've listed the changes in 4.10-RELEASE that we feel merit\n"
+"  the most attention due to their involving substantial changes to the\n"
+"  system, or having arrived late in the development cycle leading up\n"
+"  to the release.  In general, our goal in the QA process is to\n"
+"  attempt to check a number of things:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/qa.adoc:24
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li>The system has not regressed with respects to stability, "
+"correctness,\n"
+"    interoperability, or performance of features present in prior\n"
+"    releases.<br clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/qa.adoc:28
+#, no-wrap
+msgid ""
+"  <li>New features result in the desired improvement in stability,\n"
+"    correctness, interoperability, or performance.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/qa.adoc:35
+#, no-wrap
+msgid ""
+"<p>To effectively determine this, it's desirable to test the system in\n"
+"  a diverse set of environments, applying a wide set of workloads,\n"
+"  forcing the system to operate both within and outside its normal\n"
+"  specification.  Particular focus should often be placed on the\n"
+"  continuing (or new) capability of the system to perform correctly\n"
+"  when used in concert with systems from other vendors.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/qa.adoc:37
+#, no-wrap
+msgid "<h3>Features to explore carefully:</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/qa.adoc:43
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li>There was a large merge of the USB code from RELENG_5 into RELENG_4.\n"
+"    This requires as much testing as possible to make sure that no devices\n"
+"    have regressed in stability or functionality.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/qa.adoc:46
+#, no-wrap
+msgid ""
+"<p>The <a href=\"../relnotes/\" shape=\"rect\">release notes</a> will always "
+"be\n"
+"  a good place to look for things to test.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/qa.adoc:51
+#, no-wrap
+msgid ""
+"<h3>Known Issues</h3>\n"
+"<ul>\n"
+"  <li>No known issues at this time.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.10R/qa.adoc:55
+#, no-wrap
+msgid ""
+"</div>\n"
+"          <br class=\"clearboth\" />\n"
+"        </div>\n"
+msgstr ""

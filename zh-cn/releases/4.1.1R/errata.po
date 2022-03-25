@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 21:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/4.1.1R/errata.adoc:1
+#: content/en/releases/4.1.1R/errata.adoc:6
+#, no-wrap
+msgid "FreeBSD 4.1.1 Errata Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:17
+#, no-wrap
+msgid ""
+"If you read no other documentation before installing this\n"
+"version of FreeBSD, you should at least by all means *READ\n"
+"THE ERRATA* for this release so that you don't stumble over\n"
+"problems which have already been found and fixed.  This ERRATA.TXT\n"
+"file is obviously already out of date by definition, but other\n"
+"copies are kept updated on the net and should be consulted as\n"
+"the \"current errata\" for your release.  These other copies of\n"
+"the errata are located at:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:19
+#, no-wrap
+msgid "  1. http://www.FreeBSD.org/releases/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:22
+#, no-wrap
+msgid ""
+"  2. ftp://ftp.FreeBSD.org/pub/FreeBSD/releases/<your-release>/ERRATA.TXT\n"
+"     (and any sites which keep up-to-date mirrors of this location).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:24
+#, no-wrap
+msgid "Any changes to this file are also automatically emailed to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:26
+#, no-wrap
+msgid "    freebsd-current@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:28
+#, no-wrap
+msgid "For all FreeBSD security advisories, see:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:30
+#, no-wrap
+msgid "    http://www.FreeBSD.org/security/\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:32
+#, no-wrap
+msgid "for the latest security incident information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:34
+#, no-wrap
+msgid "---- Security Advisories:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:36
+#, no-wrap
+msgid "Current active security advisories: None\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/4.1.1R/errata.adoc:38
+#, no-wrap
+msgid "---- System Update Information:\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/4.1.1R/errata.adoc:40
+msgid "link:../../[Release Home]"
+msgstr ""

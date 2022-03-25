@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:39+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.11R/errata_policy.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.11 Errata Processing Policy"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata_policy.adoc:12
+#, no-wrap
+msgid ""
+"  <h1>Introduction</h1>\n"
+"    <p>The following is the general policy for submitting requests to have\n"
+"      Errata Fixes applied to FreeBSD 4.11.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata_policy.adoc:19
+#, no-wrap
+msgid ""
+"  <h1>Procedures</h1>\n"
+"    <p>The Errata fixes will be applied by a member of the Release "
+"Engineering\n"
+"      Team, coordinating the fix with the Security Officer who owns the "
+"branch.\n"
+"      An Errata Notice will also be issued.  The Release Engineering Team "
+"may\n"
+"      choose to handle several Errata with one Errata Notice if several "
+"are\n"
+"      being processed at roughly the same time.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata_policy.adoc:26
+#, no-wrap
+msgid ""
+"    <h1>Policy</h1>\n"
+"      <h2>Errata Candidates</h2>\n"
+"\t<p>The classification of things that are Errata candidates are things\n"
+"\t  that are severe service-disrupting bugs for which there is no known\n"
+"\t  work-around.  Things like bugs in device drivers that impair their\n"
+"\t  expected functionality, things that can cause kernel panics, etc.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata_policy.adoc:38
+#, no-wrap
+msgid ""
+"      <h2>Initial Patch</h2>\n"
+"\t<p>During the initial phases the fix for Errata should be\n"
+"\t  handled exactly like any other fix.  It should initially\n"
+"\t  be committed to HEAD if possible and go through the normal\n"
+"\t  testing period there.  The fix should then be MFCed as usual.\n"
+"\t  Since HEAD and RELENG_5 have become dramatically different\n"
+"\t  from RELENG_4 in many areas this may not be possible, and\n"
+"\t  the initial commit may need to be applied straight to\n"
+"\t  RELENG_4.  At this point if you feel a fix is an Errata\n"
+"\t  Notice candidate please contact the Release Engineering Team\n"
+"\t  to make them aware of it.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata_policy.adoc:48
+#, no-wrap
+msgid ""
+"\t<p>The fix should then sit in RELENG_4 for one to two weeks.  During\n"
+"\t  this period please try to have the fix reviewed by another senior\n"
+"\t  Developer familiar with the section of the code you are working with.\n"
+"\t  You should also get confirmation that the fix solves the problem from\n"
+"\t  someone who had reported the problem.  Assuming no problems come up\n"
+"\t  during this testing period then send in the formal request to\n"
+"\t  <a href=\"mailto:re@FreeBSD.org\" shape=\"rect\">re@FreeBSD.org</a>.  "
+"Please include\n"
+"\t  the patch that will need to be applied to 4.11 and who has\n"
+"\t  reviewed the fix.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.11R/errata_policy.adoc:53
+#, no-wrap
+msgid ""
+"</div>\n"
+"          <br class=\"clearboth\" />\n"
+"        </div>\n"
+msgstr ""

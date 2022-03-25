@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 18:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/advocacy/_index.adoc:1 content/en/advocacy/_index.adoc:8
+#, no-wrap
+msgid "FreeBSD Advocacy Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:11
+msgid ""
+"Much of our success comes from users advocating to their friends, "
+"colleagues, and employers."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:13
+msgid "This page provides links to more information to help you do this."
+msgstr ""
+
+#. type: Title ==
+#: content/en/advocacy/_index.adoc:14
+#, no-wrap
+msgid "Web resources"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:17
+msgid "link:../press[FreeBSD in the press]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:19
+msgid "link:../status[FreeBSD quarterly status reports]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:21
+msgid ""
+"link:myths[Myths] – some of the misunderstandings about FreeBSD and other "
+"BSD projects."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:23
+msgid ""
+"link:whyusefreebsd[Why] – some of the reasons that people give for choosing "
+"FreeBSD."
+msgstr ""
+
+#. type: Title ==
+#: content/en/advocacy/_index.adoc:24
+#, no-wrap
+msgid "[#sites_using_freebsd]*Who uses it?*"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:27
+msgid ""
+"Organisations, products and services that make use of FreeBSD are "
+"https://freebsdfoundation.org/freebsd-project/what-is-freebsd/[shortlisted "
+"by the FreeBSD Foundation]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/advocacy/_index.adoc:28
+#, no-wrap
+msgid "[#freebsd_conferences]*Conferences*"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:31
+msgid ""
+"https://asiabsdcon.org/[AsiaBSDCon] – the annual BSD conference held in "
+"Asia."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:33
+msgid ""
+"https://www.bsdcan.org/[BSDCan] – the annual BSD conference held in Ottawa, "
+"Canada."
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:35
+msgid ""
+"https://www.eurobsdcon.org/[EuroBSDCon] – the annual BSD conference in "
+"Europe."
+msgstr ""
+
+#. type: Title ==
+#: content/en/advocacy/_index.adoc:36
+#, no-wrap
+msgid "[#mailing_lists]*Mailing lists*"
+msgstr ""
+
+#. type: Plain text
+#: content/en/advocacy/_index.adoc:38
+msgid "https://lists.freebsd.org/subscription/freebsd-advocacy[freebsd-advocacy]"
+msgstr ""

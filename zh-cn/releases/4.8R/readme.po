@@ -1,0 +1,841 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.8R/readme.adoc:1
+#, no-wrap
+msgid "FreeBSD 4.8-RELEASE README"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:10
+#, no-wrap
+msgid "        <h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:13
+#, no-wrap
+msgid ""
+"        <p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001, 2002,\n"
+"        2003 by The FreeBSD Documentation Project</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:20
+#, no-wrap
+msgid ""
+"        <p class=\"PUBDATE\">$FreeBSD:\n"
+"        src/release/doc/en_US.ISO8859-1/readme/article.sgml,v\n"
+"        1.1.2.16 2003/01/06 22:09:00 bmah Exp $<br />\n"
+"        </p>\n"
+"        <hr />\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:24
+#, no-wrap
+msgid ""
+"      <blockquote class=\"ABSTRACT\">\n"
+"        <div class=\"ABSTRACT\">\n"
+"          <a id=\"AEN12\" name=\"AEN12\"></a>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:32
+#, no-wrap
+msgid ""
+"          <p>This document gives a brief introduction to FreeBSD\n"
+"          4.8-RELEASE. It includes some information on how to\n"
+"          obtain FreeBSD, a listing of various ways to contact the\n"
+"          FreeBSD Project, and pointers to some other sources of\n"
+"          information.</p>\n"
+"        </div>\n"
+"      </blockquote>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:35
+#: content/en/releases/4.8R/readme.adoc:95
+#: content/en/releases/4.8R/readme.adoc:163
+#: content/en/releases/4.8R/readme.adoc:282
+#: content/en/releases/4.8R/readme.adoc:466
+#, no-wrap
+msgid ""
+"      <div class=\"SECT1\">\n"
+"        <hr />\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:38
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a id=\"AEN14\" name=\"AEN14\">1\n"
+"        Introduction</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:41
+#, no-wrap
+msgid ""
+"        <p>This distribution is a release of FreeBSD 4.8-RELEASE,\n"
+"        the latest point along the 4-STABLE branch.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:44
+#: content/en/releases/4.8R/readme.adoc:82
+#: content/en/releases/4.8R/readme.adoc:106
+#: content/en/releases/4.8R/readme.adoc:127
+#: content/en/releases/4.8R/readme.adoc:230
+#: content/en/releases/4.8R/readme.adoc:292
+#: content/en/releases/4.8R/readme.adoc:390
+#: content/en/releases/4.8R/readme.adoc:425
+#, no-wrap
+msgid ""
+"        <div class=\"SECT2\">\n"
+"          <hr />\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:47
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a id=\"AEN17\" name=\"AEN17\">1.1 About\n"
+"          FreeBSD</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:56
+#, no-wrap
+msgid ""
+"          <p>FreeBSD is an operating system based on 4.4 BSD Lite\n"
+"          for Intel, AMD, Cyrix or NexGen ``x86'' based PC hardware\n"
+"          and Compaq (formerly DEC) Alpha computers. Versions for\n"
+"          the IA64, PowerPC, and Sparc64 architectures are\n"
+"          currently under development as well. FreeBSD works with a\n"
+"          wide variety of peripherals and configurations and can be\n"
+"          used for everything from software development to games to\n"
+"          Internet Service Provision.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:64
+#, no-wrap
+msgid ""
+"          <p>This release of FreeBSD contains everything you need\n"
+"          to run such a system, including full source code for the\n"
+"          kernel and all utilities in the base distribution. With\n"
+"          the source distribution installed, you can literally\n"
+"          recompile the entire system from scratch with one\n"
+"          command, making it ideal for students, researchers, or\n"
+"          users who simply want to see how it all works.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:79
+#, no-wrap
+msgid ""
+"          <p>A large collection of third-party ported software (the\n"
+"          ``Ports Collection'') is also provided to make it easy to\n"
+"          obtain and install all your favorite traditional UNIX\n"
+"          utilities for FreeBSD. Each ``port'' consists of a set of\n"
+"          scripts to retrieve, configure, build, and install a\n"
+"          piece of software, with a single command. Over 8,300\n"
+"          ports, from editors to programming languages to graphical\n"
+"          applications, make FreeBSD a powerful and comprehensive\n"
+"          operating environment that extends far beyond what's\n"
+"          provided by many commercial versions of UNIX. Most ports\n"
+"          are also available as pre-compiled ``packages'', which\n"
+"          can be quickly installed from the installation\n"
+"          program.</p>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:85
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a id=\"AEN26\" name=\"AEN26\">1.2 Target\n"
+"          Audience</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:92
+#, no-wrap
+msgid ""
+"          <p>This release of FreeBSD is suitable for all users. It\n"
+"          has undergone a period of testing and quality assurance\n"
+"          checking to ensure the highest reliability and\n"
+"          dependability.</p>\n"
+"        </div>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:98
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a id=\"AEN29\" name=\"AEN29\">2 Obtaining\n"
+"        FreeBSD</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:103
+#, no-wrap
+msgid ""
+"        <p>FreeBSD may be obtained in a variety of ways. This\n"
+"        section focuses on those ways that are primarily useful for\n"
+"        obtaining a complete FreeBSD distribution, rather than\n"
+"        updating an existing installation.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:109
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a id=\"AEN32\" name=\"AEN32\">2.1 CDROM\n"
+"          and DVD</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:117
+#, no-wrap
+msgid ""
+"          <p>FreeBSD -RELEASE distributions may be ordered on CDROM\n"
+"          or DVD from several publishers. This is frequently the\n"
+"          most convenient way to obtain FreeBSD for new\n"
+"          installations, as it provides a convenient way to quickly\n"
+"          reinstall the system if necessary. Some distributions\n"
+"          include some of the optional, precompiled ``packages''\n"
+"          from the FreeBSD Ports Collection.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:124
+#, no-wrap
+msgid ""
+"          <p>A list of the CDROM and DVD publishers known to the\n"
+"          project are listed in the <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/mirrors.html\"\n"
+"           target=\"_top\">``Obtaining FreeBSD''</a> appendix to the\n"
+"          Handbook.</p>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:130
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a id=\"AEN39\" name=\"AEN39\">2.2\n"
+"          FTP</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:137
+#, no-wrap
+msgid ""
+"          <p>You can use FTP to retrieve FreeBSD and any or all of\n"
+"          its optional packages from <a\n"
+"          href=\"ftp://ftp.FreeBSD.org/\"\n"
+"          target=\"_top\">ftp://ftp.FreeBSD.org/</a>, which is the\n"
+"          official FreeBSD release site, or any of its\n"
+"          ``mirrors''.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:147
+#, no-wrap
+msgid ""
+"          <p>Lists of locations that mirror FreeBSD can be found in\n"
+"          the <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\"\n"
+"           target=\"_top\">FTP Sites</a> section of the Handbook, or\n"
+"          on the <a href=\"http://mirrorlist.FreeBSD.org/\"\n"
+"          target=\"_top\">http://mirrorlist.FreeBSD.org/</a> Web\n"
+"          pages. Finding a close (in networking terms) mirror from\n"
+"          which to download the distribution is highly\n"
+"          recommended.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:152
+#, no-wrap
+msgid ""
+"          <p>Additional mirror sites are always welcome. Contact\n"
+"          <tt class=\"EMAIL\">&#60;<a\n"
+"          "
+"href=\"mailto:freebsd-admin@FreeBSD.org\">freebsd-admin@FreeBSD.org</a>&#62;</tt>\n"
+"          for more details on becoming an official mirror site.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:160
+#, no-wrap
+msgid ""
+"          <p>Mirrors generally contain the floppy disk images\n"
+"          necessary to begin an installation, as well as the\n"
+"          distribution files needed for the install process itself.\n"
+"          Many mirrors also contain the ISO images necessary to\n"
+"          create a CDROM of a FreeBSD release.</p>\n"
+"        </div>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:166
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a id=\"CONTACTING\" name=\"CONTACTING\">3\n"
+"        Contacting the FreeBSD Project</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:170
+#, no-wrap
+msgid ""
+"        <div class=\"SECT2\">\n"
+"          <h2 class=\"SECT2\"><a id=\"AEN52\" name=\"AEN52\">3.1 Email\n"
+"          and Mailing Lists</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:175
+#, no-wrap
+msgid ""
+"          <p>For any questions or general technical support issues,\n"
+"          please send mail to the FreeBSD general questions mailing\n"
+"          list <tt class=\"EMAIL\">&#60;<a\n"
+"          "
+"href=\"mailto:freebsd-questions@FreeBSD.org\">freebsd-questions@FreeBSD.org</a>&#62;</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:184
+#, no-wrap
+msgid ""
+"          <p>If you are tracking the -STABLE development efforts,\n"
+"          you <span class=\"emphasis\"><i\n"
+"          class=\"EMPHASIS\">must</i></span> join the FreeBSD-STABLE\n"
+"          mailing list <tt class=\"EMAIL\">&#60;<a\n"
+"          "
+"href=\"mailto:freebsd-stable@FreeBSD.org\">freebsd-stable@FreeBSD.org</a>&#62;</tt>,\n"
+"          in order to keep abreast of recent developments and\n"
+"          changes that may affect the way you use and maintain the\n"
+"          system.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:193
+#, no-wrap
+msgid ""
+"          <p>Being a largely-volunteer effort, the FreeBSD Project\n"
+"          is always happy to have extra hands willing to\n"
+"          help--there are already far more desired enhancements\n"
+"          than there is time to implement them. To contact the\n"
+"          developers on technical matters, or with offers of help,\n"
+"          please send mail to the FreeBSD technical discussions\n"
+"          mailing list <tt class=\"EMAIL\">&#60;<a\n"
+"          "
+"href=\"mailto:freebsd-hackers@FreeBSD.org\">freebsd-hackers@FreeBSD.org</a>&#62;</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:203
+#, no-wrap
+msgid ""
+"          <p>Please note that these mailing lists can experience\n"
+"          <span class=\"emphasis\"><i\n"
+"          class=\"EMPHASIS\">significant</i></span> amounts of\n"
+"          traffic. If you have slow or expensive mail access, or\n"
+"          are only interested in keeping up with major FreeBSD\n"
+"          events, you may find it preferable to subscribe instead\n"
+"          to the FreeBSD announcements mailing list <tt\n"
+"          class=\"EMAIL\">&#60;<a\n"
+"          "
+"href=\"mailto:freebsd-announce@FreeBSD.org\">freebsd-announce@FreeBSD.org</a>&#62;</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:215
+#, no-wrap
+msgid ""
+"          <p>All of the mailing lists can be freely joined by\n"
+"          anyone wishing to do so. Visit <a "
+"href=\"http://lists.FreeBSD.org/mailman/listinfo\">FreeBSD\n"
+"          Mailman Info Page</a>.\n"
+"          This will give you more information on joining the\n"
+"          various lists, accessing archives, etc.  There are a\n"
+"          number of mailing lists targeted at special interest\n"
+"          groups not mentioned here; more information can be\n"
+"          obtained either through majordomo or the <a\n"
+"          href=\"http://www.FreeBSD.org/support.html#mailing-list\"\n"
+"          target=\"_top\">mailing lists section</a> of the FreeBSD\n"
+"          Web site.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:227
+#, no-wrap
+msgid ""
+"          <div class=\"IMPORTANT\">\n"
+"            <blockquote class=\"IMPORTANT\">\n"
+"              <p><b>Important:</b> Do <span class=\"emphasis\"><i\n"
+"              class=\"EMPHASIS\">not</i></span> send email to the\n"
+"              lists asking to be subscribed. Use the <tt\n"
+"              class=\"EMAIL\">&#60;<a\n"
+"              "
+"href=\"mailto:majordomo@FreeBSD.org\">majordomo@FreeBSD.org</a>&#62;</tt>\n"
+"              address instead.</p>\n"
+"            </blockquote>\n"
+"          </div>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:233
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a id=\"AEN72\" name=\"AEN72\">3.2\n"
+"          Submitting Problem Reports</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:238
+#, no-wrap
+msgid ""
+"          <p>Suggestions, bug reports and contributions of code are\n"
+"          always valued--please do not hesitate to report any\n"
+"          problems you may find. Bug reports with attached fixes\n"
+"          are of course even more welcome.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:255
+#, no-wrap
+msgid ""
+"          <p>The preferred method to submit bug reports from a\n"
+"          machine with Internet mail connectivity is to use the <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=send-pr&sektion=1&manpath=FreeBSD+4.8-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span\n"
+"          class=\"REFENTRYTITLE\">send-pr</span>(1)</span></a>\n"
+"          command or use the Web form at <a\n"
+"          href=\"http://www.FreeBSD.org/send-pr.html\"\n"
+"          target=\"_top\">http://www.FreeBSD.org/send-pr.html</a>.\n"
+"          ``Problem Reports'' (PRs) submitted in this way will be\n"
+"          filed and their progress tracked; the FreeBSD developers\n"
+"          will do their best to respond to all reported bugs as\n"
+"          soon as possible. <a\n"
+"          href=\"http://www.FreeBSD.org/cgi/query-pr-summary.cgi\"\n"
+"          target=\"_top\">A list of all active PRs</a> is available\n"
+"          on the FreeBSD Web site; this list is useful to see what\n"
+"          potential problems other users have encountered.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:270
+#, no-wrap
+msgid ""
+"          <p>Note that <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=send-pr&sektion=1&manpath=FreeBSD+4.8-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span\n"
+"          class=\"REFENTRYTITLE\">send-pr</span>(1)</span></a> itself\n"
+"          is a shell script that should be easy to move even onto a\n"
+"          non-FreeBSD system. Using this interface is highly\n"
+"          preferred. If, for some reason, you are unable to use <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=send-pr&sektion=1&manpath=FreeBSD+4.8-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span\n"
+"          class=\"REFENTRYTITLE\">send-pr</span>(1)</span></a> to\n"
+"          submit a bug report, you can try to send it to the\n"
+"          FreeBSD problem reports mailing list <tt\n"
+"          class=\"EMAIL\">&#60;<a\n"
+"          "
+"href=\"mailto:freebsd-bugs@FreeBSD.org\">freebsd-bugs@FreeBSD.org</a>&#62;</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:279
+#, no-wrap
+msgid ""
+"          <p>For more information, <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/articles/problem-reports/\"\n"
+"           target=\"_top\">``Writing FreeBSD Problem Reports''</a>,\n"
+"          available on the FreeBSD Web site, has a number of\n"
+"          helpful hints on writing and submitting effective problem\n"
+"          reports.</p>\n"
+"        </div>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:285
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a id=\"AEN93\" name=\"AEN93\">4 Further\n"
+"        Reading</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:289
+#, no-wrap
+msgid ""
+"        <p>There are many sources of information about FreeBSD;\n"
+"        some are included with this distribution, while others are\n"
+"        available on-line or in print versions.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:295
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a id=\"RELEASE-DOCS\"\n"
+"          name=\"RELEASE-DOCS\">4.1 Release Documentation</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:304
+#, no-wrap
+msgid ""
+"          <p>A number of other files provide more specific\n"
+"          information about this release distribution. These files\n"
+"          are provided in various formats. Most distributions will\n"
+"          include both ASCII text (<tt class=\"FILENAME\">.TXT</tt>)\n"
+"          and HTML (<tt class=\"FILENAME\">.HTM</tt>) renditions.\n"
+"          Some distributions may also include other formats such as\n"
+"          PostScript (<tt class=\"FILENAME\">.PS</tt>) or Portable\n"
+"          Document Format (<tt class=\"FILENAME\">.PDF</tt>).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:312
+#, no-wrap
+msgid ""
+"          <ul>\n"
+"            <li>\n"
+"              <p><tt class=\"FILENAME\">README.TXT</tt>: This file,\n"
+"              which gives some general information about FreeBSD as\n"
+"              well as some cursory notes about obtaining a\n"
+"              distribution.</p>\n"
+"            </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:319
+#, no-wrap
+msgid ""
+"            <li>\n"
+"              <p><tt class=\"FILENAME\">RELNOTES.TXT</tt>: The\n"
+"              release notes, showing what's new and different in\n"
+"              FreeBSD 4.8-RELEASE compared to the previous release\n"
+"              (FreeBSD 4.7-RELEASE).</p>\n"
+"            </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:326
+#, no-wrap
+msgid ""
+"            <li>\n"
+"              <p><tt class=\"FILENAME\">HARDWARE.TXT</tt>: The\n"
+"              hardware compatability list, showing devices with\n"
+"              which FreeBSD has been tested and is known to\n"
+"              work.</p>\n"
+"            </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:332
+#, no-wrap
+msgid ""
+"            <li>\n"
+"              <p><tt class=\"FILENAME\">INSTALL.TXT</tt>:\n"
+"              Installation instructions for installing FreeBSD from\n"
+"              its distribution media.</p>\n"
+"            </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:344
+#, no-wrap
+msgid ""
+"            <li>\n"
+"              <p><tt class=\"FILENAME\">ERRATA.TXT</tt>: Release\n"
+"              errata. Late-breaking, post-release information can\n"
+"              be found in this file, which is principally\n"
+"              applicable to releases (as opposed to snapshots). It\n"
+"              is important to consult this file before installing a\n"
+"              release of FreeBSD, as it contains the latest\n"
+"              information on problems which have been found and\n"
+"              fixed since the release was created.</p>\n"
+"            </li>\n"
+"          </ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:360
+#, no-wrap
+msgid ""
+"          <div class=\"NOTE\">\n"
+"            <blockquote class=\"NOTE\">\n"
+"              <p><b>Note:</b> Several of these documents (in\n"
+"              particular, <tt class=\"FILENAME\">RELNOTES.TXT</tt>,\n"
+"              <tt class=\"FILENAME\">HARDWARE.TXT</tt>, and <tt\n"
+"              class=\"FILENAME\">INSTALL.TXT</tt>) contain\n"
+"              information that is specific to a particular hardware\n"
+"              architecture. For example, the alpha release notes\n"
+"              contain information not applicable to the i386, and\n"
+"              vice versa. The architecture for which each document\n"
+"              applies will be listed in that document's title.</p>\n"
+"            </blockquote>\n"
+"          </div>\n"
+"          <br />\n"
+"          <br />\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:368
+#, no-wrap
+msgid ""
+"          <p>These documents are generally available via the\n"
+"          Documentation menu during installation. Once the system\n"
+"          is installed, you can revisit this menu by running the <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.8-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span\n"
+"          class=\"REFENTRYTITLE\">sysinstall</span>(8)</span></a>\n"
+"          utility.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:387
+#, no-wrap
+msgid ""
+"          <div class=\"NOTE\">\n"
+"            <blockquote class=\"NOTE\">\n"
+"              <p><b>Note:</b> It is extremely important to read the\n"
+"              errata for any given release before installing it, to\n"
+"              learn about any ``late-breaking news'' or\n"
+"              post-release problems. The errata file accompanying\n"
+"              each release (most likely right next to this file) is\n"
+"              already out of date by definition, but other copies\n"
+"              are kept updated on the Internet and should be\n"
+"              consulted as the ``current errata'' for this release.\n"
+"              These other copies of the errata are located at <a\n"
+"              href=\"http://www.FreeBSD.org/releases/\"\n"
+"              target=\"_top\">http://www.FreeBSD.org/releases/</a>\n"
+"              (as well as any sites which keep up-to-date mirrors\n"
+"              of this location).</p>\n"
+"            </blockquote>\n"
+"          </div>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:393
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a id=\"AEN133\" name=\"AEN133\">4.2 Manual\n"
+"          Pages</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:405
+#, no-wrap
+msgid ""
+"          <p>As with almost all UNIX-like operating systems,\n"
+"          FreeBSD comes with a set of on-line manual pages,\n"
+"          accessed through the <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=man&sektion=1&manpath=FreeBSD+4.8-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span\n"
+"          class=\"REFENTRYTITLE\">man</span>(1)</span></a> command or\n"
+"          through the <a href=\"http://www.FreeBSD.org/cgi/man.cgi\"\n"
+"          target=\"_top\">hypertext manual pages gateway</a> on the\n"
+"          FreeBSD Web site. In general, the manual pages provide\n"
+"          information on the different commands and APIs available\n"
+"          to the FreeBSD user.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:422
+#, no-wrap
+msgid ""
+"          <p>In some cases, manual pages are written to give\n"
+"          information on particular topics. Notable examples of\n"
+"          such manual pages are <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=tuning&sektion=7&manpath=FreeBSD+4.8-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span\n"
+"          class=\"REFENTRYTITLE\">tuning</span>(7)</span></a> (a\n"
+"          guide to performance tuning), <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=security&sektion=7&manpath=FreeBSD+4.8-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span\n"
+"          class=\"REFENTRYTITLE\">security</span>(7)</span></a> (an\n"
+"          introduction to FreeBSD security), and <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/cgi/man.cgi?query=style&sektion=9&manpath=FreeBSD+4.8-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span\n"
+"          class=\"REFENTRYTITLE\">style</span>(9)</span></a> (a style\n"
+"          guide to kernel coding).</p>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:428
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a id=\"AEN150\" name=\"AEN150\">4.3 Books\n"
+"          and Articles</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:442
+#, no-wrap
+msgid ""
+"          <p>Two highly-useful collections of FreeBSD-related\n"
+"          information, maintained by the FreeBSD Project, are the\n"
+"          FreeBSD Handbook and FreeBSD FAQ (Frequently Asked\n"
+"          Questions document). On-line versions of the <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/\"\n"
+"           target=\"_top\">Handbook</a> and <a\n"
+"          href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/faq/\"\n"
+"           target=\"_top\">FAQ</a> are always available from the <a\n"
+"          href=\"http://www.FreeBSD.org/docs.html\"\n"
+"          target=\"_top\">FreeBSD Documentation page</a> or its\n"
+"          mirrors. If you install the <tt class=\"FILENAME\">doc</tt>\n"
+"          distribution set, you can use a Web browser to read the\n"
+"          Handbook and FAQ locally.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:452
+#, no-wrap
+msgid ""
+"          <p>A number of on-line books and articles, also\n"
+"          maintained by the FreeBSD Project, cover\n"
+"          more-specialized, FreeBSD-related topics. This material\n"
+"          spans a wide range of topics, from effective use of the\n"
+"          mailing lists, to dual-booting FreeBSD with other\n"
+"          operating systems, to guidelines for new committers. Like\n"
+"          the Handbook and FAQ, these documents are available from\n"
+"          the FreeBSD Documentation Page or in the <tt\n"
+"          class=\"FILENAME\">doc</tt> distribution set.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:463
+#, no-wrap
+msgid ""
+"          <p>A listing of other books and documents about FreeBSD\n"
+"          can be found in the <a\n"
+"          "
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/bibliography.html\"\n"
+"           target=\"_top\">bibliography</a> of the FreeBSD Handbook.\n"
+"          Because of FreeBSD's strong UNIX heritage, many other\n"
+"          articles and books written for UNIX systems are\n"
+"          applicable as well, some of which are also listed in the\n"
+"          bibliography.</p>\n"
+"        </div>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:469
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a id=\"AEN161\" name=\"AEN161\">5\n"
+"        Acknowledgments</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:478
+#, no-wrap
+msgid ""
+"        <p>FreeBSD represents the cumulative work of many hundreds,\n"
+"        if not thousands, of individuals from around the world who\n"
+"        have worked countless hours to bring about this release.\n"
+"        For a complete list of FreeBSD developers and contributors,\n"
+"        please see <a\n"
+"        "
+"href=\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/articles/contributors/\"\n"
+"         target=\"_top\">``Contributors to FreeBSD''</a> on the\n"
+"        FreeBSD Web site or any of its mirrors.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:485
+#, no-wrap
+msgid ""
+"        <p>Special thanks also go to the many thousands of FreeBSD\n"
+"        users and testers all over the world, without whom this\n"
+"        release simply would not have been possible.</p>\n"
+"      </div>\n"
+"    </div>\n"
+"    <hr />\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:489
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>This file, and other release-related\n"
+"    documents, can be downloaded from <a\n"
+"    "
+"href=\"ftp://ftp.FreeBSD.org/\">ftp://ftp.FreeBSD.org/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:494
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>For questions about FreeBSD, read the\n"
+"    <a href=\"http://www.FreeBSD.org/docs.html\">documentation</a>\n"
+"    before contacting &#60;<a\n"
+"    "
+"href=\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:499
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small><small>All users of FreeBSD 4-STABLE\n"
+"    should subscribe to the &#60;<a\n"
+"    href=\"mailto:stable@FreeBSD.org\">stable@FreeBSD.org</a>&#62;\n"
+"    mailing list.</small></small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.8R/readme.adoc:505
+#, no-wrap
+msgid ""
+"    <p align=\"center\">For questions about this documentation,\n"
+"    e-mail &#60;<a\n"
+"    href=\"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&#62;.</p>\n"
+"    <br />\n"
+"    <br />\n"
+msgstr ""

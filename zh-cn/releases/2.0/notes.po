@@ -1,0 +1,1291 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:38+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.0/notes.adoc:1 content/en/releases/2.0/notes.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.0 Release Notes"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:12
+#, no-wrap
+msgid ""
+"                                 RELEASE NOTES\n"
+"                                    FreeBSD\n"
+"                                  Release 2.0\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:15
+#, no-wrap
+msgid ""
+"1. Technical overview\n"
+"---------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:20
+#, no-wrap
+msgid ""
+"FreeBSD is a freely available, full source 4.4 BSD Lite based release\n"
+"for Intel i386/i486/Pentium (or compatible) based PC's.  It is based\n"
+"primarily on software from U.C. Berkeley's CSRG group, with some\n"
+"enhancements from NetBSD, 386BSD, and the Free Software Foundation.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:30
+#, no-wrap
+msgid ""
+"Since our first release of FreeBSD 1.0 some 18 months ago, FreeBSD\n"
+"has changed almost entirely.  A new port from the Berkeley 4.4 code\n"
+"base was done, which brought the legal status of the system out of the\n"
+"shadows with the blessing of Novell (new owners of USL and UNIX).  The\n"
+"port to 4.4 has also brought in a host of new features, filesystems\n"
+"and enhanced driver support.  With our new unencumbered code base, we\n"
+"have every reason to hope that we'll be able to release quality\n"
+"operating systems without further legal encumbrance for some time to\n"
+"come!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:34
+#, no-wrap
+msgid ""
+"FreeBSD 2.0 represents the culmination of almost 2 years of work and\n"
+"many thousands of man hours put in by an international development team.\n"
+"We hope you enjoy it!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:39
+#, no-wrap
+msgid ""
+"Many packages have also been upgraded or added, such as XFree86 3.1,\n"
+"xview 3.2, elm, nntp, mh, InterViews and dozens of other miscellaneous\n"
+"utilities have been ported and are now available as add-ons.  See the\n"
+"ports collection (or the package collection) for a complete summary.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:42
+#, no-wrap
+msgid ""
+"For a list of contributors, please see the file \"CONTRIB.FreeBSD\",\n"
+"which should be bundled with your bindist distribution.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:48
+#, no-wrap
+msgid ""
+"Also see the new \"REGISTER.FreeBSD\" file for information on registering\n"
+"with the \"Free BSD user counter\".  We've also provided a list of who's\n"
+"responsible for what (so that you may query them directly) in the\n"
+"\"ROSTER.FreeBSD\" file; use of this file is encouraged to ensure faster\n"
+"resolution of any problems you may have!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:56
+#, no-wrap
+msgid ""
+"The core of FreeBSD does not contain DES code which would inhibit its\n"
+"being exported outside the United States.  There is an add-on package\n"
+"to the core distribution, for use only in the United States, that\n"
+"contains the programs that normally use DES.  The auxiliary packages\n"
+"provided separately can be used by anyone.   A freely (from outside the\n"
+"U.S.) exportable European distribution of DES for our non U.S. users also\n"
+"exists and is described in the FreeBSD FAQ.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:63
+#, no-wrap
+msgid ""
+"If password security for FreeBSD is all you need, and you have no\n"
+"requirement for copying encrypted passwords from different hosts (Suns,\n"
+"DEC machines, etc) into FreeBSD password entries, then FreeBSD's MD5\n"
+"based security may be all you require!  We feel that our default security\n"
+"model is more than a match for DES, and without any messy export issues\n"
+"to deal with.  If you're outside (or even inside) the U.S., give it a try!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:67
+#, no-wrap
+msgid ""
+"1.1 What's new in 2.0?\n"
+"----------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:73
+#, no-wrap
+msgid ""
+"4.4 Lite\n"
+"--------\n"
+"As previously stated, this release is based entirely on CSRG's\n"
+"latest (and last) BSD release - 4.4 Lite.  This features a number\n"
+"of improvements over 4.2BSD (Net/2), not least of which are:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:80
+#, no-wrap
+msgid ""
+"o       Legal approval of Novell & U.C. Berkeley.  After the settlement\n"
+"        of the longstanding lawsuit between USL/UCB/Novell/BSDI, all\n"
+"        parties were (strongly) encouraged to move to 4.4 Lite in order\n"
+"        to avoid future legal entanglements.  The fact that we've now done\n"
+"        so should make this release much more attractive to potential\n"
+"        commercial users.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:86
+#, no-wrap
+msgid ""
+"o       Many new filesystem types, such as stackable filesystems, union\n"
+"        filesystems, \"portals\", kernfs, a simple log-structured "
+"filesystem, a\n"
+"        new version of NFS (NQNFS), etc.  While some of these new "
+"filesystems\n"
+"        are also rather unpolished and will require significant additional\n"
+"        work to be truly robust, they're a good start.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:88
+#, no-wrap
+msgid "o       64bit offsets, allowing filesystems of up to 2^63 bytes in size.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:90
+#, no-wrap
+msgid "o       Further work towards full POSIX compliance.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:99
+#, no-wrap
+msgid ""
+"IP multicast support\n"
+"--------------------\n"
+"The IP multicast support has been upgraded from the woefully ancient\n"
+"1.x code in 4.4-Lite to the most current and up-to-date 3.3 release\n"
+"from Steve D. and Ajit.  The non-forwarding code is known to work (for\n"
+"some limited test cases).  The multicast forwarder and user-mode\n"
+"multicast routing process are known to compile, but have not been\n"
+"significantly tested (hopefully this will happen before 2.0 release).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:102
+#, no-wrap
+msgid ""
+"Owner:                  wollman\n"
+"Sources involved:       sys/netinet, usr.sbin/mrouted\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:109
+#, no-wrap
+msgid ""
+"Loadable Kernel Modules\n"
+"-----------------------\n"
+"David Greenman incorporated NetBSD's port of Terry Lambert's loadable\n"
+"kernel module support.  Garrett Wollman wrote the support for loadable\n"
+"filesystems, and Søren Schmidt did the same for loadable execution\n"
+"classes.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:113
+#, no-wrap
+msgid ""
+"Owner:                  core\n"
+"Sources involved:       sys/kern, sbin/modload, sbin/modunload,\n"
+"                        usr.bin/modstat\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:121
+#, no-wrap
+msgid ""
+"Loadable filesystems\n"
+"--------------------\n"
+"Most filesystems are now dynamically loadable on demand, with the\n"
+"exception of the UFS family (FFS, LFS, and MFS).  With the exception\n"
+"of NFS, all such filesystems can be unloaded when all references are\n"
+"unmounted.  To support this functionality, the\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:123
+#, no-wrap
+msgid "getvfsbyname(3)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:126
+#, no-wrap
+msgid ""
+"family of functions has been added to the C library and the\n"
+"lsvfs(1)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:129
+#, no-wrap
+msgid ""
+"command provides the same information at the shell level.  Be aware of\n"
+"the following current restrictions:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:136
+#, no-wrap
+msgid ""
+"        - /usr/bin may not reside on a dynamically loaded filesystem.\n"
+"        - There must be a writable /tmp directory available\n"
+"          before filesystems are loaded (moving / to the top of your\n"
+"          /etc/fstab file will accomplish this).\n"
+"        - Some of the more esoteric filesystems simply don't work when "
+"loaded\n"
+"          dynamically (though they often don't work \"static\", either.)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:139
+#, no-wrap
+msgid ""
+"Owner:                  wollman\n"
+"Sources involved:       sys/*fs, lkm/*fs, usr.bin/lsvfs, lib/libc/gen\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:157
+#, no-wrap
+msgid ""
+"S/Key\n"
+"-----\n"
+"Since version 1.1.5, FreeBSD has supported the S/Key one time password\n"
+"scheme.  The version used is derived from the logdaemon package of Wietse\n"
+"Venema.\n"
+"Some of the features new in 2.0 are:\n"
+"        - New access control table format to impose the use of S/Keys\n"
+"          based on: hostname, ip address, port, username, group id.\n"
+"        - S/Key support can be disabled by not having the access control\n"
+"          table.\n"
+"The second item explains the absence of skey.access in the installed /etc.\n"
+"To enable S/Key support, create a file skey.access in /etc and fill it\n"
+"according to your needs. See also skey.\n"
+"access(5)\n"
+"and the example in\n"
+"/usr/share/examples/etc/skey.access.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:160
+#, no-wrap
+msgid ""
+"Owner:                  pst, guido\n"
+"Sources involved:       lib/libskey, usr.bin/key* (plus patches to others)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:171
+#, no-wrap
+msgid ""
+"TCP/IP over parallel (printer) port\n"
+"-----------------------------------\n"
+"You can now run TCP/IP over a standard LapLink(tm) cable, if both ends\n"
+"have an interrupt-driven printerport.  The interface is named \"lp0\"\n"
+"where '0' is the same as the lpt# unit number.  This is not compatible\n"
+"with PLIP.  If you run NFS, try setting MTU to 9180, otherwise leave\n"
+"it at 1500 unless you have a good reason to change it.  Speed varies\n"
+"with the CPU-type, with up to 70 kbyte/sec having been seen and 50\n"
+"kbyte/sec being the norm.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:174
+#, no-wrap
+msgid ""
+"Owner:                  phk\n"
+"Sources involved:       isa/lpt.c\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:183
+#, no-wrap
+msgid ""
+"ProAudioSpectrum SCSI driver\n"
+"----------------------------\n"
+"If you have a PAS board with a CD-ROM, and the MS-DOS driver is called\n"
+"TSLCDR.SYS, then the \"pas\" driver should work on your card.  You can\n"
+"attach disks, CDROMs and tapes, but due to the nature of the hardware\n"
+"involved, the transfer rate is limited to < 690 kbyte/sec.  For CD-ROM\n"
+"use, this is generally more than enough.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:186
+#, no-wrap
+msgid ""
+"Owner:                  phk\n"
+"Sources involved:       isa/pas.c\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:197
+#, no-wrap
+msgid ""
+"Adaptec 2742/2842 SCSI driver\n"
+"-----------------------------\n"
+"Despite the non-cooperation of Adaptec in providing technical\n"
+"information, we now have a driver for the AHA-274x and AHA-284x\n"
+"series SCSI controller family.  This driver uses the GPL'd\n"
+"Linux sequencer code, so until we find an alternative, this\n"
+"will be part of the kernel that requires source code to be\n"
+"distributed with it at all times.  This shouldn't be a problem\n"
+"for any of FreeBSD's current users.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:200
+#, no-wrap
+msgid ""
+"Owner:                  gibbs\n"
+"Sources involved:       isa/aic7770.c sys/gnu/misc/*\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:210
+#, no-wrap
+msgid ""
+"Gzip'd binaries\n"
+"----------------\n"
+"We have an experimental implementation for direct execution of gzip'ed\n"
+"binaries in this release.  When enabled, it allows you to simply gzip\n"
+"your binaries, remove the '.gz' extension and make the file\n"
+"executable.  There is a big speed and memory consumption penalty for\n"
+"doing this, but for laptop users it may be worthwhile.  The maximum\n"
+"savings are generally around 10 Mb of disk space.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:213
+#, no-wrap
+msgid ""
+"Owner:                  phk\n"
+"Sources involved:       kern/imgact_gzip.c kern/inflate.c\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:217
+#, no-wrap
+msgid ""
+"Diskless booting\n"
+"----------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:223
+#, no-wrap
+msgid ""
+"Diskless booting in 2.0 is much improved since 1.1.5.  The\n"
+"boot-program is in src/sys/i386/boot/netboot, and can be run from an\n"
+"MSDOS system or burned into an EPROM.  Local swapping is also\n"
+"possible.  WD, SMC, 3COM and Novell ethernet cards are currently\n"
+"supported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:226
+#, no-wrap
+msgid ""
+"Owner:                  Martin Renters & phk\n"
+"Sources involved:       i386/boot/netboot, sys/nfs/nfs_vfsops.h\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:240
+#, no-wrap
+msgid ""
+"Device configuration database\n"
+"-----------------------------\n"
+"The kernel now keeps better track of which device drivers are active and\n"
+"where the devices are attached; this information is made available to\n"
+"user programs via the new\n"
+"sysctl(3)\n"
+"management interface.  Current\n"
+"applications include\n"
+"lsdev(8),\n"
+"which lists the currently configured\n"
+"devices.  In the future, we expect to use this code to automatically\n"
+"generate a configuration file for you at installation time.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:244
+#, no-wrap
+msgid ""
+"Owner:                  wollman\n"
+"Sources involved:       sys/i386, sys/scsi, sys/kern/kern_devconf.c,\n"
+"                        sys/sys/devconf.h, usr.sbin/lsdev\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:262
+#, no-wrap
+msgid ""
+"Kernel management interface\n"
+"---------------------------\n"
+"With 4.4-Lite, we now have a better management interface for the endless\n"
+"series of kernel variables and parameters which were previously "
+"manipulated\n"
+"by reading and writing /dev/kmem.  Many programs have been rewritten to\n"
+"use this interface, although many old-style programs still remain.  Some\n"
+"variables which were never accessible before are now available through\n"
+"the\n"
+"sysctl(1)\n"
+"program.  In addition to the standard 4.4BSD MIB variables,\n"
+"we have added support for YP/NIS domains (kern.domainname), controlling\n"
+"the update daemon (kern.update), retrieving the OS release date\n"
+"(kern.osreldate), determining the name of the booted kernel "
+"(kern.bootfile),\n"
+"and checking for hardware floating-point support (hw.floatingpoint).\n"
+"We have also added support to make management queries of devices and\n"
+"filesystems.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:265
+#, no-wrap
+msgid ""
+"Owner:                  core\n"
+"Sources involved:       sys, usr.bin/sysctl\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:277
+#, no-wrap
+msgid ""
+"iBCS2 support\n"
+"-------------\n"
+"FreeBSD now supports running iBCS2 compatible binaries (currently\n"
+"SCO UNIX 3.2.2 & 3.2.4 and ISC 2.2 COFF format are supported).\n"
+"The iBCS2 emulator is in its early stages, but it is functional, we\n"
+"haven't been able to do exhaustive testing (lack of commercial apps),\n"
+"but almost all of SCO's 3.2.2 binaries are working, so is an old\n"
+"INFORMIX-2.10 for SCO. Further testing is necessary to complete this\n"
+"project. There is also work under way for ELF & XOUT loaders, and\n"
+"most of the svr4 syscall wrappers have been written.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:280
+#, no-wrap
+msgid ""
+"Owner:                  Soren Schmidt (sos) & Sean Eric Fagan (sef)\n"
+"Sources involved:       sys/i386/ibcs2/* + misc kernel changes.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:284
+#, no-wrap
+msgid ""
+"2. Supported Configurations\n"
+"---------------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:290
+#, no-wrap
+msgid ""
+"FreeBSD currently runs on a wide variety of ISA, VLB, EISA and PCI bus\n"
+"based PC's, ranging from 386sx to Pentium class machines (though the\n"
+"386sx is not recommended).  Support for generic IDE or ESDI drive\n"
+"configurations, various SCSI controller, network and serial cards is\n"
+"also provided.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:295
+#, no-wrap
+msgid ""
+"Following is a list of all currently known disk controllers and\n"
+"ethernet cards known to work with FreeBSD.  Other configurations may\n"
+"very well work, and we have simply not received any indication of\n"
+"this.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:298
+#, no-wrap
+msgid "2.1. Disk Controllers\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:303
+#, no-wrap
+msgid ""
+"WD1003 (any generic MFM/RLL)\n"
+"WD1007 (any generic IDE/ESDI)\n"
+"[Note: the new Extended IDE controllers in newer PC's work, although no\n"
+"extended features are used.]\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:310
+#, no-wrap
+msgid ""
+"Adaptec 152x series ISA SCSI controllers\n"
+"Adaptec 154x series ISA SCSI controllers\n"
+"Adaptec 174x series EISA SCSI controller in standard and enhanced mode.\n"
+"Adaptec 2742/2842 series ISA/EISA SCSI controllers\n"
+"Adaptec AIC-6260 and AIC-6360 based boards, which includes\n"
+"the AHA-152x and SoundBlaster SCSI cards.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:320
+#, no-wrap
+msgid ""
+"** Note: You cannot boot from the Soundblaster cards\n"
+"as they have no on-board BIOS, which is necessary for mapping\n"
+"the boot device into the system BIOS I/O vectors.\n"
+"They're perfectly usable for external tapes, CDROMs, etc,\n"
+"however.  The same goes for any other AIC-6x60 based card\n"
+"without a boot ROM.  Some systems DO have a boot ROM, which\n"
+"is generally indicated by some sort of message when the system\n"
+"is first powered up or reset.  Check your system/board documentation\n"
+"for more details.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:326
+#, no-wrap
+msgid ""
+"[Note that Buslogic was formerly known as \"Bustec\"]\n"
+"Buslogic 545S & 545c\n"
+"Buslogic 445S/445c VLB SCSI controller\n"
+"Buslogic 742A, 747S, 747c EISA SCSI controller.\n"
+"Buslogic 946c PCI SCSI controller\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:328
+#, no-wrap
+msgid "NCR 53C810 and 53C825 PCI SCSI controller.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:330
+#, no-wrap
+msgid "DTC 3290 EISA SCSI controller in 1542 emulation mode.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:332
+#, no-wrap
+msgid "UltraStor 14F, 24F and 34F SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:334
+#, no-wrap
+msgid "Seagate ST01/02 SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:336
+#, no-wrap
+msgid "Future Domain 8xx/950 series SCSI controllers.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:345
+#, no-wrap
+msgid ""
+"With all supported SCSI controllers, full support is provided for\n"
+"SCSI-I & SCSI-II peripherals, including Disks, tape drives (including\n"
+"DAT) and CD ROM drives.  Note: This and the mcd driver (Mitsumi CDROM\n"
+"interface card) are the only way a CD ROM drive may be currently\n"
+"attached to a FreeBSD system; we do not support SoundBlaster\n"
+"(non-SCSI) CDROM interface, or other \"non-SCSI\" adapters.  The\n"
+"ProAudio Spectrum SCSI and SoundBlaster SCSI controllers are\n"
+"supported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:358
+#, no-wrap
+msgid ""
+"Some controllers have limitations with the way they deal with >16MB of\n"
+"memory, due to the fact that the ISA bus only has a DMA address space of\n"
+"24 bits.  If you do your arithmetic, you'll see that this makes it\n"
+"impossible to do direct DMA to any address >16MB.  This limitation is\n"
+"even true of some EISA controllers (which are normally 32 bit) when\n"
+"they're configured to emulate an ISA card, which they then do in *all*\n"
+"respects.  This problem is avoided entirely by IDE controllers (which do\n"
+"not use DMA), true EISA controllers (like the UltraStor or Adaptec\n"
+"1742A) and most VLB (local bus) controllers.  In the cases where it's\n"
+"necessary, the system will use \"bounce buffers\" to talk to the\n"
+"controller so that you can still use more than 16Mb of memory without\n"
+"difficulty.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:361
+#, no-wrap
+msgid "2.2. Ethernet cards\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:365
+#, no-wrap
+msgid ""
+"SMC Elite 16 WD8013 ethernet interface, and most other WD8003E,\n"
+"WD8003EBT, WD8003W, WD8013W, WD8003S, WD8003SBT and WD8013EBT\n"
+"based clones.  SMC Elite Ultra is also supported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:368
+#, no-wrap
+msgid ""
+"DEC EtherWORKS III NICs (DE203, DE204, and DE205)\n"
+"DEC EtherWORKS II NICs (DE200, DE201, DE202, and DE422)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:371
+#, no-wrap
+msgid ""
+"Isolan AT 4141-0 (16 bit)\n"
+"Isolink 4110     (8 bit)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:373
+#, no-wrap
+msgid "Novell NE1000, NE2000, and NE2100 ethernet interface.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:375
+#, no-wrap
+msgid "3Com 3C501 cards\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:377
+#, no-wrap
+msgid "3Com 3C503 Etherlink II\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:379
+#, no-wrap
+msgid "3Com 3C507 Etherlink 16/TP\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:381
+#, no-wrap
+msgid "3Com 3C509 and 3C579 Etherlink III\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:383
+#, no-wrap
+msgid "Toshiba ethernet cards\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:386
+#, no-wrap
+msgid ""
+"PCMCIA ethernet cards from IBM and National Semiconductor are also\n"
+"supported.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:388
+#, no-wrap
+msgid "2.3. Misc\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:390
+#, no-wrap
+msgid "AST 4 port serial card using shared IRQ.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:392
+#, no-wrap
+msgid "ARNET 8 port serial card using shared IRQ.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:394
+#, no-wrap
+msgid "BOCA ATIO66 6 port serial card using shared IRQ.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:396
+#, no-wrap
+msgid "STB 4 port card using shared IRQ.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:398
+#, no-wrap
+msgid "Mitsumi (all models) CDROM interface and drive.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:400
+#, no-wrap
+msgid "Soundblaster SCSI and ProAudio Spectrum SCSI CDROM interface and drive.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:403
+#, no-wrap
+msgid ""
+"Adlib, Soundblaster, Soundblaster Pro, ProAudioSpectrum, Gravis UltraSound\n"
+"and Roland MPU-401 sound cards.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:407
+#, no-wrap
+msgid ""
+"FreeBSD currently does NOT support IBM's microchannel (MCA) bus, but\n"
+"support is apparently close to materializing.  Details will be posted\n"
+"as the situation develops.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:411
+#, no-wrap
+msgid ""
+"3. Obtaining FreeBSD.\n"
+"---------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:413
+#, no-wrap
+msgid "You may obtain FreeBSD in a variety of ways:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:415
+#, no-wrap
+msgid "1. FTP/Mail\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:418
+#, no-wrap
+msgid ""
+"You can ftp FreeBSD and any or all of its optional packages from\n"
+"`freebsd.cdrom.com' - the official FreeBSD release site.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:422
+#, no-wrap
+msgid ""
+"For other locations that mirror the FreeBSD software see the file\n"
+"MIRROR.SITES.  Please ftp the distribution from the nearest site\n"
+"to you netwise.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:430
+#, no-wrap
+msgid ""
+"If you do not have access to the internet and electronic mail is your\n"
+"only recourse, then you may still fetch the files by sending mail to\n"
+"`ftpmail@decwrl.dec.com' - putting the keyword \"help\" in your message\n"
+"to get more information on how to fetch files from freebsd.cdrom.com.\n"
+"Note: This approach will end up sending many *tens of megabytes*\n"
+"through the mail, and should only be employed as an absolute LAST\n"
+"resort!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:433
+#, no-wrap
+msgid "2. CDROM\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:435
+#, no-wrap
+msgid "FreeBSD 2.0 may be ordered on CDROM from:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:440
+#, no-wrap
+msgid ""
+"        Walnut Creek CDROM\n"
+"        4041 Pike Lane, Suite D\n"
+"        Concord CA  94520\n"
+"        1-800-786-9907, +1-510-674-0783, +1-510-674-0821 (fax)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:443
+#, no-wrap
+msgid ""
+"Or via the internet from orders@cdrom.com.  Their current catalog can\n"
+"be obtained via ftp as ftp.cdrom.com:/cdrom/catalog.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:448
+#, no-wrap
+msgid ""
+"Cost is $39.95.  Shipping (per order not per disc) is $5 in the US, "
+"Canada,\n"
+"or Mexico and $10.00 overseas.  They accept Visa, Mastercard, American\n"
+"Express, and ship COD to the United States.  California residents please\n"
+"add 8.25% sales tax.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:451
+#, no-wrap
+msgid ""
+"Should you be dissatisfied for any reason, the CD comes with an\n"
+"unconditional return policy.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:455
+#, no-wrap
+msgid ""
+"Note that Walnut Creek CDROM does NOT provide technical support for "
+"FreeBSD,\n"
+"you need to contact the FreeBSD team for that.  Please see section 5 for\n"
+"more information.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:459
+#, no-wrap
+msgid ""
+"4. Preparing for the installation.\n"
+"----------------------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:461
+#, no-wrap
+msgid "1. Floppy Installation\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:465
+#, no-wrap
+msgid ""
+"If you must install from floppy disks, either due to space constraints\n"
+"on your hard disk or just because you enjoy doing things the hard\n"
+"way, you must first prepare some floppies for the install.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:472
+#, no-wrap
+msgid ""
+"You will need either 10 1.44MB floppies or 12 1.2MB floppies to\n"
+"store just the bindist (binary distribution).  These *must* be\n"
+"formatted using MS-DOS, using either the FORMAT command in MS-DOS\n"
+"or the File Manager in Microsoft Windows to prepare the floppies\n"
+"(though factory preformatted floppies will also work well, provided\n"
+"that they haven't been previously used for something else).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:483
+#, no-wrap
+msgid ""
+"After you've formatted the floppy disks, you'll need to copy the\n"
+"files onto them.  There are 56 total files for the bindist itself,\n"
+"plus three small files (CKSUMS, do_cksum.sh, and extract.sh) for\n"
+"the install program to use.  ALL of these files must be copies onto\n"
+"the floppies.  Each of the bindist files are named \"bindist.??\",\n"
+"where the \"??\" is replaced by the letter sequence aa through cd.\n"
+"Copy these files onto the floppies, placing the three small install\n"
+"files onto the final floppy.  The order in which you copy the files\n"
+"to floppy is not important, but it makes labelling the disks easier\n"
+"if you go in some sort of alphabetical order.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:486
+#, no-wrap
+msgid ""
+"After you've done this, the floppy disks are ready for the install\n"
+"program to use.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:492
+#, no-wrap
+msgid ""
+"Later on, after you get the binary distribution installed and everything\n"
+"is going great, the same instructions will apply for the other\n"
+"distributions, such as the manpages distribution or the XFree86 "
+"distribution.\n"
+"The number of floppies required will, of course, change for bigger or\n"
+"smaller distributions.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:495
+#, no-wrap
+msgid "2. Hard Disk Installation\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:502
+#, no-wrap
+msgid ""
+"To prepare for installation from an MS-DOS partition, you should simply\n"
+"copy the files from the distribution into a directory with the same\n"
+"name as the distribution.  For example, if you are preparing to\n"
+"install the bindist set, then make a directory on your C: drive named\n"
+"C:\\BINDIST and copy the files there.  This will allow the installation\n"
+"program to find the files automatically.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:505
+#, no-wrap
+msgid "3. QIC/SCSI Tape Installation.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:511
+#, no-wrap
+msgid ""
+"Installing from tape is probably the easiest method, short of an\n"
+"on-line install using ftp or installing from a CDROM.  The installation\n"
+"program expects the files to be simply tar'red onto the tape, so after\n"
+"getting all of the files for distribution you're interested in, simply\n"
+"tar them onto the tape with something like:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:514
+#, no-wrap
+msgid ""
+"        cd <where the *.?? files are>\n"
+"        tar cvf /dev/rwt0 (or /dev/rst0) .\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:518
+#, no-wrap
+msgid ""
+"from a directory with just the distribution files in it.  Make sure\n"
+"that you remember to put CKSUMS, do_cksum.sh, and extract.sh files\n"
+"in this directory as well!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:521
+#, no-wrap
+msgid ""
+"If you wish to install multiple *dist releases from one tape, do the\n"
+"following:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:525
+#, no-wrap
+msgid ""
+"1. cd to the parent directory of the distributions and put them on tape\n"
+"   like so:\n"
+"                tar cvf /dev/rwt0 (or /dev/rst0) bindist srcdist ...\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:531
+#, no-wrap
+msgid ""
+"2. Install the first distribution on the tape using the tape installation\n"
+"   method as normal.  Afterwards, *do not* erase the contents of the "
+"temporary\n"
+"   directory.  Get a shell with ESC-ESC and cd to the temporary directory\n"
+"   yourself.  For each additional *dist you want to load, cd to its\n"
+"   subdirectory and type `sh ./extract.sh'.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:535
+#, no-wrap
+msgid ""
+"5. Reporting problems, making suggestions, submitting code.\n"
+"-----------------------------------------------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:539
+#, no-wrap
+msgid ""
+"Your suggestions, bug reports and contributions of code are always\n"
+"valued - please do not hesitate to report any problems you may find\n"
+"(preferably with a fix attached if you can!).\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:545
+#, no-wrap
+msgid ""
+"The preferred method to submit bug reports from a machine with internet\n"
+"mail connectivity is to use the send-pr command.  Bug reports will be\n"
+"dutifully filed by our faithful bugfiler program and you can be sure\n"
+"that we'll do our best to respond to all reported bugs as soon as\n"
+"possible.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:548
+#, no-wrap
+msgid ""
+"If, for some reason, you are unable to use the send-pr command to\n"
+"submit a bug report, you can try to send it to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:550
+#, no-wrap
+msgid "                bugs@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:553
+#, no-wrap
+msgid "Otherwise, for any questions or suggestions, please send mail to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:555
+#, no-wrap
+msgid "                questions@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:560
+#, no-wrap
+msgid ""
+"Additionally, being a volunteer effort, we are always happy to have\n"
+"extra hands willing to help - there are already far more enhancements\n"
+"to be done than we can ever manage to do by ourselves!  To contact us\n"
+"on technical matters, or with offers of help, you may send mail to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:562
+#, no-wrap
+msgid "                hackers@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:567
+#, no-wrap
+msgid ""
+"Since these mailing lists can experience significant amounts of\n"
+"traffic, if you've got slow or expensive mail access and you're\n"
+"only interested in keeping up with significant FreeBSD events, you may\n"
+"find it preferable to subscribe to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:569
+#, no-wrap
+msgid "                announce@FreeBSD.org\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:578
+#, no-wrap
+msgid ""
+"All but the FreeBSD-bugs groups can be freely joined by anyone wishing\n"
+"to do so.  Send mail to MajorDomo@FreeBSD.org and include the keyword\n"
+"`help' on a line by itself somewhere in the body of the message.  This\n"
+"will give you more information on joining the various lists, accessing\n"
+"archives, etc.  There are a number of mailing lists targeted at\n"
+"special interest groups not mentioned here, so send mail to majordomo\n"
+"and ask about them!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:582
+#, no-wrap
+msgid ""
+"6. Acknowledgements\n"
+"-------------------\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:590
+#, no-wrap
+msgid ""
+"FreeBSD represents the cumulative work of many dozens, if not\n"
+"hundreds, of individuals from around the world who have worked very\n"
+"hard to bring you this release.  It would be very difficult, if not\n"
+"impossible, to enumerate everyone who's contributed to FreeBSD, but\n"
+"nonetheless we shall try (in alphabetical order, of course). If your\n"
+"name is not mentioned, please be assured that its omission is entirely\n"
+"accidental.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:593
+#, no-wrap
+msgid "The Computer Systems Research Group (CSRG), U.C. Berkeley.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:595
+#, no-wrap
+msgid "Bill Jolitz, for his extensive work with 386BSD.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:597
+#, no-wrap
+msgid "The FreeBSD \"core\" team:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:613
+#, no-wrap
+msgid ""
+"        Andrew A. Chernov\n"
+"        John Dyson\n"
+"        Bruce Evans\n"
+"        David Greenman\n"
+"        Rodney W. Grimes\n"
+"        Jordan K. Hubbard\n"
+"        Poul-Henning Kamp\n"
+"        Rich Murphey\n"
+"        Gary Palmer\n"
+"        Geoff Rehmet\n"
+"        Paul Richards\n"
+"        Soren Schmidt\n"
+"        Andreas Schulz\n"
+"        Jack Vogel\n"
+"        Garrett A. Wollman\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:616
+#, no-wrap
+msgid "Special mention to:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:620
+#, no-wrap
+msgid ""
+"        Robert Bruce and Jack Velte of Walnut Creek CDROM, without\n"
+"        whose help (and continuing support) this release would never\n"
+"        have been possible.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:623
+#, no-wrap
+msgid ""
+"        Dermot McDonnell for his donation of a Toshiba XM3401B CDROM\n"
+"        drive.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:625
+#, no-wrap
+msgid "        The NetBSD group for their frequent assistance and commentary.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:627
+#, no-wrap
+msgid "        Additional FreeBSD helpers and beta testers:\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:635
+#, no-wrap
+msgid ""
+"        J.T. Conklin                            Julian Elischer\n"
+"        Sean Eric Fagan                         Jeffrey Hsu\n"
+"        Terry Lambert                           L Jonas Olsson\n"
+"        Chris Provenzano                        Dave Rivers\n"
+"        Guido van Rooij                         Steven Wallace\n"
+"        Atsushi Murai                           Scott Mace\n"
+"        Andrew Moore                            Nate Williams\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:637
+#, no-wrap
+msgid ""
+"        And everyone at Montana State University for their initial "
+"support.\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:641
+#, no-wrap
+msgid ""
+"Thanks to everyone, especially those not mentioned, and we sincerely\n"
+"hope you enjoy this release of FreeBSD!\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:644
+#, no-wrap
+msgid "                        The FreeBSD Core Team\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/notes.adoc:646
+#, no-wrap
+msgid "Id: RELNOTES.FreeBSD,v 1.21 1994/12/02 20:27:11 jkh Exp\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.0/notes.adoc:648
+msgid "link:../../[Release Home]"
+msgstr ""

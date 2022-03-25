@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:08+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.5R/qa.adoc:1
+#, no-wrap
+msgid "Testing Guide for 4.5-RELEASE"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:10
+#, no-wrap
+msgid "<h3>Goals</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:19
+#, no-wrap
+msgid ""
+"<p>As part of our on-going effort to improve the release engineering\n"
+"  process, we have identified several areas that need significant\n"
+"  quality assurance testing during the release candidate phase.\n"
+"  Below, we've listed the changes in 4.5-PRERELEASE that we feel merit\n"
+"  the most attention due to their involving substantial changes to the\n"
+"  system, or having arrived late in the development cycle leading up\n"
+"  to the release.  In general, our goal in the QA process is to\n"
+"  attempt to check a number of things:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:24
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li>The system has not regressed with respects to stability, "
+"correctness,\n"
+"    interoperability, or performance of features present in prior\n"
+"    releases.<br clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:28
+#, no-wrap
+msgid ""
+"  <li>New features result in the desired improvement in stability,\n"
+"    correctness, interoperability, or performance.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:35
+#, no-wrap
+msgid ""
+"<p>To effectively determine this, it's desirable to test the system in\n"
+"  a diverse set of environments, applying a wide set of workloads,\n"
+"  forcing the system to operate both within and outside its normal\n"
+"  specification.  Particular focus should often be placed on the\n"
+"  continuing (or new) capability of the system to perform correctly\n"
+"  when used in concert with systems from other vendors.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:37
+#, no-wrap
+msgid "<h3>Features to explore carefully:</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:39
+#, no-wrap
+msgid "<ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:51
+#, no-wrap
+msgid ""
+"  <li>Recent TCP changes, especially relating to the delayed ACK fix,\n"
+"    congestion response, syncache, syncookies, increased socket buffer\n"
+"    sizes, et al.  We're interested in testing interoperability with\n"
+"    as many platforms as possible, demonstrating continued strong (and\n"
+"    better) scalability and performance, and watching out for quirks\n"
+"    (connection stalls, ...), not to mention crashes.  Jonathan Lemon\n"
+"    was responding to a panic report on freebsd-current earlier today\n"
+"    regarding a PCB call, which is something we should keep an eye on.\n"
+"    On the other hand, <a href=\"http://www.yahoo.com/\" "
+"shape=\"rect\">Yahoo!</a> is\n"
+"    now deploying this code, and that should help test it a great\n"
+"    deal.<br clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:57
+#, no-wrap
+msgid ""
+"  <li>VFS/VM/NFS fixes.  We need to continue to test performance,\n"
+"    correctness, and interoperability.  In particular, I'd like to see\n"
+"    a lot of inter-platform performance testing (FreeBSD-&gt;Solaris,\n"
+"    vice versa, etc).  We'd also like careful investigation of\n"
+"    low-memory situations.<br clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:62
+#, no-wrap
+msgid ""
+"  <li>FFS fixes.  We had some reports of deadlocks in FFS; it sounds like\n"
+"    Matt Dillon has caught most of them, but combinations I'd particular\n"
+"    like to see tested involve Quotas, Chroot, and NFS, under load, and\n"
+"    involving memory mapping and heavy directory operations.<br "
+"clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:65
+#, no-wrap
+msgid ""
+"  <li>NTP 4.1.  This is probably reasonable safe, but it doesn't hurt\n"
+"    to do interop testing, especially on the Alpha platform.<br "
+"clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:72
+#, no-wrap
+msgid ""
+"  <li>SMBfs.  We need stability testing, mostly, I suspect.  Performance "
+"is\n"
+"    probably not a large focus.  While SMBfs support has been available on\n"
+"    -STABLE through a port previously, determining that the integration\n"
+"    with the base system (especially the boot process) was done correctly\n"
+"    is important.  Attempting to use SMBfs in /etc/fstab in a diskless\n"
+"    environment might be one thing to explore, for example.<br "
+"clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:78
+#, no-wrap
+msgid ""
+"  <li>Once the man page change goes in (which I think it should) we'll "
+"want\n"
+"    some basic testing of the man command.  <strong>Update:</strong>\n"
+"    This change proved too controversial for introduction this late in\n"
+"    the release cycle, and so it will not be included with FreeBSD\n"
+"    4.5.<br clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:86
+#, no-wrap
+msgid ""
+"  <li>cdboot.  Late in the release cycle, a new implementation of the\n"
+"    CD-based boot loader was introduced.  This should generally\n"
+"    improve support for booting or installing from CD, but this change\n"
+"    requires testing on a variety of architectures and devices.\n"
+"    <strong>Update:</strong> Thanks to everyone who helped test this\n"
+"    functionality.  A number of users reported problems booting with\n"
+"    this new loader, so this will not be used for FreeBSD 4.5.<br "
+"clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:92
+#, no-wrap
+msgid ""
+"  <li>Sysinstall module loading.  In order to make room for more\n"
+"    devices on the boot floppy, a number of wireless Ethernet device\n"
+"    drivers were moved over to the MFSROOT floppy in the form of\n"
+"    loadable kernel modules.  We would like to see this functionality\n"
+"    tested thoroughly before the final release.<br clear=\"none\" /><br "
+"clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:97
+#, no-wrap
+msgid ""
+"  <li>ATA code.  The ATA driver has been updated to support 48bit\n"
+"    addressing and has been tested to work with at least one 160GB IDE\n"
+"    drive.  Further testing with very large IDE drives is\n"
+"    necessary.<br clear=\"none\" /><br clear=\"none\" /></li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:104
+#, no-wrap
+msgid ""
+"  <li>XFree86.  There was at least one problem report with XFree86 4.x\n"
+"    sent to the <tt>qa@FreeBSD.org</tt> mailing list.  Please help us\n"
+"    test this important third party software package to ensure it\n"
+"    works well with FreeBSD 4.5.  The FreeBSD Handbook may need to be\n"
+"    updated to describe the recommended procedure for installing\n"
+"    XFree86 4.x during a new installation.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:110
+#, no-wrap
+msgid ""
+"  <li>Linux Compatibility.  There was a small change in the Ethernet\n"
+"    device enumeration of the Linux compatibility layer.  All Linux\n"
+"    applications should be tested under the new environment.  In\n"
+"    particular, those applications that deal with network interfaces\n"
+"    should be tested carefully.</li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:112
+#, no-wrap
+msgid "</ul>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:118
+#, no-wrap
+msgid ""
+"<p>The <a href=\"../relnotes/\" shape=\"rect\">release notes</a> will always "
+"be\n"
+"  a good place to look for things to test.  There are a number of new\n"
+"  drivers, including <tt>if_em</tt>, which would probably benefit from\n"
+"  more exposure.  Please report bugs to the <a "
+"href=\"mailto:qa@FreeBSD.org\" shape=\"rect\">qa@FreeBSD.org</a> list, "
+"and/or via\n"
+"  send-pr with a heads up to the qa list.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:120
+#, no-wrap
+msgid "<h3>Known Issues</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:126
+#, no-wrap
+msgid ""
+"<p><a href=\"ftp://ftp.FreeBSD.org/pub/FreeBSD/releases/i386\" "
+"shape=\"rect\">4.5\n"
+"  Release Candidate 3</a> was released on January 23.  There will be\n"
+"  one final release candidate before the final release.  Please see\n"
+"  the postings to qa@FreeBSD.org and stable@FreeBSD.org for more\n"
+"  information.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.5R/qa.adoc:130
+#, no-wrap
+msgid ""
+"</div>\n"
+"          <br class=\"clearboth\" />\n"
+"        </div>\n"
+msgstr ""

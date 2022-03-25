@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:18+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/press/press-rel-8.adoc:1 content/en/press/press-rel-8.adoc:7
+#, no-wrap
+msgid "FreeBSD Project Launches FreeBSD 6.0"
+msgstr ""
+
+#. type: Title ==
+#: content/en/press/press-rel-8.adoc:9
+#, no-wrap
+msgid "FreeBSD raises the bar for open source operating systems."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-8.adoc:13
+msgid "FOR IMMEDIATE RELEASE + Berkeley, CA November 4, 2005"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-8.adoc:15
+msgid ""
+"The FreeBSD Project announces the availability of FreeBSD 6.0, an open "
+"source operating system derived from BSD UNIX, which offers a powerful "
+"alternative to Linux, Solaris, and Windows. FreeBSD enables enterprise "
+"organizations to utilize open source technologies that focus on reliability, "
+"security, and scalability."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-8.adoc:17
+msgid ""
+"\"Yahoo! is impressed with the performance and stability of FreeBSD 6.0,\" "
+"says David Filo, Yahoo! co-founder. Yahoo! is one of many enterprise "
+"companies that rely on the world-renowned stability and performance of the "
+"FreeBSD operating system."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-8.adoc:19
+msgid ""
+"One of the new features in FreeBSD 6.0 is a multithreaded filesystem, which "
+"greatly improves data access times for local disks, RAID configurations, "
+"network filesystems, and SANs. Recent performance benchmarks show that "
+"FreeBSD 6.0 outperforms Linux in raw data throughput."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-8.adoc:21
+msgid ""
+"Additionally, FreeBSD 6.0 extends support for wireless devices such as Intel "
+"Centrino and adds support for the popular new WPA wireless security "
+"protocol. Several improvements are incorporated into NDISulator, a component "
+"of the operating system that allows Windows network drivers to run natively "
+"under FreeBSD."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-8.adoc:23
+msgid ""
+"FreeBSD now scales much more efficiently across multiple processor "
+"systems. Support for 8 or more processors, such as the new dual core AMD "
+"Opteron configurations, gives consumers a viable alternative against more "
+"expensive, proprietary hardware platforms and operating systems from IBM, "
+"HP, and Sun."
+msgstr ""
+
+#. type: Title ==
+#: content/en/press/press-rel-8.adoc:24
+#, no-wrap
+msgid "About the FreeBSD Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-8.adoc:27
+msgid ""
+"The FreeBSD Project provides a free, open source operating system for "
+"several platforms, including Intel x86 and AMD64. FreeBSD is derived from "
+"BSD, the version of UNIX developed at UC Berkeley. The unencumbered BSD "
+"license permits modification and redistribution of the software while "
+"allowing an individual or company to retain intellectual property."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-8.adoc:29
+msgid "For more information, please visit http://www.FreeBSD.org/[www.FreeBSD.org]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/press/press-rel-8.adoc:30
+#, no-wrap
+msgid "Press Contact"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-8.adoc:32
+msgid ""
+"For interviews or further information, contact: marketing@FreeBSD.org, "
+"+1-408-943-4100 ext 113; or The FreeBSD Foundation, +1-720-207-5142"
+msgstr ""

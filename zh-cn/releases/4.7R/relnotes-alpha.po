@@ -1,0 +1,2009 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1
+#, no-wrap
+msgid "FreeBSD/alpha 4.7-RELEASE Release Notes"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:10
+#, no-wrap
+msgid "        <h3 class=\"CORPAUTHOR\">The FreeBSD Project</h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:13
+#, no-wrap
+msgid ""
+"        <p class=\"COPYRIGHT\">Copyright &copy; 2000, 2001, 2002 by\n"
+"        The FreeBSD Documentation Project</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:18
+#, no-wrap
+msgid ""
+"        <p class=\"PUBDATE\">$FreeBSD:\n"
+"        src/release/doc/en_US.ISO8859-1/relnotes/common/new.sgml,v\n"
+"        1.22.2.300 2002/09/30 19:03:49 dd Exp $<br>\n"
+"        </p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:22
+#, no-wrap
+msgid ""
+"        <div>\n"
+"          <div class=\"ABSTRACT\">\n"
+"            <a name=\"AEN11\"></a>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:34
+#, no-wrap
+msgid ""
+"            <p>The release notes for FreeBSD 4.7-RELEASE contain a\n"
+"            summary of the changes made to the FreeBSD base system\n"
+"            since 4.6-RELEASE. Both changes for kernel and userland\n"
+"            are listed, as well as applicable security advisories\n"
+"            for the base system that were issued since the last\n"
+"            release. Some brief remarks on upgrading are also\n"
+"            presented.</p>\n"
+"          </div>\n"
+"        </div>\n"
+"        <hr>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:38
+#, no-wrap
+msgid ""
+"      <div class=\"TOC\">\n"
+"        <dl>\n"
+"          <dt><b>Table of Contents</b></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:40
+#, no-wrap
+msgid "          <dt>1 <a href=\"#AEN13\">Introduction</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:42
+#, no-wrap
+msgid "          <dt>2 <a href=\"#AEN21\">What's New</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:46
+#, no-wrap
+msgid ""
+"          <dd>\n"
+"            <dl>\n"
+"              <dt>2.1 <a href=\"#KERNEL\">Kernel Changes</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:51
+#, no-wrap
+msgid ""
+"              <dd>\n"
+"                <dl>\n"
+"                  <dt>2.1.1 <a href=\"#AEN60\">Processor/Motherboard\n"
+"                  Support</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:53
+#, no-wrap
+msgid "                  <dt>2.1.2 <a href=\"#AEN65\">Boot Loaders</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:56
+#, no-wrap
+msgid ""
+"                  <dt>2.1.3 <a href=\"#AEN68\">Network Interface\n"
+"                  Support</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:59
+#, no-wrap
+msgid ""
+"                  <dt>2.1.4 <a href=\"#AEN78\">Network\n"
+"                  Protocols</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:62
+#, no-wrap
+msgid ""
+"                  <dt>2.1.5 <a href=\"#AEN125\">Disks and\n"
+"                  Storage</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:64
+#, no-wrap
+msgid "                  <dt>2.1.6 <a href=\"#AEN151\">Filesystems</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:67
+#, no-wrap
+msgid ""
+"                  <dt>2.1.7 <a href=\"#AEN154\">PCCARD\n"
+"                  Support</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:70
+#, no-wrap
+msgid ""
+"                  <dt>2.1.8 <a href=\"#AEN157\">Multimedia\n"
+"                  Support</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:75
+#, no-wrap
+msgid ""
+"                  <dt>2.1.9 <a href=\"#AEN165\">Contributed\n"
+"                  Software</a></dt>\n"
+"                </dl>\n"
+"              </dd>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:78
+#, no-wrap
+msgid ""
+"              <dt>2.2 <a href=\"#SECURITY\">Security\n"
+"              Advisories</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:80
+#, no-wrap
+msgid "              <dt>2.3 <a href=\"#USERLAND\">Userland Changes</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:85
+#, no-wrap
+msgid ""
+"              <dd>\n"
+"                <dl>\n"
+"                  <dt>2.3.1 <a href=\"#AEN480\">Contributed\n"
+"                  Software</a></dt>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:90
+#, no-wrap
+msgid ""
+"                  <dt>2.3.2 <a href=\"#AEN562\">Ports/Packages\n"
+"                  Collection</a></dt>\n"
+"                </dl>\n"
+"              </dd>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:95
+#, no-wrap
+msgid ""
+"              <dt>2.4 <a href=\"#AEN569\">Release Engineering and\n"
+"              Integration</a></dt>\n"
+"            </dl>\n"
+"          </dd>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:100
+#, no-wrap
+msgid ""
+"          <dt>3 <a href=\"#AEN577\">Upgrading from previous releases\n"
+"          of FreeBSD</a></dt>\n"
+"        </dl>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:103
+#: content/en/releases/4.7R/relnotes-alpha.adoc:127
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1048
+#, no-wrap
+msgid ""
+"      <div class=\"SECT1\">\n"
+"        <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:105
+#, no-wrap
+msgid "        <h1 class=\"SECT1\"><a name=\"AEN13\">1 Introduction</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:111
+#, no-wrap
+msgid ""
+"        <p>This document contains the release notes for FreeBSD\n"
+"        4.7-RELEASE on the Alpha/AXP hardware platform. It\n"
+"        describes new features of FreeBSD that have been added (or\n"
+"        changed) since 4.6-RELEASE. It also provides some notes on\n"
+"        upgrading from previous versions of FreeBSD.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:124
+#, no-wrap
+msgid ""
+"        <p>This distribution of FreeBSD 4.7-RELEASE is a release\n"
+"        distribution. It can be found at <a href=\n"
+"        \"ftp://ftp.FreeBSD.org/\" target=\n"
+"        \"_top\">ftp://ftp.FreeBSD.org/</a> or any of its mirrors.\n"
+"        More information on obtaining this (or other) release\n"
+"        distributions of FreeBSD can be found in the <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/mirrors.html\"\n"
+"         target=\"_top\">``Obtaining FreeBSD''</a> appendix in the <a\n"
+"        href=\n"
+"        \"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/\"\n"
+"         target=\"_top\">FreeBSD Handbook</a>.</p>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:129
+#, no-wrap
+msgid "        <h1 class=\"SECT1\"><a name=\"AEN21\">2 What's New</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:137
+#, no-wrap
+msgid ""
+"        <p>This section describes the most user-visible new or\n"
+"        changed features in FreeBSD since 4.6-RELEASE. Typical\n"
+"        release note items document new drivers or hardware\n"
+"        support, new commands or options, major bugfixes, or\n"
+"        contributed software upgrades. Security advisories for the\n"
+"        base system that were issued after 4.6-RELEASE are also\n"
+"        listed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:140
+#: content/en/releases/4.7R/relnotes-alpha.adoc:388
+#: content/en/releases/4.7R/relnotes-alpha.adoc:498
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1026
+#, no-wrap
+msgid ""
+"        <div class=\"SECT2\">\n"
+"          <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:143
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a name=\"KERNEL\">2.1 Kernel\n"
+"          Changes</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:154
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=acct&sektion=2&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">acct</span>(2)</span></a> has been\n"
+"          changed to open the accounting file in append mode, so\n"
+"          that <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=accton&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">accton</span>(8)</span></a> can be used\n"
+"          to enable accounting to an append-only file.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:167
+#, no-wrap
+msgid ""
+"          <p><tt class=\"LITERAL\">RLIMIT_VMEM</tt> support has been\n"
+"          added. This feature defines a new resource limit that\n"
+"          covers a process's entire virtual memory space, including\n"
+"          <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=mmap&sektion=2&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">mmap</span>(2)</span></a> space. This\n"
+"          limit can be configured in <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=login.conf&sektion=5&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">login.conf</span>(5)</span></a> via the\n"
+"          new <tt class=\"VARNAME\">vmemoryuse</tt> variable.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:174
+#, no-wrap
+msgid ""
+"          <p>A bug in the <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sendfile&sektion=2&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sendfile</span>(2)</span></a> system\n"
+"          call, in which headers counted against the size of the\n"
+"          file to be sent, has been fixed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:191
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ucom&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ucom</span>(4)</span></a> device driver\n"
+"          has been added, to support USB modems, serial devices,\n"
+"          and other programs that need to look like a tty. The\n"
+"          related <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=uplcom&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">uplcom</span>(4)</span></a> and <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=uvscom&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">uvscom</span>(4)</span></a> drivers\n"
+"          provide specific support for the Prolific PL-2303 serial\n"
+"          adapter and the SUNTAC Slipper U VS-10U,\n"
+"          respectively.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:197
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=uvisor&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">uvisor</span>(4)</span></a> driver for\n"
+"          connecting Handspring Visors via USB has been added.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:200
+#: content/en/releases/4.7R/relnotes-alpha.adoc:211
+#: content/en/releases/4.7R/relnotes-alpha.adoc:218
+#: content/en/releases/4.7R/relnotes-alpha.adoc:225
+#: content/en/releases/4.7R/relnotes-alpha.adoc:304
+#: content/en/releases/4.7R/relnotes-alpha.adoc:353
+#: content/en/releases/4.7R/relnotes-alpha.adoc:360
+#: content/en/releases/4.7R/relnotes-alpha.adoc:367
+#: content/en/releases/4.7R/relnotes-alpha.adoc:377
+#: content/en/releases/4.7R/relnotes-alpha.adoc:865
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1007
+#, no-wrap
+msgid ""
+"          <div class=\"SECT3\">\n"
+"            <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:203
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN60\">2.1.1\n"
+"            Processor/Motherboard Support</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:208
+#, no-wrap
+msgid ""
+"            <p>Support for the AlphaServer 8200/8400 TurboLaser is\n"
+"            broken, the install kernel causes a machine check\n"
+"            during startup.</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:215
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN65\">2.1.2 Boot\n"
+"            Loaders</a></h3>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:222
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN68\">2.1.3 Network\n"
+"            Interface Support</a></h3>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:228
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN78\">2.1.4 Network\n"
+"            Protocols</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:252
+#, no-wrap
+msgid ""
+"            <p>A new version of <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ipfw&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ipfw</span>(4)</span></a> (commonly\n"
+"            referred to as ``IPFW2'') has been added as an option.\n"
+"            It now uses variable-sized representation of rules in\n"
+"            the kernel, similar to <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=bpf&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">bpf</span>(4)</span></a> instructions.\n"
+"            Most of the externally-visible behavior (i.e. through\n"
+"            <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ipfw&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ipfw</span>(8)</span></a>) should be\n"
+"            unchanged., although <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ipfw&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ipfw</span>(8)</span></a> now supports\n"
+"            <tt class=\"LITERAL\">or</tt> connectives between match\n"
+"            fields. This new version is <span class=\"emphasis\"><i\n"
+"            class=\"EMPHASIS\">not</i></span> enabled by default. To\n"
+"            use it:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:259
+#, no-wrap
+msgid ""
+"            <div class=\"PROCEDURE\">\n"
+"              <ol type=\"1\">\n"
+"                <li>\n"
+"                  <p>Add <tt class=\"LITERAL\">options IPFW2</tt>\n"
+"                  (undocumented) to the kernel configuration.</p>\n"
+"                </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:274
+#, no-wrap
+msgid ""
+"                <li>\n"
+"                  <p>Compile and install <tt class=\n"
+"                  \"FILENAME\">libalias</tt> and <a href=\n"
+"                  "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ipfw&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"                  <span class=\"CITEREFENTRY\"><span class=\n"
+"                  \"REFENTRYTITLE\">ipfw</span>(8)</span></a> with\n"
+"                  the <tt class=\"OPTION\">-DIPFW2</tt> option\n"
+"                  specified to <a href=\n"
+"                  "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=make&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"                  <span class=\"CITEREFENTRY\"><span class=\n"
+"                  \"REFENTRYTITLE\">make</span>(1)</span></a>.</p>\n"
+"                </li>\n"
+"              </ol>\n"
+"            </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:282
+#, no-wrap
+msgid ""
+"            <p>A new <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ng_l2tp&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ng_l2tp</span>(4)</span></a> netgraph\n"
+"            node type, which implements the encapsulation layer of\n"
+"            the L2TP protocol as described in RFC 2661, has been\n"
+"            added.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:291
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=tcp&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">tcp</span>(4)</span></a> protocol's\n"
+"            retransmission timer can now be manipulated with two\n"
+"            sysctl variables, <tt class=\n"
+"            \"VARNAME\">net.inet.tcp.rexmit_min</tt> and <tt class=\n"
+"            \"VARNAME\">net.inet.tcp.rexmit_slop</tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:301
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=tcp&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">tcp</span>(4)</span></a> protocol now\n"
+"            has the ability to dynamically limit the send-side\n"
+"            window to maximize bandwidth and minimize round trip\n"
+"            times. The feature can be enabled via the <tt class=\n"
+"            \"VARNAME\">net.inet.tcp.inflight_enable</tt> sysctl.</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:307
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN125\">2.1.5 Disks and\n"
+"            Storage</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:313
+#, no-wrap
+msgid ""
+"            <p>A bug which sometimes prevented <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ata&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ata</span>(4)</span></a> tagged\n"
+"            queueing from working correctly has been corrected.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:322
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ata&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ata</span>(4)</span></a> driver now\n"
+"            computes maximum transfer sizes correctly. This fixes\n"
+"            numerous <tt class=\"LITERAL\">READ_BIG</tt> and other\n"
+"            errors that occurred when accessing certain ATA\n"
+"            devices.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:329
+#, no-wrap
+msgid ""
+"            <p>The <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ata&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">ata</span>(4)</span></a> driver now has\n"
+"            support for the Sil 0680 and VIA 8233/8235\n"
+"            controllers.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:333
+#, no-wrap
+msgid ""
+"            <p>The mpt driver, for supporting the LSI Logic\n"
+"            Fusion/MP architecture Fiber Channel controllers, has\n"
+"            been added.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:337
+#, no-wrap
+msgid ""
+"            <p>The floppy disk drive on the AlphaStation /\n"
+"            AlphaServer DS10 does not work with FreeBSD due to\n"
+"            unfound bugs.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:350
+#, no-wrap
+msgid ""
+"            <p>When installing on alphas that have QLogic\n"
+"            Fibrechannel cards installed, disable recognition of\n"
+"            these cards from the loader. This to avoid very long <a\n"
+"            href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=isp&sektion=4&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">isp</span>(4)</span></a> timeouts\n"
+"            during kernel startup. For example, assume you have a\n"
+"            system with a QLogic Fiberchannel card that would show\n"
+"            up as isp1. You would enter at the 'ok ' prompt: set\n"
+"            isp_disable=0x2</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:357
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN151\">2.1.6\n"
+"            Filesystems</a></h3>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:364
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN154\">2.1.7 PCCARD\n"
+"            Support</a></h3>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:370
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN157\">2.1.8 Multimedia\n"
+"            Support</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:374
+#, no-wrap
+msgid ""
+"            <p>The uaudio driver, for USB audio devices, has been\n"
+"            added.</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:380
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN165\">2.1.9 Contributed\n"
+"            Software</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:385
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">IPFilter</b> has been updated\n"
+"            to 3.4.29.</p>\n"
+"          </div>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:391
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a name=\"SECURITY\">2.2 Security\n"
+"          Advisories</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:407
+#, no-wrap
+msgid ""
+"          <p>The original fix for security advisory SA-02:23 (which\n"
+"          addressed the use of file descriptors by set-user-id or\n"
+"          set-group-id programs) contained an error. It was still\n"
+"          possible for systems using <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=procfs&sektion=5&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">procfs</span>(5)</span></a> or <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=linprocfs&sektion=5&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">linprocfs</span>(5)</span></a> to be\n"
+"          exploited. This error has now been corrected; a revised\n"
+"          version of security advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:23.stdio.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:23</a> contains more\n"
+"          details.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:414
+#, no-wrap
+msgid ""
+"          <p>A buffer overflow in the resolver, which could be\n"
+"          exploited by a malicious domain name server or an\n"
+"          attacker forging DNS messages, has been fixed. See\n"
+"          security advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:28.resolv.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:28</a> for more details.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:423
+#, no-wrap
+msgid ""
+"          <p>A buffer overflow in <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=tcpdump&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">tcpdump</span>(1)</span></a>, which could\n"
+"          be triggered by badly-formed NFS packets, has been fixed.\n"
+"          See security advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:29.tcpdump.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:29</a> for more details.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:435
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ktrace&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ktrace</span>(1)</span></a> can no longer\n"
+"          trace the operation of formerly privileged processes;\n"
+"          this prevents the leakage of sensitive information that\n"
+"          the process could have obtained before abandoning its\n"
+"          privileges. For a discussion of this issue, see security\n"
+"          advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:30.ktrace.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:30</a> for more details.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:445
+#, no-wrap
+msgid ""
+"          <p>A race condition in <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pppd&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">pppd</span>(8)</span></a>, which could be\n"
+"          used to change the permissions of an arbitrary file, has\n"
+"          been corrected. For more information, see security\n"
+"          advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:32.pppd.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:32</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:453
+#, no-wrap
+msgid ""
+"          <p>Multiple buffer overflows in <b class=\n"
+"          \"APPLICATION\">OpenSSL</b> have been corrected, by way of\n"
+"          an upgrade to the base system version of <b class=\n"
+"          \"APPLICATION\">OpenSSL</b>. More details can be found in\n"
+"          security advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:33.openssl.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:33</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:458
+#, no-wrap
+msgid ""
+"          <p>A heap buffer overflow in the XDR decoder has been\n"
+"          fixed. For more details, see security advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:34.rpc.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:34</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:464
+#, no-wrap
+msgid ""
+"          <p>A bug that could allow local users to read and write\n"
+"          arbitrary blocks on an FFS filesystem has been corrected.\n"
+"          More details can be found in security advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:35.ffs.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:35</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:470
+#, no-wrap
+msgid ""
+"          <p>A bug in the NFS server code, which could allow a\n"
+"          remote denial of service attack, has been fixed. Security\n"
+"          advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:36.nfs.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:36</a> has more details.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:480
+#, no-wrap
+msgid ""
+"          <p>A bug that could allow local users to panic a system\n"
+"          using the <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=kqueue&sektion=2&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">kqueue</span>(2)</span></a> mechanism has\n"
+"          been fixed. More information is contained in security\n"
+"          advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:37.kqueue.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:37</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:487
+#, no-wrap
+msgid ""
+"          <p>Several bounds-checking bugs in system calls, which\n"
+"          could result in some system calls returning a large\n"
+"          portion of kernel memory, have been fixed. More\n"
+"          information can be found in security advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:38.signed-error.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:38</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:495
+#, no-wrap
+msgid ""
+"          <p>A bug that could allow applications using <tt class=\n"
+"          \"FILENAME\">libkvm</tt> to leak sensitive file descriptors\n"
+"          has been corrected. (See security advisory <a href=\n"
+"          "
+"\"ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:39.libkvm.asc\"\n"
+"           target=\"_top\">FreeBSD-SA-02:39</a> for more\n"
+"          details.)</p>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:501
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a name=\"USERLAND\">2.3 Userland\n"
+"          Changes</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:510
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=biff&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">biff</span>(1)</span></a> now accepts a\n"
+"          <tt class=\"OPTION\">b</tt> argument to enable ``bell\n"
+"          notification'' of new mail (which does not disturb the\n"
+"          terminal contents as <tt class=\"COMMAND\">biff y</tt>\n"
+"          would).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:518
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=cp&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">cp</span>(1)</span></a> now takes a\n"
+"          (nonstandard) <tt class=\"OPTION\">-n</tt> option to\n"
+"          automatically answer ``no'' when it would ask to\n"
+"          overwrite a file.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:531
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=daemon&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">daemon</span>(8)</span></a> program, a\n"
+"          command-line interface to <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=daemon&sektion=3&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">daemon</span>(3)</span></a>, has been\n"
+"          added. It detaches itself from its controlling terminal\n"
+"          and executes a program specified on the command line.\n"
+"          This allows the user to run an arbitrary program as if it\n"
+"          were written to be a daemon.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:538
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=dump&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">dump</span>(8)</span></a> now supports a\n"
+"          new <tt class=\"OPTION\">-S</tt> flag to allow it to just\n"
+"          print out the dump size estimates and exit.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:544
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=finger&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">finger</span>(1)</span></a> now has\n"
+"          support for a <tt class=\"FILENAME\">.pubkey</tt> file.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:552
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=finger&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">finger</span>(1)</span></a> now supports\n"
+"          a <tt class=\"OPTION\">-g</tt> flag to restrict the\n"
+"          printing of GECOS information to the user's full name\n"
+"          only.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:560
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=finger&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">finger</span>(1)</span></a> now supports\n"
+"          the <tt class=\"OPTION\">-4</tt> and <tt class=\n"
+"          \"OPTION\">-6</tt> flags to specify an address family for\n"
+"          remote queries.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:568
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=fold&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">fold</span>(1)</span></a> now supports a\n"
+"          <tt class=\"OPTION\">-b</tt> flag to break at byte\n"
+"          positions and a <tt class=\"OPTION\">-s</tt> flag to break\n"
+"          at word boundaries.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:582
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ftp&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ftp</span>(1)</span></a> now supports the\n"
+"          <tt class=\"COMMAND\">epsv4</tt> command to switch between\n"
+"          using the new EPSV/EPRT and plain old PASV/PORT requests\n"
+"          when talking over IPv4. This command is intended to\n"
+"          remedy the problem arising when running <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ftp&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ftp</span>(1)</span></a> through <b\n"
+"          class=\"APPLICATION\">IPFilter</b> or another firewall not\n"
+"          supporting the newer FTP requests.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:591
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ftpd&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ftpd</span>(8)</span></a> now supports\n"
+"          the <tt class=\"OPTION\">-m</tt> option to permit guest\n"
+"          users to modify existing files if allowed by filesystem\n"
+"          permissions. In particular, this enables guest users to\n"
+"          resume uploads.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:598
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ftpd&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ftpd</span>(8)</span></a> now supports\n"
+"          the <tt class=\"OPTION\">-M</tt> option to prevent guest\n"
+"          users from creating directories.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:608
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ftpd&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ftpd</span>(8)</span></a> now supports\n"
+"          the <tt class=\"OPTION\">-W</tt> option to disable logging\n"
+"          FTP sessions to <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=wtmp&sektion=5&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">wtmp</span>(5)</span></a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:619
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ifconfig&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ifconfig</span>(8)</span></a> now\n"
+"          supports a <tt class=\"OPTION\">eui64</tt> command to fill\n"
+"          in the lowermost 64 bits of an IPv6 address\n"
+"          automatically. This makes <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=prefix&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">prefix</span>(8)</span></a> obsolete.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:626
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ifconfig&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ifconfig</span>(8)</span></a> now has the\n"
+"          ability to set promiscuous mode on an interface, via the\n"
+"          new <tt class=\"OPTION\">promisc</tt> flag.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:634
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=inetd&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">inetd</span>(8)</span></a> now has the\n"
+"          capability for limiting the maximum number of\n"
+"          simultaneous invocations of each service from a single IP\n"
+"          address.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:642
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=lock&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">lock</span>(1)</span></a> now accepts a\n"
+"          <tt class=\"OPTION\">-v</tt> to disable switching VTYs\n"
+"          while the current terminal is locked. This permits\n"
+"          locking the entire console from a single terminal.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:652
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ls&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">ls</span>(1)</span></a> program now\n"
+"          supports a <tt class=\"OPTION\">-m</tt> flag to list files\n"
+"          across a page, a <tt class=\"OPTION\">-p</tt> flag to force\n"
+"          printing of a <tt class=\"LITERAL\">/</tt> after\n"
+"          directories, and a <tt class=\"OPTION\">-x</tt> flag to\n"
+"          sort filenames across a page.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:660
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=mv&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">mv</span>(1)</span></a> now takes a\n"
+"          (nonstandard) <tt class=\"OPTION\">-n</tt> option to\n"
+"          automatically answer ``no'' when it would ask to\n"
+"          overwrite a file.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:667
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=nice&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">nice</span>(1)</span></a> now uses the\n"
+"          <tt class=\"OPTION\">-n</tt> option to specify the\n"
+"          ``niceness'' of the utility being run.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:679
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=od&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">od</span>(1)</span></a> now supports the\n"
+"          <tt class=\"OPTION\">-A</tt> option to specify the input\n"
+"          address base, the <tt class=\"OPTION\">-N</tt> option to\n"
+"          specify the number of bytes to dump, the <tt class=\n"
+"          \"OPTION\">-j</tt> option to specify the number of bytes to\n"
+"          skip, the <tt class=\"OPTION\">-s</tt> option to output\n"
+"          signed decimal shorts, and the <tt class=\"OPTION\">-t</tt>\n"
+"          option to specify output type.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:686
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pam_opie&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">pam_opie</span>(8)</span></a> no longer\n"
+"          emits fake challenges when the <tt class=\n"
+"          \"VARNAME\">no_fake_prompts</tt> variable is specified.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:692
+#, no-wrap
+msgid ""
+"          <p>A <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pam_opieaccess&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">pam_opieaccess</span>(8)</span></a>\n"
+"          module has been added.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:706
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pam_radius&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">pam_radius</span>(8)</span></a>, <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pam_ssh&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">pam_ssh</span>(8)</span></a>, and <a\n"
+"          href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pam_tacplus&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">pam_tacplus</span>(8)</span></a> have\n"
+"          been synchronized with the versions in FreeBSD -CURRENT\n"
+"          as of 3 July 2002.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:713
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pam_unix&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">pam_unix</span>(8)</span></a> has been\n"
+"          synchronized with the version in FreeBSD -CURRENT as of 9\n"
+"          March 2002 (pre-<b class=\"APPLICATION\">OpenPAM</b>).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:720
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=pwd&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">pwd</span>(1)</span></a> now supports the\n"
+"          <tt class=\"OPTION\">-L</tt> flag to print the logical\n"
+"          current working directory.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:728
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=renice&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">renice</span>(8)</span></a> command\n"
+"          implements a <tt class=\"OPTION\">-n</tt> option, which\n"
+"          specifies an increment to be applied to the priority of a\n"
+"          process.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:735
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sed&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sed</span>(1)</span></a> now takes a <tt\n"
+"          class=\"OPTION\">-i</tt> option to enable in-place editing\n"
+"          of files.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:744
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sh&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sh</span>(1)</span></a> now supports a\n"
+"          <tt class=\"OPTION\">-C</tt> option to prevent existing\n"
+"          regular files from being overwritten by output\n"
+"          redirection, and a <tt class=\"OPTION\">-u</tt> to give an\n"
+"          error if an unset variable is expanded.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:758
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sh&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sh</span>(1)</span></a> built-in <tt\n"
+"          class=\"COMMAND\">cd</tt> command now supports <tt class=\n"
+"          \"OPTION\">-L</tt> and <tt class=\"OPTION\">-P</tt> flags to\n"
+"          invoke logical or physical modes of operation,\n"
+"          respectively. Logical mode is the default, but the\n"
+"          default can be changed with the <tt class=\n"
+"          \"VARNAME\">physical</tt> <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sh&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sh</span>(1)</span></a> option.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:767
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sh&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sh</span>(1)</span></a> built-in <tt\n"
+"          class=\"COMMAND\">jobs</tt> command now supports a <tt\n"
+"          class=\"OPTION\">-s</tt> flag to output PIDs only and a <tt\n"
+"          class=\"OPTION\">-l</tt> flag to add PIDs to the\n"
+"          output.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:776
+#, no-wrap
+msgid ""
+"          <p>The <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sh&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sh</span>(1)</span></a> built-in <tt\n"
+"          class=\"COMMAND\">export</tt> and <tt class=\n"
+"          \"COMMAND\">readonly</tt> commands now support a <tt class=\n"
+"          \"OPTION\">-p</tt> flag to print their output in\n"
+"          ``portable'' format.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:788
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sh&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">sh</span>(1)</span></a> no longer accepts\n"
+"          invalid constructs as <tt class=\"COMMAND\"><tt class=\n"
+"          \"REPLACEABLE\"><i>command</i></tt> &amp; &amp;&amp; <tt\n"
+"          class=\"REPLACEABLE\"><i>command</i></tt></tt>, <tt class=\n"
+"          \"COMMAND\">&amp;&amp;&#13; <tt class=\n"
+"          \"REPLACEABLE\"><i>command</i></tt></tt>, or <tt class=\n"
+"          \"COMMAND\">|| <tt class=\n"
+"          \"REPLACEABLE\"><i>command</i></tt></tt>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:795
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=split&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">split</span>(1)</span></a> now supports a\n"
+"          <tt class=\"OPTION\">-a</tt> option to specify the number\n"
+"          of letters to use for the suffix of split files.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:801
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=su&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">su</span>(1)</span></a> now has support\n"
+"          for Kerberos V authentication.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:808
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=tr&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">tr</span>(1)</span></a> now has basic\n"
+"          support for equivalence classes for locales that support\n"
+"          them.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:818
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=unexpand&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">unexpand</span>(1)</span></a> now\n"
+"          supports a <tt class=\"OPTION\">-t</tt> to specify tabstabs\n"
+"          analogous to <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=expand&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">expand</span>(1)</span></a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:825
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=vidcontrol&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">vidcontrol</span>(1)</span></a> now\n"
+"          accepts a <tt class=\"OPTION\">-S</tt> to allow the user to\n"
+"          disable VTY switching.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:839
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=who&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">who</span>(1)</span></a> now has a number\n"
+"          of new options: <tt class=\"OPTION\">-H</tt> shows column\n"
+"          headings; <tt class=\"OPTION\">-T</tt> shows <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=mesg&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">mesg</span>(1)</span></a> state; <tt\n"
+"          class=\"OPTION\">-m</tt> is an equivalent to <tt class=\n"
+"          \"OPTION\">am i</tt>; <tt class=\"OPTION\">-u</tt> shows idle\n"
+"          time; <tt class=\"OPTION\">-q</tt> to list names in\n"
+"          columns.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:855
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=xargs&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">xargs</span>(1)</span></a> now supports a\n"
+"          <tt class=\"OPTION\">-I</tt> <tt class=\n"
+"          \"REPLACEABLE\"><i>replstr</i></tt> option that allows the\n"
+"          user to tell <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=xargs&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">xargs</span>(1)</span></a> to insert the\n"
+"          data read from standard input at specific points in the\n"
+"          command line arguments rather than at the end. (A\n"
+"          FreeBSD-specific <tt class=\"OPTION\">-J</tt> option is\n"
+"          similar, but is now deprecated in favor of the more\n"
+"          portable <tt class=\"OPTION\">-I</tt> option.)</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:862
+#, no-wrap
+msgid ""
+"          <p><a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=xargs&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">xargs</span>(1)</span></a> now supports a\n"
+"          <tt class=\"OPTION\">-L</tt> option to force its utility\n"
+"          argument to be called after some number of lines.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:868
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN480\">2.3.1 Contributed\n"
+"            Software</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:871
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">BIND</b> has been updated to\n"
+"            8.3.3.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:875
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">Binutils</b> has been updated\n"
+"            to 2.12.1 (specifically, a post-release snapshot from\n"
+"            20 July 2002).</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:880
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">gcc</b> has been updated to a\n"
+"            snapshot from the GCC 2.95 CVS branch from 20 March\n"
+"            2002. It carries the unofficial version number of\n"
+"            2.95.4.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:883
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">Heimdal Kerberos</b> has been\n"
+"            updated to a pre-0.5 snapshot from 29 August 2002.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:886
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">libpcap</b> has been updated\n"
+"            to 0.7.1.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:893
+#, no-wrap
+msgid ""
+"            <p>The FTP daemon from NetBSD, otherwise known as <b\n"
+"            class=\"APPLICATION\">lukemftpd</b> 1.2 beta 1, has been\n"
+"            imported and is available as <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=lukemftpd&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">lukemftpd</span>(8)</span></a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:899
+#, no-wrap
+msgid ""
+"            <p><a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=m4&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">m4</span>(1)</span></a> has been\n"
+"            imported from OpenBSD, as of 26 April 2002.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:902
+#, no-wrap
+msgid ""
+"            <p>The <b class=\"APPLICATION\">OPIE</b>\n"
+"            one-time-password suite has been updated to 2.4.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:905
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">OpenSSH</b> has been updated\n"
+"            to version 3.4p1. Among the changes:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:914
+#, no-wrap
+msgid ""
+"            <ul>\n"
+"              <li>\n"
+"                <p>The <tt class=\"FILENAME\">*2</tt> files are\n"
+"                obsolete (for example, <tt class=\n"
+"                \"FILENAME\">~/.ssh/known_hosts</tt> can hold the\n"
+"                contents of <tt class=\n"
+"                \"FILENAME\">~/.ssh/known_hosts2</tt>).</p>\n"
+"              </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:924
+#, no-wrap
+msgid ""
+"              <li>\n"
+"                <p><a href=\n"
+"                "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ssh-keygen&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"                <span class=\"CITEREFENTRY\"><span class=\n"
+"                \"REFENTRYTITLE\">ssh-keygen</span>(1)</span></a> can\n"
+"                import and export keys using the SECSH Public Key\n"
+"                File Format, for key exchange with several\n"
+"                commercial SSH implementations.</p>\n"
+"              </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:932
+#, no-wrap
+msgid ""
+"              <li>\n"
+"                <p><a href=\n"
+"                "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ssh-add&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"                <span class=\"CITEREFENTRY\"><span class=\n"
+"                \"REFENTRYTITLE\">ssh-add</span>(1)</span></a> now\n"
+"                adds all three default keys.</p>\n"
+"              </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:942
+#, no-wrap
+msgid ""
+"              <li>\n"
+"                <p><a href=\n"
+"                "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=ssh-keygen&sektion=1&manpath=FreeBSD+4.7-RELEASE\">\n"
+"                <span class=\"CITEREFENTRY\"><span class=\n"
+"                \"REFENTRYTITLE\">ssh-keygen</span>(1)</span></a> no\n"
+"                longer defaults to a specific key type; one must be\n"
+"                specified with the <tt class=\"OPTION\">-t</tt>\n"
+"                option.</p>\n"
+"              </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:949
+#, no-wrap
+msgid ""
+"              <li>\n"
+"                <p>A ``privilege separation'' feature, which uses\n"
+"                unprivileged processes to contain and restrict the\n"
+"                effects of future compromises or programming\n"
+"                errors.</p>\n"
+"              </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:955
+#, no-wrap
+msgid ""
+"              <li>\n"
+"                <p>Several bugfixes, including closure of a\n"
+"                security hole that could lead to an integer\n"
+"                overflow and undesired privilege escalation.</p>\n"
+"              </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:964
+#, no-wrap
+msgid ""
+"              <li>\n"
+"                <p>The default SSH protocol to use is now Version 2\n"
+"                (with a fallback to Version 1), rather than Version\n"
+"                1 (with a fallback to Version 2).</p>\n"
+"              </li>\n"
+"            </ul>\n"
+"            <br>\n"
+"            <br>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:967
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">OpenSSL</b> has been updated\n"
+"            to 0.9.6g.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:970
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">sendmail</b> has been updated\n"
+"            from version 8.12.3 to version 8.12.6.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:973
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">GNU tar</b> has been updated\n"
+"            to 1.13.25.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:976
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">tcsh</b> has been updated to\n"
+"            version 6.12.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:979
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">texinfo</b> has been updated\n"
+"            to 4.2.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:997
+#, no-wrap
+msgid ""
+"            <p>The contributed version of <b class=\n"
+"            \"APPLICATION\">tcp_wrappers</b> now includes the <a\n"
+"            href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=tcpd&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">tcpd</span>(8)</span></a> helper\n"
+"            daemon. While not strictly necessary in a standard\n"
+"            FreeBSD installation (because <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=inetd&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">inetd</span>(8)</span></a> already\n"
+"            incorporates this functionality), this may be useful\n"
+"            for <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=inetd&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">inetd</span>(8)</span></a> replacements\n"
+"            such as <b class=\"APPLICATION\">xinetd</b>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1000
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">tcpdump</b> has been updated\n"
+"            to 3.7.1.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1004
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">top</b> has been updated to\n"
+"            version 3.5b12.</p>\n"
+"          </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1010
+#, no-wrap
+msgid ""
+"            <h3 class=\"SECT3\"><a name=\"AEN562\">2.3.2 Ports/Packages\n"
+"            Collection</a></h3>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1017
+#, no-wrap
+msgid ""
+"            <p>The libraries installed by the <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/url.cgi?ports/emulators/linux_base/pkg-descr\">\n"
+"            <tt class=\"FILENAME\">emulators/linux_base</tt></a> port\n"
+"            (required for Linux emulation) have been updated; they\n"
+"            now correspond to those included with <b class=\n"
+"            \"APPLICATION\">Red Hat Linux</b> 7.1.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1023
+#, no-wrap
+msgid ""
+"            <p><b class=\"APPLICATION\">XFree86</b> has been updated\n"
+"            to 4.2.1. This version provides some security and bug\n"
+"            fixes over version 4.2.0.</p>\n"
+"          </div>\n"
+"        </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1029
+#, no-wrap
+msgid ""
+"          <h2 class=\"SECT2\"><a name=\"AEN569\">2.4 Release\n"
+"          Engineering and Integration</a></h2>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1033
+#, no-wrap
+msgid ""
+"          <p>A bug that caused <tt class=\n"
+"          \"FILENAME\">/usr/share/examples</tt> to be incompletely\n"
+"          populated on fresh installs has been fixed.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1045
+#, no-wrap
+msgid ""
+"          <p>It is now possible to make releases of FreeBSD\n"
+"          5-CURRENT on a FreeBSD 4-STABLE host and vice versa.\n"
+"          Cross-architecture (building a release for a target\n"
+"          architecture on a host of a different architecture)\n"
+"          releases are also possible. See <a href=\n"
+"          "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=release&sektion=7&manpath=FreeBSD+4.7-RELEASE\">\n"
+"          <span class=\"CITEREFENTRY\"><span class=\n"
+"          \"REFENTRYTITLE\">release</span>(7)</span></a> for\n"
+"          details.</p>\n"
+"        </div>\n"
+"      </div>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1051
+#, no-wrap
+msgid ""
+"        <h1 class=\"SECT1\"><a name=\"AEN577\">3 Upgrading from\n"
+"        previous releases of FreeBSD</a></h1>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1054
+#, no-wrap
+msgid ""
+"        <p>If you're upgrading from a previous release of FreeBSD,\n"
+"        you generally will have three options:</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1065
+#, no-wrap
+msgid ""
+"        <ul>\n"
+"          <li>\n"
+"            <p>Using the binary upgrade option of <a href=\n"
+"            "
+"\"http://www.FreeBSD.org/cgi/man.cgi?query=sysinstall&sektion=8&manpath=FreeBSD+4.7-RELEASE\">\n"
+"            <span class=\"CITEREFENTRY\"><span class=\n"
+"            \"REFENTRYTITLE\">sysinstall</span>(8)</span></a>. This\n"
+"            option is perhaps the quickest, although it presumes\n"
+"            that your installation of FreeBSD uses no special\n"
+"            compilation options.</p>\n"
+"          </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1075
+#, no-wrap
+msgid ""
+"          <li>\n"
+"            <p>Performing a complete reinstall of FreeBSD.\n"
+"            Technically, this is not an upgrading method, and in\n"
+"            any case is usually less convenient than a binary\n"
+"            upgrade, in that it requires you to manually backup and\n"
+"            restore the contents of <tt class=\"FILENAME\">/etc</tt>.\n"
+"            However, it may be useful in cases where you want (or\n"
+"            need) to change the partitioning of your disks.</p>\n"
+"          </li>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1094
+#, no-wrap
+msgid ""
+"          <li>\n"
+"            <p>From source code in <tt class=\n"
+"            \"FILENAME\">/usr/src</tt>. This route is more flexible,\n"
+"            but requires more disk space, time, and technical\n"
+"            expertise. More information can be found in the <a\n"
+"            href=\n"
+"            "
+"\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/makeworld.html\"\n"
+"             target=\"_top\">``Using <tt class=\"COMMAND\">make\n"
+"            world</tt>''</a> section of the <a href=\n"
+"            \"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/\"\n"
+"             target=\"_top\">FreeBSD Handbook</a>. Upgrading from\n"
+"            very old versions of FreeBSD may be problematic; in\n"
+"            cases like this, it is usually more effective to\n"
+"            perform a binary upgrade or a complete reinstall.</p>\n"
+"          </li>\n"
+"        </ul>\n"
+"        <br>\n"
+"        <br>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1101
+#, no-wrap
+msgid ""
+"        <p>Please read the <tt class=\"FILENAME\">INSTALL.TXT</tt>\n"
+"        file for more information, preferably <span class=\n"
+"        \"emphasis\"><i class=\"EMPHASIS\">before</i></span> beginning\n"
+"        an upgrade. If you are upgrading from source, please be\n"
+"        sure to read <tt class=\"FILENAME\">/usr/src/UPDATING</tt> as\n"
+"        well.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1110
+#, no-wrap
+msgid ""
+"        <p>Finally, if you want to use one of various means to\n"
+"        track the -STABLE or -CURRENT branches of FreeBSD, please\n"
+"        be sure to consult the <a href=\n"
+"        "
+"\"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/current-stable.html\"\n"
+"         target=\"_top\">``-CURRENT vs. -STABLE''</a> section of the\n"
+"        <a href=\n"
+"        \"http://www.FreeBSD.org/doc/en_US.ISO8859-1/books/handbook/\"\n"
+"         target=\"_top\">FreeBSD Handbook</a>.</p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1122
+#, no-wrap
+msgid ""
+"        <div class=\"IMPORTANT\">\n"
+"          <blockquote class=\"IMPORTANT\">\n"
+"            <p><b>Important:</b> Upgrading FreeBSD should, of\n"
+"            course, only be attempted after backing up <span class=\n"
+"            \"emphasis\"><i class=\"EMPHASIS\">all</i></span> data and\n"
+"            configuration files.</p>\n"
+"          </blockquote>\n"
+"        </div>\n"
+"      </div>\n"
+"    </div>\n"
+"    <hr>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1126
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>This file, and other release-related\n"
+"    documents, can be downloaded from <a href=\n"
+"    \"ftp://ftp.FreeBSD.org/\">ftp://ftp.FreeBSD.org/</a>.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1131
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>For questions about FreeBSD, read the\n"
+"    <a href=\"http://www.FreeBSD.org/docs.html\">documentation</a>\n"
+"    before contacting &#60;<a href=\n"
+"    "
+"\"mailto:questions@FreeBSD.org\">questions@FreeBSD.org</a>&#62;.</small></p>\n"
+msgstr ""
+
+#. type: delimited block + 4
+#: content/en/releases/4.7R/relnotes-alpha.adoc:1137
+#, no-wrap
+msgid ""
+"    <p align=\"center\"><small>For questions about this\n"
+"    documentation, e-mail &#60;<a href=\n"
+"    \"mailto:doc@FreeBSD.org\">doc@FreeBSD.org</a>&#62;.</small></p>\n"
+"    <br>\n"
+"    <br>\n"
+msgstr ""

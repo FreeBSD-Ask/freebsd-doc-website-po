@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 23:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/logo.adoc:1 content/en/logo.adoc:6
+#, no-wrap
+msgid "FreeBSD Logo"
+msgstr ""
+
+#. type: Title ==
+#: content/en/logo.adoc:8
+#, no-wrap
+msgid "Usage Guideline"
+msgstr ""
+
+#. type: Plain text
+#: content/en/logo.adoc:11
+msgid ""
+"FreeBSD is a registered trademark of The FreeBSD Foundation. The FreeBSD "
+"logo and The Power to Serve are trademarks of The FreeBSD Foundation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/logo.adoc:12
+msgid ""
+"For logo image files, Trademark Usage Terms and Conditions, and more "
+"information on how to obtain permission to use the logo, please refer to the "
+"FreeBSD Project Logo page at "
+"https://www.freebsdfoundation.org/about/project/[The FreeBSD Foundation]."
+msgstr ""

@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/prstats/_index.adoc:1 content/en/prstats/_index.adoc:6
+#, no-wrap
+msgid "PR Statistics"
+msgstr ""
+
+#. type: Plain text
+#: content/en/prstats/_index.adoc:9
+msgid "'''''"
+msgstr ""
+
+#. type: Title ==
+#: content/en/prstats/_index.adoc:10
+#, no-wrap
+msgid "Go fix/close a PR!"
+msgstr ""
+
+#. type: Plain text
+#: content/en/prstats/_index.adoc:13
+msgid ""
+"It's easy, all you have to do is to follow "
+"https://bugs.FreeBSD.org/search/[this link to the Bugzilla database], find a "
+"PR, figure out what needs done and do it."
+msgstr ""
+
+#. type: Plain text
+#: content/en/prstats/_index.adoc:15
+msgid "If you are a committer, you can use the web interface to close PRs."
+msgstr ""
+
+#. type: Plain text
+#: content/en/prstats/_index.adoc:17
+msgid ""
+"If you are not a committer, you should submit a followup containing the text "
+":"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/prstats/_index.adoc:21
+#, no-wrap
+msgid "This PR can be closed\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/prstats/_index.adoc:23
+msgid ""
+"on a line of its own, that will make it easier for a committer to deal with "
+"it later."
+msgstr ""

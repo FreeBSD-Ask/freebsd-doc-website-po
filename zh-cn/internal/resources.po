@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/resources.adoc:1 content/en/internal/resources.adoc:8
+#, no-wrap
+msgid "Commit Bit and Project Resources Policy"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/resources.adoc:10
+#, no-wrap
+msgid "Rationale"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/resources.adoc:13
+msgid ""
+"The core team manages access to project resources including granting and "
+"revoking both commit bits and user accounts. Core may delegate portions of "
+"these tasks to other groups or individuals at its discretion. For example, "
+"certain commit bits are managed by other groups as noted in "
+"link:{committers-guide}#committer.types[Commit Bit Types] subject to core's "
+"final approval. The core team has held this authority since its inception, "
+"but wanted to make it explicit to avoid confusion. The FreeBSD Core team "
+"approved the following commit bit and project resources policy which was "
+"posted to the Developers mailing list on August 4, 2011."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/resources.adoc:14
+#, no-wrap
+msgid "Policy"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/resources.adoc:16
+msgid ""
+"The core team has sole authority for managing access to project "
+"resources. This includes granting and revoking both commit bits and user "
+"accounts."
+msgstr ""

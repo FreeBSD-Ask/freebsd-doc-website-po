@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:48+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/i18n.adoc:1 content/en/internal/i18n.adoc:6
+#, no-wrap
+msgid "Internationalization Policy"
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/i18n.adoc:8
+#, no-wrap
+msgid "Policy"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/i18n.adoc:10
+msgid ""
+"The FreeBSD Project uses a list derived from ISO 3166 to describe countries "
+"and regions in the world. This list is included in the release distributions "
+"and appears on the official website. The FreeBSD Project does not endorse "
+"any particular position and changes to this list must be approved by the "
+"FreeBSD Core team."
+msgstr ""

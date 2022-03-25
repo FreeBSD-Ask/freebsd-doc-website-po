@@ -1,0 +1,246 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 23:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/privacy.adoc:1 content/en/privacy.adoc:6
+#, no-wrap
+msgid "FreeBSD's Privacy Policy"
+msgstr ""
+
+#. type: Title ==
+#: content/en/privacy.adoc:8
+#, no-wrap
+msgid "Privacy Policy"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:11
+msgid ""
+"The FreeBSD Project recognizes that your privacy and the protection of your "
+"personal information is important to you and is committed to protecting your "
+"privacy. This Privacy Policy describes the measures taken by us to protect "
+"your privacy in connection with your use of www.FreeBSD.org (our "
+"\"Site\"). This policy does not cover mirrors of this content on other hosts "
+"(the \"Mirrors\") or other FreeBSD-related services in the FreeBSD.org "
+"domain (\"Affiliated Sites\")."
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:13
+msgid "This policy was last modified on October 19, 2012."
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:15
+msgid ""
+"PLEASE READ THIS PRIVACY POLICY CAREFULLY. BY USING THIS SITE, YOU AGREE TO "
+"THE TERMS OF THIS POLICY."
+msgstr ""
+
+#. type: Title ==
+#: content/en/privacy.adoc:16
+#, no-wrap
+msgid "What information is collected on our Site:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:19
+msgid ""
+"When you visit our Site we gather information regarding your use of our "
+"site, such as the pages you view and the time you view each page. We also "
+"collect information such as your Internet Protocol (\"IP\") address, browser "
+"type and operating system information. The foregoing information is "
+"collectively referred to below as \"Your Usage Data.\""
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:21
+msgid ""
+"We store information such as your email address, name, and organization or "
+"company (\"Personally Identifiable Information\") only if you decide to send "
+"us such information by submitting a FreeBSD bug or problem report (\"PR\"), "
+"subscribing to one of the FreeBSD mailing lists or posting content to our "
+"Site forums. The FreeBSD Project allows unlimited distribution of that "
+"content. Information submitted in those reports and lists, including your "
+"Personally Identifiable Information, is considered public and will be "
+"accessible to anyone on the web. Such information is not only stored on "
+"servers belonging to the FreeBSD Foundation, but it is also stored on other "
+"servers that mirror the content of our Site. The FreeBSD Foundation has no "
+"control over the use of that information, including your Personally "
+"Identifiable Information."
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:23
+msgid ""
+"This website uses a cookie to record layout style preferences for individual "
+"users, as well track anonymous traffic data. A cookie is a small text file "
+"provided by a web server that may be placed on your computer by your web "
+"browser. Cookies cannot be used to run programs or deliver viruses to your "
+"computer. Cookies are uniquely assigned to you, and can only be read by a "
+"Web server in the domain that issued the cookie to you. You may refuse the "
+"use of cookies by selecting the appropriate settings on your browser, "
+"however please note that if you do this you may not be able to use the full "
+"functionality of this or other websites."
+msgstr ""
+
+#. type: Title ==
+#: content/en/privacy.adoc:24
+#, no-wrap
+msgid "How the information collected is used:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:27
+msgid ""
+"The FreeBSD Project takes the privacy of our users and members very "
+"seriously. We will never sell, rent, or otherwise provide your personally "
+"identifiable information to any third parties except as stated in this "
+"document. We will not associate any data gathered from your use of our Site "
+"with any personally identifying information."
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:29
+msgid ""
+"The FreeBSD Project will not use or share your personal information in a "
+"manner that differs from what is described in this Privacy Policy without "
+"your prior consent."
+msgstr ""
+
+#. type: Title ==
+#: content/en/privacy.adoc:30
+#, no-wrap
+msgid "How your information is protected:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:33
+msgid ""
+"The FreeBSD Project strictly protects the security of the personal "
+"information you provide. Personal information we collect is stored in "
+"password-controlled servers with limited access, and we carefully protect "
+"this information from loss or misuse, and from unauthorized access, "
+"disclosure, alteration, or destruction."
+msgstr ""
+
+#. type: Title ==
+#: content/en/privacy.adoc:34
+#, no-wrap
+msgid "When your information may be disclosed:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:37
+msgid ""
+"The FreeBSD Project may disclose personal information if required to do so "
+"by law or in the good-faith belief that such action is necessary to:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:39
+msgid ""
+"conform to the requirements of the law or comply with legal process served "
+"on The FreeBSD Project or the Site;"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:40
+msgid "protect and defend the rights or property of The FreeBSD Project; or"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:41
+msgid ""
+"act in urgent circumstances to protect personal safety of users of The "
+"FreeBSD Project, its websites, or the public."
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:43
+msgid ""
+"Anonymized aggregate traffic data about website visits may be shared for "
+"marketing or research purposes."
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:45
+msgid "The FreeBSD Project does not share un-anonymised data with anyone."
+msgstr ""
+
+#. type: Title ==
+#: content/en/privacy.adoc:46
+#, no-wrap
+msgid "Updates to this privacy policy:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:49
+msgid ""
+"We may occasionally update this Privacy Policy. When we do, we will also "
+"revise the \"last modified\" date at the top of the Privacy Policy. We "
+"encourage you to periodically review this Privacy Policy to stay informed "
+"about how we are protecting the personal information we collect. Your "
+"continued use of the service constitutes your agreement to this Privacy "
+"Policy and any updates."
+msgstr ""
+
+#. type: Title ==
+#: content/en/privacy.adoc:50
+#, no-wrap
+msgid "Sale of assets:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:53
+msgid ""
+"In the unlikely event that The FreeBSD Project or substantially all of its "
+"assets are acquired, your information may be one of the transferred assets."
+msgstr ""
+
+#. type: Title ==
+#: content/en/privacy.adoc:54
+#, no-wrap
+msgid "Third party links:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:57
+msgid ""
+"In an attempt to provide you with increased value, we may include third "
+"party links on our site. These linked sites have separate and independent "
+"privacy policies. This Privacy Policy only covers our Site and does not "
+"cover any other website. We therefore have no responsibility or liability "
+"for the content and activities of these linked sites. Nonetheless, we seek "
+"to protect the integrity of our site and welcome any feedback about these "
+"linked sites (including if a specific link does not work)."
+msgstr ""
+
+#. type: Title ==
+#: content/en/privacy.adoc:58
+#, no-wrap
+msgid "Contacting Us:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/privacy.adoc:60
+msgid ""
+"We would like to receive your comments and questions about this Privacy "
+"Policy and any other matter you have regarding our Site. Please address "
+"comments or questions to us via e-mail at: privacy@FreeBSD.org."
+msgstr ""

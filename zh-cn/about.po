@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 23:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/about.adoc:1 content/en/about.adoc:8
+#, no-wrap
+msgid "About FreeBSD"
+msgstr ""
+
+#. type: Title ==
+#: content/en/about.adoc:10
+#, no-wrap
+msgid "What is FreeBSD?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/about.adoc:13
+msgid ""
+"FreeBSD is an operating system for a link:../platforms[variety of platforms] "
+"which focuses on features, speed, and stability. It is derived from BSD, the "
+"version of UNIX(R) developed at the University of California, Berkeley. It "
+"is developed and maintained by link:{contributors}#staff-committers[a large "
+"community]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/about.adoc:14
+#, no-wrap
+msgid "Cutting edge features"
+msgstr ""
+
+#. type: Plain text
+#: content/en/about.adoc:17
+msgid ""
+"FreeBSD offers advanced networking, performance, security and compatibility "
+"link:../features[features] today which are still missing in other operating "
+"systems, even some of the best commercial ones."
+msgstr ""
+
+#. type: Title ==
+#: content/en/about.adoc:18
+#, no-wrap
+msgid "Powerful Internet solutions"
+msgstr ""
+
+#. type: Plain text
+#: content/en/about.adoc:21
+msgid ""
+"FreeBSD makes an ideal Internet or Intranet server. It provides robust "
+"network services under the heaviest loads and uses memory efficiently to "
+"maintain good response times for thousands of simultaneous user processes."
+msgstr ""
+
+#. type: Title ==
+#: content/en/about.adoc:22
+#, no-wrap
+msgid "Advanced Embedded Platform"
+msgstr ""
+
+#. type: Plain text
+#: content/en/about.adoc:25
+msgid ""
+"FreeBSD brings advanced network operating system features to appliance and "
+"embedded platforms, from higher-end Intel-based appliances to ARM, PowerPC, "
+"and MIPS hardware platforms. From mail and web appliances to routers, time "
+"servers, and wireless access points, vendors around the world rely on "
+"FreeBSD's integrated build and cross-build environments and advanced "
+"features as the foundation for their embedded products. And the Berkeley "
+"open source license lets them decide how many of their local changes they "
+"want to contribute back."
+msgstr ""
+
+#. type: Title ==
+#: content/en/about.adoc:26
+#, no-wrap
+msgid "Run a huge number of applications"
+msgstr ""
+
+#. type: Plain text
+#: content/en/about.adoc:29
+msgid ""
+"With over 33,000 ported libraries and link:../applications[applications], "
+"FreeBSD supports applications for desktop, server, appliance, and embedded "
+"environments."
+msgstr ""
+
+#. type: Title ==
+#: content/en/about.adoc:30
+#, no-wrap
+msgid "Easy to install"
+msgstr ""
+
+#. type: Plain text
+#: content/en/about.adoc:33
+msgid ""
+"FreeBSD can be installed from a variety of media including CD-ROM, DVD, or "
+"directly over the network using FTP or NFS. All you need are "
+"link:{handbook}#bsdinstall[these directions]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/about.adoc:34
+#, no-wrap
+msgid "FreeBSD is _free_"
+msgstr ""
+
+#. type: Plain text
+#: content/en/about.adoc:38
+msgid "image:../gifs/dae_up3.gif[The BSD Daemon,width=72,height=81]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/about.adoc:40
+msgid ""
+"While you might expect an operating system with these features to sell for a "
+"high price, FreeBSD is available link:../copyright[free of charge] and comes "
+"with the source code. If you would like to purchase or download a copy to "
+"try out, link:{handbook}#mirrors[more information is available]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/about.adoc:41
+#, no-wrap
+msgid "Contributing to FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/about.adoc:44
+msgid ""
+"It is easy to contribute to FreeBSD. All you need to do is find a part of "
+"FreeBSD which you think could be improved and make those changes (carefully "
+"and cleanly) and submit that back to the Project by means of a bug report or "
+"a committer, if you know one. This could be anything from documentation to "
+"artwork to source code. See the link:{contributing}[Contributing to FreeBSD] "
+"article for more information."
+msgstr ""
+
+#. type: Plain text
+#: content/en/about.adoc:45
+msgid ""
+"Even if you are not a programmer, there are other ways to contribute to "
+"FreeBSD. The https://www.freebsdfoundation.org[FreeBSD Foundation] is a "
+"non-profit organization for which direct contributions are fully tax "
+"deductible. Please visit the "
+"link:https://freebsdfoundation.org/about-us/contact-us/[Contact Us] page for "
+"more information."
+msgstr ""

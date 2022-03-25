@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:29+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/events/2013.adoc:1 content/en/events/2013.adoc:7
+#, no-wrap
+msgid "FreeBSD Past Events"
+msgstr ""
+
+#. type: Plain text
+#: content/en/events/2013.adoc:10
+msgid ""
+"Please send details of any FreeBSD related events or events that are of "
+"interest for FreeBSD users which are not listed here to "
+"freebsd-doc@FreeBSD.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/events/2013.adoc:11
+msgid ""
+"Countries and regions displayed in dark red on the map below are hosting "
+"upcoming FreeBSD-related events. Countries that have hosted FreeBSD-related "
+"events in the past show up in yellow or orange, with darker colors "
+"representing a larger number of previous events."
+msgstr ""

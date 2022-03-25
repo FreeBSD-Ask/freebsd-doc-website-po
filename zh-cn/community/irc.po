@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:08+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/community/irc.adoc:1 content/en/community/irc.adoc:8
+#, no-wrap
+msgid "IRC"
+msgstr ""
+
+#. type: Plain text
+#: content/en/community/irc.adoc:12
+msgid ""
+"FreeBSD officially maintains an IRC presence with many channels covering "
+"subjects and topics ranging from general support to contribution and "
+"development.  Many project teams have dedicated channels where they plan and "
+"coordinate, so if you have a particular area of interest or just want to "
+"hang out and learn, check out our "
+"https://wiki.freebsd.org/IRC/Channels[wiki] for more information on our "
+"https://wiki.freebsd.org/IRC[FreeBSD IRC Channels]."
+msgstr ""

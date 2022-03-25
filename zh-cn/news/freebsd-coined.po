@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/news/freebsd-coined.adoc:1 content/en/news/freebsd-coined.adoc:7
+#, no-wrap
+msgid "FreeBSD Archives"
+msgstr ""
+
+#. type: Plain text
+#: content/en/news/freebsd-coined.adoc:13
+#, no-wrap
+msgid ""
+"*To:* interim@bsd.coe.montana.edu (Interim 0.1.5) +\n"
+"*Subject:* Re: \"386BSD\" trademark (fwd) +\n"
+"*From:* David Greenman <davidg@implode.rain.com> +\n"
+"*Date:* Sat, 19 Jun 93 17:26:02 -0700 +\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/news/freebsd-coined.adoc:26
+#, no-wrap
+msgid ""
+"> Okay folks.. taking new name suggestions.. we have:\n"
+">\n"
+"> BSDFree86      - Rod, who is going with Jordans improved NON BSDI name..\n"
+"> Free86BSD      - Jordan, Rod likes this one two...\n"
+">               - (F86BSD for short)\n"
+">\n"
+"> vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv\n"
+">       v                                       v\n"
+">       v   This is the hat to drop yours in!   v\n"
+">       v                                       v\n"
+">       vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/news/freebsd-coined.adoc:30
+#, no-wrap
+msgid ""
+"    How about just simply \"FreeBSD\"? No confusion, no fuss, seems like a "
+"good\n"
+" compromise to me. :-)\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/news/freebsd-coined.adoc:32
+#, no-wrap
+msgid " ---\n"
+msgstr ""
+
+#. type: delimited block . 4
+#: content/en/news/freebsd-coined.adoc:34
+#, no-wrap
+msgid " -DG\n"
+msgstr ""

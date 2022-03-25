@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:18+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/press/press-rel-9.adoc:1 content/en/press/press-rel-9.adoc:7
+#, no-wrap
+msgid "Hewlett-Packard donates blade cluster to FreeBSD"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-9.adoc:10
+#, no-wrap
+msgid ""
+"*The FreeBSD Foundation received a donation of a blade system from "
+"Hewlett-Packard for use as a third-party software build cluster. This "
+"20-node HP BladeSystem cluster triples the speed of the build process for "
+"i386 packages.*\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-9.adoc:12
+msgid ""
+"_\"With this generous donation from HP, we are able to continuously produce "
+"up-to-date packages from more than 13000 ports of third-party software "
+"available in the FreeBSD Ports Collection, at about three times the rate of "
+"the previous hardware cluster,\"_ said Kris Kennaway, member of the FreeBSD "
+"Ports Management Team."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-9.adoc:14
+msgid ""
+"_\"This directly benefits the users of FreeBSD through the rapid "
+"availability of new and updated software packages, and through the increased "
+"testing and QA of FreeBSD that the new hardware allows.\"_"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-9.adoc:16
+msgid ""
+"_\"We at HP recognize the important role of FreeBSD in the Internet's global "
+"network infrastructure, and we are happy that the HP BladeSystem cluster can "
+"contribute to the on-going success of the FreeBSD Foundation,\"_ said Mark "
+"Potter, vice president of the Hewlett-Packard BladeSystem division."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-9.adoc:18
+msgid ""
+"_\"They're just standard i386 systems, architecturally, with a very nice "
+"ssh- and serial-based management server,\"_ said Kennaway, who maintains the "
+"FreeBSD Ports cluster."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-9.adoc:20
+msgid ""
+"Kennaway said FreeBSD has a few dozen other machines scattered around the "
+"globe for package builds. A big concentration of sparc machines hosted by "
+"Hiroki Sato in Japan include some large multiprocessor e4500's (10, 12 and "
+"14 CPUs) that have been extremely valuable for SMP testing. Also, a couple "
+"of machines hosted by ISC, an amd64 hosted by Scott Long, three i386 "
+"machines at Yahoo! Korea, and sometimes Kennaway's own machines in Canada "
+"are used for the official package builds."
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-9.adoc:22
+msgid ""
+"The HP BladeSystem cluster is hosted at the Yahoo! datacenter in the San "
+"Francisco Bay area. In addition to Kennaway, Paul Saab and Peter Wemm from "
+"the FreeBSD project, and John Cagle from HP helped with blade system setup."
+msgstr ""
+
+#. type: Title ==
+#: content/en/press/press-rel-9.adoc:23
+#, no-wrap
+msgid "About The FreeBSD Project"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-9.adoc:26
+msgid ""
+"The FreeBSD Project provides an up-to-date and scalable modern operating "
+"system that offers high-performance, security, and advanced networking for "
+"personal workstations, Internet servers, routers, and firewalls. The FreeBSD "
+"packages collection includes popular software like Apache Web Server, Gnome, "
+"KDE, X.org X11 Window System, Python, Mozilla, and over 13,000 software "
+"suites. FreeBSD can be found on the Internet at "
+"http://www.FreeBSD.org/[http://www.FreeBSD.org]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/press/press-rel-9.adoc:27
+#, no-wrap
+msgid "More Information:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/press/press-rel-9.adoc:33
+#, no-wrap
+msgid ""
+"FreeBSD Ports webpage +\n"
+"http://www.freebsd.org/ports/[http://www.FreeBSD.org/ports/] +\n"
+" +\n"
+"FreeBSD Package building logs and errors webpage +\n"
+"http://pointyhat.freebsd.org/errorlogs/\n"
+msgstr ""

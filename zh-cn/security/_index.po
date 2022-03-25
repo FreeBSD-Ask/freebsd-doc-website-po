@@ -1,0 +1,374 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 22:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/security/_index.adoc:1 content/en/security/_index.adoc:8
+#, no-wrap
+msgid "FreeBSD Security Information"
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/_index.adoc:10
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:13
+msgid ""
+"FreeBSD takes security very seriously and its developers are constantly "
+"working on making the operating system as secure as possible. This page will "
+"provide information about what to do in the event of a security "
+"vulnerability affecting your system"
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/_index.adoc:14
+#, no-wrap
+msgid "Table of Contents"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:17
+msgid "<<reporting,Reporting FreeBSD security incidents>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:18
+msgid "<<recent,Recent FreeBSD security vulnerabilities>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:19
+msgid "<<advisories,Understanding FreeBSD security advisories>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:20
+msgid "<<how,How to update your system>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:21
+msgid "<<sup,Supported FreeBSD releases>>"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:22
+msgid "<<model,The FreeBSD support model>>"
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/_index.adoc:24
+#, no-wrap
+msgid "Reporting FreeBSD security incidents"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:27
+msgid ""
+"FreeBSD security issues specific to the base system should be reported via "
+"email to the mailto:secteam@FreeBSD.org[FreeBSD Security Team] or, if a "
+"higher level of confidentiality is required, via PGP encrypted email to the "
+"mailto:security-officer@FreeBSD.org[Security Officer Team] using the "
+"link:so_public_key.asc[Security Officer PGP key]. Additional information can "
+"be found at the link:reporting/[reporting FreeBSD security incidents] page."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/_index.adoc:29
+#, no-wrap
+msgid "When is a Security Advisory considered?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:32
+msgid ""
+"For every issue that gets reported, an internal tracking number is created, "
+"unless something is very obviously not a security issue. To determine "
+"whether or not a Security Advisory is warranted we use the following scheme:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:34
+msgid "Is it a privilege escalation vulnerability?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:35
+msgid "Is it a code injection vulnerability?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:36
+msgid "Is it a memory disclosure or dataleak vulnerability?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:37
+msgid "From either the kernel"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:38
+msgid "From a privileged process"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:39
+msgid "From a process owned by another user?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:40
+msgid "Is it a Denial of Service vulnerability?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:41
+msgid ""
+"Only when remotely exploitable, where remotely means that it comes from a "
+"different broadcast domain, so ARP and/or NDP based attacks do not qualify."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:42
+msgid "Is it an unassisted jailbreak vulnerability?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:43
+msgid ""
+"Is it a malfunction that could lead to generating insecure crypto keys, such "
+"as a PRNG bug?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:45
+msgid ""
+"For items that fall under these categories, a Security Advisory is very "
+"likely. Items that are not on this list are looked into individually and it "
+"will be determined then whether or not it will receive a Security Advisory "
+"or an Errata Notice."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:47
+msgid ""
+"Once it had been determined that a Security Advisory is warranted, either "
+"the submitter delivers a CVE number if he/she already requested one, or we "
+"use one from the FreeBSD pool available."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/_index.adoc:49
+#, no-wrap
+msgid "Recent FreeBSD security vulnerabilities"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:52
+msgid ""
+"A full list of all security vulnerabilities affecting the base system can be "
+"found link:advisories[on this page]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/_index.adoc:54
+#, no-wrap
+msgid "Understanding FreeBSD security advisories"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:57
+msgid ""
+"Advisories affecting the base system are sent to the following mailing "
+"lists:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:59
+msgid "FreeBSD-security-notifications@FreeBSD.org"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:60
+msgid "FreeBSD-security@FreeBSD.org"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:61
+msgid "FreeBSD-announce@FreeBSD.org"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:63
+msgid ""
+"The list of released advisories can be found on the link:advisories[FreeBSD "
+"Security Advisories] page."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:65
+msgid ""
+"Advisories are always signed using the FreeBSD Security Officer "
+"link:so_public_key.asc[PGP key] and are archived, along with their "
+"associated patches, at the http://security.FreeBSD.org/ web server in the "
+"http://security.FreeBSD.org/advisories/[advisories] and "
+"http://security.FreeBSD.org/patches/[patches] subdirectories."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:67
+msgid ""
+"The FreeBSD Security Officer provides security advisories for _-STABLE "
+"Branches_ and the _Security Branches_. (Advisories are not issued for the "
+"_-CURRENT Branch_, which is primarily oriented towards FreeBSD developers.)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:69
+msgid ""
+"The -STABLE branch tags have names like `stable/13`. The corresponding "
+"builds have names like `FreeBSD 13.0-STABLE`."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:70
+msgid ""
+"Each FreeBSD Release has an associated Security Branch. The Security Branch "
+"tags have names like `releng/13.0`. The corresponding builds have names like "
+"`FreeBSD 13.0-RELEASE-p1`."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:72
+msgid ""
+"Issues affecting the FreeBSD Ports Collection are covered separately in "
+"http://vuxml.FreeBSD.org/[the FreeBSD VuXML document]."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/_index.adoc:74
+#, no-wrap
+msgid "How to update your system"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:77
+msgid ""
+"For users that have previously installed a binary version of FreeBSD (e.g., "
+"{rel130-current} or {rel122-current}), commands:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:79
+msgid "`# freebsd-update fetch`"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:81
+msgid "`# freebsd-update install`"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:83
+msgid ""
+"If that fails, follow the other instructions in the security advisory you "
+"care about."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:85
+msgid ""
+"Note that the above procedure is only for users who have previously "
+"installed a binary distribution. Those who have built from source will need "
+"to update their source tree to upgrade."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/_index.adoc:87
+#, no-wrap
+msgid "Supported FreeBSD releases"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:90
+msgid "Each release is supported by the Security Officer for a limited time only."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:92
+msgid ""
+"The designation and expected lifetime of all currently supported branches "
+"and their respective releases are given below. The _Expected EoL "
+"(end-of-life)_ column indicates the earliest date on which support for that "
+"branch or release will end. Please note that these dates may be pushed back "
+"if circumstances warrant it."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:94
+msgid ""
+"link:unsupported[Older releases] are not supported and users are strongly "
+"encouraged to upgrade to one of these supported releases:"
+msgstr ""
+
+#. type: Table
+#: content/en/security/_index.adoc:104
+#, no-wrap
+msgid ""
+"|Branch |Release |Release Date |Expected EoL\n"
+"|stable/13 |n/a |n/a |January 31, 2026\n"
+"|releng/13.0 |13.0-RELEASE |April 13, 2021 |13.1-RELEASE + 3 months\n"
+"|stable/12 |n/a |n/a |June 30, 2024\n"
+"|releng/12.3 |12.3-RELEASE |December 7, 2021 |12.4-RELEASE + 3 months\n"
+"|releng/12.2 |12.2-RELEASE |October 27, 2020 |March 31, 2022\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:107
+msgid ""
+"In the run-up to a release, a number of -BETA and -RC releases may be "
+"published for testing purposes. These releases are only supported for a few "
+"weeks, as resources permit, and will not be listed as supported on this "
+"page. Users are strongly discouraged from running these releases on "
+"production systems."
+msgstr ""
+
+#. type: Title ==
+#: content/en/security/_index.adoc:109
+#, no-wrap
+msgid "The FreeBSD support model"
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:112
+msgid ""
+"Under the current support model, each major version's stable branch is "
+"explicitly supported for 5 years, while each individual point release is "
+"only supported for three months after the next point release."
+msgstr ""
+
+#. type: Plain text
+#: content/en/security/_index.adoc:113
+msgid ""
+"The details and rationale behind this model can be found in the "
+"https://lists.freebsd.org/pipermail/freebsd-announce/2015-February/001624.html[official "
+"announcement] sent in February 2015."
+msgstr ""

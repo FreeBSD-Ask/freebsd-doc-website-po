@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/gnome/screenshots.adoc:1 content/en/gnome/screenshots.adoc:6
+#, no-wrap
+msgid "FreeBSD GNOME Project: Screenshots"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/screenshots.adoc:9
+msgid ""
+"Here are some examples of GNOME running on FreeBSD. Click on the thumbnails "
+"below to see a larger image."
+msgstr ""
+
+#. Newer GNOME versions go at the top; newer screenshots go at the top.
+#. type: Title ==
+#: content/en/gnome/screenshots.adoc:14
+#, no-wrap
+msgid "GNOME 3.16 Screenshots"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/screenshots.adoc:19
+#, no-wrap
+msgid ""
+"*A GNOME 3.16 Desktop showing off the Gimp, vlc, chromium* +\n"
+"link:../../gifs/gnome/ss316-1.png[image:../../gifs/gnome/ss316-1.png[GNOME "
+"3.16 Screen Shot 1,width=300,height=169]] +\n"
+"_Contributed by Chris Petrik <chris |at| bsdjunk.com>_\n"
+msgstr ""
+
+#. type: Title ==
+#: content/en/gnome/screenshots.adoc:20
+#, no-wrap
+msgid "GNOME 2.24 Screenshots"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/screenshots.adoc:25
+#, no-wrap
+msgid ""
+"*A GNOME 2.24 Desktop showing off the Gimp, the System Monitor applet, and "
+"the multi-byte, fully internationalized power of GNOME.* +\n"
+"link:../../gifs/gnome/ss224-1.png[image:../../gifs/gnome/ss224-1.png[GNOME "
+"2.24 Screen Shot 1,width=300,height=240]] +\n"
+"_Contributed by Denise H. G. <darcsis |at| gmail.com>_\n"
+msgstr ""
+
+#. type: Plain text
+#: content/en/gnome/screenshots.adoc:28
+#, no-wrap
+msgid ""
+"*GNOME 2.24 within GNOME 2.24! This is a GNOME 2.24 Desktop running vinagre "
+"connected to another GNOME 2.24 Desktop running Epiphany. The main desktop "
+"is also sporting the Anjuta IDE, the new Empathy IM client, and showing off "
+"the SMB network browsing capability along with the internationalized clock "
+"applet.* +\n"
+"link:../../gifs/gnome/ss224-2.png[image:../../gifs/gnome/ss224-2.png[GNOME "
+"2.24 Screen Shot 2,width=300,height=240]] +\n"
+"_Contributed by Joe Marcus Clarke <marcus |at| FreeBSD.org>_\n"
+msgstr ""

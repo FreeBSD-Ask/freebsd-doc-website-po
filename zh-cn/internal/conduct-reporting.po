@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ==
+#: content/en/internal/conduct-reporting.adoc:1
+#: content/en/internal/conduct-reporting.adoc:6
+#: content/en/internal/conduct-reporting.adoc:8
+#, no-wrap
+msgid "FreeBSD Code of Conduct Reporting Instructions"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:11
+msgid ""
+"If you believe someone is violating the link:../code-of-conduct[code of "
+"conduct] we ask that you report it to the FreeBSD Code of Conduct Committee "
+"by emailing conduct@freebsd.org."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:13
+msgid ""
+"All reports will be kept confidential whenever possible. We strive to "
+"protect the identity and safety of reporters. In some cases we may need to "
+"make a public statement of some form, in which case we will use the minimum "
+"of details and identifying information necessary to protect our "
+"community. In rare cases, we may need to identify some of the people "
+"involved to comply with the law or protect other potential victims. In these "
+"cases, we will consult with the reporter to find out what their wishes are "
+"and take them into account in our final decision. In all cases, we will not "
+"directly or indirectly identify reporters without their consent unless we "
+"see no other option."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:15
+msgid ""
+"If you believe anyone is in physical danger, please notify appropriate law "
+"enforcement first."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:17
+msgid "In your report please include:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:19
+msgid ""
+"Your name and contact info (so we can get in touch with you if we need to "
+"follow up)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:20
+msgid ""
+"Names (real, nicknames, and/or pseudonyms) of any individuals involved. If "
+"there were other witnesses besides you, please try to include them as well."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:21
+msgid "When and where the incident occurred. Please be as specific as possible."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:22
+msgid ""
+"Your account of what occurred. If there is a publicly available record "
+"(e.g. a mailing list archive, tweet, or a public IRC logger) please include "
+"a link and/or screen shots."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:23
+msgid "Any extra context you believe relevant for the incident."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:24
+msgid "If you believe this incident is ongoing."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:25
+msgid "Any other information you believe we should have."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/conduct-reporting.adoc:26
+#, no-wrap
+msgid "What happens after you file a report?"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:29
+msgid ""
+"You will receive an email from the FreeBSD Code of Conduct Committee "
+"acknowledging receipt of your report within 48 hours."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:31
+msgid ""
+"The committee will meet as quickly as possible to review the incident and "
+"determine:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:33
+msgid ""
+"Whether an investigation is needed, including interviewing additional "
+"parties or witnesses;"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:34
+msgid "What appears to have happened and;"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:35
+msgid "Whether the behavior constitutes a Code of Conduct violation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:37
+msgid ""
+"If a member of the FreeBSD Code of Conduct Committee is one of the "
+"individuals included in the report they will recuse themselves from handling "
+"the report."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:39
+msgid ""
+"Once the working group has a complete account of the events they will make a "
+"decision as to how to respond. Actions taken may include:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:41
+msgid "Nothing (for example, if we determine that no violation occurred)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:42
+msgid ""
+"If determined to be solely technical in nature or if it falls outside the "
+"scope of the Code of Conduct, forwarding the incident to the FreeBSD Core "
+"Team"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:43
+msgid "A private reprimand from the working group to the individual(s) involved."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:44
+msgid "A public reprimand."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:45
+msgid ""
+"An imposed vacation from FreeBSD Project controlled spaces (e.g. asking "
+"someone to \"take a week off\" from a mailing list or IRC)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:46
+msgid ""
+"A permanent or temporary ban from some or all FreeBSD Project controlled "
+"spaces (events, meetings, mailing lists, IRC, etc.)"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:47
+msgid "A request for a public or private apology."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:48
+msgid "A request to engage in mediation and/or an accountability plan."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:50
+msgid ""
+"We will do our best to respond within one week to the person who filed the "
+"report with either a resolution or an explanation of why the situation is "
+"not yet resolved."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:52
+msgid ""
+"Once we have determined our final action, we will contact the original "
+"reporter to let them know what action (if any) we will be taking. We will "
+"take into account feedback from the reporter on the appropriateness of our "
+"response, but we do not guarantee we will act on it."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:54
+msgid ""
+"Finally, the committee will make a report on the situation to the FreeBSD "
+"Core Team. The Core Team may choose to issue a public report of the "
+"incident."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/conduct-reporting.adoc:55
+#, no-wrap
+msgid "Appeals"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/conduct-reporting.adoc:57
+msgid ""
+"Only permanent resolutions (such as bans) may be appealed. To appeal a "
+"decision of the CoC Committee, contact the FreeBSD Core Team at "
+"core@freebsd.org with your appeal and the Core Team will review the case."
+msgstr ""

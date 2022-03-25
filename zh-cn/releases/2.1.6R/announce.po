@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:41+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/releases/2.1.6R/announce.adoc:1
+#: content/en/releases/2.1.6R/announce.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.1.6 Announcement"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.6R/announce.adoc:9
+msgid ""
+"Please read an link:../security/[important security announcement] regarding "
+"FreeBSD 2.1.6"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.6R/announce.adoc:11
+msgid "FreeBSD 2.1.6 is now available in:"
+msgstr ""
+
+#. type: delimited block _ 4
+#: content/en/releases/2.1.6R/announce.adoc:14
+msgid "link:../security[ftp://ftp.FreeBSD.org/pub/FreeBSD/2.1.6-RELEASE]"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.6R/announce.adoc:17
+msgid ""
+"And shortly from its various mirror sites, a list of which may be obtained "
+"from: http://www.FreeBSD.org/handbook/mirrors.html"
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.6R/announce.adoc:19
+msgid ""
+"This release will also be available on CDROM from "
+"http://www.cdrom.com/[Walnut Creek CDROM], hopefully shipping within the "
+"next 4-6 weeks."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.6R/announce.adoc:21
+msgid ""
+"Those puzzled by the near-simultaneous release of 2.1.6 and 2.2 need also "
+"look no further than http://www.FreeBSD.org/branch.html for the reasons "
+"behind this release schedule. CDROM subscription customers should also see "
+"this page for information on Walnut Creek CDROM's plans for these releases."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.6R/announce.adoc:23
+msgid ""
+"If you are a commercial user of FreeBSD who would like to take advantage of "
+"recent bug fixes without making the jump to our more ambitious 2.2 release "
+"(or delay that jump until 2.2 has had more time to mature), or if you're "
+"simply looking for the lowest-impact upgrade from 2.1.5, then 2.1.6-RELEASE "
+"is for you."
+msgstr ""
+
+#. type: Plain text
+#: content/en/releases/2.1.6R/announce.adoc:24
+msgid "link:../../[Release Home]"
+msgstr ""

@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: content/en/internal/doceng.adoc:1 content/en/internal/doceng.adoc:8
+#, no-wrap
+msgid "FreeBSD Doceng Team Charter"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:11
+msgid ""
+"The doceng@ team is a body to handle some of the meta-project issues "
+"associated with the FreeBSD Documentation Project. The main responsibilities "
+"of this team are:"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:13
+msgid ""
+"To grant approval for new documentation committers. Documentation includes "
+"articles and books, website pages, manual pages, release notes and "
+"translations of the above. There are two kinds of doc commit bits: "
+"translator commit bit, which is limited to translations in a particular "
+"language and full commit bit, which is only granted to aspirants, who have "
+"shown enough English writing skills."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:14
+msgid ""
+"To maintain the doc project primer, which documents best practices for the "
+"FreeBSD Documentation Project."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:15
+msgid ""
+"To manage the doc/ release process. This includes coordinating the release "
+"documentation updates with the various translation teams, coordinating with "
+"the release engineering team to tag the doc/ tree during the release cycle, "
+"and documenting these procedures."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:16
+msgid ""
+"To ensure that the generated documentation (PDF, HTML, etc.) on the Web site "
+"and FTP site are up to date with respect to the versions of the documents in "
+"the Git tree. This includes making sure the Web site build is functioning "
+"correctly, and also involves working with the admin team to ensure that the "
+"primary Web server has all of the requisite software installed (including "
+"build scripts)."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:17
+msgid ""
+"To act as MAINTAINER (when necessary) or to work in coordination with "
+"existing MAINTAINERs, to ensure that the documentation toolchains (DocBook, "
+"groff, etc.) are in good working order."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:18
+msgid ""
+"To maintain the sanctity of the FreeBSD doc/ tree. Due to the visibility of "
+"these files and documents to the outside world, doceng@ reserves the right "
+"to immediately backout (or fix without waiting for response from the "
+"original committer) changes that introduce broken links, cause the Web site "
+"build to break, or otherwise degrade the accessibility of the FreeBSD Web "
+"site and documentation."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:19
+msgid ""
+"To appoint and oversee a FreeBSD Webmaster Team that carries out daily "
+"maintenance of the Project web servers in collaboration with other teams."
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:21
+msgid ""
+"It is specifically noted here that doceng@ is *not* a conflict resolution "
+"body for the FreeBSD Documentation Project. Discussion and consensus on the "
+"freebsd-doc mailing list is how the project has conducted itself, and how it "
+"is expected to conduct itself in the future."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/doceng.adoc:22
+#, no-wrap
+msgid "Current Membership"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:25
+msgid "The current members of this team are {doceng-members}."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/doceng.adoc:26
+#, no-wrap
+msgid "New Doc Committers"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:29
+msgid ""
+"New doc committers are approved by doceng@ with a vote through email and a "
+"two week timeout. A committer is approved if at least one doceng@ member "
+"votes yes, and no doceng@ members vote no. When a commit bit proposal is "
+"accepted, doceng@ sends out an acceptance email to the mentor and the new "
+"committer with core@ and accounts@ CC'ed."
+msgstr ""
+
+#. type: Title ==
+#: content/en/internal/doceng.adoc:30
+#, no-wrap
+msgid "Idle Doc Committers"
+msgstr ""
+
+#. type: Plain text
+#: content/en/internal/doceng.adoc:32
+msgid ""
+"Doc Committers that have not made a commit in 18 months will be contacted by "
+"a doceng@ member and without a response after a delay of 2 weeks, these "
+"committers will be automatically removed from the access file. In case of no "
+"response, doceng@ will also contact core@ about the idle "
+"committers. Committers that wish to get back their commit bits will have to "
+"reapply with the appropriate authority."
+msgstr ""
