@@ -1,7 +1,7 @@
 # freebsd-doc-website-po
 用来翻译 FreeBSD.org 这个网站
 
->release 里面的实在是太多了，我无能为力…… 暂时不考虑翻译这个文件夹里的文档
+>release 里面的实在是太多了，还需要转换
 
 # 构建测试：
 
