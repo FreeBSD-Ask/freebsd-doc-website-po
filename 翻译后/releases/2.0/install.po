@@ -1,0 +1,1193 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:38+0800\n"
+"PO-Revision-Date: 2022-04-08 13:50+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/releases/2.0/install.adoc:1
+#: content/en/releases/2.0/install.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.0 Installation Guide"
+msgstr "FreeBSD 2.0 安装指南"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:11
+#, no-wrap
+msgid ""
+"Welcome to FreeBSD 2.0, the complete 4.4 BSD Lite based OS for Intel (or\n"
+"compatible) based PCs.\n"
+msgstr ""
+"欢迎来到FreeBSD 2.0，这是一个基于Intel（或兼容）电脑的完整的4.4 BSD Lite操作系统。\n"
+"兼容）的PC。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:21
+#, no-wrap
+msgid ""
+"There are several documents on the floppy and a couple of on-line help\n"
+"screens that will greatly assist you in installing your system as you go\n"
+"along.  Nonetheless, initial user testing has shown that some of the\n"
+"terminology used may be difficult for newcomers to UN*X to understand, so\n"
+"we've prepared this step-by-step guide explaining a typical installation.\n"
+"You may find it useful to print this out and keep it handy as you go\n"
+"through the installation, or at least read through it once carefully so\n"
+"that some of the prompts and questions you encounter do not come as\n"
+"complete surprises.\n"
+msgstr ""
+"软盘上有几个文件和几个在线帮助\n"
+"屏，将极大地帮助你在安装系统的过程中\n"
+"进展。 然而，最初的用户测试表明，一些使用的术语对UN*X的新手来说可能难以理解。\n"
+"术语对UN*X的新手来说可能难以理解，所以\n"
+"我们准备了这个分步骤的指南，解释了一个典型的安装。\n"
+"你可能会发现把它打印出来，并在你进行安装时随身携带是很有用的。\n"
+"安装，或者至少仔细阅读一遍，以便\n"
+"这样，你遇到的一些提示和问题就不会让你完全感到意外。\n"
+"完全惊讶。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:26
+#, no-wrap
+msgid ""
+"Before you do anything, make two 1.44MB floppies from the two image files\n"
+"you'll find in the floppies/ directory - boot.flp and cpio.flp.  If you're\n"
+"reading this under DOS, you can do it in 1 easy step, or 3 in case this\n"
+"doesn't (for some weird reason) work:\n"
+msgstr ""
+"在你做任何事情之前，从两个镜像文件中制作两张1.44MB的软盘。\n"
+"你会在floppies/目录中发现两个镜像文件 - boot.flp和cpio.flp。 如果你是在\n"
+"如果你是在DOS下阅读这篇文章，你可以用一个简单的步骤完成，或者用3个步骤，以防\n"
+"如果你在DOS下阅读这篇文章，你可以用一个简单的步骤来完成，或者用三个步骤来完成，以防止这个步骤不能（由于一些奇怪的原因）发挥作用。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:32
+#, no-wrap
+msgid ""
+"1. If you're reading this file after typing \"go\", simply ESC back out for\n"
+"   a moment and select the \"makeflp\" batch file to make the two floppies.\n"
+"   This will invoke the DOS formatter to format the floppies and then\n"
+"   attempt to write the two disk images onto them.  If this doesn't work,\n"
+"   follow steps 2 through 4:\n"
+msgstr ""
+"1. 如果你在键入 \"go \"后阅读这个文件，只需ESC回避一下\n"
+"   然后选择 \"makeflp \"批处理文件来制作这两张软盘。\n"
+"   这将调用DOS格式化器来格式化软盘，然后\n"
+"   试图将两个磁盘镜像写入它们。 如果这不起作用。\n"
+"   请按照第2至第4步操作。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:37
+#, no-wrap
+msgid ""
+"2. Use the DOS format command to format 2 NEW floppies.  A lot of problems\n"
+"   have been caused by people using old and defective floppies, and much\n"
+"   grief can often be saved by simply using new, or at least trusted,\n"
+"   media.\n"
+msgstr ""
+"2. 使用DOS格式化命令来格式化2张新软盘。 很多问题\n"
+"   很多问题都是由于人们使用旧的和有缺陷的软盘造成的。\n"
+"   的问题，而简单地使用新的，或至少是可信赖的软盘，往往可以节省很多麻烦。\n"
+"   介质。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:39
+#, no-wrap
+msgid "3. Insert the first floppy and type:\n"
+msgstr "3. 插入第一张软盘并输入：\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:41
+#, no-wrap
+msgid "        tools\\dos-tool\\rawrite floppies\\boot.flp a:\n"
+msgstr "        tools/dos-tool/rawrite floppies/boot.flp a:\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:43
+#, no-wrap
+msgid "4. Insert the second floppy and type\n"
+msgstr "4. 插入第二张软盘并输入\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:45
+#, no-wrap
+msgid "        tools\\dos-tool\\rawrite floppies\\cpio.flp a:\n"
+msgstr "        tools/dos-tool/rawrite floppies/cpio.flp a:\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:47
+#, no-wrap
+msgid "You're now prepared to boot from the boot floppy and begin the installation.\n"
+msgstr "你现在准备从启动软盘启动并开始安装。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:50
+#, no-wrap
+msgid "The installation starts with the following screen:\n"
+msgstr "安装开始时，会出现以下画面：\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:69
+#, no-wrap
+msgid ""
+"  +-------------------------- Welcome to FreeBSD! ---------------------------+\n"
+"  | Use ALT-F2 and ALT-F1 to toggle between debugging                        |\n"
+"  | information screen (ALT-F2) or this dialog screen (ALT-F1)               |\n"
+"  |                                                                          |\n"
+"  | Please select one of the following options:                              |\n"
+"  | +----------------------------------------------------------------------+ |\n"
+"  | | 1. README               READ THIS FIRST.                             | |\n"
+"  | | 2. Release Notes        Read the 2.0 Release Notes (recommended).    | |\n"
+"  | | 3. Troubleshooting      Read this in case of trouble.                | |\n"
+"  | | 4. Partitions and MBRs  Verbose description of how these work.       | |\n"
+"  | | 5. COPYRIGHT            Read FreeBSD Copyright Information.          | |\n"
+"  | | 6. Install              Proceed with full installation.              | |\n"
+"  | | 7. Fixit                Repair existing installation (`fixit' mode). | |\n"
+"  | | 8. Quit                 Don't do anything, just reboot.              | |\n"
+"  | +----------------------------------------------------------------------+ |\n"
+"  +--------------------------------------------------------------------------+\n"
+"  |                          <  OK  >      <Cancel>                          |\n"
+"  +--------------------------------------------------------------------------+\n"
+msgstr ""
+"  +-------------------------- 欢迎来到 FreeBSD! ---------------------------+\n"
+"  | 使用ALT-F2和ALT-F1在调试|信息屏幕(ALT-F2)或这个对话框(ALT-F1)之间进行切换。\n"
+"  | 信息屏幕(ALT-F2)或这个对话框屏幕(ALT-F1) |\n"
+"  | |\n"
+"  | 请选择下列选项之一。                             |\n"
+"  | +----------------------------------------------------------------------+ |\n"
+"  | | 1.readme先读这个。                            | |\n"
+"  | | 2.发行说明 阅读2.0发行说明（推荐）。   | |\n"
+"  | | 3.故障排除 阅读这个，以防出现问题。               | |\n"
+"  | 4.分区和MBR 关于这些工作的详细描述。      | |\n"
+"  | 5.版权 阅读FreeBSD版权信息。         | |\n"
+"  | | 6. 安装 继续进行完全安装。             | |\n"
+"  | | 7. Fixit 修复现有的安装（\"fixit \"模式）。| |\n"
+"  | | 8. 退出 不要做任何事情，直接重启。             | |\n"
+"  | +----------------------------------------------------------------------+ |\n"
+"  +--------------------------------------------------------------------------+\n"
+"  |                                      <确定> <取消>                                                  |\n"
+"  +--------------------------------------------------------------------------+\n"
+"\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:78
+#, no-wrap
+msgid ""
+"You can move the arrow keys up and down to highlight the various options,\n"
+"selecting an option by hitting return when its line is highlighted.  You\n"
+"can also type the number of the option you want (1 - 7) and hit return.\n"
+"It's recommended that you read the README at a minimum, though the Release\n"
+"Notes are also helpful.  This may seem a like a lot to read, but if you are\n"
+"new to FreeBSD then these notes are invaluable for explaining the system\n"
+"and are highly recommended.\n"
+msgstr ""
+"你可以向上和向下移动方向键来突出各种选项。\n"
+"当某一选项被高亮显示时，按回车键来选择该选项。 你可以\n"
+"你也可以输入你想要的选项的编号（1-7），然后点击回车。\n"
+"建议你至少阅读一下README，虽然发行说明也很有用。\n"
+"注释也是有帮助的。 这看起来似乎有很多东西要读，但如果你是\n"
+"解释这个系统，这些说明是非常宝贵的。\n"
+"并强烈推荐。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:81
+#, no-wrap
+msgid ""
+"When you're done reading docs, select Install (5) to proceed to the next\n"
+"screen.\n"
+msgstr ""
+"当你阅读完文档后，选择安装（5），进入下一个屏幕。\n"
+"屏幕。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:83
+#, no-wrap
+msgid "This next screen is the disk editor screen, which looks like this:\n"
+msgstr "下一个屏幕是磁盘编辑器屏幕，它看起来像这样：\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:86
+#, no-wrap
+msgid ""
+"------------------------------------------------------------------------------\n"
+"FreeBSD 2.0-RELEASE Installation -- Diskspace editor\n"
+msgstr ""
+"------------------------------------------------------------------------------\n"
+"FreeBSD 2.0-RELEASE 安装 -- 磁盘空间编辑器\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:107
+#, no-wrap
+msgid ""
+"Disks         Total   FreeBSD                    |You should now assign some\n"
+"                                                 |space to root, swap, and\n"
+" 0: sd0     2006 MB      0 MB                    |(optionally) /usr partitions\n"
+" 1: sd1      496 MB      0 MB                    |Root (/) should be a minimum\n"
+"                                                 |of 18MB with a 30MB /usr\n"
+"Filesystems  Type        Size  Action Mountpoint |or 50MB without a /usr.\n"
+"                                                 |Swap space should be a\n"
+"                                                 |minimum of 12MB or RAM * 2\n"
+"                                                 |Be sure to also (A)ssign a\n"
+"                                                 |mount point to each one or\n"
+"                                                 |it will NOT be enabled.\n"
+"                                                 |\n"
+"                                                 |We suggest that you invoke\n"
+"                                                 |(F)disk, (W)rite the bootcode\n"
+"                                                 |then (D)isklabel your disk.\n"
+"                                                 |If installing on a drive\n"
+"                                                 |other than 0, also read the\n"
+"                                                 |TROUBLESHOOTING doc first\n"
+"Commands available:\n"
+"(H)elp  (T)utorial  (F)disk  (D)isklabel  (P)roceed  (Q)uit\n"
+msgstr ""
+"磁盘总数 FreeBSD |你现在应该分配一些\n"
+"                                                 |空间给根目录、交换目录和\n"
+" 0: sd0 2006 MB 0 MB |(可选) /usr 分区\n"
+" 1: sd1 496 MB 0 MB |根目录(/)应该至少有18MB，而/usr分区有30MB。\n"
+"                                                 |18MB，30MB的/usr分区。\n"
+"文件系统 类型 大小 行动 挂载点 |或50MB，没有/usr。\n"
+"                                                 |交换空间应该是\n"
+"                                                 |替换空间至少为12MB或RAM*2。\n"
+"                                                 |请确保在每个文件系统上都有一个挂载点。\n"
+"                                                 |的挂载点，否则\n"
+"                                                 |否则它将不会被启用。\n"
+"                                                 |\n"
+"                                                 |我们建议你调用\n"
+"                                                 |(F)disk, (W)rite the bootcode\n"
+"                                                 |然后给你的磁盘贴上标签。\n"
+"                                                 |如果安装在一个驱动器上\n"
+"                                                 |如果在0以外的驱动器上安装，也要阅读\n"
+"                                                 |如果在0以外的驱动器上安装，请先阅读TROUBLESHOOTING文档。\n"
+"可用的命令。\n"
+"(H)elp (T)utorial (F)disk (D)isklabel (P)roceed (Q)uit\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:109
+#, no-wrap
+msgid "Enter Command>\n"
+msgstr "输入命令>\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:111
+#: content/en/releases/2.0/install.adoc:152
+#: content/en/releases/2.0/install.adoc:222
+#: content/en/releases/2.0/install.adoc:272
+#, no-wrap
+msgid "------------------------------------------------------------------------------\n"
+msgstr "------------------------------------------------------------------------------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:118
+#, no-wrap
+msgid ""
+"As we can see, this system has two drives, sd0 and sd1.  On an IDE system,\n"
+"these would show up as \"wd0\" and \"wd1\" (or, on a single drive system, just\n"
+"sd0 or wd0).  We can see that neither of them has any space assigned to\n"
+"FreeBSD (they each show 0MB under the FreeBSD column), so we follow the\n"
+"instructions on the right hand side of the screen and invoke the (F)disk\n"
+"editor by typing `f':\n"
+msgstr ""
+"我们可以看到，这个系统有两个驱动器，sd0和sd1。 在一个IDE系统中。\n"
+"会显示为 \"wd0 \"和 \"wd1\"（或者，在一个单盘系统中，只是\n"
+"sd0或wd0）。 我们可以看到它们都没有任何空间分配给\n"
+"(它们在FreeBSD栏下都显示为0MB)，所以我们按照\n"
+"所以我们按照屏幕右侧的指示，通过输入`f'来调用(F)disk\n"
+"编辑器，输入 \"f\"。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:120
+#, no-wrap
+msgid "Enter Command> F\n"
+msgstr "输入命令> F\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:123
+#, no-wrap
+msgid ""
+"We're now prompted with the drive number to (F)disk, so we enter 0 for\n"
+"the first drive:\n"
+msgstr ""
+"现在提示我们输入(F)磁盘的驱动器号码，所以我们输入0来表示\n"
+"第一个驱动器。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:125
+#, no-wrap
+msgid "Enter number of disk to Fdisk> 0\n"
+msgstr "在Fdisk中输入磁盘的编号> 0\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:127
+#, no-wrap
+msgid "This now brings us to the FDISK editor screen, which looks like this:\n"
+msgstr "现在我们来到了FDISK编辑器界面，它看起来像这样。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:130
+#: content/en/releases/2.0/install.adoc:197
+#, no-wrap
+msgid ""
+"------------------------------------------------------------------------------\n"
+"FreeBSD 2.0-RELEASE Installation -- Diskspace editor -- FDISK\n"
+msgstr ""
+"------------------------------------------------------------------------------\n"
+"FreeBSD 2.0-RELEASE 安装 -- 磁盘空间编辑器 -- FDISK\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:132
+#: content/en/releases/2.0/install.adoc:199
+#, no-wrap
+msgid "Disk: sd0   Geometry:  2006 Cyl * 32 Hd * 64 Sect = 2006Mb = 4108600 Sect\n"
+msgstr "磁盘：SD0 位置：2006 Cyl * 32 Hd * 64 Sect = 2006Mb = 4108600 Sect\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:136
+#: content/en/releases/2.0/install.adoc:203
+#, no-wrap
+msgid ""
+"1 Boot?=\"No\"    Type=\"Primary\" 'big' DOS (> 32MB)\n"
+"  Phys=(c0/h1/s1..c299/h63/s32)   Sector=(32..614399)\n"
+"  Size=\"300\" MB, 299 Cylinders + 31 Tracks + 32 Sectors\n"
+msgstr ""
+"1 启动？=\"No\" 类型=\"Primary\" 'big' DOS (> 32MB)\n"
+"  Phys=(c0/h1/s1..c299/h63/s32) Sector=(32..614399)\n"
+"  大小=\"300 \"MB，299圆柱体+31轨道+32扇区\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:138
+#, no-wrap
+msgid "2 Unused\n"
+msgstr "2 未使用\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:141
+#: content/en/releases/2.0/install.adoc:209
+#, no-wrap
+msgid "3 Unused\n"
+msgstr "3 未使用\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:144
+#: content/en/releases/2.0/install.adoc:213
+#, no-wrap
+msgid "4 Unused\n"
+msgstr "4 未使用\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:150
+#: content/en/releases/2.0/install.adoc:220
+#, no-wrap
+msgid ""
+"Commands available:\n"
+"(H)elp   (T)utorial   (D)elete   (E)dit   (R)eread   (W)rite MBR   (Q)uit\n"
+"(U)se entire disk for FreeBSD   (G)eometry   Write MBR (B)ootcode\n"
+"Enter Command>\n"
+msgstr ""
+"可用的命令。\n"
+"(H)elp (T)utorial (D)elete (E)dit (R)read (W)rite MBR (Q)uit\n"
+"(U)se entire disk for FreeBSD (G)eometry Write MBR (B)ootcode\n"
+"输入命令>\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:162
+#, no-wrap
+msgid ""
+"We see that drive 0 has a DOS partition (also called a \"slice\" in FreeBSD\n"
+"parlance, to distinguish it from a FreeBSD partition) on it which is 300MB\n"
+"in size (don't worry if the numbers you see are much smaller than these - I\n"
+"have a pretty large 2.1GB disk! :-).  Let's also say we want to allocate\n"
+"the rest to FreeBSD, so to do this we want to (E)dit one of the existing\n"
+"slices.  We can see that 2, 3, and 4 are unused so let's pick the first\n"
+"unused one, which is 2 (if we wanted to replace an existing operating\n"
+"system slice with FreeBSD, we'd pick its number instead).  We first type\n"
+"`E' to edit a slice entry:\n"
+msgstr ""
+"我们看到0号盘有一个DOS分区（在FreeBSD术语中也称为 \"slice\"，以区别于FreeBSD分区）。\n"
+"术语称为 \"slice\"，以区别于 FreeBSD 分区），它的大小为 300MB\n"
+"大小（如果你看到的数字比这些小得多，请不要担心--我有一个相当大的 2.1GB 磁盘。\n"
+"我有一个相当大的2.1GB磁盘！:-)。 我们还可以说，我们想把剩下的部分分配给\n"
+"其余的部分分配给FreeBSD，所以为了做到这一点，我们要(E)dit其中一个现有的\n"
+"分片。 我们可以看到，2、3、4号是未使用的，所以让我们选择第一个\n"
+"如果我们想用FreeBSD替换一个现有的操作系统片，我们可以选择第一个未使用的片子，也就是2。\n"
+"系统分片，我们会选择它的编号）。 我们首先输入\n"
+"`E'来编辑一个分片条目。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:164
+#, no-wrap
+msgid "Enter Command> E\n"
+msgstr "输入命令> E\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:166
+#, no-wrap
+msgid "And we're prompted for a slice to edit.  We type 2:\n"
+msgstr "然后我们被提示要编辑一个片断。 我们输入2。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:168
+#, no-wrap
+msgid "Edit which Slice> 2\n"
+msgstr "编辑哪个片子> 2\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:174
+#, no-wrap
+msgid ""
+"Now we're prompted for the size of the new slice, the default for which is\n"
+"all remaining space on the disk.  Let's say that we don't want to allocate\n"
+"ALL the space on the disk, but want to reserve 400MB for some other future\n"
+"OS.  The total amount of free space left is 1706MB, which is the default\n"
+"value selected for us, so we backspace over it and enter 1306:\n"
+msgstr ""
+"现在，我们被提示新分片的大小，其默认值是\n"
+"磁盘上的所有剩余空间。 比方说，我们不想分配\n"
+"磁盘上的所有空间，但想为将来的其他操作系统保留400MB。\n"
+"操作系统。 剩下的自由空间总量是1706MB，这是为我们选择的默认值。\n"
+"这是为我们选择的默认值，所以我们在它上面退格，输入1306。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:176
+#, no-wrap
+msgid "Size of slice in MB> 1306\n"
+msgstr "分片的大小（MB）> 1306\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:184
+#, no-wrap
+msgid ""
+"Now we're asked for the type of the slice.  The type is what tells the PC\n"
+"what sort of slice this is.  DOS primary slices are, for example, type 6.\n"
+"FreeBSD slices are type 0xa5 (hexadecimal).  If we wanted to reserve space\n"
+"at this time for some other type of OS like Linux or OS/2, and we knew\n"
+"their slice type (0x82 for Linux and 0x0A for OS/2, just in case you're\n"
+"interested), we could also do that from this editor, but we're only\n"
+"interested in FreeBSD for now so we accept the default.\n"
+msgstr ""
+"现在我们被要求提供切片的类型。 类型是告诉PC\n"
+"这是个什么样的片断。 例如，DOS的主要分片是6型。\n"
+"FreeBSD的分片是类型0xa5（十六进制）。 如果我们想保留空间\n"
+"而我们知道它们的片断类型（Linux或OS/2的片断为0x82），那么在这个时候为其他类型的操作系统（如Linux或OS/2）保留空间。\n"
+"他们的分片类型（Linux为0x82，OS/2为0x0A，如果你有兴趣的话\n"
+"兴趣），我们也可以通过这个编辑器来做，但我们现在只对FreeBSD感兴趣，所以我们接受\n"
+"但我们现在只对FreeBSD感兴趣，所以我们接受默认。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:186
+#, no-wrap
+msgid "Type of slice (0xa5=\"FreeBSD\")> 0xa5\n"
+msgstr "分片类型（0xa5=\"FreeBSD\"）> 0xa5\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:189
+#, no-wrap
+msgid ""
+"The next prompt asks if we want to make this slice bootable by\n"
+"default, which we do so we accept the default:\n"
+msgstr ""
+"下一个提示是问我们是否要使这个片子在默认情况下可启动。\n"
+"默认情况下，我们接受默认值。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:191
+#, no-wrap
+msgid "Bootflag (0x80 for YES)> 0x80\n"
+msgstr "启动标志（0x80代表YES）> 0x80\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:194
+#, no-wrap
+msgid ""
+"At this point we come back to the main screen, which now shows a new entry\n"
+"for slice 2:\n"
+msgstr ""
+"在这一点上，我们回到主屏幕，它现在显示了一个新条目\n"
+"片段2。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:207
+#, no-wrap
+msgid ""
+"2 Boot?=\"Yes\"   Type=\"FreeBSD\"/NetBSD/386BSD\n"
+"  Phys=(c300/h0/s1..c1023/h31/s0)   Sector=(614400..3289087)\n"
+"  Size=\"1306\" MB, 1306 Cylinders\n"
+msgstr ""
+"2 启动？=\"是\" 类型=\"FreeBSD\"/NetBSD/386BSD\n"
+"  Phys=(c300/h0/s1..c1023/h31/s0) Sector=(614400..3289087)\n"
+"  大小=\"1306 \"MB, 1306个圆柱体\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:235
+#, no-wrap
+msgid ""
+"At this point we're happy with the slices on the first drive, so we type\n"
+"`w' to write the new information out.  It also prompts to make *sure* we\n"
+"really want to do this, so we backspace over the default of `N' and type\n"
+"`y'<return>.  And this point, we also can decide whether or not we want a\n"
+"\"boot manager\" installed.  A boot manager is a little utility that prompts\n"
+"you for the operating system you want to boot every time you reset or power\n"
+"on your PC, and can be a very handy way of sharing your computer between\n"
+"FreeBSD and some other OS, like Linux or DOS.  We decide that we want to\n"
+"have this feature, so we `b' to write the special MBR (B)ootcode out to the\n"
+"disk.  This does not harm any of the other operating systems on the disk,\n"
+"as it's written to a special area.  Now we exit this screen by typing `q',\n"
+"for (Q)uit.\n"
+msgstr ""
+"在这一点上，我们对第一个驱动器上的片断很满意，所以我们输入\n"
+"`w'来写入新的信息。 它还提示我们*确定*我们真的想这样做，所以我们在默认的 \"N \"上退格。\n"
+"所以我们在默认的 \"N \"上退格，然后键入\n"
+"`y'<回车>。 在这一点上，我们也可以决定我们是否要安装一个\n"
+"安装 \"引导管理器\"。 引导管理器是一个小工具，它提示你要安装的操作系统。\n"
+"开机管理器是一个小工具，它可以在你每次重置或开机时提示你要启动的操作系统。\n"
+"开机管理器是一个小工具，它可以在每次复位或开机时提示你选择你想启动的操作系统，并且可以成为在FreeBSD和其他操作系统之间共享计算机的一种非常方便的方式。\n"
+"FreeBSD 和其他操作系统，如 Linux 或 DOS。 我们决定要\n"
+"拥有这个功能，所以我们`b'把特殊的MBR (B)otcode写到了\n"
+"磁盘。 这不会损害磁盘上的任何其他操作系统。\n"
+"因为它被写到了一个特殊的区域。 现在我们通过输入`q'退出这个屏幕。\n"
+"表示(Q)uit。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:244
+#, no-wrap
+msgid ""
+"This brings us back to the main prompt.  If we wanted to allocate any\n"
+"additional slices on other drives, we also could re-invoke the (F)disk\n"
+"editor by typing `f' again and giving a different drive number at the\n"
+"prompt, but we'll assume for now that we've only got one disk and want to\n"
+"go on.  Typing `d' now enters the (D)isklabel screen, which prompts us for\n"
+"the drive to write a disklabel onto, like the FDISK editor.  We type `0'\n"
+"for the first drive and hit return.  This brings us to the DISKLABEL editor\n"
+"screen, which looks like this:\n"
+msgstr ""
+"这使我们回到了主提示。 如果我们想分配任何\n"
+"如果我们想在其他驱动器上分配更多的片断，我们也可以重新启动（F）disk\n"
+"编辑器，再次输入 \"f\"，并在提示符下给出一个不同的驱动器号。\n"
+"提示，但是我们现在假设我们只有一个磁盘，并且想要\n"
+"继续前进。 输入`d'现在进入(D)isklabel屏幕，它提示我们在哪个驱动器上写磁盘标签。\n"
+"像FDISK编辑器一样，提示我们要写一个磁盘标签到哪个驱动器上。 我们输入 \"0\n"
+"作为第一个驱动器，然后点击返回。 这就把我们带到了DISKLABEL编辑器\n"
+"屏幕，它看起来像这样。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:247
+#, no-wrap
+msgid ""
+"------------------------------------------------------------------------------\n"
+"FreeBSD 2.0-RELEASE Installation -- Diskspace editor -- DISKLABEL\n"
+msgstr ""
+"------------------------------------------------------------------------------\n"
+"FreeBSD 2.0-RELEASE 安装 -- 磁盘空间编辑器 -- DISKLABEL\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:257
+#: content/en/releases/2.0/install.adoc:344
+#, no-wrap
+msgid ""
+"Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"
+"a         0         0         0      0  unused\n"
+"b         0         0         0      0  unused\n"
+"c   1433600   4108287   2674688   1306  unused          <Entire FreeBSD slice>\n"
+"d         0   4108599   4108600   2006  unused          <Entire Disk>\n"
+"e         0         0         0      0  unused\n"
+"f         0         0         0      0  unused\n"
+"g         0         0         0      0  unused\n"
+"h        32    614399    614368    300  MSDOS\n"
+msgstr ""
+"部件 开始 结束 块状物 MB类型 行动 安装点\n"
+"a 0 0 0 0 未使用的\n"
+"b 0 0 0 0 未使用\n"
+"c 1433600 4108287 2674688 1306 unused <Entire FreeBSD slice>（未使用）。\n"
+"d 0 4108599 4108600 2006年未使用的<整个磁盘>。\n"
+"e 0 0 0 0 未使用的\n"
+"f 0 0 0 0 未使用\n"
+"g 0 0 0 0 未使用的\n"
+"h 32 614399 614368 300 MSDOS\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:265
+#, no-wrap
+msgid ""
+"Total size:       2674688 blocks   1306Mb\n"
+"Space allocated:        0 blocks      0Mb\n"
+msgstr ""
+"总大小：2674688块1306Mb\n"
+"分配的空间。       0个区块 0Mb\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:270
+#, no-wrap
+msgid ""
+"Commands available:\n"
+"(H)elp  (T)utorial  (E)dit  (A)ssign  (D)elete  (R)eread  (W)rite  (Q)uit\n"
+"(P)reserve  (S)lice\n"
+"Enter Command>\n"
+msgstr ""
+"可用的命令。\n"
+"(H)help (T)utorial (E)dit (A)ssign (D)elete (R)read (W)rite (Q)uit)\n"
+"(P)reserve (S)lice\n"
+"输入命令>\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:281
+#, no-wrap
+msgid ""
+"The BSD partitions, a - h, are FreeBSD's way of dividing up a physical\n"
+"slice into multiple filesystems.  Every FreeBSD system should have, at\n"
+"minimum, a root filesystem and a swap partition allocated.  The root\n"
+"filesystem is called \"/\", and is generally put on partition `a' by\n"
+"convention.  Swap partitions always go on `b', and the `c' and `d'\n"
+"partitions are special and point to the entire FreeBSD slice and the entire\n"
+"disk, respectively.  `c' and `d' cannot and should not be allocated to\n"
+"actual filesystems.\n"
+msgstr ""
+"BSD分区，a-h，是FreeBSD将一个物理分区划分为多个文件系统的方式。\n"
+"分割成多个文件系统。 每个 FreeBSD 系统都应该至少有一个根文件系统和一个交换分区。\n"
+"至少有一个根文件系统和一个交换分区。 根文件系统\n"
+"文件系统被称为\"/\"，通常被放在分区`a'上。\n"
+"惯例。 交换分区总是放在 \"b \"上，\"c \"和 \"d \"是特殊的，指向 \"a \"分区。\n"
+"分区是特殊的，分别指向整个 FreeBSD 分区和整个\n"
+"磁盘。 `c'和`d'不能也不应该被分配到\n"
+"实际的文件系统。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:286
+#, no-wrap
+msgid ""
+"We also see that partition h points conveniently to the DOS slice,\n"
+"which we can also assign to a location in our filesystem hierarchy\n"
+"to conveniently share files between FreeBSD and DOS.  More on this in\n"
+"a moment.\n"
+msgstr ""
+"我们还看到，分区h很方便地指向了DOS片区。\n"
+"我们也可以把它分配到我们的文件系统层次结构中的某个位置\n"
+"以方便在 FreeBSD 和 DOS 之间共享文件。 稍后会有更多关于这个\n"
+"稍后会有更多的内容。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:288
+#, no-wrap
+msgid "A typical filesystem layout might look like this:\n"
+msgstr "一个典型的文件系统布局可能看起来像这样。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:292
+#, no-wrap
+msgid ""
+"/   20MB\n"
+"swap    32MB\n"
+"/usr    120MB\n"
+msgstr ""
+"/ 20MB\n"
+"交换空间32MB\n"
+"/usr 120MB\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:301
+#, no-wrap
+msgid ""
+"/, or the root filesystem, contains system files and some temporary space.\n"
+"It should be at least 18MB in size, though a little extra doesn't hurt.\n"
+"Swap space is one of those \"it never hurts to have too much\" sorts of\n"
+"items, though if your system isn't too heavily used then it's probably not\n"
+"that important to have lots and lots of it.  A good rule of thumb for swap\n"
+"is that you want a minimum of 12MB of it, and the overall calculation\n"
+"should be the amount of memory you have multiplied by two.  That is to\n"
+"say that if you have 16MB of memory, then 32MB of swap is good.\n"
+msgstr ""
+"/，即根文件系统，包含系统文件和一些临时空间。\n"
+"它应该至少有18MB大小，尽管多一点也无妨。\n"
+"交换空间是一种 \"多多益善 \"的东西，但如果你的系统使用量不大，那么它也是一种 \"多多益善 \"的东西。\n"
+"项目之一，不过如果你的系统使用量不大，那么拥有大量的交换空间可能并不重要。\n"
+"有很多很多的空间也不是那么重要。 一个好的互换规则是\n"
+"的一个很好的经验法则是，你希望至少有12MB的交换空间，而整体的计算方法是\n"
+"应该是你的内存量乘以2。 这就是说\n"
+"也就是说，如果你有16MB的内存，那么32MB的交换空间就很好。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:308
+#, no-wrap
+msgid ""
+"If you've got several drives, you can also allocate some swap on each one\n"
+"and spread the load out a little.  On my personal system, I've got 32MB of\n"
+"main memory and 64MB of swap on both drives for a total of 128MB of swap.\n"
+"This gives me 4X memory for total program swapping, which gives me the\n"
+"ability to run some pretty big programs!  Emacs and the X Window System, in\n"
+"particular, can be real swap hogs.\n"
+msgstr ""
+"如果你有几个驱动器，你也可以在每个驱动器上分配一些交换空间\n"
+"并将负载分散一些。 在我的个人系统中，我有32MB的主内存和64MB的交换空间，共128MB的交换空间。\n"
+"主内存和64MB的交换空间，总共有128MB的交换空间。\n"
+"这使我有4倍的内存用于程序交换，这使我有能力运行一些相当大的程序。\n"
+"这使我有能力运行一些相当大的程序!  Emacs和X窗口系统，特别是\n"
+"尤其是Emacs和X窗口系统，可以说是真正的交换空间大户。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:313
+#, no-wrap
+msgid ""
+"In any case, we'll assume for the moment that we're still configuring the\n"
+"ideal system and we'll allocate 64MB of swap space, using the MEM * 2\n"
+"equation.  If you only had 8MB of memory, you'd allocate 16MB of swap\n"
+"instead.\n"
+msgstr ""
+"在任何情况下，我们暂时假设我们仍然在配置理想的系统，我们将分配64MB的交换空间。\n"
+"理想的系统，我们将分配64MB的交换空间，使用MEM * 2\n"
+"等式。 如果你只有8MB的内存，你将分配16MB的交换空间\n"
+"来代替。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:320
+#, no-wrap
+msgid ""
+"The second filesystem of importance is /usr, which contains further system\n"
+"binaries and all of the bundled user binaries.  /usr should be at least\n"
+"80MB in size to hold all of the important binaries, though if you plan on\n"
+"having a big /usr/local or on loading the X Window System (also known as\n"
+"XFree86 3.1) distribution then you should either create separate\n"
+"filesystems for them, or you should make /usr a lot bigger.\n"
+msgstr ""
+"第二个重要的文件系统是/usr。\n"
+"二进制文件和所有捆绑的用户二进制文件。 /usr应该至少有\n"
+"80MB，以容纳所有重要的二进制文件。\n"
+"有一个大的/usr/local或者加载X窗口系统（也被称为\n"
+"XFree86 3.1）发行版，那么你应该为它们创建单独的\n"
+"文件系统，或者你应该把/usr弄得大一些。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:331
+#, no-wrap
+msgid ""
+"It's also possible to skip making /usr altogether and simply make a large\n"
+"root (/) filesystem.  Since /usr fits \"underneath\" /, a missing /usr won't\n"
+"cause any problems if / is large enough to hold the contents for both.  In\n"
+"any case, it's a user decision and tends to be driven by convention more\n"
+"than anything else.  For the purposes of this installation guide, we'll\n"
+"assume a 200MB /usr, 100MB of space allocated for local binaries, which\n"
+"we'll mount on /usr/local, and the rest for user home directories, which\n"
+"we'll mount on /usr/users.  Don't be put off by the size of these numbers!\n"
+"You can make a system fit into less space, but since we're dividing up the\n"
+"ideal 2GB dream disk, we might as well do it right! ;-)\n"
+msgstr ""
+"也可以完全不做/usr，只做一个大的\n"
+"根（/）文件系统。 由于/usr位于/的 \"下面\"，如果/足够大的话，丢失的/usr也不会造成任何问题。\n"
+"导致任何问题，如果/足够大，可以容纳两者的内容。 在任何情况下\n"
+"在任何情况下，这都是用户的决定，而且往往是由惯例驱动的。\n"
+"而不是其他什么。 在本安装指南中，我们将\n"
+"假设一个200MB的/usr，100MB的空间分配给本地二进制文件，我们将其挂载在/usr上。\n"
+"我们将把它安装在/usr/local上，其余的分配给用户的主目录。\n"
+"我们将在/usr/users上安装。 不要被这些数字的大小所吓倒!\n"
+"你可以让一个系统适应更少的空间，但由于我们正在分割理想的2GB梦想磁盘，所以我们可能会把它分到更小的空间里。\n"
+"理想的2GB梦想磁盘，我们不妨把它做对！;-)\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:334
+#, no-wrap
+msgid ""
+"Getting back to the relevant part of the DISKLABEL screen again, we remember\n"
+"that it looked like this:\n"
+msgstr ""
+"再次回到DISKLABEL屏幕的相关部分，我们记得\n"
+"它看起来像这样。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:348
+#, no-wrap
+msgid ""
+"So we'll first allocate some space on partition `a' for that root partition\n"
+"by typing `e', for (E)dit partition.  This asks us which partition we want\n"
+"to change the size of, so we type `a':\n"
+msgstr ""
+"所以我们首先在分区`a'上为根分区分配一些空间\n"
+"输入 \"e\"，表示(E)dit分区。 这就会问我们想要哪个分区\n"
+"改变分区的大小，所以我们输入 \"a\"。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:350
+#, no-wrap
+msgid "Change size of which partition> a\n"
+msgstr "改变哪个分区的大小> a\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:353
+#, no-wrap
+msgid ""
+"And it prompts us for the amount of space, so we'll pick 20MB for a nice\n"
+"comfortable root filesystem:\n"
+msgstr ""
+"它提示我们空间的大小，所以我们将选择20MB作为一个漂亮的\n"
+"舒适的根文件系统。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:355
+#, no-wrap
+msgid "Size of partition in MB> 20\n"
+msgstr "分区的大小（MB）> 20\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:357
+#, no-wrap
+msgid "Now we see the display change to:\n"
+msgstr "现在我们看到显示的内容变成了。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:361
+#, no-wrap
+msgid ""
+"Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"
+"a   1433600   1474559     40960     20  4.2BSD\n"
+"...\n"
+msgstr ""
+"零件起始端 块状物 MB类型 行动 安装点\n"
+"A 1433600 1474559 40960 20 4.2BSD\n"
+"...\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:366
+#, no-wrap
+msgid ""
+"The system shows us where the partition starts and stops and indicates that\n"
+"it's a 4.2BSD filesystem, which is correct (it's really a 4.4 BSD file\n"
+"system, in actuality, but the two are similar enough to share the same\n"
+"label).\n"
+msgstr ""
+"系统向我们显示了分区的起止点，并指出\n"
+"它是一个4.2BSD文件系统，这是正确的（它实际上是一个4.4BSD文件系统。\n"
+"系统，但这两个系统很相似，可以使用同一个标签）。\n"
+"标签）。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:369
+#, no-wrap
+msgid ""
+"We do the same for swap by typing `e' again and modify the `b' partition\n"
+"by filling in 64 for the size, to allocate 64MB of swap.\n"
+msgstr ""
+"我们再次输入 \"e \"对swap进行同样的操作，并修改 \"b \"分区的大小。\n"
+"填充64的大小，以分配64MB的交换空间。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:374
+#, no-wrap
+msgid ""
+"Finally, remembering that `c' and `d' are special, and not for our use, we\n"
+"change the size of `e' to 200 for our future /usr, `f' to 100 for our\n"
+"/usr/local, and `g' to the rest of the disk for /usr/users.  When we're\n"
+"done, the top of the disklabel screen should look like this:\n"
+msgstr ""
+"最后，考虑到 \"c \"和 \"d \"是特殊的，不适合我们使用，我们将 \"e \"的大小改为200，用于我们未来的/usr，\"f \"的大小改为100，用于我们的/usr。\n"
+"我们把`e'的大小改为200，用于我们未来的/usr，`f'改为100，用于我们的\n"
+"/usr/local，`g'为/usr/users的其余磁盘。 当我们\n"
+"完成后，磁盘标签屏幕的顶部应该是这样的。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:384
+#, no-wrap
+msgid ""
+"Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"
+"a   1433600   1474559     40960     20  4.2BSD\n"
+"b   1474560   1605631    131072     64  swap\n"
+"c   1433600   4108287   2674688   1306  unused          <Entire FreeBSD slice>\n"
+"d         0   4108599   4108600   2006  unused          <Entire Disk>\n"
+"e   1605632   2015231    409600    200  4.2BSD\n"
+"f   2015232   2220031    204800    100  4.2BSD\n"
+"g   2220032   4108287   1888256    922  4.2BSD\n"
+"h        32    614399    614368    300  MSDOS\n"
+msgstr ""
+"零件起始端 块状物 MB类型 行动 安装点\n"
+"a 1433600 1474559 40960 20 4.2BSD\n"
+"b 1474560 1605631 131072 64 swap\n"
+"c 1433600 4108287 2674688 1306 unused <Entire FreeBSD slice>.\n"
+"d 0 4108599 4108600 2006 未使用的<整机磁盘>。\n"
+"e 1605632 2015231 409600 200 4.2BSD\n"
+"f 2015232 2220031 204800 100 4.2BSD\n"
+"g 2220032 4108287 1888256 922 4.2BSD\n"
+"h 32 614399 614368 300 MSDOS\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:388
+#, no-wrap
+msgid ""
+"We left `h' alone, since we actually want to be able to share files with\n"
+"our DOS partition.  At this point, we want to type `w' for (W)rite to write\n"
+"out the new size information to disk.\n"
+msgstr ""
+"我们没有使用 \"h\"，因为我们实际上希望能够与DOS分区共享文件。\n"
+"我们的DOS分区。 在这一点上，我们要在(W)rite中键入`w'，以便将新的大小信息写入磁盘。\n"
+"写出新的大小信息到磁盘。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:397
+#, no-wrap
+msgid ""
+"You probably also noticed by now that \"/\", \"/usr\" and the other filesystem\n"
+"names we've been talking about don't appear anywhere in the above list.\n"
+"Where are they?  This brings us to the next stage, which is to (A)ssign the\n"
+"new partitions to actual filesystem mount points.  A filesystem in\n"
+"FreeBSD doesn't actually appear anywhere until we \"mount\" it someplace, a\n"
+"convention from the old days when disks were actually large removable packs\n"
+"that a system operator physically mounted on a large washing-machine sized\n"
+"disk drive spindle!  As you can see, not much has changed today! :-)\n"
+msgstr ""
+"你可能也注意到了，\"/\"、\"/usr \"和其他的文件系统名称\n"
+"的名字没有出现在上面的列表中。\n"
+"它们在哪里呢？ 这就把我们带到了下一个阶段，也就是把新的分区命名为\n"
+"新的分区与实际的文件系统挂载点。 一个文件系统在\n"
+"中的文件系统，在我们 \"挂载 \"它之前，它不会出现在任何地方。\n"
+"惯例，当时的磁盘实际上是大型的可移动包\n"
+"系统操作人员将其安装在洗衣机大小的\n"
+"磁盘驱动器转轴上  正如你所看到的，今天的情况并没有太大的改变。:-)\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:401
+#, no-wrap
+msgid ""
+"We'll proceed then by starting at the top with the first partition and\n"
+"assigning it to the root filesystem (/) by typing `a', for (A)ssign, and\n"
+"then typing `a' again, for partition a:\n"
+msgstr ""
+"我们将从最上面的第一个分区开始，并通过输入 \"a \"来指定根文件系统（/）。\n"
+"通过输入 \"a\"，即(A)sign，将其分配给根文件系统(/)，然后再输入 \"a\"，即a分区。\n"
+"然后再次输入 \"a\"，表示分区a。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:403
+#, no-wrap
+msgid "Assign which partition> a\n"
+msgstr "指派哪个分区> a\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:405
+#, no-wrap
+msgid "When it asks us for the name of the mount point, we type /:\n"
+msgstr "当它要求我们提供挂载点的名称时，我们输入/。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:407
+#, no-wrap
+msgid "Directory mountpoint> /\n"
+msgstr "目录挂载点> /\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:409
+#, no-wrap
+msgid "And the display adjusts accordingly to show us the new state of affairs:\n"
+msgstr "而显示屏也会相应调整，向我们展示新的状态。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:413
+#, no-wrap
+msgid ""
+"Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"
+"a   1433600   1474559     40960     20  4.2BSD  newfs   /\n"
+"..\n"
+msgstr ""
+"部件 开始 结束 块 MB 类型 行动 安装点\n"
+"a 1433600 1474559 40960 20 4.2BSD newfs /\n"
+"..\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:427
+#, no-wrap
+msgid ""
+"The Action field also now shows \"newfs\", which means that the partition\n"
+"will be created anew.  For root filesystems, this is the default and cannot\n"
+"be changed, but other partitions can be optionally \"Preserved\" by typing\n"
+"`p' for (P)reserve.  There are very few situations in which we'd want to do\n"
+"this, but if, say, we were actually installing a disk from an older FreeBSD\n"
+"machine which we wanted to mount into our new system but NOT erase, we\n"
+"could do it this way.  For now, let's assume that this is a new\n"
+"installation and we want all the filesystems to be created from scratch.\n"
+"We thus go through and assign the rest of the filesystems to their\n"
+"respective /usr, /usr/local and /usr/users mountpoints.  We also assign the\n"
+"`b' partition, which doesn't take a mountpoint (and won't prompt for one\n"
+"when we (A)ssign it), but needs us to tell it that we're ready to use it\n"
+"for swap.\n"
+msgstr ""
+"动作栏现在也显示 \"newfs\"，这意味着该分区\n"
+"将被重新创建。 对于根文件系统，这是默认的，不能改变。\n"
+"但其他分区可以选择 \"保留\"，键入\n"
+"`p'表示(P)保留。 在很少的情况下，我们会想这样做\n"
+"但如果，比如说，我们实际上是在安装一个旧的FreeBSD机器上的磁盘，我们想把它装到我们的\n"
+"机器上安装一个磁盘，我们想把它装到新系统中，但不擦除，我们可以这样做。\n"
+"我们可以这样做。 现在，让我们假设这是一个新的\n"
+"我们希望所有的文件系统都能从头开始创建。\n"
+"因此，我们将其余的文件系统分配给它们的\n"
+"/usr、/usr/local和/usr/users挂载点。 我们还分配了\n"
+"`b'分区，它不需要一个挂载点（当我们(A)sign时也不会提示要一个\n"
+"当我们(A)sign它的时候，它不需要一个挂载点（也不会提示一个），但需要我们告诉它我们准备用它来做交换。\n"
+"用作交换区。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:429
+#, no-wrap
+msgid "When we're done, the top of the screen should look something like this:\n"
+msgstr "当我们完成后，屏幕的顶部应该看起来像这样。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:439
+#, no-wrap
+msgid ""
+"Part  Start       End    Blocks     MB  Type    Action  Mountpoint\n"
+"a   1433600   1474559     40960     20  4.2BSD  newfs   /\n"
+"b   1474560   1605631    131072     64  swap    swap    swap\n"
+"c   1433600   4108287   2674688   1306  unused          <Entire FreeBSD slice>\n"
+"d         0   4108599   4108600   2006  unused          <Entire Disk>\n"
+"e   1605632   2015231    409600    200  4.2BSD  newfs   /usr\n"
+"f   2015232   2220031    204800    100  4.2BSD  newfs   /usr/local\n"
+"g   2220032   4108287   1888256    922  4.2BSD  newfs   /usr/users\n"
+"h        32    614399    614368    300  MSDOS\n"
+msgstr ""
+"部件 开始 结束 块 MB 类型 行动 安装点\n"
+"a 1433600 1474559 40960 20 4.2BSD newfs /\n"
+"b 1474560 1605631 131072 64 swap swap swap\n"
+"c 1433600 4108287 2674688 1306 unused <Entire FreeBSD slice>.\n"
+"d 0 4108599 4108600 2006 未使用的<整机磁盘>。\n"
+"e 1605632 2015231 409600 200 4.2BSD newfs /usr\n"
+"f 2015232 2220031 204800 100 4.2BSD newfs /usr/local\n"
+"g 2220032 4108287 1888256 922 4.2BSD newfs /usr/users\n"
+"h 32 614399 614368 300 MSDOS\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:444
+#, no-wrap
+msgid ""
+"As a final bonus, we'll assign the DOS partition to be mounted on /dos.  We\n"
+"do this with (A)ssign as we did the others, and we also notice that the\n"
+"system is smart enough to see that it's not a FreeBSD partition and we\n"
+"DON'T want to newfs it, we want to simply mount it:\n"
+msgstr ""
+"作为最后的奖励，我们将指定DOS分区挂载在/dos。 我们\n"
+"用(A)sign来做这个，就像我们做其他的一样，我们也注意到了\n"
+"系统足够聪明，可以看出这不是一个FreeBSD分区，而且我们\n"
+"我们不想要newfs它，我们只想简单地挂载它。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:446
+#, no-wrap
+msgid "h        32    614399    614368    300  MSDOS   mount   /dos\n"
+msgstr "h 32 614399 614368 300 MSDOS mount /dos\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:448
+#, no-wrap
+msgid "At this point, our system is all set up and ready to go!\n"
+msgstr "在这一点上，我们的系统已经全部设置好了，可以开始使用了!\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:451
+#, no-wrap
+msgid ""
+"We type `q' to go back to the main menu and then type `p' to (P)roceed to\n"
+"the next phase of installation.\n"
+msgstr ""
+"我们键入`q'回到主菜单，然后键入`p'进入(P)roceed to the next phase.\n"
+"进入下一阶段的安装。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:455
+#, no-wrap
+msgid ""
+"We're now given one last chance to back out of the install, and we hit\n"
+"return if we're sure, otherwise we type <Tab> to select \"No\" and hit return\n"
+"to consider our settings again before going on.\n"
+msgstr ""
+"现在，我们有最后一次机会退出安装，如果我们确定的话，我们就点击\n"
+"回车，否则我们输入<Tab>选择 \"No \"并点击回车\n"
+"在继续之前再次考虑我们的设置。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:459
+#, no-wrap
+msgid ""
+"The rest of the installation is pretty much self-explanatory.  After the\n"
+"filesystems are initially created and populated, you'll be prompted to\n"
+"reboot from the hard disk.  Do so and provide the cpio floppy when asked.\n"
+msgstr ""
+"其余的安装工作基本是不言自明的。 在\n"
+"文件系统被初步创建和填充后，你会被提示从硬盘重新启动。\n"
+"从硬盘上重新启动。 这样做，并在要求时提供cpio软盘。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:465
+#, no-wrap
+msgid ""
+"When the initial flurry of welcome and informational prompts has died down,\n"
+"you'll come to a screen asking you to load one or more distributions.  At\n"
+"the minimum, select \"bindist\" to load the basic system.  If you're loading\n"
+"from other than CDROM media, follow the appropriate paths through the\n"
+"installation process.\n"
+msgstr ""
+"当最初的一系列欢迎和信息提示消失后。\n"
+"你会看到一个屏幕，要求你加载一个或多个发行版。 在\n"
+"最低限度，选择 \"bindist \"来加载基本系统。 如果你从CDROM以外的介质中加载\n"
+"如果你是从CDROM介质以外的地方加载，请按照适当的路径进行安装。\n"
+"安装过程。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:474
+#, no-wrap
+msgid ""
+"If you're loading from CDROM, select CDROM as the media type and select the\n"
+"type of CDROM you've got (SCSI or Mitsumi).  When it asks you for an\n"
+"installation subdirectory, simply hit return if you've got the 2.0 CD from\n"
+"Walnut Creek CDROM.  You may select additional optional packages to load\n"
+"after the bindist extracts, provided that you've got the space for it.  Use\n"
+"the \"?diskfree\" menu option from time to time to keep an eye on your free\n"
+"space.  When you're done, you'll be asked a few more basic questions and\n"
+"then that's it!  You've got FreeBSD on your hard disk.\n"
+msgstr ""
+"如果你从CDROM加载，选择CDROM作为媒体类型，并选择你的CDROM类型（SCSI或Mitsumi）。\n"
+"你所拥有的CDROM的类型（SCSI或Mitsumi）。 当它要求你选择一个\n"
+"安装子目录时，如果你有来自Walnut Creek CDROM的2.0光盘，只需按回车键。\n"
+"Walnut Creek CDROM。 你可以选择额外的可选软件包来加载\n"
+"只要你有足够的空间，你可以在bindist提取后选择额外的可选软件包来加载。 使用\n"
+"使用\"?diskfree \"菜单选项，不时地关注你的可用空间。\n"
+"空间。 当你完成后，你会被问到几个基本的问题，然后就是\n"
+"然后就结束了!  你已经在你的硬盘上安装了 FreeBSD。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:478
+#, no-wrap
+msgid ""
+"If you should need to partition another drive or install other packages\n"
+"later, you may re-invoke the sysinstall program by typing /sbin/sysinstall.\n"
+"The same familiar prompts will then come up.\n"
+msgstr ""
+"如果你需要对另一个驱动器进行分区或安装其他软件包\n"
+"的时候，你可以通过输入/sbin/sysinstall来重新唤起sysinstall程序。\n"
+"然后会出现同样熟悉的提示。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:480
+#, no-wrap
+msgid "Good luck!\n"
+msgstr "祝您好运!\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0/install.adoc:484
+#, no-wrap
+msgid ""
+"                    Jordan Hubbard\n"
+"                    for Walnut Creek CDROM\n"
+"                    and the FreeBSD Project.\n"
+msgstr ""
+"                     Jordan Hubbard\n"
+"                    for Walnut Creek CDROM\n"
+"                    FreeBSD项目团队。\n"
+
+#. type: Plain text
+#: content/en/releases/2.0/install.adoc:488
+msgid "link:../../[Release Home]"
+msgstr "链接：././[发布首页]"
