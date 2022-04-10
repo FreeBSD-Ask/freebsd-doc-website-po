@@ -1,0 +1,1944 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 20:39+0800\n"
+"PO-Revision-Date: 2022-04-10 16:57+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/releases/2.0.5R/notes.adoc:1
+#: content/en/releases/2.0.5R/notes.adoc:6
+#, no-wrap
+msgid "FreeBSD 2.0.5 ALPHA Release Notes"
+msgstr "FreeBSD 2.0.5 ALPHA 发布说明"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:12
+#, no-wrap
+msgid ""
+"                                 RELEASE NOTES\n"
+"                                    FreeBSD\n"
+"                                 Release 2.0.5\n"
+msgstr ""
+"                                 发行说明\n"
+"                                    FreeBSD\n"
+"                                 2.0.5版\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:15
+#, no-wrap
+msgid ""
+"1. Technical overview\n"
+"---------------------\n"
+msgstr ""
+"1. 技术概述\n"
+"---------------------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:20
+#, no-wrap
+msgid ""
+"FreeBSD is a freely available, full source 4.4 BSD Lite based release\n"
+"for Intel i386/i486/Pentium (or compatible) based PC's.  It is based\n"
+"primarily on software from U.C. Berkeley's CSRG group, with some\n"
+"enhancements from NetBSD, 386BSD, and the Free Software Foundation.\n"
+msgstr ""
+"FreeBSD是一个免费提供的，基于4.4 BSD Lite的全源版本\n"
+"用于基于Intel i386/i486/Pentium（或兼容）的PC。 它的基础是\n"
+"它主要是基于U.C. Berkeley的CSRG小组的软件，以及一些\n"
+"一些来自NetBSD, 386BSD, 和自由软件基金会的改进。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:31
+#, no-wrap
+msgid ""
+"Since our release of FreeBSD 2.0 some 8 months ago, the performance,\n"
+"feature set, and stability of FreeBSD has improved dramatically.  The\n"
+"largest change is a revamped VM system with a merged VM/file buffer\n"
+"cache that not only increases performance, but reduces FreeBSD's\n"
+"memory footprint, making a 4MB configuration a more acceptable\n"
+"minimum.  Other enhancements include full NIS client and server\n"
+"support, transaction TCP support, dial-on-demand PPP, an improved SCSI\n"
+"subsystem, early ISDN support, support for FDDI and Fast Ethernet\n"
+"(100Mbit) adapters, improved support for the Adaptec 2940 (WIDE and\n"
+"narrow) and many hundreds of bug fixes.\n"
+msgstr ""
+"自从8个月前我们发布了FreeBSD 2.0之后，FreeBSD的性能。\n"
+"功能和稳定性有了很大的提高。 最大的变化是\n"
+"最大的变化是修改了虚拟机系统，并合并了虚拟机/文件缓冲器\n"
+"缓存，不仅提高了性能，而且减少了FreeBSD的\n"
+"占用的内存，使4MB的配置成为更容易接受的\n"
+"的最低配置。 其他的改进包括对 NIS 客户端和服务器的全面支持\n"
+"支持、事务性 TCP 支持、按需拨号的 PPP、改进的 SCSI\n"
+"子系统，早期的ISDN支持，对FDDI和快速以太网（100Mbit）适配器的支持。\n"
+"(100Mbit)适配器的支持，改进了对Adaptec 2940(WIDE和窄带)的支持。\n"
+"窄）和数百个错误的修复。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:36
+#, no-wrap
+msgid ""
+"We've also taken the comments and suggestions of many of our users to\n"
+"heart and have attempted to provide what we hope is a more sane and\n"
+"easily understood installation process.  Your feedback on this\n"
+"(constantly evolving) process is especially welcome!\n"
+msgstr ""
+"我们也考虑到了许多用户的意见和建议，并试图提供我们希望是更理智和更有效的解决方案。\n"
+"的意见和建议，并试图提供一个我们希望是更理智和更容易理解的安装过程。\n"
+"易理解的安装过程。 我们特别欢迎你对这个\n"
+"(不断发展的）过程，我们特别欢迎你的反馈意见。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:54
+#, no-wrap
+msgid ""
+"In addition to the base distributions, FreeBSD offers a new ported\n"
+"software collection with some 270 commonly sought-after programs.  The\n"
+"list of ports ranges from http (WWW) servers, to games, languages,\n"
+"editors and almost everything in between.  The entire ports collection\n"
+"requires only 10MB of storage, all ports being expressed as \"deltas\"\n"
+"to their original sources.  This makes it much easier for us to update\n"
+"ports, and greatly reduces the disk space demands made by the older\n"
+"1.0 ports collection.  To compile a port, you simply change to the\n"
+"directory of the program you wish to install, type make and let the\n"
+"system do the rest.  The full original distribution for each port you\n"
+"build is retrieved dynamically off of CDROM or a local ftp site, so\n"
+"you need only enough disk space to build the ports you want.  (Almost)\n"
+"every port is also provided as a pre-compiled \"package\" which can be\n"
+"installed with a simple command (pkg_add) by those who do not wish to\n"
+"compile their own ports from source.  See the file:\n"
+"        /usr/share/FAQ/Text/ports.FAQ\n"
+"for a more complete description of the ports collection.\n"
+msgstr ""
+"除了基本的发行版之外，FreeBSD还提供了一个新的移植的\n"
+"软件集，其中包括270个常用的程序。 这个\n"
+"端口列表的范围包括从 http (WWW) 服务器，到游戏，语言。\n"
+"编辑器以及几乎所有介于两者之间的软件。 整个移植软件集\n"
+"只需要 10MB 的存储空间，所有的 ports 都是以 \"deltas \"的形式表示的。\n"
+"来表示。 这使得我们更容易更新\n"
+"这使得我们更容易更新 ports， 并大大减少了由旧的\n"
+"1.0 ports 集合的磁盘空间。 要编译一个 port， 您只需改变到\n"
+"目录， 输入 make， 然后让\n"
+"系统来完成剩下的工作。 您所编译的每个 port 的完整原始分布\n"
+"构建的每一个 port 的完整原始发行版都会从 CDROM 或本地 ftp 站点动态地检索出来， 所以\n"
+"你只需要足够的磁盘空间来构建你想要的端口。 (几乎)\n"
+"每一个 port 都是以预编译的 \"包 \"形式提供的， 可以通过简单的命令 (pkg)\n"
+"可以通过一个简单的命令 (pkg_add) 来安装， 那些不希望\n"
+"的人可以通过简单的命令 (pkg_add) 来安装。 请参见文件。\n"
+"        /usr/share/FAQ/Text/ports.FAQ\n"
+"以了解关于 ports 套件的更完整的描述。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:65
+#, no-wrap
+msgid ""
+"Since our first release of FreeBSD 1.0 nearly two years ago, FreeBSD\n"
+"has changed almost entirely.  A new port from the Berkeley 4.4 code\n"
+"base was done, which brought the legal status of the system out of the\n"
+"shadows with the blessing of Novell (the new owners of USL and UNIX).  The\n"
+"port to 4.4 has also brought in a host of new features, filesystems\n"
+"and enhanced driver support.  With our new unencumbered code base, we\n"
+"have every reason to hope that we'll be able to release quality\n"
+"operating systems without further legal encumbrance for some time to\n"
+"come!\n"
+msgstr ""
+"自从两年前我们首次发布FreeBSD 1.0以来，FreeBSD\n"
+"几乎已经完全改变了。 从Berkeley 4.4的代码中移植了一个新的\n"
+"基地进行了新的移植，这使得该系统的法律地位走出了\n"
+"在Novell(USL和UNIX的新主人)的祝福下，系统的法律地位走出了阴影。 该\n"
+"移植到4.4也带来了大量的新功能、文件系统\n"
+"和增强的驱动支持。 有了我们新的无负担的代码库，我们\n"
+"有充分的理由希望，我们将在未来一段时间内能够发布高质量的\n"
+"没有进一步的法律负担的操作系统。\n"
+"\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:69
+#, no-wrap
+msgid ""
+"FreeBSD 2.0.5 represents the culmination of 2 years of work and many\n"
+"thousands of man hours put in by an international development team.\n"
+"We hope you enjoy it!\n"
+msgstr ""
+"FreeBSD 2.0.5代表了一个国际开发团队两年来的工作成果和数千小时的工作时间。\n"
+"的成果。\n"
+"我们希望您能喜欢它!\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:76
+#, no-wrap
+msgid ""
+"A number of additional documents which you may find very helpful in\n"
+"the process of installing and using FreeBSD may also be found in\n"
+"the \"FAQ\" directory, either under /usr/share/FAQ on an installed\n"
+"system or at the top level of the CDROM or FTP distribution from\n"
+"where you're reading this file.  Please consult FAQ/Text/ROADMAP\n"
+"for a brief description of the resources provided by the FAQ directory.\n"
+msgstr ""
+"在安装和使用FreeBSD的过程中，您可能会发现一些额外的文件对您非常有帮助。\n"
+"在安装和使用FreeBSD的过程中可能会发现一些额外的文件。\n"
+"中找到，可以在已安装的系统上的 /usr/share/FAQ 下找到。\n"
+"或在CDROM或FTP发行版的最上层，在这里您可以找到\n"
+"的顶层。 请参考FAQ/文本/ROADMAP\n"
+"以了解FAQ目录所提供的资源的简要描述。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:80
+#, no-wrap
+msgid ""
+"For a list of contributors and a general project description, please see\n"
+"the file \"CONTRIB.FreeBSD\" which should be bundled with your binary\n"
+"distribution.\n"
+msgstr ""
+"关于贡献者的名单和一般的项目描述，请参见\n"
+"文件 \"CONTRIB.FreeBSD\"，它应该与您的二进制发行版捆绑在一起。\n"
+"分发。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:85
+#, no-wrap
+msgid ""
+"Also see the \"REGISTER.FreeBSD\" file for information on registering\n"
+"with the \"Free BSD user counter\".   This counter is for ALL freely\n"
+"available variants of BSD, not just FreeBSD, and we urge you to register\n"
+"yourself with it.\n"
+msgstr ""
+"关于在 \"Free BSD用户计数器 \"上注册的信息，请参见 \"REGISTER.FreeBSD \"文件。\n"
+"注册 \"Free BSD用户计数器 \"的信息。  这个计数器是为所有免费提供的\n"
+"的所有变体， 而不仅仅是FreeBSD， 我们敦促您在此注册\n"
+"自己在它那里注册。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:93
+#, no-wrap
+msgid ""
+"The core of FreeBSD does not contain DES code which would inhibit its\n"
+"being exported outside the United States.  There is an add-on package\n"
+"to the core distribution, for use only in the United States, that\n"
+"contains the programs that normally use DES.  The auxiliary packages\n"
+"provided separately can be used by anyone.   A freely (from outside the\n"
+"U.S.) exportable European distribution of DES for our non-U.S. users also\n"
+"exists and is described in the FreeBSD FAQ.\n"
+msgstr ""
+"FreeBSD的核心部分不包含DES代码，这将抑制其在美国以外的出口。\n"
+"的出口到美国之外。 有一个附加包\n"
+"有一个附加包，只在美国使用，它包含了通常使用DES的程序。\n"
+"包含了通常使用DES的程序。 辅助包\n"
+"分别提供的辅助包可以被任何人使用。  一个可自由（从美国以外）出口的\n"
+"欧洲DES发行版，供非美国用户使用。\n"
+"在 FreeBSD FAQ 中有所描述。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:101
+#, no-wrap
+msgid ""
+"If password security for FreeBSD is all you need, and you have no\n"
+"requirement for copying encrypted passwords from different hosts\n"
+"(Suns, DEC machines, etc) into FreeBSD password entries, then\n"
+"FreeBSD's MD5 based security may be all you require!  We feel that our\n"
+"default security model is more than a match for DES, and without any\n"
+"messy export issues to deal with.  If you're outside (or even inside)\n"
+"the U.S., give it a try!\n"
+msgstr ""
+"如果你只需要FreeBSD的密码安全，而且你没有\n"
+"拷入不同主机的加密密码的要求\n"
+"(SUN，DEC机器，等等)复制到FreeBSD的密码条目中，那么\n"
+"FreeBSD的基于MD5的安全性可能就是您所需要的全部了  我们认为，我们的\n"
+"的默认安全模型完全可以与DES相媲美，而且没有任何\n"
+"混乱的导出问题。 如果您在美国以外（甚至是在美国境内），请给它一个机会。\n"
+"试试吧!\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:105
+#, no-wrap
+msgid ""
+"1.1 What's new in 2.0.5?\n"
+"------------------------\n"
+msgstr ""
+"1.1 2.0.5版有什么新内容？\n"
+"------------------------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:111
+#, no-wrap
+msgid ""
+"The following features were added or substantially improved between\n"
+"the release of 2.0 and this 2.0.5 release.  In order to facilitate\n"
+"better communication, the person, or persons, responsible for each\n"
+"enhancement is noted.  Any questions regarding the new functionality\n"
+"should be directed to them first.\n"
+msgstr ""
+"以下是在2.0版和2.0.5版之间增加或改进的功能\n"
+"2.0版本和这个2.0.5版本之间增加了以下功能或进行了实质性改进。 \n"
+"为了更好地沟通，每项改进的责任人\n"
+"都有注明。 任何有关新功能的问题\n"
+"应首先向他们提出。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:113
+#, no-wrap
+msgid "KERNEL:\n"
+msgstr "内核：\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:119
+#, no-wrap
+msgid ""
+"Merged VM-File Buffer Cache\n"
+"---------------------------\n"
+"A merged VM/buffer cache design greatly enhances overall system\n"
+"performance and makes it possible to do a number of more optimal\n"
+"memory allocation strategies that were not possible before.\n"
+msgstr ""
+"合并的VM-文件缓冲区缓存\n"
+"---------------------------\n"
+"合并的虚拟机/缓冲区缓存设计极大地提高了整个系统的性能。\n"
+"并使之有可能采取一些以前不可能采取的更优化的\n"
+"内存分配策略，这在以前是不可能的。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:122
+#, no-wrap
+msgid ""
+"Owner:                  David Greenman (davidg@FreeBSD.org) and\n"
+"                        John Dyson (dyson@implode.root.com)\n"
+msgstr ""
+"拥有者：大卫-格林曼（davidg@FreeBSD.org）和\n"
+"                        John Dyson (dyson@implode.root.com)\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:129
+#, no-wrap
+msgid ""
+"Network PCB hash optimization\n"
+"-----------------------------\n"
+"For systems with a great number of active TCP connections (WEB and ftp\n"
+"servers, for example), this greatly speeds up the lookup time required\n"
+"to match an incoming packet up to its associated connection.\n"
+msgstr ""
+"网络PCB哈希优化\n"
+"-----------------------------\n"
+"对于有大量活跃的TCP连接的系统（如WEB和ftp\n"
+"服务器），这就大大加快了将一个传入的数据包与相关连接相匹配所需的查找时间\n"
+"来匹配一个传入的数据包和它的相关连接。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:131
+#, no-wrap
+msgid "Owner:                  David Greenman (davidg@FreeBSD.org)\n"
+msgstr "拥有者：David Greenman (davidg@FreeBSD.org)\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:139
+#, no-wrap
+msgid ""
+"Name cache optimization\n"
+"-----------------------\n"
+"The name-cache would cache all files of the same name to the same bucket,\n"
+"which would put for instance all \"..\" entries in the same bucket.  We added\n"
+"the parent directory version to frustrate the hash, and improved the\n"
+"management of the cache in various other ways while we were at it.\n"
+msgstr ""
+"名称缓存优化\n"
+"-----------------------\n"
+"名称缓存会将所有同名的文件缓存在同一个桶中。\n"
+"例如，将所有\"... \"条目放在同一个桶中。 我们添加了\n"
+"父目录的版本来阻止散列，并在其他方面改进了\n"
+"缓存的管理，同时我们在其他方面进行了改进。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:142
+#: content/en/releases/2.0.5R/notes.adoc:152
+#, no-wrap
+msgid ""
+"Owner:                  Poul-Henning Kamp (phk@FreeBSD.org)\n"
+"                        David Greenman (davidg@FreeBSD.org)\n"
+msgstr ""
+"拥有者：Poul-Henning Kamp (phk@FreeBSD.org)\n"
+"                        David Greenman (davidg@FreeBSD.org)\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:149
+#, no-wrap
+msgid ""
+"Less restrictive swap-spaces\n"
+"----------------------------\n"
+"The need to compile the names of the swap devices into the kernel has been\n"
+"removed.  Now swapon will accept any block devices, up to the maximum\n"
+"number of swap devices configured in the kernel.\n"
+msgstr ""
+"限制性较小的交换空间\n"
+"----------------------------\n"
+"在内核中编译交换设备的名称的需要已经被删除。\n"
+"现在swapon将接受任何块状设备，最高可达内核中配置的最大\n"
+"内核中配置的交换设备的数量。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:165
+#, no-wrap
+msgid ""
+"Hard Wired SCSI Devices\n"
+"-----------------------\n"
+"Prior to 2.0.5, FreeBSD performed dynamic assignment of unit numbers\n"
+"to SCSI devices as they were probed, allowing a SCSI device failure to\n"
+"possibly change unit number assignment and prevent filesystems on\n"
+"still functioning disks from mounting.  Hard wiring allows static\n"
+"allocation of unit numbers (and hence device names) to scsi devices\n"
+"based on SCSI ID and bus.  SCSI configuration occurs in the kernel\n"
+"config file.  Samples of the configuration syntax can be found in the\n"
+"scsi(4)>\n"
+"man page or the LINT kernel config file.\n"
+msgstr ""
+"硬线SCSI设备\n"
+"-----------------------\n"
+"在2.0.5之前，FreeBSD在探测SCSI设备时对其进行动态的单元号分配\n"
+"探测到的SCSI设备进行动态分配， 这使得SCSI设备的故障可能会导致\n"
+"可能会改变单元号的分配，并使仍在运行的磁盘上的文件系统无法安装。\n"
+"仍在运行的磁盘上的文件系统无法安装。 硬接线允许静态\n"
+"单位编号（以及设备名称）的静态分配给SCSI设备\n"
+"基于SCSI ID和总线。 SCSI配置发生在内核的\n"
+"config文件中。 配置语法的例子可以在以下文件中找到\n"
+"scsi(4)>\n"
+"man页或LINT内核配置文件中找到配置语法的例子。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:168
+#, no-wrap
+msgid ""
+"Owner:                  Peter Dufault (dufault@hda.com)\n"
+"Sources involved:       sys/scsi/* usr.sbin/config/*\n"
+msgstr ""
+"拥有者：Peter Dufault (dufault@hda.com)\n"
+"涉及的源代码：sys/scsi/* usr.sbin/config/*\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:175
+#, no-wrap
+msgid ""
+"Slice Support\n"
+"-------------\n"
+"FreeBSD now supports a \"slice\" abstraction which makes it more\n"
+"completely interoperable with other operating system partitions.  This\n"
+"support will allow FreeBSD to inhabit DOS extended partitions.\n"
+msgstr ""
+"切片支持\n"
+"-------------\n"
+"FreeBSD 现在支持一个 \"分片 \"抽象， 这使得它与其他操作系统的分片有了更\n"
+"与其他操作系统分区的完全互操作性。 这种\n"
+"支持将允许FreeBSD在DOS的扩展分区中居住。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:181
+#, no-wrap
+msgid ""
+"Owner:                  Bruce Evans (bde@FreeBSD.org)\n"
+"Sources involved:       sys/disklabel.h sys/diskslice.h sys/dkbad.h\n"
+"                        kern/subr_diskslice.c kern/subr_dkbad.c\n"
+"                        i386/isa/diskslice_machdep.c\n"
+"                        i386/isa/wd.c scsi/sd.c dev/vn/vn.c\n"
+msgstr ""
+"拥有者：Bruce Evans (bde@FreeBSD.org)\n"
+"涉及的源代码： sys/disklabel.h sys/diskslice.h sys/dkbad.h\n"
+"                        kern/subr_diskslice.c kern/subr_dkbad.c\n"
+"                        i386/isa/diskslice_machdep.c\n"
+"                        i386/isa/wd.c scsi/sd.c dev/vn/vn.c\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:189
+#, no-wrap
+msgid ""
+"Support for Ontrack Disk Manager Version 6.0\n"
+"--------------------------------------------\n"
+"Support has been added for disks which use Ontrack Disk Manager.  The\n"
+"fdisk program does NOT know about it however, so make all changes\n"
+"using the install program on the boot.flp or the Ontrack Disk Manager\n"
+"tool under DOS.\n"
+msgstr ""
+"支持Ontrack磁盘管理器6.0版\n"
+"--------------------------------------------\n"
+"增加了对使用Ontrack Disk Manager的磁盘的支持。 但是\n"
+"fdisk程序并不了解它，所以要用boot.flp上的安装程序或Ontrack Disk Manager来做所有的修改。\n"
+"使用 boot.flp 上的安装程序或 DOS 下的 Ontrack Disk Manager\n"
+"工具在DOS下进行修改。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:191
+#, no-wrap
+msgid "Owner:                  Poul-Henning Kamp (phk@FreeBSD.org)\n"
+msgstr "拥有者：Poul-Henning Kamp (phk@FreeBSD.org)\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:198
+#, no-wrap
+msgid ""
+"Bad144 is back and working\n"
+"--------------------------\n"
+"Bad144 works again, though the semantics are slightly different than\n"
+"before in that the bad-spots are kept relative to the slice rather\n"
+"than absolute on the disk.\n"
+msgstr ""
+"Bad144回来了，而且还在工作\n"
+"--------------------------\n"
+"Bad144又开始工作了，尽管语义与以前略有不同\n"
+"语义与以前稍有不同，因为坏点是相对于片子而不是绝对于磁盘的。\n"
+"而不是磁盘上的绝对值。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:201
+#, no-wrap
+msgid ""
+"Owner:                  Bruce Evans (bde@FreeBSD.org)\n"
+"                        Poul-Henning Kamp (phk@FreeBSD.org)\n"
+msgstr ""
+"拥有者：布鲁斯-埃文斯（bde@FreeBSD.org）\n"
+"                        Poul-Henning Kamp (phk@FreeBSD.org)\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:204
+#, no-wrap
+msgid "NEW DEVICE SUPPORT:\n"
+msgstr "新设备支持：\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:206
+#, no-wrap
+msgid "                        SCSI and CDROM Devices\n"
+msgstr "                        SCSI和CDROM设备\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:215
+#, no-wrap
+msgid ""
+"Matsushita/Panasonic (Creative) CD-ROM driver\n"
+"---------------------------------------------\n"
+"The Matsushita/Panasonic CR-562 and CR-563 drives are now supported\n"
+"when connected to a Sound Blaster or 100% compatible host adapter.  Up\n"
+"to four host adapters are supported for a total of 16 CD-ROM drives.\n"
+"The audio functions are supported, along with access to the raw (2352 byte)\n"
+"data frames of any compact disc.  Audio discs may be played using Karoke\n"
+"variable speed functions.\n"
+msgstr ""
+"松下/松下（创意）CD-ROM驱动器\n"
+"---------------------------------------------\n"
+"现在支持松下/松下公司的CR-562和CR-563驱动器。\n"
+"当连接到Sound Blaster或100%兼容的主机适配器时。 \n"
+"最多支持四个主机适配器，共16个CD-ROM驱动器。\n"
+"支持音频功能，以及对任何光盘的原始（2352字节）数据帧的访问。\n"
+"任何光盘的数据帧。 音频光盘可以使用Karoke\n"
+"可变速度功能。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:218
+#, no-wrap
+msgid ""
+"Owner:                  Frank Durda IV   bsdmail@nemesis.lonestar.org\n"
+"Sources involved:       isa/matcd\n"
+msgstr ""
+"拥有者：Frank Durda IV bsdmail@nemesis.lonestar.org\n"
+"涉及的源代码：ISA/Matcd\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:230
+#, no-wrap
+msgid ""
+"Adaptec 2742/2842/2940 SCSI driver\n"
+"----------------------------------\n"
+"The original 274x/284x driver has evolved considerably since the 2.0\n"
+"release.  We now offer full support for the 2940 series as well as the\n"
+"Wide models of these cards.  The arbitration bug (as well as many\n"
+"others) that caused the driver problems with fast devices has been\n"
+"corrected and there is even experimental tagged queuing support\n"
+"(kernel option \"AHC_TAGENABLE\").  John Aycock has also released the\n"
+"sequencer code under a \"Berkeley style\" copyright making the driver\n"
+"entirely clean of the GPL.\n"
+msgstr ""
+"Adaptec 2742/2842/2940 SCSI驱动程序\n"
+"----------------------------------\n"
+"自从2.0版本以来，最初的274x/284x驱动程序已经有了很大的发展。\n"
+"发布后，原来的274x/284x驱动程序有了很大的发展。 我们现在提供对2940系列以及这些卡的\n"
+"广泛型号。 仲裁错误（以及许多\n"
+"导致快速设备的驱动问题的仲裁错误（以及许多其他错误）已经被纠正。\n"
+"已被纠正，甚至还有实验性的标签排队支持\n"
+"(内核选项 \"AHC_TAGENABLE\"）。 John Aycock还发布了\n"
+"序列器代码的 \"伯克利风格 \"版权，使该驱动\n"
+"完全不受GPL的约束。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:234
+#, no-wrap
+msgid ""
+"Owner:                  Justin Gibbs (gibbs@FreeBSD.org)\n"
+"Sources involved:       isa/aic7770.c pci/aic7870.c i386/scsi/*\n"
+"                        sys/dev/aic7xxx/*\n"
+msgstr ""
+"拥有者：Justin Gibbs (gibbs@FreeBSD.org)\n"
+"涉及的源代码：isa/aic7770.c pci/aic7870.c i386/scsi/*\n"
+"                        sys/dev/aic7xxx/*。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:241
+#, no-wrap
+msgid ""
+"NCR5380/NCR53400 SCSI (\"ProAudio Spectrum\") driver\n"
+"--------------------------------------------------\n"
+"Owner:                  core\n"
+"Submitted by:           Serge Vakulenko (vak@cronyx.ru)\n"
+"Sources involved:       isa/ncr5380.c\n"
+msgstr ""
+"NCR5380/NCR53400 SCSI（\"ProAudio Spectrum\"）驱动程序\n"
+"--------------------------------------------------\n"
+"拥有者：核心\n"
+"提交者           Serge Vakulenko (vak@cronyx.ru)\n"
+"涉及的源代码：isa/ncr5380.c\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:248
+#, no-wrap
+msgid ""
+"Sony CDROM driver\n"
+"-----------------\n"
+"Owner:                  core\n"
+"Submitted by:           Mikael Hybsch (micke@dynas.se)\n"
+"Sources involved:       isa/scd.c\n"
+msgstr ""
+"索尼CDROM驱动程序\n"
+"-----------------\n"
+"拥有者：核心\n"
+"提交者           Mikael Hybsch (micke@dynas.se)\n"
+"涉及的源代码：isa/scd.c\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:251
+#, no-wrap
+msgid "                        Serial Devices\n"
+msgstr "                        串行设备\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:256
+#, no-wrap
+msgid ""
+"SDL Communications Riscom/8 Serial Board Driver\n"
+"-----------------------------------------------\n"
+"Owner:                  Andrey Chernov (ache@FreeBSD.org)\n"
+"Sources involved:       isa/rc.c isa/rcreg.h\n"
+msgstr ""
+"SDL Communications Riscom/8 串行板驱动程序\n"
+"-----------------------------------------------\n"
+"拥有者：Andrey Chernov (ache@FreeBSD.org)\n"
+"涉及的源代码： isa/rc.c isa/rcreg.h\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:265
+#, no-wrap
+msgid ""
+"Cyclades Cyclom-y Serial Board Driver\n"
+"-------------------------------------\n"
+"Owner:                  Bruce Evans (bde@FreeBSD.org)\n"
+"Submitted by:           Andrew Werple (andrew@werple.apana.org.au) and\n"
+"                        Heikki Suonsivu (hsu@cs.hut.fi)\n"
+"Obtained from:          NetBSD\n"
+"Sources involved:       isa/cy.c\n"
+msgstr ""
+"Cyclades Cyclom-y串行板驱动器\n"
+"-------------------------------------\n"
+"拥有者：布鲁斯-埃文斯（bde@FreeBSD.org）\n"
+"提交人： Andrew Werple (andrew@werple.apana.org.au) 和\n"
+"                        Heikki Suonsivu (hsu@cs.hut.fi)\n"
+"从以下方面获得。         NetBSD\n"
+"涉及的源代码：ISA/CY.C\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:272
+#, no-wrap
+msgid ""
+"Cronyx/Sigma sync/async serial driver\n"
+"-------------------------------------\n"
+"Owner:                  core\n"
+"Submitted by:           Serge Vakulenko\n"
+"Sources involved:       isa/cronyx.c\n"
+msgstr ""
+"Cronyx/Sigma同步/async串行驱动器\n"
+"-------------------------------------\n"
+"拥有者：核心\n"
+"提交人: Serge Vakulenko\n"
+"涉及的源代码：isa/cronyx.c\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:276
+#, no-wrap
+msgid "                        Networking\n"
+msgstr "                        联网\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:283
+#, no-wrap
+msgid ""
+"Diskless booting\n"
+"----------------\n"
+"Diskless booting in 2.0.5 is much improved.  The boot-program is in\n"
+"src/sys/i386/boot/netboot, and can be run from an MSDOS system or\n"
+"burned into an EPROM.  Local swapping is also possible.  WD, SMC, 3COM\n"
+"and Novell ethernet cards are currently supported.\n"
+msgstr ""
+"无盘启动\n"
+"----------------\n"
+"2.0.5中的无盘启动有了很大改进。 启动程序在\n"
+"src/sys/i386/boot/netboot中，可以从MSDOS系统中运行或\n"
+"烧录到EPROM中。 本地交换也是可能的。 WD、SMC、3COM\n"
+"和Novell以太网卡目前都支持。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:289
+#, no-wrap
+msgid ""
+"DEC DC21140 Fast Ethernet driver\n"
+"--------------------------------\n"
+"This driver supports any of the numerous NICs using the DC21140 chipset\n"
+"including the 100Mb DEC DE-500-XA and SMC 9332.\n"
+msgstr ""
+"DEC DC21140快速以太网驱动程序\n"
+"--------------------------------\n"
+"该驱动支持任何使用DC21140芯片组的众多网卡\n"
+"包括100Mb DEC DE-500-XA和SMC 9332。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:293
+#, no-wrap
+msgid ""
+"Owner:                  core\n"
+"Submitted by:           Matt Thomas (thomas@lkg.dec.com)\n"
+"Sources involved:       pci/if_de.c pci/dc21040.h\n"
+msgstr ""
+"拥有者: 核心\n"
+"提交者           Matt Thomas (thomas@lkg.dec.com)\n"
+"涉及的源代码： pci/if_de.c pci/dc21040.h\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:300
+#, no-wrap
+msgid ""
+"DEC FDDI (DEFPA/DEFEA) driver\n"
+"-----------------------------\n"
+"Owner:                  core\n"
+"Submitted by:           Matt Thomas (thomas@lkg.dec.com)\n"
+"Sources involved:       pci/if_pdq.c pci/pdq.c pci/pdq_os.h pci/pdqreg.h\n"
+msgstr ""
+"DEC FDDI（DEFA/DEFEA）驱动器\n"
+"-----------------------------\n"
+"拥有者：核心\n"
+"提交人: Matt Thomas (thomas@lkg.dec.com)\n"
+"涉及的源代码： pci/if_pdq.c pci/pdq.c pci/pdq_os.h pci/pdqreg.h\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:308
+#, no-wrap
+msgid ""
+"3Com 3c505 (Etherlink/+) NIC driver\n"
+"-----------------------------------\n"
+"Owner:                  core\n"
+"Submitted by:           Dean Huxley (dean@fsa.ca)\n"
+"Obtained from:          NetBSD\n"
+"Sources involved:       isa/if_eg.c\n"
+msgstr ""
+"3Com 3c505 (Etherlink/+) 网卡驱动程序\n"
+"-----------------------------------\n"
+"拥有者：核心\n"
+"提交人: Dean Huxley (dean@fsa.ca)\n"
+"从以下方面获得。         NetBSD\n"
+"涉及的源代码：isa/if_eg.c\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:315
+#, no-wrap
+msgid ""
+"Fujitsu MB86960A family of NICs driver\n"
+"-------------------------------------\n"
+"Owner:                  core\n"
+"Submitted by:           M.S. (seki@sysrap.cs.fujitsu.co.jp)\n"
+"Sources involved:       isa/if_fe.c\n"
+msgstr ""
+"富士通MB86960A系列网卡的驱动程序\n"
+"-------------------------------------\n"
+"拥有者：核心\n"
+"提交人：M.S. (seki@sysrap.cs.fujitsu.co.jp)\n"
+"涉及的源代码：isa/if_fe.c\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:321
+#, no-wrap
+msgid ""
+"Intel EtherExpress driver\n"
+"-------------------------\n"
+"Owner:                  Rodney W. Grimes (rgrimes@FreeBSD.org)\n"
+"Sources involved:       isa/if_ix.c isa/if_ixreg.h\n"
+msgstr ""
+"英特尔EtherExpress驱动程序\n"
+"-------------------------\n"
+"拥有者：Rodney W. Grimes (rgrimes@FreeBSD.org)\n"
+"涉及的源代码： isa/if_ix.c isa/if_ixreg.h\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:330
+#, no-wrap
+msgid ""
+"3Com 3c589 driver\n"
+"-----------------\n"
+"Owner:                  core\n"
+"Submitted by:           \"HOSOKAWA Tatsumi\" (hosokawa@mt.cs.keio.ac.jp),\n"
+"                        Seiji Murata (seiji@mt.cs.keio.ac.jp) and\n"
+"                        Noriyuki Takahashi (hor@aecl.ntt.jp)\n"
+"Sources involved:       isa/if_zp.c\n"
+msgstr ""
+"3Com 3c589 驱动程序\n"
+"-----------------\n"
+"拥有者：核心\n"
+"提交者           \"HOSOKAWA Tatsumi\" (hosokawa@mt.cs.keio.ac.jp)。\n"
+"                        Seiji Murata (seiji@mt.cs.keio.ac.jp) 和\n"
+"                        高桥纪之 (hor@aecl.ntt.jp)\n"
+"涉及的源代码：isa/if_zp.c\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:337
+#, no-wrap
+msgid ""
+"IBM Credit Card Adapter driver\n"
+"------------------------------\n"
+"Owner:                  core\n"
+"Submitted by:           \"HOSOKAWA Tatsumi\" (hosokawa@mt.cs.keio.ac.jp),\n"
+"Sources involved:       isa/pcic.c isa/pcic.h\n"
+msgstr ""
+"IBM信用卡适配器驱动程序\n"
+"------------------------------\n"
+"拥有者：核心\n"
+"提交人：\"HOSOKAWA Tatsumi\" (hosokawa@mt.cs.keio.ac.jp)。\n"
+"涉及的源代码： isa/pcic.c isa/pcic.h\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:345
+#, no-wrap
+msgid ""
+"EDSS1 and 1TR6 ISDN interface driver\n"
+"------------------------------------\n"
+"Owner:                  core\n"
+"Submitted by:           Dietmar Friede (dfriede@drnhh.neuhaus.de) and\n"
+"                        Juergen Krause (jkr@saarlink.de)\n"
+"Sources involved:       gnu/isdn/*\n"
+msgstr ""
+"EDSS1和1TR6 ISDN接口驱动器\n"
+"------------------------------------\n"
+"拥有者：核心\n"
+"提交者           Dietmar Friede (dfriede@drnhh.neuhaus.de) 和\n"
+"                        Juergen Krause (jkr@saarlink.de)\n"
+"涉及的源代码： gnu/isdn/*\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:348
+#, no-wrap
+msgid "                        Miscellaneous Drivers\n"
+msgstr "                        杂项驱动\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:353
+#, no-wrap
+msgid ""
+"Joystick driver\n"
+"---------------\n"
+"Owner:                  Jean-Marc Zucconi (jmz@FreeBSD.org)\n"
+"Sources involved:       isa/joy.c\n"
+msgstr ""
+"操纵杆驱动器\n"
+"---------------\n"
+"拥有者：Jean-Marc Zucconi (jmz@FreeBSD.org)\n"
+"涉及的源代码：isa/joy.c\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:359
+#, no-wrap
+msgid ""
+"National Instruments \"LabPC\" driver\n"
+"-----------------------------------\n"
+"Owner:                  Peter Dufault (dufault@hda.com)\n"
+"Sources involved:       isa/labpc.c\n"
+msgstr ""
+"美国国家仪器公司的 \"LabPC \"驱动器\n"
+"-----------------------------------\n"
+"拥有者：Peter Dufault (dufault@hda.com)\n"
+"涉及的源代码：isa/labpc.c\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:364
+#, no-wrap
+msgid ""
+"WD7000 driver\n"
+"-------------\n"
+"Owner:                  Olof Johansson (offe@ludd.luth.se)\n"
+msgstr ""
+"WD7000驱动程序\n"
+"-------------\n"
+"拥有者：Olof Johansson (offe@ludd.luth.se)\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:371
+#, no-wrap
+msgid ""
+"Pcvt Console driver\n"
+"-------------------\n"
+"Owner:                  Joerg Wunsch (joerg@FreeBSD.org)\n"
+"Submitted by:           Hellmuth Michaelis (hm@altona.hamburg.com)\n"
+"Sources involved:       isa/pcvt/* usr.sbin/pcvt/*\n"
+msgstr ""
+"Pcvt 控制台驱动程序\n"
+"-------------------\n"
+"业主：Joerg Wunsch (joerg@FreeBSD.org)\n"
+"提交人: Hellmuth Michaelis (hm@altona.hamburg.com)\n"
+"涉及的来源： isa/pcvt/* usr.sbin/pcvt/*\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:378
+#, no-wrap
+msgid ""
+"BSD-audio emulator for VAT driver\n"
+"---------------------------------\n"
+"Owner:                  Amancio Hasty (ahasty@FreeBSD.org) and\n"
+"                        Paul Traina (pst@FreeBSD.org)\n"
+"Sources involved:       isa/sound/vat_audio.c isa/sound/vat_audioio.h\n"
+msgstr ""
+"BSD音频仿真器的VAT驱动\n"
+"---------------------------------\n"
+"业主：Amancio Hasty (ahasty@FreeBSD.org)和\n"
+"                        Paul Traina (pst@FreeBSD.org)\n"
+"涉及的源代码： isa/sound/vat_audio.c isa/sound/vat_audioio.h\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:385
+#, no-wrap
+msgid ""
+"National Instruments AT-GPIB and AT-GPIB/TNT GPIB driver\n"
+"--------------------------------------------------------\n"
+"Owner:                  core\n"
+"Submitted by:           Fred Cawthorne (fcawth@delphi.umd.edu)\n"
+"Sources involved:       isa/gpib.c isa/gpib.h isa/gpibreg.h\n"
+msgstr ""
+"美国国家仪器公司AT-GPIB和AT-GPIB/TNT GPIB驱动器\n"
+"--------------------------------------------------------\n"
+"拥有者：核心\n"
+"提交人: Fred Cawthorne (fcawth@delphi.umd.edu)\n"
+"涉及的源代码： isa/gpib.c isa/gpib.h isa/gpibreg.h\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:392
+#, no-wrap
+msgid ""
+"Genius GS-4500 hand scanner driver\n"
+"----------------------------------\n"
+"Owner:                  core\n"
+"Submitted by:           Gunther Schadow (gusw@fub46.zedat.fu-berlin.de)\n"
+"Sources involved:       isa/gsc.c isa/gscreg.h\n"
+msgstr ""
+"Genius GS-4500手动扫描仪驱动程序\n"
+"----------------------------------\n"
+"业主：核心\n"
+"提交者           Gunther Schadow (gusw@fub46.zedat.fu-berlin.de)\n"
+"涉及的源代码： isa/gsc.c isa/gscreg.h\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:399
+#, no-wrap
+msgid ""
+"CORTEX-I Frame Grabber\n"
+"----------------------\n"
+"Owner:                  core\n"
+"Submitted by:           Paul S. LaFollette, Jr.\n"
+"Sources involved:       isa/ctx.c isa/ctxreg.h\n"
+msgstr ""
+"CORTEX-I取景器\n"
+"----------------------\n"
+"业主：Core\n"
+"提交者           Paul S. LaFollette, Jr.\n"
+"涉及源代码： isa/ctx.c isa/ctxreg.h\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:404
+#, no-wrap
+msgid ""
+"Video Spigot video capture card\n"
+"-------------------------------\n"
+"Owner:                  Jim Lowe\n"
+msgstr ""
+"视频Spigot视频采集卡\n"
+"-------------------------------\n"
+"业主：Jim Lowe\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:409
+#, no-wrap
+msgid ""
+"1.2 Experimental features\n"
+"-------------------------\n"
+msgstr ""
+"1.2 实验特点\n"
+"-------------------------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:415
+#, no-wrap
+msgid ""
+"The unionfs and LFS filesystems are known to be severely broken in\n"
+"2.0.5.  This is in part due to old bugs that we haven't had time to\n"
+"resolve yet and the need to update these filesystems to deal with the\n"
+"new VM system.  We hope to address these issues in a later release of\n"
+"FreeBSD.\n"
+msgstr ""
+"众所周知，unionfs和LFS文件系统在2.0.5中被严重破坏。\n"
+"2.0.5.  这部分是由于我们还没有时间解决的旧的错误。\n"
+"解决，而且需要更新这些文件系统来处理新的虚拟机系统。\n"
+"新的虚拟机系统。 我们希望能在以后的版本中解决这些问题。\n"
+"正式版中解决这些问题。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:424
+#, no-wrap
+msgid ""
+"FreeBSD now supports running iBCS2 compatible binaries (currently SCO\n"
+"UNIX 3.2.2 & 3.2.4 and ISC 2.2 COFF format are supported).  The iBCS2\n"
+"emulator is in its early stages, but it is functional, we haven't been\n"
+"able to do exhaustive testing (lack of commercial apps), but almost\n"
+"all of SCO's 3.2.2 binaries are working, so is an old INFORMIX-2.10\n"
+"for SCO. Further testing is necessary to complete this project. There\n"
+"is also work under way for ELF & XOUT loaders, and most of the svr4\n"
+"syscall wrappers have been written.\n"
+msgstr ""
+"FreeBSD 现在支持运行 iBCS2 兼容的二进制文件 (目前支持 SCO\n"
+"UNIX 3.2.2 和 3.2.4 以及 ISC 2.2 COFF 格式）。 iBCS2\n"
+"仿真器还处于早期阶段，但它是有效的。\n"
+"我们还不能做详尽的测试（缺乏商业应用），但几乎所有SCO的3.2.4版本都支持。\n"
+"但几乎所有SCO的3.2.2二进制文件都能工作，一个旧的INFORMIX-2.10也能工作。\n"
+"也是如此。进一步的测试对于完成这个项目是必要的。还有\n"
+"也正在进行ELF和XOUT加载器的工作，而且大部分的svr4\n"
+"syscall包装器已经写好了。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:428
+#, no-wrap
+msgid ""
+"FreeBSD also implements enough of its Linux compatibility that we\n"
+"can now run Linux DOOM!  See the ``xperimnt'' directory (on your local\n"
+"FTP server or CDROM) for full docs on how to set this up.\n"
+msgstr ""
+"FreeBSD也实现了足够的Linux兼容性，我们现在可以运行Linux DOOM。\n"
+"现在可以运行 Linux DOOM!  请参阅 ``xperimnt'' 目录（在你的本地\n"
+"FTP服务器或CDROM上）以获得关于如何设置的完整文档。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:431
+#, no-wrap
+msgid ""
+"Owner:                  Soren Schmidt (sos) & Sean Eric Fagan (sef)\n"
+"Sources involved:       sys/i386/ibcs2/* + misc kernel changes.\n"
+msgstr ""
+"拥有者：Soren Schmidt (sos) & Sean Eric Fagan (sef)\n"
+"涉及源代码：sys/i386/ibcs2/* + 杂项内核修改。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:435
+#, no-wrap
+msgid ""
+"2. Supported Configurations\n"
+"---------------------------\n"
+msgstr ""
+"2.支持的配置\n"
+"---------------------------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:441
+#, no-wrap
+msgid ""
+"FreeBSD currently runs on a wide variety of ISA, VLB, EISA and PCI bus\n"
+"based PC's, ranging from 386sx to Pentium class machines (though the\n"
+"386sx is not recommended).  Support for generic IDE or ESDI drive\n"
+"configurations, various SCSI controller, network and serial cards is\n"
+"also provided.\n"
+msgstr ""
+"目前，FreeBSD可以在各种基于ISA、VLB、EISA和PCI总线的PC上运行。\n"
+"的PC上运行，范围从386sx到Pentium级别的机器（尽管不推荐使用\n"
+"不推荐386sx）。 支持一般的IDE或ESDI驱动器配置，各种SCSI控制器，以及其他的功能。\n"
+"配置、各种SCSI控制器、网络和串行卡。\n"
+"也提供了支持。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:445
+#, no-wrap
+msgid ""
+"Following is a list of all disk controllers and ethernet cards currently\n"
+"known to work with FreeBSD.  Other configurations may very well work, and\n"
+"we have simply not received any indication of this.\n"
+msgstr ""
+"以下是目前已知的所有磁盘控制器和以太网卡的列表\n"
+"的列表。 其他配置很可能也能使用，但\n"
+"我们还没有收到任何这方面的指示。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:449
+#, no-wrap
+msgid ""
+"2.1. Disk Controllers\n"
+"---------------------\n"
+msgstr ""
+"2.1 磁盘控制器\n"
+"---------------------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:455
+#, no-wrap
+msgid ""
+"WD1003 (any generic MFM/RLL)\n"
+"WD1007 (any generic IDE/ESDI)\n"
+"WD7000\n"
+"IDE\n"
+"ATA\n"
+msgstr ""
+"WD1003 (任何通用的MFM/RLL)\n"
+"WD1007 (任何通用的IDE/ESDI)\n"
+"WD7000\n"
+"集成开发环境\n"
+"ATA\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:462
+#, no-wrap
+msgid ""
+"Adaptec 152x series ISA SCSI controllers\n"
+"Adaptec 154x series ISA SCSI controllers\n"
+"Adaptec 174x series EISA SCSI controller in standard and enhanced mode.\n"
+"Adaptec 274X/284X/2940 (Narrow/Wide/Twin) series ISA/EISA/PCI SCSI controllers\n"
+"Adaptec AIC-6260 and AIC-6360 based boards, which includes\n"
+"the AHA-152x and SoundBlaster SCSI cards.\n"
+msgstr ""
+"Adaptec 152x系列ISA SCSI控制器\n"
+"Adaptec 154x系列ISA SCSI控制器\n"
+"Adaptec 174x系列EISA SCSI控制器，有标准和增强模式。\n"
+"Adaptec 274X/284X/2940（窄/宽/双）系列ISA/EISA/PCI SCSI控制器\n"
+"基于Adaptec AIC-6260和AIC-6360的板卡，其中包括\n"
+"AHA-152x和SoundBlaster SCSI卡。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:470
+#, no-wrap
+msgid ""
+"** Note: You cannot boot from the SoundBlaster cards as they have no\n"
+"   on-board BIOS, which is necessary for mapping the boot device into the\n"
+"   system BIOS I/O vectors.  They're perfectly usable for external tapes,\n"
+"   CDROMs, etc, however.  The same goes for any other AIC-6x60 based card\n"
+"   without a boot ROM.  Some systems DO have a boot ROM, which is generally\n"
+"   indicated by some sort of message when the system is first powered up\n"
+"   or reset.  Check your system/board documentation for more details.\n"
+msgstr ""
+"** 注意：你不能从SoundBlaster卡启动，因为它们没有板载BIOS。\n"
+"   芯片上的 BIOS，这对于将启动设备映射到系统 BIOS 的 I/O 向量是必要的。\n"
+"   系统 BIOS 的 I/O 向量。 它们完全可以用于外部磁带。\n"
+"   不过，它们完全可以用于外部磁带、CDROM 等。 任何其他基于 AIC-6x60 的卡也是如此。\n"
+"   没有启动 ROM 的其他 AIC-6x60 卡也是如此。 有些系统确实有一个启动 ROM，这通常是在\n"
+"   有些系统是有启动 ROM 的，一般来说，当系统第一次上电或复位时，会有一些信息显示。\n"
+"   或复位时的某种信息。 检查你的系统/板卡文件以了解更多细节。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:477
+#, no-wrap
+msgid ""
+"[Note that Buslogic was formerly known as \"Bustec\"]\n"
+"Buslogic 545S & 545c\n"
+"Buslogic 445S/445c VLB SCSI controller\n"
+"Buslogic 742A, 747S, 747c EISA SCSI controller.\n"
+"Buslogic 946c PCI SCSI controller\n"
+"Buslogic 956c PCI SCSI controller\n"
+msgstr ""
+"[请注意，Buslogic以前被称为 \"Bustec\"]\n"
+"Buslogic 545S & 545c\n"
+"Buslogic 445S/445c VLB SCSI控制器\n"
+"Buslogic 742A, 747S, 747c EISA SCSI控制器。\n"
+"Buslogic 946c PCI SCSI控制器\n"
+"Buslogic 956c PCI SCSI控制器\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:480
+#, no-wrap
+msgid ""
+"NCR 53C810 and 53C825 PCI SCSI controller.\n"
+"NCR5380/NCR53400 (\"ProAudio Spectrum\") SCSI controller.\n"
+msgstr ""
+"NCR 53C810和53C825 PCI SCSI控制器。\n"
+"NCR5380/NCR53400 (\"ProAudio Spectrum\") SCSI控制器。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:482
+#, no-wrap
+msgid "DTC 3290 EISA SCSI controller in 1542 emulation mode.\n"
+msgstr "DTC 3290 EISA SCSI控制器处于1542仿真模式。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:484
+#, no-wrap
+msgid "UltraStor 14F, 24F and 34F SCSI controllers.\n"
+msgstr "UltraStor 14F、24F和34F SCSI控制器。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:486
+#, no-wrap
+msgid "Seagate ST01/02 SCSI controllers.\n"
+msgstr "希捷ST01/02 SCSI控制器。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:488
+#, no-wrap
+msgid "Future Domain 8xx/950 series SCSI controllers.\n"
+msgstr "Future Domain 8xx/950系列SCSI控制器。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:492
+#, no-wrap
+msgid ""
+"With all supported SCSI controllers, full support is provided for\n"
+"SCSI-I & SCSI-II peripherals, including Disks, tape drives (including\n"
+"DAT) and CD ROM drives.\n"
+msgstr ""
+"在所有支持的SCSI控制器中，对以下设备提供全面支持\n"
+"SCSI-I和SCSI-II外围设备，包括磁盘，磁带机（包括\n"
+"DAT）和CD ROM驱动器。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:498
+#, no-wrap
+msgid ""
+"The following CD-ROM type systems are supported at this time:\n"
+"(cd)    SCSI (also includes ProAudio Spectrum and SoundBlaster SCSI)\n"
+"(mcd)   Mitsumi proprietary interface\n"
+"(matcd) Matsushita/Panasonic (Creative) proprietary interface\n"
+"(scd)   Sony proprietary interface\n"
+msgstr ""
+"目前支持以下CD-ROM类型的系统。\n"
+"(cd) SCSI（也包括ProAudio Spectrum和SoundBlaster SCSI）。\n"
+"(mcd) Mitsumi专有接口\n"
+"(matcd) Matsushita/Panasonic (Creative)专有接口\n"
+"(scd)索尼专有接口\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:500
+#, no-wrap
+msgid "Note: CD-Drives with IDE interfaces are not supported at this time.\n"
+msgstr "注意：目前不支持带有IDE接口的CD-Drive。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:513
+#, no-wrap
+msgid ""
+"Some controllers have limitations with the way they deal with >16MB of\n"
+"memory, due to the fact that the ISA bus only has a DMA address space\n"
+"of 24 bits.  If you do your arithmetic, you'll see that this makes it\n"
+"impossible to do direct DMA to any address >16MB.  This limitation is\n"
+"even true of some EISA controllers (which are normally 32 bit) when\n"
+"they're configured to emulate an ISA card, which they then do in *all*\n"
+"respects.  This problem is avoided entirely by IDE controllers (which\n"
+"do not use DMA), true EISA controllers (like the UltraStor, Adaptec\n"
+"1742A or Adaptec 2742) and most VLB (local bus) controllers.  In the\n"
+"cases where it's necessary, the system will use \"bounce buffers\" to\n"
+"talk to the controller so that you can still use more than 16Mb of\n"
+"memory without difficulty.\n"
+msgstr ""
+"一些控制器在处理>16MB内存的方式上有限制。\n"
+"由于ISA总线只有24位的DMA地址空间，一些控制器在处理大于16MB的内存时受到限制。\n"
+"24位。 如果你做算术题，你会发现这使得\n"
+"不可能对任何大于16MB的地址进行直接DMA。 这个限制是\n"
+"当一些EISA控制器（通常是32位的）被配置为模拟的时候，这种限制甚至是真的。\n"
+"当它们被配置为模拟ISA卡时，这种限制甚至对一些EISA控制器（通常是32位的）也是如此，因为它们在*所有*方面都是如此。\n"
+"方面都是如此。 这个问题完全可以由IDE控制器来避免（它不使用DMA）。\n"
+"不使用DMA），真正的EISA控制器（如UltraStor, Adaptec\n"
+"1742A或Adaptec 2742）和大多数VLB（本地总线）控制器都可以避免这个问题。 在\n"
+"在有必要的情况下，系统将使用 \"反弹缓冲器 \"来与控制器对话，这样你就可以通过它来控制你的系统。\n"
+"与控制器对话，这样你仍然可以使用超过16Mb的\n"
+"这样你仍然可以毫无困难地使用超过16Mb的内存。\n"
+"\n"
+"\n"
+"通过www.DeepL.com/Translator（免费版）翻译\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:517
+#, no-wrap
+msgid ""
+"2.2. Ethernet cards\n"
+"-------------------\n"
+msgstr ""
+"2.2 以太网卡\n"
+"-------------------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:521
+#, no-wrap
+msgid ""
+"SMC Elite 16 WD8013 ethernet interface, and most other WD8003E,\n"
+"WD8003EBT, WD8003W, WD8013W, WD8003S, WD8003SBT and WD8013EBT\n"
+"based clones.  SMC Elite Ultra is also supported.\n"
+msgstr ""
+"SMC Elite 16 WD8013以太网接口，以及大多数其他WD8003E。\n"
+"WD8003EBT、WD8003W、WD8013W、WD8003S、WD8003SBT 和 WD8013EBT\n"
+"为基础的克隆产品。 也支持SMC Elite Ultra。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:526
+#, no-wrap
+msgid ""
+"DEC EtherWORKS III NICs (DE203, DE204, and DE205)\n"
+"DEC EtherWORKS II NICs (DE200, DE201, DE202, and DE422)\n"
+"DEC DC21140 based NICs (SMC???? DE???)\n"
+"DEC FDDI (DEFPA/DEFEA) NICs\n"
+msgstr ""
+"DEC EtherWORKS III网卡（DE203、DE204和DE205）。\n"
+"DEC EtherWORKS II网卡（DE200、DE201、DE202和DE422）。\n"
+"基于DEC DC21140的网卡(SMC???? DE???)\n"
+"DEC FDDI（DEFA/DEFEA）网卡\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:528
+#, no-wrap
+msgid "Fujitsu MB86960A family of NICs\n"
+msgstr "富士通MB86960A系列网卡\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:530
+#, no-wrap
+msgid "Intel EtherExpress\n"
+msgstr "英特尔EtherExpress\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:533
+#, no-wrap
+msgid ""
+"Isolan AT 4141-0 (16 bit)\n"
+"Isolink 4110     (8 bit)\n"
+msgstr ""
+"伊索兰AT 4141-0 (16比特)\n"
+"Isolink 4110 (8位)\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:535
+#, no-wrap
+msgid "Novell NE1000, NE2000, and NE2100 ethernet interface.\n"
+msgstr "Novell NE1000、NE2000和NE2100以太网接口。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:537
+#, no-wrap
+msgid "3Com 3C501 cards\n"
+msgstr "3Com 3C501卡\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:539
+#, no-wrap
+msgid "3Com 3C503 Etherlink II\n"
+msgstr "3Com 3C503 Etherlink II\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:541
+#, no-wrap
+msgid "3Com 3c505 Etherlink/+\n"
+msgstr "3Com 3c505 Etherlink/+\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:543
+#, no-wrap
+msgid "3Com 3C507 Etherlink 16/TP\n"
+msgstr "3Com 3C507 Etherlink 16/TP\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:545
+#, no-wrap
+msgid "3Com 3C509, 3C579, 3C589 (PCMCIA) Etherlink III\n"
+msgstr "3Com 3C509, 3C579, 3C589 (PCMCIA) Etherlink III\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:547
+#, no-wrap
+msgid "Toshiba ethernet cards\n"
+msgstr "东芝以太网卡\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:550
+#, no-wrap
+msgid ""
+"PCMCIA ethernet cards from IBM and National Semiconductor are also\n"
+"supported.\n"
+msgstr ""
+"IBM和美国国家半导体公司的PCMCIA以太网卡也被支持。\n"
+"支持。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:554
+#, no-wrap
+msgid ""
+"2.3. Misc\n"
+"---------\n"
+msgstr ""
+"2.3 杂项\n"
+"---------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:556
+#, no-wrap
+msgid "AST 4 port serial card using shared IRQ.\n"
+msgstr "AST 4口串行卡使用共享IRQ。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:558
+#, no-wrap
+msgid "ARNET 8 port serial card using shared IRQ.\n"
+msgstr "ARNET 8口串行卡使用共享IRQ。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:560
+#, no-wrap
+msgid "BOCA ATIO66 6 port serial card using shared IRQ.\n"
+msgstr "BOCA ATIO66 6口串行卡使用共享IRQ。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:562
+#, no-wrap
+msgid "Cyclades Cyclom-y Serial Board.\n"
+msgstr "Cyclades Cyclom-y串行板。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:564
+#, no-wrap
+msgid "STB 4 port card using shared IRQ.\n"
+msgstr "机顶盒4口卡使用共享IRQ。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:566
+#, no-wrap
+msgid "Mitsumi (all models) CDROM interface and drive.\n"
+msgstr "Mitsumi（所有型号）CDROM接口和驱动器。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:568
+#, no-wrap
+msgid "SDL Communications Riscom/8 Serial Board.\n"
+msgstr "SDL Communications Riscom/8串行板。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:570
+#, no-wrap
+msgid "SoundBlaster SCSI and ProAudio Spectrum SCSI CDROM interface and drive.\n"
+msgstr "SoundBlaster SCSI和ProAudio Spectrum SCSI CDROM接口和驱动器。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:572
+#, no-wrap
+msgid "Matsushita/Panasonic (Creative SoundBlaster) CDROM interface and drive.\n"
+msgstr "松下/松下（Creative SoundBlaster）CDROM接口和驱动器。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:575
+#, no-wrap
+msgid ""
+"Adlib, SoundBlaster, SoundBlaster Pro, ProAudioSpectrum, Gravis UltraSound\n"
+"and Roland MPU-401 sound cards.\n"
+msgstr ""
+"Adlib, SoundBlaster, SoundBlaster Pro, ProAudioSpectrum, Gravis UltraSound\n"
+"和Roland MPU-401声卡。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:579
+#, no-wrap
+msgid ""
+"FreeBSD currently does NOT support IBM's microchannel (MCA) bus, but\n"
+"support is apparently close to materializing.  Details will be posted\n"
+"as the situation develops.\n"
+msgstr ""
+"FreeBSD目前不支持IBM的微通道(MCA)总线，但\n"
+"支持显然已经接近实现了。 详细情况将在\n"
+"的细节。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:583
+#, no-wrap
+msgid ""
+"3. Obtaining FreeBSD\n"
+"--------------------\n"
+msgstr ""
+"3 获取FreeBSD\n"
+"--------------------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:585
+#, no-wrap
+msgid "You may obtain FreeBSD in a variety of ways:\n"
+msgstr "您可以通过各种方式获得 FreeBSD。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:587
+#, no-wrap
+msgid "1. FTP/Mail\n"
+msgstr "1. FTP/邮件\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:590
+#, no-wrap
+msgid ""
+"You can ftp FreeBSD and any or all of its optional packages from\n"
+"`ftp.FreeBSD.org' - the official FreeBSD release site.\n"
+msgstr ""
+"你可以通过ftp传输FreeBSD和它的任何或所有可选包，从\n"
+"`ftp.FreeBSD.org' - FreeBSD官方发布网站。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:594
+#, no-wrap
+msgid ""
+"For other locations that mirror the FreeBSD software see the file\n"
+"MIRROR.SITES.  Please ftp the distribution from the nearest site\n"
+"to you netwise.\n"
+msgstr ""
+"对于其他镜像FreeBSD软件的位置，请参见文件\n"
+"MIRROR.SITES。 请从离您最近的站点ftp发行版\n"
+"的网站上下载。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:602
+#, no-wrap
+msgid ""
+"If you do not have access to the internet and electronic mail is your\n"
+"only recourse, then you may still fetch the files by sending mail to\n"
+"`ftpmail@decwrl.dec.com' - putting the keyword \"help\" in your message\n"
+"to get more information on how to fetch files from ftp.FreeBSD.org.\n"
+"Note: This approach will end up sending many *tens of megabytes*\n"
+"through the mail, and should only be employed as an absolute LAST\n"
+"resort!\n"
+msgstr ""
+"如果你不能访问互联网，而电子邮件是你唯一的办法。\n"
+"的唯一途径，那么你仍然可以通过发送邮件到以下地址来获取文件\n"
+"`ftpmail@decwrl.dec.com' - 在您的信息中加入关键词 \"help\"。\n"
+"以获得更多关于如何从 ftp.FreeBSD.org 获取文件的信息。\n"
+"注意: 这种方法最终会通过邮件发送很多*几十兆的文件*。\n"
+"的邮件，因此只能作为绝对的最后手段来使用。\n"
+"办法!\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:605
+#, no-wrap
+msgid "2. CDROM\n"
+msgstr "2. 光盘\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:607
+#, no-wrap
+msgid "FreeBSD 2.0.5 may be ordered on CDROM from:\n"
+msgstr "FreeBSD 2.0.5可以通过CDROM来订购。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:612
+#, no-wrap
+msgid ""
+"        Walnut Creek CDROM\n"
+"        4041 Pike Lane, Suite D\n"
+"        Concord CA  94520\n"
+"        1-800-786-9907, +1-510-674-0783, +1-510-674-0821 (fax)\n"
+msgstr ""
+"        胡桃溪CDROM\n"
+"        4041 Pike Lane, Suite D\n"
+"        Concord CA 94520\n"
+"        1-800-786-9907, +1-510-674-0783, +1-510-674-0821（传真）。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:616
+#, no-wrap
+msgid ""
+"Or via the internet from orders@cdrom.com or http://www.cdrom.com.\n"
+"Their current catalog can be obtained via ftp as:\n"
+"        ftp://ftp.cdrom.com/cdrom/catalog.\n"
+msgstr ""
+"或通过互联网从orders@cdrom.com 或http://www.cdrom.com。\n"
+"他们目前的目录可以通过ftp获得。\n"
+"        ftp://ftp.cdrom.com/cdrom/catalog。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:621
+#, no-wrap
+msgid ""
+"Cost per CD is $39.95, or $24.95 with a FreeBSD subscription.  With\n"
+"a subscription, you will automatically receive updates as they\n"
+"are released.  Your credit card will be billed when each disk is shipped\n"
+"and you may cancel your subscription at any time without further obligation.\n"
+msgstr ""
+"每张CD的成本是39.95美元，如果订阅FreeBSD，则为24.95美元。 有了\n"
+"订阅，您将自动收到更新的\n"
+"发布。 您的信用卡将在每张光盘发货时被收取费用\n"
+"您可以在任何时候取消您的订阅，而无需承担进一步的义务。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:625
+#, no-wrap
+msgid ""
+"Walnut Creek CDROM also sells a full line of FreeBSD related merchandise such\n"
+"as T-shirts ($14.95, available in \"child\", Large and XL sizes), coffee mugs\n"
+"($9.95), tattoos ($0.25 each) and posters ($3.00).\n"
+msgstr ""
+"Walnut Creek CDROM 还出售全套的FreeBSD相关商品，如\n"
+"T恤（14.95美元，有 \"儿童\"、大号和XL尺寸）、咖啡杯\n"
+"(9.95美元），纹身（每件0.25美元）和海报（3.00美元）。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:630
+#, no-wrap
+msgid ""
+"Shipping (per order not per disc) is $5 in the US, Canada or\n"
+"Mexico and $9.00 overseas.  They accept Visa, Mastercard, Discover,\n"
+"American Express or checks in U.S. Dollars and ship COD within the\n"
+"United States.  California residents please add 8.25% sales tax.\n"
+msgstr ""
+"美国、加拿大或墨西哥的运费（每张订单而非每张光盘）为5美元，海外为9美元。\n"
+"墨西哥是5美元，海外是9.00美元。 他们接受维萨卡、万事达卡、发现卡。\n"
+"美国运通卡或美元支票，美国境内货到付款。\n"
+"美国境内货到付款。 加州居民请加8.25%的销售税。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:633
+#, no-wrap
+msgid ""
+"Should you be dissatisfied for any reason, the CD comes with an\n"
+"unconditional return policy.\n"
+msgstr ""
+"如果你因任何原因不满意，该CD有一个\n"
+"无条件的退货政策。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:637
+#, no-wrap
+msgid ""
+"Reporting problems, making suggestions, submitting code\n"
+"-------------------------------------------------------\n"
+msgstr ""
+"报告问题，提出建议，提交代码\n"
+"-------------------------------------------------------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:641
+#, no-wrap
+msgid ""
+"Your suggestions, bug reports and contributions of code are always\n"
+"valued - please do not hesitate to report any problems you may find\n"
+"(preferably with a fix attached if you can!).\n"
+msgstr ""
+"您的建议、错误报告和代码贡献始终受到重视。\n"
+"请毫不犹豫地报告你可能发现的任何问题。\n"
+"(如果可以的话，最好附上修复方案！)。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:647
+#, no-wrap
+msgid ""
+"The preferred method to submit bug reports from a machine with\n"
+"internet mail connectivity is to use the send-pr command.  Bug reports\n"
+"will be dutifully filed by our faithful bugfiler program and you can\n"
+"be sure that we'll do our best to respond to all reported bugs as soon\n"
+"as possible.\n"
+msgstr ""
+"从有互联网邮件连接的机器上提交错误报告的首选方法是使用send-pr命令。\n"
+"互联网邮件连接的机器提交错误报告的首选方法是使用send-pr命令。 错误报告\n"
+"将由我们忠实的bugfiler程序尽职尽责地归档，并且你可以\n"
+"你可以确信，我们将尽最大努力，尽快对所有报告的错误作出\n"
+"回复。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:650
+#, no-wrap
+msgid ""
+"If, for some reason, you are unable to use the send-pr command to\n"
+"submit a bug report, you can try to send it to:\n"
+msgstr ""
+"如果由于某种原因，你无法使用send-pr命令来\n"
+"提交错误报告，你可以尝试将其发送到。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:652
+#, no-wrap
+msgid "                bugs@FreeBSD.org\n"
+msgstr "                bugs@FreeBSD.org\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:655
+#, no-wrap
+msgid "Otherwise, for any questions or suggestions, please send mail to:\n"
+msgstr "否则，如有任何问题或建议，请发送邮件至。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:657
+#, no-wrap
+msgid "                questions@FreeBSD.org\n"
+msgstr "                questions@FreeBSD.org\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:662
+#, no-wrap
+msgid ""
+"Additionally, being a volunteer effort, we are always happy to have\n"
+"extra hands willing to help - there are already far more enhancements\n"
+"to be done than we can ever manage to do by ourselves!  To contact us\n"
+"on technical matters, or with offers of help, you may send mail to:\n"
+msgstr ""
+"此外，作为一项志愿者工作，我们总是很高兴有更多的人愿意帮助我们。\n"
+"愿意帮助我们的额外的手--要做的改进已经远远超过了我们自己所能做到的程度。\n"
+"要做的事情已经比我们自己能做的要多得多。 若要联系我们\n"
+"技术问题，或提供帮助，你可以发送邮件到。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:664
+#, no-wrap
+msgid "                hackers@FreeBSD.org\n"
+msgstr "                hackers@FreeBSD.org\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:669
+#, no-wrap
+msgid ""
+"Since these mailing lists can experience significant amounts of\n"
+"traffic, if you have slow or expensive mail access and you are\n"
+"only interested in keeping up with significant FreeBSD events, you may\n"
+"find it preferable to subscribe to:\n"
+msgstr ""
+"由于这些邮件列表可以经历大量的\n"
+"的流量，如果您有缓慢或昂贵的邮件访问，并且您只想了解重要的FreeBSD事件。\n"
+"兴趣，那么您可能会发现订阅\n"
+"倾向于订阅。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:671
+#, no-wrap
+msgid "                announce@FreeBSD.org\n"
+msgstr "                announce@FreeBSD.org\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:680
+#, no-wrap
+msgid ""
+"All but the freebsd-bugs groups can be freely joined by anyone wishing\n"
+"to do so.  Send mail to MajorDomo@FreeBSD.org and include the keyword\n"
+"`help' on a line by itself somewhere in the body of the message.  This\n"
+"will give you more information on joining the various lists, accessing\n"
+"archives, etc.  There are a number of mailing lists targeted at\n"
+"special interest groups not mentioned here, so send mail to majordomo\n"
+"and ask about them!\n"
+msgstr ""
+"除freebsd-bugs组外，其他组都可以自由加入。\n"
+"的人都可以自由加入。 发送邮件到 MajorDomo@FreeBSD.org 并在邮件正文的某处加上关键字\n"
+"`help'，并在邮件正文的某处单独写上一行。 这\n"
+"会给你更多关于加入各种列表、访问\n"
+"档案等等。 还有一些邮件列表是针对\n"
+"这里没有提到的特殊兴趣小组，所以请发送邮件到majordomo\n"
+"并询问他们的情况!\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:684
+#, no-wrap
+msgid ""
+"6. Acknowledgements\n"
+"-------------------\n"
+msgstr ""
+"6.致谢\n"
+"-------------------\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:692
+#, no-wrap
+msgid ""
+"FreeBSD represents the cumulative work of many dozens, if not\n"
+"hundreds, of individuals from around the world who have worked very\n"
+"hard to bring you this release.  It would be very difficult, if not\n"
+"impossible, to enumerate everyone who's contributed to FreeBSD, but\n"
+"nonetheless we shall try (in alphabetical order, of course). If your\n"
+"name is not mentioned, please be assured that its omission is entirely\n"
+"accidental.\n"
+msgstr ""
+"FreeBSD代表了世界上几十个，甚至几百个人的累积工作。\n"
+"的累积工作，这些人来自世界各地，他们非常努力地工作，以便为您带来这个版本。\n"
+"为您带来这个版本而努力工作。 如果不是不可能，也很难列举所有为FreeBSD做出贡献的人。\n"
+"要列举所有为FreeBSD做出贡献的人是非常困难的，甚至是不可能的，但是\n"
+"但我们还是要尝试一下（当然是按字母顺序）。如果您的\n"
+"的名字没有被提及，请放心，它的遗漏完全是\n"
+"偶然的。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:695
+#, no-wrap
+msgid "The Computer Systems Research Group (CSRG), U.C. Berkeley.\n"
+msgstr "计算机系统研究小组（CSRG），加州大学伯克利分校。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:697
+#, no-wrap
+msgid "Bill Jolitz, for his initial work with 386BSD.\n"
+msgstr "Bill Jolitz，因为他在386BSD方面的最初工作。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:700
+#, no-wrap
+msgid ""
+"The FreeBSD Core Team\n"
+"(in alphabetical order by first name):\n"
+msgstr ""
+"FreeBSD核心团队\n"
+"(按名字的字母顺序排列)。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:718
+#, no-wrap
+msgid ""
+"        Andreas Schulz <ats@FreeBSD.org>\n"
+"        Andrey A. Chernov <ache@FreeBSD.org>\n"
+"        Bruce Evans <bde@FreeBSD.org>\n"
+"        David Greenman <davidg@FreeBSD.org>\n"
+"        Garrett A. Wollman <wollman@FreeBSD.org>\n"
+"        Gary Palmer <gpalmer@FreeBSD.org>\n"
+"        Geoff Rehmet <csgr@FreeBSD.org>\n"
+"        Jack Vogel <jackv@FreeBSD.org>\n"
+"        John Dyson <dyson@FreeBSD.org>\n"
+"        Jordan K. Hubbard <jkh@FreeBSD.org>\n"
+"        Justin Gibbs <gibbs@FreeBSD.org>\n"
+"        Paul Richards <paul@FreeBSD.org>\n"
+"        Poul-Henning Kamp <phk@FreeBSD.org>\n"
+"        Rich Murphey <rich@FreeBSD.org>\n"
+"        Rodney W. Grimes <rgrimes@FreeBSD.org>\n"
+"        Satoshi Asami <asami@FreeBSD.org>\n"
+"        Søren Schmidt <sos@FreeBSD.org>\n"
+msgstr ""
+"        Andreas Schulz <ats@FreeBSD.org>\n"
+"        Andrey A. Chernov <ache@FreeBSD.org>\n"
+"        Bruce Evans <bde@FreeBSD.org>\n"
+"        David Greenman <davidg@FreeBSD.org>\n"
+"        Garrett A. Wollman <wollman@FreeBSD.org>\n"
+"        Gary Palmer <gpalmer@FreeBSD.org>\n"
+"        Geoff Rehmet <csgr@FreeBSD.org>\n"
+"        Jack Vogel <jackv@FreeBSD.org>\n"
+"        John Dyson <dyson@FreeBSD.org>\n"
+"        Jordan K. Hubbard <jkh@FreeBSD.org>\n"
+"        Justin Gibbs <gibbs@FreeBSD.org>\n"
+"        Paul Richards <paul@FreeBSD.org>\n"
+"        Poul-Henning Kamp <phk@FreeBSD.org>\n"
+"        Rich Murphey <rich@FreeBSD.org>\n"
+"        Rodney W. Grimes <rgrimes@FreeBSD.org>\n"
+"        Satoshi Asami <asami@FreeBSD.org>\n"
+"        Søren Schmidt <sos@FreeBSD.org>\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:720
+#, no-wrap
+msgid "Special mention to:\n"
+msgstr "特别提及的是。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:723
+#, no-wrap
+msgid ""
+"        Walnut Creek CDROM, without whose help (and continuing support)\n"
+"        this release would never have been possible.\n"
+msgstr ""
+"        Walnut Creek CDROM，没有他们的帮助（和持续的支持），这个版本永远不可能实现。\n"
+"        这个版本永远不可能实现。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:726
+#, no-wrap
+msgid ""
+"        Dermot McDonnell for his donation of a Toshiba XM3401B CDROM\n"
+"        drive.\n"
+msgstr ""
+"        Dermot McDonnell捐赠了一台东芝XM3401B CDROM驱动器。\n"
+"        驱动器。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:728
+#, no-wrap
+msgid "        Additional FreeBSD helpers and beta testers:\n"
+msgstr "        额外的FreeBSD帮助者和beta测试者。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:737
+#, no-wrap
+msgid ""
+"        J.T. Conklin                            Julian Elischer\n"
+"        Frank Durda IV                          Peter Dufault\n"
+"        Sean Eric Fagan                         Jeffrey Hsu\n"
+"        Terry Lambert                           L Jonas Olsson\n"
+"        Chris Provenzano                        Dave Rivers\n"
+"        Guido van Rooij                         Steven Wallace\n"
+"        Atsushi Murai                           Scott Mace\n"
+"        Nate Williams\n"
+msgstr ""
+"        J.T. Conklin                            Julian Elischer\n"
+"        Frank Durda IV                          Peter Dufault\n"
+"        Sean Eric Fagan                         Jeffrey Hsu\n"
+"        Terry Lambert                           L Jonas Olsson\n"
+"        Chris Provenzano                        Dave Rivers\n"
+"        Guido van Rooij                         Steven Wallace\n"
+"        Atsushi Murai                           Scott Mace\n"
+"        Nate Williams\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:739
+#, no-wrap
+msgid "        And everyone at Montana State University for their initial support.\n"
+msgstr "        还有蒙大拿州立大学的所有人，感谢他们最初的支持。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:747
+#, no-wrap
+msgid ""
+"Jordan would also like to give special thanks to Poul-Henning Kamp and\n"
+"Gary Palmer, both of whom put in long hours helping him to construct\n"
+"the new installation utility.  Poul, being a proud new father, was\n"
+"especially pressed for time and yet somehow managed to put in\n"
+"a significant amount of effort anyway.  This release could not have\n"
+"happened without him!  Thank you both!\n"
+msgstr ""
+"乔丹还要特别感谢Poul-Henning Kamp和Gary Palmer。\n"
+"加里-帕尔默，他们都花了很长时间帮助他建设\n"
+"新的安装工具。 普尔是一位自豪的新父亲，他的时间特别紧张，但还是设法投入了大量时间。\n"
+"时间特别紧张，但还是设法投入了大量的精力。\n"
+"但还是付出了大量的努力。 没有他，这个版本不可能\n"
+"没有他就不可能发生。 谢谢你们俩\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:750
+#, no-wrap
+msgid ""
+"Thanks also to everyone else who helped, especially those not\n"
+"mentioned, and we sincerely hope you enjoy this release of FreeBSD!\n"
+msgstr ""
+"也感谢其他所有帮助过我们的人，特别是那些没有提到的人。\n"
+"的人，我们真诚地希望你们喜欢这个版本的FreeBSD。\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:753
+#, no-wrap
+msgid "                        The FreeBSD Core Team\n"
+msgstr "                        FreeBSD核心团队\n"
+
+#. type: delimited block . 4
+#: content/en/releases/2.0.5R/notes.adoc:755
+#, no-wrap
+msgid "Id: RELNOTES.FreeBSD,v 1.7 1995/05/28 19:49:57 jkh Exp\n"
+msgstr "Id: RELNOTES.FreeBSD,v 1.7 1995/05/28 19:49:57 jkh Exp\n"
+
+#. type: Plain text
+#: content/en/releases/2.0.5R/notes.adoc:757
+msgid "link:../../[Release Home]"
+msgstr "链接：././[发布主页]"
