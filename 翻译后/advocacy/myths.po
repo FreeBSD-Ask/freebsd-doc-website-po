@@ -1,0 +1,640 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 18:45+0800\n"
+"PO-Revision-Date: 2022-04-05 00:24+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/advocacy/myths.adoc:1 content/en/advocacy/myths.adoc:8
+#, no-wrap
+msgid "FreeBSD Advocacy Project"
+msgstr "FreeBSD宣传项目"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:11
+msgid ""
+"As the BSD projects (including DragonFlyBSD, FreeBSD, NetBSD, and OpenBSD) have grown in "
+"size, a number of persistent myths have grown up around them. Some of these are "
+"perpetuated by well meaning but misguided individuals, others by people pursuing their "
+"own agendas."
+msgstr ""
+"随着BSD项目(包括DragonFlyBSD、FreeBSD、NetBSD和OpenBSD)规模的扩大，一些持续存在的神话已经"
+"围绕着它们成长起来。其中一些是由善意但被误导的人延续的，另一些是由追求自己的议程的人。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:13
+msgid "This page aims to dispel those myths while remaining as dispassionate as possible."
+msgstr "本页旨在消除这些神话，同时尽可能地保持冷静的态度。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:15
+#, no-wrap
+msgid "*Note:* Throughout this page, \"*BSD\" refers to all of the BSD Projects. Where a myth or response is specific to a particular project it is indicated as such.\n"
+msgstr "*注意：*在本页中，\"*BSD \"指的是所有的BSD项目。如果一个神话或回应是针对某个特定项目的，则会注明。\n"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:17
+msgid ""
+"If you are aware of an omission or error on this page, please let the mailto:doc@freebsd."
+"org[FreeBSD Documentation Project mailing list] know."
+msgstr ""
+"如果您发现本页有遗漏或错误，请让mailto:doc@freebsd.org[FreeBSD Documentation Project "
+"mailing list]知道。"
+
+#. type: Title ==
+#: content/en/advocacy/myths.adoc:18
+#, no-wrap
+msgid "Myths"
+msgstr "误区"
+
+#. type: Title ==
+#: content/en/advocacy/myths.adoc:20
+#, no-wrap
+msgid "Index"
+msgstr "索引"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:23
+msgid ""
+"<<closed-model,*BSD has a closed development model, it's more \"Cathedral\" than \"Bazaar"
+"\">>"
+msgstr "<<closed-model,*BSD有一个封闭的开发模式，它更像是 \"大教堂 \"而不是 \"集市\">>。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:24
+msgid "<<own-distro,You can't make your own distributions or derivative works of *BSD>>"
+msgstr "<<own-distro,你不能制作自己的发行版或*BSD的衍生作品>>。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:25
+msgid "<<server,*BSD makes a great server, but a poor desktop>>"
+msgstr "<<服务器，*BSD是一个伟大的服务器，但却是一个糟糕的桌面>>。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:26
+msgid "<<old-codebase,The *BSD codebase is old, outdated, and dying>>"
+msgstr "<<老旧的代码库,*BSD的代码库是老旧的、过时的和垂死的>>。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:27
+msgid ""
+"<<bsd-war,The *BSD projects are at war with one another, splinter groups form each week>>"
+msgstr "<<bsd-war,*BSD项目正在彼此交战，每周都有分裂的团体形成>>。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:28
+msgid "<<clustering,You can't cluster *BSD systems (parallel computing)>>"
+msgstr "<<集群,你不能集群*BSD系统（并行计算）>>"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:29
+msgid "<<support,There's no commercial support for *BSD>>"
+msgstr "<<支持,*BSD没有商业支持>>。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:30
+msgid "<<applications,There are no applications for *BSD>>"
+msgstr "<<applications,没有*BSD的应用程序>>。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:31
+msgid "<<beats,*BSD is better than (some other system)>>"
+msgstr "<<打，*BSD比（其他系统）好>>。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:32
+msgid "<<beaten,(some other system) is better than *BSD>>"
+msgstr "<<beaten, (some other system) is better than *BSD>>."
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:34
+#, no-wrap
+msgid "Myth: *BSD has a closed development model, it's more \"Cathedral\" than \"Bazaar\""
+msgstr "误解: *BSD有一个封闭的开发模式，它更像是 \"大教堂 \"而不是 \"集市\"。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:37
+msgid ""
+"Eric Raymond wrote an influential paper, http://www.catb.org/~esr/writings/cathedral-"
+"bazaar/[\"The Cathedral and the Bazaar\"] in which the Linux development model (and the "
+"model Eric used for `fetchmail`) is held up as an example of how to do \"open\" "
+"development. By contrast, the model employed by *BSD is often characterized as closed."
+msgstr ""
+"Eric Raymond写了一篇有影响力的论文，http://www.catb.org/~esr/writings/cathedral-bazaar/"
+"[\"The Cathedral and the Bazaar\"]，其中Linux的开发模式（以及Eric用于`fetchmail'的模式）"
+"被作为如何进行 \"开放 \"开发的例子。相比之下，*BSD所采用的模式经常被描述为封闭的。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:39
+msgid ""
+"The implicit value judgment is that \"bazaar\" (open) is good, and \"cathedral"
+"\" (closed) is bad."
+msgstr "隐含的价值判断是，\"集市\"（开放）是好的，而 \"大教堂\"（封闭）是坏的。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:41
+msgid ""
+"If anything, *BSD's development model is probably more akin to the \"bazaar\" that Eric "
+"describes than either Linux or `fetchmail`."
+msgstr "如果有的话，*BSD的开发模式可能比Linux或`fetchmail`更类似于Eric描述的 \"集市\"。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:43
+msgid "Consider the following;"
+msgstr "请考虑以下情况。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:45
+#, no-wrap
+msgid "*All the *BSD projects:* The current, bleeding edge source code for FreeBSD, NetBSD, and OpenBSD is available for anyone to download from the Internet, 24 hours a day. You don't need to wait for someone else to roll a release.\n"
+msgstr "*所有的*BSD项目：*FreeBSD、NetBSD和OpenBSD当前的、最前沿的源代码，任何人都可以从互联网上下载，一天24小时。你不需要等待别人来发布。\n"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:47
+#, no-wrap
+msgid "*FreeBSD:* An installable snapshot of the current progress is made weekly. These snapshots can be installed exactly like an ordinary release, and do not require installation over an existing system.\n"
+msgstr "*FreeBSD:*每周都会有一个可安装的当前进度的快照。这些快照可以像普通版本一样安装，不需要在现有系统上安装。\n"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:49
+#, no-wrap
+msgid "*OpenBSD:* Installable snapshots are generated daily and if Theo thinks they are good enough, he uploads them to the mirrors.\n"
+msgstr "*OpenBSD:*可安装的快照每天都会生成，如果Theo认为它们足够好，他就会把它们上传到镜像中。\n"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:51
+msgid ""
+"Contrast this with Linux, where new kernel distributions are made available on an ad-hoc "
+"basis, and where the frequency of each Linux distribution release is at the whim of the "
+"individual vendor."
+msgstr ""
+"与此相反，在Linux中，新的内核发行版是临时性的，而且每个Linux发行版的发布频率都是由各个供"
+"应商随意决定的。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:53
+msgid ""
+"There's none of the Linux fanfare every time a new kernel is released, simply because "
+"for most *BSD users it is an every day event."
+msgstr ""
+"每次发布新的内核时，都没有Linux的大肆宣传，只是因为对大多数*BSD用户来说，这是每天都要做的"
+"事情。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:54
+msgid ""
+"Anyone can submit patches, bug reports, documentation, and other contributions. They can "
+"do this by using a web based interface."
+msgstr ""
+"任何人都可以提交补丁、错误报告、文档和其他贡献。他们可以通过使用一个基于网络的界面来完成"
+"这一工作。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:56
+msgid "Pointers to this system litter the documentation."
+msgstr "这个系统的指针在文件中到处可见。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:57
+msgid ""
+"Not everyone can commit code changes to the *BSD code. You need to be a _committer_ "
+"first. Typically, people are offered \"commit privs\" after they have made a few well-"
+"thought out submissions to the project using Bugzilla or similar."
+msgstr ""
+"不是每个人都可以向*BSD代码提交代码修改。你需要先成为一个_committer_。通常情况下，人们在使"
+"用Bugzilla或类似的软件向项目提交了一些经过深思熟虑的内容后，就会获得 \"提交权限\"。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:59
+msgid ""
+"This is identical to the Linux mechanism. Only one person is (notionally) allowed to "
+"change the Kernel, Linus. But specific areas (such as the networking code) are delegated "
+"to other people."
+msgstr ""
+"这与Linux的机制完全相同。只有一个人（理论上）被允许改变内核，即Linus。但特定的领域（如网"
+"络代码）被委托给其他人。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:61
+msgid ""
+"_Aside: Nik (nik@FreeBSD.org) is a case in point. After making several submissions to "
+"the FreeBSD Documentation Project and web pages, he was offered \"commit privs\" so that "
+"he did not have to keep bothering other committers to commit the changes. He never had "
+"to ask for them, they were freely given._"
+msgstr ""
+"_Aside: Nik (nik@FreeBSD.org) 是一个典型的例子。在向FreeBSD文档项目和网页提交了几份文件之"
+"后，他得到了 \"提交权限\"，这样他就不必再继续麻烦其他提交者提交修改。他从来没有要求过这"
+"些，它们是免费提供的。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:63 content/en/advocacy/myths.adoc:84
+#: content/en/advocacy/myths.adoc:93 content/en/advocacy/myths.adoc:102
+#: content/en/advocacy/myths.adoc:111 content/en/advocacy/myths.adoc:124
+#: content/en/advocacy/myths.adoc:135 content/en/advocacy/myths.adoc:156
+#: content/en/advocacy/myths.adoc:163 content/en/advocacy/myths.adoc:170
+msgid "'''"
+msgstr "'''"
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:65
+#, no-wrap
+msgid "Myth: You cannot make your own distributions or derivative works of *BSD"
+msgstr "误解：你不能制作你自己的发行版或*BSD的衍生作品"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:68
+msgid ""
+"You can. You just need to say in the documentation and source files where the code is "
+"derived from. Multiple derivative projects exist:"
+msgstr "你可以。你只需要在文档和源文件中说明代码是从哪里衍生出来的。存在多个衍生项目。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:70
+msgid ""
+"http://www.dragonflybsd.org/[DragonflyBSD] started as a code fork from FreeBSD 4.X, but "
+"it has since its own user community and development goals."
+msgstr ""
+"http://www.dragonflybsd.org/[DragonflyBSD]从FreeBSD 4.X的代码分叉开始，但它后来有了自己的"
+"用户社区和发展目标。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:71
+msgid ""
+"https://wiki.gentoo.org/wiki/Gentoo_FreeBSD[Gentoo/FreeBSD] is an effort by the Gentoo "
+"Project to port their complete administration facilities to take advantage of the "
+"reliable FreeBSD kernel and userland. This project is purely incomplete and experimental."
+msgstr ""
+"https://wiki.gentoo.org/wiki/Gentoo_FreeBSD[Gentoo/FreeBSD]是Gentoo项目为移植他们完整的管"
+"理设施以利用可靠的FreeBSD内核和用户界面所做的努力。这个项目纯粹是不完整的和实验性的。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:72
+msgid ""
+"link:{nanobsd}[NanoBSD] is another project to produce reduced versions of FreeBSD to put "
+"it on a Compact Flash card or other mass storage. It is also a part of the FreeBSD "
+"source tree, see /usr/src/tools/tools/nanobsd."
+msgstr ""
+"link:{nanobsd}[NanoBSD] 是另一个制作FreeBSD缩小版的项目，可以把它放在Compact Flash卡或其"
+"他大容量存储器上。它也是FreeBSD源代码树的一部分，见/usr/src/tools/tools/nanobsd。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:73
+msgid ""
+"https://nomadbsd.org[NomadBSD] is a persistent live system for USB flash drives, based "
+"on FreeBSD. Together with automatic hardware detection and setup, it is configured to be "
+"used as a desktop system that works out of the box, but can also be used for data "
+"recovery, for educational purposes, or to test FreeBSD's hardware compatibility"
+msgstr ""
+"https://nomadbsd.org[NomadBSD]是一个基于FreeBSD的USB闪存驱动器的持久性活系统。加上自动的"
+"硬件检测和设置，它被配置为一个开箱即用的桌面系统，但也可以用于数据恢复，用于教育目的，或"
+"测试FreeBSD的硬件兼容性。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:74
+msgid ""
+"https://ghostbsd.org[GhostBSD] is derived from FreeBSD, uses the GTK environment to "
+"provide a beautiful looks and comfortable experience on the modern BSD platform offering "
+"a natural and native UNIX(R) work environment."
+msgstr ""
+"https://ghostbsd.org[GhostBSD]源于FreeBSD，使用GTK环境，在现代BSD平台上提供一个漂亮的外观"
+"和舒适的体验，提供一个自然和原生的UNIX（R）工作环境。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:75
+msgid ""
+"https://www.midnightbsd.org[MidnightBSD] is a FreeBSD derived operating system developed "
+"with desktop users in mind. It includes all the software you'd expect for your daily "
+"tasks: mail, web browsing, word processing, gaming, and much more."
+msgstr ""
+"https://www.midnightbsd.org[MidnightBSD]是一个以桌面用户为中心开发的FreeBSD衍生操作系统。"
+"它包括所有你所期望的日常工作的软件：邮件、网络浏览、文字处理、游戏等等。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:76
+msgid ""
+"http://www.pfsense.com[pfSense] is an open source firewall derived from the m0n0wall "
+"firewall system with several different goals and features, such as OpenBSD's Packet "
+"Filter (PF), FreeBSD 6.1, ALTQ support for excellent packet queuing and finally an "
+"integrated package management system for extending the environment with new features."
+msgstr ""
+"http://www.pfsense.com[pfSense]是一个源自m0n0wall防火墙系统的开源防火墙，具有几个不同的目"
+"标和功能，如OpenBSD的包过滤器（PF），FreeBSD 6.1，支持ALTQ的优秀包队列，最后是一个集成的"
+"软件包管理系统，用于扩展环境的新功能。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:77
+msgid ""
+"https://hardenedbsd.org[HardenedBSD] was Founded in 2014 by Oliver Pinter and Shawn "
+"Webb, HardenedBSD is a security-enhanced fork of FreeBSD. The HardenedBSD Project is "
+"implementing many exploit mitigation and security technologies on top of FreeBSD."
+msgstr ""
+"https://hardenedbsd.org[HardenedBSD]由Oliver Pinter和Shawn Webb于2014年创立，HardenedBSD"
+"是FreeBSD的一个安全强化分叉。HardenedBSD项目在FreeBSD基础上实现了许多漏洞缓解和安全技术。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:78
+msgid ""
+"https://opnsense.org[OPNsense] started as a fork of pfSense© and m0n0wall in 2014, with "
+"its first official release in January 2015. The project has evolved very quickly while "
+"still retaining familiar aspects of both m0n0wall and pfSense. A strong focus on "
+"security and code quality drives the development of the project."
+msgstr ""
+"https://opnsense.org[OPNsense]在2014年开始作为pfSense©和m0n0wall的分叉，在2015年1月首次正"
+"式发布。该项目发展非常迅速，同时仍然保留了m0n0wall和pfSense的熟悉方面。对安全和代码质量的"
+"强烈关注推动了项目的发展。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:79
+msgid ""
+"https://www.truenas.com/[TrueNAS] is a Network Attached Storage (NAS) software that "
+"shares and protects data from modern-day threats like ransomware and malware. TrueNAS "
+"makes it easy for users and client devices to access shared data through virtually any "
+"sharing protocol."
+msgstr ""
+"https://www.truenas.com/[TrueNAS]是一款网络附加存储（NAS）软件，可以共享和保护数据免受现"
+"代威胁，如勒索软件和恶意软件。TrueNAS使用户和客户端设备可以通过几乎任何共享协议轻松访问共"
+"享数据。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:80
+msgid ""
+"https://www.xigmanas.com/[XigmaNAS] is an embedded Open Source NAS (Network-Attached "
+"Storage) distribution based on FreeBSD."
+msgstr ""
+"https://www.xigmanas.com/[XigmaNAS]是一个基于FreeBSD的嵌入式开源NAS（网络附加存储）发行"
+"版。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:82
+msgid ""
+"Similarly to DragonflyBSD, OpenBSD was not a standalone project, it started as a spinoff "
+"from the NetBSD project, and has since evolved its own distinctive approach."
+msgstr ""
+"与DragonflyBSD类似，OpenBSD也不是一个独立的项目，它是由NetBSD项目衍生出来的，后来发展出自"
+"己独特的方式。"
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:86
+#, no-wrap
+msgid "Myth: *BSD makes a great server, but a poor (UNIX(R)) desktop"
+msgstr "神话：*BSD是一个伟大的服务器，但却是一个糟糕的（UNIX(R)）桌面。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:89
+#, no-wrap
+msgid "*BSD makes a great server. It also makes a great desktop. Many of the requirements for a server (responsiveness under load, stability, effective use of system resources) are the same requirements as for a desktop machine.\n"
+msgstr "*BSD是一个伟大的服务器。它也可以成为一个很好的桌面电脑。对服务器的许多要求（负载下的响应能力，稳定性，对系统资源的有效利用）与对台式机的要求相同。\n"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:91
+#, no-wrap
+msgid "*BSD has access to the same desktop tools (KDE, GNOME, Firefox, windowmanagers) as Linux. And \"office\" applications such as LibreOffice suite work under *BSD too.\n"
+msgstr "*BSD可以使用和Linux一样的桌面工具(KDE, GNOME, Firefox, windowmanagers)。而且 \"办公 \"应用程序，如LibreOffice套件也可以在*BSD下使用。\n"
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:95
+#, no-wrap
+msgid "Myth: The BSD codebase is old, outdated, and dying"
+msgstr "误解：BSD代码库老旧、过时、濒临灭绝"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:98
+msgid ""
+"While the BSD codebase may be more than 20 years old, it is neither outdated nor dying. "
+"Many professional users like the stability that years of testing has provided FreeBSD."
+msgstr ""
+"虽然BSD的代码库可能已经有20多年的历史了，但它既没有过时，也没有垂死。许多专业用户喜欢多年"
+"的测试为FreeBSD提供的稳定性。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:100
+msgid "link:../../features/[Technological enhancements] continue to be added to *BSD."
+msgstr "link:././features/[技术改进]继续被添加到*BSD."
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:104
+#, no-wrap
+msgid "Myth: The *BSD projects are at war with one another, splinter groups form each week"
+msgstr "误解：*BSD项目之间相互争斗，每周都会形成分裂的团体"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:107
+msgid ""
+"No. While occasional advocacy may get a touch heated, the *BSD flavors continue to work "
+"with one another. FreeBSD's Alpha port was initially heavily based on the work done by "
+"the NetBSD team. Both NetBSD and OpenBSD used the FreeBSD ports collection to bootstrap "
+"their own port sets. FreeBSD and NetBSD both integrate security fixes first discovered "
+"by the OpenBSD team."
+msgstr ""
+"不，虽然偶尔的宣传可能会有一丝热度，但*BSD的口味仍然是互相配合的。FreeBSD的Alpha移植最初"
+"主要是基于NetBSD团队的工作。NetBSD和OpenBSD都使用FreeBSD的端口集来引导自己的端口集。"
+"FreeBSD和NetBSD都集成了由OpenBSD团队首先发现的安全修正。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:109
+msgid ""
+"The FreeBSD and NetBSD projects separated more than twenty years ago. OpenBSD and "
+"DragonflyBSD are the only new BSD projects to split off in the last twenty years."
+msgstr ""
+"FreeBSD和NetBSD项目在二十多年前就分离了。OpenBSD和DragonflyBSD是过去20年中唯一分离出来的"
+"新BSD项目。"
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:113
+#, no-wrap
+msgid "Myth: You can't cluster *BSD systems (parallel computing)"
+msgstr "误解：你不能对*BSD系统进行集群（并行计算）。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:116
+msgid "The following URLs should disprove this;"
+msgstr "下面的网址应该可以证明这一点。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:118
+msgid ""
+"https://people.FreeBSD.org/~brooks/papers/bsdcon2003/fbsdcluster/ Brooks Davis's paper "
+"about the implementation of a FreeBSD cluster with more than 300 CPU's"
+msgstr ""
+"https://people.FreeBSD.org/~brooks/papers/bsdcon2003/fbsdcluster/ Brooks Davis关于实现一"
+"个拥有超过300个CPU的FreeBSD集群的论文。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:119
+msgid ""
+"http://www.openbsd.org/faq/pf/carp.html OpenBSD's Common Address Redundancy Protocol "
+"(CARP) to build redundant clusters at the level of the firewall"
+msgstr ""
+"http://www.openbsd.org/faq/pf/carp.html OpenBSD的通用地址冗余协议（CARP），在防火墙层面建"
+"立冗余集群"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:120
+msgid "http://pf4freebsd.love2party.net/carp.html OpenBSD's CARP ported to FreeBSD"
+msgstr "http://pf4freebsd.love2party.net/carp.html OpenBSD的CARP被移植到了FreeBSD。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:122
+msgid ""
+"Note, that mailto:freebsd-cluster@FreeBSD.org[freebsd-cluster] mailing list is available "
+"for further discussion about clustering of FreeBSD."
+msgstr ""
+"注意，mailto:freebsd-cluster@FreeBSD.org[freebsd-cluster]邮件列表可以进一步讨论FreeBSD的"
+"集群问题。"
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:126
+#, no-wrap
+msgid "Myth: There's no commercial support for *BSD"
+msgstr "误解：*BSD没有商业支持"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:129
+#, no-wrap
+msgid "*FreeBSD:* The link:../../commercial/consult_bycat/[FreeBSD Commercial Vendors Page] lists companies that offer commercial support for FreeBSD.\n"
+msgstr "*FreeBSD:* 链接：.../.../commercial/consult_bycat/[FreeBSD Commercial Vendors Page] 列出了为FreeBSD提供商业支持的公司。\n"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:131
+msgid ""
+"The http://www.freebsdmall.com[FreeBSD Mall] also offer commercial support, along with "
+"shirts, hats, books, software, and promotional items."
+msgstr ""
+"http://www.freebsdmall.com[FreeBSD商城]也提供商业支持，以及衬衫、帽子、书籍、软件和促销"
+"品。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:133
+#, no-wrap
+msgid "*OpenBSD:* The http://www.openbsd.org/support.html[OpenBSD Commercial Consulting Page] lists companies that offer commercial support for OpenBSD.\n"
+msgstr "*OpenBSD:* http://www.openbsd.org/support.html[OpenBSD商业咨询页面]列出了为OpenBSD提供商业支持的公司。\n"
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:137
+#, no-wrap
+msgid "Myth: There are no applications for *BSD"
+msgstr "误解：*BSD没有应用程序"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:140
+msgid ""
+"The free software community started running on predominantly BSD systems (SunOS and "
+"similar). *BSD users can generally compile software written for these systems without "
+"needing to make any changes."
+msgstr ""
+"自由软件社区开始主要运行在BSD系统上（SunOS和类似系统）。*BSD用户一般可以编译为这些系统编"
+"写的软件而不需要做任何修改。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:142
+msgid ""
+"In addition, each *BSD project uses a \"ports\" system to make the building of ported "
+"software much easier."
+msgstr "此外，每个*BSD项目都使用一个 \"ports \"系统，以使移植软件的构建更加容易。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:144
+#, no-wrap
+msgid "*FreeBSD:* There are currently more than 30,000 applications ready to download and install in the FreeBSD ports collection. On i386 and AMD64, the Linux emulation layer will also run the vast majority of Linux applications. On the AMD64 architectures there is a compatibility layer to run 32-bit FreeBSD binaries.\n"
+msgstr "*FreeBSD:*目前有超过30,000个应用程序可以在FreeBSD ports集合中下载和安装。在i386和AMD64上，Linux仿真层也可以运行绝大多数的Linux应用程序。在AMD64架构上，有一个兼容层可以运行32位的FreeBSD二进制文件。\n"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:146
+#, no-wrap
+msgid "*NetBSD:* The Linux emulation layer will run the vast majority of i386 Linux applications, and the majority of SunOS4 applications can be run on a SPARCStation.\n"
+msgstr "*NetBSD:* Linux仿真层可以运行绝大多数的i386 Linux应用程序，绝大多数的SunOS4应用程序都可以在SPARCStation上运行。\n"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:148
+#, no-wrap
+msgid "*OpenBSD:* There are currently more than 8000 applications ready to download and install in the OpenBSD ports collection. The Linux emulation layer will also run the vast majority of i386 Linux applications, and the majority of SunOS4 applications can be run on a SPARCStation.\n"
+msgstr "*OpenBSD:*目前有超过8000个应用程序可以在OpenBSD ports集合中下载和安装。Linux仿真层也可以运行绝大多数的i386 Linux应用程序，大部分的SunOS4应用程序都可以在SPARCStation上运行。\n"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:150
+msgid ""
+"Both NetBSD and OpenBSD are able to use applications in FreeBSD's ports collection with "
+"minimal effort. Their lower number of ported applications reflects this."
+msgstr ""
+"NetBSD 和 OpenBSD 都能够以最小的代价使用 FreeBSD 的 ports Collection 中的应用程序。他们较"
+"低的移植应用程序的数量反映了这一点。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:152
+msgid ""
+"It is true that most companies when porting to PC Unix will choose Linux first. "
+"Fortunately, *BSD's Linux emulation layer will run these programs (Acrobat, StarOffice, "
+"Mathematica, WordPerfect, Quake, Intel ICC compiler, Compaq's Alpha compiler ...) with "
+"few, if any, problems."
+msgstr ""
+"诚然，大多数公司在移植到PC Unix时都会首先选择Linux。幸运的是，*BSD的Linux仿真层可以运行这"
+"些程序（Acrobat、StarOffice、Mathematica、WordPerfect、Quake、Intel ICC编译器、Compaq的"
+"Alpha编译器...），即使有问题，也很少。"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:154
+msgid ""
+"As a historical note, the first version of Netscape Navigator that ran on FreeBSD with "
+"Java support was the Linux version. These day you can also use a native FreeBSD version "
+"of Mozilla with a native Java plugin, all compiled conveniently from ports."
+msgstr ""
+"作为一个历史记录，第一个在FreeBSD上运行的支持Java的Netscape Navigator是Linux版本。今天，"
+"你也可以使用带有本地Java插件的本地FreeBSD版本的Mozilla，所有这些都是通过端口方便地编译"
+"的。"
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:158
+#, no-wrap
+msgid "Myth: *BSD is better than (insert other system)"
+msgstr "神话：*BSD比（插入其他系统）好"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:161 content/en/advocacy/myths.adoc:168
+msgid "This is user opinion only."
+msgstr "这仅是用户的意见。"
+
+#. type: Title ===
+#: content/en/advocacy/myths.adoc:165
+#, no-wrap
+msgid "Myth: (insert some other system) is better than *BSD"
+msgstr "神话：（插入一些其他系统）比*BSD好"
+
+#. type: Title ==
+#: content/en/advocacy/myths.adoc:171
+#, no-wrap
+msgid "Contributors"
+msgstr "撰稿人"
+
+#. type: Plain text
+#: content/en/advocacy/myths.adoc:174
+msgid "Members of the FreeBSD, NetBSD, and OpenBSD projects have contributed to this page;"
+msgstr "FreeBSD、NetBSD和OpenBSD项目的成员都为这个页面做出了贡献。"
+
+#. type: Table
+#: content/en/advocacy/myths.adoc:182
+#, no-wrap
+msgid ""
+"|Nik Clayton <nik@FreeBSD.org>\n"
+"|Jordan Hubbard <jkh@FreeBSD.org>\n"
+"|Ian F. Darwin <ian@DarwinSys.com>\n"
+"|Adrian Filipi-Martin <adrian@ubergeeks.com>\n"
+"|Tom Rhodes <trhodes@FreeBSD.org>\n"
+msgstr ""
+"|Nik Clayton <nik@FreeBSD.org>\n"
+"|Jordan Hubbard <jkh@FreeBSD.org>\n"
+"|Ian F. Darwin <ian@DarwinSys.com>\n"
+"|Adrian Filipi-Martin <adrian@ubergeeks.com>\n"
+"|Tom Rhodes <trhodes@FreeBSD.org>\n"
