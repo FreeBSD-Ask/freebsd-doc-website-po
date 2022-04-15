@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:10+0800\n"
+"PO-Revision-Date: 2022-04-14 21:11+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/copyright/daemon.adoc:1 content/en/copyright/daemon.adoc:6
+#, no-wrap
+msgid "The BSD Daemon"
+msgstr "BSD守护神"
+
+#. type: Plain text
+#: content/en/copyright/daemon.adoc:9
+msgid ""
+"The little red fellow that graces many of these pages is the BSD Daemon. In "
+"the context of UNIX(R) systems, daemons are process that run in the background "
+"attending to various tasks without human intervention. In the general sense, "
+"daemon is an older form of the word demon. In the _Unix System Administration "
+"Handbook_, Evi Nemeth has this to say about daemons:"
+msgstr ""
+"在这些网页上出现的红色小家伙就是BSD的守护进程。在UNIX(R)系统中，守护进程是在后"
+"台运行的进程，在没有人类干预的情况下处理各种任务。在一般意义上，守护进程是恶魔"
+"这个词的旧形式。在《Unix系统管理手册》中，Evi Nemeth对守护进程有这样的评价。"
+
+#. type: delimited block _ 4
+#: content/en/copyright/daemon.adoc:12
+msgid ""
+"\"Many people equate the word \"daemon\" with the word \"demon,\" implying "
+"some kind of Satanic connection between UNIX(R) and the underworld. This is an "
+"egregious misunderstanding. \"Daemon\" is actually a much older form of \"demon"
+"\"; daemons have no particular bias towards good or evil, but rather serve to "
+"help define a person's character or personality. The ancient Greeks' concept "
+"of a \"personal daemon\" was similar to the modern concept of a \"guardian "
+"angel\" - \"eudaemonia\" is the state of being helped or protected by a kindly "
+"spirit. As a rule, UNIX(R) systems seem to be infested with both daemons and "
+"demons.\" (p403)"
+msgstr ""
+"\"许多人把 \"daemon \"这个词等同于 \"恶魔\"，暗示UNIX(R)和冥界之间有某种撒旦式"
+"的联系。这是一个令人震惊的误解。\"恶魔 \"实际上是 \"魔鬼 \"的一种更古老的形式；"
+"恶魔没有特别的善恶倾向，而是用来帮助定义一个人的性格或个性。古希腊人的 \"个人守"
+"护神 \"的概念类似于现代的 \"守护天使 \"的概念--\"eudaemonia \"是一种被善良的精"
+"神帮助或保护的状态。作为一项规则，UNIX(R)系统似乎同时受到守护神和恶魔的侵扰\"。"
+"(p403)"
+
+#. type: Plain text
+#: content/en/copyright/daemon.adoc:15
+msgid ""
+"The earliest (and most popular) renditions of the BSD Daemon were created by "
+"John Lasseter. More recent FreeBSD-specific renditions have done by http://"
+"FromTo.Cc/hosokawa/gallery/[Tatsumi Hosokawa], but the basic inspiration was "
+"definitely John's. The copyright holder and creator of the daemon image is "
+"mailto:mckusick@mckusick.com[Marshall Kirk McKusick]. A short http://www."
+"mckusick.com/beastie/index.html[pictorial history] is also available. There is "
+"a gallery of FreeBSD related link:../../publish[publications] that use "
+"variations of the daemon graphic."
+msgstr ""
+"最早(也是最流行)的BSD Daemon版本是由John Lasseter创造的。最近的FreeBSD专用版本"
+"是由http://FromTo.Cc/hosokawa/gallery/[Tatsumi Hosokawa]完成的，但基本的灵感肯"
+"定是John的。守护者图像的版权所有者和创造者是mailto:mckusick@mckusick."
+"com[Marshall Kirk McKusick]。一个简短的http://www.mckusick.com/beastie/index."
+"html[图片历史]也是可用的。有一个FreeBSD相关链接的画廊：.../.../publish[出版"
+"物]，其中使用了daemon图形的变化。"
+
+#. type: Plain text
+#: content/en/copyright/daemon.adoc:17
+msgid ""
+"Various size stuffed and beanie daemons are available from http://www."
+"freebsdmall.com[the FreeBSD Mall] image:../../gifs/plueschtier-tiny.jpg[beanie "
+"daemon]."
+msgstr ""
+"各种尺寸的毛绒玩具和豆豆守护神可以从http://www.freebsdmall.com[FreeBSD商城]图"
+"片：././gifs/plueschtier-tiny.jpg[豆豆守护神]。"
+
+#. type: Plain text
+#: content/en/copyright/daemon.adoc:19
+msgid "BSD Daemon Copyright 1988 by Marshall Kirk McKusick. All Rights Reserved."
+msgstr "BSD Daemon 版权所有 1988年，Marshall Kirk McKusick。保留所有权利。"
+
+#. type: Plain text
+#: content/en/copyright/daemon.adoc:21
+msgid "Permission to use the daemon may be obtained from:"
+msgstr "使用该守护程序的许可可以从以下方面获得。"
+
+#. type: delimited block _ 4
+#: content/en/copyright/daemon.adoc:27
+msgid "Marshall Kirk McKusick + 1614 Oxford St + Berkeley, CA 94709-1608 + USA"
+msgstr "Marshall Kirk McKusick + 1614 Oxford St + Berkeley, CA 94709-1608 + 美国"
+
+#. type: Plain text
+#: content/en/copyright/daemon.adoc:30
+msgid "or via email at mckusick@mckusick.com."
+msgstr "或通过电子邮件：mckusick@mckusick.com。"
+
+#. type: Plain text
+#: content/en/copyright/daemon.adoc:31
+msgid "link:..[Legal Home]"
+msgstr "链接：...[法律之家]"

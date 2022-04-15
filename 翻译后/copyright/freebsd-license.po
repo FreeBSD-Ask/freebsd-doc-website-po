@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:16+0800\n"
+"PO-Revision-Date: 2022-04-14 21:31+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/copyright/freebsd-license.adoc:1
+#: content/en/copyright/freebsd-license.adoc:6
+#, no-wrap
+msgid "The FreeBSD Copyright"
+msgstr "FreeBSD的版权"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-license.adoc:9
+msgid "Copyright 1992-2022 The FreeBSD Project."
+msgstr "Copyright 1992-2022 The FreeBSD Project."
+
+#. type: Plain text
+#: content/en/copyright/freebsd-license.adoc:11
+msgid ""
+"Redistribution and use in source and binary forms, with or without "
+"modification, are permitted provided that the following conditions are met:"
+msgstr ""
+"在满足以下条件的情况下，允许以源码和二进制形式重新发布和使用，无论是否修改。"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-license.adoc:13
+msgid ""
+"Redistributions of source code must retain the above copyright notice, this "
+"list of conditions and the following disclaimer."
+msgstr "源代码的再分发必须保留上述版权声明、本条件清单和以下免责声明。"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-license.adoc:14
+msgid ""
+"Redistributions in binary form must reproduce the above copyright notice, "
+"this list of conditions and the following disclaimer in the documentation "
+"and/or other materials provided with the distribution."
+msgstr ""
+"二进制形式的再发行必须在文件和/或与发行物一起提供的其他材料中复制上述版权声"
+"明、本条件清单和下列免责声明。"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-license.adoc:16
+msgid ""
+"THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS \"AS IS\" AND ANY "
+"EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED "
+"WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE "
+"DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY "
+"DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES "
+"(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; "
+"LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND "
+"ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT "
+"(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF "
+"THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+msgstr ""
+"本软件由作者和贡献者 \"按原样 \"提供，任何明示或暗示的保证，包括但不限于对适"
+"销性和特定用途的适用性的暗示保证，均不予承认。在任何情况下，作者或贡献者都不"
+"对任何直接的、间接的、偶然的、特殊的、惩戒性的或后果性的损害（包括但不限于采"
+"购替代商品或服务；使用、数据或利润的损失；或业务中断）负责，无论其原因和责任"
+"理论如何，也无论其是合同、严格责任还是侵权行为（包括过失或其他），都是由使用"
+"本软件而引起的，即使被告知这种损害的可能性。"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-license.adoc:18
+msgid ""
+"The views and conclusions contained in the software and documentation are "
+"those of the authors and should not be interpreted as representing official "
+"policies, either expressed or implied, of the FreeBSD Project."
+msgstr ""
+"软件和文档中所包含的观点和结论是作者自己的， 不应该被解释为代表FreeBSD项目的"
+"官方政策， 无论是明示还是暗示的。"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-license.adoc:19
+msgid "link:..[Legal Home]"
+msgstr "链接：...[法律之家]"

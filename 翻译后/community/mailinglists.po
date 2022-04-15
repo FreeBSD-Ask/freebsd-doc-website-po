@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:08+0800\n"
+"PO-Revision-Date: 2022-04-14 20:57+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/community/mailinglists.adoc:1
+#: content/en/community/mailinglists.adoc:8
+#, no-wrap
+msgid "Mailing Lists"
+msgstr "邮件列表"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:11
+msgid ""
+"Mailing lists are the primary communication channels for the FreeBSD "
+"community, and cover many topic areas. They are generally English language "
+"unless otherwise stated; a list is given link:{handbook}eresources/"
+"#eresources-mail[in the FreeBSD Handbook]."
+msgstr ""
+"邮件列表是FreeBSD社区的主要交流渠道，它涵盖了许多主题领域。除非另有说明，它"
+"们一般都是英文的；在FreeBSD手册中给出了一个列表link:{handbook}eresources/"
+"#eresources-mail]。"
+
+#. type: Title ==
+#: content/en/community/mailinglists.adoc:12
+#, no-wrap
+msgid "Mailing list archives"
+msgstr "邮件列表存档"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:15
+msgid ""
+"You can link:../../search/#mailinglists[search] or https://lists.FreeBSD."
+"org/archives/[browse] the mailing list archives. At the current time, "
+"archives prior to May 2021 are in https://lists.freebsd.org/pipermail/[a "
+"separate archive]."
+msgstr ""
+"你可以链接：././search/#mailinglists[搜索]或https://lists.FreeBSD.org/"
+"archives/[浏览]邮件列表档案。目前，2021年5月之前的档案在https://lists."
+"freebsd.org/pipermail/[一个单独的档案]。"
+
+#. type: Title ==
+#: content/en/community/mailinglists.adoc:16
+#, no-wrap
+msgid "Non-English Mailing lists"
+msgstr "非英语邮件列表"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:19
+msgid "Several non-English mailing lists are also available:"
+msgstr "也有一些非英语的邮件列表。"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:21
+#, no-wrap
+msgid "*Brazilian Portuguese* -- freebsd-subscribe@fug.com.br or http://www.fug.com.br/[WWW].\n"
+msgstr "*巴西葡萄牙语* -- freebsd-subscribe@fug.com.br 或 http://www.fug.com.br/[WWW]。\n"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:22
+#, no-wrap
+msgid "*Czech* -- users-l-request@FreeBSD.cz or http://www.cz.FreeBSD.org/listserv/listinfo/users-l/[WWW].\n"
+msgstr "*捷克*-users-l-request@FreeBSD.cz 或http://www.cz.FreeBSD.org/listserv/listinfo/users-l/[WWW]。\n"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:23
+#, no-wrap
+msgid "*German* -- http://www.freebsd.de/mailinglists.html[Administration] or http://www.freebsd.de[Search].\n"
+msgstr "*德语* -- http://www.freebsd.de/mailinglists.html[管理]或http://www.freebsd.de[搜索]。\n"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:24
+#, no-wrap
+msgid "*Hungarian* -- bsd@lista.bsd.hu, http://lista.bsd.hu/[Administration] or http://datacast.hu/pipermail/bsd/[Search].\n"
+msgstr "*匈牙利语* -- bsd@lista.bsd.hu, http://lista.bsd.hu/[管理] 或 http://datacast.hu/pipermail/bsd/[搜索]。\n"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:25
+#, no-wrap
+msgid "*Italian* -- mailman-owner@gufi.org or http://liste.gufi.org/[WWW].\n"
+msgstr "*意大利语* -- mailman-owner@gufi.org 或 http://liste.gufi.org/[WWW]。\n"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:26
+#, no-wrap
+msgid "*Japanese* -- freebsd-users-jp@FreeBSD.org or https://lists.freebsd.org/subscription/freebsd-users-jp[WWW].\n"
+msgstr "*日本* -- freebsd-users-jp@FreeBSD.org 或 https://lists.freebsd.org/subscription/freebsd-users-jp[WWW]。\n"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:27
+#, no-wrap
+msgid "*Norwegian* -- bsd@nobug.no or http://www.nobug.no/[WWW].\n"
+msgstr "*挪威语* -- bsd@nobug.no 或 http://www.nobug.no/[WWW]。\n"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:28
+#, no-wrap
+msgid "*Russian* -- https://groups.google.com/forum/#!forum/uafug[UAFUG].\n"
+msgstr "*俄语* -- https://groups.google.com/forum/#！论坛/uafug[UAFUG]。\n"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:29
+#, no-wrap
+msgid "*Swedish* -- bus@stacken.kth.se or https://lists.stacken.kth.se/mailman/listinfo/bus[WWW].\n"
+msgstr "*瑞典语* -- bus@stacken.kth.se 或 https://lists.stacken.kth.se/mailman/listinfo/bus[WWW]。\n"
+
+#. type: Plain text
+#: content/en/community/mailinglists.adoc:30
+msgid ""
+"If you create other FreeBSD mailing lists, please link:../../mailto/[let us "
+"know about them]."
+msgstr ""
+"如果您创建了其他的 FreeBSD 邮件列表，请链接：.../.../mailto/[让我们知道它"
+"们]。"

@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:17+0800\n"
+"PO-Revision-Date: 2022-04-14 22:10+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/copyright/trademarks.adoc:1 content/en/copyright/trademarks.adoc:6
+#, no-wrap
+msgid "Trademark Legend"
+msgstr "商标图例"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:9
+msgid "FreeBSD is a registered trademark of The FreeBSD Foundation."
+msgstr "FreeBSD是FreeBSD基金会的注册商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:11
+msgid "The FreeBSD Logo is a trademark of The FreeBSD Foundation."
+msgstr "FreeBSD标志是FreeBSD基金会的商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:13
+msgid ""
+"See https://www.freebsdfoundation.org/[The FreeBSD Foundation's] https://www."
+"freebsdfoundation.org/legal/trademark-usage-terms-and-conditions/[Trademark Usage Terms "
+"and Conditions] page for information on use of the FreeBSD marks."
+msgstr ""
+"请参阅https://www.freebsdfoundation.org/[FreeBSD基金会]https://www.freebsdfoundation."
+"org/legal/trademark-usage-terms-and-conditions/[商标使用条款和条件]页面了解有关使用"
+"FreeBSD商标的信息。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:15
+msgid ""
+"Adobe, Acrobat, Acrobat Reader, and PostScript are either registered trademarks or "
+"trademarks of Adobe Systems Incorporated in the United States and/or other countries."
+msgstr ""
+"Adobe、Acrobat、Acrobat Reader和PostScript是Adobe Systems Incorporated在美国和/或其他国"
+"家的注册商标或商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:17
+msgid ""
+"AMD, Am486, Am5X86, AMD Athlon, AMD Duron, AMD Opteron, AMD-K6, Athlon, Élan, Opteron, "
+"and PCnet are trademarks of Advanced Micro Devices, Inc."
+msgstr ""
+"AMD、Am486、Am5X86、AMD Athlon、AMD Duron、AMD Opteron、AMD-K6、Athlon、Élan、Opteron和"
+"PCnet是Advanced Micro Devices公司的商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:19
+msgid ""
+"Apple, FireWire, Mac, Macintosh, Mac OS, Quicktime, and TrueType are trademarks of "
+"Apple Computer, Inc., registered in the United States and other countries."
+msgstr ""
+"苹果、火线、Mac、Macintosh、Mac OS、Quicktime和TrueType是苹果电脑公司的商标，在美国和其"
+"他国家注册。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:21
+msgid "CVSup is a registered trademark of John D. Polstra."
+msgstr "CVSup是John D. Polstra的注册商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:23
+msgid ""
+"F5, F5 Networks, and the F5 logo are trademarks of F5 Networks, Inc. in the U.S. and in "
+"certain other countries. Other F5 trademarks are identified at f5.com. Any other "
+"products, services, taglines/slogans, or company names referenced herein may be "
+"trademarks of their respective owners with no endorsement or affiliation, expressed or "
+"implied, claimed by F5."
+msgstr ""
+"F5、F5 Networks和F5标识是F5 Networks, Inc.在美国和某些其他国家的商标。其他F5商标在f5.com"
+"上标识。此处提及的任何其他产品、服务、标语/口号或公司名称可能是其各自所有者的商标，F5没"
+"有明示或暗示的认可或附属关系。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:25
+msgid ""
+"IBM and PowerPC are trademarks of International Business Machines Corporation in the "
+"United States, other countries, or both."
+msgstr "IBM和PowerPC是国际商业机器公司在美国、其他国家或两者的商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:27
+msgid ""
+"IEEE, POSIX, and 802 are registered trademarks of The Institute of Electrical and "
+"Electronics Engineers, Inc."
+msgstr "IEEE、POSIX和802是美国电气和电子工程师协会的注册商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:29
+msgid ""
+"Intel, Celeron, EtherExpress, i386, i486, Itanium, Pentium, and Xeon are trademarks or "
+"registered trademarks of Intel Corporation or its subsidiaries in the United States and "
+"other countries."
+msgstr ""
+"英特尔、赛扬、EtherExpress、i386、i486、Itanium、奔腾和Xeon是英特尔公司或其子公司在美国"
+"和其他国家的商标或注册商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:31
+msgid "Linux is a registered trademark of Linus Torvalds in the United States."
+msgstr "Linux是Linus Torvalds在美国的注册商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:33
+msgid ""
+"Motif, OSF/1, and UNIX are registered trademarks and IT DialTone and The Open Group are "
+"trademarks of The Open Group in the United States and other countries."
+msgstr ""
+"Motif、OSF/1和UNIX是注册商标，IT DialTone和The Open Group是The Open Group在美国和其他国"
+"家的商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:35
+msgid ""
+"MySQL is a registered trademark of MySQL AB in the United States, the European Union "
+"and other countries."
+msgstr "MySQL是MySQL AB在美国、欧盟和其他国家的注册商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:37
+msgid ""
+"NVIDIA, the NVIDIA logo, 3D Play, 3D Vision Pro, 4-Plus-1, APEX, BattleBox, BFGD, Big "
+"Format Gaming Display, CUDA, Dabbler, DALI, DGX Station, DirectStylus, DirectTouch, "
+"Game Ready, GameStream, Geared For Gaming, GeForce, GeForce Experience, GeForce GTX, "
+"GeForce RTX, GPUDirect, G-SYNC, GRID LINK, GRID VGX, IceClear, ICERA, I AM AI, Iray, "
+"Jetson, Jetson AGX Xavier, Kepler, Made To Game, Maximus, Mental Ray, NSIST on NVIDIA, "
+"nTersect, NVIDIA 3D Vision, NVIDIA AGX, NVIDIA AutoWorks, NVIDIA BATTERY BOOST, NVIDIA "
+"BFGD, NVIDIA Big Format Gaming Display, NVIDIA Business Platform, NVIDIA Clara, NVIDIA "
+"DALI, NVIDIA Denver, NVIDIA DesignWorks, NVIDIA DGX, NVIDIA DGX POD, NVIDIA DGX "
+"Superpod, NVIDIA DRIVE, NVIDIA DRIVE Autopilot, NVIDIA DRIVE Constellation, NVIDIA "
+"DRIVE Hyperion, NVIDIA DRIVE Sim, NVIDIA GameWorks, NVIDIA GPU BOOST, NVIDIA GPU CLOUD, "
+"NVIDIA GRID, NVIDIA GRID vGPU, NVIDIA G-SYNC, NVIDIA HGX, NVIDIA Holodeck, NVIDIA "
+"IndeX, NVIDIA Isaac, NVIDIA Isaac SDK, NVIDIA Isaac SIM, NVIDIA Jetpack, NVIDIA Kepler, "
+"NVIDIA Maglev, NVIDIA Maximus, NVIDIA Maxwell, NVIDIA nForce, NVIDIA OptiX, NVIDIA "
+"Orin, NVIDIA PartnerForce, NVIDIA PureAudio, NVIDIA Quadro, NVIDIA RTX, NVIDIA SHIELD, "
+"NVIDIA SLI, NVIDIA SLI Ready, NVIDIA Slide Cover, NVIDIA SPOT, NVIDIA Tegra, NVIDIA "
+"Turing, nView, NVLink, NVS, NVSwitch, OpenACC, Openautomate, Optimus, OptiX, Pascal, "
+"Pegasus, PGI, PGI Visual Fortran, PhysX, Quadro, Quadro Experience, Quadro RTX, "
+"RealityServer, SceniX, Shadowplay, SHIELD, SLI, Surround, Tegra, Tegra NOTE, TegraZone, "
+"TensorRT, Tesla, The Way It's Meant to be Played, TWIMTBP, ULMB, vGPU, Vibrante, "
+"VisionWorks, VRLync, and Xavier are trademarks and/or registered trademarks of NVIDIA "
+"Corporation in the U.S. and/or other countries"
+msgstr ""
+"NVIDIA、NVIDIA标识、3D Play、3D Vision Pro、4-Plus-1、APEX、BattleBox、BFGD、Big Format "
+"Gaming Display、CUDA、Dabbler、DALI、DGX Station、DirectStylus、DirectTouch、Game "
+"Ready、GameStream、Geared For Gaming、GeForce。GeForce Experience, GeForce GTX, GeForce "
+"RTX, GPUDirect, G-SYNC, GRID LINK, GRID VGX, IceClear, ICERA, I AM AI, Iray, Jetson, "
+"Jetson AGX Xavier, Kepler, Made To Game, Maximus, Mental Ray, NSIST on NVIDIA, "
+"nTersect, NVIDIA 3D Vision, NVIDIA AGX, NVIDIA AutoWorks, NVIDIA BATTERY BOOST, NVIDIA "
+"BFGD, NVIDIA Big Format Gaming Display, NVIDIA Business Platform, NVIDIA Clara, NVIDIA "
+"DALI, NVIDIA Denver, NVIDIA DesignWorks, NVIDIA DGX, NVIDIA DGX POD, NVIDIA DGX "
+"Superpod, NVIDIA DRIVE, NVIDIA DRIVE Autopilot, NVIDIA DRIVE Constellation, NVIDIA "
+"DRIVE Hyperion, NVIDIA DRIVE Sim, NVIDIA GameWorks, NVIDIA GPU BOOST, NVIDIA GPU CLOUD, "
+"NVIDIA GRID, NVIDIA GRID vGPU, NVIDIA G-SYNC, NVIDIA HGX, NVIDIA Holodeck, NVIDIA "
+"IndeX, NVIDIA Isaac, NVIDIA Isaac SDK, NVIDIA Isaac SIM, NVIDIA Jetpack, NVIDIA Kepler, "
+"NVIDIA Maglev, NVIDIA Maximus, NVIDIA Maxwell, NVIDIA nForce, NVIDIA OptiX, NVIDIA "
+"Orin, NVIDIA PartnerForce, NVIDIA PureAudio, NVIDIA Quadro, NVIDIA RTX, NVIDIA SHIELD, "
+"NVIDIA SLI, NVIDIA SLI Ready, NVIDIA Slide Cover, NVIDIA SPOT, NVIDIA Tegra, NVIDIA "
+"Turing, nView, NVLink, NVS, NVSwitch, OpenACC, Openautomate, Optimus, OptiX, Pascal, "
+"Pegasus, PGI, PGI Visual Fortran, PhysX, Quadro, Quadro Experience, Quadro RTX, "
+"RealityServer, SceniX, Shadowplay, SHIELD, SLI, Surround, Tegra, Tegra NOTE、TegraZone、"
+"TensorRT、Tesla、The Way It's Meant to be Played、TWIMTBP、ULMB、vGPU、Vibrante、"
+"VisionWorks、VRLync和Xavier是NVIDIA公司在美国和/或其他国家的商标和/或注册商标。 美国和/"
+"或其他国家的商标和/或注册商标"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:39
+msgid ""
+"Silicon Graphics, SGI, and OpenGL are registered trademarks of Silicon Graphics, Inc., "
+"in the United States and/or other countries worldwide."
+msgstr ""
+"Silicon Graphics、SGI和OpenGL是Silicon Graphics, Inc.在美国和/或世界其他国家的注册商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:41
+msgid ""
+"Sparc, Sparc64, SPARCEngine, and UltraSPARC are trademarks of SPARC International, Inc "
+"in the United States and other countries. Products bearing SPARC trademarks are based "
+"upon architecture developed by Sun Microsystems, Inc."
+msgstr ""
+"Sparc、Sparc64、SPARCEngine和UltraSPARC是SPARC International, Inc在美国和其他国家的商"
+"标。带有SPARC商标的产品是基于Sun Microsystems, Inc.开发的架构。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:43
+msgid ""
+"Sun, Sun Microsystems, SunOS, Solaris, and Java are trademarks or registered trademarks "
+"of Sun Microsystems, Inc. in the United States and other countries."
+msgstr ""
+"Sun、Sun Microsystems、SunOS、Solaris和Java是Sun Microsystems, Inc.在美国和其他国家的商"
+"标或注册商标。"
+
+#. type: Plain text
+#: content/en/copyright/trademarks.adoc:44
+msgid ""
+"Many of the designations used by manufacturers and sellers to distinguish their "
+"products are claimed as trademarks. Where those designations appear on this website, "
+"and the FreeBSD Project was aware of the trademark claim, the designations have been "
+"followed by the '(TM)' or the '(R)' symbol."
+msgstr ""
+"许多被制造商和销售商用来区分其产品的名称被称为商标。在本网站上出现的这些名称，如果"
+"FreeBSD项目知道这些商标的要求，那么这些名称后面就会有'(TM)'或'(R)'的符号。"

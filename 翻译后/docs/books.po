@@ -1,0 +1,511 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:22+0800\n"
+"PO-Revision-Date: 2022-04-15 07:19+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/docs/books.adoc:1 content/en/docs/books.adoc:8
+#, no-wrap
+msgid "Books and Articles Online"
+msgstr "在线书籍和文章"
+
+#. type: Title ==
+#: content/en/docs/books.adoc:10
+#, no-wrap
+msgid "On this site"
+msgstr "在这个网站上"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:13
+msgid ""
+"All the documentation on this site can be downloaded in a variety of different formats (HTML, "
+"Postscript, PDF, and more) and compression schemes (BZip2, Zip) from the https://download.FreeBSD.org/"
+"doc/[FreeBSD Download site]."
+msgstr ""
+"这个网站上的所有文档都可以从https://download.FreeBSD.org/doc/[FreeBSD Download site]下载各种不同的格式"
+"（HTML、Postscript、PDF等等）和压缩方案（BZip2、Zip）。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:15
+msgid ""
+"Archived copies of the FreeBSD documentation (articles, books, and textinfo manuals) are also "
+"available online at http://docs.FreeBSD.org/doc/."
+msgstr "归档的 FreeBSD 文档 (文章、书籍和 textinfo 手册) 也可以在 http://docs.FreeBSD.org/doc/ 上获得。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:17
+msgid ""
+"This documentation is provided and maintained by the link:https://www.FreeBSD.org/docproj[FreeBSD "
+"Documentation Project], and we are always looking for people to contribute new documentation and "
+"maintain existing documentation."
+msgstr ""
+"这些文档是由link:https://www.FreeBSD.org/docproj[FreeBSD Documentation Project]提供和维护的，我们一直"
+"在寻找人们贡献新的文档和维护现有的文档。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:19
+msgid ""
+"Papers, presentations, and videos about FreeBSD are archived and catalogued on the https://papers."
+"freebsd.org/[FreeBSD Papers] website."
+msgstr "关于FreeBSD的论文、演讲和视频在https://papers.freebsd.org/[FreeBSD论文]网站上进行了存档和编目。"
+
+#. type: Title ===
+#: content/en/docs/books.adoc:20
+#, no-wrap
+msgid "Books"
+msgstr "书籍"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:24
+msgid ""
+"link:{dev-model}[A project model for the FreeBSD project] (dev-model) + A formal study of the "
+"organization of the FreeBSD project."
+msgstr "link:{dev-model}[FreeBSD项目的项目模型] (dev-model) + 对FreeBSD项目组织的正式研究。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:27
+msgid ""
+"link:{faq}[The FreeBSD FAQ] (faq) + Frequently Asked Questions, and answers, covering all aspects of "
+"FreeBSD."
+msgstr "link:{faq}[FreeBSD FAQ] (faq) + 常见问题和答案，涵盖了FreeBSD的所有方面。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:30
+msgid ""
+"link:{handbook}[The FreeBSD Handbook] (handbook) + A constantly evolving, comprehensive resource for "
+"FreeBSD users."
+msgstr ""
+"link:{handbook}[The FreeBSD Handbook] (handbook) + 一个不断发展的，为FreeBSD用户提供的综合资源。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:33
+msgid ""
+"link:{developers-handbook}[The FreeBSD Developers' Handbook] (developers-handbook) + For people who "
+"want to develop software for FreeBSD (and not just people who are developing FreeBSD itself)."
+msgstr ""
+"link:{developers-handbook}[The FreeBSD Developers' Handbook] (developers-handbook) + 为那些想为FreeBSD"
+"开发软件的人（而不仅仅是开发FreeBSD本身的人）。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:36
+msgid ""
+"link:{arch-handbook}[The FreeBSD Architecture Handbook] (arch-handbook) + For FreeBSD system "
+"developers. This book covers the architectural details of many important FreeBSD kernel subsystems."
+msgstr ""
+"link:{arch-handbook}[The FreeBSD Architecture Handbook] (arch-handbook) + 针对FreeBSD系统开发者。本书"
+"涵盖了许多重要的FreeBSD内核子系统的架构细节。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:39
+msgid ""
+"link:{porters-handbook}[The Porter's Handbook] (porters-handbook) + Essential reading if you plan on "
+"providing a port of a third party piece of software."
+msgstr ""
+"link:{porters-handbook}[The Porter's Handbook] (porters-handbook) + 如果你打算提供第三方软件的移植，就"
+"必须阅读。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:42
+msgid ""
+"link:{design-44bsd}[Chapter 2 of 'The Design and Implementation of the 4.4BSD Operating System'] "
+"(design-44bsd) + Donated by Addison-Wesley, provides a design overview of 4.4BSD, from which FreeBSD "
+"was originally derived."
+msgstr ""
+"link:{design-44bsd}[《4.4BSD操作系统的设计与实现》第二章] (design-44bsd) +由Addison-Wesley捐赠，提供了"
+"4.4BSD的设计概述，FreeBSD最初就是来自于此。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:45
+msgid ""
+"link:{fdp-primer}[The FreeBSD Documentation Project Primer for New Contributors] (fdp-primer) + "
+"Everything you need to know in order to start contributing to the FreeBSD Documentation Project."
+msgstr ""
+"link:{fdp-primer}[The FreeBSD Documentation Project Primer for New Contributors] (fdp-primer) + 你需要"
+"知道的一切，以便开始为 FreeBSD 文档计划做贡献。"
+
+#. type: Title ===
+#: content/en/docs/books.adoc:47
+#, no-wrap
+msgid "Articles"
+msgstr "文章"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:51
+msgid ""
+"link:{bsdl-gpl}[Why you should use a BSD style license for your Open Source Project] (bsdl-gpl) + "
+"Describes the benefits of releasing code under a BSD license."
+msgstr ""
+"link:{bsdl-gpl}[Why you should use a BSD style license for your Open Source Project] (bsdl-gpl) + 描述"
+"了在BSD许可证下发布代码的好处。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:54
+msgid ""
+"link:{building-products}[Building Products with FreeBSD] (building-products) + How FreeBSD can help "
+"you build a better product."
+msgstr ""
+"link:{building-products}[用FreeBSD构建产品] (building-products) + FreeBSD如何帮助你构建更好的产品。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:57
+msgid ""
+"link:{committers-guide}[The Committer's Guide] (committers-guide) + Introductory information for "
+"FreeBSD committers."
+msgstr ""
+"link:{committers-guide}[Committer's Guide] (committers-guide) + FreeBSD committers 的介绍性信息。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:60
+msgid ""
+"link:{contributing}[Contributing to FreeBSD] (contributing) + How to contribute to the FreeBSD "
+"Project."
+msgstr "link:{contributing}[Contributing to FreeBSD] (contributing) + 如何为FreeBSD项目做贡献。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:63
+msgid ""
+"link:{contributors}[The List of FreeBSD Contributors] (contributors) + A list of organizations and "
+"individuals who have helped enhance FreeBSD."
+msgstr ""
+"link:{contributors}[The List of FreeBSD Contributors] (contributors) + 一个帮助增强FreeBSD的组织和个人"
+"的名单。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:66
+msgid "link:{cups}[CUPS on FreeBSD] (cups) + How to setup CUPS with FreeBSD."
+msgstr "link:{cups}[CUPS on FreeBSD] (cups) + 如何用FreeBSD设置CUPS。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:69
+msgid ""
+"link:{explaining-bsd}[Explaining BSD] (explaining-bsd) + An answer to the question \"What is BSD?\""
+msgstr "link:{explaining-bsd}[Explaining BSD] (explaining-bsd) + 对 \"什么是BSD？\"问题的回答。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:72
+msgid ""
+"link:{filtering-bridges}[Filtering Bridges] (filtering-bridges) + Configuring firewalls and filtering "
+"on FreeBSD hosts acting as bridges rather than routers."
+msgstr ""
+"link:{filtering-bridges}[过滤网桥] (filtering-bridges) + 在作为网桥而非路由器的 FreeBSD 主机上配置防火"
+"墙和过滤。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:75
+msgid ""
+"link:{fonts}[Fonts and FreeBSD] (fonts) + A description of the various font technologies in FreeBSD, "
+"and how to use them with different programs."
+msgstr ""
+"link:{fonts}[Fonts and FreeBSD] (字体) + 对FreeBSD中各种字体技术的描述，以及如何在不同程序中使用它们。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:78
+msgid ""
+"link:{freebsd-questions}[How to get the best results from the FreeBSD-questions mailing list] "
+"(freebsd-questions) + Tips and tricks to help you maximize the chances of getting useful information "
+"from the -questions mailing list."
+msgstr ""
+"link:{freebsd-questions}[How to get best results from the FreeBSD-questions mailing list] (freebsd-"
+"questions) + 提示和技巧，帮助您从-questions邮件列表中获得有用信息的机会最大化。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:81
+msgid ""
+"link:{freebsd-update-server}[Build Your Own FreeBSD Update Server] (freebsd-update-server) + Using a "
+"FreeBSD Update server allows a system administrator to perform fast updates for a number of machines "
+"from a local mirror."
+msgstr ""
+"link:{freebsd-update-server}[建立你自己的FreeBSD更新服务器] (freebsd-update-server) + 使用FreeBSD更新"
+"服务器可以让系统管理员从本地镜像中为一些机器执行快速更新。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:84
+msgid ""
+"link:{geom-class}[Writing a GEOM Class] (geom-class) + A guide to GEOM internals, and writing your "
+"own class."
+msgstr ""
+"link:{geom-class}[Writing a GEOM Class] (geom-class) + 一个关于GEOM内部的指南，以及编写你自己的类。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:87
+msgid ""
+"link:{gjournal-desktop}[Implementing UFS journaling on a desktop PC] (gjournal-desktop) + A guide to "
+"create UFS partitions configured with journaling for desktop use."
+msgstr ""
+"link:{gjournal-desktop}[在台式电脑上实现UFS日志]（gjournal-desktop）+创建配置有日志的UFS分区供桌面使用"
+"的指南。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:90
+msgid ""
+"link:{hubs}[Mirroring FreeBSD] (hubs) + The all in one guide for mirroring the FreeBSD website, FTP "
+"servers, and more."
+msgstr "link:{hubs}[镜像FreeBSD] (hubs) + 镜像FreeBSD网站、FTP服务器等的全部指南。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:93
+msgid ""
+"link:{ipsec-must}[Independent Verification of IPsec Functionality in FreeBSD] (ipsec-must) + A method "
+"for experimentally verifying IPsec functionality."
+msgstr ""
+"link:{ipsec-must}[独立验证 FreeBSD 中的 IPsec 功能] (ipsec-must) + 一种实验性地验证 IPsec 功能的方法。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:96
+msgid ""
+"link:{ldap-auth}[LDAP Authentication] (ldap-auth) + A practical guide about setting up an LDAP server "
+"on FreeBSD and how to use it for authenticating users."
+msgstr ""
+"link:{ldap-auth}[LDAP 认证] (ldap-auth) + 一份关于在 FreeBSD 上设置 LDAP 服务器以及如何使用它来认证用"
+"户的实用指南。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:99
+msgid ""
+"link:{leap-seconds}[FreeBSD Support for Leap Seconds] (leap-seconds) + A short description of how "
+"leap seconds are handled on FreeBSD."
+msgstr ""
+"link:{leap-seconds}[FreeBSD Support for Leap Seconds] (leap-seconds) + 一个关于FreeBSD如何处理闰秒的简"
+"短描述。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:102
+msgid ""
+"link:{linux-emulation}[Linux emulation in FreeBSD] (linux-emulation) + A technical description about "
+"the internals of the Linux emulation layer in FreeBSD."
+msgstr ""
+"link:{linux-emulation}[FreeBSD中的Linux模拟] (linux-emulation) + 关于FreeBSD中Linux模拟层的内部技术描"
+"述。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:105
+msgid ""
+"link:{linux-users}[FreeBSD Quickstart Guide for Linux Users] (linux-users) + An introductionary guide "
+"for the users that came from Linux."
+msgstr ""
+"link:{linux-users}[FreeBSD Quickstart Guide for Linux Users] (linux-users) + 为来自 Linux 的用户提供的"
+"介绍性指南。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:108
+msgid ""
+"link:{mailing-list-faq}[Frequently Asked Questions About The FreeBSD Mailing Lists] (mailing-list-"
+"faq) + How to best use the mailing lists, such as how to help avoid frequently-repeated discussions."
+msgstr ""
+"link:{mailing-list-faq}[关于FreeBSD邮件列表的常见问题] (mailing-list-faq) + 如何最好地使用邮件列表，例"
+"如如何帮助避免经常重复的讨论。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:111
+msgid ""
+"link:{nanobsd}[Introduction to NanoBSD] (nanobsd) + Information about the NanoBSD tools, which can be "
+"used to create FreeBSD system images for embedded applications, suitable for use on a Compact Flash "
+"card (or other mass storage medium)."
+msgstr ""
+"link:{nanobsd}[NanoBSD简介] (nanobsd) + 关于NanoBSD工具的信息，它可以用来为嵌入式应用创建FreeBSD系统镜"
+"像，适合在Compact Flash卡（或其他大容量存储介质）上使用。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:114
+msgid ""
+"link:{new-users}[FreeBSD First Steps] (new-users) + For people coming to FreeBSD and UNIX(R) for the "
+"first time."
+msgstr ""
+"link:{new-users}[FreeBSD First Steps] (new-users) + 为第一次接触 FreeBSD 和 UNIX(R) 的人准备的。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:117
+msgid ""
+"link:{pam}[Pluggable Authentication Modules] (pam) + A guide to the PAM system and modules under "
+"FreeBSD."
+msgstr "link:{pam}[Pluggable Authentication Modules] (pam) + FreeBSD下PAM系统和模块的指南。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:120
+msgid "link:{pgpkeys}[OpenPGP Keys] (pgpkeys) + All of the OpenPGP keys for FreeBSD."
+msgstr "link:{pgpkeys}[OpenPGP Keys] (pgpkeys) + 所有 FreeBSD 的 OpenPGP 密钥。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:123
+msgid ""
+"link:{port-mentor-guidelines}[Port Mentor Guidelines] (port-mentor-guidelines) + Guidelines for new "
+"and/or potential port mentors and mentees."
+msgstr ""
+"link:{port-mentor-guidelines}[港口导师指南] (port-mentor-guidelines) + 新的和/或潜在的港口导师和被导师"
+"的指南。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:126
+msgid ""
+"link:{pr-guidelines}[FreeBSD Problem Report Handling Guidelines] (pr-guidelines) + Recommended "
+"practices for handling FreeBSD problem reports."
+msgstr ""
+"link:{pr-guidelines}[FreeBSD 问题报告处理指南] (pr-guidelines) + 处理FreeBSD问题报告的推荐做法。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:129
+msgid ""
+"link:{problem-reports}[Writing FreeBSD Problem Reports] (problem-reports) + How to best formulate and "
+"submit a problem report to the FreeBSD Project."
+msgstr ""
+"link:{problem-reports}[Writing FreeBSD Problem Reports] (problem-reports) + 如何最好地制定和提交问题报"
+"告给FreeBSD项目。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:132
+msgid ""
+"link:{rc-scripting}[Practical rc.d scripting in BSD] (rc-scripting) + A guide to writing new rc.d "
+"scripts and understanding those already written."
+msgstr ""
+"link:{rc-scripting}[BSD中的实用rc.d脚本](rc-scripting) + 编写新rc.d脚本和理解已写好的脚本的指南。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:135
+msgid ""
+"link:{freebsd-releng}[FreeBSD Release Engineering] (freebsd-releng) + Describes the approach used by "
+"the FreeBSD release engineering team to make production quality releases of the FreeBSD Operating "
+"System. It describes the tools available for those interested in producing customized FreeBSD "
+"releases for corporate rollouts or commercial productization."
+msgstr ""
+"link:{freebsd-releng}[FreeBSD Release Engineering] (freebsd-releng) + 描述了FreeBSD发布工程团队在制作"
+"FreeBSD操作系统的生产质量版本时所使用的方法。它描述了那些有兴趣为企业推广或商业产品化生产定制的FreeBSD"
+"版本的人可以使用的工具。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:138
+msgid ""
+"link:{releng}[Legacy FreeBSD Release Engineering] (releng) + This paper describes the approach used "
+"by past the FreeBSD release engineering team to make production quality releases of the FreeBSD "
+"Operating System."
+msgstr ""
+"link:{releng}[Legacy FreeBSD Release Engineering] (releng) + 本文介绍了过去FreeBSD发布工程团队在制作"
+"FreeBSD操作系统的生产质量版本时所采用的方法。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:141
+msgid ""
+"link:{remote-install}[Remote Installation of the FreeBSD Operating System without a Remote Console] "
+"(remote-install) + Describes the remote installation of the FreeBSD operating system when the console "
+"of the remote system is unavailable."
+msgstr ""
+"link:{remote-install}[在没有远程控制台的情况下远程安装FreeBSD操作系统] (remote-install) + 描述了在远程"
+"系统的控制台不可用时远程安装FreeBSD操作系统的方法。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:144
+msgid ""
+"link:{serial-uart}[Serial and UART devices] (serial-uart) + Detailed information about the use of "
+"serial ports on FreeBSD, including several multi-port serial cards."
+msgstr ""
+"link:{serial-uart}[串行和UART设备] (serial-uart) + 有关在FreeBSD上使用串行端口的详细信息，包括几个多端"
+"口的串行卡。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:147
+msgid ""
+"link:{solid-state}[FreeBSD and Solid State Devices] (solid-state) + The use of solid state disk "
+"devices in FreeBSD."
+msgstr ""
+"link:{solid-state}[FreeBSD and Solid State Devices] (solid-state) + FreeBSD中固态磁盘设备的使用。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:150
+msgid "link:{vinum}[The vinum Volume Manager] (vinum) + Using gvinum to create RAID arrays."
+msgstr "link:{vinum}[The vinum Volume Manager] (vinum) + 使用gvinum来创建RAID阵列。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:153
+msgid ""
+"link:{vm-design}[Design elements of the FreeBSD VM system] (vm-design) + An easy to follow "
+"description of the design of the FreeBSD virtual memory system."
+msgstr ""
+"link:{vm-design}[FreeBSD虚拟机系统的设计元素] (vm-design) + 一份关于FreeBSD虚拟内存系统设计的简单说"
+"明。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:156
+msgid ""
+"link:{freebsd-src-lsp}[Use Language Servers for Development in the FreeBSD Src Tree] (freebsd-src-"
+"lsp) + A guide about setting up a FreeBSD src tree with language servers performing source code "
+"indexing."
+msgstr ""
+"link:{freebsd-src-lsp}[在FreeBSD Src树中使用语言服务器进行开发] (freebsd-src-lsp) + 一份关于使用语言服"
+"务器进行源代码索引的FreeBSD src树设置指南。"
+
+#. type: Title ==
+#: content/en/docs/books.adoc:157
+#, no-wrap
+msgid "Articles on other web sites"
+msgstr "其他网站上的文章"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:160
+msgid "Various independent efforts have also produced a great deal of useful information about FreeBSD."
+msgstr "各种独立的努力也产生了大量关于FreeBSD的有用信息。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:162
+msgid ""
+"Niels Jorgensen has authored an academic study on the dynamics of the FreeBSD development process: "
+"http://www.ruc.dk/~nielsj/research/publications/freebsd.pdf[\"Putting it All in the Trunk, "
+"Incremental Software Development in the FreeBSD Open Source Project\"] [Information Systems Journal "
+"(2001) 11, 321-336]."
+msgstr ""
+"Niels Jorgensen撰写了一篇关于FreeBSD开发过程动态的学术研究：http://www.ruc.dk/~nielsj/research/"
+"publications/freebsd.pdf[\"Putting it All in the Trunk, Incremental Software Development in the "
+"FreeBSD Open Source Project\"] [Information Systems Journal (2001) 11, 321-336]。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:163
+msgid ""
+"mailto:mckusick@mckusick.com[Kirk McKusick], one of the original architects of BSD at U.C. Berkeley, "
+"teaches two http://www.mckusick.com/courses/[4.4BSD Kernel Internals] courses using FreeBSD. For "
+"those unable to attend the courses in person, a video tape series is also now available."
+msgstr ""
+"mailto:mckusick@mckusick.com[Kirk McKusick]，U.C. Berkeley的BSD原始架构师之一，使用FreeBSD教授两个"
+"http://www.mckusick.com/courses/[4.4BSD Kernel Internals]课程。对于那些不能亲自参加课程的人来说，现在"
+"也有一个录像带系列。"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:164
+msgid ""
+"http://software.intel.com/sites/default/files/profiling_debugging_freebsd_kernel_321772.pdf[Profiling "
+"and Debugging the FreeBSD Kernel]"
+msgstr ""
+"http://software.intel.com/sites/default/files/profiling_debugging_freebsd_kernel_321772.pdf[剖析和调试"
+"FreeBSD内核]"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:165
+msgid ""
+"http://software.intel.com/sites/default/files/debugging_buffer_overruns_322486.pdf[Debugging Buffer "
+"Overruns in the FreeBSD Kernel]"
+msgstr ""
+"http://software.intel.com/sites/default/files/debugging_buffer_overruns_322486.pdf[调试FreeBSD内核中的"
+"缓冲区超限]"
+
+#. type: Plain text
+#: content/en/docs/books.adoc:165
+msgid ""
+"Appendix A from the college textbook _Operating Systems Concepts_ by Silberschatz, Galvin and Gagne "
+"has been made available online in http://www.wiley.com/college/silberschatz6e/0471417432/pdf/bsd."
+"pdf[PDF format]. The appendix is dedicated to FreeBSD and offers a good introduction to FreeBSD's "
+"internals."
+msgstr ""
+"Silberschatz, Galvin 和 Gagne 所著的大学教科书 _Operating Systems Concepts_ 中的附录 A 已经以 http://"
+"www.wiley.com/college/silberschatz6e/0471417432/pdf/bsd.pdf[PDF 格式] 在线提供。这个附录是专门针对"
+"FreeBSD的，并对FreeBSD的内部结构提供了一个很好的介绍。"
