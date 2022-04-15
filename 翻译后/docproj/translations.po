@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreeBSD Documentation VERSION\n"
 "POT-Creation-Date: 2022-03-22 19:20+0800\n"
-"PO-Revision-Date: 2022-04-15 00:00+0800\n"
+"PO-Revision-Date: 2022-04-15 12:34+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -26,22 +26,22 @@ msgstr "FreeBSD文档项目。翻译"
 #. type: Plain text
 #: content/en/docproj/translations.adoc:9
 msgid "<<brazilian_portuguese,Brazilian Portuguese Documentation Project>>"
-msgstr "<<巴西葡萄牙语,巴西葡萄牙语文献项目>>。"
+msgstr "<<巴西葡萄牙语,巴西葡萄牙语文献项目>>"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:10
 msgid "<<bulgarian,Bulgarian Documentation Project>>"
-msgstr "<<保加利亚语,保加利亚文献项目>>。"
+msgstr "<<保加利亚语,保加利亚文献项目>>"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:11
 msgid "<<chinese-cn,Simplified Chinese Documentation Project>>"
-msgstr "<<chines-cn,简体中文文档项目>>。"
+msgstr "<<chines-cn,简体中文文档项目>>"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:12
 msgid "<<chinese-tw,Traditional Chinese Documentation Project>>"
-msgstr "<<chinese-tw,Traditional Chinese Documentation Project>>。"
+msgstr "<<中国台湾,繁体中文文档项目>>"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:13
@@ -51,7 +51,7 @@ msgstr "<<dutch,Dutch Documentation Project>>"
 #. type: Plain text
 #: content/en/docproj/translations.adoc:14
 msgid "<<estonian,Estonian Documentation Project>>"
-msgstr "<<estonian,Estonian Documentation Project>>。"
+msgstr "<<estonian,Estonian Documentation Project>>"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:15
@@ -66,12 +66,12 @@ msgstr "<<德语,德语文件项目>>"
 #. type: Plain text
 #: content/en/docproj/translations.adoc:17
 msgid "<<greek,Greek Documentation Project>>"
-msgstr "<<希腊语,希腊文献项目>>。"
+msgstr "<<希腊语,希腊文献项目>>"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:18
 msgid "<<hungarian,Hungarian Documentation Project>>"
-msgstr "<<匈牙利语，匈牙利文件项目>>。"
+msgstr "<<匈牙利语，匈牙利文件项目>>"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:19
@@ -81,7 +81,7 @@ msgstr "<<意大利语,意大利文献项目>>"
 #. type: Plain text
 #: content/en/docproj/translations.adoc:20
 msgid "<<japanese,Japanese Documentation Project>>"
-msgstr "<<日语,日语文献项目>>。"
+msgstr "<<日语,日语文献项目>>"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:21
@@ -91,7 +91,7 @@ msgstr "<<韩国语,韩国文件项目>>"
 #. type: Plain text
 #: content/en/docproj/translations.adoc:22
 msgid "<<mongolian,Mongolian Documentation Project>>"
-msgstr "<<蒙古语,蒙古国文献项目>>。"
+msgstr "<<蒙古语,蒙古国文献项目>>"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:23
@@ -111,12 +111,12 @@ msgstr "<<西班牙文,西班牙文件项目>>"
 #. type: Plain text
 #: content/en/docproj/translations.adoc:26
 msgid "<<turkish,Turkish Documentation Project>>"
-msgstr "<<土耳其语,土耳其文献项目>>。"
+msgstr "<<土耳其语,土耳其文献项目>>"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:27
 msgid "<<farsi,Farsi/Persian Documentation Project>>"
-msgstr "<<farsi,Farsi/Persian Documentation Project>>。"
+msgstr "<<farsi,Farsi/Persian Documentation Project>>"
 
 #. type: Title ==
 #: content/en/docproj/translations.adoc:29
@@ -141,7 +141,7 @@ msgstr ""
 #: content/en/docproj/translations.adoc:199 content/en/docproj/translations.adoc:235
 #: content/en/docproj/translations.adoc:251
 msgid "Documents available:"
-msgstr "可提供的文件。"
+msgstr "可提供的文件："
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:37
@@ -160,7 +160,7 @@ msgstr "link:https://docs.freebsd.org/pt-br/books/[FreeBSD Books]"
 #: content/en/docproj/translations.adoc:185 content/en/docproj/translations.adoc:203
 #: content/en/docproj/translations.adoc:241
 msgid "Documents currently being worked on:"
-msgstr "目前正在编写的文件。"
+msgstr "目前正在编写的文件："
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:42
@@ -196,7 +196,7 @@ msgstr ""
 #. type: Plain text
 #: content/en/docproj/translations.adoc:52
 msgid "Mailing list available:"
-msgstr "有邮件列表。"
+msgstr "有邮件列表："
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:54
@@ -206,7 +206,7 @@ msgstr "发送电子邮件至 freebsd-fdp-subscribe@bg-freebsd.org。"
 #. type: Plain text
 #: content/en/docproj/translations.adoc:55
 msgid "Posting is allowed for the members at freebsd-fdp@bg-freebsd.org"
-msgstr "允许在freebsd-fdp@bg-freebsd.org 的成员发帖。"
+msgstr "允许在 freebsd-fdp@bg-freebsd.org 的成员发帖"
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:61
@@ -269,7 +269,7 @@ msgstr ""
 #. type: Plain text
 #: content/en/docproj/translations.adoc:82
 msgid "USENET Newsgroup available:"
-msgstr "有USENET新闻组。"
+msgstr "有USENET新闻组："
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:84
@@ -279,7 +279,7 @@ msgstr "我们通常使用tw.bbs.comp.386bsd来讨论这些问题。"
 #. type: Plain text
 #: content/en/docproj/translations.adoc:85
 msgid "It can be access by the following URL:"
-msgstr "它可以通过以下网址访问。"
+msgstr "它可以通过以下网址访问："
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:86
@@ -348,7 +348,7 @@ msgstr "*E-Mail*: remko@FreeBSD.org 或 rene@FreeBSD.org\n"
 #. type: Plain text
 #: content/en/docproj/translations.adoc:107
 msgid "Released documents:"
-msgstr "已发布的文件。"
+msgstr "已发布的文件："
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:109
@@ -464,7 +464,7 @@ msgstr ""
 #. type: Plain text
 #: content/en/docproj/translations.adoc:149
 msgid "Mailing lists available:"
-msgstr "有邮件列表。"
+msgstr "有邮件列表："
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:151
@@ -472,7 +472,7 @@ msgid ""
 "The freebsd-doc-el is the main discussion list for the Greek translations. The "
 "main list language is Greek, but it's also ok to write in English."
 msgstr ""
-"freebsd-doc-el是希腊语翻译的主要讨论列表。列表的主要语言是希腊语，但用英语写也可"
+"freebsd-doc-el 是希腊语翻译的主要讨论列表。列表的主要语言是希腊语，但用英语写也可"
 "以。"
 
 #. type: Plain text
@@ -569,7 +569,7 @@ msgstr "链接：https://docs.freebsd.org/it/books/handbook/[手册]"
 #. type: Plain text
 #: content/en/docproj/translations.adoc:189
 msgid "Git repository:"
-msgstr "Git存储库。"
+msgstr "Git存储库："
 
 #. type: Plain text
 #: content/en/docproj/translations.adoc:191
