@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:06+0800\n"
+"PO-Revision-Date: 2022-04-10 08:59+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: YAML Front Matter: title
+#: content/en/commercial/software.adoc:1
+#, no-wrap
+msgid "Consulting Services"
+msgstr ""
+
+#. type: Plain text
+#: content/en/commercial/software.adoc:9
+msgid ""
+"The power, flexibility, and reliability of FreeBSD attract a wide variety of "
+"users and vendors. Here you will find vendors offering commercial products "
+"and/or services for FreeBSD."
+msgstr ""
+"FreeBSD的强大功能、灵活性和可靠性吸引了大量的用户和供应商。在这里你可以找到为"
+"FreeBSD提供商业产品和/或服务的供应商。"
+
+#. type: Plain text
+#: content/en/commercial/software.adoc:11
+msgid ""
+"For your convenience, we have divided our growing commercial listing into "
+"several sections. If your company supports a FreeBSD related product, "
+"service, consulting, or support that should be added to this page, please "
+"fill out a https://www.freebsd.org/en/support/bugreports/[problem report] in "
+"category Documentation->Website. Submissions should contain a medium-sized "
+"paragraph in length, describing your company. Please note that the inclusion "
+"of vendors in our list does not signify our endorsement of their products or "
+"services by the FreeBSD Project."
+msgstr ""
+"为了方便您的使用，我们将我们不断增长的商业清单分为几个部分。如果您的公司支持"
+"与FreeBSD相关的产品、服务、咨询或支持，并且应该被添加到这个页面，请填写"
+"https://www.freebsd.org/en/support/bugreports/[问题报告]，分类为 "
+"Documentation->Website。提交的内容应该包含一个中等长度的段落，描述您的公司。"
+"请注意，将供应商列入我们的名单并不意味着我们对他们的产品或服务给予FreeBSD项目"
+"的认可。"
+
+#. type: Title ==
+#: content/en/commercial/software.adoc:12
+#, no-wrap
+msgid "Software Vendors"
+msgstr "软件供应商"

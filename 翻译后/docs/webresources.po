@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:22+0800\n"
+"PO-Revision-Date: 2022-04-15 12:35+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/docs/webresources.adoc:1 content/en/docs/webresources.adoc:6
+#, no-wrap
+msgid "Web Resources"
+msgstr "网络资源"
+
+#. type: Title ==
+#: content/en/docs/webresources.adoc:8
+#, no-wrap
+msgid "In the real world..."
+msgstr "在现实世界中..."
+
+#. type: Title ===
+#: content/en/docs/webresources.adoc:10
+#, no-wrap
+msgid "link:../../press/[FreeBSD in the Press]"
+msgstr "link:././press/[FreeBSD in the Press]"
+
+#. type: Plain text
+#: content/en/docs/webresources.adoc:13
+msgid "Articles in the press about FreeBSD."
+msgstr "媒体上关于FreeBSD的文章。"
+
+#. type: Title ==
+#: content/en/docs/webresources.adoc:14
+#, no-wrap
+msgid "Newsgroups"
+msgstr "新闻组"
+
+#. type: Plain text
+#: content/en/docs/webresources.adoc:17
+msgid "The following newsgroups contain discussion pertinent to FreeBSD users:"
+msgstr "以下新闻组包含与FreeBSD用户相关的讨论："
+
+#. type: Plain text
+#: content/en/docs/webresources.adoc:19
+msgid ""
+"link:news:comp.unix.bsd.freebsd.announce[comp.unix.bsd.freebsd.announce] "
+"(moderated)"
+msgstr ""
+"link:news:comp.unix.bsd.freebsd.announce[comp.unix.bsd.freebsd.announce] "
+"(modified)"
+
+#. type: Plain text
+#: content/en/docs/webresources.adoc:20
+msgid "link:news:comp.unix.bsd.freebsd.misc[comp.unix.bsd.freebsd.misc]"
+msgstr "link:news:comp.unix.bsd.freebsd.misc[comp.unix.bsd.freebsd.misc] 。"
+
+#. type: Plain text
+#: content/en/docs/webresources.adoc:21
+msgid "link:news:comp.unix.bsd.misc[comp.unix.bsd.misc]"
+msgstr "link:news:comp.unix.bsd.misc[comp.unix.bsd.misc] 。"
+
+#. type: Title ==
+#: content/en/docs/webresources.adoc:22
+#, no-wrap
+msgid "Additional resources"
+msgstr "额外资源"
+
+#. type: Title ===
+#: content/en/docs/webresources.adoc:24
+#, no-wrap
+msgid "https://www.freebsdnews.com/[FreeBSDNews.com]"
+msgstr "https://www.freebsdnews.com/[FreeBSDNews.com]"
+
+#. type: Plain text
+#: content/en/docs/webresources.adoc:27
+msgid ""
+"FreeBSDNews.com is a blog providing the latest happenings in the FreeBSD "
+"community. The articles contain a mix of aggregated news, tutorials and "
+"similar."
+msgstr ""
+"FreeBSDNews.com 是一个提供FreeBSD社区最新动态的博客。这些文章包含了新闻、教程"
+"和类似内容的组合。"
+
+#. type: Title ===
+#: content/en/docs/webresources.adoc:28
+#, no-wrap
+msgid "https://www.bsdnow.tv/[BSD Now]"
+msgstr "https://www.bsdnow.tv/[BSD Now]"
+
+#. type: Plain text
+#: content/en/docs/webresources.adoc:31
+msgid ""
+"BSD Now is a weekly video podcast spreading the word about the BSD family of "
+"operating systems. The show provides an overview on recent developments, but "
+"also features interviews, tutorials and help on specific issues by its "
+"listeners."
+msgstr ""
+"BSD Now是一个每周一次的视频播客，传播关于BSD系列操作系统的信息。该节目提供了"
+"一个关于最近发展的概述，但也提供了访谈、教程和听众对具体问题的帮助。"
+
+#. type: Title ===
+#: content/en/docs/webresources.adoc:32
+#, no-wrap
+msgid "https://bsdmag.org/[BSD MAG]"
+msgstr "https://bsdmag.org/[BSD MAG]"
+
+#. type: Plain text
+#: content/en/docs/webresources.adoc:35
+msgid ""
+"BSD MAG is devoted to BSD and open source solutions, targeting both "
+"beginners and experienced users. It is available for free and published on a "
+"monthly basis."
+msgstr ""
+"BSD MAG致力于BSD和开放源码的解决方案，针对初学者和有经验的用户。它可以免费使"
+"用，并按月出版。"
+
+#. type: Title ===
+#: content/en/docs/webresources.adoc:36
+#, no-wrap
+msgid "http://fxr.watson.org/[The Source Code]"
+msgstr "http://fxr.watson.org/[源代码]"
+
+#. type: Plain text
+#: content/en/docs/webresources.adoc:39
+msgid ""
+"If you like digging your fingers into source code, here is a hypertext "
+"version of the FreeBSD _kernel_ source. This is brought to you courtesy of "
+"Robert Watson."
+msgstr ""
+"如果你喜欢钻研源代码，这里有一个FreeBSD _kernel_源代码的超文本版本。这是由 "
+"Robert Watson 提供的。"
+
+#. type: Title ===
+#: content/en/docs/webresources.adoc:40
+#, no-wrap
+msgid "https://forums.FreeBSD.org[The FreeBSD Forums]"
+msgstr "https://forums.FreeBSD.org[The FreeBSD Forums]"
+
+#. type: Plain text
+#: content/en/docs/webresources.adoc:42
+msgid ""
+"The Official FreeBSD Forums, offering a forum dedicated to FreeBSD and "
+"FreeBSD aficionados."
+msgstr "官方的FreeBSD论坛，提供一个专门针对FreeBSD和FreeBSD爱好者的论坛。"

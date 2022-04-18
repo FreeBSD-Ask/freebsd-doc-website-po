@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:10+0800\n"
+"PO-Revision-Date: 2022-04-14 21:07+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/copyright/_index.adoc:1 content/en/copyright/_index.adoc:6
+#, no-wrap
+msgid "FreeBSD Copyright and Legal Information"
+msgstr "FreeBSD的版权和法律信息"
+
+#. type: Title ==
+#: content/en/copyright/_index.adoc:8
+#, no-wrap
+msgid "link:freebsd-license[The FreeBSD Copyright]"
+msgstr "link:freebsd-license[FreeBSD版权]"
+
+#. type: Title ==
+#: content/en/copyright/_index.adoc:10
+#, no-wrap
+msgid "link:freebsd-doc-license[The FreeBSD Documentation License]"
+msgstr "link:freebsd-doc-license[FreeBSD文档许可]"
+
+#. type: Title ==
+#: content/en/copyright/_index.adoc:12
+#, no-wrap
+msgid "link:trademarks[Trademark Legend]"
+msgstr "链接：商标[Trademark Legend]"
+
+#. type: Title ==
+#: content/en/copyright/_index.adoc:14
+#, no-wrap
+msgid "link:license[The BSD Copyright]"
+msgstr "link:license[The BSD Copyright]"
+
+#. type: Title ==
+#: content/en/copyright/_index.adoc:16
+#, no-wrap
+msgid "link:daemon[The BSD Daemon]"
+msgstr "link:daemon[BSD Daemon]"
+
+#. type: Title ==
+#: content/en/copyright/_index.adoc:18
+#, no-wrap
+msgid "https://cgit.FreeBSD.org/ports/plain/LEGAL[FreeBSD Ports redistribution restrictions]"
+msgstr "https://cgit.FreeBSD.org/ports/plain/LEGAL[FreeBSD Ports再分配限制]"
+
+#. type: Title ==
+#: content/en/copyright/_index.adoc:20
+#, no-wrap
+msgid "link:COPYING[GNU GENERAL PUBLIC LICENSE]"
+msgstr "link:COPY[GNU GENERAL PUBLIC LICENSE]"
+
+#. type: Title ==
+#: content/en/copyright/_index.adoc:22
+#, no-wrap
+msgid "link:COPYING.LIB[GNU LIBRARY GENERAL PUBLIC LICENSE]"
+msgstr "link:COPYing.LIB[GNU LIBRARY GENERAL PUBLIC LICENSE]"
+
+#. type: Title ==
+#: content/en/copyright/_index.adoc:24
+#, no-wrap
+msgid "link:../privacy[FreeBSD's Privacy Policy]"
+msgstr "link:./privacy[FreeBSD的隐私政策]"

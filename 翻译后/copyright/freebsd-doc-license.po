@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:15+0800\n"
+"PO-Revision-Date: 2022-04-14 21:18+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/copyright/freebsd-doc-license.adoc:1
+#: content/en/copyright/freebsd-doc-license.adoc:6
+#, no-wrap
+msgid "The FreeBSD Documentation License"
+msgstr "FreeBSD文档许可证"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:9
+msgid "Copyright 1994-2022 The FreeBSD Project. All rights reserved."
+msgstr "Copyright 1994-2022 The FreeBSD Project. 保留所有权利。"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:11
+msgid ""
+"Redistribution and use in source (AsciiDoc) and 'compiled' forms (HTML, PDF, "
+"EPUB and so forth) with or without modification, are permitted provided that "
+"the following conditions are met:"
+msgstr ""
+"在满足以下条件的情况下，允许以源代码（AsciiDoc）和 \"编译 \"形式（HTML、PDF、"
+"EPUB等）重新发布和使用，无论是否修改。"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:13
+msgid ""
+"Redistributions of source code (AsciiDoc) must retain the above copyright "
+"notice, this list of conditions and the following disclaimer as the first "
+"lines of this file unmodified."
+msgstr ""
+"源代码（AsciiDoc）的再分发必须保留上述版权声明、本条件清单和以下免责声明，作"
+"为该文件的第一行，未作修改。"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:14
+msgid ""
+"Redistributions in compiled form (Converted to PDF, EPUB and other formats) "
+"must reproduce the above copyright notice, this list of conditions and the "
+"following disclaimer in the documentation and/or other materials provided "
+"with the distribution."
+msgstr ""
+"以编译形式的再发行（转换为PDF、EPUB和其他格式）必须在随发行物提供的文件和/或"
+"其他材料中复制上述版权声明、本条件清单和以下免责声明。"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:16
+msgid ""
+"THIS DOCUMENTATION IS PROVIDED BY THE FREEBSD DOCUMENTATION PROJECT \"AS IS"
+"\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE "
+"IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE "
+"ARE DISCLAIMED. IN NO EVENT SHALL THE FREEBSD DOCUMENTATION PROJECT BE "
+"LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR "
+"CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF "
+"SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS "
+"INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN "
+"CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) "
+"ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF "
+"THE POSSIBILITY OF SUCH DAMAGE."
+msgstr ""
+"本文档由Freebsd文档项目 \"按原样 \"提供，任何明示或暗示的保证，包括但不限于对"
+"适销性和特定用途的适用性的暗示保证，均不予承认。在任何情况下，Freebsd文档项目"
+"都不对任何直接的、间接的、偶然的、特殊的、惩戒性的或后果性的损害（包括但不限"
+"于采购替代商品或服务；使用、数据或利润的损失；或业务中断）负责，无论其原因是"
+"合同、严格责任、还是侵权行为（包括疏忽或其他），只要是在使用本文档的过程中引"
+"起的，即使被告知可能发生这种损害。"
+
+#. type: Title ==
+#: content/en/copyright/freebsd-doc-license.adoc:17
+#, no-wrap
+msgid "Manual Pages"
+msgstr "手册页数"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:20
+msgid ""
+"Some FreeBSD manual pages contain text from the _IEEE Std 1003.1, 2004 "
+"Edition, Standard for Information Technology -- Portable Operating System "
+"Interface (POSIX(R)) specification_. These manual pages are subject to the "
+"following terms:"
+msgstr ""
+"某些 FreeBSD 手册页面包含来自 _IEEE Std 1003.1, 2004 Edition, 信息技术标准 "
+"-- 便携式操作系统接口 (POSIX(R)) 规范_ 的文本。这些手册页面受以下条款的约束。"
+
+#. type: delimited block _ 4
+#: content/en/copyright/freebsd-doc-license.adoc:23
+msgid ""
+"The Institute of Electrical and Electronics Engineers and The Open Group, "
+"have given us permission to reprint portions of their documentation."
+msgstr "电气和电子工程师协会和开放集团，已经允许我们转载他们的部分文件。"
+
+#. type: delimited block _ 4
+#: content/en/copyright/freebsd-doc-license.adoc:25
+msgid ""
+"In the following statement, the phrase \"this text\" refers to portions of "
+"the system documentation."
+msgstr "在以下声明中，\"本文本 \"指的是系统文件的部分内容。"
+
+#. type: delimited block _ 4
+#: content/en/copyright/freebsd-doc-license.adoc:27
+msgid ""
+"Portions of this text are reprinted and reproduced in electronic form in the "
+"FreeBSD manual pages, from IEEE Std 1003.1, 2004 Edition, Standard for "
+"Information Technology -- Portable Operating System Interface (POSIX), The "
+"Open Group Base Specifications Issue 6, Copyright(C) 2001-2004 by the "
+"Institute of Electrical and Electronics Engineers, Inc and The Open Group. "
+"In the event of any discrepancy between these versions and the original IEEE "
+"and The Open Group Standard, the original IEEE and The Open Group Standard "
+"is the referee document. The original Standard can be obtained online at "
+"https://www.opengroup.org/membership/forums/platform/unix."
+msgstr ""
+"这段文字的部分内容以电子形式转载于 FreeBSD 手册页面， 来自 IEEE Std 1003.1, "
+"2004 Edition, 信息技术标准 -- 便携式操作系统接口 (POSIX), The Open Group "
+"Base Specifications Issue 6, Copyright(C) 2001-2004 by the Institute of "
+"Electrical and Electronics Engineers, Inc and The Open Group. 如果这些版本与"
+"IEEE和开放集团的原始标准之间有任何差异，则以IEEE和开放集团的原始标准为参考文"
+"件。原始标准可以在网上获得：https://www.opengroup.org/membership/forums/"
+"platform/unix。"
+
+#. type: delimited block _ 4
+#: content/en/copyright/freebsd-doc-license.adoc:29
+msgid "This notice shall appear on any product containing this material."
+msgstr "本通知应出现在任何含有这种材料的产品上。"
+
+#. type: Plain text
+#: content/en/copyright/freebsd-doc-license.adoc:31
+msgid "link:..[Legal Home]"
+msgstr "链接：...[法律之家]"

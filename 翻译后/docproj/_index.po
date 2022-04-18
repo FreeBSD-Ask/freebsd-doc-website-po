@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The FreeBSD Project
+# This file is distributed under the same license as the FreeBSD Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeBSD Documentation VERSION\n"
+"POT-Creation-Date: 2022-03-22 19:19+0800\n"
+"PO-Revision-Date: 2022-04-14 22:34+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Title =
+#: content/en/docproj/_index.adoc:1 content/en/docproj/_index.adoc:6
+#, no-wrap
+msgid "FreeBSD Documentation Project"
+msgstr "FreeBSD文档项目"
+
+#. type: Title ==
+#: content/en/docproj/_index.adoc:8
+#, no-wrap
+msgid "Overview"
+msgstr "概述"
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:11
+msgid ""
+"Getting to grips with a new and complex operating system is always a "
+"difficult task, no matter how pretty the GUI is. FreeBSD is no different in "
+"this respect."
+msgstr ""
+"掌握一个新的、复杂的操作系统总是一项艰巨的任务，无论GUI多么漂亮。在这方面，"
+"FreeBSD也不例外。"
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:13
+msgid ""
+"While there are a vast number of BSD Unix (and general UNIX(R)) books "
+"available, FreeBSD has its own unique features, procedures and quirks."
+msgstr ""
+"虽然有大量的BSD Unix(和一般UNIX(R))书籍，但FreeBSD有其独特的功能、程序和怪"
+"癖。"
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:15
+msgid ""
+"In addition, FreeBSD will be the first exposure to a Unix-like operating "
+"system for some of its users, so the availability of high quality, accurate "
+"documentation is paramount."
+msgstr ""
+"此外， FreeBSD 将是一些用户第一次接触到类似 Unix 的操作系统， 因此提供高质"
+"量、准确的文档是最重要的。"
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:17
+msgid ""
+"The FreeBSD Documentation Project exists to help fill this gap. There are "
+"two ways in which this is undertaken:"
+msgstr ""
+"FreeBSD 文档项目的存在就是为了帮助填补这一空白。有两种方式来进行这项工作。"
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:19
+msgid ""
+"Members of the Documentation Project write documentation and submit it for "
+"inclusion in the _FreeBSD Documentation Set_."
+msgstr "文档项目的成员编写文档并提交给_FreeBSD文档集。"
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:21
+msgid ""
+"Members of the Documentation Project discuss and arrange the formatting and "
+"organization of the _FreeBSD Documentation Set_."
+msgstr "文档项目的成员讨论和安排_FreeBSD文档集的格式和组织。"
+
+#. type: Table
+#: content/en/docproj/_index.adoc:26
+#, no-wrap
+msgid "a|\n"
+msgstr "a|\n"
+
+#. type: Title ===
+#: content/en/docproj/_index.adoc:27
+#, no-wrap
+msgid "Current projects"
+msgstr "目前的项目"
+
+#. type: Table
+#: content/en/docproj/_index.adoc:30
+msgid ""
+"There are a number of projects currently _in progress_ as part of the "
+"documentation effort. Please take the time to look over https://wiki.freebsd."
+"org/Doc/IdeaList[the current list of projects] and see if there is anything "
+"*you* can help with."
+msgstr ""
+"作为文档工作的一部分，目前有许多项目_正在进行中。请花时间看一下https://wiki."
+"freebsd.org/Doc/IdeaList[当前的项目列表]，看看是否有什么*你*能帮助的。"
+
+#. type: Title ==
+#: content/en/docproj/_index.adoc:32
+#, no-wrap
+msgid "link:who[Who we are, how to join]"
+msgstr "link:who[我们是谁，如何加入]"
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:35
+msgid ""
+"This page explains who makes up the Documentation Project, and how you can "
+"join."
+msgstr "本页解释了谁构成了文件项目，以及你如何加入。"
+
+#. type: Title ==
+#: content/en/docproj/_index.adoc:36
+#, no-wrap
+msgid "link:doc-set[The FreeBSD Documentation Set]"
+msgstr "link:doc-set[FreeBSD文档集]"
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:39
+msgid ""
+"This page outlines the components of the FreeBSD Documentation Set, and the "
+"sort of work that the Documentation Project does with them."
+msgstr "这一页概述了FreeBSD文档集的组成部分，以及文档项目对它们所做的工作。"
+
+#. type: Title ==
+#: content/en/docproj/_index.adoc:40
+#, no-wrap
+msgid "link:submitting[Submitting Documentation]"
+msgstr "链接：提交[提交文件]"
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:43
+msgid ""
+"Submitting documentation is the best way to become a part of the project, "
+"and help make FreeBSD easier to use. This page explains the best way to "
+"submit documentation so that it gets looked at as soon as possible."
+msgstr ""
+"提交文档是成为项目一部分的最好方式， 并帮助使FreeBSD更容易使用。这个页面解释"
+"了提交文档的最佳方式，以便使其尽快得到关注。"
+
+#. type: Title ==
+#: content/en/docproj/_index.adoc:44
+#, no-wrap
+msgid "link:translations[Translation]"
+msgstr "link:translations[翻译]"
+
+#. type: Plain text
+#: content/en/docproj/_index.adoc:46
+msgid ""
+"Translations of the FreeBSD documentation, Web pages, Handbook, Manual pages "
+"and FAQ."
+msgstr "翻译 FreeBSD 文档、网页、手册、手册页面和 FAQ。"
